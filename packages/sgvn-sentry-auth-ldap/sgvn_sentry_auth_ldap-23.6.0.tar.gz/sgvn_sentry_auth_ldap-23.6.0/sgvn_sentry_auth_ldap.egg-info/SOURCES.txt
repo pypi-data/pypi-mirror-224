@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+sgvn_sentry_auth_ldap/backend.py
+sgvn_sentry_auth_ldap.egg-info/PKG-INFO
+sgvn_sentry_auth_ldap.egg-info/SOURCES.txt
+sgvn_sentry_auth_ldap.egg-info/dependency_links.txt
+sgvn_sentry_auth_ldap.egg-info/not-zip-safe
+sgvn_sentry_auth_ldap.egg-info/requires.txt
+sgvn_sentry_auth_ldap.egg-info/top_level.txt
