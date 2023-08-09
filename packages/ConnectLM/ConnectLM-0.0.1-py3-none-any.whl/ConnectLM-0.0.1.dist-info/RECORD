@@ -1,0 +1,11 @@
+connectlm/__init__.py,sha256=R8PFKMJLrwPLCKVk-bNQoo_PYyy1ePnquQN2ZB7O71I,193
+connectlm/common.py,sha256=aUOCunyKCDrb2KM4ybcRMLtPLNQWukn9-dHGLGcAECY,434
+connectlm/error.py,sha256=zmtyAxf6NdOeBDcVJ-_IGGMUkhQge6LeVG88rTCrWI8,603
+connectlm/query_chat.py,sha256=J5plxe-PuBT4fOxq4iHsvRheDhtbJfNgqy9fabgaEFg,1290
+connectlm/services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+connectlm/services/openai_adaptor.py,sha256=epOHNHbEuzaVM3afXb-8OlNSLTh96rDPJRA-YPCNSWY,1319
+connectlm/services/tgi_adaptor.py,sha256=E1huIruJNnma80gukTfWv98s8P6M_IRtdtLKH04Bq0g,2534
+ConnectLM-0.0.1.dist-info/METADATA,sha256=94sMZwotmOnL5OB2hWy7AdJ1uU7uqUORZUL4t99eb3c,2414
+ConnectLM-0.0.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+ConnectLM-0.0.1.dist-info/top_level.txt,sha256=MYCR3QNlizGg1zuvciq9E-nxbVZu852thuzpNiKEERY,10
+ConnectLM-0.0.1.dist-info/RECORD,,
