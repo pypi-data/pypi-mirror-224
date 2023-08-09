@@ -1,0 +1,11 @@
+simple_mapillary/Client.py,sha256=txmbTJa0A2B_1W2xbfQU3LySeI2VSV7mz6GQ75zAEnY,626
+simple_mapillary/Image.py,sha256=wqqkFZx9pJGY96SY76prhSEJRjTF5d2ht7dcCgP8nVM,408
+simple_mapillary/ImageAPI.py,sha256=ijgbia_VyiLxul4HPUPQXR5-d1Yytb7Wp_xSH2v8vn4,269
+simple_mapillary/ImageData.py,sha256=ya-Y4g8q5XplKu4lB_HWHAfAV5BOziUH6wqFbSNqYpw,4572
+simple_mapillary/__init__.py,sha256=FYOzeUR8p9bQ6DWSTJe5v3Luy-OyGDcew4nS5HfZnD8,558
+simple_mapillary/__token__.py,sha256=oMioZT92De22I6WgeosBGL6U66sPnSBO1ZtDQUDxrOo,63
+simple_mapillary/api_utils.py,sha256=1oTETNte0HptdIHeQiyj7oFGlW3BeZfhG0HVCrEb2qA,44
+simple_mapillary-0.0.1.dist-info/METADATA,sha256=_L00CGzYFN7ErpoefAz-vdxTu0vZyIQ9FeV0Ro85pik,1847
+simple_mapillary-0.0.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+simple_mapillary-0.0.1.dist-info/top_level.txt,sha256=62_GTNfsQwNe7qoOcMcxpXK8P7nEV5x5qtDGr_5I5HI,17
+simple_mapillary-0.0.1.dist-info/RECORD,,
