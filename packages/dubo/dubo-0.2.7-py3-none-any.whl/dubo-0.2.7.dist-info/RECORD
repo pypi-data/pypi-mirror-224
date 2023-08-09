@@ -1,0 +1,9 @@
+dubo/__init__.py,sha256=guwF7PBRyjPpLFnnEsUbgmYD6f0g0BCZebDDjdVLobo,251
+dubo/__version__.py,sha256=R_Kx6seHry48RbKcViwPdTrTjLhQPADT8fPBtIrcjhw,119
+dubo/ask_dubo.py,sha256=bZPiVDWqII_ZX9G1GzQSgen0w0BmbiDj7Aanl6hN6oY,11106
+dubo/config.py,sha256=Hvt8uHG8eF4X6rBlM1coAMRyyDQtrL8CitL9nrKlCX4,739
+dubo/entities.py,sha256=5sq1cr5--bcocPuUwmQLFj2TC5dR55CwN-7BBZL4qp8,375
+dubo-0.2.7.dist-info/LICENSE,sha256=Gfr-sQXO-7sffTeApdJogwoESeZXdD1rzyXEaxYHeqI,1092
+dubo-0.2.7.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+dubo-0.2.7.dist-info/METADATA,sha256=ERzQ1wpOriEz_Ox-OPiy2Rb8Tzqz_LLI7nXXCghphuk,860
+dubo-0.2.7.dist-info/RECORD,,
