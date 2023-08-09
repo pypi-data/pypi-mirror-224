@@ -1,0 +1,12 @@
+CFSession/__init__.py,sha256=fMRIUd2amnW6l9KAL7gk4-qFC7gN-shxD5LGytERh2w,515
+CFSession/cf.py,sha256=LW2NfbGIIjM241EzXqOvvG8WDCSNiEVzJlnRdyxwPhE,9457
+CFSession/cfbrowser.py,sha256=QqJ7t-vfyB3zgC0x0RvpP016N_Z3-9dIZytX2lV0Avk,13325
+CFSession/cfcookie.py,sha256=G2mGjmThhNcKzpS4UmZI7RQjqQ9TSulyOkaUKicggNQ,802
+CFSession/cfdefaults.py,sha256=Z-O1DASZqXMHPfWR1ZoTbsntLQUsG80PDQbRDo_A7ds,1958
+CFSession/cfdirmodel.py,sha256=4kWk6NelWBphsDP4GpW-YskRjRC4ZFvS5RZxBZI7F4w,1338
+CFSession/cfexception.py,sha256=beH1nHmY-P9FXV2yVRdcLM6NhQc0wNxVRPsmJjq9qd4,2944
+CFSession-1.2.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+CFSession-1.2.0.dist-info/METADATA,sha256=YEgwePPnDeEoSarpjSX9RdTxJ2xcR6rGfTFu80gbd0U,5901
+CFSession-1.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+CFSession-1.2.0.dist-info/top_level.txt,sha256=TvCkhowL3nxuqD0QCZRniyUYJQmnobzaLsGyvQqTI6U,10
+CFSession-1.2.0.dist-info/RECORD,,
