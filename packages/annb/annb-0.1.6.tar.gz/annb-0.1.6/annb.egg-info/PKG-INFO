@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: annb
+Version: 0.1.6
+Summary: A simple ANN benchmark tools
+Home-page: https://github.com/matrixji/annb
+Author: Ji Bin
+Author-email: matrixji@live.com
+License: Apache-2.0
+Keywords: ANN benchmark,Test tools
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ANNB: Approximate Nearest Neighbor Benchmark
+
+Note: This is a work in progress. The API/CLI is not stable yet.
+
+## Installation
+
+```bash
+pip install annb
+```
+
+## Usage
+
+### CLI Usage
+
+#### Run Benchmark
+
+```bash
+annb-test --help
+```
+
+#### Check Benchmark Results
+
+```bash
+annb-report --help
+```
