@@ -1,0 +1,9 @@
+name: test
+version: 9.9.2
+author: root
+description: template algo project
+plant: gangqu
+module: DO
+package_id: 105ff0841f454966b981c35282e13d82
+tag: ac
+message: init
