@@ -1,0 +1,12 @@
+idlemypyextension/__init__.py,sha256=cXuYtYzGxZk2Oo2ndAxp2hKXUb7IJSmMZy8V6Fgco88,33781
+idlemypyextension/annotate.py,sha256=Q6BoTL9n8tcY7d6efanPfMhf_OrlyuY3fMZbDZuVw8w,26640
+idlemypyextension/ast_annotate.py,sha256=HTp6hD0F-GbftxzrKVo2VUM60czo-Sm8E5bC0MzBMkE,18750
+idlemypyextension/client.py,sha256=OkfB-S6-BIe2iGRxG6ba_ckH-194us_bxxeDxVBQxqA,14684
+idlemypyextension/moduleguard.py,sha256=jTMJ6NFVSwPT_e25LiRLeXvrJ3IqovnAxRdddLm05_A,3721
+idlemypyextension/tktrio.py,sha256=vDICIjD-W9FMpD8gv5eNdevVTncXePG4uXGDy4l0Pic,14452
+idlemypyextension-0.2.0.dist-info/LICENSE,sha256=2T9cKoMqRu9mduvRhPJW2oF-NS-WjmFAvlcQkl2pU9I,11340
+idlemypyextension-0.2.0.dist-info/METADATA,sha256=lpRcthm1aiXoWZWoy59lKIdWA7j20pJoHmN266CCXHc,17169
+idlemypyextension-0.2.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+idlemypyextension-0.2.0.dist-info/entry_points.txt,sha256=yQt-cmVqQglaxCBLaXLoaFkEtE_GkQbtyCyUIs166go,72
+idlemypyextension-0.2.0.dist-info/top_level.txt,sha256=qLZjypdz7FDRvpn-3B7dCQ2n0KtcTb-uFUBFdDfF620,18
+idlemypyextension-0.2.0.dist-info/RECORD,,
