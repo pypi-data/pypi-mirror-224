@@ -1,0 +1,6 @@
+grpcio
+grpcio-tools
+pyang
+pyangbind
+PyYAML
+retry
