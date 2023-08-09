@@ -1,0 +1,9 @@
+README.md
+setup.py
+myipmac/__init__.py
+myipmac/fetcher.py
+myipmacpackage.egg-info/PKG-INFO
+myipmacpackage.egg-info/SOURCES.txt
+myipmacpackage.egg-info/dependency_links.txt
+myipmacpackage.egg-info/requires.txt
+myipmacpackage.egg-info/top_level.txt
