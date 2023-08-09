@@ -1,0 +1,2 @@
+cubicweb<3.39,>=3.38.0
+cubicweb-addressbook
