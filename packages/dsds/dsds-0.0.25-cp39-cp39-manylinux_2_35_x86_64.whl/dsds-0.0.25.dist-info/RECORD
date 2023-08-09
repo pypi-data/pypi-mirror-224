@@ -1,0 +1,17 @@
+dsds-0.0.25.dist-info/METADATA,sha256=p4BcwZnI29vo3zUCHtpEcwhBnaMXW8C5yJU3Ms81zq0,8505
+dsds-0.0.25.dist-info/WHEEL,sha256=7WD3IIg2zJ1hkYGGQnkY-i6fp1H8OeJqs9rmJWba164,106
+dsds-0.0.25.dist-info/license_files/LICENSE,sha256=WPtW7iMgvVuC59RmgzZ3LPnRO5fTt3j2iCSoteBHD4g,1059
+dsds/transform.py,sha256=1eCLHzpZYRenzVBu-CbKc_4MqThxC2V39PlAG6J5E7M,35523
+dsds/blueprint.py,sha256=SP6yGoOLflcYWWM2U2d-YurZ3El6qNyKTg2zSOHLoso,15099
+dsds/text.py,sha256=v8bSsWq1mfKGF2zbwVdiYlIcejo6i0bC9wf6UDt01K0,14077
+dsds/encoders.py,sha256=llxO-OMWEeTU9wJBRX6JAxRClvscJCYeOQ4toDIYebw,26143
+dsds/utils.py,sha256=QU4250XLukRAMTSjj2oLy5YQjxT0lN6PzJU8dZzQ76g,13639
+dsds/__init__.py,sha256=uJi9Gy1C_jdnh_CIjxrvnMJQD8zcp9cBnk685Xb0MJM,81
+dsds/prescreen.py,sha256=zloSgyvoFzZRl-4JFz6AdyxgXBF8KloVbfkg_QQHNf8,41634
+dsds/type_alias.py,sha256=5Q2yngWBsjc5lqhuac_NJN_bR15oumqVTepAjlhJbSQ,3713
+dsds/compare.py,sha256=qpY3BbzVDIWkOaUp09QxuKFzpCWWxpwi46kZbaYCBOE,201
+dsds/sample.py,sha256=b56Eb-NONcw9u58wRnJWo2EkHuDpr4aTO7RklE4DHos,30338
+dsds/metrics.py,sha256=UlGXPkoaefZUUv6QVFgW9RdyBG_seo7dXY2ifroDXAU,18562
+dsds/fs.py,sha256=J-7Dw1bbyTSlYW-1CU__FqvQVpdj4ca0afxaUwO6OFE,36542
+dsds/_rust.cpython-39-x86_64-linux-gnu.so,sha256=3Y762ZBB8uGCY7g0vGhuFZr9r9195tBA9qk9rf7u3N8,23964856
+dsds-0.0.25.dist-info/RECORD,,
