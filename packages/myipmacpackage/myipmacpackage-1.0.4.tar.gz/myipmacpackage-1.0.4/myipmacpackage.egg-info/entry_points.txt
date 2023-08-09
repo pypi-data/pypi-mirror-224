@@ -1,0 +1,3 @@
+[console_scripts]
+myipmac-fetcher = myipmac.fetcher:main
+
