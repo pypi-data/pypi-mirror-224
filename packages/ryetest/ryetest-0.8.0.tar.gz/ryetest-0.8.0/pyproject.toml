@@ -1,0 +1,39 @@
+[project]
+name = "ryetest"
+version = "0.8.0"
+description = "Add a short description here"
+authors = [{ name = "lijc210", email = "lijc210@163.com" }]
+dependencies = ["requests~=2.31.0", "flask~=2.3.2", "click~=8.1.6"]
+readme = "README.md"
+requires-python = ">= 3.9"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[project.scripts]
+ryetest = "ryetest.cli:main"
+
+[tool.coverage.paths]
+source = ["src", "*/site-packages"]
+
+[tool.rye.scripts]
+serve = { cmd = "python main.py" }
+lint = { chain = [
+    "lint:black",
+    "lint:black",
+    "lint:isort",
+    "lint:pyright",
+    "lint:pyupgrade",
+] }
+"lint:ruff" = "ruff api tests --fix"
+"lint:black" = "black api tests"
+"lint:isort" = "isort api tests"
+"lint:pyright" = "pyright api tests"
+"lint:pyupgrade" = "pyupgrade `find . -path .venv -name '*.py' -type f`"
