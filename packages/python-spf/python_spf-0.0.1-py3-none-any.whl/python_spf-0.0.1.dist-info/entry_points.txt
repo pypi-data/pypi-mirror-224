@@ -1,0 +1,3 @@
+[console_scripts]
+spf = spf.spf:main
+

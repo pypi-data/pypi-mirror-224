@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: python-spf
+Version: 0.0.1
+Summary: A superglued static site framework
+Home-page: https://github.com/0xleft/spf
+Author: plusleft
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: flask
+Requires-Dist: waitress
+
+UNKNOWN
+
+
