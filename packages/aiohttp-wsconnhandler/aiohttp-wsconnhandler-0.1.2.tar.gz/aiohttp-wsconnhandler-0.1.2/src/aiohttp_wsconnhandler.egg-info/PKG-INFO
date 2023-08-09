@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: aiohttp-wsconnhandler
+Version: 0.1.2
+Summary: A class that provides receive and send queues when handling WebSocket communication with aiohttp.
+Author-email: darkhaniop <darkhaniop@google.com>
+Project-URL: Homepage, https://github.com/gw-tools/aiohttp-wsconnhandler
+Project-URL: Bug Tracker, https://github.com/gw-tools/aiohttp-wsconnhandler/issues
+Keywords: aiohttp,websocket
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: aiohttp
+Requires-Python: <4,>=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# aiohttp-wsconnhandler
+
+The package implements the `WSConnectionHandler` class that provides receive and send queues when handling WebSocket communication with aiohttp.
+
+## Work-in-Progress
+
+The repository contains a module extracted from my other project and was refactored as a separate package.
+
+Currently, the plan is to rewrite it as a "general purpose" module that could be used in other WebSocket client and server apps.
+
+## Usage Examples
+
+### WebSocket Client
+
+```
+from aiohttp_wsconnhandler import WSConnectionHandler
+
+...
+```
+
+### WebSocket Server
+
+```
+from aiohttp_wsconnhandler import WSConnectionHandler
+
+...
+```
