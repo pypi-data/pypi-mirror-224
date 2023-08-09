@@ -1,0 +1,9 @@
+tabulate
+faker
+numpy
+num2words
+
+[test]
+pytest
+coverage
+pytest-cov
