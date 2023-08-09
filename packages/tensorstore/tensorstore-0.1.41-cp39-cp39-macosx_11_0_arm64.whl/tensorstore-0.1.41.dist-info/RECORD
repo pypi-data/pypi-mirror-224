@@ -1,0 +1,8 @@
+tensorstore-0.1.41.dist-info/RECORD,,
+tensorstore-0.1.41.dist-info/LICENSE,sha256=3tF6QvvME9HvnMKbHGS-zNSurEF5puaUpiJfSUpIetY,15673
+tensorstore-0.1.41.dist-info/AUTHORS,sha256=1gtA22CUyenQ1leaw8bBH8TdcLP1UrcMPEAyr_IAV-I,303
+tensorstore-0.1.41.dist-info/WHEEL,sha256=d8sjrkKo8h1ZY8Oxdq-K-58JEo6nLEfNKzkM0CYZtr0,108
+tensorstore-0.1.41.dist-info/top_level.txt,sha256=kzkybe54TTNq_1bQCcFipfA75PFM3RVR4FzW6OOcviM,37
+tensorstore-0.1.41.dist-info/METADATA,sha256=ZrTTj12dNblOKiZJo1n-4Iu_GrkbzHjicEP8Rr9n_Vo,2913
+tensorstore/_tensorstore.cpython-39-darwin.so,sha256=6y-06kMrM62lNQv5z_wiBhO0tDm1WcbdZX9qyh42hUQ,37026732
+tensorstore/__init__.py,sha256=JIR3-ij67JiaXLouDMyvPOTqW2ejGmIWu2U_tUGL76c,6133
