@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "allin1"
+version = "0.0.5"
+description = "All-In-One Metrical and Functional Music Structure Analysis"
+readme = "README.md"
+dependencies = [
+  "numpy",
+  "librosa",
+  "natten; platform_system == 'Darwin'",
+  "demucs",
+  "hydra-core",
+  "omegaconf",
+  "huggingface_hub",
+]
+
+[project.scripts]
+allin1 = "allin1.cli:main"
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+#  "/.github",
+#  "/docs",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/allin1"]
