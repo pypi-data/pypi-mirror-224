@@ -1,0 +1,4 @@
+**/__pycache__/
+v_quantum_cloud.egg-info/
+build/
+dist/
