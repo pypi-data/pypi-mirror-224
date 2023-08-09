@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ryetest
+Version: 0.8.0
+Summary: Add a short description here
+Author-email: lijc210 <lijc210@163.com>
+Requires-Python: >=3.9
+Requires-Dist: click~=8.1.6
+Requires-Dist: flask~=2.3.2
+Requires-Dist: requests~=2.31.0
+Description-Content-Type: text/markdown
+
+# ryetest
+
+Describe your project here.

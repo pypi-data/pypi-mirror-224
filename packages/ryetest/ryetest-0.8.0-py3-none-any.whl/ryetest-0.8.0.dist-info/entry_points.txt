@@ -1,0 +1,2 @@
+[console_scripts]
+ryetest = ryetest.cli:main
