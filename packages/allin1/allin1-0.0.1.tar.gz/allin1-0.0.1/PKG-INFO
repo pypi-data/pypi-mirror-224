@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: allin1
+Version: 0.0.1
+License-File: LICENSE
+Requires-Dist: demucs
+Requires-Dist: huggingface-hub
+Requires-Dist: hydra-core
+Requires-Dist: librosa
+Requires-Dist: madmom
+Requires-Dist: natten
+Requires-Dist: numpy
+Requires-Dist: omegaconf
