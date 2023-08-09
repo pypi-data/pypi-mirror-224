@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: dinnovation
+Version: 0.1.28
+Summary: Digital Industry Innovation Data Platform Big data collection and processing, database loading, distribution
+Author: cmblir
+Author-email: sodlalwl13@gmail.com
+Platform: any
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Classifier: Topic :: Scientific/Engineering :: Interface Engine/Protocol Translator
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: pandas ==1.5.3
+Requires-Dist: numpy ==1.24.2
+Requires-Dist: tqdm ==4.64.1
+Requires-Dist: OpenDartReader ==0.2.1
+Requires-Dist: beautifulsoup4 ==4.11.2
+Requires-Dist: urllib3 ==1.26.14
+Requires-Dist: selenium ==4.8.2
+Requires-Dist: webdriver-manager ==3.8.5
+Requires-Dist: chromedriver-autoinstaller ==0.4.0
+Requires-Dist: psycopg2 ==2.9.5
+Requires-Dist: sqlalchemy ==2.0.4
+
