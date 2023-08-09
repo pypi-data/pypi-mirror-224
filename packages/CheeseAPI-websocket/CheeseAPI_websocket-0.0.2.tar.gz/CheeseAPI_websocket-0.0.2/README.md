@@ -1,0 +1,70 @@
+# **CheeseAPI_websocket**
+
+## **介绍**
+
+一款基于CheeseAPI的升级版websocket，它能够解决在多worker下websocket的通讯问题，前提是需要引入redis。
+
+## **安装**
+
+```bash
+pip install CheeseAPI_websocket
+```
+
+你需要在CheeseAPI中导入该模块：
+
+```python
+app.modules = [ 'CheeseAPI_websocket' ]
+```
+
+## **使用**
+
+```python
+from CheeseAPI import app
+from CheeseAPI_websocket import websocket
+
+app.modules = [ 'CheeseAPI_websocket' ]
+
+websocket.init() # 初始化
+
+# 开启一个websocket接口
+@app.route.websocket('/myWebsocket')
+async def a():
+    ...
+
+@app.route.get('/test')
+async def b():
+    await websocket.async_send('你好', '/myWebsocket') # 在协程环境下广播信息
+    ...
+
+...
+
+websocket.send('你好', '/myWebsocket') # 在非协程环境下广播信息
+```
+
+## **API**
+
+### **`websocket`**
+
+```python
+from CheeseAPI_websocket import websocket
+```
+
+- **`websocket.init(host: CheeseType.network.IPv4 = '127.0.0.1', port: CheeseType.network.Port = 6379, db: CheeseType.NonNegativeInt = 0, password: str | None = None, username: str | None = None)`**
+
+    初始化连接redis。
+
+- **`websocket.send(message: any, path: str, sid: str | list[str] | None = None)`**
+
+    非协程环境下发送消息。`sid`为`None`时为广播，`sid`为`str`或`list[str]`时为指定客户端发送。如果该消息未有对应的接收方，则不会做出任何响应。
+
+- **`await websocket.async_send(self, message: any, path: str, sid: str | list[str] | None = None)`**
+
+    在协程环境下发送消息，与`websocket.send`相同。
+
+- **`websocket.close(path: str, sid: str | list[str] | None = None)`**
+
+    非协程环境下关闭客户端。`sid`为`None`时关闭该路径的所有的客户端连接，`sid`为`str`或`list[str]`时关闭该路径下指定的客户端连接。如果未有对应的客户端连接，则不做出任何响应。
+
+- **`await websocket.close(path: str, sid: str | list[str] | None = None)`**
+
+    协程环境下关闭客户端。与`websocket.close`相同。
