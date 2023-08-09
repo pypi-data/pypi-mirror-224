@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+paralelogramoedu/__init__.py
+paralelogramoedu/paralelogramoedu.py
+paralelogramoedu.egg-info/PKG-INFO
+paralelogramoedu.egg-info/SOURCES.txt
+paralelogramoedu.egg-info/dependency_links.txt
+paralelogramoedu.egg-info/top_level.txt

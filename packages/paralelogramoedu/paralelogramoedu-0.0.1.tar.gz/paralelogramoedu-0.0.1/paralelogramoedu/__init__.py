@@ -1,0 +1,1 @@
+from paralelogramoedu import calculaPara
