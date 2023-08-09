@@ -1,0 +1,6 @@
+LICENSE
+setup.py
+pacoteeduardo.egg-info/PKG-INFO
+pacoteeduardo.egg-info/SOURCES.txt
+pacoteeduardo.egg-info/dependency_links.txt
+pacoteeduardo.egg-info/top_level.txt
