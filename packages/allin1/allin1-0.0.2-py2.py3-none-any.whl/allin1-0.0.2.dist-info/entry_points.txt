@@ -1,0 +1,2 @@
+[console_scripts]
+allinone = allinone.cli:main
