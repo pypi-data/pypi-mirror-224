@@ -1,0 +1,9 @@
+README.md
+setup.py
+Lucifer/__init__.py
+Lucifer/execute_remote.py
+rmrentryutils.egg-info/PKG-INFO
+rmrentryutils.egg-info/SOURCES.txt
+rmrentryutils.egg-info/dependency_links.txt
+rmrentryutils.egg-info/requires.txt
+rmrentryutils.egg-info/top_level.txt
