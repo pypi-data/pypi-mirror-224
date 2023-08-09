@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: Rot13Bruteforce
+Version: 1.0.1
+Summary: Python pip makes it easy to run rot13_bruteforce
+Home-page: https://github.com/Gaeduck-0908/Rot13Bruteforce
+Author: Gaeduck
+Author-email: gms8757@naver.com
+License: MIT
+Keywords: Python,rot13,bruteforce
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3
+License-File: LICENSE
