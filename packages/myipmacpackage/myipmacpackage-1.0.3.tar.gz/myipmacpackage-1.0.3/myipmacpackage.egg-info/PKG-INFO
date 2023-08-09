@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: myipmacpackage
+Version: 1.0.3
+Summary: Fetch and store IP and MAC addresses in a database
+Home-page: UNKNOWN
+Author: Muneer
+Author-email: Muneer.moosa@electrifex.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+UNKNOWN
+
