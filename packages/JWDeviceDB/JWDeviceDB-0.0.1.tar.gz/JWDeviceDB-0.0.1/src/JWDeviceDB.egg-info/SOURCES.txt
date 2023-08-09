@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/JWDeviceDB/JWDeviceDB.py
+src/JWDeviceDB/__init__.py
+src/JWDeviceDB.egg-info/PKG-INFO
+src/JWDeviceDB.egg-info/SOURCES.txt
+src/JWDeviceDB.egg-info/dependency_links.txt
+src/JWDeviceDB.egg-info/top_level.txt
