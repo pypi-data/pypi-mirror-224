@@ -1,0 +1,2 @@
+[OVITO.Modifier]
+Atomistic Reverse Monte Carlo = AtomisticReverseMonteCarlo:AtomisticReverseMonteCarlo

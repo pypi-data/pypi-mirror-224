@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: AtomisticReverseMonteCarlo
+Version: 0.0.1
+Summary: OVITO Python modifier to generate bulk crystal structures with target Warren-Cowley parameters.
+Author-email: Killian Sheriff <ksheriff@mit.edu>
+Maintainer-email: Killian Sheriff <ksheriff@mit.edu>
+License: MIT License
+Project-URL: repository, https://github.com/killiansheriff/AtomisticReverseMonteCarlo
+Keywords: ovito,python-modifier
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: ovito >=3.9.1
+Requires-Dist: numpy >=1.22
+
