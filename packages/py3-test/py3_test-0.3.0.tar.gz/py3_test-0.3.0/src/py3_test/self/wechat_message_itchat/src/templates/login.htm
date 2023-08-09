@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<!-- saved from url=(0018)https://wx.qq.com/ -->
+<html lang="zh_CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style type="text/css">@charset "UTF-8";
+    [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak, .ng-hide {
+        display: none !important;
+    }
+
+    ng\:form {
+        display: block;
+    }
+
+    .ng-animate-block-transitions {
+        transition: 0s all !important;
+        -webkit-transition: 0s all !important;
+    }
+
+    .ng-hide-add-active, .ng-hide-remove {
+        display: block !important;
+    }</style>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>微信网页版</title>
+    <meta name="keywords" content="微信网页版,weixin web,wechat,微信 pc,微信电脑版,wechat web,微信 web,微信电脑">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="/statics/js/aq_common.js"></script>
+    <style type="text/css" abt="234"></style>
+    <script type="text/javascript">if (window.top !== window.self) {
+        top.location = self.location;
+    }</script>
+    <link rel="shortcut icon" type="image/x-icon" href="/statics/img/favicon.ico">
+    <link rel="mask-icon" href="https://res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+    <link rel="apple-touch-icon-precomposed" href="https://res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+    <!--style-->
+    <!--style-->
+    <!--[if lt IE 9]>
+      <script src="//res.wx.qq.com/a/wx_fed/webwx/res/es5-shim_es5-sham_html5shiv.min.js"></script>
+    <![endif]-->
+    <!--[if lte IE 8]>
+    <script type="text/javascript" src="//res.wx.qq.com/a/wx_fed/webwx/res/json3.min.js"></script>
+
+    <![endif]-->
+    <link rel="stylesheet" href="/statics/css/c8dda94a1c135ba17e5706ebc4aab1bf.css">
+    <script>//remove 17173 video ad
+
+
+    </script>
+    <style type="text/css">object, embed {
+        -webkit-animation-duration: .001s;
+        -webkit-animation-name: playerInserted;
+        -ms-animation-duration: .001s;
+        -ms-animation-name: playerInserted;
+        -o-animation-duration: .001s;
+        -o-animation-name: playerInserted;
+        animation-duration: .001s;
+        animation-name: playerInserted;
+    }
+
+    @-webkit-keyframes playerInserted {
+        from {
+            opacity: 0.99;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    @-ms-keyframes playerInserted {
+        from {
+            opacity: 0.99;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    @-o-keyframes playerInserted {
+        from {
+            opacity: 0.99;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    @keyframes playerInserted {
+        from {
+            opacity: 0.99;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    .button {
+        color: #666;
+        background-color: #EEE;
+        border-color: #EEE;
+        font-weight: 300;
+        font-size: 16px;
+        font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        text-decoration: none;
+        text-align: center;
+        line-height: 40px;
+        height: 40px;
+        padding: 0 40px;
+        margin: 0;
+        display: inline-block;
+        appearance: none;
+        cursor: pointer;
+        border: none;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: .3s;
+        transition-duration: .3s;
+    }
+
+    .button-tiny {
+        font-size: 9.6px;
+        height: 24px;
+        line-height: 24px;
+        padding: 0 24px;
+    }
+
+    .button-rounded {
+        border-radius: 4px;
+    }
+
+    </style>
+</head>
+<body draggable="false" mm-action-track="" track-type="resize" ng-controller="appController"
+      ng-class="{loaded:isLoaded,unlogin:isUnLogin}" ng-click="appClick($event)"
+      class="ng-scope ng-isolate-scope unlogin">
+<canvas style="position:absolute;top:0;left:0;bottom:0;right:0;z-index:-1;width:100%;height:100%;"
+        id="heroCanvas"></canvas>
+
+<!--[if lt IE 8]>
+    <p class="browsehappy">
+      你正在使用一个<strong>过时</strong>的浏览器。请<a class="link" href="http://browsehappy.com" target="_blank">升级你的浏览器</a>以查看微信网页版。</p>
+    </p>
+    <![endif]-->
+
+<!--BEGIN login-->
+<!-- ngIf: true -->
+<div class="login ng-scope" ng-controller="loginController" ng-if="true">
+
+    <!--BEGIN logo-->
+    <div class="logo">
+        <i class="web_wechat_login_logo"></i>
+    </div>
+    <!--END logo-->
+    <!--BEGIN login_box-->
+    <div class="login_box">
+        <div class="qrcode" ng-class="">
+            <img class="img" mm-error="" ng-class=""
+                 mm-src="https://login.weixin.qq.com/qrcode/wcYAH5YgNA==" mm-src-load="qrcodeLoad" mm-src-parallel=""
+                 mm-src-timeout="10" mm-src-retry-count="2" src="/statics/img/QR.png">
+            <div ng-show="!isNeedRefresh" class="">
+                <p class="sub_title">使用手机微信扫码登录</p>
+                <!-- ngIf: showPrivacyTips -->
+                {#                <!-- ngIf: !showPrivacyTips --><p class="sub_desc ng-scope" ng-if="!showPrivacyTips">
+                网页版微信需要配合手机使用</p>#}
+                <!-- end ngIf: !showPrivacyTips -->
+                <p class="sub_desc ng-scope" ng-if="!showPrivacyTips">扫描之后点击登录</p>
+                <a href="/wechat" class="button button-rounded button-tiny sub_title">登录</a>
+            </div>
+            {#
+            <div ng-show="isNeedRefresh" class="ng-hide">#}
+                {#
+                <div class="refresh_qrcode_mask">#}
+                    {# <i class="icon-refresh" ng-class="{rotateLoading: isRotateLoading}"
+                          ng-click="refreshQrcode()"></i>#}
+                    {#
+                </div>
+                #}
+                {# <p class="refresh_tips">二维码失效，点击刷新</p>#}
+                {#
+            </div>
+            #}
+            {#
+        </div>
+        #}
+        {#
+        <div class="avatar" ng-class="{show: !isAssociationLogin &amp;&amp; !isBrokenNetwork &amp;&amp; isScan}">#}
+            {# <img class="img" mm-src="" alt="" src="//res.wx.qq.com/a/wx_fed/webwx/res/static/img/2KriyDK.png">#}
+            {#            <!-- <h4 class="sub_title">扫描成功</h4> -->#}
+            {#            <!-- <p class="tips">请在手机上点击确认以登录</p> -->#}
+            {# <a href="javascript:;" ng-click="isScan = false;" class="action">切换帐号</a>#}
+            {#            <!-- ngIf: showPrivacyTips -->#}
+            {#
+        </div>
+        #}
+        {#
+        <div class="association" ng-class="{show: isAssociationLogin &amp;&amp; !isBrokenNetwork}">#}
+            {# <img class="img" mm-src="" alt="" src="//res.wx.qq.com/a/wx_fed/webwx/res/static/img/2KriyDK.png">#}
+            {# <p ng-show="isWaitingAsConfirm" class="waiting_confirm ng-hide">请在手机点击确认登录</p>#}
+            {# <a href="javascript:;" ng-show="!isWaitingAsConfirm" ng-click="associationLogin()" #}
+                  {# class="button button_primary">登录</a>#}
+            {# <a href="javascript:;" ng-click="qrcodeLogin()" class="button button_default">切换帐号</a>#}
+            {#            <!-- ngIf: showPrivacyTips -->#}
+            {#
+        </div>
+        #}
+        {#
+        <div class="broken_network" ng-class="{show: isBrokenNetwork}">#}
+            {#
+            <div class="icon-broken-logo"></div>
+            #}
+            {# <h4 class="sub_title">网络连接已断开</h4>#}
+            {# <p class="sub_desc">请检查你的网络设置 <span ng-click="reloadQrcode()" class="reconnect"
+                                                   ng-class="{show: isClientVersion}">点击重连</span></p>#}
+            {#
+        </div>
+        #}
+        {#
+    </div>
+    #}
+    <!--END login_box-->
+    <!--BEGIN lang-->
+    {#
+    <div class="lang">#}
+        {#        <!-- ngIf: isMacOS --><a ng-if="isMacOS" #}
+                                           {#
+                                           href="http://weixin.qq.com/cgi-bin/readtemplate?t=mac&amp;platform=wx&amp;lang=zh_CN"
+                                           #}
+                                           {# target="_blank" class="ng-scope">微信Mac版</a><!-- end ngIf: isMacOS -->#}
+        {#        <!-- ngIf: isMacOS --><span ng-if="isMacOS" class="sep ng-scope"></span><!-- end ngIf: isMacOS -->#}
+        {#        <!-- ngIf: isIPad -->#}
+        {#        <!-- ngIf: isIPad -->#}
+        {#        <!-- ngIf: isWindows -->#}
+        {#        <!-- ngIf: isWindows -->#}
+        {# <a class="lang-item" href="https://wx.qq.com/?lang=zh_CN">中文</a>#}
+        {# <span class="sep"></span>#}
+        {# <a class="lang-item" href="https://wx.qq.com/?lang=zh_TW">繁体</a>#}
+        {# <span class="sep"></span>#}
+        {# <a class="lang-item" href="https://wx.qq.com/?lang=en_US">English</a>#}
+        {#
+    </div>
+    #}
+
+
+</div>
+</div>
+</div>
+
+{#
+<script>#
+}
+{
+    #    setInterval(function () {
+        #
+    }
+    {
+        #        var
+        httpRequest = new XMLHttpRequest();//第一步：建立所需的对象#}
+        {
+            #        httpRequest.open('GET', '/check_login', true);//第二步：打开连接  将请求参数写在url中  ps:"./Ptest.php?name=test&nameone=testone"#}
+            {
+                #        httpRequest.send();//第三步：发送请求  将请求参数写在URL中#}
+                {
+                    #
+                    /**#}
+                     {#         * 获取数据后的处理程序#}
+                     {#         */#
+                }
+                {
+                    #        httpRequest.onreadystatechange = function () {
+                        #
+                    }
+                    {
+                        #            if(httpRequest.readyState == 4 && httpRequest.status == 200)
+                        {
+                            #
+                        }
+                        {
+                            #                var
+                            json = httpRequest.responseText;//获取到json字符串，还需解析#}
+                            {
+                                #                console.log(json);
+                                #
+                            }
+                            {
+                                #                console.log(json.status)
+                                #
+                            }
+                            {
+                                #window.location.href = "http://www.baidu.com";
+                                #
+                            }
+                            {
+                                #
+                            }
+                            #
+                        }
+                        {
+                            #
+                        }
+                        ;#
+                    }
+                    {
+                        #
+                        #
+                    }
+                    {
+                        #
+                    }
+                ,
+                    2000
+                )
+    ;#
+}
+{
+    #
+    #
+}
+{
+    #</script>
+#}
+
+</body>
+</html>

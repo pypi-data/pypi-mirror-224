@@ -1,0 +1,19 @@
+FROM python:3.8-alpine
+
+# --virtual .build-deps
+RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories && \
+    apk add --no-cache --virtual .build-deps gcc g++ zlib-dev make postgresql-dev jpeg-dev krb5-dev && \
+    rm -rf /var/cache/apk/*
+
+WORKDIR /guoquan-apocalypse-app
+COPY ./requirements.txt /guoquan-apocalypse-app/requirements.txt
+RUN pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/ && \
+    pip install --no-cache-dir psycopg2-binary==2.9.5 && pip install --no-cache-dir -r requirements.txt
+# 让镜像更小
+RUN apk del .build-deps
+# 代码放在镜像内
+# COPY . /guoquan-apocalypse-app
+# 代码放在镜像外
+VOLUME ["/guoquan-apocalypse-app"]
+
+CMD [ "python", "-u", "main.py" ]

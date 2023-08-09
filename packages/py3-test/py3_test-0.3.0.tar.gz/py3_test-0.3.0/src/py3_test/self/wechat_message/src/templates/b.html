@@ -1,0 +1,16 @@
+<style>
+    .red {
+        color: red;
+    }
+</style>
+<p>I am child</p>
+<div id="cont"></div>
+<script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script>
+    parent.postMessage("来自子页面的消息", "http://127.0.0.1:8000/a.html")
+
+    alert($("#aaa", parent.document).html())
+    var html = '<div>html</div><script>alert(1);<\/script>';
+    $('.copyright').html(html);
+
+</script>

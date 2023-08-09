@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>hive脚本执行控制台</title>
+    <script src="/static/js/jquery-2.1.4.min.js"></script>
+</head>
+<style>
+    .message {
+        height: 500px;
+        width: 600px;
+        list-style-type: none;
+        overflow: auto;
+    }
+
+    a {
+        text-decoration: none
+    }
+
+    ul li {
+        float: right;
+        list-style: none;
+    }
+
+</style>
+<body>
+<ul id="nav">
+    <li><a href="/history" target="_blank">历史记录&nbsp;&nbsp;</a></li>
+    <li><a href="http://{{ host_ip }}:19998" target="_blank">查看日志&nbsp;&nbsp;</a></li>
+    <li><a href="/logout">退出&nbsp;&nbsp;</a></li>
+    <li>{{ username }}&nbsp;&nbsp;</li>
+</ul>
+
+<form action="" id="form">
+    <input id="input1" type="text" placeholder="暂不支持页面上杀进程，谨慎执行" size="60px" list="path"/>
+    <datalist id="path">
+        {% for path in path_list %}
+        <option>{{ path }}</option>
+        {% end %}
+    </datalist>
+    <input id="execute" type="button" value="执行"/>
+    <input id="update" type="button" value="升级"/>
+</form>
+
+<div class="message">
+</div>
+
+
+<script type="text/javascript">
+
+    $("#input1").change(function () {
+        var cmd = document.getElementById("input1").value;
+        $.post("/", {cmd: cmd}, function (result) {
+            $('#path').html(result)
+        });
+    });
+
+
+    $("#execute").click(function (e) {
+        var cmd = document.getElementById("input1").value;
+        $(".message").html("执行中...");
+        $.post("/execute", {cmd: cmd}, function (result) {
+            $(".message").html("");
+            $(".message").html(result.message);
+        });
+    });
+
+    $("#update").click(function (e) {
+        var cmd = document.getElementById("input1").value;
+        $(".message").html("执行中...");
+        $.get("/execute", {cmd: cmd}, function (result) {
+            $(".message").html("");
+            $(".message").html(result.message);
+        });
+    });
+
+</script>
+</body>
+</html>

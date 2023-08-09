@@ -1,0 +1,46 @@
+from datetime import datetime, timedelta
+
+
+def day_ops(days=0, outfmt="%Y-%m-%d %H:%M:%S"):
+    """
+    当前时间加减天
+    :param days:
+    :param outfmt:
+    :return:
+    """
+    return (datetime.now() + timedelta(days=days)).strftime(outfmt)
+
+
+def get_day_range(dt1=None, dt2=None, infmt="%Y-%m-%d %H:%M:%S", outfmt="%Y-%m-%d"):
+    """
+    获取获取两个日期之间的所有日期
+    :return:
+    """
+    dt1 = datetime.strptime(dt1, infmt)
+    dt2 = datetime.strptime(dt2, infmt)
+    delta = dt2 - dt1
+    date_range = []
+    for i in range(delta.days + 1):
+        dt = (dt1 + timedelta(i)).strftime(outfmt)
+        date_range.append(dt)
+    return date_range
+
+
+start_time = "20160101"
+end_time = day_ops(days=365 * 2, outfmt="%Y%m%d")
+
+date_range1 = get_day_range(
+    dt1=start_time, dt2=end_time, infmt="%Y%m%d", outfmt="%Y%m%d"
+)
+date_range2 = get_day_range(
+    dt1=start_time, dt2=end_time, infmt="%Y%m%d", outfmt="%Y-%m-%d"
+)
+
+# #以直接指定字段名以及字段类型的方式创建非分区表my_new_table。
+# table = o.create_table('dim_middle_dates', 'day1 STRING, day2 STRING', if_not_exists=True)
+
+# 向非分区表my_new_table中插入数据。
+records = list(zip(date_range1, date_range2, strict=True))
+print(records)
+# table.truncate()
+# o.write_table(table, records)

@@ -1,0 +1,179 @@
+
+@local =  http://127.0.0.1:15601
+@dev = https://hwdev-xuanjiapi.zzgqsh.com
+@dev-admin = http://hwdev-adminapi.gqshintra.com:8000/api/xuanji-business
+
+@test = https://test-xuanjiapi.zzgqsh.com
+@test-admin = http://test-adminapi.gqshintra.com:8000/api/xuanji-business
+
+@prod = https://xuanjiapi.zzgqsh.com
+
+
+### POST
+POST {{local}}/api/v1/offline/coupon/detail_day_new
+content-type: application/json
+token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VySWQiOiIzMWRjMmQ0Mi1jNTdiLTRhYzctOTMxYy00Y2ExY2RhYWE5NjYiLCJzdWIiOiJzdW5sYW4iLCJpc3MiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImlhdCI6MTYxMTIxNjYzOCwiYXVkIjoicmVzdGFwaXVzZXIiLCJleHAiOjQ3NjQ4MTY2MzgsIm5iZiI6MTYxMTIxNjYzOH0.OEQuCIiARdNZ7t9QTzyZ5mKZqt-fpUKuQvowPUzLLLI
+authorization: Bearer_eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJsaWppY29uZyIsInN1YiI6Imxpamljb25nIiwiaWF0IjoxNjUxMTI5MDgzLCJ1c2VySWQiOjI1NCwibmFtZSI6Imxpamljb25nIiwicmVhbE5hbWUiOiLmnY7nu6fogaoiLCJwaG9uZSI6IjE5OTAxNzE4MTUxIiwicm9sZXMiOls5NiwyODJdLCJtZW51UGF0aHMiOltdLCJleHAiOjE2NTExNTkwODN9.fFgWNCxxqFsTuRlXtN_6Q_wqQQbXaXOaOJyM573aTGk
+
+{
+    "cols":[
+
+    ],
+    "filters":[
+        {
+            "name":"coupon_code",
+            "filterType":"IN",
+            "filterValue":[
+                "GQYHQ20220216lijianqiang23"
+            ]
+        }
+
+    ],
+    "limit":10,
+    "offset":0,
+    "sort":"use_time",
+    "order":"desc"
+}
+
+### POST
+POST {{local}}/api/v1/offline/coupon/district_month_new
+content-type: application/json
+authorization: Bearer_eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJsaWppY29uZyIsInN1YiI6Imxpamljb25nIiwiaWF0IjoxNjUxMDQ5NDg0LCJ1c2VySWQiOjI1NCwibmFtZSI6Imxpamljb25nIiwicmVhbE5hbWUiOiLmnY7nu6fogaoiLCJwaG9uZSI6IjE5OTAxNzE4MTUxIiwicm9sZXMiOls5NiwyODJdLCJtZW51UGF0aHMiOltdLCJleHAiOjE2NTEwNzk0ODR9.vPHQefRsnrkZ3jqhxbPsYbpOcYHfF-HMIDTDcGacwls
+
+{
+    "cols":[
+
+    ],
+    "filters":[
+        {
+            "name":"coupon_code",
+            "filterType":"IN",
+            "filterValue":[
+                "GQYHQ20210121sundinglei",
+                "GQYHQ20210121sundinglei"
+            ]
+        }
+    ],
+    "limit":10,
+    "offset":0
+}
+
+
+
+### POST
+POST {{local}}/api/v1/offline/coupon/shop_month_new
+content-type: application/json
+token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VySWQiOiIzMWRjMmQ0Mi1jNTdiLTRhYzctOTMxYy00Y2ExY2RhYWE5NjYiLCJzdWIiOiJzdW5sYW4iLCJpc3MiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImlhdCI6MTYxMTIxNjYzOCwiYXVkIjoicmVzdGFwaXVzZXIiLCJleHAiOjQ3NjQ4MTY2MzgsIm5iZiI6MTYxMTIxNjYzOH0.OEQuCIiARdNZ7t9QTzyZ5mKZqt-fpUKuQvowPUzLLLI
+authorization: Bearer_eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJsaWppY29uZyIsInN1YiI6Imxpamljb25nIiwiaWF0IjoxNjUxMDQ5NDg0LCJ1c2VySWQiOjI1NCwibmFtZSI6Imxpamljb25nIiwicmVhbE5hbWUiOiLmnY7nu6fogaoiLCJwaG9uZSI6IjE5OTAxNzE4MTUxIiwicm9sZXMiOls5NiwyODJdLCJtZW51UGF0aHMiOltdLCJleHAiOjE2NTEwNzk0ODR9.vPHQefRsnrkZ3jqhxbPsYbpOcYHfF-HMIDTDcGacwls
+
+{
+    "cols":[
+        "coupon_code",
+        "shop_name",
+        "shop_id",
+        "use_time",
+        "discount_amount",
+        "hq_apportion_amount",
+        "shop_apportion_amount",
+        "use_number",
+        "province_id",
+        "province",
+        "city_id",
+        "city"
+    ],
+    "filters":[
+        {
+            "name":"shop_id",
+            "filterType":"IN",
+            "filterValue":[
+                12625
+            ]
+        }
+    ],
+    "limit":10,
+    "offset":0,
+    "sort":"use_number",
+    "order":"desc"
+}
+
+
+### POST
+POST {{local}}/api/v1/offline/coupon/use_information
+content-type: application/json
+token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VySWQiOiIzMWRjMmQ0Mi1jNTdiLTRhYzctOTMxYy00Y2ExY2RhYWE5NjYiLCJzdWIiOiJzdW5sYW4iLCJpc3MiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImlhdCI6MTYxMTIxNjYzOCwiYXVkIjoicmVzdGFwaXVzZXIiLCJleHAiOjQ3NjQ4MTY2MzgsIm5iZiI6MTYxMTIxNjYzOH0.OEQuCIiARdNZ7t9QTzyZ5mKZqt-fpUKuQvowPUzLLLI
+
+{
+    "cols":[
+
+    ],
+    "filters":[
+        {
+            "name":"coupon_batch_code",
+            "filterType":"EQ",
+            "filterValue":[
+                "161958978540378534694"
+            ]
+        }
+    ],
+    "limit":10,
+    "offset":0,
+    "sort":"coupon_create_time",
+    "order":"desc"
+}
+
+
+
+### POST
+POST {{local}}/api/v1/offline/coupon/get_use_detail
+content-type: application/json
+token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VySWQiOiIzMWRjMmQ0Mi1jNTdiLTRhYzctOTMxYy00Y2ExY2RhYWE5NjYiLCJzdWIiOiJzdW5sYW4iLCJpc3MiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImlhdCI6MTYxMTIxNjYzOCwiYXVkIjoicmVzdGFwaXVzZXIiLCJleHAiOjQ3NjQ4MTY2MzgsIm5iZiI6MTYxMTIxNjYzOH0.OEQuCIiARdNZ7t9QTzyZ5mKZqt-fpUKuQvowPUzLLLI
+authorization: Bearer_eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJsaWppY29uZyIsInN1YiI6Imxpamljb25nIiwiaWF0IjoxNjUxMDQ5NDg0LCJ1c2VySWQiOjI1NCwibmFtZSI6Imxpamljb25nIiwicmVhbE5hbWUiOiLmnY7nu6fogaoiLCJwaG9uZSI6IjE5OTAxNzE4MTUxIiwicm9sZXMiOls5NiwyODJdLCJtZW51UGF0aHMiOltdLCJleHAiOjE2NTEwNzk0ODR9.vPHQefRsnrkZ3jqhxbPsYbpOcYHfF-HMIDTDcGacwls
+
+{"cols":[],"filters":[],"limit":10,"offset":0}
+
+
+
+### POST
+POST {{dev}}/api/v1/offline/coupon/use_scan
+content-type: application/json
+token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VySWQiOiIzMWRjMmQ0Mi1jNTdiLTRhYzctOTMxYy00Y2ExY2RhYWE5NjYiLCJzdWIiOiJzdW5sYW4iLCJpc3MiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImlhdCI6MTYxMTIxNjYzOCwiYXVkIjoicmVzdGFwaXVzZXIiLCJleHAiOjQ3NjQ4MTY2MzgsIm5iZiI6MTYxMTIxNjYzOH0.OEQuCIiARdNZ7t9QTzyZ5mKZqt-fpUKuQvowPUzLLLI
+
+{
+    "cols":[
+
+    ],
+    "filters":[
+
+    ],
+    "limit":10,
+    "offset":0
+}
+
+
+
+### POST
+POST {{local}}/api/v1/offline/coupon/get_use_detail/export
+content-type: application/json
+token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VySWQiOiIzYzJhOGFiMy0xY2JmLTQxMmMtYWFmNS0xOGJkY2JjZTg1M2UiLCJzdWIiOiJ5YW56aGl4dWUiLCJpc3MiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImlhdCI6MTYxMTgzMTcwNSwiYXVkIjoicmVzdGFwaXVzZXIiLCJleHAiOjQ3NjU0MzE3MDUsIm5iZiI6MTYxMTgzMTcwNX0.fLaYGcl7rw_bD-RPDvj_PHBEaIPm-H_5dQcOadnvaLM
+
+{
+  "cols": [],
+  "filters": [
+    {
+      "name": "sdate",
+      "filterType": "GE",
+      "filterValue": [
+        "2021-05-01"
+      ]
+    },
+    {
+      "name": "sdate",
+      "filterType": "LE",
+      "filterValue": [
+        "2021-06-01"
+      ]
+    }
+  ],
+  "limit": 10,
+  "offset": 0
+}
