@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: mfio
+Version: 1.0.0
+Summary: 自己使用的文件读写检索匹配工具
+Home-page: 
+Author: yunhgu
+Author-email: 1508777473@qq.com
+License: MIT
+Requires-Python: >=3.7
