@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+argai/__init__.py
+argai/base.py
+argai/func.py
+argai/storage.py
+argai/utils.py
+argai.egg-info/PKG-INFO
+argai.egg-info/SOURCES.txt
+argai.egg-info/dependency_links.txt
+argai.egg-info/requires.txt
+argai.egg-info/top_level.txt
