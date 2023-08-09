@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aiohttp-wsconnhandler"
+version = "0.1.1"
+authors = [
+  { name="darkhaniop", email="darkhaniop@google.com" },
+]
+description = "A class that provides receive and send queues when handling WebSocket communication with aiohttp."
+readme = "README.md"
+requires-python = ">=3.7, <4"
+classifiers = [
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Framework :: aiohttp",
+]
+
+dependencies = [
+  "aiohttp",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/gw-tools/aiohttp-wsconnhandler"
+"Bug Tracker" = "https://github.com/gw-tools/aiohttp-wsconnhandler/issues"
