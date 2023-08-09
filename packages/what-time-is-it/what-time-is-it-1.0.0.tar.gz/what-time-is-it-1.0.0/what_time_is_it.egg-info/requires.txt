@@ -1,0 +1,5 @@
+pytest>=4
+pytest-cov>=2
+
+[extra]
+tabulate
