@@ -1,0 +1,10 @@
+michaelPanThematicLib/__init__.py,sha256=6rhdPeCIuxPUnvfR00LTrXU9De9U_1pA7s9QgyG6GaA,41
+michaelPanThematicLib/draw_thematic_map_pillow.py,sha256=jH2N-Fhk61PuR3GUzFPScSFnGBPNEsyUWqRB6YYKtjE,21257
+michaelPanThematicLib/test_thematic.py,sha256=_v7dhHGEJj_oaSnOQNVfvKyE81p4ouWOOyRPyrpwh3w,991
+michaelPanThematicLib/static/Helvetica-Neue-2.ttf,sha256=A8nm2uOBU25MIhs_Xj8lDzAqdQ0ZiNYMZfBRDEHSNmM,269112
+michaelPanThematicLib/static/global_-180_180.png,sha256=C9UB4_myuAEP9TFWgggbmT_4ofovAUDrI3ig-lYpTbY,616736
+michaelPanThematicLib-1.0.1.dist-info/LICENSE,sha256=P4WM_zB_kQJXyzwYYn6PQEQ9sbibwTRNwnplBpM4Qtk,35162
+michaelPanThematicLib-1.0.1.dist-info/METADATA,sha256=ticXOKCkpJlGNTpicPyUjFs-2q6p7DtifzORX4pBDPk,1508
+michaelPanThematicLib-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+michaelPanThematicLib-1.0.1.dist-info/top_level.txt,sha256=dqPaIUkPbvNkfMAFZNi-JbU8QU6RRJ1CEOSkt9sIOOE,22
+michaelPanThematicLib-1.0.1.dist-info/RECORD,,
