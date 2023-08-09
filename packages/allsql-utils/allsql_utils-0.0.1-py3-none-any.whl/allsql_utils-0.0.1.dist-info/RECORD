@@ -1,0 +1,13 @@
+sql_utils/__init__.py,sha256=60aenGRhBr445ospynnGIBU6kcGKFQovUgdCPbVxg78,419
+sql_utils/mdb_operation.py,sha256=7pLN7-ckwCwkMhm_L4tqzjSsfS2G77BDOfKVtNVnVHc,1340
+sql_utils/mysql_operation.py,sha256=KvB_A06WcBGcBkDngeCdpOUtI_go-qmVL4hdUn9WyLM,12977
+sql_utils/postgressql_operation.py,sha256=RxYYtUwVqaPjS4Sp-pJ-CM4Vk1z1BQPPWaO73jEtfTs,2518
+sql_utils/pymssql_operation.py,sha256=MkdW3qH00npEjaAI_E9hRpn4GvQuqwEnFK2VJHW2tWE,5421
+sql_utils/pyodbc_operation.py,sha256=lE071W1q8_PSQ6IZV51LKJyzk5x-j4SYnGc8rfJ-zzg,4103
+sql_utils/sqlite_operation.py,sha256=cUXNyhHgBYZ9gVEScRrrbUXUnAWja_6KieoplhiprPM,6500
+sql_utils/tinydb_operation.py,sha256=E-4LyJ4Bh9bTagNDZhKd28C0UHBxe7WTLsQ4fsmsHx0,405
+allsql_utils-0.0.1.dist-info/LICENSE,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+allsql_utils-0.0.1.dist-info/METADATA,sha256=xvsOxwzkKo0jYEKBFwHT5J_0CwDIvOrYnyKS6UIxCRc,830
+allsql_utils-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+allsql_utils-0.0.1.dist-info/top_level.txt,sha256=dhk4f23GmfJAxZkDBa_R7iMp-JONLrWROyhVdiXg5VM,10
+allsql_utils-0.0.1.dist-info/RECORD,,
