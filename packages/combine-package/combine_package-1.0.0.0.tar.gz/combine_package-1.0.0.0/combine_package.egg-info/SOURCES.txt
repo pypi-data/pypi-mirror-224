@@ -1,0 +1,11 @@
+setup.py
+combine_package.egg-info/PKG-INFO
+combine_package.egg-info/SOURCES.txt
+combine_package.egg-info/dependency_links.txt
+combine_package.egg-info/top_level.txt
+dyc_package/main.py
+dyc_package/person.py
+dyc_package/test.py
+yuan_cheng_package/person.py
+yuan_cheng_package/test.py
+yuan_cheng_package/yuancheng.py
