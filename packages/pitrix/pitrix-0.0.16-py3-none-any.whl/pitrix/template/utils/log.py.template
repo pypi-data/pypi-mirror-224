@@ -1,0 +1,77 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+# @Time    : 2023/08/08 12:46
+# @Author  : Tang Yiwei
+# @Email   : yiweitang@yunify.com
+# @File    : log.py
+# @Software: PyCharm
+
+import datetime
+import os
+
+from loguru import logger as log
+from public.path import project_dir
+
+
+class Log:
+    print_log = True
+
+    __instance = None
+
+    DATE = datetime.datetime.now().strftime("%Y-%m-%d")
+    LOG_FILE = os.path.join(project_dir.LOG_DIR, DATE + ".log")
+
+    def __new__(cls, *args, **kwargs):
+        if not cls.__instance:
+            cls.__instance = super(Log, cls).__new__(cls, *args, **kwargs)
+        return cls.__instance
+
+    def __init__(self, level="INFO"):
+        log.add(
+            self.LOG_FILE,
+            format="<green>{time:YYYY-MM-DD HH:mm:ss}</green> "  # 颜色>时间
+            # "<m>[{process.name}]</m>-"  # 进程名
+            # "<m>[{thread.name}]</m>-"  # 进程名
+            # "<cyan>[{module}</cyan>.<cyan>{function}</cyan>"  # 模块名.方法名
+            # ":<cyan>{line}]</cyan>-"  # 行号
+            "<level>[{level}]</level>: " "<level>{message}</level>",  # 等级  # 日志内容,
+            rotation="10MB",
+            encoding="utf-8",
+            enqueue=True,
+            backtrace=False,
+            retention="10 days",
+            level=level,
+        )
+
+    def info(self, msg, *args, **kwargs):
+        if self.print_log:
+            return log.info(msg, *args, **kwargs)
+
+    def debug(self, msg, *args, **kwargs):
+        if self.print_log:
+            return log.debug(msg, *args, **kwargs)
+
+    def warning(self, msg, *args, **kwargs):
+        if self.print_log:
+            return log.warning(msg, *args, **kwargs)
+
+    def error(self, msg, *args, **kwargs):
+        if self.print_log:
+            return log.error(msg, *args, **kwargs)
+
+    def critical(self, msg, *args, **kwargs):
+        if self.print_log:
+            return log.critical(msg, *args, **kwargs)
+
+    def exception(self, msg, *args, exc_info=True, **kwargs):
+        if self.print_log:
+            return log.exception(msg, *args, exc_info=exc_info, **kwargs)
+
+    def success(self, msg):
+        if self.print_log:
+            return log.success(msg)
+
+
+logger = Log()
+
+__all__ = [logger]

@@ -1,0 +1,106 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+# @Time    : 2023/08/08 12:42
+# @Author  : Tang Yiwei
+# @Email   : yiweitang@yunify.com
+# @File    : sdk_client.py.pitrix
+# @Software: PyCharm
+
+import time
+import ssl;ssl._create_default_https_context = ssl._create_unverified_context
+from qingcloud.iaas.connection import APIConnection
+from utils.log import logger
+
+class SDKClient:
+
+    def __init__(self,ak,sk,zone,host,port,protocol,debug=False):
+        self.ak = ak
+        self.sk = sk
+        self.zone = zone
+        self.protocol = protocol
+        self.debug = debug
+        self.host = host
+        self.port = port
+
+    def send_req(self,action, body):
+        self.client = APIConnection(
+            qy_access_key_id=self.ak,
+            qy_secret_access_key=self.sk,
+            zone=self.zone,
+            host=self.host,
+            port=self.port,
+            protocol=self.protocol,
+            debug=self.debug)
+        rep = self.client.send_request(action, body, url="/iaas/", verb="GET")
+        logger.info(rep)
+        return rep
+
+    def extract_action(self,response: dict):
+        """
+        提取job action name
+        :param response:
+        :return:
+        """
+        if not response:
+            return ''
+        ret_code = response.get('ret_code')
+        if ret_code == 0:
+            action_name: str = response.get('action').replace('Response', '')
+            return action_name
+        else:
+            return ''
+
+    def extract_job(self,response: dict):
+        """
+        提取job id
+        :param response:
+        :return:
+        """
+        if not response:
+            return
+        action_name: str = self.extract_action(response)
+        job_id: str = response.get('job_id')
+        job_ids: list = response.get('job_ids')
+        if job_id:
+            print(f"=== 执行:{action_name},提取的job_id为:{job_id} ===")
+            return job_id
+        if job_ids:
+            print(f"=== 执行:{action_name},提取的job_ids为:{job_ids} ===")
+            return job_ids
+        return
+
+    def describe_job(self,job_id):
+        """
+        查询JOB状态
+        :param job_id:
+        :return:
+        """
+        if isinstance(job_id, str):
+            job_id = [job_id]
+        body = {"action":"DescribeJobs","jobs":job_id}
+        return self.send_req(body['action'], body)
+
+    def wait_job(self, job_ids, timeout=1200, interval=1):
+        """
+        等待任务完成(成功或失败)直到超时
+        :param job_id:job_id
+        :param timeout:最大60s
+        :return:True or False
+        """
+        print(f"=== 开始等待JOB:{job_ids} 执行 ===")
+
+        deadline = time.time() + timeout
+        while time.time() <= deadline:
+            res = self.describe_job(job_ids)['job_set'][0]
+            if not res:
+                continue
+            job_status = res["status"]
+
+            if job_status in ['successful','done with failure','failed']:
+                return job_status
+
+            else:
+                time.sleep(interval)
+
+        print(f"=== 等待JOB:{job_ids} 执行超时 ===")
+        return False
