@@ -1,0 +1,6 @@
+README.md
+setup.py
+Geom3D.egg-info/PKG-INFO
+Geom3D.egg-info/SOURCES.txt
+Geom3D.egg-info/dependency_links.txt
+Geom3D.egg-info/top_level.txt
