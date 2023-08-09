@@ -1,0 +1,10 @@
+uframe/__init__.py,sha256=ub2RZwpBrZInccOPVw6gBni1MeIyUSb4ja_V_foWg88,584
+uframe/uframe.py,sha256=MCN81I8pRK2O1fOQrEcEOacXrHwZCczpCH5QP6OPC4g,51643
+uframe/uframe_from_mice.py,sha256=l0q9XmTeKye9R3cytJsJiZ_1ikQhOHIpwj3B0CVGtFg,6916
+uframe/uframe_instance.py,sha256=TjlUOv61hBs9WHe0t-SqqLkiZnKcEyIEsVigD98GoPc,13114
+uframe/utils.py,sha256=EAgLeB-V4Wbfcw4v-AK3s8iDbRvYFVXUg89bXnv-_Vo,585
+uframe-0.0.13.dist-info/LICENSE,sha256=TIa-1LrXV5tvRYNtiTySdm07ncCWPUKfPDtzgKhcOKQ,1090
+uframe-0.0.13.dist-info/METADATA,sha256=yhXJBJ53crwqjXRxjAt-N9rHuL1J6CjaTYQtqhuWdhg,5502
+uframe-0.0.13.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+uframe-0.0.13.dist-info/top_level.txt,sha256=EVCVoSPfMT2DTPcDBVvRA9XSZ5Dcnel4DaV7OihfnY8,7
+uframe-0.0.13.dist-info/RECORD,,
