@@ -1,0 +1,3 @@
+from typing import List, Union
+
+def unique_list(list_to_check: List[Union[str, int]]): ...
