@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+parale.egg-info/PKG-INFO
+parale.egg-info/SOURCES.txt
+parale.egg-info/dependency_links.txt
+parale.egg-info/top_level.txt
+src/__init__.py
+src/paralelogramo.py
