@@ -1,0 +1,16 @@
+vqcloud/__init__.py,sha256=PICP428rsq6PkN9ys59d884xFjD8W5ijoa7lNvWntgs,181
+vqcloud/_version.py,sha256=_kHxGmPG-s4rpo3XWw_IZtdMaU5IDcVkxDtG3vjJ-ak,23
+vqcloud/abstract_result.py,sha256=x_e17WPqtkmi3Q9ITArMkBlgCbltH1ath4DPOMuWU0k,148
+vqcloud/annealing.py,sha256=TqSHQkj9cfR3kgzUV3MD5E-tXfckyfMubqx1jmX5Gc8,749
+vqcloud/api.py,sha256=J-A1PnUQ1kiJfQtXGNiCrJU_j7ceseBqxuZoK7gNg_4,6883
+vqcloud/data.py,sha256=upvNDNBxn6v2V8kgKSFiwdjtfh-du9CAW_1EvL3nOa8,2293
+vqcloud/datafactory.py,sha256=z6YONiM1OlPvNeIdJ8B5b_fpS74pbOGyWvCcOFlC98E,1256
+vqcloud/device.py,sha256=LZUINnqHHDM4BwoBZc6qQsxFMpUPXJ3YZ8ozR32MfhI,349
+vqcloud/local.py,sha256=xkFb6QcNCOrnG6p0FPhP_VWFK3xTj0QdAoCxsvTlKkM,1616
+vqcloud/task.py,sha256=JrKwyjb_O_-wr640ISQCtXTGaneRkw4DW2cLTpIsMhI,4437
+vqcloud/device_specific/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vqcloud/device_specific/aws_device.py,sha256=o9MaBg-vzCMlxouFGclAAoYtHo1b13neyQoG82al1ek,3492
+v_quantum_cloud-0.0.3.dist-info/METADATA,sha256=vdc7eWsx-gVayaVYhLUXwqqH9k_P92T7OSQ43tQvP-k,840
+v_quantum_cloud-0.0.3.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+v_quantum_cloud-0.0.3.dist-info/top_level.txt,sha256=29mnWBUDVWsx-QtrZKTgcii1tKR-C34UcJHKTFhb4-U,8
+v_quantum_cloud-0.0.3.dist-info/RECORD,,
