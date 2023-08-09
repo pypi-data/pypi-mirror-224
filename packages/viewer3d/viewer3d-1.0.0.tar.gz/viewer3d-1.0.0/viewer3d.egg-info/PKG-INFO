@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: viewer3d
+Version: 1.0.0
+Summary: Display PackedPose objects, Pose objects, or PDB files within a Jupyter notebook and Google Colab.
+Home-page: https://github.com/RosettaCommons/pyrosetta_viewer3d
+Author: Jason C. Klima, Ajasja Ljubetic
+License: MIT
+License-File: LICENSE
