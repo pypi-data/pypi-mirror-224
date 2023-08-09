@@ -1,0 +1,13 @@
+bottle
+optuna>=2.4.0
+packaging
+scikit-learn
+
+[optional]
+streamlit
+boto3
+
+[test]
+coverage
+pytest
+moto[s3]
