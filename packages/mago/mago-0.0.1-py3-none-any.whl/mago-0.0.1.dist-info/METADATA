@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: mago
+Version: 0.0.1
+Summary: Open Source general testing framework
+Author-email: Wookjin Jang <wookjinjang95@gmail.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: django
+
+# MAGO
+This is a open source QA framework project to help QA developers perform performance test in python

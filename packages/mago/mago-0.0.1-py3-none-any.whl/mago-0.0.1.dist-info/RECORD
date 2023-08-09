@@ -1,0 +1,16 @@
+mago/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mago/mago.py,sha256=2pXSqKxQ_xTPi3ZyHAAFw_ZYprJwOeHpSRGlKBnpb7s,2510
+mago/template/clipart1872623.png,sha256=_tmlxabPNmEfA3gxZ0-779OYA3hwj-AKz6sdcIkZdFQ,28272
+mago/template/index.html,sha256=ysNVHFDCQ7W02lP9YI72wU1rb8F3BJWudOH6vf6MXPM,6124
+mago/template/logs.html,sha256=XIP3WFrrReQOUXY2Hkee7HBXyptsbHNRdlJLaNq7iBA,3239
+mago/template/workers.html,sha256=WkX6XWFohvvyodF8LtULKrGKWjrJodo4H--G1rtGOwc,3775
+mago/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mago/utils/collector.py,sha256=IojmlJeqvp804nD73K-XsYh06xN33uSBFrOQ3wEje2E,8818
+mago/utils/report_generator.py,sha256=mQPtvB_glI1MRtFELlyE8I1N4ybtR4w4kqNeAmDht2I,1669
+mago/utils/traffic_manager.py,sha256=Mcwsnx-8Mug6XdZgHACzjUZ2O6hTolt90Yj6zOzi8p0,6403
+mago/utils/worker.py,sha256=KDozkMfVD4HmzcVvGDjd52hVhJ_UB88IONvLfckMwGA,3486
+mago-0.0.1.dist-info/LICENSE,sha256=SQvkG_7cjBCRx7vOnwWgBHHRHJwivccYWm8RcrTR7Js,1069
+mago-0.0.1.dist-info/METADATA,sha256=KfzurQntfZwgMkDWtbAgF0eg4EAbHh9fq5ZB78i48Rc,384
+mago-0.0.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+mago-0.0.1.dist-info/top_level.txt,sha256=G4OVYHgbd8Tm2GLGzbMFRgx4R16SB_mwfu5gvWLVNL8,5
+mago-0.0.1.dist-info/RECORD,,
