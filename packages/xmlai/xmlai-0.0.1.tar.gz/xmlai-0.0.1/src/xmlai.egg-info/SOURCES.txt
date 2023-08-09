@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/xmlai/__init__.py
+src/xmlai/llm.py
+src/xmlai.egg-info/PKG-INFO
+src/xmlai.egg-info/SOURCES.txt
+src/xmlai.egg-info/dependency_links.txt
+src/xmlai.egg-info/top_level.txt
+tests/test_basics.py
+tests/test_llm.py
