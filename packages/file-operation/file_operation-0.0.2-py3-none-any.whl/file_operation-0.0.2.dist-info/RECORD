@@ -1,0 +1,13 @@
+file_operations/__init__.py,sha256=AvV_LubFNCppG66msrYqyHMIpD1rye7yOulEKIwXBtY,333
+file_operations/excel_operation.py,sha256=lB-zL15aXFbfUFgjVeuNuSX4PKDaNKVxc5XfQPfwNLo,26988
+file_operations/file_operation.py,sha256=BFnOF26cLQHh91h-eMuMLCH7FPbUPVQoBnN1FfmUwVo,31952
+file_operations/file_read_operation.py,sha256=GV-Yc2oqgAsIq_bcvT3_F-IVJvWexismbzOsUKle5GY,2131
+file_operations/glob.ipynb,sha256=YPt2W_xFM51wGwZZtPuRiDygWbXVpm0uhm-FuLKvxKU,4069
+file_operations/img_operations.py,sha256=SEPj9B6bT0iKqI_eovqnX0m0i2SmfjJHjm09CXRAElo,932
+file_operations/pdf_operations.py,sha256=s6AaouSOBaBVPIjmV8njTaBDuBPUFpL6ALfSq2qv0jQ,3691
+file_operations/wkhtmltox/templates.html,sha256=C_K9O0uMOliOKlul0u31oNcHHW_izNTJH8rGSl8K9uU,7594
+file_operations/wkhtmltox/wkhtmltopdf.exe,sha256=ZNF2gjIL_9RbIgjtE7E21ZE56CVzdF8UVWzyXpXL2Ag,41563648
+file_operation-0.0.2.dist-info/METADATA,sha256=UyXVwIWhDuhQg4EPdQ5UNFDYDcVjHqbWAnIEo3X0uFs,947
+file_operation-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+file_operation-0.0.2.dist-info/top_level.txt,sha256=3ZKjCCimAx8Q87nHD_CzNRr1xFDRIzE8dDdVW9b7laU,16
+file_operation-0.0.2.dist-info/RECORD,,
