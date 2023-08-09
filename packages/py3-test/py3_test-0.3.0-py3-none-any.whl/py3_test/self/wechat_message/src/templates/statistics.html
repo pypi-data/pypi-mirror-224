@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<!-- CSS goes in the document HEAD or added to your external stylesheet -->
+<style type="text/css">
+    table.gridtable {
+        font-family: verdana, arial, sans-serif;
+        font-size: 11px;
+        color: #333333;
+        border-width: 1px;
+        border-color: #666666;
+        border-collapse: collapse;
+    }
+
+    table.gridtable th {
+        border-width: 1px;
+        padding: 8px;
+        border-style: solid;
+        border-color: #666666;
+        background-color: #dedede;
+    }
+
+    table.gridtable td {
+        border-width: 1px;
+        padding: 8px;
+        border-style: solid;
+        border-color: #666666;
+        background-color: #ffffff;
+    }
+</style>
+<body>
+<div style="width:60%;margin-left: 20%;margin-right: 20%">
+    <!-- Table goes in the document BODY -->
+    <div style="float: left">
+        <h2>发送消息</h2>
+        <table class="gridtable">
+            <tr>
+                <th>昵称(备注)</th>
+                <th>数量</th>
+            </tr>
+            {% for adict in send_list %}
+            <tr>
+                <td>{{ adict.name }}</td>
+                <td>{{ adict.num }}</td>
+            </tr>
+            {% endfor %}
+
+        </table>
+    </div>
+    <!-- Table goes in the document BODY -->
+    <div style="float: left;margin-left: 20px;">
+        <h2>接收消息</h2>
+        <table class="gridtable">
+            <tr>
+                <th>昵称(备注)</th>
+                <th>数量</th>
+            </tr>
+            {% for adict in receive_list %}
+            <tr>
+                <td>{{ adict.name }}</td>
+                <td>{{ adict.num }}</td>
+            </tr>
+            {% endfor %}
+
+        </table>
+    </div>
+</div>
+</body>
+</html>

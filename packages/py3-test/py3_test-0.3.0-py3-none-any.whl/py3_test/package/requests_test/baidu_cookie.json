@@ -1,0 +1,73 @@
+[
+  {
+    "domain": ".baidu.com",
+    "expiry": 2417679607.336481,
+    "httpOnly": false,
+    "name": "uc_login_unique",
+    "path": "/",
+    "secure": false,
+    "value": "7fde121619f311eabaebeae4a92ba112"
+  },
+  {
+    "domain": "fengchao.baidu.com",
+    "expiry": 2184397108,
+    "httpOnly": false,
+    "name": "SAMPLING_OPT_ID",
+    "path": "/",
+    "secure": false,
+    "value": "5380819"
+  },
+  {
+    "domain": ".baidu.com",
+    "expiry": 1585215527.119726,
+    "httpOnly": false,
+    "name": "BAIDUID",
+    "path": "/",
+    "secure": false,
+    "value": "9BC9DB9C256BF34B43A46A78586890C1:FG=1"
+  },
+  {
+    "domain": ".fengchao.baidu.com",
+    "expiry": 2184399527,
+    "httpOnly": false,
+    "name": "__cas__id__3",
+    "path": "/",
+    "secure": false,
+    "value": "5380819"
+  },
+  {
+    "domain": ".fengchao.baidu.com",
+    "expiry": 2184399527,
+    "httpOnly": false,
+    "name": "__cas__rn__",
+    "path": "/",
+    "secure": false,
+    "value": "303689665"
+  },
+  {
+    "domain": ".fengchao.baidu.com",
+    "expiry": 2184399527,
+    "httpOnly": false,
+    "name": "__cas__st__3",
+    "path": "/",
+    "secure": false,
+    "value": "4c3a8880db7041b8bdc821a9857bb7f64800cceb642d313d8b3be4fbee3a48f0bf055808692b40a58b2bcbe7"
+  },
+  {
+    "domain": ".baidu.com",
+    "httpOnly": true,
+    "name": "SIGNIN_UC",
+    "path": "/",
+    "secure": false,
+    "value": "70a2711cf1d3d9b1a82d2f87d633bd8a03036920977"
+  },
+  {
+    "domain": ".baidu.com",
+    "expiry": 2417679607.336504,
+    "httpOnly": false,
+    "name": "uc_recom_mark",
+    "path": "/",
+    "secure": false,
+    "value": "cmVjb21tYXJrXzUzODA4MTk%3D"
+  }
+]

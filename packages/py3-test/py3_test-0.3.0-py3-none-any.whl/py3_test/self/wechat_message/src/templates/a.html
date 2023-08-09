@@ -1,0 +1,12 @@
+<p id="aaa">I am parent!</p>
+<iframe src="http://127.0.0.1:8000/b.html" frameborder="0" id="sub-iframe"></iframe>
+<script>
+    alert("添加成功");
+    window.addEventListener("message", receiveMessage, false);
+
+    function receiveMessage(event) {
+        var origin = event.origin;
+        alert(origin);
+        alert(event.data)
+    }
+</script>

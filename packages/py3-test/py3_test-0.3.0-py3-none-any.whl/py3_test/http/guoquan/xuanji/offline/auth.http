@@ -1,0 +1,15 @@
+
+@local =  http://127.0.0.1:15601
+@dev = https://hwdev-xuanjiapi.zzgqsh.com
+@dev-admin = http://hwdev-adminapi.gqshintra.com:8000/api/xuanji-business
+
+@test = https://test-xuanjiapi.zzgqsh.com
+@test-admin = http://test-adminapi.gqshintra.com:8000/api/xuanji-business
+
+@prod = https://xuanjiapi.zzgqsh.com
+
+
+### POST
+POST {{dev}}/auth
+content-type: application/json
+authorization: Bearer_eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJsaWppY29uZyIsInN1YiI6Imxpamljb25nIiwiaWF0IjoxNjUxMTI5MDgzLCJ1c2VySWQiOjI1NCwibmFtZSI6Imxpamljb25nIiwicmVhbE5hbWUiOiLmnY7nu6fogaoiLCJwaG9uZSI6IjE5OTAxNzE4MTUxIiwicm9sZXMiOls5NiwyODJdLCJtZW51UGF0aHMiOltdLCJleHAiOjE2NTExNTkwODN9.fFgWNCxxqFsTuRlXtN_6Q_wqQQbXaXOaOJyM573aTGk

@@ -1,0 +1,2 @@
+[console_scripts]
+cli = py3_test.cli:main

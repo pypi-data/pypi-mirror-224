@@ -1,0 +1,199 @@
+(select "门店名称" as "门店名称__0", "城市经理" as "城市经理__1", sum("销售应收金额") as "销售应收金额__sum__0", 
+sum("销售应收金额")/sum("当日目标额")
+ as "当日目标达成率__nul__1", max(CONCAT("城市排名",'/',"所在城市营业门店数")) as "城市排名新__max__2", max("城市") as "城市__max__3", max("城市平均") as "城市平均__max__4", sum("当日目标额") as "当日目标额__sum__5", max("初销日期") as "初销日期__max__6", 0 as "__grouping_id" from (
+select  
+        CURDATE() AS `业务日期`
+        ,t2.update_time AS `更新时间`
+        ,t1.store_shop_code  AS `门店编码`
+        ,t1.shop_name AS `门店名称`
+        ,date_format(t1.min_first_saletime,'%Y-%m-%d') AS `初销日期`
+        ,if(
+            t1.province='内蒙'
+            ,'内蒙古'
+            ,replace(
+                replace(
+                    replace(
+                        replace(
+                            replace(replace(coalesce(t1.province,t1.gs_province) ,'维吾尔','') ,'省','')
+                            ,'市'
+                            ,''
+                        )
+                        ,'自治区'
+                        ,''
+                    )
+                    ,'壮族'
+                    ,''
+                )
+                ,'回族'
+                ,''
+            )
+        ) AS `省份`
+        ,replace(t1.city,'市','') AS `城市`
+        ,t1.county AS `区县`
+        ,t1.mf_regional_supervision AS `城市经理`
+        ,coalesce(t2.order_num,0) AS `销售订单数`
+        ,coalesce(t2.receivable_amount,0) AS `销售应收金额`
+        ,coalesce(t2.act_sale_amount,0) AS `销售实收金额`
+          ,t2.return_amount AS `退款金额`
+        ,month_amount AS `当月目标额`
+        ,target_amount AS `当日目标额`
+        ,target_date AS `目标日期`
+        ,target_order_num AS `订单目标数量`
+         ,coalesce(receivable_amount/if(target_amount=0,1,target_amount),0) AS `完成率`
+              ,city_shop_count AS `所在城市营业门店数`
+        ,city_rank AS `城市排名`
+        ,avg_city_sales AS `城市平均`
+        ,city_rank_last AS `上一名门店`
+        ,city_rank_first AS `下一名门店`
+        ,city_rank_max AS `城市最高`
+from dim_jd_erp_shop t1
+left join
+
+(
+select 
+sdate,
+shop_code_inner,
+shop_name,
+city,
+max(update_time) as update_time,
+sum(act_sale_amount) as act_sale_amount,
+sum(receivable_amount) as receivable_amount,
+sum(order_num) as order_num,
+sum(return_amount) as return_amount,
+row_number() OVER(PARTITION BY city,sdate ORDER BY SUM(receivable_amount) DESC) AS city_rank,
+lag(SUM(receivable_amount),cast(1 as FLOAT),cast(0 as FLOAT)) OVER(PARTITION BY city ORDER BY SUM(receivable_amount) DESC) AS city_rank_last,
+lead(SUM(receivable_amount),cast(1 as FLOAT),cast(0 as FLOAT)) OVER(PARTITION BY city ORDER BY SUM(receivable_amount) DESC) AS city_rank_first
+from ads_order_sales where sdate = CURDATE() and  coalesce(order_type,123) <> 8 
+group by sdate,shop_code_inner,shop_name,city
+) t2
+on t1.store_shop_code = t2.shop_code_inner 
+left join dim_shop_sales_target t3
+on t1.store_shop_code = t3.store_shop_code
+and sdate = t3.target_date and target_date = CURDATE()  AND  t1.store_shop_code <>'' and t1.store_shop_code<>0
+
+LEFT JOIN (
+    select city,city_rank_max from (
+      SELECT  shop_code_inner
+              ,city
+              ,first_value(SUM(receivable_amount)) OVER(PARTITION BY city ORDER BY SUM(receivable_amount) DESC) AS city_rank_max
+      FROM    ads_order_sales
+      WHERE   coalesce(order_type,123) <> 8
+      AND     act_sale_amount > 0
+      AND     sdate = CURDATE()
+      GROUP BY shop_code_inner,city)tt group by city,city_rank_max
+          ) t4
+ON      t1.city = replace(t4.city,'市','')
+LEFT JOIN    (
+            SELECT  city
+                    ,sdate
+                    ,sum(receivable_amount)/count(DISTINCT shop_code_inner) avg_city_sales
+                    ,count(DISTINCT shop_code_inner) city_shop_count
+            FROM    `ads_order_sales`
+            WHERE   coalesce(order_type,123) <> 8
+            AND     act_sale_amount > 0
+            AND     sdate = CURDATE()
+            GROUP BY sdate
+                     ,city
+        ) t5
+ON      t1.city = replace(t5.city,'市','')
+-- where t1.is_close = 0
+) as "table_real" where ("业务日期" >= date '2023-01-13' and "业务日期" < date '2023-01-14') group by "门店名称__0", "城市经理__1") union all (select null as "门店名称__0", null as "城市经理__1", sum("销售应收金额") as "销售应收金额__sum__0", 
+sum("销售应收金额")/sum("当日目标额")
+ as "当日目标达成率__nul__1", max(CONCAT("城市排名",'/',"所在城市营业门店数")) as "城市排名新__max__2", max("城市") as "城市__max__3", max("城市平均") as "城市平均__max__4", sum("当日目标额") as "当日目标额__sum__5", max("初销日期") as "初销日期__max__6", 3 as "__grouping_id" from (
+select  
+        CURDATE() AS `业务日期`
+        ,t2.update_time AS `更新时间`
+        ,t1.store_shop_code  AS `门店编码`
+        ,t1.shop_name AS `门店名称`
+        ,date_format(t1.min_first_saletime,'%Y-%m-%d') AS `初销日期`
+        ,if(
+            t1.province='内蒙'
+            ,'内蒙古'
+            ,replace(
+                replace(
+                    replace(
+                        replace(
+                            replace(replace(coalesce(t1.province,t1.gs_province) ,'维吾尔','') ,'省','')
+                            ,'市'
+                            ,''
+                        )
+                        ,'自治区'
+                        ,''
+                    )
+                    ,'壮族'
+                    ,''
+                )
+                ,'回族'
+                ,''
+            )
+        ) AS `省份`
+        ,replace(t1.city,'市','') AS `城市`
+        ,t1.county AS `区县`
+        ,t1.mf_regional_supervision AS `城市经理`
+        ,coalesce(t2.order_num,0) AS `销售订单数`
+        ,coalesce(t2.receivable_amount,0) AS `销售应收金额`
+        ,coalesce(t2.act_sale_amount,0) AS `销售实收金额`
+          ,t2.return_amount AS `退款金额`
+        ,month_amount AS `当月目标额`
+        ,target_amount AS `当日目标额`
+        ,target_date AS `目标日期`
+        ,target_order_num AS `订单目标数量`
+         ,coalesce(receivable_amount/if(target_amount=0,1,target_amount),0) AS `完成率`
+              ,city_shop_count AS `所在城市营业门店数`
+        ,city_rank AS `城市排名`
+        ,avg_city_sales AS `城市平均`
+        ,city_rank_last AS `上一名门店`
+        ,city_rank_first AS `下一名门店`
+        ,city_rank_max AS `城市最高`
+from dim_jd_erp_shop t1
+left join
+
+(
+select 
+sdate,
+shop_code_inner,
+shop_name,
+city,
+max(update_time) as update_time,
+sum(act_sale_amount) as act_sale_amount,
+sum(receivable_amount) as receivable_amount,
+sum(order_num) as order_num,
+sum(return_amount) as return_amount,
+row_number() OVER(PARTITION BY city,sdate ORDER BY SUM(receivable_amount) DESC) AS city_rank,
+lag(SUM(receivable_amount),cast(1 as FLOAT),cast(0 as FLOAT)) OVER(PARTITION BY city ORDER BY SUM(receivable_amount) DESC) AS city_rank_last,
+lead(SUM(receivable_amount),cast(1 as FLOAT),cast(0 as FLOAT)) OVER(PARTITION BY city ORDER BY SUM(receivable_amount) DESC) AS city_rank_first
+from ads_order_sales where sdate = CURDATE() and  coalesce(order_type,123) <> 8 
+group by sdate,shop_code_inner,shop_name,city
+) t2
+on t1.store_shop_code = t2.shop_code_inner 
+left join dim_shop_sales_target t3
+on t1.store_shop_code = t3.store_shop_code
+and sdate = t3.target_date and target_date = CURDATE()  AND  t1.store_shop_code <>'' and t1.store_shop_code<>0
+
+LEFT JOIN (
+    select city,city_rank_max from (
+      SELECT  shop_code_inner
+              ,city
+              ,first_value(SUM(receivable_amount)) OVER(PARTITION BY city ORDER BY SUM(receivable_amount) DESC) AS city_rank_max
+      FROM    ads_order_sales
+      WHERE   coalesce(order_type,123) <> 8
+      AND     act_sale_amount > 0
+      AND     sdate = CURDATE()
+      GROUP BY shop_code_inner,city)tt group by city,city_rank_max
+          ) t4
+ON      t1.city = replace(t4.city,'市','')
+LEFT JOIN    (
+            SELECT  city
+                    ,sdate
+                    ,sum(receivable_amount)/count(DISTINCT shop_code_inner) avg_city_sales
+                    ,count(DISTINCT shop_code_inner) city_shop_count
+            FROM    `ads_order_sales`
+            WHERE   coalesce(order_type,123) <> 8
+            AND     act_sale_amount > 0
+            AND     sdate = CURDATE()
+            GROUP BY sdate
+                     ,city
+        ) t5
+ON      t1.city = replace(t5.city,'市','')
+-- where t1.is_close = 0
+) as "table_real" where ("业务日期" >= date '2023-01-13' and "业务日期" < date '2023-01-14')) order by "销售应收金额__sum__0" desc limit 20001

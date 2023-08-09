@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="wechat" uuid="dfb868d2-d4b5-42bd-867c-51ca7a049dfb">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="SQLITE" exact-version="0" />
+      <auth-required>false</auth-required>
+    </data-source>
+    <data-source name="wechat [2]" uuid="8a3cf1f9-8096-46a2-8ab9-c3f49ee3d74b">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="SQLITE" exact-version="0" />
+      <auth-required>false</auth-required>
+      <introspection-schemas>*:*</introspection-schemas>
+    </data-source>
+  </component>
+</project>
