@@ -1,0 +1,4 @@
+numpy
+opencv-python
+imread-from-url
+requests

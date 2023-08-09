@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+simple_mapillary/Client.py
+simple_mapillary/Image.py
+simple_mapillary/ImageAPI.py
+simple_mapillary/ImageData.py
+simple_mapillary/__init__.py
+simple_mapillary/__token__.py
+simple_mapillary/api_utils.py
+simple_mapillary.egg-info/PKG-INFO
+simple_mapillary.egg-info/SOURCES.txt
+simple_mapillary.egg-info/dependency_links.txt
+simple_mapillary.egg-info/requires.txt
+simple_mapillary.egg-info/top_level.txt
