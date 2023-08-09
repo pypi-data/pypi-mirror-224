@@ -1,0 +1,7 @@
+
+[dev]
+pytest
+pytest-mypy
+black
+build
+twine
