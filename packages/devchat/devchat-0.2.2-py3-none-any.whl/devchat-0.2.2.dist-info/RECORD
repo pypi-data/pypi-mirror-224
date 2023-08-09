@@ -1,0 +1,17 @@
+devchat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+devchat/_cli.py,sha256=-4AzLeAl4CmL-luo_KtL_V7shgPzCa1dxKwI9xz6nfM,9493
+devchat/assistant.py,sha256=abFEv2sB4J8LfR6t18UpiBI1LEdluHOo7kBQ7bAGR-c,4503
+devchat/chat.py,sha256=TEO8OndmL4hpJ1D-QAFKO-JB_7w1kTeUC3VVwL9FSUQ,1676
+devchat/message.py,sha256=OdFQ8rv4ZrX-wOrLb4KRdqfvyAvCbaAMhDBXDHWuwRU,758
+devchat/openai/__init__.py,sha256=_cdblRg-to8fMf25Cgs1B59plooAeDqhvDUXwJNQ7aM,248
+devchat/openai/openai_chat.py,sha256=Uok4DIxMg9mNZlpbVRseRQvTQBRNja3TBdoxfcRxxi4,3558
+devchat/openai/openai_message.py,sha256=xTmglsj5Iyvcytn3pUYhwkuiyJSx932N88fS4OCJ7Qk,3293
+devchat/openai/openai_prompt.py,sha256=FbW94cemVzGoAakzht7kDvq8iKcokoDvG1NCCQH-xSI,10712
+devchat/prompt.py,sha256=m4fpGVPVsCy6CwtZW11F-1_RgsTxe6IN8b5QM59pGBU,8953
+devchat/store.py,sha256=-KU3vnXo2gLosSmuh16Nj6QN82mP9BtBMYCsVc6NQV0,9872
+devchat/utils.py,sha256=nbt2JY2nt5k390DOWyOgP_sxpNXfUUdzWnEerS4eIAQ,6821
+devchat-0.2.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+devchat-0.2.2.dist-info/METADATA,sha256=Du6a6yrXIZXeDXdLbWtgZYxY-ZrORVE2lWh7PyZRQAQ,6557
+devchat-0.2.2.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+devchat-0.2.2.dist-info/entry_points.txt,sha256=MDtlM6pmVQ9NbcDyMRjKJJjpn_igLbEFixgwxqLvWMg,45
+devchat-0.2.2.dist-info/RECORD,,
