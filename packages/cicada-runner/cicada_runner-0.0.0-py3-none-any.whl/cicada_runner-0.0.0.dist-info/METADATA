@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: cicada-runner
+Version: 0.0.0
+Requires-Dist: cicada-core ==0.0.0
+Requires-Dist: websockets ==11.0.3
+Requires-Dist: python-dotenv ==1.0.0
+
