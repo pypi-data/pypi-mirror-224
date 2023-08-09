@@ -1,0 +1,8 @@
+pdfkit==1.0.0
+basic_type_operations
+pandas
+openpyxl
+patool
+filetype
+Pillow==9.5.0
+qrcode
