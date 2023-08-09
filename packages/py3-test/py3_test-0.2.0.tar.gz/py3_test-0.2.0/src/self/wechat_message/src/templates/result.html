@@ -1,0 +1,21 @@
+<table class="gridtable">
+    <tr>
+        <th>发信人</th>
+        <th>收信人</th>
+        <th>消息类型</th>
+        <th>消息来源</th>
+        <th>时间</th>
+        <th>内容</th>
+    </tr>
+
+    {% for adict in data_list %}
+    <tr>
+        <td>{{ adict.from_username }}</td>
+        <td>{{ adict.to_username }}</td>
+        <td>{{ adict.msg_type }}</td>
+        <td>{{ adict.msg_source }}</td>
+        <td>{{ adict.create_time }}</td>
+        <td>{{ adict.content }}</td>
+    </tr>
+    {% endfor %}
+</table>

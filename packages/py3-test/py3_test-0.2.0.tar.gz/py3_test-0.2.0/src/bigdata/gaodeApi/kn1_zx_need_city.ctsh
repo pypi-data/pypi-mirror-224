@@ -1,0 +1,24 @@
+source /home/hadoop/.hive_config.sh
+
+table_name="kn1_zx_need_city"
+table_level="${table_name%%_*}"
+
+$HIVE<< EOF
+USE ${db_name};
+DROP TABLE ${table_name};
+CREATE EXTERNAL TABLE ${table_name}
+(
+zx_need_id              bigint        comment'需求ID                         ',
+need_time               string        comment'需求创建时间                    ',
+house_address           string        comment'用户房屋地址                    ',
+province                string        comment'省                             ',
+city                    string        comment'市                             ',
+area                    string        comment'区                             ',
+timestamp               timestamp     comment'时间                            '
+)
+comment '根据地址匹配出省市区'
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '\001' LINES TERMINATED BY '\n' NULL DEFINED AS ''
+STORED AS TEXTFILE
+LOCATION '${HDFS_DIR}/${table_level}/${table_name}';
+ALTER TABLE ${table_name} SET SERDEPROPERTIES('serialization.null.format'='');
+EOF

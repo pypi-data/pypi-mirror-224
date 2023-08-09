@@ -1,0 +1,2353 @@
+[
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "encodedDataLength": 0,
+      "requestId": "64C8100170B35A3A64EDF22AF985116E",
+      "shouldReportCorbBlocking": false,
+      "timestamp": 14689.204567
+    }
+  },
+  {
+    "method": "Page.frameNavigated",
+    "params": {
+      "frame": {
+        "id": "D1EC1F63B4EB0227AA7C6F4F40B3DAA1",
+        "loaderId": "64C8100170B35A3A64EDF22AF985116E",
+        "mimeType": "text/plain",
+        "securityOrigin": "://",
+        "url": "data:,"
+      }
+    }
+  },
+  {
+    "method": "Page.loadEventFired",
+    "params": {
+      "timestamp": 14689.9425
+    }
+  },
+  {
+    "method": "Page.frameStoppedLoading",
+    "params": {
+      "frameId": "D1EC1F63B4EB0227AA7C6F4F40B3DAA1"
+    }
+  },
+  {
+    "method": "Page.domContentEventFired",
+    "params": {
+      "timestamp": 14689.943287
+    }
+  },
+  {
+    "method": "Page.frameResized",
+    "params": {}
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "documentURL": "https://wx.qq.com/",
+      "frameId": "D1EC1F63B4EB0227AA7C6F4F40B3DAA1",
+      "hasUserGesture": false,
+      "initiator": {
+        "type": "other"
+      },
+      "loaderId": "1BB2FA9061DCB9CC80DF77AE9E084C05",
+      "request": {
+        "headers": {
+          "Upgrade-Insecure-Requests": "1",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36"
+        },
+        "initialPriority": "VeryHigh",
+        "method": "GET",
+        "mixedContentType": "none",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "url": "https://wx.qq.com/"
+      },
+      "requestId": "1BB2FA9061DCB9CC80DF77AE9E084C05",
+      "timestamp": 14690.096208,
+      "type": "Document",
+      "wallTime": 1558850504.252923
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "frameId": "D1EC1F63B4EB0227AA7C6F4F40B3DAA1",
+      "loaderId": "1BB2FA9061DCB9CC80DF77AE9E084C05",
+      "requestId": "1BB2FA9061DCB9CC80DF77AE9E084C05",
+      "response": {
+        "connectionId": 40,
+        "connectionReused": false,
+        "encodedDataLength": 317,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "headers": {
+          "Cache-Control": "no-cache, must-revalidate",
+          "Connection": "keep-alive",
+          "Content-Encoding": "gzip",
+          "Content-Length": "19020",
+          "Content-Type": "text/html; charset=utf-8",
+          "Set-Cookie": "mm_lang=zh_CN; Domain=wx.qq.com; Path=/; Expires=Sun, 26-May-2019 18:01:46 GMT; Secure",
+          "Strict-Transport-Security": "max-age=31536000"
+        },
+        "headersText": "HTTP/1.1 200 OK\r\nConnection: keep-alive\r\nContent-Type: text/html; charset=utf-8\r\nCache-Control: no-cache, must-revalidate\r\nSet-Cookie: mm_lang=zh_CN; Domain=wx.qq.com; Path=/; Expires=Sun, 26-May-2019 18:01:46 GMT; Secure\r\nStrict-Transport-Security: max-age=31536000\r\nContent-Encoding: gzip\r\nContent-Length: 19020\r\n\r\n",
+        "mimeType": "text/html",
+        "protocol": "http/1.1",
+        "remoteIPAddress": "101.226.76.164",
+        "remotePort": 443,
+        "requestHeaders": {
+          "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+          "Accept-Encoding": "gzip, deflate, br",
+          "Accept-Language": "zh-CN,zh;q=0.9",
+          "Connection": "keep-alive",
+          "Host": "wx.qq.com",
+          "Upgrade-Insecure-Requests": "1",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36"
+        },
+        "requestHeadersText": "GET / HTTP/1.1\r\nHost: wx.qq.com\r\nConnection: keep-alive\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: zh-CN,zh;q=0.9\r\n",
+        "securityDetails": {
+          "certificateId": 0,
+          "certificateTransparencyCompliance": "compliant",
+          "cipher": "AES_128_GCM",
+          "issuer": "DigiCert SHA2 Secure Server CA",
+          "keyExchange": "ECDHE_RSA",
+          "keyExchangeGroup": "P-256",
+          "protocol": "TLS 1.2",
+          "sanList": [
+            "wx.qq.com",
+            "*.wx2.qq.com",
+            "wx2.qq.com",
+            "*.weixin.qq.com",
+            "*.wx.qq.com",
+            "wechat.com",
+            "*.wechat.com",
+            "*.web.wechat.com",
+            "*.web1.wechat.com",
+            "*.web2.wechat.com",
+            "wx1.qq.com",
+            "*.wx1.qq.com",
+            "weixin.qq.com"
+          ],
+          "signedCertificateTimestampList": [
+            {
+              "hashAlgorithm": "SHA-256",
+              "logDescription": "Google 'Pilot' log",
+              "logId": "A4B90990B418581487BB13A2CC67700A3C359804F91BDFB8E377CD0EC80DDC10",
+              "origin": "Embedded in certificate",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3045022100A90F72BEA70C66C710AB708EA722C1BAD82BD81B8A79D410C6A3A5A248FBC375022072BBB105867A186A1BFEE318040A6EB56A5DFC3CAC593FA3203AEEF001E58F08",
+              "status": "Verified",
+              "timestamp": 1529559658840.0
+            },
+            {
+              "hashAlgorithm": "SHA-256",
+              "logDescription": "DigiCert Log Server 2",
+              "logId": "8775BFE7597CF88C43995FBDF36EFF568D475636FF4AB560C1B4EAFF5EA0830F",
+              "origin": "Embedded in certificate",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "304502203A9067F1509B92FB8CEC6F7D4DF53B850E4A2D68FBDFC704BFF69BF661554F25022100EF8D58348AF130E1C1CF3A8F3400005F38006C51652E4DCA9448D8390C07DF5C",
+              "status": "Verified",
+              "timestamp": 1529559659053.0
+            }
+          ],
+          "subjectName": "*.wx.qq.com",
+          "validFrom": 1529539200,
+          "validTo": 1563451200
+        },
+        "securityState": "secure",
+        "status": 200,
+        "statusText": "OK",
+        "timing": {
+          "connectEnd": 357.873,
+          "connectStart": 12.143,
+          "dnsEnd": 12.143,
+          "dnsStart": 12.139,
+          "proxyEnd": -1,
+          "proxyStart": -1,
+          "pushEnd": 0,
+          "pushStart": 0,
+          "receiveHeadersEnd": 410.178,
+          "requestTime": 14690.097529,
+          "sendEnd": 358.252,
+          "sendStart": 358.098,
+          "sslEnd": 357.864,
+          "sslStart": 23.857,
+          "workerReady": -1,
+          "workerStart": -1
+        },
+        "url": "https://wx.qq.com/"
+      },
+      "timestamp": 14690.509194,
+      "type": "Document"
+    }
+  },
+  {
+    "method": "Page.frameStartedLoading",
+    "params": {
+      "frameId": "D1EC1F63B4EB0227AA7C6F4F40B3DAA1"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "dataLength": 65536,
+      "encodedDataLength": 0,
+      "requestId": "1BB2FA9061DCB9CC80DF77AE9E084C05",
+      "timestamp": 14690.519719
+    }
+  },
+  {
+    "method": "Page.frameNavigated",
+    "params": {
+      "frame": {
+        "id": "D1EC1F63B4EB0227AA7C6F4F40B3DAA1",
+        "loaderId": "1BB2FA9061DCB9CC80DF77AE9E084C05",
+        "mimeType": "text/html",
+        "securityOrigin": "https://wx.qq.com",
+        "url": "https://wx.qq.com/"
+      }
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "dataLength": 21054,
+      "encodedDataLength": 0,
+      "requestId": "1BB2FA9061DCB9CC80DF77AE9E084C05",
+      "timestamp": 14690.54918
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "encodedDataLength": 19337,
+      "requestId": "1BB2FA9061DCB9CC80DF77AE9E084C05",
+      "shouldReportCorbBlocking": false,
+      "timestamp": 14690.509546
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "documentURL": "https://wx.qq.com/",
+      "frameId": "D1EC1F63B4EB0227AA7C6F4F40B3DAA1",
+      "hasUserGesture": false,
+      "initiator": {
+        "lineNumber": 9,
+        "type": "parser",
+        "url": "https://wx.qq.com/"
+      },
+      "loaderId": "1BB2FA9061DCB9CC80DF77AE9E084C05",
+      "request": {
+        "headers": {
+          "Referer": "https://wx.qq.com/",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36"
+        },
+        "initialPriority": "High",
+        "method": "GET",
+        "mixedContentType": "none",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "url": "https://js.aq.qq.com/js/aq_common.js"
+      },
+      "requestId": "1000002151.2",
+      "timestamp": 14690.551221,
+      "type": "Script",
+      "wallTime": 1558850504.70794
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "documentURL": "https://wx.qq.com/",
+      "frameId": "D1EC1F63B4EB0227AA7C6F4F40B3DAA1",
+      "hasUserGesture": false,
+      "initiator": {
+        "lineNumber": 23,
+        "type": "parser",
+        "url": "https://wx.qq.com/"
+      },
+      "loaderId": "1BB2FA9061DCB9CC80DF77AE9E084C05",
+      "request": {
+        "headers": {
+          "Referer": "https://wx.qq.com/",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36"
+        },
+        "initialPriority": "VeryHigh",
+        "method": "GET",
+        "mixedContentType": "none",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/css/c8dda94a1c135ba17e5706ebc4aab1bf.css"
+      },
+      "requestId": "1000002151.3",
+      "timestamp": 14690.551594,
+      "type": "Stylesheet",
+      "wallTime": 1558850504.70831
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "documentURL": "https://wx.qq.com/",
+      "frameId": "D1EC1F63B4EB0227AA7C6F4F40B3DAA1",
+      "hasUserGesture": false,
+      "initiator": {
+        "lineNumber": 44,
+        "type": "parser",
+        "url": "https://wx.qq.com/"
+      },
+      "loaderId": "1BB2FA9061DCB9CC80DF77AE9E084C05",
+      "request": {
+        "headers": {
+          "Referer": "https://wx.qq.com/",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36"
+        },
+        "initialPriority": "Low",
+        "method": "GET",
+        "mixedContentType": "none",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/img/2z6meE1.gif"
+      },
+      "requestId": "1000002151.4",
+      "timestamp": 14690.551831,
+      "type": "Image",
+      "wallTime": 1558850504.70855
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "documentURL": "https://wx.qq.com/",
+      "frameId": "D1EC1F63B4EB0227AA7C6F4F40B3DAA1",
+      "hasUserGesture": false,
+      "initiator": {
+        "lineNumber": 61,
+        "type": "parser",
+        "url": "https://wx.qq.com/"
+      },
+      "loaderId": "1BB2FA9061DCB9CC80DF77AE9E084C05",
+      "request": {
+        "headers": {
+          "Referer": "https://wx.qq.com/",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36"
+        },
+        "initialPriority": "Low",
+        "method": "GET",
+        "mixedContentType": "none",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/img/2KriyDK.png"
+      },
+      "requestId": "1000002151.5",
+      "timestamp": 14690.552046,
+      "type": "Image",
+      "wallTime": 1558850504.70876
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "documentURL": "https://wx.qq.com/",
+      "frameId": "D1EC1F63B4EB0227AA7C6F4F40B3DAA1",
+      "hasUserGesture": false,
+      "initiator": {
+        "lineNumber": 1226,
+        "type": "parser",
+        "url": "https://wx.qq.com/"
+      },
+      "loaderId": "1BB2FA9061DCB9CC80DF77AE9E084C05",
+      "request": {
+        "headers": {
+          "Referer": "https://wx.qq.com/",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36"
+        },
+        "initialPriority": "Medium",
+        "method": "GET",
+        "mixedContentType": "none",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+      },
+      "requestId": "1000002151.9",
+      "timestamp": 14690.55356,
+      "type": "Script",
+      "wallTime": 1558850504.71028
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "documentURL": "https://wx.qq.com/",
+      "frameId": "D1EC1F63B4EB0227AA7C6F4F40B3DAA1",
+      "hasUserGesture": false,
+      "initiator": {
+        "lineNumber": 1226,
+        "type": "parser",
+        "url": "https://wx.qq.com/"
+      },
+      "loaderId": "1BB2FA9061DCB9CC80DF77AE9E084C05",
+      "request": {
+        "headers": {
+          "Referer": "https://wx.qq.com/",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36"
+        },
+        "initialPriority": "Medium",
+        "method": "GET",
+        "mixedContentType": "none",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/js/index_d782358.js"
+      },
+      "requestId": "1000002151.10",
+      "timestamp": 14690.553665,
+      "type": "Script",
+      "wallTime": 1558850504.71038
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "frameId": "D1EC1F63B4EB0227AA7C6F4F40B3DAA1",
+      "loaderId": "1BB2FA9061DCB9CC80DF77AE9E084C05",
+      "requestId": "1000002151.3",
+      "response": {
+        "connectionId": 74,
+        "connectionReused": false,
+        "encodedDataLength": 252,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "headers": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "content-encoding": "gzip",
+          "content-length": "22056",
+          "content-type": "text/css",
+          "date": "Sun, 26 May 2019 06:01:48 GMT",
+          "expires": "Mon, 25 May 2020 06:01:47 GMT",
+          "last-modified": "Wed, 15 May 2019 07:52:09 GMT",
+          "server": "NWSs",
+          "status": "200",
+          "x-cache-lookup": "Hit From Disktank3 Gz",
+          "x-nws-log-uuid": "2d4d1b88-d2c6-4684-a9c1-7311690c4743"
+        },
+        "mimeType": "text/css",
+        "protocol": "h2",
+        "remoteIPAddress": "180.153.105.151",
+        "remotePort": 443,
+        "securityDetails": {
+          "certificateId": 0,
+          "certificateTransparencyCompliance": "compliant",
+          "cipher": "AES_128_GCM",
+          "issuer": "GeoTrust RSA CA 2018",
+          "keyExchange": "ECDHE_RSA",
+          "keyExchangeGroup": "P-256",
+          "protocol": "TLS 1.2",
+          "sanList": [
+            "res.weixin.qq.com",
+            "emoji.qpic.cn",
+            "res.wx.qq.com",
+            "weixinconf.qq.com",
+            "res.servicewechat.com",
+            "res2.wx.qq.com",
+            "mpvideo.qpic.cn"
+          ],
+          "signedCertificateTimestampList": [
+            {
+              "hashAlgorithm": "SHA-256",
+              "logDescription": "Google 'Rocketeer' log",
+              "logId": "EE4BBDB775CE60BAE142691FABE19E66A30F7E5FB072D88300C47B897AA8FDCB",
+              "origin": "Embedded in certificate",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "304402206A839D14607076ACAC5E5E97778D2E54C2E5C4BAA0E200A60FD34686709CE18702206A9A6BC4E4A91FCE8178CE2D87F68A90D8AFB87BF8AEFE5CAA8C83976052ABC6",
+              "status": "Verified",
+              "timestamp": 1537272358763.0
+            },
+            {
+              "hashAlgorithm": "SHA-256",
+              "logDescription": "DigiCert Log Server 2",
+              "logId": "8775BFE7597CF88C43995FBDF36EFF568D475636FF4AB560C1B4EAFF5EA0830F",
+              "origin": "Embedded in certificate",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3045022100E9825F97F3BBFB44D6BB2875BD5F26EC191714B8EC871E564955FFE92BB04F43022060266715E3B8C05E7FE6DE8ED4CB12C43E7FB39E8A2EA07D8E5628C119C95515",
+              "status": "Verified",
+              "timestamp": 1537272358911.0
+            }
+          ],
+          "subjectName": "res.weixin.qq.com",
+          "validFrom": 1537228800,
+          "validTo": 1576324800
+        },
+        "securityState": "secure",
+        "status": 200,
+        "statusText": "",
+        "timing": {
+          "connectEnd": 1226.889,
+          "connectStart": 1083.472,
+          "dnsEnd": 1083.472,
+          "dnsStart": 1.044,
+          "proxyEnd": -1,
+          "proxyStart": -1,
+          "pushEnd": 0,
+          "pushStart": 0,
+          "receiveHeadersEnd": 1256.105,
+          "requestTime": 14690.551876,
+          "sendEnd": 1229.311,
+          "sendStart": 1229.052,
+          "sslEnd": 1226.883,
+          "sslStart": 1156.883,
+          "workerReady": -1,
+          "workerStart": -1
+        },
+        "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/css/c8dda94a1c135ba17e5706ebc4aab1bf.css"
+      },
+      "timestamp": 14691.809354,
+      "type": "Stylesheet"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "dataLength": 48951,
+      "encodedDataLength": 7940,
+      "requestId": "1000002151.3",
+      "timestamp": 14691.811215
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "dataLength": 65536,
+      "encodedDataLength": 14152,
+      "requestId": "1000002151.3",
+      "timestamp": 14691.869504
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "dataLength": 61518,
+      "encodedDataLength": 0,
+      "requestId": "1000002151.3",
+      "timestamp": 14691.869766
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "frameId": "D1EC1F63B4EB0227AA7C6F4F40B3DAA1",
+      "loaderId": "1BB2FA9061DCB9CC80DF77AE9E084C05",
+      "requestId": "1000002151.5",
+      "response": {
+        "connectionId": 74,
+        "connectionReused": true,
+        "encodedDataLength": 233,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "headers": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "content-length": "1043",
+          "content-type": "image/png",
+          "date": "Sun, 26 May 2019 06:01:48 GMT",
+          "expires": "Mon, 25 May 2020 06:01:47 GMT",
+          "last-modified": "Mon, 16 Jan 2017 06:56:49 GMT",
+          "server": "NWSs",
+          "status": "200",
+          "x-cache-lookup": "Hit From Disktank3",
+          "x-nws-log-uuid": "8922c717-0ebe-4c9f-b036-68a4df23166e"
+        },
+        "mimeType": "image/png",
+        "protocol": "h2",
+        "remoteIPAddress": "180.153.105.151",
+        "remotePort": 443,
+        "securityDetails": {
+          "certificateId": 0,
+          "certificateTransparencyCompliance": "compliant",
+          "cipher": "AES_128_GCM",
+          "issuer": "GeoTrust RSA CA 2018",
+          "keyExchange": "ECDHE_RSA",
+          "keyExchangeGroup": "P-256",
+          "protocol": "TLS 1.2",
+          "sanList": [
+            "res.weixin.qq.com",
+            "emoji.qpic.cn",
+            "res.wx.qq.com",
+            "weixinconf.qq.com",
+            "res.servicewechat.com",
+            "res2.wx.qq.com",
+            "mpvideo.qpic.cn"
+          ],
+          "signedCertificateTimestampList": [
+            {
+              "hashAlgorithm": "SHA-256",
+              "logDescription": "Google 'Rocketeer' log",
+              "logId": "EE4BBDB775CE60BAE142691FABE19E66A30F7E5FB072D88300C47B897AA8FDCB",
+              "origin": "Embedded in certificate",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "304402206A839D14607076ACAC5E5E97778D2E54C2E5C4BAA0E200A60FD34686709CE18702206A9A6BC4E4A91FCE8178CE2D87F68A90D8AFB87BF8AEFE5CAA8C83976052ABC6",
+              "status": "Verified",
+              "timestamp": 1537272358763.0
+            },
+            {
+              "hashAlgorithm": "SHA-256",
+              "logDescription": "DigiCert Log Server 2",
+              "logId": "8775BFE7597CF88C43995FBDF36EFF568D475636FF4AB560C1B4EAFF5EA0830F",
+              "origin": "Embedded in certificate",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3045022100E9825F97F3BBFB44D6BB2875BD5F26EC191714B8EC871E564955FFE92BB04F43022060266715E3B8C05E7FE6DE8ED4CB12C43E7FB39E8A2EA07D8E5628C119C95515",
+              "status": "Verified",
+              "timestamp": 1537272358911.0
+            }
+          ],
+          "subjectName": "res.weixin.qq.com",
+          "validFrom": 1537228800,
+          "validTo": 1576324800
+        },
+        "securityState": "secure",
+        "status": 200,
+        "statusText": "",
+        "timing": {
+          "connectEnd": -1,
+          "connectStart": -1,
+          "dnsEnd": -1,
+          "dnsStart": -1,
+          "proxyEnd": -1,
+          "proxyStart": -1,
+          "pushEnd": 0,
+          "pushStart": 0,
+          "receiveHeadersEnd": 1317.097,
+          "requestTime": 14690.552491,
+          "sendEnd": 1228.702,
+          "sendStart": 1228.537,
+          "sslEnd": -1,
+          "sslStart": -1,
+          "workerReady": -1,
+          "workerStart": -1
+        },
+        "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/img/2KriyDK.png"
+      },
+      "timestamp": 14691.871742,
+      "type": "Image"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "dataLength": 1043,
+      "encodedDataLength": 0,
+      "requestId": "1000002151.5",
+      "timestamp": 14691.871911
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "dataLength": 0,
+      "encodedDataLength": 1052,
+      "requestId": "1000002151.5",
+      "timestamp": 14691.872619
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "encodedDataLength": 1285,
+      "requestId": "1000002151.5",
+      "shouldReportCorbBlocking": false,
+      "timestamp": 14691.870341
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "frameId": "D1EC1F63B4EB0227AA7C6F4F40B3DAA1",
+      "loaderId": "1BB2FA9061DCB9CC80DF77AE9E084C05",
+      "requestId": "1000002151.4",
+      "response": {
+        "connectionId": 74,
+        "connectionReused": true,
+        "encodedDataLength": 231,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "headers": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "content-length": "35",
+          "content-type": "image/gif",
+          "date": "Sun, 26 May 2019 06:01:48 GMT",
+          "expires": "Mon, 25 May 2020 06:01:47 GMT",
+          "last-modified": "Mon, 16 Jan 2017 06:56:49 GMT",
+          "server": "NWSs",
+          "status": "200",
+          "x-cache-lookup": "Hit From Disktank3",
+          "x-nws-log-uuid": "a34377f7-0105-49f8-9cbc-e347d4016595"
+        },
+        "mimeType": "image/gif",
+        "protocol": "h2",
+        "remoteIPAddress": "180.153.105.151",
+        "remotePort": 443,
+        "securityDetails": {
+          "certificateId": 0,
+          "certificateTransparencyCompliance": "compliant",
+          "cipher": "AES_128_GCM",
+          "issuer": "GeoTrust RSA CA 2018",
+          "keyExchange": "ECDHE_RSA",
+          "keyExchangeGroup": "P-256",
+          "protocol": "TLS 1.2",
+          "sanList": [
+            "res.weixin.qq.com",
+            "emoji.qpic.cn",
+            "res.wx.qq.com",
+            "weixinconf.qq.com",
+            "res.servicewechat.com",
+            "res2.wx.qq.com",
+            "mpvideo.qpic.cn"
+          ],
+          "signedCertificateTimestampList": [
+            {
+              "hashAlgorithm": "SHA-256",
+              "logDescription": "Google 'Rocketeer' log",
+              "logId": "EE4BBDB775CE60BAE142691FABE19E66A30F7E5FB072D88300C47B897AA8FDCB",
+              "origin": "Embedded in certificate",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "304402206A839D14607076ACAC5E5E97778D2E54C2E5C4BAA0E200A60FD34686709CE18702206A9A6BC4E4A91FCE8178CE2D87F68A90D8AFB87BF8AEFE5CAA8C83976052ABC6",
+              "status": "Verified",
+              "timestamp": 1537272358763.0
+            },
+            {
+              "hashAlgorithm": "SHA-256",
+              "logDescription": "DigiCert Log Server 2",
+              "logId": "8775BFE7597CF88C43995FBDF36EFF568D475636FF4AB560C1B4EAFF5EA0830F",
+              "origin": "Embedded in certificate",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3045022100E9825F97F3BBFB44D6BB2875BD5F26EC191714B8EC871E564955FFE92BB04F43022060266715E3B8C05E7FE6DE8ED4CB12C43E7FB39E8A2EA07D8E5628C119C95515",
+              "status": "Verified",
+              "timestamp": 1537272358911.0
+            }
+          ],
+          "subjectName": "res.weixin.qq.com",
+          "validFrom": 1537228800,
+          "validTo": 1576324800
+        },
+        "securityState": "secure",
+        "status": 200,
+        "statusText": "",
+        "timing": {
+          "connectEnd": -1,
+          "connectStart": -1,
+          "dnsEnd": -1,
+          "dnsStart": -1,
+          "proxyEnd": -1,
+          "proxyStart": -1,
+          "pushEnd": 0,
+          "pushStart": 0,
+          "receiveHeadersEnd": 1318.432,
+          "requestTime": 14690.552314,
+          "sendEnd": 1228.876,
+          "sendStart": 1228.671,
+          "sslEnd": -1,
+          "sslStart": -1,
+          "workerReady": -1,
+          "workerStart": -1
+        },
+        "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/img/2z6meE1.gif"
+      },
+      "timestamp": 14691.873463,
+      "type": "Image"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "dataLength": 35,
+      "encodedDataLength": 0,
+      "requestId": "1000002151.4",
+      "timestamp": 14691.873584
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "dataLength": 0,
+      "encodedDataLength": 44,
+      "requestId": "1000002151.4",
+      "timestamp": 14691.874062
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "encodedDataLength": 275,
+      "requestId": "1000002151.4",
+      "shouldReportCorbBlocking": false,
+      "timestamp": 14691.871076
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "encodedDataLength": 22344,
+      "requestId": "1000002151.3",
+      "shouldReportCorbBlocking": false,
+      "timestamp": 14691.87141
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "frameId": "D1EC1F63B4EB0227AA7C6F4F40B3DAA1",
+      "loaderId": "1BB2FA9061DCB9CC80DF77AE9E084C05",
+      "requestId": "1000002151.9",
+      "response": {
+        "connectionId": 74,
+        "connectionReused": true,
+        "encodedDataLength": 262,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "headers": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "content-encoding": "gzip",
+          "content-length": "98406",
+          "content-type": "application/x-javascript",
+          "date": "Sun, 26 May 2019 06:01:48 GMT",
+          "expires": "Mon, 25 May 2020 06:01:47 GMT",
+          "last-modified": "Wed, 22 May 2019 15:08:20 GMT",
+          "server": "NWSs",
+          "status": "200",
+          "x-cache-lookup": "Hit From Disktank3 Gz",
+          "x-nws-log-uuid": "c00b0357-a02a-4ae1-8053-b22d1cd31beb"
+        },
+        "mimeType": "application/x-javascript",
+        "protocol": "h2",
+        "remoteIPAddress": "180.153.105.151",
+        "remotePort": 443,
+        "securityDetails": {
+          "certificateId": 0,
+          "certificateTransparencyCompliance": "compliant",
+          "cipher": "AES_128_GCM",
+          "issuer": "GeoTrust RSA CA 2018",
+          "keyExchange": "ECDHE_RSA",
+          "keyExchangeGroup": "P-256",
+          "protocol": "TLS 1.2",
+          "sanList": [
+            "res.weixin.qq.com",
+            "emoji.qpic.cn",
+            "res.wx.qq.com",
+            "weixinconf.qq.com",
+            "res.servicewechat.com",
+            "res2.wx.qq.com",
+            "mpvideo.qpic.cn"
+          ],
+          "signedCertificateTimestampList": [
+            {
+              "hashAlgorithm": "SHA-256",
+              "logDescription": "Google 'Rocketeer' log",
+              "logId": "EE4BBDB775CE60BAE142691FABE19E66A30F7E5FB072D88300C47B897AA8FDCB",
+              "origin": "Embedded in certificate",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "304402206A839D14607076ACAC5E5E97778D2E54C2E5C4BAA0E200A60FD34686709CE18702206A9A6BC4E4A91FCE8178CE2D87F68A90D8AFB87BF8AEFE5CAA8C83976052ABC6",
+              "status": "Verified",
+              "timestamp": 1537272358763.0
+            },
+            {
+              "hashAlgorithm": "SHA-256",
+              "logDescription": "DigiCert Log Server 2",
+              "logId": "8775BFE7597CF88C43995FBDF36EFF568D475636FF4AB560C1B4EAFF5EA0830F",
+              "origin": "Embedded in certificate",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3045022100E9825F97F3BBFB44D6BB2875BD5F26EC191714B8EC871E564955FFE92BB04F43022060266715E3B8C05E7FE6DE8ED4CB12C43E7FB39E8A2EA07D8E5628C119C95515",
+              "status": "Verified",
+              "timestamp": 1537272358911.0
+            }
+          ],
+          "subjectName": "res.weixin.qq.com",
+          "validFrom": 1537228800,
+          "validTo": 1576324800
+        },
+        "securityState": "secure",
+        "status": 200,
+        "statusText": "",
+        "timing": {
+          "connectEnd": -1,
+          "connectStart": -1,
+          "dnsEnd": -1,
+          "dnsStart": -1,
+          "proxyEnd": -1,
+          "proxyStart": -1,
+          "pushEnd": 0,
+          "pushStart": 0,
+          "receiveHeadersEnd": 967.892,
+          "requestTime": 14691.872633,
+          "sendEnd": 0.555,
+          "sendStart": 0.317,
+          "sslEnd": -1,
+          "sslStart": -1,
+          "workerReady": -1,
+          "workerStart": -1
+        },
+        "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+      },
+      "timestamp": 14692.841526,
+      "type": "Script"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "dataLength": 20076,
+      "encodedDataLength": 7930,
+      "requestId": "1000002151.9",
+      "timestamp": 14692.842479
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "dataLength": 23255,
+      "encodedDataLength": 8041,
+      "requestId": "1000002151.9",
+      "timestamp": 14692.865349
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "dataLength": 65536,
+      "encodedDataLength": 32795,
+      "requestId": "1000002151.9",
+      "timestamp": 14692.878279
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "dataLength": 26826,
+      "encodedDataLength": 0,
+      "requestId": "1000002151.9",
+      "timestamp": 14692.878459
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "dataLength": 65536,
+      "encodedDataLength": 49766,
+      "requestId": "1000002151.9",
+      "timestamp": 14692.880045
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "dataLength": 27689,
+      "encodedDataLength": 0,
+      "requestId": "1000002151.9",
+      "timestamp": 14692.880205
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "frameId": "D1EC1F63B4EB0227AA7C6F4F40B3DAA1",
+      "loaderId": "1BB2FA9061DCB9CC80DF77AE9E084C05",
+      "requestId": "1000002151.10",
+      "response": {
+        "connectionId": 74,
+        "connectionReused": true,
+        "encodedDataLength": 263,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "headers": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "content-encoding": "gzip",
+          "content-length": "60231",
+          "content-type": "application/x-javascript",
+          "date": "Sun, 26 May 2019 06:01:48 GMT",
+          "expires": "Mon, 25 May 2020 06:01:47 GMT",
+          "last-modified": "Wed, 22 May 2019 15:08:20 GMT",
+          "server": "NWSs",
+          "status": "200",
+          "x-cache-lookup": "Hit From Disktank3 Gz",
+          "x-nws-log-uuid": "8a53ab79-7541-4303-9dda-1b9e08750b87"
+        },
+        "mimeType": "application/x-javascript",
+        "protocol": "h2",
+        "remoteIPAddress": "180.153.105.151",
+        "remotePort": 443,
+        "securityDetails": {
+          "certificateId": 0,
+          "certificateTransparencyCompliance": "compliant",
+          "cipher": "AES_128_GCM",
+          "issuer": "GeoTrust RSA CA 2018",
+          "keyExchange": "ECDHE_RSA",
+          "keyExchangeGroup": "P-256",
+          "protocol": "TLS 1.2",
+          "sanList": [
+            "res.weixin.qq.com",
+            "emoji.qpic.cn",
+            "res.wx.qq.com",
+            "weixinconf.qq.com",
+            "res.servicewechat.com",
+            "res2.wx.qq.com",
+            "mpvideo.qpic.cn"
+          ],
+          "signedCertificateTimestampList": [
+            {
+              "hashAlgorithm": "SHA-256",
+              "logDescription": "Google 'Rocketeer' log",
+              "logId": "EE4BBDB775CE60BAE142691FABE19E66A30F7E5FB072D88300C47B897AA8FDCB",
+              "origin": "Embedded in certificate",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "304402206A839D14607076ACAC5E5E97778D2E54C2E5C4BAA0E200A60FD34686709CE18702206A9A6BC4E4A91FCE8178CE2D87F68A90D8AFB87BF8AEFE5CAA8C83976052ABC6",
+              "status": "Verified",
+              "timestamp": 1537272358763.0
+            },
+            {
+              "hashAlgorithm": "SHA-256",
+              "logDescription": "DigiCert Log Server 2",
+              "logId": "8775BFE7597CF88C43995FBDF36EFF568D475636FF4AB560C1B4EAFF5EA0830F",
+              "origin": "Embedded in certificate",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3045022100E9825F97F3BBFB44D6BB2875BD5F26EC191714B8EC871E564955FFE92BB04F43022060266715E3B8C05E7FE6DE8ED4CB12C43E7FB39E8A2EA07D8E5628C119C95515",
+              "status": "Verified",
+              "timestamp": 1537272358911.0
+            }
+          ],
+          "subjectName": "res.weixin.qq.com",
+          "validFrom": 1537228800,
+          "validTo": 1576324800
+        },
+        "securityState": "secure",
+        "status": 200,
+        "statusText": "",
+        "timing": {
+          "connectEnd": -1,
+          "connectStart": -1,
+          "dnsEnd": -1,
+          "dnsStart": -1,
+          "proxyEnd": -1,
+          "proxyStart": -1,
+          "pushEnd": 0,
+          "pushStart": 0,
+          "receiveHeadersEnd": 1006.099,
+          "requestTime": 14691.874123,
+          "sendEnd": 0.473,
+          "sendStart": 0.334,
+          "sslEnd": -1,
+          "sslStart": -1,
+          "workerReady": -1,
+          "workerStart": -1
+        },
+        "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/js/index_d782358.js"
+      },
+      "timestamp": 14692.880908,
+      "type": "Script"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "dataLength": 52262,
+      "encodedDataLength": 0,
+      "requestId": "1000002151.9",
+      "timestamp": 14692.881616
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "encodedDataLength": 98794,
+      "requestId": "1000002151.9",
+      "shouldReportCorbBlocking": false,
+      "timestamp": 14692.88163
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "dataLength": 65536,
+      "encodedDataLength": 32373,
+      "requestId": "1000002151.10",
+      "timestamp": 14692.885983
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "dataLength": 46870,
+      "encodedDataLength": 0,
+      "requestId": "1000002151.10",
+      "timestamp": 14692.88617
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "dataLength": 43494,
+      "encodedDataLength": 16393,
+      "requestId": "1000002151.10",
+      "timestamp": 14692.892483
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "dataLength": 39461,
+      "encodedDataLength": 11546,
+      "requestId": "1000002151.10",
+      "timestamp": 14692.893612
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "encodedDataLength": 60575,
+      "requestId": "1000002151.10",
+      "shouldReportCorbBlocking": false,
+      "timestamp": 14692.893592
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "frameId": "D1EC1F63B4EB0227AA7C6F4F40B3DAA1",
+      "loaderId": "1BB2FA9061DCB9CC80DF77AE9E084C05",
+      "requestId": "1000002151.2",
+      "response": {
+        "connectionId": 91,
+        "connectionReused": false,
+        "encodedDataLength": 234,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "headers": {
+          "cache-control": "max-age=600",
+          "content-encoding": "gzip",
+          "content-length": "2731",
+          "content-type": "application/javascript",
+          "date": "Sun, 26 May 2019 06:01:51 GMT",
+          "expires": "Sun, 26 May 2019 06:11:50 GMT",
+          "last-modified": "Thu, 14 Feb 2019 06:24:21 GMT",
+          "server": "NWSs",
+          "status": "200",
+          "x-cache-lookup": "Hit From Disktank3 Gz",
+          "x-nws-log-uuid": "56065b46-737e-419a-bf42-41259a30c044"
+        },
+        "mimeType": "application/javascript",
+        "protocol": "h2",
+        "remoteIPAddress": "180.153.105.173",
+        "remotePort": 443,
+        "securityDetails": {
+          "certificateId": 0,
+          "certificateTransparencyCompliance": "compliant",
+          "cipher": "AES_128_GCM",
+          "issuer": "GlobalSign Organization Validation CA - SHA256 - G2",
+          "keyExchange": "ECDHE_RSA",
+          "keyExchangeGroup": "P-256",
+          "protocol": "TLS 1.2",
+          "sanList": [
+            "js.aq.qq.com"
+          ],
+          "signedCertificateTimestampList": [
+            {
+              "hashAlgorithm": "SHA-256",
+              "logDescription": "DigiCert Log Server 2",
+              "logId": "8775BFE7597CF88C43995FBDF36EFF568D475636FF4AB560C1B4EAFF5EA0830F",
+              "origin": "Embedded in certificate",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3046022100C6855A53B787BE801867ED1405D5DD08C490DB124F5D5FF436A61273E353DC60022100860754390CE476310079F5DB34043922E78E136CAAC98CD77138F48F685F9139",
+              "status": "Verified",
+              "timestamp": 1544409017406.0
+            },
+            {
+              "hashAlgorithm": "SHA-256",
+              "logDescription": "Google 'Skydiver' log",
+              "logId": "BBD9DFBC1F8A71B593942397AA927B473857950AAB52E81A909664368E1ED185",
+              "origin": "Embedded in certificate",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "30440220692045FDE8F8167350AA59E976B94A668A579840BBC3D89B52FED6B4D3C9138102203E5715854DF48CE7CF156AE655AD04F9B7FDBDC1E2A36FE4F04A1523F6CF1800",
+              "status": "Verified",
+              "timestamp": 1544409017501.0
+            }
+          ],
+          "subjectName": "js.aq.qq.com",
+          "validFrom": 1544409015,
+          "validTo": 1576031415
+        },
+        "securityState": "secure",
+        "status": 200,
+        "statusText": "",
+        "timing": {
+          "connectEnd": 4861.23,
+          "connectStart": 4072.109,
+          "dnsEnd": 4072.109,
+          "dnsStart": 0.421,
+          "proxyEnd": -1,
+          "proxyStart": -1,
+          "pushEnd": 0,
+          "pushStart": 0,
+          "receiveHeadersEnd": 4878.226,
+          "requestTime": 14690.551652,
+          "sendEnd": 4861.495,
+          "sendStart": 4861.406,
+          "sslEnd": 4861.225,
+          "sslStart": 4076.328,
+          "workerReady": -1,
+          "workerStart": -1
+        },
+        "url": "https://js.aq.qq.com/js/aq_common.js"
+      },
+      "timestamp": 14695.431464,
+      "type": "Script"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "dataLength": 6537,
+      "encodedDataLength": 0,
+      "requestId": "1000002151.2",
+      "timestamp": 14695.431564
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "encodedDataLength": 2983,
+      "requestId": "1000002151.2",
+      "shouldReportCorbBlocking": false,
+      "timestamp": 14695.430692
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "documentURL": "https://wx.qq.com/",
+      "frameId": "D1EC1F63B4EB0227AA7C6F4F40B3DAA1",
+      "hasUserGesture": false,
+      "initiator": {
+        "lineNumber": 1216,
+        "type": "parser",
+        "url": "https://wx.qq.com/"
+      },
+      "loaderId": "1BB2FA9061DCB9CC80DF77AE9E084C05",
+      "request": {
+        "headers": {
+          "Referer": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/css/c8dda94a1c135ba17e5706ebc4aab1bf.css",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36"
+        },
+        "initialPriority": "Low",
+        "method": "GET",
+        "mixedContentType": "none",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/img/2zrdI1g.jpg"
+      },
+      "requestId": "1000002151.16",
+      "timestamp": 14695.444311,
+      "type": "Image",
+      "wallTime": 1558850509.60103
+    }
+  },
+  {
+    "method": "Network.resourceChangedPriority",
+    "params": {
+      "newPriority": "High",
+      "requestId": "1000002151.16",
+      "timestamp": 14695.44806
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "documentURL": "https://wx.qq.com/",
+      "frameId": "D1EC1F63B4EB0227AA7C6F4F40B3DAA1",
+      "hasUserGesture": false,
+      "initiator": {
+        "stack": {
+          "callFrames": [
+            {
+              "columnNumber": 27841,
+              "functionName": "send",
+              "lineNumber": 3,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 23317,
+              "functionName": "ajax",
+              "lineNumber": 3,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 10364,
+              "functionName": "getUUID",
+              "lineNumber": 4,
+              "scriptId": "21",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/js/index_d782358.js"
+            },
+            {
+              "columnNumber": 13358,
+              "functionName": "c",
+              "lineNumber": 1,
+              "scriptId": "21",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/js/index_d782358.js"
+            },
+            {
+              "columnNumber": 15478,
+              "functionName": "",
+              "lineNumber": 1,
+              "scriptId": "21",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/js/index_d782358.js"
+            },
+            {
+              "columnNumber": 16802,
+              "functionName": "r",
+              "lineNumber": 9,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 16915,
+              "functionName": "i",
+              "lineNumber": 9,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 2097,
+              "functionName": "",
+              "lineNumber": 10,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 26633,
+              "functionName": "",
+              "lineNumber": 9,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 1120,
+              "functionName": "o",
+              "lineNumber": 9,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 26499,
+              "functionName": "y",
+              "lineNumber": 9,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 22943,
+              "functionName": "s",
+              "lineNumber": 9,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 22566,
+              "functionName": "",
+              "lineNumber": 9,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 23415,
+              "functionName": "r",
+              "lineNumber": 9,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 25477,
+              "functionName": "h",
+              "lineNumber": 9,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 6357,
+              "functionName": "",
+              "lineNumber": 12,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 23717,
+              "functionName": "s.fn",
+              "lineNumber": 10,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 25058,
+              "functionName": "$digest",
+              "lineNumber": 10,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 26582,
+              "functionName": "$apply",
+              "lineNumber": 10,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 7001,
+              "functionName": "",
+              "lineNumber": 9,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 16802,
+              "functionName": "r",
+              "lineNumber": 9,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 6909,
+              "functionName": "i",
+              "lineNumber": 9,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 7108,
+              "functionName": "ee",
+              "lineNumber": 9,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 3714,
+              "functionName": "",
+              "lineNumber": 1,
+              "scriptId": "21",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/js/index_d782358.js"
+            },
+            {
+              "columnNumber": 3747,
+              "functionName": "",
+              "lineNumber": 1,
+              "scriptId": "21",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/js/index_d782358.js"
+            },
+            {
+              "columnNumber": 106,
+              "functionName": "t",
+              "lineNumber": 0,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 57,
+              "functionName": "",
+              "lineNumber": 0,
+              "scriptId": "21",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/js/index_d782358.js"
+            },
+            {
+              "columnNumber": 106,
+              "functionName": "t",
+              "lineNumber": 0,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 430,
+              "functionName": "window.webpackJsonp",
+              "lineNumber": 0,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 0,
+              "functionName": "",
+              "lineNumber": 0,
+              "scriptId": "21",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/js/index_d782358.js"
+            }
+          ]
+        },
+        "type": "script"
+      },
+      "loaderId": "1BB2FA9061DCB9CC80DF77AE9E084C05",
+      "request": {
+        "headers": {
+          "Referer": "https://wx.qq.com/",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36"
+        },
+        "initialPriority": "Low",
+        "method": "GET",
+        "mixedContentType": "none",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "url": "https://login.wx.qq.com/jslogin?appid=wx782c26e4c19acffb&redirect_uri=https%3A%2F%2Fwx.qq.com%2Fcgi-bin%2Fmmwebwx-bin%2Fwebwxnewloginpage&fun=new&lang=zh_CN&_=1558850509627"
+      },
+      "requestId": "1000002151.30",
+      "timestamp": 14695.607283,
+      "type": "Script",
+      "wallTime": 1558850509.764
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "documentURL": "https://wx.qq.com/",
+      "frameId": "D1EC1F63B4EB0227AA7C6F4F40B3DAA1",
+      "hasUserGesture": false,
+      "initiator": {
+        "stack": {
+          "callFrames": [
+            {
+              "columnNumber": 26267,
+              "functionName": "",
+              "lineNumber": 1,
+              "scriptId": "21",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/js/index_d782358.js"
+            },
+            {
+              "columnNumber": 24348,
+              "functionName": "r",
+              "lineNumber": 10,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 25058,
+              "functionName": "$digest",
+              "lineNumber": 10,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 26582,
+              "functionName": "$apply",
+              "lineNumber": 10,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 7001,
+              "functionName": "",
+              "lineNumber": 9,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 16802,
+              "functionName": "r",
+              "lineNumber": 9,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 6909,
+              "functionName": "i",
+              "lineNumber": 9,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 7108,
+              "functionName": "ee",
+              "lineNumber": 9,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 3714,
+              "functionName": "",
+              "lineNumber": 1,
+              "scriptId": "21",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/js/index_d782358.js"
+            },
+            {
+              "columnNumber": 3747,
+              "functionName": "",
+              "lineNumber": 1,
+              "scriptId": "21",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/js/index_d782358.js"
+            },
+            {
+              "columnNumber": 106,
+              "functionName": "t",
+              "lineNumber": 0,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 57,
+              "functionName": "",
+              "lineNumber": 0,
+              "scriptId": "21",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/js/index_d782358.js"
+            },
+            {
+              "columnNumber": 106,
+              "functionName": "t",
+              "lineNumber": 0,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 430,
+              "functionName": "window.webpackJsonp",
+              "lineNumber": 0,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 0,
+              "functionName": "",
+              "lineNumber": 0,
+              "scriptId": "21",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/js/index_d782358.js"
+            }
+          ]
+        },
+        "type": "script"
+      },
+      "loaderId": "1BB2FA9061DCB9CC80DF77AE9E084C05",
+      "request": {
+        "headers": {
+          "Referer": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/css/c8dda94a1c135ba17e5706ebc4aab1bf.css",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36"
+        },
+        "initialPriority": "Low",
+        "method": "GET",
+        "mixedContentType": "none",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/css/3d77c66cd37282eb9aae25295f7b0302@2x.png"
+      },
+      "requestId": "1000002151.31",
+      "timestamp": 14695.614725,
+      "type": "Image",
+      "wallTime": 1558850509.77144
+    }
+  },
+  {
+    "method": "Network.resourceChangedPriority",
+    "params": {
+      "newPriority": "High",
+      "requestId": "1000002151.31",
+      "timestamp": 14695.706919
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "documentURL": "https://wx.qq.com/",
+      "frameId": "D1EC1F63B4EB0227AA7C6F4F40B3DAA1",
+      "hasUserGesture": false,
+      "initiator": {
+        "lineNumber": 1226,
+        "type": "parser",
+        "url": "https://wx.qq.com/"
+      },
+      "loaderId": "1BB2FA9061DCB9CC80DF77AE9E084C05",
+      "request": {
+        "headers": {
+          "Referer": "https://wx.qq.com/",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36"
+        },
+        "initialPriority": "Low",
+        "method": "GET",
+        "mixedContentType": "none",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/img/xasUyAI.gif"
+      },
+      "requestId": "1000002151.33",
+      "timestamp": 14695.713211,
+      "type": "Image",
+      "wallTime": 1558850509.86993
+    }
+  },
+  {
+    "method": "Page.domContentEventFired",
+    "params": {
+      "timestamp": 14695.718801
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "frameId": "D1EC1F63B4EB0227AA7C6F4F40B3DAA1",
+      "loaderId": "1BB2FA9061DCB9CC80DF77AE9E084C05",
+      "requestId": "1000002151.16",
+      "response": {
+        "connectionId": 74,
+        "connectionReused": true,
+        "encodedDataLength": 235,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "headers": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "content-length": "40648",
+          "content-type": "image/jpeg",
+          "date": "Sun, 26 May 2019 06:01:51 GMT",
+          "expires": "Mon, 25 May 2020 06:01:51 GMT",
+          "last-modified": "Mon, 16 Jan 2017 06:56:49 GMT",
+          "server": "NWSs",
+          "status": "200",
+          "x-cache-lookup": "Hit From Disktank3",
+          "x-nws-log-uuid": "050cff2f-f2d4-4f51-81cc-b0def03ff929"
+        },
+        "mimeType": "image/jpeg",
+        "protocol": "h2",
+        "remoteIPAddress": "180.153.105.151",
+        "remotePort": 443,
+        "securityDetails": {
+          "certificateId": 0,
+          "certificateTransparencyCompliance": "compliant",
+          "cipher": "AES_128_GCM",
+          "issuer": "GeoTrust RSA CA 2018",
+          "keyExchange": "ECDHE_RSA",
+          "keyExchangeGroup": "P-256",
+          "protocol": "TLS 1.2",
+          "sanList": [
+            "res.weixin.qq.com",
+            "emoji.qpic.cn",
+            "res.wx.qq.com",
+            "weixinconf.qq.com",
+            "res.servicewechat.com",
+            "res2.wx.qq.com",
+            "mpvideo.qpic.cn"
+          ],
+          "signedCertificateTimestampList": [
+            {
+              "hashAlgorithm": "SHA-256",
+              "logDescription": "Google 'Rocketeer' log",
+              "logId": "EE4BBDB775CE60BAE142691FABE19E66A30F7E5FB072D88300C47B897AA8FDCB",
+              "origin": "Embedded in certificate",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "304402206A839D14607076ACAC5E5E97778D2E54C2E5C4BAA0E200A60FD34686709CE18702206A9A6BC4E4A91FCE8178CE2D87F68A90D8AFB87BF8AEFE5CAA8C83976052ABC6",
+              "status": "Verified",
+              "timestamp": 1537272358763.0
+            },
+            {
+              "hashAlgorithm": "SHA-256",
+              "logDescription": "DigiCert Log Server 2",
+              "logId": "8775BFE7597CF88C43995FBDF36EFF568D475636FF4AB560C1B4EAFF5EA0830F",
+              "origin": "Embedded in certificate",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3045022100E9825F97F3BBFB44D6BB2875BD5F26EC191714B8EC871E564955FFE92BB04F43022060266715E3B8C05E7FE6DE8ED4CB12C43E7FB39E8A2EA07D8E5628C119C95515",
+              "status": "Verified",
+              "timestamp": 1537272358911.0
+            }
+          ],
+          "subjectName": "res.weixin.qq.com",
+          "validFrom": 1537228800,
+          "validTo": 1576324800
+        },
+        "securityState": "secure",
+        "status": 200,
+        "statusText": "",
+        "timing": {
+          "connectEnd": -1,
+          "connectStart": -1,
+          "dnsEnd": -1,
+          "dnsStart": -1,
+          "proxyEnd": -1,
+          "proxyStart": -1,
+          "pushEnd": 0,
+          "pushStart": 0,
+          "receiveHeadersEnd": 53.05,
+          "requestTime": 14695.444598,
+          "sendEnd": 0.6,
+          "sendStart": 0.444,
+          "sslEnd": -1,
+          "sslStart": -1,
+          "workerReady": -1,
+          "workerStart": -1
+        },
+        "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/img/2zrdI1g.jpg"
+      },
+      "timestamp": 14695.720338,
+      "type": "Image"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "dataLength": 40648,
+      "encodedDataLength": 0,
+      "requestId": "1000002151.16",
+      "timestamp": 14695.720429
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "dataLength": 0,
+      "encodedDataLength": 40702,
+      "requestId": "1000002151.16",
+      "timestamp": 14695.720903
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "encodedDataLength": 40937,
+      "requestId": "1000002151.16",
+      "shouldReportCorbBlocking": false,
+      "timestamp": 14695.504449
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "frameId": "D1EC1F63B4EB0227AA7C6F4F40B3DAA1",
+      "loaderId": "1BB2FA9061DCB9CC80DF77AE9E084C05",
+      "requestId": "1000002151.31",
+      "response": {
+        "connectionId": 74,
+        "connectionReused": true,
+        "encodedDataLength": 235,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "headers": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "content-length": "128616",
+          "content-type": "image/png",
+          "date": "Sun, 26 May 2019 06:01:52 GMT",
+          "expires": "Mon, 25 May 2020 06:01:51 GMT",
+          "last-modified": "Mon, 16 Jan 2017 11:10:32 GMT",
+          "server": "NWSs",
+          "status": "200",
+          "x-cache-lookup": "Hit From Disktank3",
+          "x-nws-log-uuid": "a10d5178-b100-4bd8-b375-a5aab228fa6d"
+        },
+        "mimeType": "image/png",
+        "protocol": "h2",
+        "remoteIPAddress": "180.153.105.151",
+        "remotePort": 443,
+        "securityDetails": {
+          "certificateId": 0,
+          "certificateTransparencyCompliance": "compliant",
+          "cipher": "AES_128_GCM",
+          "issuer": "GeoTrust RSA CA 2018",
+          "keyExchange": "ECDHE_RSA",
+          "keyExchangeGroup": "P-256",
+          "protocol": "TLS 1.2",
+          "sanList": [
+            "res.weixin.qq.com",
+            "emoji.qpic.cn",
+            "res.wx.qq.com",
+            "weixinconf.qq.com",
+            "res.servicewechat.com",
+            "res2.wx.qq.com",
+            "mpvideo.qpic.cn"
+          ],
+          "signedCertificateTimestampList": [
+            {
+              "hashAlgorithm": "SHA-256",
+              "logDescription": "Google 'Rocketeer' log",
+              "logId": "EE4BBDB775CE60BAE142691FABE19E66A30F7E5FB072D88300C47B897AA8FDCB",
+              "origin": "Embedded in certificate",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "304402206A839D14607076ACAC5E5E97778D2E54C2E5C4BAA0E200A60FD34686709CE18702206A9A6BC4E4A91FCE8178CE2D87F68A90D8AFB87BF8AEFE5CAA8C83976052ABC6",
+              "status": "Verified",
+              "timestamp": 1537272358763.0
+            },
+            {
+              "hashAlgorithm": "SHA-256",
+              "logDescription": "DigiCert Log Server 2",
+              "logId": "8775BFE7597CF88C43995FBDF36EFF568D475636FF4AB560C1B4EAFF5EA0830F",
+              "origin": "Embedded in certificate",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3045022100E9825F97F3BBFB44D6BB2875BD5F26EC191714B8EC871E564955FFE92BB04F43022060266715E3B8C05E7FE6DE8ED4CB12C43E7FB39E8A2EA07D8E5628C119C95515",
+              "status": "Verified",
+              "timestamp": 1537272358911.0
+            }
+          ],
+          "subjectName": "res.weixin.qq.com",
+          "validFrom": 1537228800,
+          "validTo": 1576324800
+        },
+        "securityState": "secure",
+        "status": 200,
+        "statusText": "",
+        "timing": {
+          "connectEnd": -1,
+          "connectStart": -1,
+          "dnsEnd": -1,
+          "dnsStart": -1,
+          "proxyEnd": -1,
+          "proxyStart": -1,
+          "pushEnd": 0,
+          "pushStart": 0,
+          "receiveHeadersEnd": 6.07,
+          "requestTime": 14695.615116,
+          "sendEnd": 0.441,
+          "sendStart": 0.319,
+          "sslEnd": -1,
+          "sslStart": -1,
+          "workerReady": -1,
+          "workerStart": -1
+        },
+        "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/css/3d77c66cd37282eb9aae25295f7b0302@2x.png"
+      },
+      "timestamp": 14695.724285,
+      "type": "Image"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "dataLength": 65536,
+      "encodedDataLength": 0,
+      "requestId": "1000002151.31",
+      "timestamp": 14695.724374
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "frameId": "D1EC1F63B4EB0227AA7C6F4F40B3DAA1",
+      "loaderId": "1BB2FA9061DCB9CC80DF77AE9E084C05",
+      "requestId": "1000002151.30",
+      "response": {
+        "connectionId": 107,
+        "connectionReused": false,
+        "encodedDataLength": 174,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "headers": {
+          "Cache-Control": "no-cache, must-revalidate",
+          "Connection": "keep-alive",
+          "Content-Length": "64",
+          "Content-Type": "text/javascript, text/html; charset=gbk"
+        },
+        "mimeType": "text/html",
+        "protocol": "http/1.1",
+        "remoteIPAddress": "101.227.160.102",
+        "remotePort": 443,
+        "securityDetails": {
+          "certificateId": 0,
+          "certificateTransparencyCompliance": "compliant",
+          "cipher": "AES_128_GCM",
+          "issuer": "DigiCert SHA2 Secure Server CA",
+          "keyExchange": "ECDHE_RSA",
+          "keyExchangeGroup": "P-256",
+          "protocol": "TLS 1.2",
+          "sanList": [
+            "wx.qq.com",
+            "*.wx2.qq.com",
+            "wx2.qq.com",
+            "*.weixin.qq.com",
+            "*.wx.qq.com",
+            "wechat.com",
+            "*.wechat.com",
+            "*.web.wechat.com",
+            "*.web1.wechat.com",
+            "*.web2.wechat.com",
+            "wx1.qq.com",
+            "*.wx1.qq.com",
+            "weixin.qq.com"
+          ],
+          "signedCertificateTimestampList": [
+            {
+              "hashAlgorithm": "SHA-256",
+              "logDescription": "Google 'Pilot' log",
+              "logId": "A4B90990B418581487BB13A2CC67700A3C359804F91BDFB8E377CD0EC80DDC10",
+              "origin": "Embedded in certificate",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3045022100A90F72BEA70C66C710AB708EA722C1BAD82BD81B8A79D410C6A3A5A248FBC375022072BBB105867A186A1BFEE318040A6EB56A5DFC3CAC593FA3203AEEF001E58F08",
+              "status": "Verified",
+              "timestamp": 1529559658840.0
+            },
+            {
+              "hashAlgorithm": "SHA-256",
+              "logDescription": "DigiCert Log Server 2",
+              "logId": "8775BFE7597CF88C43995FBDF36EFF568D475636FF4AB560C1B4EAFF5EA0830F",
+              "origin": "Embedded in certificate",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "304502203A9067F1509B92FB8CEC6F7D4DF53B850E4A2D68FBDFC704BFF69BF661554F25022100EF8D58348AF130E1C1CF3A8F3400005F38006C51652E4DCA9448D8390C07DF5C",
+              "status": "Verified",
+              "timestamp": 1529559659053.0
+            }
+          ],
+          "subjectName": "*.wx.qq.com",
+          "validFrom": 1529539200,
+          "validTo": 1563451200
+        },
+        "securityState": "secure",
+        "status": 200,
+        "statusText": "OK",
+        "timing": {
+          "connectEnd": 37.182,
+          "connectStart": 6.837,
+          "dnsEnd": 6.837,
+          "dnsStart": 0.239,
+          "proxyEnd": -1,
+          "proxyStart": -1,
+          "pushEnd": 0,
+          "pushStart": 0,
+          "receiveHeadersEnd": 76.778,
+          "requestTime": 14695.607535,
+          "sendEnd": 37.294,
+          "sendStart": 37.258,
+          "sslEnd": 37.177,
+          "sslStart": 12.109,
+          "workerReady": -1,
+          "workerStart": -1
+        },
+        "url": "https://login.wx.qq.com/jslogin?appid=wx782c26e4c19acffb&redirect_uri=https%3A%2F%2Fwx.qq.com%2Fcgi-bin%2Fmmwebwx-bin%2Fwebwxnewloginpage&fun=new&lang=zh_CN&_=1558850509627"
+      },
+      "timestamp": 14695.72503,
+      "type": "Script"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "dataLength": 64,
+      "encodedDataLength": 0,
+      "requestId": "1000002151.30",
+      "timestamp": 14695.725113
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "dataLength": 0,
+      "encodedDataLength": 64,
+      "requestId": "1000002151.30",
+      "timestamp": 14695.725267
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "encodedDataLength": 238,
+      "requestId": "1000002151.30",
+      "shouldReportCorbBlocking": false,
+      "timestamp": 14695.684768
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "frameId": "D1EC1F63B4EB0227AA7C6F4F40B3DAA1",
+      "loaderId": "1BB2FA9061DCB9CC80DF77AE9E084C05",
+      "requestId": "1000002151.33",
+      "response": {
+        "connectionId": 74,
+        "connectionReused": true,
+        "encodedDataLength": 232,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "headers": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "content-length": "928",
+          "content-type": "image/gif",
+          "date": "Sun, 26 May 2019 06:01:52 GMT",
+          "expires": "Mon, 25 May 2020 06:01:51 GMT",
+          "last-modified": "Wed, 08 Aug 2018 08:33:19 GMT",
+          "server": "NWSs",
+          "status": "200",
+          "x-cache-lookup": "Hit From Disktank3",
+          "x-nws-log-uuid": "2c6adbc7-013f-4023-936c-ff6ed2df00b0"
+        },
+        "mimeType": "image/gif",
+        "protocol": "h2",
+        "remoteIPAddress": "180.153.105.151",
+        "remotePort": 443,
+        "securityDetails": {
+          "certificateId": 0,
+          "certificateTransparencyCompliance": "compliant",
+          "cipher": "AES_128_GCM",
+          "issuer": "GeoTrust RSA CA 2018",
+          "keyExchange": "ECDHE_RSA",
+          "keyExchangeGroup": "P-256",
+          "protocol": "TLS 1.2",
+          "sanList": [
+            "res.weixin.qq.com",
+            "emoji.qpic.cn",
+            "res.wx.qq.com",
+            "weixinconf.qq.com",
+            "res.servicewechat.com",
+            "res2.wx.qq.com",
+            "mpvideo.qpic.cn"
+          ],
+          "signedCertificateTimestampList": [
+            {
+              "hashAlgorithm": "SHA-256",
+              "logDescription": "Google 'Rocketeer' log",
+              "logId": "EE4BBDB775CE60BAE142691FABE19E66A30F7E5FB072D88300C47B897AA8FDCB",
+              "origin": "Embedded in certificate",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "304402206A839D14607076ACAC5E5E97778D2E54C2E5C4BAA0E200A60FD34686709CE18702206A9A6BC4E4A91FCE8178CE2D87F68A90D8AFB87BF8AEFE5CAA8C83976052ABC6",
+              "status": "Verified",
+              "timestamp": 1537272358763.0
+            },
+            {
+              "hashAlgorithm": "SHA-256",
+              "logDescription": "DigiCert Log Server 2",
+              "logId": "8775BFE7597CF88C43995FBDF36EFF568D475636FF4AB560C1B4EAFF5EA0830F",
+              "origin": "Embedded in certificate",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3045022100E9825F97F3BBFB44D6BB2875BD5F26EC191714B8EC871E564955FFE92BB04F43022060266715E3B8C05E7FE6DE8ED4CB12C43E7FB39E8A2EA07D8E5628C119C95515",
+              "status": "Verified",
+              "timestamp": 1537272358911.0
+            }
+          ],
+          "subjectName": "res.weixin.qq.com",
+          "validFrom": 1537228800,
+          "validTo": 1576324800
+        },
+        "securityState": "secure",
+        "status": 200,
+        "statusText": "",
+        "timing": {
+          "connectEnd": -1,
+          "connectStart": -1,
+          "dnsEnd": -1,
+          "dnsStart": -1,
+          "proxyEnd": -1,
+          "proxyStart": -1,
+          "pushEnd": 0,
+          "pushStart": 0,
+          "receiveHeadersEnd": 7.297,
+          "requestTime": 14695.713528,
+          "sendEnd": 0.423,
+          "sendStart": 0.292,
+          "sslEnd": -1,
+          "sslStart": -1,
+          "workerReady": -1,
+          "workerStart": -1
+        },
+        "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/img/xasUyAI.gif"
+      },
+      "timestamp": 14695.745338,
+      "type": "Image"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "dataLength": 928,
+      "encodedDataLength": 0,
+      "requestId": "1000002151.33",
+      "timestamp": 14695.745431
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "dataLength": 0,
+      "encodedDataLength": 937,
+      "requestId": "1000002151.33",
+      "timestamp": 14695.745652
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "encodedDataLength": 1169,
+      "requestId": "1000002151.33",
+      "shouldReportCorbBlocking": false,
+      "timestamp": 14695.721133
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "dataLength": 63080,
+      "encodedDataLength": 128769,
+      "requestId": "1000002151.31",
+      "timestamp": 14695.745904
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "encodedDataLength": 129004,
+      "requestId": "1000002151.31",
+      "shouldReportCorbBlocking": false,
+      "timestamp": 14695.635828
+    }
+  },
+  {
+    "method": "Page.loadEventFired",
+    "params": {
+      "timestamp": 14695.782489
+    }
+  },
+  {
+    "method": "Page.frameStoppedLoading",
+    "params": {
+      "frameId": "D1EC1F63B4EB0227AA7C6F4F40B3DAA1"
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "documentURL": "https://wx.qq.com/",
+      "frameId": "D1EC1F63B4EB0227AA7C6F4F40B3DAA1",
+      "hasUserGesture": false,
+      "initiator": {
+        "stack": {
+          "callFrames": [
+            {
+              "columnNumber": 27841,
+              "functionName": "send",
+              "lineNumber": 3,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 23317,
+              "functionName": "ajax",
+              "lineNumber": 3,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 10684,
+              "functionName": "checkLogin",
+              "lineNumber": 4,
+              "scriptId": "21",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/js/index_d782358.js"
+            },
+            {
+              "columnNumber": 13858,
+              "functionName": "",
+              "lineNumber": 1,
+              "scriptId": "21",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/js/index_d782358.js"
+            },
+            {
+              "columnNumber": 20356,
+              "functionName": "c",
+              "lineNumber": 10,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 21013,
+              "functionName": "",
+              "lineNumber": 10,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 26263,
+              "functionName": "$eval",
+              "lineNumber": 10,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 24788,
+              "functionName": "$digest",
+              "lineNumber": 10,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 26374,
+              "functionName": "",
+              "lineNumber": 10,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 18052,
+              "functionName": "a",
+              "lineNumber": 9,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            },
+            {
+              "columnNumber": 19821,
+              "functionName": "",
+              "lineNumber": 9,
+              "scriptId": "19",
+              "url": "https://res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_924df7a.js"
+            }
+          ]
+        },
+        "type": "script"
+      },
+      "loaderId": "1BB2FA9061DCB9CC80DF77AE9E084C05",
+      "request": {
+        "headers": {
+          "Referer": "https://wx.qq.com/",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36"
+        },
+        "initialPriority": "Low",
+        "method": "GET",
+        "mixedContentType": "none",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "url": "https://login.wx.qq.com/cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=gcRXCdu7-Q==&tip=1&r=222618506&_=1558850509628"
+      },
+      "requestId": "1000002151.38",
+      "timestamp": 14695.784903,
+      "type": "Script",
+      "wallTime": 1558850509.94162
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "documentURL": "https://wx.qq.com/",
+      "frameId": "D1EC1F63B4EB0227AA7C6F4F40B3DAA1",
+      "hasUserGesture": false,
+      "initiator": {
+        "type": "other"
+      },
+      "loaderId": "1BB2FA9061DCB9CC80DF77AE9E084C05",
+      "request": {
+        "headers": {
+          "Referer": "https://wx.qq.com/",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36"
+        },
+        "initialPriority": "Low",
+        "method": "GET",
+        "mixedContentType": "none",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "url": "https://login.weixin.qq.com/qrcode/gcRXCdu7-Q=="
+      },
+      "requestId": "1000002151.39",
+      "timestamp": 14695.787006,
+      "type": "Image",
+      "wallTime": 1558850509.94373
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "documentURL": "https://wx.qq.com/",
+      "frameId": "D1EC1F63B4EB0227AA7C6F4F40B3DAA1",
+      "hasUserGesture": false,
+      "initiator": {
+        "type": "other"
+      },
+      "loaderId": "1BB2FA9061DCB9CC80DF77AE9E084C05",
+      "request": {
+        "headers": {
+          "Referer": "https://wx.qq.com/",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36"
+        },
+        "initialPriority": "High",
+        "method": "GET",
+        "mixedContentType": "none",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "url": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico"
+      },
+      "requestId": "1000002151.40",
+      "timestamp": 14695.789223,
+      "type": "Other",
+      "wallTime": 1558850509.94594
+    }
+  }
+]

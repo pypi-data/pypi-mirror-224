@@ -1,0 +1,7 @@
+{
+  "2.py::TestClass::()::test_two": true,
+  "2.py::test_main": true,
+  "ldap_test.py": true,
+  "run_time.py": true,
+  "tailweb/bak/test_web.py": true
+}

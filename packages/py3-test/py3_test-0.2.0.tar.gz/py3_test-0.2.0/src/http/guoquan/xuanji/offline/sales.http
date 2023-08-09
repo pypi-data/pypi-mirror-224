@@ -1,0 +1,890 @@
+
+@local =  http://127.0.0.1:15601
+@dev = https://hwdev-xuanjiapi.zzgqsh.com
+@dev-admin = http://hwdev-adminapi.gqshintra.com:8000/api/xuanji-business
+
+@test = https://test-xuanjiapi.zzgqsh.com
+@test-admin = http://test-adminapi.gqshintra.com:8000/api/xuanji-business
+
+@prod = https://xuanjiapi.zzgqsh.com
+
+
+### POST
+POST {{local}}/api/v1/offline/sales/shop_target_dc
+content-type: application/json
+token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VySWQiOiIzYzJhOGFiMy0xY2JmLTQxMmMtYWFmNS0xOGJkY2JjZTg1M2UiLCJzdWIiOiJ5YW56aGl4dWUiLCJpc3MiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImlhdCI6MTYxMTgzMTcwNSwiYXVkIjoicmVzdGFwaXVzZXIiLCJleHAiOjQ3NjU0MzE3MDUsIm5iZiI6MTYxMTgzMTcwNX0.fLaYGcl7rw_bD-RPDvj_PHBEaIPm-H_5dQcOadnvaLM
+
+{
+    "cols": [
+
+    ],
+    "filters": [
+
+    ],
+    "limit": 200
+}
+
+
+### POST
+POST {{prod}}/api/v1/offline/sales/shop_dc
+content-type: application/json
+token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VySWQiOiIzYzJhOGFiMy0xY2JmLTQxMmMtYWFmNS0xOGJkY2JjZTg1M2UiLCJzdWIiOiJ5YW56aGl4dWUiLCJpc3MiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImlhdCI6MTYxMTgzMTcwNSwiYXVkIjoicmVzdGFwaXVzZXIiLCJleHAiOjQ3NjU0MzE3MDUsIm5iZiI6MTYxMTgzMTcwNX0.fLaYGcl7rw_bD-RPDvj_PHBEaIPm-H_5dQcOadnvaLM
+
+{
+    "limit":10,
+    "offset":0,
+    "sort":"",
+    "order":"",
+    "cols":[
+
+    ],
+    "filters":[
+        {
+            "name": "sdate",
+            "filterType": "EQ",
+            "filterValue": [
+                "2021-07-25"
+            ]
+        }
+    ]
+}
+
+
+### POST
+POST {{prod}}/api/v1/offline/sales/analysis
+content-type: application/json
+token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VySWQiOiIzYzJhOGFiMy0xY2JmLTQxMmMtYWFmNS0xOGJkY2JjZTg1M2UiLCJzdWIiOiJ5YW56aGl4dWUiLCJpc3MiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImlhdCI6MTYxMTgzMTcwNSwiYXVkIjoicmVzdGFwaXVzZXIiLCJleHAiOjQ3NjU0MzE3MDUsIm5iZiI6MTYxMTgzMTcwNX0.fLaYGcl7rw_bD-RPDvj_PHBEaIPm-H_5dQcOadnvaLM
+
+{
+    "cols": [
+
+    ],
+    "filters": [
+        {
+            "name": "store_shop_code",
+            "filterType": "EQ",
+            "filterValue": [
+                "346585"
+            ]
+        },
+           {
+            "filterType":"GE",
+            "filterValue":[
+                "2021-02-22"
+            ],
+            "name":"sdate"
+        },
+        {
+            "filterType":"LE",
+            "filterValue":[
+                "2022-02-22"
+            ],
+            "name":"sdate"
+        }
+    ],
+      "limit":5,
+    "offset":0,
+    "sort":"a.fnumber",
+    "order":"desc"
+}
+
+
+
+### POST
+POST {{local}}/api/v1/offline/sales/channel_analysis
+content-type: application/json
+token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VySWQiOiIzYzJhOGFiMy0xY2JmLTQxMmMtYWFmNS0xOGJkY2JjZTg1M2UiLCJzdWIiOiJ5YW56aGl4dWUiLCJpc3MiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImlhdCI6MTYxMTgzMTcwNSwiYXVkIjoicmVzdGFwaXVzZXIiLCJleHAiOjQ3NjU0MzE3MDUsIm5iZiI6MTYxMTgzMTcwNX0.fLaYGcl7rw_bD-RPDvj_PHBEaIPm-H_5dQcOadnvaLM
+
+{
+    "cols":[
+
+    ],
+    "filters":[
+        {
+            "name":"store_shop_code",
+            "filterType":"EQ",
+            "filterValue":[
+                "617670"
+            ]
+        },
+        {
+            "name":"sdate",
+            "filterType":"GE",
+            "filterValue":[
+                "2021-09-29"
+            ]
+        },
+        {
+            "name":"sdate",
+            "filterType":"LE",
+            "filterValue":[
+                "2021-09-29"
+            ]
+        }
+    ],
+    "limit":10,
+    "offset":0,
+    "sort":"channel_amount_ratio",
+    "order":"desc"
+}
+
+
+### POST
+POST {{local}}/api/v1/instant/sales/shop_bill_day
+content-type: application/json
+token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VySWQiOiJhZDdmNjg4ZS1mM2RjLTRkMjQtYTVhMS1hODgwZjNkMDUzZDkiLCJzdWIiOiJ5dXdlbmhhbyIsImlzcyI6IjA5OGY2YmNkNDYyMWQzNzNjYWRlNGU4MzI2MjdiNGY2IiwiaWF0IjoxNjE1NDUwMzY3LCJhdWQiOiJyZXN0YXBpdXNlciIsImV4cCI6NDc2OTA1MDM2NywibmJmIjoxNjE1NDUwMzY3fQ.IGGQ0TCf5Pnjg3Amf8rS8nsLU__t6-fMeL1JtMWGNEk
+
+{
+    "cols": [
+
+    ],
+    "filters": [
+        {
+            "name": "sdate",
+            "filterType": "EQ",
+            "filterValue": [
+                "2021-04-07"
+            ]
+        },
+        {
+            "name": "pos_shop_no",
+            "filterType": "EQ",
+            "filterValue": [
+                "310044"
+            ]
+        }
+    ],
+    "limit":5,
+    "offset":0
+}
+
+
+
+
+### POST
+POST {{dev}}/api/v1/offline/sales/shop_sales_dc
+content-type: application/json
+token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VySWQiOiIzYzJhOGFiMy0xY2JmLTQxMmMtYWFmNS0xOGJkY2JjZTg1M2UiLCJzdWIiOiJ5YW56aGl4dWUiLCJpc3MiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImlhdCI6MTYxMTgzMTcwNSwiYXVkIjoicmVzdGFwaXVzZXIiLCJleHAiOjQ3NjU0MzE3MDUsIm5iZiI6MTYxMTgzMTcwNX0.fLaYGcl7rw_bD-RPDvj_PHBEaIPm-H_5dQcOadnvaLM
+
+{
+    "filters":[
+        {
+            "filterType":"EQ",
+            "filterValue":[
+                "410622"
+            ],
+            "name":"store_shop_code"
+        },
+        {
+            "filterType":"GE",
+            "filterValue":[
+                "2021-11-25"
+            ],
+            "name":"sdate"
+        },
+        {
+            "filterType":"LE",
+            "filterValue":[
+                "2021-11-26"
+            ],
+            "name":"sdate"
+        }
+    ],
+      "limit":5,
+    "offset":0
+}
+
+
+
+### POST
+POST {{local}}/api/v1/offline/sales/member_sales_dc
+content-type: application/json
+token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VySWQiOiIzYzJhOGFiMy0xY2JmLTQxMmMtYWFmNS0xOGJkY2JjZTg1M2UiLCJzdWIiOiJ5YW56aGl4dWUiLCJpc3MiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImlhdCI6MTYxMTgzMTcwNSwiYXVkIjoicmVzdGFwaXVzZXIiLCJleHAiOjQ3NjU0MzE3MDUsIm5iZiI6MTYxMTgzMTcwNX0.fLaYGcl7rw_bD-RPDvj_PHBEaIPm-H_5dQcOadnvaLM
+
+{
+    "filters":[
+        {
+            "filterType":"EQ",
+            "filterValue":[
+                "410622"
+            ],
+            "name":"store_shop_code"
+        },
+        {
+            "filterType":"GE",
+            "filterValue":[
+                "2021-11-25"
+            ],
+            "name":"sdate"
+        },
+        {
+            "filterType":"LE",
+            "filterValue":[
+                "2021-11-26"
+            ],
+            "name":"sdate"
+        }
+    ]
+}
+
+
+### POST
+POST {{local}}/api/v1/offline/sales/shop_sales_dc
+content-type: application/json
+token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VySWQiOiIzYzJhOGFiMy0xY2JmLTQxMmMtYWFmNS0xOGJkY2JjZTg1M2UiLCJzdWIiOiJ5YW56aGl4dWUiLCJpc3MiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImlhdCI6MTYxMTgzMTcwNSwiYXVkIjoicmVzdGFwaXVzZXIiLCJleHAiOjQ3NjU0MzE3MDUsIm5iZiI6MTYxMTgzMTcwNX0.fLaYGcl7rw_bD-RPDvj_PHBEaIPm-H_5dQcOadnvaLM
+
+{
+    "filters":[
+        {
+            "filterType":"EQ",
+            "filterValue":[
+                "310014"
+            ],
+            "name":"store_shop_code"
+        },
+        {
+            "filterType":"GE",
+            "filterValue":[
+                "2022-01-09"
+            ],
+            "name":"sdate"
+        },
+        {
+            "filterType":"LE",
+            "filterValue":[
+                "2022-01-09"
+            ],
+            "name":"sdate"
+        }
+    ]
+}
+
+### POST
+POST {{local}}/api/v1/offline/sales/order_num_rank_dc
+content-type: application/json
+token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VySWQiOiIzYzJhOGFiMy0xY2JmLTQxMmMtYWFmNS0xOGJkY2JjZTg1M2UiLCJzdWIiOiJ5YW56aGl4dWUiLCJpc3MiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImlhdCI6MTYxMTgzMTcwNSwiYXVkIjoicmVzdGFwaXVzZXIiLCJleHAiOjQ3NjU0MzE3MDUsIm5iZiI6MTYxMTgzMTcwNX0.fLaYGcl7rw_bD-RPDvj_PHBEaIPm-H_5dQcOadnvaLM
+
+{
+    "filters":[
+        {
+            "filterType":"EQ",
+            "filterValue":[
+                "410622"
+            ],
+            "name":"store_shop_code"
+        },
+        {
+            "filterType":"GE",
+            "filterValue":[
+                "2021-11-25"
+            ],
+            "name":"sdate"
+        },
+        {
+            "filterType":"LE",
+            "filterValue":[
+                "2021-11-26"
+            ],
+            "name":"sdate"
+        }
+    ]
+}
+
+
+### POST
+POST {{local}}/api/v1/offline/sales/member_receivable_rank_dc
+content-type: application/json
+token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VySWQiOiIzYzJhOGFiMy0xY2JmLTQxMmMtYWFmNS0xOGJkY2JjZTg1M2UiLCJzdWIiOiJ5YW56aGl4dWUiLCJpc3MiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImlhdCI6MTYxMTgzMTcwNSwiYXVkIjoicmVzdGFwaXVzZXIiLCJleHAiOjQ3NjU0MzE3MDUsIm5iZiI6MTYxMTgzMTcwNX0.fLaYGcl7rw_bD-RPDvj_PHBEaIPm-H_5dQcOadnvaLM
+
+{
+    "filters":[
+        {
+            "filterType":"EQ",
+            "filterValue":[
+                "410622"
+            ],
+            "name":"store_shop_code"
+        },
+        {
+            "filterType":"GE",
+            "filterValue":[
+                "2021-11-25"
+            ],
+            "name":"sdate"
+        },
+        {
+            "filterType":"LE",
+            "filterValue":[
+                "2021-11-26"
+            ],
+            "name":"sdate"
+        }
+    ]
+}
+
+
+### POST
+POST {{local}}/api/v1/offline/sales/analysis_dc
+content-type: application/json
+token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VySWQiOiIzYzJhOGFiMy0xY2JmLTQxMmMtYWFmNS0xOGJkY2JjZTg1M2UiLCJzdWIiOiJ5YW56aGl4dWUiLCJpc3MiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImlhdCI6MTYxMTgzMTcwNSwiYXVkIjoicmVzdGFwaXVzZXIiLCJleHAiOjQ3NjU0MzE3MDUsIm5iZiI6MTYxMTgzMTcwNX0.fLaYGcl7rw_bD-RPDvj_PHBEaIPm-H_5dQcOadnvaLM
+
+{
+    "cols": [
+
+    ],
+    "filters": [
+        {
+            "name": "store_shop_code",
+            "filterType": "EQ",
+            "filterValue": [
+                "310014"
+            ]
+        },
+           {
+            "filterType":"GE",
+            "filterValue":[
+                "2022-01-09"
+            ],
+            "name":"sdate"
+        },
+        {
+            "filterType":"LE",
+            "filterValue":[
+                "2022-01-09"
+            ],
+            "name":"sdate"
+        }
+    ]
+}
+
+
+
+### POST
+POST {{local}}/api/v1/offline/sales/analysis_dc
+content-type: application/json
+token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VySWQiOiIzYzJhOGFiMy0xY2JmLTQxMmMtYWFmNS0xOGJkY2JjZTg1M2UiLCJzdWIiOiJ5YW56aGl4dWUiLCJpc3MiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImlhdCI6MTYxMTgzMTcwNSwiYXVkIjoicmVzdGFwaXVzZXIiLCJleHAiOjQ3NjU0MzE3MDUsIm5iZiI6MTYxMTgzMTcwNX0.fLaYGcl7rw_bD-RPDvj_PHBEaIPm-H_5dQcOadnvaLM
+
+{
+    "cols": [
+
+    ],
+    "filters": [
+        {
+            "name": "store_shop_code",
+            "filterType": "EQ",
+            "filterValue": [
+                "310014"
+            ]
+        },
+           {
+            "filterType":"GE",
+            "filterValue":[
+                "2022-01-09"
+            ],
+            "name":"sdate"
+        },
+        {
+            "filterType":"LE",
+            "filterValue":[
+                "2022-01-09"
+            ],
+            "name":"sdate"
+        }
+    ]
+}
+
+
+### POST
+POST {{local}}/api/v1/offline/sales/avg_item_num_rate_dc
+content-type: application/json
+token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VySWQiOiIzYzJhOGFiMy0xY2JmLTQxMmMtYWFmNS0xOGJkY2JjZTg1M2UiLCJzdWIiOiJ5YW56aGl4dWUiLCJpc3MiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImlhdCI6MTYxMTgzMTcwNSwiYXVkIjoicmVzdGFwaXVzZXIiLCJleHAiOjQ3NjU0MzE3MDUsIm5iZiI6MTYxMTgzMTcwNX0.fLaYGcl7rw_bD-RPDvj_PHBEaIPm-H_5dQcOadnvaLM
+
+{
+    "cols": [
+
+    ],
+    "filters": [
+        {
+            "name": "store_shop_code",
+            "filterType": "EQ",
+            "filterValue": [
+                "310014"
+            ]
+        },
+           {
+            "filterType":"GE",
+            "filterValue":[
+                "2022-01-09"
+            ],
+            "name":"sdate"
+        },
+        {
+            "filterType":"LE",
+            "filterValue":[
+                "2022-01-09"
+            ],
+            "name":"sdate"
+        }
+    ]
+}
+
+
+### POST
+POST {{local}}/api/v1/offline/sales/shop_cust_rate_rank_dc
+content-type: application/json
+token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VySWQiOiIzYzJhOGFiMy0xY2JmLTQxMmMtYWFmNS0xOGJkY2JjZTg1M2UiLCJzdWIiOiJ5YW56aGl4dWUiLCJpc3MiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImlhdCI6MTYxMTgzMTcwNSwiYXVkIjoicmVzdGFwaXVzZXIiLCJleHAiOjQ3NjU0MzE3MDUsIm5iZiI6MTYxMTgzMTcwNX0.fLaYGcl7rw_bD-RPDvj_PHBEaIPm-H_5dQcOadnvaLM
+
+{
+    "cols": [
+
+    ],
+    "filters": [
+        {
+            "name": "store_shop_code",
+            "filterType": "EQ",
+            "filterValue": [
+                "310014"
+            ]
+        },
+           {
+            "filterType":"GE",
+            "filterValue":[
+                "2022-01-09"
+            ],
+            "name":"sdate"
+        },
+        {
+            "filterType":"LE",
+            "filterValue":[
+                "2022-01-09"
+            ],
+            "name":"sdate"
+        }
+    ]
+}
+
+
+
+### POST
+POST {{local}}/api/v1/offline/sales/basket_coefficient_rank_dc
+content-type: application/json
+token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VySWQiOiIzYzJhOGFiMy0xY2JmLTQxMmMtYWFmNS0xOGJkY2JjZTg1M2UiLCJzdWIiOiJ5YW56aGl4dWUiLCJpc3MiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImlhdCI6MTYxMTgzMTcwNSwiYXVkIjoicmVzdGFwaXVzZXIiLCJleHAiOjQ3NjU0MzE3MDUsIm5iZiI6MTYxMTgzMTcwNX0.fLaYGcl7rw_bD-RPDvj_PHBEaIPm-H_5dQcOadnvaLM
+
+{
+    "filters":[
+        {
+            "filterType":"EQ",
+            "filterValue":[
+                "410622"
+            ],
+            "name":"store_shop_code"
+        },
+        {
+            "filterType":"GE",
+            "filterValue":[
+                "2021-11-25"
+            ],
+            "name":"sdate"
+        },
+        {
+            "filterType":"LE",
+            "filterValue":[
+                "2021-11-26"
+            ],
+            "name":"sdate"
+        }
+    ]
+}
+
+
+
+
+### POST
+POST {{local}}/api/v1/offline/sales/avg_item_num_rank_dc
+content-type: application/json
+token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VySWQiOiIzYzJhOGFiMy0xY2JmLTQxMmMtYWFmNS0xOGJkY2JjZTg1M2UiLCJzdWIiOiJ5YW56aGl4dWUiLCJpc3MiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImlhdCI6MTYxMTgzMTcwNSwiYXVkIjoicmVzdGFwaXVzZXIiLCJleHAiOjQ3NjU0MzE3MDUsIm5iZiI6MTYxMTgzMTcwNX0.fLaYGcl7rw_bD-RPDvj_PHBEaIPm-H_5dQcOadnvaLM
+
+{
+    "filters":[
+        {
+            "filterType":"EQ",
+            "filterValue":[
+                "410622"
+            ],
+            "name":"store_shop_code"
+        },
+        {
+            "filterType":"GE",
+            "filterValue":[
+                "2021-11-25"
+            ],
+            "name":"sdate"
+        },
+        {
+            "filterType":"LE",
+            "filterValue":[
+                "2021-11-26"
+            ],
+            "name":"sdate"
+        }
+    ]
+}
+
+
+
+### POST
+POST {{local}}/api/v1/offline/sales/member_sales_rank_dc
+content-type: application/json
+token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VySWQiOiIzYzJhOGFiMy0xY2JmLTQxMmMtYWFmNS0xOGJkY2JjZTg1M2UiLCJzdWIiOiJ5YW56aGl4dWUiLCJpc3MiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImlhdCI6MTYxMTgzMTcwNSwiYXVkIjoicmVzdGFwaXVzZXIiLCJleHAiOjQ3NjU0MzE3MDUsIm5iZiI6MTYxMTgzMTcwNX0.fLaYGcl7rw_bD-RPDvj_PHBEaIPm-H_5dQcOadnvaLM
+
+{
+    "filters":[
+        {
+            "filterType":"EQ",
+            "filterValue":[
+                "410622"
+            ],
+            "name":"store_shop_code"
+        },
+        {
+            "filterType":"GE",
+            "filterValue":[
+                "2021-11-25"
+            ],
+            "name":"sdate"
+        },
+        {
+            "filterType":"LE",
+            "filterValue":[
+                "2021-11-26"
+            ],
+            "name":"sdate"
+        }
+    ]
+}
+
+
+
+### POST
+POST {{local}}/api/v1/offline/sales/shop_sales_dc
+content-type: application/json
+token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VySWQiOiIzYzJhOGFiMy0xY2JmLTQxMmMtYWFmNS0xOGJkY2JjZTg1M2UiLCJzdWIiOiJ5YW56aGl4dWUiLCJpc3MiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImlhdCI6MTYxMTgzMTcwNSwiYXVkIjoicmVzdGFwaXVzZXIiLCJleHAiOjQ3NjU0MzE3MDUsIm5iZiI6MTYxMTgzMTcwNX0.fLaYGcl7rw_bD-RPDvj_PHBEaIPm-H_5dQcOadnvaLM
+
+{
+    "filters":[
+        {
+            "filterType":"EQ",
+            "filterValue":[
+                "410622"
+            ],
+            "name":"store_shop_code"
+        },
+        {
+            "filterType":"GE",
+            "filterValue":[
+                "2021-11-25"
+            ],
+            "name":"sdate"
+        },
+        {
+            "filterType":"LE",
+            "filterValue":[
+                "2021-11-26"
+            ],
+            "name":"sdate"
+        }
+    ]
+}
+
+
+
+### POST
+POST {{prod}}/api/v1/offline/sales/shop_sales_dc
+content-type: application/json
+token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VySWQiOiIzYzJhOGFiMy0xY2JmLTQxMmMtYWFmNS0xOGJkY2JjZTg1M2UiLCJzdWIiOiJ5YW56aGl4dWUiLCJpc3MiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImlhdCI6MTYxMTgzMTcwNSwiYXVkIjoicmVzdGFwaXVzZXIiLCJleHAiOjQ3NjU0MzE3MDUsIm5iZiI6MTYxMTgzMTcwNX0.fLaYGcl7rw_bD-RPDvj_PHBEaIPm-H_5dQcOadnvaLM
+
+{
+    "filters":[
+        {
+            "filterType":"EQ",
+            "filterValue":[
+                "410622"
+            ],
+            "name":"store_shop_code"
+        },
+        {
+            "filterType":"GE",
+            "filterValue":[
+                "2021-11-25"
+            ],
+            "name":"sdate"
+        },
+        {
+            "filterType":"LE",
+            "filterValue":[
+                "2021-11-26"
+            ],
+            "name":"sdate"
+        }
+    ]
+}
+
+
+### POST
+POST {{local}}/api/v1/offline/sales/receivable_amount_rank_dc
+content-type: application/json
+token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VySWQiOiIzYzJhOGFiMy0xY2JmLTQxMmMtYWFmNS0xOGJkY2JjZTg1M2UiLCJzdWIiOiJ5YW56aGl4dWUiLCJpc3MiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImlhdCI6MTYxMTgzMTcwNSwiYXVkIjoicmVzdGFwaXVzZXIiLCJleHAiOjQ3NjU0MzE3MDUsIm5iZiI6MTYxMTgzMTcwNX0.fLaYGcl7rw_bD-RPDvj_PHBEaIPm-H_5dQcOadnvaLM
+
+{
+    "filters":[
+        {
+            "filterType":"EQ",
+            "filterValue":[
+                "310009"
+            ],
+            "name":"store_shop_code"
+        },
+        {
+            "filterType":"GE",
+            "filterValue":[
+                "2022-01-17"
+            ],
+            "name":"sdate"
+        },
+        {
+            "filterType":"LE",
+            "filterValue":[
+                "2022-01-23"
+            ],
+            "name":"sdate"
+        }
+    ]
+}
+
+
+### POST
+POST {{dev}}/api/v1/offline/sales/shop_mt_rate_rank_dc
+content-type: application/json
+token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VySWQiOiIzYzJhOGFiMy0xY2JmLTQxMmMtYWFmNS0xOGJkY2JjZTg1M2UiLCJzdWIiOiJ5YW56aGl4dWUiLCJpc3MiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImlhdCI6MTYxMTgzMTcwNSwiYXVkIjoicmVzdGFwaXVzZXIiLCJleHAiOjQ3NjU0MzE3MDUsIm5iZiI6MTYxMTgzMTcwNX0.fLaYGcl7rw_bD-RPDvj_PHBEaIPm-H_5dQcOadnvaLM
+
+{
+    "filters":[
+        {
+            "filterType":"EQ",
+            "filterValue":[
+                "410622"
+            ],
+            "name":"store_shop_code"
+        },
+        {
+            "filterType":"GE",
+            "filterValue":[
+                "2021-11-25"
+            ],
+            "name":"sdate"
+        },
+        {
+            "filterType":"LE",
+            "filterValue":[
+                "2021-11-26"
+            ],
+            "name":"sdate"
+        }
+    ]
+}
+
+### POST
+POST {{local}}/api/v1/offline/sales/shop_sales_trend_dc
+content-type: application/json
+token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VySWQiOiIzYzJhOGFiMy0xY2JmLTQxMmMtYWFmNS0xOGJkY2JjZTg1M2UiLCJzdWIiOiJ5YW56aGl4dWUiLCJpc3MiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImlhdCI6MTYxMTgzMTcwNSwiYXVkIjoicmVzdGFwaXVzZXIiLCJleHAiOjQ3NjU0MzE3MDUsIm5iZiI6MTYxMTgzMTcwNX0.fLaYGcl7rw_bD-RPDvj_PHBEaIPm-H_5dQcOadnvaLM
+
+{
+    "filters":[
+        {
+            "filterType":"EQ",
+            "filterValue":[
+                "410622"
+            ],
+            "name":"store_shop_code"
+        },
+        {
+            "filterType":"GE",
+            "filterValue":[
+                "2021-11-25"
+            ],
+            "name":"sdate"
+        },
+        {
+            "filterType":"LE",
+            "filterValue":[
+                "2021-11-26"
+            ],
+            "name":"sdate"
+        }
+    ]
+}
+
+
+
+
+### POST
+POST {{local}}/api/v1/offline/sales/shop_sales_rank_dc
+content-type: application/json
+token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VySWQiOiIzYzJhOGFiMy0xY2JmLTQxMmMtYWFmNS0xOGJkY2JjZTg1M2UiLCJzdWIiOiJ5YW56aGl4dWUiLCJpc3MiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImlhdCI6MTYxMTgzMTcwNSwiYXVkIjoicmVzdGFwaXVzZXIiLCJleHAiOjQ3NjU0MzE3MDUsIm5iZiI6MTYxMTgzMTcwNX0.fLaYGcl7rw_bD-RPDvj_PHBEaIPm-H_5dQcOadnvaLM
+
+{
+    "filters":[
+        {
+            "filterType":"EQ",
+            "filterValue":[
+                "310009"
+            ],
+            "name":"store_shop_code"
+        },
+        {
+            "filterType":"GE",
+            "filterValue":[
+                "2022-01-17"
+            ],
+            "name":"sdate"
+        },
+        {
+            "filterType":"LE",
+            "filterValue":[
+                "2022-01-23"
+            ],
+            "name":"sdate"
+        }
+    ]
+}
+
+
+
+
+### POST
+POST {{local}}/api/v1/offline/sales/analysis
+content-type: application/json
+token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VySWQiOiIzYzJhOGFiMy0xY2JmLTQxMmMtYWFmNS0xOGJkY2JjZTg1M2UiLCJzdWIiOiJ5YW56aGl4dWUiLCJpc3MiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImlhdCI6MTYxMTgzMTcwNSwiYXVkIjoicmVzdGFwaXVzZXIiLCJleHAiOjQ3NjU0MzE3MDUsIm5iZiI6MTYxMTgzMTcwNX0.fLaYGcl7rw_bD-RPDvj_PHBEaIPm-H_5dQcOadnvaLM
+
+{
+    "filters":[
+        {
+            "filterType":"EQ",
+            "filterValue":[
+                "310014"
+            ],
+            "name":"store_shop_code"
+        },
+        {
+            "filterType":"GE",
+            "filterValue":[
+                "2022-01-09"
+            ],
+            "name":"sdate"
+        },
+        {
+            "filterType":"LE",
+            "filterValue":[
+                "2022-01-09"
+            ],
+            "name":"sdate"
+        }
+    ]
+}
+
+
+
+
+### POST
+POST {{dev}}/api/v1/offline/sales/survey
+content-type: application/json
+token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VySWQiOiIzYzJhOGFiMy0xY2JmLTQxMmMtYWFmNS0xOGJkY2JjZTg1M2UiLCJzdWIiOiJ5YW56aGl4dWUiLCJpc3MiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImlhdCI6MTYxMTgzMTcwNSwiYXVkIjoicmVzdGFwaXVzZXIiLCJleHAiOjQ3NjU0MzE3MDUsIm5iZiI6MTYxMTgzMTcwNX0.fLaYGcl7rw_bD-RPDvj_PHBEaIPm-H_5dQcOadnvaLM
+
+{
+    "filters":[
+        {
+            "filterType":"EQ",
+            "filterValue":[
+                "310014"
+            ],
+            "name":"store_shop_code"
+        },
+        {
+            "filterType":"GE",
+            "filterValue":[
+                "2022-01-09"
+            ],
+            "name":"sdate"
+        },
+        {
+            "filterType":"LE",
+            "filterValue":[
+                "2022-04-14"
+            ],
+            "name":"sdate"
+        }
+    ]
+}
+
+
+### POST
+POST {{local}}/api/v1/offline/sales/trend_year_dc
+content-type: application/json
+token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VySWQiOiIzYzJhOGFiMy0xY2JmLTQxMmMtYWFmNS0xOGJkY2JjZTg1M2UiLCJzdWIiOiJ5YW56aGl4dWUiLCJpc3MiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImlhdCI6MTYxMTgzMTcwNSwiYXVkIjoicmVzdGFwaXVzZXIiLCJleHAiOjQ3NjU0MzE3MDUsIm5iZiI6MTYxMTgzMTcwNX0.fLaYGcl7rw_bD-RPDvj_PHBEaIPm-H_5dQcOadnvaLM
+
+{
+    "filters":[
+        {
+            "filterType":"EQ",
+            "filterValue":[
+                "310010"
+            ],
+            "name":"store_shop_code"
+        }
+    ],
+    "sort":"year",
+    "order":"asc"
+}
+
+
+
+### POST
+POST {{dev}}/api/v1/offline/sales/trend_month_dc
+content-type: application/json
+token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VySWQiOiIzYzJhOGFiMy0xY2JmLTQxMmMtYWFmNS0xOGJkY2JjZTg1M2UiLCJzdWIiOiJ5YW56aGl4dWUiLCJpc3MiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImlhdCI6MTYxMTgzMTcwNSwiYXVkIjoicmVzdGFwaXVzZXIiLCJleHAiOjQ3NjU0MzE3MDUsIm5iZiI6MTYxMTgzMTcwNX0.fLaYGcl7rw_bD-RPDvj_PHBEaIPm-H_5dQcOadnvaLM
+
+{
+    "filters":[
+        {
+            "filterType":"EQ",
+            "filterValue":[
+                "310014"
+            ],
+            "name":"store_shop_code"
+        }
+    ],
+    "sort":"month",
+    "order":"asc"
+}
+
+
+### POST
+POST {{local}}/api/v1/offline/sales/trend_day_dc
+content-type: application/json
+token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VySWQiOiIzYzJhOGFiMy0xY2JmLTQxMmMtYWFmNS0xOGJkY2JjZTg1M2UiLCJzdWIiOiJ5YW56aGl4dWUiLCJpc3MiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImlhdCI6MTYxMTgzMTcwNSwiYXVkIjoicmVzdGFwaXVzZXIiLCJleHAiOjQ3NjU0MzE3MDUsIm5iZiI6MTYxMTgzMTcwNX0.fLaYGcl7rw_bD-RPDvj_PHBEaIPm-H_5dQcOadnvaLM
+
+{
+    "filters":[
+        {
+            "filterType":"EQ",
+            "filterValue":[
+                "310014"
+            ],
+            "name":"store_shop_code"
+        }
+    ],
+    "sort":"day",
+    "order":"asc",
+    "offset":0,
+    "limit":40
+}

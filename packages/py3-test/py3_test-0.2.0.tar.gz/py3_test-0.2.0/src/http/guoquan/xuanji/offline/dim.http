@@ -1,0 +1,108 @@
+
+@local =  http://127.0.0.1:15601
+@dev = https://hwdev-xuanjiapi.zzgqsh.com
+@dev-admin = http://hwdev-adminapi.gqshintra.com:8000/api/xuanji-business
+
+@test = https://test-xuanjiapi.zzgqsh.com
+@test-admin = http://test-adminapi.gqshintra.com:8000/api/xuanji-business
+
+@prod = https://xuanjiapi.zzgqsh.com
+
+
+### POST
+POST {{local}}/api/v1/offline/dim/jd_erp_shop
+content-type: application/json
+token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VySWQiOiIzYzJhOGFiMy0xY2JmLTQxMmMtYWFmNS0xOGJkY2JjZTg1M2UiLCJzdWIiOiJ5YW56aGl4dWUiLCJpc3MiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImlhdCI6MTYxMTgzMTcwNSwiYXVkIjoicmVzdGFwaXVzZXIiLCJleHAiOjQ3NjU0MzE3MDUsIm5iZiI6MTYxMTgzMTcwNX0.fLaYGcl7rw_bD-RPDvj_PHBEaIPm-H_5dQcOadnvaLM
+
+{}
+
+
+### POST
+POST {{dev}}/api/v1/offline/dim/jd_erp_shop_dc
+content-type: application/json
+token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VySWQiOiIzYzJhOGFiMy0xY2JmLTQxMmMtYWFmNS0xOGJkY2JjZTg1M2UiLCJzdWIiOiJ5YW56aGl4dWUiLCJpc3MiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImlhdCI6MTYxMTgzMTcwNSwiYXVkIjoicmVzdGFwaXVzZXIiLCJleHAiOjQ3NjU0MzE3MDUsIm5iZiI6MTYxMTgzMTcwNX0.fLaYGcl7rw_bD-RPDvj_PHBEaIPm-H_5dQcOadnvaLM
+
+{
+    "limit":10,
+    "offset":0,
+    "sort":"",
+    "order":"",
+    "cols":[
+
+    ],
+    "filters":[
+
+    ]
+}
+
+
+content-type: application/js
+
+### POST
+POST {{dev}}/api/v1/offline/dim/jd_erp_shop_dcon
+token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VySWQiOiIzYzJhOGFiMy0xY2JmLTQxMmMtYWFmNS0xOGJkY2JjZTg1M2UiLCJzdWIiOiJ5YW56aGl4dWUiLCJpc3MiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImlhdCI6MTYxMTgzMTcwNSwiYXVkIjoicmVzdGFwaXVzZXIiLCJleHAiOjQ3NjU0MzE3MDUsIm5iZiI6MTYxMTgzMTcwNX0.fLaYGcl7rw_bD-RPDvj_PHBEaIPm-H_5dQcOadnvaLM
+
+{
+    "limit":10,
+    "offset":0,
+    "sort":"",
+    "order":"",
+    "cols":[
+
+    ],
+    "filters":[
+
+    ]
+}
+
+
+
+### POST
+POST {{local}}/api/v1/offline/dim/screen_component
+content-type: application/json
+token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VySWQiOiIzYzJhOGFiMy0xY2JmLTQxMmMtYWFmNS0xOGJkY2JjZTg1M2UiLCJzdWIiOiJ5YW56aGl4dWUiLCJpc3MiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImlhdCI6MTYxMTgzMTcwNSwiYXVkIjoicmVzdGFwaXVzZXIiLCJleHAiOjQ3NjU0MzE3MDUsIm5iZiI6MTYxMTgzMTcwNX0.fLaYGcl7rw_bD-RPDvj_PHBEaIPm-H_5dQcOadnvaLM
+
+{
+    "limit":10,
+    "offset":0,
+    "sort":"",
+    "order":"",
+    "cols":[
+
+    ],
+    "filters":[
+        {
+            "name":"table_name",
+            "filterType":"EQ",
+            "filterValue":[
+                "upd_fresh_salesman"
+            ]
+        }
+    ]
+}
+
+
+
+### POST
+POST {{local}}/api/v1/offline/dim/notice
+content-type: application/json
+token: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VySWQiOiIzYzJhOGFiMy0xY2JmLTQxMmMtYWFmNS0xOGJkY2JjZTg1M2UiLCJzdWIiOiJ5YW56aGl4dWUiLCJpc3MiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImlhdCI6MTYxMTgzMTcwNSwiYXVkIjoicmVzdGFwaXVzZXIiLCJleHAiOjQ3NjU0MzE3MDUsIm5iZiI6MTYxMTgzMTcwNX0.fLaYGcl7rw_bD-RPDvj_PHBEaIPm-H_5dQcOadnvaLM
+
+{
+    "limit":10,
+    "offset":0,
+    "sort":"",
+    "order":"",
+    "cols":[
+
+    ],
+    "filters":[
+        {
+            "name":"type_name",
+            "filterType":"EQ",
+            "filterValue":[
+                "经营分析"
+            ]
+        }
+    ]
+}

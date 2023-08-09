@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8"/>
+    <title>百度安全中心</title>
+    <link href="//aq.baidu.com/hold/asset/img/favicon.ico" rel="shortcut icon"/>
+    <link rel="stylesheet" href="//aq.baidu.com/fe/asset/login/check.css"/>
+    <style type="text/css">
+        .header {
+            position: relative;
+        }
+
+        .header-right {
+            position: absolute;
+            right: 5px;
+            top: 3px;
+            color: #333;
+            font-size: 12px;
+        }
+
+        .header-right .text {
+            font-weight: bold;
+        }
+
+        .header-right .line {
+            margin: 0 3px;
+        }
+
+        .header-right a {
+            text-decoration: underline;
+            color: #00c;
+            font-weight: normal;
+        }
+    </style>
+    <script src="//aq.baidu.com/fe/dep/els/esl.js"></script>
+    <script src="//aq.baidu.com/fe/dep/tangram/1.x/tangram.js"></script>
+    <script>
+        require.config({
+            baseUrl: '//aq.baidu.com/fe',
+            paths: {
+                'ucsec': 'asset'
+            }
+        });
+        require(['ucsec/login/check'], function (check) {
+            T.dom.ready(function () {
+                check.init();
+            });
+        });
+    </script>
+    <script data-require-id="ucsec/login/check" src="//aq.baidu.com/fe/asset/login/check.js" async=""></script>
+    <script data-require-id="ucsec/common/notice" src="//aq.baidu.com/fe/asset/common/notice.js" async=""></script>
+    <script data-require-id="ucsec/common/dialog" src="//aq.baidu.com/fe/asset/common/dialog.js" async=""></script>
+    <script data-require-id="ucsec/common/drag" src="//aq.baidu.com/fe/asset/common/drag.js" async=""></script>
+    <script data-require-id="ucsec/common/mask" src="//aq.baidu.com/fe/asset/common/mask.js" async=""></script>
+</head>
+
+<body>
+<div class="header">
+    <img width="300" height="45" src="//aq.baidu.com/fe/asset/login/img/logo.gif"/>
+    <span class="header-right"><span class="text">上海齐家网</span><span class="line">|</span><a
+            href="//aq.baidu.com/hold/logincheck/logout/">退出</a></span>
+</div>
+<div class="main">
+    <h2 class="title">手机验证</h2>
+
+    <div class="title-tip">为了保护您的账户安全，请先进行安全验证</div>
+    <form id="Form" action="" method="post">
+        <input type="hidden" name="isSubmit" value="1"/>
+        <table class="mt20 table">
+            <tbody>
+            <tr>
+                <th>验证方式：</th>
+                <td>
+                                <span id="poptip-app" class="poptip-wraper" style="display: none;">
+                                    <span class="poptip-trigger">
+                                    </span>
+                                    <div id="poptip-app-body" class="poptip">
+                                        <span class="poptip-arrow poptip-arrow-left">
+                                            <em>◆</em>
+                                            <i>◆</i>
+                                        </span>
+                                         请启动账户安全中心手机版，输入六位动态数字。
+                                    </div>
+                                </span>
+                    <select class="w200" id="uc-sec-code-select" name="vtype">
+
+                        <option value="sms">手机短信</option>
+                    </select>
+                </td>
+            </tr>
+            <tr class="uc-sec-mobile-tr">
+                <th>输入密保手机号：</th>
+                <td>
+                    <input type="text" maxlength="11" id="uc-sec-mobile" class="common-input w200"/>
+                </td>
+            </tr>
+            <tr class="uc-sec-mobile-tr">
+                <td class="error"> </td>
+                <td class="error"><span id="uc-sec-mobile-error"></span>
+                </td>
+            </tr>
+            <tr class="uc-sec-mobile-tr">
+                <th></th>
+                <td>
+                    <input type="button" value="获取验证码" id="uc-sec-get-code-btn"/>
+                </td>
+            </tr>
+            <tr>
+                <td class="error"> </td>
+                <td class="error"></td>
+            </tr>
+            <tr>
+                <th>验证码：</th>
+                <td>
+                    <input type="text" name="code" maxlength="6" class="common-input width80" id="uc-sec-code"/>
+                </td>
+            </tr>
+            <tr>
+                <td class="error"> </td>
+                <td class="error">
+                                <span id="uc-sec-code-error">
+                                                                    </span>
+                </td>
+            </tr>
+            <tr>
+                <th></th>
+                <td>
+                    <input type="button" disabled="" value="确定" id="uc-sec-confirm-btn"/>
+                    <input type="button" class="ml10" value="重新登录" id="uc-sec-cancel-btn"/>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </form>
+    <div id="smsup-wraper" style="">
+        <div class="smsup-random-code">
+            此次页面随机码为<span class="blue">513164</span>
+        </div>
+        <div class="mt20 title-tip">无法及时获取验证码？试试以下方法：</div>
+        <div class="smsup-tip-wraper">
+            1. 中国大陆绑定密保手机的用户可以编辑短信发送
+            <span class="blue">FS@用户名&amp;513164</span>
+            到 <span class="blue">10698000036579</span>
+            进行身份验证，发送后请点击
+            <a id="uc-sec-smsup-trigger" href="javascript:;">这里</a> 登录<br/>
+            2. 若仍不能获取验证码，请联系您的营销顾问。
+        </div>
+    </div>
+</div>
+
+<div class="footer">©2019 Baidu  <a target="_blank" href="http://www.baidu.com/duty/">使用百度前必读</a>  <a target="_blank"
+                                                                                                      href="http://www.baidu.com/">百度首页</a>
+</div>
+
+<script>
+    var VARS = {
+        WEBROOT: '//aq.baidu.com/hold',
+        MOBILE: '',
+        AQ_GET_CODE: '//aq.baidu.com/hold/logincheck/smssend',
+        LOGOUT_URL: '//aq.baidu.com/hold/logincheck/logout/',
+        AQ_CODE_INTERVAL: 60,
+        CHECK_SMSUP_URL: '//aq.baidu.com/hold/logincheck/smsuplink',
+        AQ_BIND_TYPE: 'sms',
+        IS_BIND_APP: '0'
+    };
+</script>
+
+
+<div id="UC-Mask-1558502613511"
+     style="display: none; z-index: 1000; background: rgb(255, 255, 255); opacity: 0.8; position: fixed; left: 0px; top: 0px; width: 1960px; height: 1080px;"></div>
+<div id="UC-FloatWindow-CY" class="floatWindow"><h3 class="title" id="UC-FloatWindow-CY-title"><span
+        class="title-text"></span><span class="title-close" id="UC-FloatWindow-CY-closeBtn"></span></h3>
+    <div id="UC-FloatWindow-CY-main"></div>
+</div>
+</body>
+</html>

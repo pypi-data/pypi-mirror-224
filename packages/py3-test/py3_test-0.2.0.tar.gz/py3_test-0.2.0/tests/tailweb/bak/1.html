@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html xmlns:wb="http://open.weibo.com/wb">
+<head>
+    <meta charset="utf-8">
+    <title>百度推广</title>
+    <script>
+        var start = new Date();
+        var _hmt = _hmt || [];
+    </script>
+    <script>
+        // pc和mobile端会稍有不同，必须严格按照该文档来部署
+        void function (a, b, c, d, e, f, g) {
+            a.alogObjectName = e, a[e] = a[e] || function () {
+                (a[e].q = a[e].q || []).push(arguments)
+            }, a[e].l = a[e].l || +new Date, d = "https:" === a.location.protocol ? "https://fex.bdstatic.com" + d : "http://fex.bdstatic.com" + d;
+            var h = !0;
+            if (a.alogObjectConfig && a.alogObjectConfig.sample) {
+                var i = Math.random();
+                a.alogObjectConfig.rand = i, i > a.alogObjectConfig.sample && (h = !1)
+            }
+            h && (f = b.createElement(c), f.async = !0, f.src = d + "?v=" + ~(new Date / 864e5) + ~(new Date / 864e5), g = b.getElementsByTagName(c)[0], g.parentNode.insertBefore(f, g))
+        }(window, document, "script", "/hunter/alog/alog.min.js", "alog"), void function () {
+            function a() {
+            }
+
+            window.PDC = {
+                mark: function (a, b) {
+                    alog("speed.set", a, b || +new Date), alog.fire && alog.fire("mark")
+                }, init: function (a) {
+                    alog("speed.set", "options", a)
+                }, view_start: a, tti: a, page_ready: a
+            }
+        }();
+        void function (n) {
+            var o = !1;
+            n.onerror = function (n, e, t, c) {
+                var i = !0;
+                return !e && /^script error/i.test(n) && (o ? i = !1 : o = !0), i && alog("exception.send", "exception", {
+                    msg: n,
+                    js: e,
+                    ln: t,
+                    col: c
+                }), !1
+            }, alog("exception.on", "catch", function (n) {
+                alog("exception.send", "exception", {msg: n.msg, js: n.path, ln: n.ln, method: n.method, flag: "catch"})
+            })
+        }(window);
+    </script>
+    <link href="/staticv2/asset/www2-login/css/index.css?20170728" rel="stylesheet" type="text/css"/>
+    <link rel="shortcut icon" type="image/ico" href="https://www.baidu.com/favicon.ico">
+</head>
+<body>
+<script id="update-browser-tip" type="text/template">
+    <div id="browser-up-remind" class="browser-up-remind">
+        <span class="close-remind" id="remind-close-btn" data-monitor="关闭升级提示"></span>
+        尊敬的客户，为了保障您的账户安全，建议您使用百度浏览器访问百度推广
+        <span class="up-link">
+            <a href="http://dl.client.baidu.com/union/getbdwebinstaller.php?tn=90008" data-monitor="下载百度浏览器">
+                下载百度浏览器
+            </a>
+        </span>
+    </div>
+</script>
+<div class="header">
+    <div class="row">
+        <a class="span6 fl ml0" href="http://e.baidu.com/?refer=240" target="_blank">
+            <h1>百度推广</h1>
+        </a>
+        <div class="span14 fl nav js-nav">
+            <div class="item item-short">
+                <div class="title">
+                    <h2>品牌营销</h2>
+                    <span class="arrow"></span>
+                </div>
+                <div class="list">
+                    <h3>品牌曝光</h3>
+                    <p>
+                        <a href="http://yingxiao.baidu.com/product/ma/11.html" target="_blank" data-monitor="品牌地标">
+                            <span></span>品牌地标
+                        </a>
+                    </p>
+                    <h3>品牌辨析</h3>
+                    <p>
+                        <a href="http://yingxiao.baidu.com/product/site/qipaoxian.html" target="_blank"
+                           data-monitor="品牌起跑线"><span></span>品牌起跑线</a>
+                        <a href="http://yingxiao.baidu.com/product/site/wendayingxiao.html" target="_blank"
+                           data-monitor="问答营销"><span></span>问答营销</a>
+                        <a href="http://yingxiao.baidu.com/product/site/pinzhuanpc.html" target="_blank"
+                           data-monitor="品牌专区"><span></span>品牌专区</a>
+                    </p>
+                    <h3>决策工具</h3>
+                    <p>
+                        <a href="http://yingxiao.baidu.com/product/ma/7.html" target="_blank"
+                           data-monitor="百度司南"><span></span>百度司南</a>
+                        <a href="http://yuqing.baidu.com" target="_blank" data-monitor="百度舆情"><span></span>百度舆情</a>
+                        <a href="http://yingxiao.baidu.com/product/vadd/54.html" target="_blank"
+                           data-monitor="百度指数"><span></span>百度指数</a>
+                    </p>
+                </div>
+            </div>
+            <div class="item item-short" data-action="hide-safe">
+                <div class="title">
+                    <h2>效果营销</h2>
+                    <span class="arrow"></span>
+                </div>
+                <div class="list list-large">
+                    <div class="column1">
+                        <h3>搜索推广</h3>
+                        <div class="menu">
+                            <div class="menu-list">
+                                <h4>1.基础知识</h4>
+                                <p>
+                                    <a href="http://yingxiao.baidu.com/support/fc/node_398.html?castk=LTE%3D"
+                                       target="_blank" data-monitor="建立账户结构"><span></span>建立账户结构</a>
+                                    <a href="http://yingxiao.baidu.com/support/fc/node_405.html" target="_blank"
+                                       data-monitor="选择关键词"><span></span>选择关键词</a>
+                                    <a href="http://yingxiao.baidu.com/support/fc/node_453.html" target="_blank"
+                                       data-monitor="设置匹配方法"><span></span>设置匹配方法</a>
+                                    <a href="http://yingxiao.baidu.com/product/fc/71.html" target="_blank"
+                                       data-monitor="高级短语2.0"><span></span>高级短语2.0</a>
+                                    <a href="http://yingxiao.baidu.com/support/fc/node_459.html" target="_blank"
+                                       data-monitor="撰写创意"><span></span>撰写创意</a>
+                                    <a href="http://yingxiao.baidu.com/product/fc/83.html" target="_blank"
+                                       data-monitor="动态创意"><span></span>动态创意</a>
+                                    <a href="http://yingxiao.baidu.com/support/fc/node_487.html" target="_blank"
+                                       data-monitor="上线展现"><span></span>上线展现</a>
+                                    <a href="http://yingxiao.baidu.com/support/fc/node_437.html" target="_blank"
+                                       data-monitor="推广排名"><span></span>推广排名</a>
+                                    <a href="http://yingxiao.baidu.com/support/fc/node_496.html" target="_blank"
+                                       data-monitor="价格计费"><span></span>价格计费</a>
+                                    <a href="http://yingxiao.baidu.com/support/fc/node_498.html" target="_blank"
+                                       data-monitor="点击过滤"><span></span>点击过滤</a>
+                                    <a href="http://yingxiao.baidu.com/product/fc/70.html" target="_blank"
+                                       data-monitor="高级过滤"><span></span>高级过滤</a>
+                                </p>
+                            </div>
+                            <div class="menu-list">
+                                <h4>2.推广样式</h4>
+                                <p>
+                                    <a href="http://yingxiao.baidu.com/product/fc/2.html" target="_blank"
+                                       data-monitor="常规推广样式"><span></span>常规推广样式</a>
+                                    <a href="http://yingxiao.baidu.com/product/fc/34.html" target="_blank"
+                                       data-monitor="优惠页推广"><span></span>优惠页推广</a>
+                                    <a href="http://yingxiao.baidu.com/product/fc/6.html" target="_blank"
+                                       data-monitor="蹊径"><span></span>蹊径</a>
+                                    <a href="http://yingxiao.baidu.com/product/fc/31.html" target="_blank"
+                                       data-monitor="网站头像"><span></span>网站头像</a>
+                                    <a href="http://yingxiao.baidu.com/product/fc/32.html" target="_blank"
+                                       data-monitor="网站认证"><span></span>网站认证</a>
+                                </p>
+                            </div>
+                            <div class="menu-list">
+                                <h4>3.投放平台</h4>
+                                <p>
+                                    <a href="http://yingxiao.baidu.com/product/site/fc.html" target="_blank"
+                                       data-monitor="搜索推广"><span></span>搜索推广</a>
+                                </p>
+                                <h4>4.方案制定</h4>
+                                <p>
+                                    <a href="http://yingxiao.baidu.com/product/fc/4.html" target="_blank"
+                                       data-monitor="关键词工具"><span></span>关键词工具</a>
+                                    <a href="http://yingxiao.baidu.com/product/fc/29.html" target="_blank"
+                                       data-monitor="估算工具"><span></span>估算工具</a>
+                                </p>
+                            </div>
+                            <div class="menu-list">
+                                <h4>5.效果优化</h4>
+                                <p>
+                                    <a href="http://yingxiao.baidu.com/product/fc/3.html" target="_blank"
+                                       data-monitor="智能优化"><span></span>智能优化</a>
+                                    <a href="http://yingxiao.baidu.com/product/fc/56.html" target="_blank"
+                                       data-monitor="转化出价工具"><span></span>转化出价工具</a>
+                                    <a href="http://yingxiao.baidu.com/product/fc/57.html" target="_blank"
+                                       data-monitor="方案实验工具"><span></span>方案实验工具</a>
+                                    <a href="http://yingxiao.baidu.com/topic/254/index.html " target="_blank"
+                                       data-monitor="质量度"><span></span>质量度</a>
+                                </p>
+                            </div>
+                            <div class="menu-list">
+                                <h4>6.账户管理</h4>
+                                <p>
+                                    <a href="http://yingxiao.baidu.com/product/fc/5.html" target="_blank"
+                                       data-monitor="监控文件夹"><span></span>监控文件夹</a>
+                                    <a href="http://yingxiao.baidu.com/product/fc/24.html" target="_blank"
+                                       data-monitor="账户管家"><span></span>账户管家</a>
+                                    <a href="http://yingxiao.baidu.com/product/fc/20.html" target="_blank"
+                                       data-monitor="历史操作查询"><span></span>历史操作查询</a>
+                                    <a href="http://yingxiao.baidu.com/product/fc/19.html" target="_blank"
+                                       data-monitor="推广实况"><span></span>推广实况</a>
+                                    <a href="http://yingxiao.baidu.com/topic/245/index.html" target="_blank"
+                                       data-monitor="百度钱柜"><span></span>百度钱柜</a>
+                                </p>
+                            </div>
+                            <div class="menu-list">
+                                <h4>7.评估报告</h4>
+                                <p>
+                                    <a href="http://yingxiao.baidu.com/product/fc/21.html" target="_blank"
+                                       data-monitor="数据报告"><span></span>数据报告</a>
+                                    <a href="http://yingxiao.baidu.com/product/fc/22.html" target="_blank"
+                                       data-monitor="搜索词报告"><span></span>搜索词报告</a>
+                                    <a href="http://yingxiao.baidu.com/product/fc/23.html" target="_blank"
+                                       data-monitor="转化跟踪工具"><span></span>转化跟踪工具</a>
+                                    <a href="http://yingxiao.baidu.com/product/fc/25.html" target="_blank"
+                                       data-monitor="效果分析工具"><span></span>效果分析工具</a>
+                                    <a href="http://yingxiao.baidu.com/product/fc/28.html" target="_blank"
+                                       data-monitor="市场风向标"><span></span>市场风向标</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column2">
+                        <h3>移动搜索推广</h3>
+                        <p>
+                            <a href="http://yingxiao.baidu.com/product/site/mobilefc.html" target="_blank"
+                               data-monitor="产品专区"><span></span>产品专区</a>
+                        </p>
+                        <h3>知心推广</h3>
+                        <p>
+                            <a href="http://yingxiao.baidu.com/product/site/jiankang.html" target="_blank"
+                               data-monitor="百度健康"><span></span>百度健康</a>
+                            <a href="http://yingxiao.baidu.com/product/site/jiaoyu.html" target="_blank"
+                               data-monitor="百度教育"><span></span>百度教育</a>
+                            <a href="http://yingxiao.baidu.com/product/site/aiwan.html" target="_blank"
+                               data-monitor="百度爱玩"><span></span>百度爱玩</a>
+                            <a href="http://yingxiao.baidu.com/product/site/zhixin_jinrong/index.html" target="_blank"
+                               data-monitor="百度财富"><span></span>百度财富</a>
+                        </p>
+                        <h3>网盟推广</h3>
+                        <p>
+                            <a href="http://yingxiao.baidu.com/product/site/wangmeng.html" target="_blank"
+                               data-monitor="产品专区"><span></span>产品专区</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="item item-long">
+                <div class="title">
+                    <h2>转化与监控</h2>
+                    <span class="arrow"></span>
+                </div>
+                <div class="list list-medium">
+                    <div>
+                        <h3>商机转化</h3>
+                        <p>
+                            <a href="http://yingxiao.baidu.com/product/site/qiao.html" target="_blank"
+                               data-monitor="百度商桥"><span></span>百度商桥</a>
+                            <a href="http://yingxiao.baidu.com/product/site/lxb.html" target="_blank"
+                               data-monitor="百度离线宝"><span></span>百度离线宝</a>
+                            <a href="http://yingxiao.baidu.com/product/vadd/64.html" target="_blank"
+                               data-monitor="百度商务助手"><span></span>百度商务助手</a>
+                        </p>
+                    </div>
+                    <div class="last">
+                        <h3>效果监控</h3>
+                        <p>
+                            <a href="http://yingxiao.baidu.com/product/site/tongji.html" target="_blank"
+                               data-monitor="百度统计"><span></span>百度统计</a>
+                            <a href="http://yingxiao.baidu.com/product/other/62.html" target="_blank"
+                               data-monitor="安全中心"><span></span>安全中心</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="item item-short last">
+                <div class="title">
+                    <h2>高效平台</h2>
+                    <span class="arrow"></span>
+                </div>
+                <div class="list">
+                    <p>
+                        <a href="http://yingxiao.baidu.com/product/site/phoneFc.html" target="_blank"
+                           data-monitor="百度推广手机版"><span></span>百度推广手机版</a>
+                        <a href="http://yingxiao.baidu.com/product/site/editor.html" target="_blank"
+                           data-monitor="百度推广客户端"><span></span>百度推广客户端</a>
+                        <a href="http://open2.baidu.com" target="_blank"
+                           data-monitor="百度商业服务市场"><span></span>百度商业服务市场</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="header-links">
+            <a class="mobile market" href="https://fuwu.baidu.com?mr=cas_link" target="_blank"
+               data-monitor="百度推广手机版(gif)">
+                想做好营销推广，就来商业服务市场！
+            </a>
+            <a href="http://yingxiao.baidu.com/blog/index.html" target="_blank" data-monitor="官方空间">官方空间</a>
+            |
+            <a href="http://yingxiao.baidu.com/" target="_blank" data-monitor="营销中心">营销中心</a>
+            |
+            <a href="http://yingxiao.baidu.com/support/fc/index.html" target="_blank" data-monitor="帮助中心">帮助中心</a>
+            |
+            <a id="favorite" title="百度推广平台" href="http://www2.baidu.com" rel="sidebar" data-monitor="加入收藏">加入收藏</a>
+        </div>
+    </div>
+</div>
+<div class="main-content">
+    <div class="slide">
+        <script id="slide-template" type="text/template">
+            <ul id="slide">
+                <% for (var i = 0; i < banner.length; i++) { %>
+                <li
+                <% if (i !== 0) { %>style="display:none"<% } %>>
+                <a href="<%=banner[i].url%>" target="_blank" data-monitor="大Banner图"
+                   style="background:url(<%=banner[i].imgsrc%>) center center no-repeat;text-decoration: none;"
+                   data-auth=""></a>
+                </li>
+                <% } %>
+            </ul>
+            <ul id="slider-nav" class="slider-nav">
+                <% for (var i = 0; i < banner.length; i++) { %>
+                <li sindex="<%=(i+1)%>"
+                <% if (i === 0) { %>class="on"<% } %>></li>
+                <% } %>
+            </ul>
+        </script>
+    </div>
+    <div class="container row">
+        <script id="qr-code" type="text/template">
+            <div class="qr-code" style="display: none">
+                <a href="http://mobile2.baidu.com/?from=www2dll" target="_blank">
+                    <h3>扫描下载手机版！</h3>
+                </a>
+                <a href="http://mobile2.baidu.com/?from=www2dll" target="_blank">
+                    <img src="/staticv2/asset/www2-login/img/qr-code.png" alt="手机推广二维码">
+                </a>
+            </div>
+        </script>
+
+        <div class="login-container span8 ml0">
+            <div class="tab">
+                <ul class="tab-header">
+                    <li class="login-qr"><span>使用扫码登录，安全便捷</span></li>
+                    <li class="login-account"><span>账号密码登录在这里</span></li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-content-block">
+                        <div id="login-container"></div>
+                    </div>
+                    <div class="tab-content-block">
+                        <div class="qr-login">
+                            <div class="qr-login-main">
+                                <h2>扫码登录</h2>
+                                <div class="qrcode">
+                                    <p class="title">扫一扫登录</p>
+                                    <img id="qr-code-token">
+                                    <p id="qrcode-valid" class="qr-font" style="display: none;">
+                                        二维码已失效
+                                        <a id="refresh-qrcode" href="javascript:void(0);"><span
+                                                class="icon-refresh"></span>点击刷新</a>
+                                    </p>
+                                    <p id="qrcode-ok" style="display: none;">
+                                        <img src="/staticv2/asset/www2-login/img/login-ok.png">
+                                        <br>
+                                        <span class="suc">扫码成功</span>
+                                        <span class="hint">点击手机上的确认按钮即可登录</span>
+                                    </p>
+                                </div>
+
+                                <p class="qr-font" id="qr-open-app">
+                                    打开<a href="http://mobile2.baidu.com/index.html?from=www2dll" target="_blank">
+                                    百度推广App </a>
+                                </p>
+                            </div>
+                            <div id="qr-login-action" class="qr-login-action">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="topics">
+    <div class="topics-head">
+        <div>
+            <span></span>
+            <h2>专题</h2>
+        </div>
+        <a href="http://yingxiao.baidu.com/zhuanti" target="_blank">+更多</a>
+    </div>
+    <div class="underline">
+        <span></span>
+    </div>
+    <script id="topics-template" type="text/template">
+        <div id="topics" class="row">
+            <div class="span8 fl ml0">
+                <a href="<%=topics[0].url%>" target="_blank" data-monitor="专题(图1)">
+                    <img src="<%=topics[0].imgsrc%>" width="280" height="120">
+                </a>
+                <h3><%=topics[0].title%></h3>
+                <p>
+                    <%=topics[0].description%>
+                    <a href="<%=topics[0].url%>" target="_blank" data-monitor="查看详情(图1)">查看详情></a>
+                </p>
+            </div>
+            <div class="span8 fl">
+                <a href="<%=topics[1].url%>" target="_blank" data-monitor="专题(图2)">
+                    <img src="<%=topics[1].imgsrc%>" width="280" height="120">
+                </a>
+                <h3><%=topics[1].title%></h3>
+                <p>
+                    <%=topics[1].description%>
+                    <a href="<%=topics[1].url%>" target="_blank" data-monitor="查看详情(图2)">查看详情></a>
+                </p>
+            </div>
+            <ul class="span8 fl other-topics">
+                <% for (var i = 2; i < topics.length; i++) { %>
+                <li>
+                    <a class="fl" href="<%=topics[i].url%>" target="_blank" data-monitor="分专题">
+                        <h3><%=topics[i].title%></h3>
+                    </a>
+                    <a class="fr" href="<%=topics[i].url%>" target="_blank" data-monitor="分专题">
+                        <%=topics[i].time%>
+                    </a>
+                </li>
+                <% } %>
+            </ul>
+        </div>
+    </script>
+</div>
+<!--[if lt IE 9]>
+<div id="shadeBg" class="update-layer"></div>
+<div id="update-dialog" class="noticeFrame">
+    <div class="frameTop">
+        <span class="frameClsBtn" id="frameCloseBtn"></span>
+        <span class="notcieTitle">系统提示：</span>
+    </div>
+    <p class="noticeContent">
+        尊敬的用户：
+        <br/>
+        <span>您好，系统已暂停对IE8及以下浏览器的支持，请尽快更新浏览器版本或使用百度浏览器。</span>
+    </p>
+    <div class="frameImg"></div>
+    <div class="frameFooter">
+        <a class="downloadBrowserBtn" href="http://dl.client.baidu.com/union/getbdwebinstaller.php?tn=90008"
+           target="_blank"><span></span>立即下载</a>
+    </div>
+</div>
+<!--<![endif]-->
+<div class="footer">
+    ©2017 Baidu
+    <a href="http://www.baidu.com/duty" id="Duty">使用百度前必读</a>
+    <a href="http://www.baidu.com" id="BottomIndex">百度首页</a>
+    国家药监局（京）-经营性-2007-0007
+</div>
+<div class="aside">
+    <div id="attention" class="attention js-hover">
+        <div class="intro">
+            <span></span>
+            <p>关注</p>
+        </div>
+        <div class="more">
+            <div id="marketing-center" class="marketing-center js-hover">
+                <span></span>
+                <p>营销中心</p>
+                <div class="detail">
+                    <img src="http://cas-p3.bdstatic.com/staticv2/asset/www2-login/img/marketing-center.png"
+                         alt="营销中心二维码">
+                    <p>
+                        扫描二维码
+                        <br/>
+                        下载百度营销中心APP
+                    </p>
+                </div>
+            </div>
+            <div id="weibo" class="weibo js-hover">
+                <span></span>
+                <p>微博</p>
+                <div class="detail">
+                    <img src="http://cas-p3.bdstatic.com/staticv2/asset/www2-login/img/weibo.png" alt="营销中心微博">
+                    <p>
+                        Baidu营销中心
+                        <strong class="weibo-atten">
+                            <wb:follow-button uid="1935691940" type="red_1" width="62" height="24"></wb:follow-button>
+                        </strong>
+                    </p>
+                </div>
+            </div>
+            <div id="weico" class="weico js-hover">
+                <span></span>
+                <p>微信</p>
+                <div class="detail">
+                    <img src="http://cas-p3.bdstatic.com/staticv2/asset/www2-login/img/weico.png" alt="营销中心微信">
+                    <p>
+                        扫描二维码
+                        <br/>
+                        关注微信官方账号
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="connect js-hover">
+        <div class="intro">
+            <span></span>
+            <p>联系</p>
+        </div>
+        <div class="more">
+            <p>售前咨询电话：<span>400&nbsp;800&nbsp;8888</span></p>
+            <p>售后咨询电话：<span>400&nbsp;890&nbsp;0088</span></p>
+        </div>
+    </div>
+    <div id="suggest" class="suggest js-hover">
+        <div class="intro">
+            <span></span>
+            <p>建议</p>
+        </div>
+        <div id="suggest" class="more">
+            <div>
+                <p>
+                    <label for="username">用户名：</label>
+                    <input id="username" type="text"/>
+                    （必填<strong>*</strong>）
+                </p>
+                <div id="satisfy" class="satisfy" data-level="4">
+                    <label>满意度：</label>
+                    <p>
+                                <span class="js-star star" data-level="1">
+                                    <span class="on"></span>
+                                </span>
+                        <span class="js-star star" data-level="2">
+                                    <span class="on"></span>
+                                </span>
+                        <span class="js-star star" data-level="3">
+                                    <span class="on"></span>
+                                </span>
+                        <span class="js-star star" data-level="4">
+                                    <span class="on"></span>
+                                </span>
+                        <span class="js-star star" data-level="5">
+                                    <span></span>
+                                </span>
+                    </p>
+                    <span class="score">4分&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;比较满意</span>
+                </div>
+                <textarea id="suggest-detail" placeholder="在此请填写建议，帮助百度推广提升用户体验"></textarea>
+                <input id="post-suggest" class="post-suggest" type="button" value="提交"/>
+            </div>
+            <div id="suggest-alert" class="suggest-alert">
+                <img src="http://cas-p3.bdstatic.com/staticv2/asset/www2-login/img/Thanks.png" alt="感谢建议">
+                <p>
+                    您的评价已成功提交，感谢您的配合！
+                    <br/>
+                    <em>（注意：5秒后自动关闭）</em>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="//cas.baidu.com/staticv2/dep/requirejs/require.js?20170728"></script>
+<script src="/staticv2/asset/www2-login/main.js?20170728"></script>
+<script type="text/javascript">
+    document.write('<script src="//cas.baidu.com/staticv2/dep/common-login/api.js?type=reduce&t=' + +(+new Date()) + '"><' + '/' + 'script>');
+</script>
+<script type="text/javascript">
+    require(['www2-login']);
+</script>
+<script id="hijack-contrast" type="text/template">
+    <html>
+    <head><title>test</title></head>
+    anti hijack test page.
+    </html>
+</script>
+</body>
+</html>

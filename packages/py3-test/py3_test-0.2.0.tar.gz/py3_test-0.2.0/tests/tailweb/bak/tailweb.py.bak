@@ -1,0 +1,103 @@
+# coding:utf-8
+import os
+import time
+import tornado.websocket
+import tornado.httpserver
+import tornado.ioloop
+import tornado.options
+import tornado.web
+import commands
+from tornado import gen
+from tornado.options import define, options
+from tornado.concurrent import run_on_executor
+# 这个并发库在python3自带在python2需要安装sudo pip install futures
+from concurrent.futures import ThreadPoolExecutor
+
+# base_path = "/usr/local/test/"
+base_path = "/"
+
+def tail(filename):
+    # Print last 20 lines
+    with open(filename, "r") as f:
+        lines = f.readlines()
+        return lines[-20:]
+
+def follow(filename,sleep=0.5):
+    # Watch the file for changes
+    stat = os.stat(filename)
+    size = stat.st_size
+    mtime = stat.st_mtime
+    while True:
+        time.sleep(sleep)
+        stat = os.stat(filename)
+        if mtime < stat.st_mtime:
+            mtime = stat.st_mtime
+            with open(filename, "rb") as f:
+                f.seek(size)
+                size = stat.st_size
+                yield f.readlines()
+
+class IndexHandler(tornado.web.RequestHandler):
+
+    def get(self):
+        path_list = [base_path+path for path in os.listdir(base_path)]
+        self.render("index.html", path_list=path_list)
+
+    def post(self, *args, **kwargs):
+        new_path = self.get_argument("cmd").split(' ')[0]
+        if os.path.isdir(new_path) and base_path in new_path:
+            new_path = new_path + "/"
+            path_list = [new_path+path for path in os.listdir(new_path)]
+        else:
+            path_list = [base_path+path for path in os.listdir(base_path)]
+            self.render("index.html", path_list=path_list)
+        option_html = ""
+        for path in path_list:
+            option_html+="<option>{0}</option>".format(path)
+        self.write(option_html)
+
+class ExecuteHandler(tornado.web.RequestHandler):
+
+    def post(self):
+        cmd = self.get_argument("cmd")
+        if ".sh" or "ctsh" in cmd:
+            status, output = commands.getstatusoutput("sh "+cmd)
+            self.write(output)
+        else:
+            self.write("不是shell脚本")
+
+class WebSocketHandler(tornado.websocket.WebSocketHandler):
+    executor = ThreadPoolExecutor(4)
+    def open(self, *args):
+        pass
+
+    @run_on_executor
+    def on_message(self, message):
+        self.write_message("\n".join(tail('ip.txt')))
+
+        for lines in follow('ip.txt'):
+            self.write_message("\n".join(lines))
+
+    def on_close(self):
+        print "Connection closed"
+
+
+if __name__ == '__main__':
+    define("port", default=19999, type=int)
+    tornado.options.parse_command_line()
+
+    settings = {
+    "static_path": os.path.join(os.path.dirname(__file__), "static"),
+    'debug' : True
+    }#配置静态文件路径
+
+    app = tornado.web.Application(
+        handlers=[
+            (r'/', IndexHandler),
+            (r'/execute', ExecuteHandler),
+            (r'/ws', WebSocketHandler),
+
+    ],**settings)
+    http_server = tornado.httpserver.HTTPServer(app)
+    http_server.listen(options.port)
+    tornado.ioloop.IOLoop.instance().start()
