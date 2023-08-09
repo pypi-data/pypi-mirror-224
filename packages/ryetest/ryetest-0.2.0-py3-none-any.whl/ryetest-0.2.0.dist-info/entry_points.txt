@@ -1,0 +1,2 @@
+[console_scripts]
+py3 = cli:main
