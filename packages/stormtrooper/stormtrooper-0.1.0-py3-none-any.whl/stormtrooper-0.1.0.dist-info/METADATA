@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: stormtrooper
+Version: 0.1.0
+Summary: Transformer-based zero and few-shot classification in scikit-learn pipelines
+License: MIT
+Author: Márton Kardos
+Author-email: power.up1163@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: numpy (>=1.23.0,<2.0.0)
+Requires-Dist: scikit-learn (>=1.2.0,<2.0.0)
+Requires-Dist: tqdm (>=4.60.0,<5.0.0)
+Requires-Dist: transformers (>=4.25.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+# stormtrooper
+Transformer-based zero/few shot learning components for scikit-learn pipelines.
+
+## Example
+
+```bash
+pip install stormtrooper
+```
+
+```python
+from stormtrooper import ZeroShotClassifier
+
+class_labels = ["atheism/christianity", "astronomy/space"]
+classifier = ZeroShotClassifier().fit(None, class_labels)
+
+example_texts = [
+    "God came down to earth to save us.",
+    "A new nebula was recently discovered in the proximity of the Oort cloud."
+]
+predictions = classifier.predict(example_texts)
+
+assert list(predictions) == ["atheism/christianity", "astronomy/space"]
+```
+
