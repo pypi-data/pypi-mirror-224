@@ -1,0 +1,10 @@
+argai/__init__.py,sha256=3ZPXjvYhs3DSUXN5HV1YcljqQFQ3sJkJX0bvTiEyh1w,107
+argai/base.py,sha256=_3yTZXD8ecuTKetdXWEcGFAuNr2v8Rjs9e9QqTNfcag,10281
+argai/func.py,sha256=VT0VaEoDhb19hzdzbEb47ZjqwEWvVsBV6nbyN1vXPDo,5920
+argai/storage.py,sha256=W0ZcMWFXnPQycsW79dZ3erolE6GuHaeH0ey91W-ZEpo,1891
+argai/utils.py,sha256=4u4ItYiFD2oxNoDwxkrbwr51tGIUbsuvZlXWkQXgNeU,144
+argai-0.0.1.dist-info/LICENSE,sha256=AOTGeO_Oz4JQhlTfOGsY_QO4_0dyN9ZB2-HVDNYcA40,1086
+argai-0.0.1.dist-info/METADATA,sha256=D5dsSWGhMf6VKMoIMMcl_Utuc0pfH4ANRoo2VhIPJB8,8957
+argai-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+argai-0.0.1.dist-info/top_level.txt,sha256=0U3Eqk8nyGvI4gzPgFa1anZxY0vpfpSaDSbZatzy4rI,6
+argai-0.0.1.dist-info/RECORD,,
