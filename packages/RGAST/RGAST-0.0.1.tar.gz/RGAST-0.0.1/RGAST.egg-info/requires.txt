@@ -1,0 +1,6 @@
+torch
+scanpy
+sklearn
+torch_geometric
+scipy
+numba
