@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+pacoteluis.egg-info/PKG-INFO
+pacoteluis.egg-info/SOURCES.txt
+pacoteluis.egg-info/dependency_links.txt
+pacoteluis.egg-info/top_level.txt
+src/__init__.py
+src/calculaareaedu.py
