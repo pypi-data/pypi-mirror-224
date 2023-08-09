@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+what_time_is_it.egg-info/PKG-INFO
+what_time_is_it.egg-info/SOURCES.txt
+what_time_is_it.egg-info/dependency_links.txt
+what_time_is_it.egg-info/entry_points.txt
+what_time_is_it.egg-info/requires.txt
+what_time_is_it.egg-info/top_level.txt
