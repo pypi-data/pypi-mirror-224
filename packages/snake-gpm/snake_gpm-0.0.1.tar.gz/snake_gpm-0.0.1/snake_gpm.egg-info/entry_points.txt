@@ -1,0 +1,2 @@
+[console_scripts]
+snakey = snake.__main__:main

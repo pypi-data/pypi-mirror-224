@@ -1,0 +1,9 @@
+pyproject.toml
+snake/__init__.py
+snake/__main__.py
+snake/printing.py
+snake_gpm.egg-info/PKG-INFO
+snake_gpm.egg-info/SOURCES.txt
+snake_gpm.egg-info/dependency_links.txt
+snake_gpm.egg-info/entry_points.txt
+snake_gpm.egg-info/top_level.txt
