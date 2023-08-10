@@ -1,0 +1,4 @@
+include pyIBA/aux_files/*
+recursive-include pyIBA/codes/NDF_11_MS *
+recursive-include pyIBA/documentation *
+recursive-include pyIBA/tests *

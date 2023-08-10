@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pyIBA
+Version: 1.0
+Summary: A Python library aimed at simplifying the life of Ion Beam Scientists
+Home-page: https://github.com/m-sequeira/pyIBA
+Author: Miguel Sequeira
+Author-email: miguel.sequeira@tecnico.ulisboa.pt
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.10
