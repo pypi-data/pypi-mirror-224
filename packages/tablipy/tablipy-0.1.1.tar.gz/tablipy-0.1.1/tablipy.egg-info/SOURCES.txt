@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+tablipy.egg-info/PKG-INFO
+tablipy.egg-info/SOURCES.txt
+tablipy.egg-info/dependency_links.txt
+tablipy.egg-info/top_level.txt
+tests/__init__.py
+tests/test_core.py
+tests/test_printing.py
