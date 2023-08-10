@@ -1,0 +1,237 @@
+Metadata-Version: 2.1
+Name: battlebit-api
+Version: 0.0.2
+Summary: An abstraction layer for the BattleBit Public API
+Author-email: David Rodenkirchen <davidr.develop@gmail.com>
+Project-URL: Homepage, https://git.jdrodenkirchen.de/drodenkirchen/battlebit-api
+Project-URL: Bug Tracker, https://git.jdrodenkirchen.de/drodenkirchen
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Games/Entertainment :: First Person Shooters
+Classifier: Typing :: Typed
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests ~=2.31.0
+
+# BattleBit API
+_An abstraction layer for the BattleBit Public API that delivers a convenient data model_
+
+
+```python
+>>> from battlebit_api.BattleBitApiClient import BattleBitApiClient
+>>> battle_bit_api_client = BattleBitApiClient()
+>>> battle_bit_api_client.get_server_list().servers
+[
+    Server(
+        name='172-Z-00',
+        map=Map(name='Isle', size='Medium'),
+        game_mode=<GameMode.DOMINATION: 1>,
+        region=<Region.JAPAN_CENTRAL: 4>,
+        current_players=64,
+        max_players=64,
+        players_in_queue=0,
+        hz=60,
+        is_day_mode=True,
+        is_official=True,
+        has_password=False,
+        anti_cheat=<AntiCheatProvider.EAC: 1>,
+        server_version='Production 2.0.2'
+    ), ...
+]
+```
+
+## Quick Guide
+
+At the top level of each interaction with the BattleBit Public API is the `BattleBitApiClient`. After creating an instance of this class, all available API methods can be called from there.
+
+See documentation for in depth information.
+
+## Documentation
+
+_As the BattleBit API grows, so will this documentation. In the future it will be found in the repository._
+
+* [BattleBitApiClient](#BattleBitApiClient)
+  * [BattleBitApiClientException](#BattleBitApiClient.BattleBitApiClientException)
+  * [BattleBitApiRateLimitExceeded](#BattleBitApiClient.BattleBitApiRateLimitExceeded)
+  * [BattleBitApiClient](#BattleBitApiClient.BattleBitApiClient)
+    * [\_\_init\_\_](#BattleBitApiClient.BattleBitApiClient.__init__)
+    * [get\_server\_list](#BattleBitApiClient.BattleBitApiClient.get_server_list)
+* [ServerList](#ServerList)
+  * [ServerList](#ServerList.ServerList)
+    * [update](#ServerList.ServerList.update)
+    * [search\_for\_server\_by\_name](#ServerList.ServerList.search_for_server_by_name)
+    * [filter\_servers](#ServerList.ServerList.filter_servers)
+    * [get\_servers\_sorted\_by\_current\_players](#ServerList.ServerList.get_servers_sorted_by_current_players)
+
+
+<a id="BattleBitApiClient"></a>
+
+## BattleBitApiClient
+
+<a id="BattleBitApiClient.BattleBitApiClientException"></a>
+
+### BattleBitApiClientException Objects
+
+```python
+class BattleBitApiClientException(Exception)
+```
+
+Thrown for unexpected exceptions.
+
+Note: If you encounter this, please send an error report to this packages' maintainer.
+
+<a id="BattleBitApiClient.BattleBitApiRateLimitExceeded"></a>
+
+### BattleBitApiRateLimitExceeded Objects
+
+```python
+class BattleBitApiRateLimitExceeded(Exception)
+```
+
+Thrown if the rate limit for the BattleBit API is reached
+
+<a id="BattleBitApiClient.BattleBitApiClient"></a>
+
+### BattleBitApiClient Objects
+
+```python
+class BattleBitApiClient()
+```
+
+Entrypoint class for the package. Obtain an instance of this class to make API calls.
+
+<a id="BattleBitApiClient.BattleBitApiClient.__init__"></a>
+
+##### \_\_init\_\_
+
+```python
+def __init__(root_endpoint: str = "https://publicapi.battlebit.cloud") -> None
+```
+
+**Arguments**:
+
+- `root_endpoint`: Endpoint URL to the BattleBit API, should point to the correct one by default.
+
+<a id="BattleBitApiClient.BattleBitApiClient.get_server_list"></a>
+
+##### get\_server\_list
+
+```python
+def get_server_list(with_update: bool = True) -> ServerList
+```
+
+Returns a ServerList object. This does only pull from the BattleBit API if the server list has never
+
+been polled, or if forced to by the with_update switch.
+
+**Arguments**:
+
+- `with_update`: If True, this method will get data from the API, if not it will return the cached ServerList.
+
+**Returns**:
+
+A ServerList object
+
+<a id="ServerBuilder"></a>
+
+## ServerList
+
+<a id="ServerList.ServerList"></a>
+
+### ServerList Objects
+
+```python
+class ServerList()
+```
+
+<a id="ServerList.ServerList.update"></a>
+
+##### update
+
+```python
+def update(servers: list[Server]) -> None
+```
+
+Updates the ServerList with a new set of Servers. Updates the last_updated property to the current timestamp.
+
+**Arguments**:
+
+- `servers`: List of Server objects.
+
+**Returns**:
+
+None
+
+<a id="ServerList.ServerList.search_for_server_by_name"></a>
+
+##### search\_for\_server\_by\_name
+
+```python
+def search_for_server_by_name(search_str: str) -> list[Server]
+```
+
+Returns all Servers in which the string search_str appears as a substring in the Servers name.
+
+This is case sensitive.
+
+**Arguments**:
+
+- `search_str`: Substring to search for in Server names
+
+**Returns**:
+
+All Servers in which the string search_str appears as a substring in the Servers name.
+
+<a id="ServerList.ServerList.filter_servers"></a>
+
+##### filter\_servers
+
+```python
+def filter_servers(server_filter: ServerFilter) -> Self
+```
+
+Returns a new ServerList that only contains Servers that match the ServerFilter.
+
+ServerFilter properties that are set to None are ignored.
+
+**Arguments**:
+
+- `server_filter`: ServerFilter object
+
+**Returns**:
+
+ServerList that only contains Servers that match the ServerFilter
+
+<a id="ServerList.ServerList.get_servers_sorted_by_current_players"></a>
+
+##### get\_servers\_sorted\_by\_current\_players
+
+```python
+def get_servers_sorted_by_current_players(
+        many_to_few: bool = True) -> list[Server]
+```
+
+Returns a list of all Servers in the ServerList, sorted by the amount of current players on it.
+
+**Arguments**:
+
+- `many_to_few`: Used to control if the list is ascending (False) or descending (True)
+
+**Returns**:
+
+List of all Servers in the ServerList, sorted by the amount of current players on it.
+
+## Examples
+
+See [examples in the project repository](https://git.jdrodenkirchen.de/drodenkirchen/battlebit-api/-/tree/main/src/battlebit_api/examples).
+
+## Data Classes
+
+For information about the classes that hold the server data and provide no other functionality, refer to the source code or use your IDE features.
+
+## Regarding completeness
+
+As of the time of this writing, the BattleBit Public API is still heavily under development. This package aims at being resilient towards changes, but can not guarantee that it will always be up to date with the API.
