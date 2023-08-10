@@ -1,0 +1,11 @@
+Django>=3.2
+beautifulsoup4==4.6.3
+django-ckeditor==6.5.1
+django-jinja==2.10.2
+django-model-utils>=4.3.1
+django-nested-admin==3.3.3
+django-sendgrid-v5==1.2.1
+djangorestframework-expander==0.2.3
+djangorestframework==3.14.0
+lxml==4.9.3
+sendgrid==6.9.7
