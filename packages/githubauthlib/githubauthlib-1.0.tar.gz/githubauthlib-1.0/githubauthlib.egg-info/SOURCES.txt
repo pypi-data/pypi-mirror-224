@@ -1,0 +1,6 @@
+README.md
+setup.py
+githubauthlib.egg-info/PKG-INFO
+githubauthlib.egg-info/SOURCES.txt
+githubauthlib.egg-info/dependency_links.txt
+githubauthlib.egg-info/top_level.txt
