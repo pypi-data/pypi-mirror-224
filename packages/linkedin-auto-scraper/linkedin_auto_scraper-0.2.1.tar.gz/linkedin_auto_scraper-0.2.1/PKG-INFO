@@ -1,0 +1,137 @@
+Metadata-Version: 2.1
+Name: linkedin-auto-scraper
+Version: 0.2.1
+Summary: A tool to scrape infomation of people in a particular based on their job title and location
+Author: kenfelix
+Author-email: Kmrapper.kf@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: about-time (>=4.2.1,<5.0.0)
+Requires-Dist: alive-progress (>=3.1.4,<4.0.0)
+Requires-Dist: async-generator (>=1.10,<2.0)
+Requires-Dist: attrs (>=23.1.0,<24.0.0)
+Requires-Dist: black (>=23.7.0,<24.0.0)
+Requires-Dist: certifi (>=2023.7.22,<2024.0.0)
+Requires-Dist: charset-normalizer (>=3.2.0,<4.0.0)
+Requires-Dist: click (>=8.1.6,<9.0.0)
+Requires-Dist: colorama (>=0.4.6,<0.5.0)
+Requires-Dist: commonmark (>=0.9.1,<0.10.0)
+Requires-Dist: exceptiongroup (>=1.1.2,<2.0.0)
+Requires-Dist: fake-useragent (>=1.2.1,<2.0.0)
+Requires-Dist: grapheme (>=0.6.0,<0.7.0)
+Requires-Dist: h11 (>=0.14.0,<0.15.0)
+Requires-Dist: idna (>=3.4,<4.0)
+Requires-Dist: isort (>=5.12.0,<6.0.0)
+Requires-Dist: mypy-extensions (>=1.0.0,<2.0.0)
+Requires-Dist: numpy (>=1.25.2,<2.0.0)
+Requires-Dist: outcome (>=1.2.0,<2.0.0)
+Requires-Dist: packaging (>=23.1,<24.0)
+Requires-Dist: pandas (>=2.0.3,<3.0.0)
+Requires-Dist: pathspec (>=0.11.2,<0.12.0)
+Requires-Dist: platformdirs (>=3.10.0,<4.0.0)
+Requires-Dist: pydantic (>=2.1.1,<3.0.0)
+Requires-Dist: pygments (>=2.16.1,<3.0.0)
+Requires-Dist: pysocks (>=1.7.1,<2.0.0)
+Requires-Dist: python-dateutil (>=2.8.2,<3.0.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Requires-Dist: pytz (>=2023.3,<2024.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: rich (>=13.5.2,<14.0.0)
+Requires-Dist: selenium (>=4.11.2,<5.0.0)
+Requires-Dist: shellingham (>=1.5.0.post1,<2.0.0)
+Requires-Dist: six (>=1.16.0,<2.0.0)
+Requires-Dist: sniffio (>=1.3.0,<2.0.0)
+Requires-Dist: sortedcontainers (>=2.4.0,<3.0.0)
+Requires-Dist: tomli (>=2.0.1,<3.0.0)
+Requires-Dist: tqdm (>=4.66.0,<5.0.0)
+Requires-Dist: trio (>=0.22.2,<0.23.0)
+Requires-Dist: trio-websocket (>=0.10.3,<0.11.0)
+Requires-Dist: typer (>=0.9.0,<0.10.0)
+Requires-Dist: typing-extensions (>=4.7.1,<5.0.0)
+Requires-Dist: urllib3 (>=2.0.4,<3.0.0)
+Requires-Dist: webdriver-manager (>=4.0.0,<5.0.0)
+Requires-Dist: wsproto (>=1.2.0,<2.0.0)
+Requires-Dist: xlsxwriter (>=3.1.2,<4.0.0)
+Description-Content-Type: text/markdown
+
+
+# LinkedIn Auto Scraper
+
+LinkedIn Auto Scraper is a command-line application designed to scrape cleaned information from LinkedIn profiles based on job titles and locations. The app offers two main commands: `login` and `scrape`. Once you've logged in using the `login` command, you can perform continuous scraping without the need to log in again, thanks to the authentication caching feature.
+
+## Table of Contents
+
+-   [Installation](https://chat.openai.com/c/b42c6a84-5afc-4a4e-a9ae-23be4b649973#installation)
+-   [Usage](https://chat.openai.com/c/b42c6a84-5afc-4a4e-a9ae-23be4b649973#usage)
+    -   [Login](https://chat.openai.com/c/b42c6a84-5afc-4a4e-a9ae-23be4b649973#login)
+    -   [Scrape](https://chat.openai.com/c/b42c6a84-5afc-4a4e-a9ae-23be4b649973#scrape)
+-   [Contributing](https://chat.openai.com/c/b42c6a84-5afc-4a4e-a9ae-23be4b649973#contributing)
+-   [License](https://chat.openai.com/c/b42c6a84-5afc-4a4e-a9ae-23be4b649973#license)
+
+## Installation
+
+1.  Ensure you have Python 3.x installed.
+    
+2.  Clone this repository:
+
+-   `git clone https://github.com/your-username/linkedin-auto-scraper.git` 
+    
+-   Navigate to the project directory: 
+    
+-   `cd linkedin-auto-scraper` 
+    
+-   Install the required dependencies  
+
+	 `pip install -r requirements.txt` 
+    
+
+## Usage
+
+### Login
+
+To use the app, you need to log in first. This step is required for authentication purposes. Run the following command:
+
+bash
+
+`linkedin-auto-scraper login` 
+
+This command lets you log in to your LinkedIn account. Follow the prompts to provide your LinkedIn credentials. Your authentication will be cached to allow continuous scraping without repeated logins.
+
+### Scrape
+
+Once you're logged in, you can start scraping LinkedIn profiles based on job titles and locations. Run the following command:
+
+bash
+
+`linkedin-auto-scraper scrape` 
+
+By default, the app will search for profiles related to the HR field. You can customize the search by using the following options:
+
+-   `--search` (`-s`): Specify the search parameter (default: "hr").
+-   `--location` (`-l`): Use it to search for profiles in a specific location (default: None).
+-   `--excel`: This option is required and indicates whether to generate an Excel file with the scraped data (default: no-excel).
+
+Example usage:
+
+bash
+
+`linkedin-auto-scraper scrape --search software engineer --location San Francisco --excel` 
+
+Follow the prompts to enter the desired job title and location. The app will scrape and display cleaned information from LinkedIn profiles matching your criteria.
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
+
+1.  Fork the repository.
+2.  Create a new branch for your feature/bugfix: `git checkout -b feature-name`
+3.  Commit your changes: `git commit -m "Description of changes"`
+4.  Push to the branch: `git push origin feature-name`
+5.  Create a pull request.
+
+## License
+
+This project is licensed under the [MIT License]
+
