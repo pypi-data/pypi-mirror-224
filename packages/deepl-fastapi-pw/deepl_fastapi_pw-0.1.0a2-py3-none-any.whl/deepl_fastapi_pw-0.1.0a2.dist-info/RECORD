@@ -1,0 +1,15 @@
+deepl_fastapi_pw/__init__.py,sha256=NuJpQWC7JqF2A6zxi6CbZCpLmLSQbj-_HrvBD1jTAdE,336
+deepl_fastapi_pw/__main__.py,sha256=sTL0wT_yjXXhNCU4iLCftEcm3cK37_ue7j7ZoYbRXaA,5656
+deepl_fastapi_pw/__main__.py-,sha256=kFfB1oqKHPpLvSo85SGi8kVG2eD3_g3JzxRTZK6dJYA,1749
+deepl_fastapi_pw/deepl_server.py,sha256=GJ0HOmiV-ivv1OIUtBwZ_FhQPv5G7PPljkn07u9ZnzU,4885
+deepl_fastapi_pw/deepl_server.py.portalocker.lock,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deepl_fastapi_pw/deepl_server_async.py,sha256=TEuym1q8Eo0GwKkssEhUP_RX7Pj3BpSdoo1LnKsPKMg,5627
+deepl_fastapi_pw/deepl_tr.py,sha256=ULtoCfHlLrc2tUcUCyUC3Rhz7fEFeUq-lRSRP_mFJ-M,9755
+deepl_fastapi_pw/get_pwbrowser.py,sha256=R021v07GrpY3M-EV7Ixt5COQ19VUD0KTc8V0bmIWRxo,4345
+deepl_fastapi_pw/run_uvicorn.py,sha256=ixASeIUFDXzJBBJayUTFj9wFV6ipaR4X3aLZGc4CgUI,1734
+deepl_fastapi_pw/run_uvicorn_async.py,sha256=tBm_uvfMQjqawCcZCfqm58cOmrG2nbfioSmHxfmc19A,2017
+deepl_fastapi_pw-0.1.0a2.dist-info/entry_points.txt,sha256=F3Z-BiBCm3AZP10nnvkDBMMgpuuAG-BMRzzZzd4jhac,70
+deepl_fastapi_pw-0.1.0a2.dist-info/LICENSE,sha256=2Z4g7Eq1bQRfTQoryBnNsyhlWBpAGylKyp1KFJMlTWU,1085
+deepl_fastapi_pw-0.1.0a2.dist-info/METADATA,sha256=3s5WLe9sgWiPvjYBki5giI5iEHy7nUo3WF5fAo6cUP0,4048
+deepl_fastapi_pw-0.1.0a2.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+deepl_fastapi_pw-0.1.0a2.dist-info/RECORD,,
