@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: fake-chat
+Version: 0.1.0
+Summary: 
+Author: Aurorax-own
+Author-email: 15047150695@163.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: Pandora-ChatGPT (>=1.3.0,<2.0.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+
