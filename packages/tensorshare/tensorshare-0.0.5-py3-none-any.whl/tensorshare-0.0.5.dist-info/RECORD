@@ -1,0 +1,16 @@
+tensorshare/__init__.py,sha256=Evpu6rpv7cFyYBeices2y4qNvl4fXhP5W8K9O8UZ7ZU,576
+tensorshare/import_utils.py,sha256=Lj04_RFqgLE84L4D7F9fy1UhSLO_8uSgZHPi3R_Kgik,6833
+tensorshare/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tensorshare/schema.py,sha256=cEEiQdnH5gikN1ZbchpQNxKMzWkAS4IiYbEUuIo4Tf0,3244
+tensorshare/serialization/__init__.py,sha256=yOc09Sfif5AzlboAv-SIE0oi22JA2URODE3FwHXli6A,198
+tensorshare/serialization/constants.py,sha256=JpTFn2dm-Z30RMqnLBemFBwKuH86p_EZRHrNypM54Ik,1327
+tensorshare/serialization/flax.py,sha256=EJ0K3c7aw-JtGILYqibLYOFfPA9ERTOtn_w1lJXiBNU,1279
+tensorshare/serialization/numpy.py,sha256=kBmt-7TogVp-1Og_z6dnj12dtBAcSDtWhAfCAW6b24U,1263
+tensorshare/serialization/paddle.py,sha256=McTRx6p4DtXaXPOSBOwRkWghg5ht1yujCuRcrD5Wykc,1302
+tensorshare/serialization/processor.py,sha256=687QkLolg6G1XPO9pQa3JHWatcYs_kOuUR8bLqDuFB8,7908
+tensorshare/serialization/tensorflow.py,sha256=zqSkcBLLXvJ-y1d_IRlWY4wx9mNfaRuuyZo40mCw0e0,1380
+tensorshare/serialization/torch.py,sha256=fZLwmwNtocGaAVfCBbDCAO8MylJSMOsH6ZU7PEpY4OE,1277
+tensorshare-0.0.5.dist-info/METADATA,sha256=S-s8tQ9X_LjoR4fsNZxNRQJ3ywTZn4WYblpi2I7MCns,6166
+tensorshare-0.0.5.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+tensorshare-0.0.5.dist-info/licenses/LICENSE,sha256=bEMNl6A5HgdX-jQOKjtZINZ7rgZLfinAE_tyORjZo7E,1108
+tensorshare-0.0.5.dist-info/RECORD,,
