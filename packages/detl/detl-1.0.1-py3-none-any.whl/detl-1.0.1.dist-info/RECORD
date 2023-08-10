@@ -1,0 +1,12 @@
+detl/__init__.py,sha256=DNYwQrhybrV3d3SZC_HHQOB44lIrtHMrH9BYpltaVbw,2316
+detl/core.py,sha256=Roih8v6Iu6a7J_ylqR92YWXZ9YyInJ-VfLB8W5qxVu8,7404
+detl/parsing/__init__.py,sha256=310kCnxzZUMdpddMiTfiyRI7jFYazQWYnQxIFtEMsM0,31
+detl/parsing/common.py,sha256=0ZHpm-J8odTddl11Mf0qHrfU9fL_z1iJajwuUnnHUeI,5666
+detl/parsing/dw4.py,sha256=1g4awpRd0j6Z3sP5O9Fu3tDyU7L7e2hlGKlGeCKChdQ,3813
+detl/parsing/dw5.py,sha256=d5Gqc5kzYQXddgqdNAGQw0sGX4M4nOvL4PWFeoWpKSo,4852
+detl/parsing/utils.py,sha256=ZWg-WXvCO_ytHYDXNSZwqcDOtKa3g_hDpPRiJV0qqUM,249
+detl-1.0.1.dist-info/LICENSE.md,sha256=BEu1fqpO3AXrP4_9CKDq5dSlpg9HwLWeRBftKM_7kAE,34451
+detl-1.0.1.dist-info/METADATA,sha256=szg3ZUmwlZRRHS7kdhBaS18c1b0vo6fmfuahfZku2jA,589
+detl-1.0.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+detl-1.0.1.dist-info/top_level.txt,sha256=ZeA0NG6dINYawlVxDSI5Srf8eKUQfYTTMcTtpa1umMY,5
+detl-1.0.1.dist-info/RECORD,,
