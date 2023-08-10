@@ -1,0 +1,11 @@
+dfds/__init__.py,sha256=HutW6nr5N5CnyTlzL6FyZZPpgEQcSHJvJ1_jRfVi8Xc,58
+dfds/loader.py,sha256=IuV4uaOxH_Gd5Itteq5Jc4uF8b2knZPX7lZ52SEVXdc,993
+dfds/lsl.py,sha256=DZT_oKLTixstovIakrkXG5_4ZGfye6_Mt8CjiLBmvO4,2692
+dfds/parser.py,sha256=XDbDJS47FrEcji2RTnLT6JBjVPfHkjNNI9DIz9JxI_M,3651
+dfds/typing.py,sha256=VdupR1fYbo5ETK_G7Z4z8nx-SLNWjd1QmHlPr5N3lNw,4689
+dfds/url.py,sha256=bDJpHXxeKEeA7sxZ460Rnu65On1J32923s3GyVnVM6o,2627
+streaminghub_pydfds-0.1.24.dist-info/LICENSE,sha256=_1kxwk4UcxlLt8lzJVDeTwBUdFxr5WlHJaFwKm3jRmA,1457
+streaminghub_pydfds-0.1.24.dist-info/METADATA,sha256=h5Sv7CuAMy5v04Myu1bnH3hhdXzm7Q5z2M1BCCJsy0Q,6392
+streaminghub_pydfds-0.1.24.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+streaminghub_pydfds-0.1.24.dist-info/top_level.txt,sha256=gCe_QiC4c8sbrBpUQtcK22aHroBd4P_QE01JIjqKd-A,5
+streaminghub_pydfds-0.1.24.dist-info/RECORD,,
