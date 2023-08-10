@@ -1,0 +1,2 @@
+[console_scripts]
+pqt = pyquicktest.cli:cli
