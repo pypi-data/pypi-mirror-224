@@ -1,0 +1,30 @@
+- _file_name: Total_active_students_353.yaml
+  slice_name: Total active students
+  viz_type: big_number_total
+  params:
+    adhoc_filters:
+    - clause: WHERE
+      comparator: null
+      expressionType: SIMPLE
+      filterOptionName: filter_izid4ixth3q_gxydw8rubap
+      isExtra: false
+      isNew: false
+      operator: IS NOT NULL
+      operatorId: IS_NOT_NULL
+      sqlExpression: null
+      subject: last_login
+    datasource: 8__table
+    extra_form_data: {}
+    granularity_sqla: last_login
+    header_font_size: 0.4
+    metric: count
+    subheader_font_size: 0.15
+    time_format: smart_date
+    time_grain_sqla: P1D
+    time_range: No filter
+    viz_type: big_number_total
+    y_axis_format: SMART_NUMBER
+  cache_timeout: null
+  uuid: 3f358549-8061-4b00-b558-36587301caf4
+  version: 1.0.0
+  dataset_uuid: 462de717-4a87-4ba9-9f68-a3dddc3de6a3

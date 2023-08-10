@@ -1,0 +1,31 @@
+- _file_name: Student_status_351.yaml
+  slice_name: Student status
+  viz_type: pie
+  params:
+    adhoc_filters: []
+    color_scheme: supersetColors
+    datasource: 9__table
+    date_format: smart_date
+    extra_form_data: {}
+    granularity_sqla: modified
+    groupby:
+    - status
+    innerRadius: 30
+    label_type: key
+    labels_outside: true
+    legendOrientation: top
+    legendType: scroll
+    metric: count
+    number_format: SMART_NUMBER
+    outerRadius: 70
+    row_limit: 100
+    show_labels: true
+    show_labels_threshold: 5
+    show_legend: true
+    sort_by_metric: true
+    time_range: No filter
+    viz_type: pie
+  cache_timeout: null
+  uuid: c98a5f66-7027-43a3-ad3b-144a77673dde
+  version: 1.0.0
+  dataset_uuid: 8789d1fc-29d6-4e2b-a15e-ed59e8df34a9
