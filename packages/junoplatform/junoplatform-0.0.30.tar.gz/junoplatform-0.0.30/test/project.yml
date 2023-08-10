@@ -1,0 +1,9 @@
+name: test
+version: 1.1.0
+author: root
+description: template algo project
+plant: gangqu
+module: MBBR
+package_id: d08035a8a1094a9c822f0d1b1cbb34ef
+tag: ac
+message: init
