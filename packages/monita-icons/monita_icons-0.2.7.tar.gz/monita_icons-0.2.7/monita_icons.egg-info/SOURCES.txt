@@ -1,0 +1,12 @@
+LICENSE
+README.md
+monita_icons.py
+setup.py
+./monita_icons.egg-info/PKG-INFO
+./monita_icons.egg-info/SOURCES.txt
+./monita_icons.egg-info/dependency_links.txt
+./monita_icons.egg-info/top_level.txt
+monita_icons.egg-info/PKG-INFO
+monita_icons.egg-info/SOURCES.txt
+monita_icons.egg-info/dependency_links.txt
+monita_icons.egg-info/top_level.txt
