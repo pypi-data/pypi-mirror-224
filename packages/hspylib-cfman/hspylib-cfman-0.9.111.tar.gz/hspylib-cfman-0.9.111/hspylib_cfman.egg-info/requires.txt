@@ -1,0 +1,5 @@
+hspylib
+hspylib-clitt
+retry
+requests
+urllib3<3.0.0
