@@ -1,0 +1,2 @@
+[console_scripts]
+Ostap = Ostap.main:main
