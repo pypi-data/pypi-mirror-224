@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+pyDocuProcess/src/pyDocuProcess.egg-info/PKG-INFO
+pyDocuProcess/src/pyDocuProcess.egg-info/SOURCES.txt
+pyDocuProcess/src/pyDocuProcess.egg-info/dependency_links.txt
+pyDocuProcess/src/pyDocuProcess.egg-info/top_level.txt
+pyDocuProcess/src/pyDocuProcess.py
+pyDocuProcess/src/pyDocuProcess.egg-info/SOURCES.txt
