@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: fxtrade
+Version: 0.0.7
+Summary: 
+License: MIT
+Author: wsuzume
+Author-email: joshnobus@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: numpy (>=1.23.1,<2.0.0)
+Requires-Dist: pandas (>=1.4.3,<2.0.0)
+Requires-Dist: plotly (>=5.7.0,<6.0.0)
+Requires-Dist: pytest (>=7.1.2,<8.0.0)
+Requires-Dist: scipy (>=1.5.4,<2.0.0)
