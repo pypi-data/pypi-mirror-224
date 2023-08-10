@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+data/data_file
+src/tenable_io.egg-info/PKG-INFO
+src/tenable_io.egg-info/SOURCES.txt
+src/tenable_io.egg-info/dependency_links.txt
+src/tenable_io.egg-info/entry_points.txt
+src/tenable_io.egg-info/requires.txt
+src/tenable_io.egg-info/top_level.txt
