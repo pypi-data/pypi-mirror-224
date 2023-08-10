@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: baekjoon-scraper
+Version: 1.0.0
+Summary: A fork of smartwe's baekjoon api with optional argument fields for avoiding scraping detection
+Home-page: https://github.com/RoelYoon/CP-Club-Website-And-API.git
+Author: RoelYoon
+Author-email: roelyoon2@gmail.com
+License: MIT
+Requires-Python: >=3
+Requires-Dist: bs4
+
