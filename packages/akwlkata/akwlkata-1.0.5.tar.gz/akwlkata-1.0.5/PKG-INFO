@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: akwlkata
+Version: 1.0.5
+Summary: wlkata robot driver
+Home-page: UNKNOWN
+Author: Kuture
+Author-email: kuture@163.com
+License: MIT Licence
+Keywords: pip,akwlkata,wlkata,wlkatarobot,kuture,robot
+Platform: any
+
+开塔机械臂驱动，兼容ubuntu与mac OS，优化控制流程
+
