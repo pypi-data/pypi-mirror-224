@@ -1,0 +1,17 @@
+grapes/__init__.py,sha256=QK9uou1pdkEheIR8yZPkP9YJHX_-n66QdxLKVBhVLnI,51
+grapes/cgraph.cp311-win_amd64.pyd,sha256=1mFn_Dh3Y_lCX42maxhD4G1plYozJ7MZueFaT4AhAuE,20480
+grapes/cgraph/__init__.pyi,sha256=2d0U1esQNbIfry8AQSk9FyHHj9YKc4n-Hvsop3W_5ss,2905
+grapes/cgraph/cgraph.c,sha256=F8K_R5t2t6EhpB_ojyvX51k06KQuV0qoc7Bfd_2rxAU,17428
+grapes/cgraph/cgraph.h,sha256=nB0pCJZh_OViFonr93H66KTSSKDZomYEfeizJJAbmzg,2209
+grapes/cgraph/deque.c,sha256=2C1wHUjMosSknjI9Gg59K-MDfA0x_ZRk4x83djX_PxU,2502
+grapes/cgraph/deque.h,sha256=typ4abQsRpdH8_EGUJxMMRMHgaACCfAP-O4P_1MIMT4,597
+grapes/cgraph/heap.c,sha256=fKtRC0IsUPsf6QdCleM_JfdkNTqgf9E8Wxz4LXgv8y0,3217
+grapes/cgraph/heap.h,sha256=xq48iXYlLBHS58m3hhK6b3Lfm1xa4cKDk-kwWfecKx4,675
+grapes/cgraph/macros.h,sha256=mPwJ-KhJcYYoMgy-9Yzims4Ku7dyvQmyCQ4uSjDwqtY,245
+grapes/cgraph/trav.c,sha256=zy1hkv8ilHGcYReIh5LE9Nxqp9ckYkszPSgISZaWhU4,3974
+grapes/cgraph/trav.h,sha256=ZVsvbSfZyDQfCP8GQ6P1lIqGJ7pcOeg7yOLOdop2wAw,641
+grapes_graph-0.0.5.dist-info/LICENSE.txt,sha256=ydODuCQjaQn_01khw3UdUzCIr2FiU-WXBNFb3YzGSKk,1089
+grapes_graph-0.0.5.dist-info/METADATA,sha256=_WtshV6Iv3rzLuaS-VVwIriVUs94xxRvlnIQkjrbWnk,935
+grapes_graph-0.0.5.dist-info/WHEEL,sha256=viuncpH_EfvQZWqmP28y3RsBnRoE49Wb1vcMVyR8XUI,102
+grapes_graph-0.0.5.dist-info/top_level.txt,sha256=is9IfCF4L48JZEERaAKPeRYsvMJn8ZgBRqp8V_tQps4,14
+grapes_graph-0.0.5.dist-info/RECORD,,
