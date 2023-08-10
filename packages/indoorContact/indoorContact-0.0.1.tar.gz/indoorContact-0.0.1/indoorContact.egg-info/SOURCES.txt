@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+indoorContact/__init__.py
+indoorContact/indoorContact.py
+indoorContact.egg-info/PKG-INFO
+indoorContact.egg-info/SOURCES.txt
+indoorContact.egg-info/dependency_links.txt
+indoorContact.egg-info/requires.txt
+indoorContact.egg-info/top_level.txt
