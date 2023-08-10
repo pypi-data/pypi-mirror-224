@@ -1,0 +1,2 @@
+IPython
+notebook==6.5.2
