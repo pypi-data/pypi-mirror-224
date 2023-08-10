@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: KDVoucherUtil
+Version: 0.1.0
+Summary: 金蝶云平台凭证批量处理封装工具。因为依赖包古老，因此需要注意降级pip和setuptools版本，建议降级到pip-20.1.1, setuptools-57.5.0
+Author: Arthur Yu
+Author-email: arthurzero@homtail.com
+License: MIT
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+
+金蝶云平台凭证批量处理封装工具。
+因为依赖包古老，因此需要注意降级pip和setuptools版本，建议降级到pip-20.1.1, setuptools-57.5.0
+首个版本仅提供基本的登录、导入凭证、删除凭证、查询余额表等功能，后期陆续加上常用财务凭证处理工具。
