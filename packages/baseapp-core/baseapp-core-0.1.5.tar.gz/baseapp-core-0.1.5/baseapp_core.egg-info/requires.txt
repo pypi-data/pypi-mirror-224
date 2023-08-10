@@ -1,0 +1,14 @@
+Django>=3.2
+celery>=5.2
+django-model-utils>=4.3
+django-pgtrigger>=4.7
+django-phonenumber-field>=7.0
+djangorestframework-expander>=0.2
+djangorestframework>=3.14
+drf-extra-fields>=3.5
+easy_thumbnails>=2.8
+graphene-django>=3.1
+graphene>=3.2
+phonenumbers>=8.13
+psycopg2-binary>=2.9
+swapper>=1.3
