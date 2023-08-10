@@ -1,0 +1,12 @@
+pyworkbook/__init__.py,sha256=OQIFO2FfzaWnBdAg6jCAH_inBAhXDUcsSECoIkj5Hn0,68
+pyworkbook/exec.py,sha256=EjfGj1AH60b2TDXsc8dlcST4v-QSJJPAFmQgnYbeo_s,907
+pyworkbook/flask_call.py,sha256=JRqN9KsqKwb9i_vQtHH1kbPOTHCZBMccGFFnlMPC7YQ,631
+pyworkbook/iframe.py,sha256=ahpw-DjNjm5VJ9fUUOEkEuH3BgHhSvIC9_E4oRo3wuk,4996
+pyworkbook/quiz.py,sha256=34ct3etPIHpOlUgtvsTlUlSdlUQWJyHH0ZYUbJVYD90,6849
+pyworkbook/test.py,sha256=byCqwOxZPwetdEOhdRBxhUra-RYy2dxt7ukDhdWbRYM,6504
+pyworkbook/vorlagen.py,sha256=47A34GjIrtfARPG4hlq_SgkkrEu5N_Z-3YWZzZe3wJU,1582
+pyworkbook-0.0.5.dist-info/LICENSE.txt,sha256=NGFckk0ci9iaS5IhnYZWm0JZcMj7Yxg8wJI3ZI4-_-A,1059
+pyworkbook-0.0.5.dist-info/METADATA,sha256=5qLyJX2zk7UE8pc3ATCfhYkOcaLBCCcMAhjOrWgS4J0,778
+pyworkbook-0.0.5.dist-info/WHEEL,sha256=1VPi6hfNQaRRNuEdK_3dv9o8COtLGnHWJghhj4CQ28k,92
+pyworkbook-0.0.5.dist-info/top_level.txt,sha256=2q64ozgi-OphAGfwyvrpdXXFMlAqUM_628yWDdL2zO4,11
+pyworkbook-0.0.5.dist-info/RECORD,,
