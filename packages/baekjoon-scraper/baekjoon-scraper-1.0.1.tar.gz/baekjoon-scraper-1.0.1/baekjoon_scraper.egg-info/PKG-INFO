@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: baekjoon-scraper
+Version: 1.0.1
+Summary: A fork of smartwe's baekjoon api with optional argument fields for avoiding scraping detection
+Home-page: https://github.com/RoelYoon/baekjoon-scraper-api.git
+Author: RoelYoon
+Author-email: roelyoon2@gmail.com
+License: MIT
+Requires-Python: >=3
+
+An unofficial API for Baekjoon Online Judge that retrieves the data by scraping. This is a fork of smartwe's baekjoon package with additional parameters to the APIs in order to help bypass Baekjoon's bot detection while scraping. Read more at https://github.com/RoelYoon/baekjoon-scraper-api.git to learn how to use this package.
