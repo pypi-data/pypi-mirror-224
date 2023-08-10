@@ -1,0 +1,7 @@
+Deekshantshearlet.py
+README.md
+setup.py
+Deekshantshearlet6.egg-info/PKG-INFO
+Deekshantshearlet6.egg-info/SOURCES.txt
+Deekshantshearlet6.egg-info/dependency_links.txt
+Deekshantshearlet6.egg-info/top_level.txt
