@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: project_chat_gb
+Version: 0.0.1
+Summary: A small training зкщоусе
+Author-email: Example Author <author@example.com>
+Project-URL: Homepage, https://github.com/AnatoliiSyrchin/async_chat
+Project-URL: Bug Tracker, https://github.com/AnatoliiSyrchin/async_chat/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# async_chat
+training project
+chat created with use of threads and sockets
