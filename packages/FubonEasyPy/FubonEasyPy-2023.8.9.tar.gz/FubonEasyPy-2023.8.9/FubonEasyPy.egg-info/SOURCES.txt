@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+FubonEasyPy.egg-info/PKG-INFO
+FubonEasyPy.egg-info/SOURCES.txt
+FubonEasyPy.egg-info/dependency_links.txt
+FubonEasyPy.egg-info/requires.txt
+FubonEasyPy.egg-info/top_level.txt
