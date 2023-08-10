@@ -1,0 +1,9 @@
+deephaven/plugin/__init__.py,sha256=Js--d7tCO32l82w3UISSzz2Cwn8S2qvVVY4XAthY6mI,3846
+deephaven/plugin/js.py,sha256=lQRT06fN_QAVI41zVnntU4sxpuOWCxaSyqGPL121BF8,848
+deephaven/plugin/object_type.py,sha256=tAtQyGkgJubK42oqRQ5_BCXGaEJukcQt3T2qfgnPKmk,3441
+deephaven_plugin-0.4.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+deephaven_plugin-0.4.0.dist-info/METADATA,sha256=zc_xgcYXuJ95Sr2DPdFbKSTUTLCt28PHlB-Eyhs3kMM,1098
+deephaven_plugin-0.4.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+deephaven_plugin-0.4.0.dist-info/entry_points.txt,sha256=9mClwV7CR-vSTZz2O7n6pE17vLyF0wx_JJ48JlSpwMU,170
+deephaven_plugin-0.4.0.dist-info/top_level.txt,sha256=lOQLipCMwmvTe9Ezpb8YCd5P0DN7eeS6pnIDrdz4Dzg,10
+deephaven_plugin-0.4.0.dist-info/RECORD,,
