@@ -1,0 +1,22 @@
+# Time-stamp: <2023-08-10 09:29:51>
+[project]
+name = "vcf2py"
+version = "0.1.2"
+authors = [
+  { name="mikpom", email="mikpom@mikpom.ru" },
+]
+description = "Tools to process genomic variant data with Numerical Python"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy",
+    "pysam"
+]
+[project.urls]
+"Homepage" = "https://github.com/mikpom/vcf2py"
+
