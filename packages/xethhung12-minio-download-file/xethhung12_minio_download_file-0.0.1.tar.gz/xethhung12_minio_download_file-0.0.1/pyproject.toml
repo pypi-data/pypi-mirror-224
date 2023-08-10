@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "xethhung12_minio_download_file"
+version = "0.0.1"
+authors = [
+  { name="Xeth Hung", email="admin@xethh.me" },
+]
+description = "A small program downloading file to minio repo"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "minio>=7.1.15"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/xh-dev/xethhung12_minio_download_file"
+"Bug Tracker" = "https://github.com/xh-dev/xethhung12_minio_download_file/issues"
