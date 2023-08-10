@@ -1,0 +1,12 @@
+chatnoir-api~=2.0
+importlib-metadata~=4.0
+pandas~=1.2
+python-terrier~=0.9.2
+pyjnius~=1.4
+
+[test]
+flake8~=5.0
+jupyter~=1.0
+pylint~=2.12
+pytest~=7.2
+pytest-cov~=4.0
