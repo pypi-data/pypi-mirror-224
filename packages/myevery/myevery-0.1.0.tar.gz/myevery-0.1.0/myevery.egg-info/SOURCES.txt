@@ -1,0 +1,14 @@
+LICENSE
+pyproject.toml
+setup.py
+examples/__init__.py
+examples/app.py
+examples/ex1.py
+myevery.egg-info/PKG-INFO
+myevery.egg-info/SOURCES.txt
+myevery.egg-info/dependency_links.txt
+myevery.egg-info/requires.txt
+myevery.egg-info/top_level.txt
+server/__init__.py
+server/api.py
+server/components.py

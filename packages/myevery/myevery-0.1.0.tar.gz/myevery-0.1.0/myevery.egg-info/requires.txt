@@ -1,0 +1,5 @@
+bs4
+fastapi
+fire
+loguru
+uvicorn[standard]

@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+write_to = "myevery/version.py"
+
+[project]
+name = "myevery"
+version = "0.1.0"
+description = "A package to easily create and expose FastAPI services."
+readme = "README.md"
+authors = [
+    { name = "B. Truong", email = "myevery@mail.com" },
+]
+license = "MIT"
+homepage = "https://github.com/myevery-ai/myevery"
+repository = "https://github.com/myevery-ai/myevery"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+]
+
+[project.urls]
+Documentation = "https://yourusername.github.io/myevery/"
+
+[project.scripts]
+myevery-cli = "myevery:main"
+
+[project.dependencies]
+bs4 = "*"
+loguru = "*"
+fastapi = "*"
+fire = "*"
+uvicorn = {extras = ["standard"], version = "*"}
