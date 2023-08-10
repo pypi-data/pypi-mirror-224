@@ -1,0 +1,3 @@
+[console_scripts]
+extract_tron_events=trongrid_extractoor:extract_tron_events
+
