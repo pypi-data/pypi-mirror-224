@@ -1,0 +1,14 @@
+SimpleRule34/Rule34.py,sha256=B9HLa2kcZWQveFDTc4yf-ox4zylxI_SPqvTQJF5fThI,6465
+SimpleRule34/__init__.py,sha256=C4IbcJ_rjqBhpENXImVGuEQxf81GUwNaycqNNAY_ROc,31
+SimpleRule34/exceptions.py,sha256=8MbvBbdb254UaYWfPg3xo_GbSDO6L9iI0d2AFaet9AM,354
+SimpleRule34/setup.py,sha256=7hNDTD52EAs7W00-Nd5LzvH8H4-Dvc59W8a999LqvW4,735
+SimpleRule34/types.py,sha256=SYVSrXSBQFwy0yK2qCWVswQU3Ww7yNHcYeSVXecC9pk,3278
+SimpleRule34/utils.py,sha256=hy02ghA_vrICLRsrXTygqnf5_gzDJoe-jaqRbV7EMa0,607
+SimpleRule34/aio/ARule34.py,sha256=dyQdIHcOIYPQcyCd7VQjaz4bDEGIiFh56vanRuWw51k,6944
+SimpleRule34/aio/types.py,sha256=1FvHd8ZXaUu6hoJIptPbBTXCPgZlk6MlOyR7CQWhxvQ,3679
+SimpleRule34/aio/utils.py,sha256=EAn2ZY_pqJjVyqqF3Er3xLvWHYewPPQd7rMjyLGHRvA,610
+simple_rule34-0.1.2.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+simple_rule34-0.1.2.dist-info/METADATA,sha256=itPvjONdz6mkd7fSAGSgfaW8wQzcDbLrEoRj-xyLpfQ,1196
+simple_rule34-0.1.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+simple_rule34-0.1.2.dist-info/top_level.txt,sha256=IrrcPxvAx-V0ikmhRaLYkjYt-hZ9SRGTcUdtAcbMzGE,13
+simple_rule34-0.1.2.dist-info/RECORD,,
