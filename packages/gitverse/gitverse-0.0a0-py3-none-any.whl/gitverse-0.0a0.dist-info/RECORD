@@ -1,0 +1,15 @@
+gitverse/__init__.py,sha256=HSa6zqUqGeToFKTrlvvlTMICEpicAUWrRAHHmp8kv7U,17
+gitverse/debugger.py,sha256=CpSHYpjQfRYSNDiYdz7M8mJrMDcwVP9wVpvsM2m-aas,471
+gitverse/generator.py,sha256=WoFrcNY_GBNypoEMXv8dDkg7mUCiTHuRZ4MuODpiYoY,7765
+gitverse/releases.py,sha256=t1yf9gIeUn8UIanE8O_m5cDr_GeUJwvjIzc1an4v1WY,7461
+gitverse/__pycache__/__init__.cpython-311.pyc,sha256=LDzwegGZONF5kJTZ33eRytBV7pS33MQB_KE5DLyZNJw,191
+gitverse/__pycache__/debugger.cpython-311.pyc,sha256=GJthy1HA2UmoKWnL5HnkbXAUZT3I6szcy_CU1s17T_U,1165
+gitverse/__pycache__/generator.cpython-311.pyc,sha256=leIQHThG7NRApa3aoLn20Q2T060layHaF7MkyrsAv0A,13441
+gitverse/utils/rst.py,sha256=HRgBUNkbqj9rNZ1PrDjuRyVZYJT2MNCjYhmEaqKcmWQ,2788
+gitverse/utils/__pycache__/rst.cpython-311.pyc,sha256=uL7Psbu5bODzwdbWMIGV00LAIcAgDRsaJbfW2hTBjfo,4509
+gitverse-0.0a0.dist-info/LICENSE,sha256=khwb-_X88C6Va_FZB_sJgB-xukCrEvkq8C3P_IGzysE,1078
+gitverse-0.0a0.dist-info/METADATA,sha256=OtPKMnprsXQQjKyOJ6E6WeW1inMUsCFk3jstefw8ygI,6244
+gitverse-0.0a0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+gitverse-0.0a0.dist-info/entry_points.txt,sha256=Km2ekq3HEPAqY30sVepbz-eSWIioDBACQzxn3_o0IRo,92
+gitverse-0.0a0.dist-info/top_level.txt,sha256=-Ehf5mQcZH6tZT_RiDu21Vr_ojCKi2ReyG7BtgUv51Q,9
+gitverse-0.0a0.dist-info/RECORD,,

@@ -1,0 +1,3 @@
+[console_scripts]
+changelog = gitverse.generator:main
+releasenotes = gitverse.releases:main
