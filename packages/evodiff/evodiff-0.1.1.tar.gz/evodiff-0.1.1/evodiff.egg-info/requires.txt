@@ -1,0 +1,15 @@
+pandas
+numpy
+python-lmdb
+sequence-models
+mlflow
+scikit-learn
+blosum
+seaborn
+matplotlib
+fair-esm
+tqdm
+biotite
+requests
+mdanalysis
+pdb-tools
