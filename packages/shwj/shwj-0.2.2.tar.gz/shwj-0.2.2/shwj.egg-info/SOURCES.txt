@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+shwj.egg-info/PKG-INFO
+shwj.egg-info/SOURCES.txt
+shwj.egg-info/dependency_links.txt
+shwj.egg-info/requires.txt
+shwj.egg-info/top_level.txt
