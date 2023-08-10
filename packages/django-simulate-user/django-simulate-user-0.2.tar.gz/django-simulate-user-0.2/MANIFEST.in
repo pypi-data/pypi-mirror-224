@@ -1,0 +1,4 @@
+include LICENSE
+include README.md
+recursive-include simulate_user/static *
+recursive-include simulate_user/templates *
