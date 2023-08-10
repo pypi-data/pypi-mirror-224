@@ -1,0 +1,5 @@
+include LICENSE
+include README.md
+recursive-include simulate_user/static/simulate_user/css *
+recursive-include simulate_user/static/simulate_user/js *
+recursive-include simulate_user/templates *
