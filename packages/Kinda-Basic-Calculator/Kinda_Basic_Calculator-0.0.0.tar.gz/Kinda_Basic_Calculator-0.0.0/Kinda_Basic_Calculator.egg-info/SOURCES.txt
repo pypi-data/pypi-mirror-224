@@ -1,0 +1,12 @@
+CHANGELOG.txt
+Licence.txt
+MANIFEST.in
+README for 0.0.1 release.txt
+README.txt
+Setup.py
+setup.py
+Kinda_Basic_Calculator/__init__..py
+Kinda_Basic_Calculator.egg-info/PKG-INFO
+Kinda_Basic_Calculator.egg-info/SOURCES.txt
+Kinda_Basic_Calculator.egg-info/dependency_links.txt
+Kinda_Basic_Calculator.egg-info/top_level.txt
