@@ -1,0 +1,19 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+
+[project]
+name = "HQ_Daily_Cube"
+version = "0.0.1"
+description = "A Python package to fetch and print Dataframe for H.Q Daily Cube."
+readme = "README.md"
+authors = [
+    {name = "Hossam Ibrahim", email = "hossam.ibrahim@hlag.com"},
+]
+license = { file = "LICENSE" }
+dependencies = [
+    "requests",
+    "pandas",
+]
