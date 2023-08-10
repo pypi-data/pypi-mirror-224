@@ -1,0 +1,2163 @@
+Metadata-Version: 2.1
+Name: progbr
+Version: 0.3.3
+Summary: Uma biblioteca para facilitar sua jornada em matemática
+Author: ['Bidjory']
+Author-email: anybosoft@gmail.com
+Maintainer: Samuel Bidjory
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# progbr
+
+A biblioteca AnyBoMath (progbr) e uma biblioteca para facilitar sua jornada em matematica, fornecendo diversas funcoes matematicas e ferramentas uteis.
+
+## Instalacao
+
+Você pode instalar a biblioteca usando o pip:
+
+```
+pip install progbr
+```
+
+## Funcoes Disponiveis
+
+Aqui estao algumas das funcoes disponiveis na biblioteca:
+
+### Funcao para Imprimir
+
+```python
+import progbr
+
+progbr.printar("Ola, Mundo!")
+```
+
+### Funcao para Calcular o Fatorial
+
+```python
+import progbr
+
+resultado = progbr.fatorial(5)
+print(resultado)  # Saida: 120
+```
+
+### Funcao para Calcular a Potência
+
+```python
+import progbr
+
+resultado = progbr.potencia(2, 3)
+print(resultado)  # Saida: 8
+```
+
+### Funcao para Calcular o Maximo
+
+```python
+import progbr
+
+resultado = progbr.valor_maximo(10, 5, 8, 12)
+print(resultado)  # Saida: 12
+```
+
+### Funcao para Calcular o Minimo
+
+```python
+import progbr
+
+resultado = progbr.valor_minimo(10, 5, 8, 12)
+print(resultado)  # Saida: 5
+```
+
+### Funcao para Calcular a Raiz Quadrada
+
+```python
+import progbr
+
+resultado = progbr.raiz_quadrada(16)
+print(resultado)  # Saida: 4.0
+```
+
+### Funcao para Calcular a Exponencial
+
+```python
+import progbr
+
+resultado = progbr.exponencial(2)
+print(resultado)  # Saida: 7.3890560989306495
+```
+
+### Funcao para Calcular o Valor de π (Pi)
+
+```python
+import progbr
+
+resultado = progbr.PI()
+print(resultado)  # Saida: 3.141592653589793
+```
+
+### Funcao para Calcular o Logaritmo Natural
+
+```python
+import progbr
+
+resultado = progbr.logaritmo_natural(2)
+print(resultado)  # Saida: 0.6931471805599453
+```
+
+### Funcao para Calcular o Valor Absoluto
+
+```python
+import progbr
+
+resultado = progbr.modulo(-5)
+print(resultado)  # Saida: 5
+```
+
+### Funcao para Calcular o Logaritmo na Base 2
+
+```python
+import progbr
+
+resultado = progbr.logaritmo_base2(8)
+print(resultado)  # Saida: 3.0
+```
+
+### Funcao para Calcular o Piso de um Numero
+
+```python
+import progbr
+
+resultado = progbr.piso(3.7)
+print(resultado)  # Saida: 3
+```
+
+### Funcao para Arredondar um Numero
+
+```python
+import progbr
+
+resultado = progbr.arredondamento(4.8)
+print(resultado)  # Saida: 5
+```
+
+### Funcao para Calcular o Teto de um Numero
+
+```python
+import progbr
+
+resultado = progbr.teto_do_numero(5.2)
+print(resultado)  # Saida: 6
+```
+
+
+## Classe `Espera`
+
+A classe `Espera` fornece metodos para adicionar pausas ou atrasos em execucoes de codigo. Isso pode ser util quando você deseja adicionar atrasos entre a execucao de determinadas tarefas ou quando precisa esperar um certo periodo de tempo antes de prosseguir.
+
+### Metodo `espera_s`
+
+```python
+import progbr
+
+# Pausa por 5 segundos
+progbr.Espera.espera_s(5)
+```
+
+### Metodo `espera_m`
+
+```python
+import progbr
+
+# Pausa por 3 minutos
+progbr.Espera.espera_m(3)
+```
+
+### Metodo `espera_h`
+
+```python
+import progbr
+
+# Pausa por 1 hora
+progbr.Espera.espera_h(1)
+```
+
+### Metodo `espera_d`
+
+```python
+import progbr
+
+# Pausa por 2 dias
+progbr.Espera.espera_d(2)
+```
+
+### Metodo `espera_me28`
+
+```python
+import progbr
+
+# Pausa por 28 dias (aproximadamente 4 semanas)
+progbr.Espera.espera_me28(1)
+```
+
+### Metodo `espera_me29`
+
+```python
+import progbr
+
+# Pausa por 29 dias (aproximadamente 4 semanas e 1 dia)
+progbr.Espera.espera_me29(1)
+```
+
+### Metodo `espera_me30`
+
+```python
+import progbr
+
+# Pausa por 30 dias (aproximadamente 1 mês)
+progbr.Espera.espera_me30(1)
+```
+
+### Metodo `espera_me31`
+
+```python
+import progbr
+
+# Pausa por 31 dias (aproximadamente 1 mês e 1 dia)
+progbr.Espera.espera_me31(1)
+```
+
+### Metodo `espera_tr30`
+
+```python
+import progbr
+
+# Pausa por 90 dias (aproximadamente 3 meses)
+progbr.Espera.espera_tr30(1)
+```
+
+### Metodo `espera_tr31`
+
+```python
+import progbr
+
+# Pausa por 93 dias (aproximadamente 3 meses e 1 dia)
+progbr.Espera.espera_tr31(1)
+```
+
+### Metodo `espera_sem`
+
+```python
+import progbr
+
+# Pausa por 1 semana (aproximadamente 7 dias)
+progbr.Espera.espera_sem(1)
+```
+
+### Metodo `espera_ano365`
+
+```python
+import progbr
+
+# Pausa por 1 ano (365 dias)
+progbr.Espera.espera_ano365(1)
+```
+
+### Metodo `espera_ano366`
+
+```python
+import progbr
+
+# Pausa por 1 ano bissexto (366 dias)
+progbr.Espera.espera_ano366(1)
+```
+
+### Metodo `espera_dec365`
+
+```python
+import progbr
+
+# Pausa por 10 anos (3650 dias)
+progbr.Espera.espera_dec365(1)
+```
+
+### Metodo `espera_dec366`
+
+```python
+import progbr
+
+# Pausa por 10 anos bissextos (3652 dias)
+progbr.Espera.espera_dec366(1)
+```
+
+### Metodo `miliseg`
+
+```python
+import progbr
+
+# Pausa por 500 milissegundos (0,5 segundos)
+progbr.Espera.miliseg(500)
+```
+
+### Metodo `esperar_e_desligar_m`
+
+```python
+import progbr
+
+# Espera 5 minutos e desliga o computador
+progbr.Espera.esperar_e_desligar_m(5)
+```
+
+### Metodo `esperar_e_desligar_s`
+
+```python
+import progbr
+
+# Espera 10 segundos e desliga o computador
+progbr.Espera.esperar_e_desligar_s(10)
+```
+
+### Metodo `esperar_e_reiniciar_m`
+
+```python
+import progbr
+
+# Espera 5 minutos e reinicia o computador
+progbr.Espera.esperar_e_reiniciar_m(5)
+```
+
+### Metodo `esperar_e_reiniciar_s`
+
+```python
+import progbr
+
+# Espera 10 segundos e reinicia o computador
+progbr.Espera.esperar_e_reiniciar_s(10)
+```
+
+# Metodo `suspender_computador`
+```python
+import progbr
+progbr.Espera.suspender_computador
+```
+
+# Classe Aleator (Aleator)
+
+A classe `Aleator` fornece metodos para gerar numeros aleatorios e fazer escolhas aleatorias em uma lista.
+
+## Metodo `alea_inteiro_a_b`
+
+```python
+import progbr
+
+# Gera um numero inteiro aleatorio entre a e b (inclusive)
+numero_aleatorio = progbr.Aleator.alea_inteiro_a_b(a, b)
+```
+
+## Metodo `alea_inteiro_a`
+
+```python
+import progbr
+
+# Gera um numero inteiro aleatorio entre 0 e a (exclusive)
+numero_aleatorio = progbr.Aleator.alea_inteiro_a(a)
+```
+
+## Metodo `alea`
+
+```python
+import progbr
+
+# Gera um numero decimal aleatorio entre 0 e 1 (exclusive)
+numero_aleatorio = progbr.Aleator.alea()
+```
+
+## Metodo `alea_num`
+
+```python
+import progbr
+
+# Gera um numero decimal aleatorio seguindo uma distribuicao normal (media 0 e desvio padrao 1)
+numero_aleatorio = progbr.Aleator.alea_num()
+```
+
+## Metodo `escolhe`
+
+```python
+import progbr
+
+# Escolhe um elemento aleatorio da lista de opcoes
+escolha_aleatoria = progbr.Aleator.escolhe(lista_de_opcoes)
+```
+
+# Classe Grafico (Grafico)
+
+A classe `Grafico` fornece metodos para criar diferentes tipos de graficos usando a biblioteca Matplotlib.
+
+## Metodo `grafico_barra`
+
+```python
+import progbr
+
+# Cria um grafico de barras
+progbr.Grafico.grafico_barra(x, y, eixox, eixoy, titulo, cor, legenda, tamanho_d_figura, salvar_como, xlimite, ylimite)
+```
+
+## Metodo `grafico_dispersao`
+
+```python
+import progbr
+
+# Cria um grafico de dispersao
+progbr.Grafico.grafico_dispersao(x, y, eixox, eixoy, titulo, cor, marcador, tamanho_d_figura, salvar_como, xlimite, ylimite)
+```
+
+## Metodo `grafico_pizza`
+
+```python
+import progbr
+
+# Cria um grafico de pizza
+progbr.Grafico.grafico_pizza(dados, tamanhos, titulo, cor, destaca, tamanho_d_figura, salvar_como)
+```
+
+## Metodo `grafico_linhas`
+
+```python
+import progbr
+
+# Cria um grafico de linhas
+progbr.Grafico.grafico_linhas(x, y, titulo, eixox, eixoy, tamanho_d_figura, salvar_como)
+```
+
+## Metodo `grafico_area`
+
+```python
+import progbr
+
+# Cria um grafico de area
+progbr.Grafico.grafico_area(x, y, titulo, eixox, eixoy, tamanho_d_figura, salvar_como)
+```
+
+## Metodo `grafico_histograma`
+
+```python
+import progbr
+
+# Cria um histograma
+progbr.Grafico.grafico_histograma(valores, titulo, eixox, eixoy, tamanho_d_figura, salvar_como)
+```
+
+## Metodo `grafico_boxplot`
+
+```python
+import progbr
+
+# Cria um grafico de boxplot
+progbr.Grafico.grafico_boxplot(dados, titulo, eixox, tamanho_d_figura, salvar_como)
+```
+
+## Metodo `surface_plot`
+
+```python
+import progbr
+
+# Cria um grafico de superficie 3D
+progbr.Grafico.surface_plot(x, y, z, titulo, eixox, eixoy, eixoz, tamanho_d_figura, salvar_como)
+```
+
+## Metodo `grafico_contorno`
+
+```python
+import progbr
+
+# Cria um grafico de contorno
+progbr.Grafico.grafico_contorno(x, y, z, titulo, eixox, eixoy, tamanho_d_figura, salvar_como)
+```
+
+## Metodo `grafico_polar`
+
+```python
+import progbr
+
+# Cria um grafico polar
+progbr.Grafico.grafico_polar(angulos, valores, titulo, tamanho_d_figura, salvar_como)
+```
+
+A classe `Equacao` possui métodos para resolver e explicar equações de primeiro e segundo grau.
+
+## Método `equacaoPrimeiroGrauEx` (ou `epgEx`)
+
+Este método resolve e explica uma equação de primeiro grau na forma ax + b = c. Ele retorna a solução da equação e uma explicação passo a passo de como chegou a essa solução.
+
+Exemplo de uso:
+```python
+from progbr import Equacao
+resultado = Equacao.equacaoPrimeiroGrauEx(2, 3, 9)
+print(resultado)
+```
+Saída:
+```
+2x + 3 = 9  (x: 3.0), --EXPLICAÇÃO--, 2x + 3 = 9, 3 vai trocar de lado e vai no lado do 9, mais vai trocar de sinal, vai ficar 2x = 9 - (3), 2x = 6, x = 6/2, x = 3.0
+```
+
+## Método `equacaoSegundoGrauEx` (ou `esgEx`)
+
+Este método resolve e explica uma equação de segundo grau na forma ax^2 + bx + c = 0. Ele retorna as raízes reais da equação e uma explicação passo a passo de como chegou a essas raízes.
+
+Exemplo de uso:
+```python
+from progbr import Equacao
+resultado = Equacao.equacaoSegundoGrauEx(1, -5, 6)
+print(resultado)
+```
+Saída:
+```
+A equação 1x² - 5x + 6 = 0 possui duas raízes reais:, x1 = 3.0, x2 = 2.0  --EXPLICAÇÃO--, delta = -5² - 4 * 1 * 6, Se delta < 0, a equação não possui raízes reais, Senão, as raízes são:, x = -5 / (2 * 1), x1 = (-5 + √1) / (2 * 1), x2 = (-5 - √1) / (2 * 1), x1 = 3.0, x2 = 2.0
+```
+
+## Método `equacaoPrimeiroGrau` (ou `epg`)
+
+Este método resolve uma equação de primeiro grau na forma ax + b = c e retorna a solução.
+
+Exemplo de uso:
+```python
+from progbr import Equacao
+resultado = Equacao.equacaoPrimeiroGrau(2, 3, 9)
+print(resultado)
+```
+Saída:
+```
+3.0
+```
+
+## Método `equacaoSegundoGrau` (ou `esg`)
+
+Este método resolve uma equação de segundo grau na forma ax^2 + bx + c = 0 e retorna as raízes reais.
+
+Exemplo de uso:
+```python
+from progbr import Equacao
+resultado = Equacao.equacaoSegundoGrau(1, -5, 6)
+print(resultado)
+```
+Saída:
+```
+A equação possui duas raízes reais: x1 = 3.0, x2 = 2.0
+```
+
+Observe que as funções com o sufixo "Ex" fornecem uma explicação detalhada do passo a passo da resolução, enquanto as funções sem esse sufixo retornam apenas a solução ou as raízes.
+
+
+# Classes de Sistema Operacional
+
+A classe `SO` fornece métodos para interagir com o sistema operacional, como manipulação de arquivos e diretórios, obter informações sobre a plataforma e outras funcionalidades relacionadas ao sistema.
+
+## Método `diretorio_atual`
+
+Este método retorna o diretório atual do sistema operacional.
+
+Exemplo de uso:
+```python
+diretorio_atual = SO.diretorio_atual()
+print(diretorio_atual)
+```
+Saída:
+```
+(/caminho/do/diretorio)
+```
+
+## Método `lista_arq_dir`
+
+Este método lista os arquivos e diretórios presentes em um determinado caminho.
+
+Exemplo de uso:
+```python
+conteudo_caminho = SO.lista_arq_dir('/caminho/do/diretorio')
+print(conteudo_caminho)
+```
+Saída:
+```
+['arquivo1.txt', 'arquivo2.txt', 'diretorio1', 'diretorio2']
+```
+
+## Método `criar_diretorio`
+
+Este método cria um novo diretório com o nome fornecido.
+
+Exemplo de uso:
+```python
+SO.criar_diretorio('novo_diretorio')
+```
+
+## Método `remover_arq`
+
+Este método remove um arquivo do sistema.
+
+Exemplo de uso:
+```python
+SO.remover_arq('arquivo.txt')
+```
+
+## Método `remover_dir`
+
+Este método remove um diretório do sistema.
+
+Exemplo de uso:
+```python
+SO.remover_dir('diretorio')
+```
+
+## Método `remover_dir_td`
+
+Este método remove um diretório e todo o seu conteúdo (subdiretórios e arquivos) do sistema.
+
+Exemplo de uso:
+```python
+SO.remover_dir_td('diretorio')
+```
+
+## Método `eh_arquivo`
+
+Este método verifica se o caminho fornecido corresponde a um arquivo.
+
+Exemplo de uso:
+```python
+resultado = SO.eh_arquivo('arquivo.txt')
+print(resultado)
+```
+Saída:
+```
+'arquivo.txt' É um arquivo
+```
+
+## Método `eh_diretorio`
+
+Este método verifica se o caminho fornecido corresponde a um diretório.
+
+Exemplo de uso:
+```python
+resultado = SO.eh_diretorio('diretorio')
+print(resultado)
+```
+Saída:
+```
+'diretorio' É um diretório
+```
+
+## Método `versao_python`
+
+Este método retorna a versão do Python instalada no sistema.
+
+Exemplo de uso:
+```python
+versao = SO.versao_python()
+print(versao)
+```
+Saída:
+```
+Versão: 3.8.5
+```
+
+## Método `sistema_operacional`
+
+Este método retorna o nome do sistema operacional em que o código está sendo executado.
+
+Exemplo de uso:
+```python
+sistema = SO.sistema_operacional()
+print(sistema)
+```
+Saída:
+```
+Linux
+```
+
+## Método `plataforma`
+
+Este método retorna informações detalhadas sobre a plataforma em que o código está sendo executado.
+
+Exemplo de uso:
+```python
+plataforma = SO.plataforma()
+print(plataforma)
+```
+Saída:
+```
+plataforma: ['L', 'i', 'n', 'u', 'x']
+```
+
+## Método `existe_arq_dir`
+
+Este método verifica se um arquivo ou diretório existe no sistema.
+
+Exemplo de uso:
+```python
+resultado = SO.existe_arq_dir('arquivo.txt')
+print(resultado)
+```
+Saída:
+```
+Este Arquivo existe
+```
+
+## Método `mover_arq_dir`
+
+Este método move um arquivo para um diretório específico.
+
+Exemplo de uso:
+```python
+resultado = SO.mover_arq_dir('arquivo.txt', 'destino')
+print(resultado)
+```
+Saída:
+```
+O Arquivo 'arquivo.txt' Foi movido pelo diretorio 'destino'
+```
+
+## Método `mostra_arq_dire`
+
+Este método exibe o conteúdo do diretório atual no sistema operacional. (No Windows, exibe o comando `dir`, no Linux exibe o comando `ls`).
+
+Exemplo de uso:
+```python
+SO.mostra_arq_dire()
+```
+(Será exibido o conteúdo do diretório atual no terminal ou prompt de comando)
+
+## Método `criar_arquivo`
+
+Este método cria um novo arquivo com o nome fornecido e insere o conteúdo especificado.
+
+Exemplo de uso:
+```python
+SO.criar_arquivo('novo_arquivo.txt', 'Este é o conteúdo do arquivo.')
+```
+
+## Método `adicionar_conteudo_arquivo`
+
+Este método adiciona conteúdo a um arquivo existente.
+
+Exemplo de uso:
+```python
+SO.adicionar_conteudo_arquivo('arquivo_existente.txt', 'Este é o novo conteúdo do arquivo.')
+```
+
+## Método `ler_arquivo`
+
+Este método lê o conteúdo de um arquivo e retorna como uma string.
+
+Exemplo de uso:
+```python
+conteudo = SO.ler_arquivo('arquivo.txt')
+print(conteudo)
+```
+
+## Método `ler_arquivo_linhas_lista`
+
+Este método lê o conteúdo de um arquivo e retorna uma lista de linhas.
+
+Exemplo de uso:
+```python
+linhas = SO.ler_arquivo_linhas_lista('arquivo.txt')
+print(linhas)
+```
+
+## Método `ler_arquivo_linha_por_linha`
+
+Este método lê o conteúdo de um arquivo e imprime linha por linha no terminal.
+
+Exemplo de uso:
+```python
+SO.ler_arquivo_linha_por_linha('arquivo.txt')
+```
+
+## Método `abrir_arquivo`
+
+Este método abre um arquivo no sistema usando o programa padrão associado a esse tipo de arquivo.
+
+Exemplo de uso:
+```python
+SO.abrir_arquivo('documento.txt')
+```
+
+## Método `pesquisa_arq`
+
+Este método pesquisa por arquivos com uma determinada extensão no diretório atual e retorna uma lista com os nomes dos arquivos encontrados.
+
+Exemplo de uso:
+```python
+arquivos_txt = SO.pesquisa_arq('txt')
+print(arquivos_txt)
+```
+
+## Método `remover_td_arq`
+
+Este método remove todos os arquivos com uma determinada extensão no diretório atual.
+
+Exemplo de uso:
+```python
+SO.remover_td_arq('txt')
+```
+
+## Método `diretorio_ctssd`
+
+Este método copia todo o conteúdo de um diretório (incluindo subdiretórios e arquivos) para outro diretório de destino.
+
+Exemplo de uso:
+```python
+SO.diretorio_ctssd('/caminho/do/diretorio_origem', '/caminho/do/diretorio_destino')
+```
+
+Certifique-se de que tenha permissões suficientes no sistema para executar algumas dessas operações que envolvem criação, remoção ou movimentação de arquivos e diretórios.
+
+
+
+# Classe Trigonometria
+
+A classe `Trigonometria` contem metodos para calcular funcoes trigonometricas e hiperbolicas, bem como arco trigonometrico.
+
+## Metodo `seno`
+
+```python
+import progbr
+
+# Calcula o seno de um ângulo em radianos
+resultado = progbr.Trigonometria.seno(angle)
+print(resultado)
+```
+
+## Metodo `cosseno`
+
+```python
+import progbr
+
+# Calcula o cosseno de um ângulo em radianos
+resultado = progbr.Trigonometria.cosseno(angle)
+print(resultado)
+```
+
+## Metodo `tangente`
+
+```python
+import progbr
+
+# Calcula a tangente de um ângulo em radianos
+resultado = progbr.Trigonometria.tangente(angle)
+print(resultado)
+```
+
+## Metodo `cosseno_hiperbolico`
+
+```python
+import progbr
+
+# Calcula o cosseno hiperbolico de um numero
+resultado = progbr.Trigonometria.cosseno_hiperbolico(num)
+print(resultado)
+```
+
+## Metodo `seno_hiperbolico`
+
+```python
+import progbr
+
+# Calcula o seno hiperbolico de um numero
+resultado = progbr.Trigonometria.seno_hiperbolico(num)
+print(resultado)
+```
+
+## Metodo `tangente_hiperbolica`
+
+```python
+import progbr
+
+# Calcula a tangente hiperbolica de um numero
+resultado = progbr.Trigonometria.tangente_hiperbolica(num)
+print(resultado)
+```
+
+## Metodo `arco_cosseno`
+
+```python
+import progbr
+
+# Calcula o arco cosseno de um numero
+resultado = progbr.Trigonometria.arco_cosseno(num)
+print(resultado)
+```
+
+## Metodo `arco_seno`
+
+```python
+import progbr
+
+# Calcula o arco seno de um numero
+resultado = progbr.Trigonometria.arco_seno(num)
+print(resultado)
+```
+
+## Metodo `arco_tangente`
+
+```python
+import progbr
+
+# Calcula o arco tangente de um numero
+resultado = progbr.Trigonometria.arco_tangente(num)
+print(resultado)
+```
+
+## Metodo `arco_tangente2`
+
+```python
+import progbr
+
+# Calcula o arco tangente de um numero com dois argumentos (y, x)
+resultado = progbr.Trigonometria.arco_tangente2(y, x)
+print(resultado)
+```
+
+# Classe Estatistica
+
+A classe `Estatistica` contem metodos para realizar calculos estatisticos.
+
+## Metodo `media`
+
+```python
+import progbr
+
+# Calcula a media dos valores fornecidos como argumentos
+resultado = progbr.Estatistica.media(*args)
+print(resultado)
+```
+
+## Metodo `mediana`
+
+```python
+import progbr
+
+# Calcula a mediana dos valores fornecidos como argumentos
+resultado = progbr.Estatistica.mediana(*args)
+print(resultado)
+```
+
+## Metodo `moda`
+
+```python
+import progbr
+
+# Calcula a moda dos valores fornecidos como argumentos
+resultado = progbr.Estatistica.moda(*args)
+print(resultado)
+```
+
+## Metodo `desvio_padrao`
+
+```python
+import progbr
+
+# Calcula o desvio padrao dos valores fornecidos como argumentos
+resultado = progbr.Estatistica.desvio_padrao(*args)
+print(resultado)
+```
+
+## Metodo `desvio_medio`
+
+```python
+import progbr
+
+# Calcula o desvio medio dos valores fornecidos como argumentos
+resultado = progbr.Estatistica.desvio_medio(*args)
+print(resultado)
+```
+
+## Metodo `variancia`
+
+```python
+import progbr
+
+# Calcula a variância dos valores fornecidos como argumentos
+resultado = progbr.Estatistica.variancia(*args)
+print(resultado)
+```
+
+## Metodo `comparar`
+
+```python
+import progbr
+
+# Compara duas listas de valores e retorna a diferenca media
+resultado = progbr.Estatistica.comparar(a, b)
+print(resultado)
+```
+
+## Metodo `media_ponderada`
+
+```python
+import progbr
+
+# Calcula a media ponderada dos valores fornecidos e seus respectivos pesos
+resultado = progbr.Estatistica.media_ponderada(valores, pesos)
+print(resultado)
+```
+
+## Metodo `media_geometrica`
+
+```python
+import progbr
+
+# Calcula a media geometrica dos valores fornecidos como argumentos
+resultado = progbr.Estatistica.media_geometrica(*args)
+print(resultado)
+```
+
+## Metodo `media_quadratica`
+
+```python
+import progbr
+
+# Calcula a media quadratica dos valores fornecidos como argumentos
+resultado = progbr.Estatistica.media_quadratica(*args)
+print(resultado)
+```
+
+## Metodo `intervalo_medio`
+
+```python
+import progbr
+
+# Calcula o intervalo medio dos valores fornecidos como argumentos
+resultado = progbr.Estatistica.intervalo_medio(*args)
+print(resultado)
+```
+
+## Metodo `intervalo_medio_entre_dois_numeros`
+
+```python
+import progbr
+
+# Calcula o intervalo medio entre dois numeros fornecidos como argumentos
+resultado = progbr.Estatistica.intervalo_medio_entre_dois_numeros(a, b)
+print(resultado)
+```
+
+## Metodo `amplitude`
+
+```python
+import progbr
+
+# Calcula a amplitude dos valores fornecidos como argumentos
+resultado = progbr.Estatistica.amplitude(*args)
+print(resultado)
+```
+
+## Metodo `quartis`
+
+```python
+import progbr
+
+# Calcula os quartis dos valores fornecidos como argumentos
+resultado = progbr.Estatistica.quartis(*args)
+print(resultado)
+```
+
+## Metodo `amplitude_interquartil`
+
+```python
+import progbr
+
+# Calcula a amplitude interquartil dos valores fornecidos como argumentos
+resultado = progbr.Estatistica.amplitude_interquartil(*args)
+print(resultado)
+```
+
+## Metodo `coeficiente_correlacao`
+
+```python
+import progbr
+
+# Calcula o coeficiente de correlacao entre duas listas de valores (x, y)
+resultado = progbr.Estatistica.coeficiente_correlacao(x, y)
+print(resultado)
+```
+
+## Metodo `regressao_linear`
+
+```python
+import progbr
+
+# Realiza a regressao linear entre duas listas de valores (x, y) e retorna os coeficientes (a, b)
+resultado = progbr.Estatistica.regressao_linear(x, y)
+print(resultado)
+```
+
+## Metodo `coeficiente_variacao`
+
+```python
+import progbr
+
+# Calcula o coeficiente de variacao dos valores fornecidos como argumentos
+resultado = progbr.Estatistica.coeficiente_variacao(*args)
+print(resultado)
+```
+
+## Metodo `media_harmonica`
+
+```python
+import progbr
+
+# Calcula a media harmônica dos valores fornecidos como argumentos
+resultado = progbr.Estatistica.media_harmonica(*args)
+print(resultado)
+```
+
+## Metodo `distribuicao_frequencia`
+
+```python
+import progbr
+
+# Calcula a distribuicao de frequência para os dados fornecidos
+resultado = progbr.Estatistica.distribuicao_frequencia(dados, num_classes)
+print(resultado)
+```
+
+## Metodo `intervalo_confianca`
+
+```python
+import progbr
+
+# Calcula o intervalo de confianca dos dados fornecidos e nivel de confianca especificado
+resultado = progbr.Estatistica.intervalo_confianca(dados, nivel_confianca)
+print(resultado)
+```
+
+## Metodo `coeficiente_assimetria`
+
+```python
+import progbr
+
+# Calcula o coeficiente de assimetria dos valores fornecidos como argumentos
+resultado = progbr.Estatistica.coeficiente_assimetria(*args)
+print(resultado)
+```
+
+## Metodo `curtose`
+
+```python
+import progbr
+
+# Calcula a curtose dos valores fornecidos como argumentos
+resultado = progbr.Estatistica.curtose(*args)
+print(resultado)
+```
+
+## Metodo `coeficiente_correlacao_pearson`
+
+```python
+import progbr
+
+# Calcula o coeficiente de correlacao de Pearson entre duas listas de valores (x, y)
+resultado = progbr.Estatistica.coeficiente_correlacao_pearson(x, y)
+print(resultado)
+```
+
+## Metodo `teste_t`
+
+```python
+import progbr
+
+# Realiza o teste t entre duas amostras e retorna o valor de t
+resultado = progbr.Estatistica.teste_t(amostra1, amostra2)
+print(resultado)
+```
+
+## Metodo `teste_qui_quadrado`
+
+```python
+import progbr
+
+# Realiza o teste qui-quadrado entre duas tabelas de frequência e retorna o valor de qui-quadrado
+resultado = progbr.Estatistica.teste_qui_quadrado(freq_obs, freq_esp)
+print(resultado)
+```
+
+## Metodo `analise_variancia`
+
+```python
+import progbr
+
+# Realiza a analise de variância (ANOVA) entre varias amostras e retorna o valor de F
+resultado = progbr.Estatistica.analise_variancia(*args)
+print(resultado)
+```
+
+## Metodo `teste_normalidade`
+
+```python
+import progbr
+
+# Realiza o teste de normalidade para uma amostra e nivel de significância alpha
+resultado = progbr.Estatistica.teste_normalidade(amostra, alpha=0.05)
+print(resultado)
+```
+
+## Metodo `teste_homogeneidade`
+
+```python
+import progbr
+
+# Realiza o teste de homogeneidade para varias amostras e nivel de significância alpha
+resultado = progbr.Estatistica.teste_homogeneidade(*grupos, alpha=0.05)
+print(resultado)
+```
+
+
+# Classe Calculo
+
+A classe `Calculo` contem metodos para realizar diversos calculos matematicos.
+
+## Metodo `newton_raphson`
+
+```python
+import progbr
+
+# Calcula a raiz de uma funcao usando o metodo de Newton-Raphson
+resultado = progbr.Calculo.newton_raphson(funcao, derivada, x0, tolerancia=1e-6, max_iter=100)
+print(resultado)
+```
+
+## Metodo `derivada`
+
+```python
+import progbr
+
+# Calcula a derivada de uma expressao em relacao a uma variavel
+resultado = progbr.Calculo.derivada(expressao, variavel)
+print(resultado)
+```
+
+## Metodo `integral_definida`
+
+```python
+import progbr
+
+# Calcula a integral definida de uma expressao entre os limites dado
+resultado = progbr.Calculo.integral_definida(expressao, variavel, limite_inferior, limite_superior)
+print(resultado)
+```
+
+## Metodo `integral_indefinida`
+
+```python
+import progbr
+
+# Calcula a integral indefinida de uma expressao em relacao a uma variavel
+resultado = progbr.Calculo.integral_indefinida(expressao, variavel)
+print(resultado)
+```
+
+## Metodo `limite`
+
+```python
+import progbr
+
+# Calcula o limite de uma expressao quando a variavel se aproxima de um ponto
+resultado = progbr.Calculo.limite(expressao, variavel, ponto)
+print(resultado)
+```
+
+## Metodo `derivada_parcial`
+
+```python
+import progbr
+
+# Calcula a derivada parcial de uma expressao em relacao a varias variaveis
+resultado = progbr.Calculo.derivada_parcial(expressao, variaveis)
+print(resultado)
+```
+
+## Metodo `laplace`
+
+```python
+import progbr
+
+# Calcula a transformada de Laplace de uma expressao
+resultado = progbr.Calculo.laplace(expressao, variavel, s)
+print(resultado)
+```
+
+## Metodo `inversa_laplace`
+
+```python
+import progbr
+
+# Calcula a inversa da transformada de Laplace de uma expressao
+resultado = progbr.Calculo.inversa_laplace(expressao, s, t)
+print(resultado)
+```
+
+## Metodo `transformada_fourier`
+
+```python
+import progbr
+
+# Calcula a transformada de Fourier de uma expressao
+resultado = progbr.Calculo.transformada_fourier(expressao, variavel, w)
+print(resultado)
+```
+
+## Metodo `inversa_fourier`
+
+```python
+import progbr
+
+# Calcula a inversa da transformada de Fourier de uma expressao
+resultado = progbr.Calculo.inversa_fourier(expressao, w, t)
+print(resultado)
+```
+
+## Metodo `soma_riemann`
+
+```python
+import progbr
+
+# Calcula a soma de Riemann de uma expressao usando o metodo dos retângulos
+resultado = progbr.Calculo.soma_riemann(expressao, variavel, limite_inferior, limite_superior, numero_particoes)
+print(resultado)
+```
+
+## Metodo `produto_riemann`
+
+```python
+import progbr
+
+# Calcula o produto de Riemann de uma expressao usando o metodo dos retângulos
+resultado = progbr.Calculo.produto_riemann(expressao, variavel, limite_inferior, limite_superior, numero_particoes)
+print(resultado)
+```
+
+## Metodo `limite_lateral`
+
+```python
+import progbr
+
+# Calcula o limite lateral de uma expressao quando a variavel se aproxima de um ponto
+resultado = progbr.Calculo.limite_lateral(expressao, variavel, ponto, lado='right')
+print(resultado)
+```
+
+## Metodo `derivada_numerica_progressiva`
+
+```python
+import progbr
+
+# Calcula a derivada numerica progressiva de uma expressao em relacao a uma variavel em um ponto
+resultado = progbr.Calculo.derivada_numerica_progressiva(expressao, variavel, ponto, h=1e-6)
+print(resultado)
+```
+
+## Metodo `derivada_numerica_regressiva`
+
+```python
+import progbr
+
+# Calcula a derivada numerica regressiva de uma expressao em relacao a uma variavel em um ponto
+resultado = progbr.Calculo.derivada_numerica_regressiva(expressao, variavel, ponto, h=1e-6)
+print(resultado)
+```
+
+## Metodo `derivada_numerica_central`
+
+```python
+import progbr
+
+# Calcula a derivada numerica central de uma expressao em relacao a uma variavel em um ponto
+resultado = progbr.Calculo.derivada_numerica
+
+_central(expressao, variavel, ponto, h=1e-6)
+print(resultado)
+```
+
+## Metodo `integral_numerica_trapezio`
+
+```python
+import progbr
+
+# Calcula a integral numerica usando o metodo dos trapezios
+resultado = progbr.Calculo.integral_numerica_trapezio(expressao, variavel, limite_inferior, limite_superior, numero_particoes)
+print(resultado)
+```
+
+## Metodo `integral_numerica_simpson`
+
+```python
+import progbr
+
+# Calcula a integral numerica usando a regra de Simpson
+resultado = progbr.Calculo.integral_numerica_simpson(expressao, variavel, limite_inferior, limite_superior, numero_particoes)
+print(resultado)
+```
+
+## Metodo `serie_taylor`
+
+```python
+import progbr
+
+# Calcula a serie de Taylor de uma expressao em torno de um ponto
+resultado = progbr.Calculo.serie_taylor(expressao, variavel, ponto, ordem)
+print(resultado)
+```
+
+## Metodo `transformada_laplace`
+
+```python
+import progbr
+
+# Calcula a transformada de Laplace de uma expressao
+resultado = progbr.Calculo.transformada_laplace(expressao, variavel, s)
+print(resultado)
+```
+
+## Metodo `inversa_transformada_laplace`
+
+```python
+import progbr
+
+# Calcula a inversa da transformada de Laplace de uma expressao
+resultado = progbr.Calculo.inversa_transformada_laplace(expressao, variavel, t)
+print(resultado)
+```
+
+
+# Classe Matrize
+
+A classe `Matrize` e uma classe para trabalhar com matrizes e realizar operacoes matriciais.
+
+## Construtor `__init__`
+
+```python
+import progbr
+
+# Criar uma matriz com os dados fornecidos
+data = [[1, 2], [3, 4], [5, 6]]
+matriz = progbr.Matrize(data)
+print(matriz)
+```
+
+## Metodo `__str__`
+
+```python
+import progbr
+
+# Imprimir a matriz formatada
+data = [[1, 2], [3, 4], [5, 6]]
+matriz = progbr.Matrize(data)
+print(matriz)
+```
+
+## Metodo `__add__`
+
+```python
+import progbr
+
+# Somar duas matrizes
+data1 = [[1, 2], [3, 4]]
+data2 = [[5, 6], [7, 8]]
+matriz1 = progbr.Matrize(data1)
+matriz2 = progbr.Matrize(data2)
+resultado = matriz1 + matriz2
+print(resultado)
+```
+
+## Metodo `__sub__`
+
+```python
+import progbr
+
+# Subtrair duas matrizes
+data1 = [[1, 2], [3, 4]]
+data2 = [[5, 6], [7, 8]]
+matriz1 = progbr.Matrize(data1)
+matriz2 = progbr.Matrize(data2)
+resultado = matriz1 - matriz2
+print(resultado)
+```
+
+## Metodo `__mul__`
+
+```python
+import progbr
+
+# Multiplicar uma matriz por outra matriz ou por um escalar
+data1 = [[1, 2], [3, 4]]
+data2 = [[5, 6], [7, 8]]
+escalar = 2
+matriz1 = progbr.Matrize(data1)
+matriz2 = progbr.Matrize(data2)
+resultado1 = matriz1 * matriz2
+resultado2 = matriz1 * escalar
+print(resultado1)
+print(resultado2)
+```
+
+## Metodo `transposta`
+
+```python
+import progbr
+
+# Calcular a transposta de uma matriz
+data = [[1, 2], [3, 4], [5, 6]]
+matriz = progbr.Matrize(data)
+resultado = matriz.transposta()
+print(resultado)
+```
+
+## Metodo `determinante`
+
+```python
+import progbr
+
+# Calcular o determinante de uma matriz quadrada
+data = [[1, 2], [3, 4]]
+matriz = progbr.Matrize(data)
+resultado = matriz.determinante()
+print(resultado)
+```
+
+## Metodo `inversa`
+
+```python
+import progbr
+
+# Calcular a matriz inversa
+data = [[1, 2], [3, 4]]
+matriz = progbr.Matrize(data)
+resultado = matriz.inversa(matriz)
+print(resultado)
+```
+
+## Metodo `calcular_autovalores_autovetores`
+
+```python
+import progbr
+
+# Calcular os autovalores e autovetores de uma matriz
+data = [[1, 2], [3, 4]]
+resultado_autovalores, resultado_autovetores = progbr.Matrize.calcular_autovalores_autovetores(data)
+print(resultado_autovalores)
+print(resultado_autovetores)
+```
+
+
+# Classe AlgebraLinear
+
+A classe `AlgebraLinear` contem varias funcoes e metodos relacionados à algebra linear, incluindo operacoes matriciais, resolucao de sistemas de equacoes lineares, decomposicoes matriciais, interpolacao, ajuste de curvas, calculos de integrais, entre outros.
+
+## Metodos Estaticos
+
+- `multiplicar_matriz_por_escalar(matriz, escalar)`: Multiplica uma matriz por um escalar.
+- `dividir_matriz_por_escalar(matriz, escalar)`: Divide uma matriz por um escalar.
+- `multiplicar_matriz_por_vetor(matriz, vetor)`: Multiplica uma matriz por um vetor.
+- `resolver_sistema_linear(coeficientes, constantes)`: Resolve um sistema de equacoes lineares utilizando matrizes.
+- `matriz_inversa(matriz)`: Calcula a matriz inversa.
+- `potencia_matriz(matriz, potencia)`: Eleva uma matriz a uma potência inteira.
+- `decomposicao_LU(matriz)`: Realiza a decomposicao LU de uma matriz.
+- `fatoracao_QR(matriz)`: Realiza a decomposicao QR de uma matriz.
+- `decomposicao_cholesky(matriz)`: Realiza a decomposicao de Cholesky de uma matriz simetrica positiva definida.
+- `gauss_seidel(A, b, x0, max_iter=100, tolerancia=1e-10)`: Resolve um sistema de equacoes lineares usando o metodo de Gauss-Seidel.
+- `interpolar_polinomial(pontos)`: Realiza a interpolacao polinomial de um conjunto de pontos.
+- `regressao_linear(pontos)`: Realiza o ajuste de curvas por regressao linear a um polinômio.
+- `integracao_trapezio(funcao, limite_inferior, limite_superior, numero_trapezios)`: Calcula integrais definidas usando o metodo do trapezio.
+- `metodo_euler(derivada, condicao_inicial, intervalo, passo)`: Resolve equacoes diferenciais usando o metodo de Euler.
+- `eh_diagonalizavel(matriz)`: Verifica se uma matriz e diagonalizavel.
+- `diagonalizar_matriz(matriz)`: Diagonaliza uma matriz e retorna a matriz diagonal e a matriz de autovetores.
+- `sao_ortogonais(v1, v2)`: Verifica se dois vetores sao ortogonais.
+- `projecao_ortogonal(v, u)`: Calcula a projecao ortogonal do vetor v no vetor u.
+- `decomposicao_valores_singulares(matriz)`: Realiza a decomposicao em valores singulares de uma matriz.
+- `autovalores_generalizados(*args)`: Calcula os autovalores generalizados para o par de matrizes.
+- `decomposicao_espectral(matriz)`: Realiza a decomposicao espectral de uma matriz simetrica.
+- `interpolacao_polinomial(pontos)`: Realiza a interpolacao polinomial de um conjunto de pontos.
+- `ajuste_mmq(x, y, grau)`: Realiza o ajuste de curvas por minimos quadrados a um polinômio de grau 'grau'.
+- `decomposicao_svd(matriz)`: Realiza a decomposicao de valores singulares (SVD) de uma matriz.
+- `pseudo_inversa_moore_penrose(matriz)`: Calcula a pseudo-inversa de Moore-Penrose de uma matriz.
+- `determinante_vandermonde(vetor)`: Calcula o determinante de uma matriz de Vandermonde construida a partir de um vetor.
+- `produto_tensorial(*args)`: Calcula o produto tensorial de varias matrizes.
+- `norma_matricial(matriz, ordem=2)`: Calcula a norma matricial de uma matriz.
+- `matriz_cofatora(matriz)`: Calcula a matriz cofatora de uma matriz quadrada.
+- `traco_matriz(matriz)`: Calcula o traco de uma matriz (soma dos elementos da diagonal principal).
+- `decomposicao_schur(matriz)`: Calcula a Decomposicao de Schur de uma matriz.
+- `pseudoinversa_matriz(matriz)`: Calcula a pseudoinversa de uma matriz.
+- `exp_matriz_comutador(*matrizes)`: Calcula a exponencial do comutador de varias matrizes.
+- `decomposicao_jordan(matriz)`: Calcula a Decomposicao de Jordan de uma matriz.
+- `resolver_sistema_nao_linear(funcoes, valores_iniciais)`: Resolve um sistema de equacoes nao-lineares usando o metodo de Newton-Raphson.
+- `e_conexo(grafo)`: Verifica se um grafo e conexo.
+
+
+# Geometria - Biblioteca de Funcoes Geometricas
+
+Esta e uma biblioteca de funcoes de geometria que lida com calculos no espaco 2D e 3D. Ela inclui varias formulas para calcular distâncias, areas, volumes, ângulos e outras propriedades geometricas de diferentes figuras e objetos.
+
+Aqui estao as principais funcoes da biblioteca:
+
+## Funcoes para calcular distâncias:
+
+1. `distancia_pontos_2D(x1, y1, x2, y2)`: Calcula a distância entre dois pontos no plano 2D.
+
+2. `distancia_pontos_3D(x1, y1, z1, x2, y2, z2)`: Calcula a distância entre dois pontos no espaco 3D.
+
+## Funcoes para calcular areas:
+
+1. `area_triangulo_2D(a, b, c)`: Calcula a area de um triângulo no plano 2D usando a formula de Heron.
+
+2. `area_triangulo_3D(a, b, c)`: Calcula a area de um triângulo no espaco 3D usando a formula de Heron.
+
+3. `area_retangulo(base, altura)`: Calcula a area de um retângulo.
+
+4. `area_quadrado(lado)`: Calcula a area de um quadrado.
+
+5. `area_paralelogramo(base, altura)`: Calcula a area de um paralelogramo.
+
+6. `area_trapezio(base_maior, base_menor, altura)`: Calcula a area de um trapezio.
+
+7. `area_circunferencia(raio)`: Calcula a area de uma circunferência.
+
+8. `area_circulo(raio)`: Calcula a area de um circulo.
+
+## Funcoes para calcular volumes:
+
+1. `volume_cubo(aresta)`: Calcula o volume de um cubo.
+
+2. `volume_paralelepipedo(a, b, c)`: Calcula o volume de um paralelepipedo.
+
+3. `volume_esfera(raio)`: Calcula o volume de uma esfera.
+
+4. `volume_cilindro(raio_base, altura)`: Calcula o volume de um cilindro.
+
+5. `volume_cone(raio_base, altura)`: Calcula o volume de um cone.
+
+6. `volume_piramide(area_base, altura)`: Calcula o volume de uma pirâmide.
+
+7. `volume_prisma_retangular(area_base, altura)`: Calcula o volume de um prisma retangular.
+
+8. `volume_tetraedro_regular(aresta)`: Calcula o volume de um tetraedro regular.
+
+9. `volume_esfera_superficie(area_superficie)`: Calcula o volume de uma esfera a partir de sua area superficial.
+
+## Funcoes para calcular ângulos:
+
+1. `angulo_entre_vetores_3D(vetor1, vetor2)`: Calcula o ângulo entre dois vetores no espaco 3D.
+
+2. `angulo_entre_planos_3D(a1, b1, c1, a2, b2, c2)`: Calcula o ângulo entre dois planos no espaco 3D.
+
+## Outras funcoes:
+
+1. `raio_esfera_circunscrita_tetraedro_regular(aresta)`: Calcula o raio da esfera circunscrita a um tetraedro regular.
+
+2. `raio_esfera_circunscrita_cubo(aresta)`: Calcula o raio da esfera circunscrita a um cubo.
+
+3. `centro_massa_2D(pontos_x, pontos_y)`: Calcula o centro de massa de um conjunto de pontos no espaco 2D.
+
+4. `centro_massa_3D(pontos_x, pontos_y, pontos_z)`: Calcula o centro de massa de um conjunto de pontos no espaco 3D.
+
+5. `distancia_ponto_curva_2D(x_ponto, y_ponto, curva)`: Calcula a distância entre um ponto e uma curva no espaco 2D.
+
+6. `distancia_ponto_segmento_2D(x_ponto, y_ponto, x1, y1, x2, y2)`: Calcula a distância entre um ponto e um segmento de reta no espaco 2D.
+
+7. `sao_colineares_2D(x1, y1, x2, y2, x3, y3)`: Verifica se três pontos sao colineares no espaco 2D.
+
+8. `formam_quadrilatero_convexo_2D(x1, y1, x2, y2, x3, y3, x4, y4)`: Verifica se quatro pontos formam um quadrilatero convexo no espaco 2D.
+
+9. `circunferencia_circunscrita(triangulo)`: Calcula o centro e o raio da circunferência circunscrita a um triângulo no espaco 2D.
+
+10. `equacao_circunferencia(ponto1, ponto2, ponto3)`: Calcula a equacao da circunferência circunscrita a um triângulo no espaco 2D.
+
+11. `calcular_euler(v=None, f=None, a=None)`: Calcula o numero de vertices, faces e arestas de um poliedro.
+
+Lembre-se de importar a biblioteca `Geometria` antes de usar as funcoes.
+
+Exemplo de uso:
+```python
+from progbr import Geometria
+
+distancia = Geometria.distancia_pontos_2D(0, 0, 3, 4)
+print(distancia)  # Saida: 5.0
+
+area_circulo = Geometria.area_circulo(5)
+print(area_circulo)  # Saida: 31.41592653589793
+
+volume_cubo = Geometria.volume_cubo(2)
+print(volume_cubo)  # Saida: 8
+
+angulo = Geometria.angulo_entre_vetores_3D([1, 0, 0], [0, 1, 0])
+print(angulo)  # Saida: 90.0
+```
+
+Essa classe de criptografia em Python contem varios metodos para realizar diferentes tipos de cifras e operacoes de criptografia. Vou explicar brevemente cada um deles:
+
+1. **Cifra de Cesar (criptografar/descriptografar)**:
+   - `cifra_cesar_encrypt(texto, chave)`: Criptografa o texto usando a Cifra de Cesar, onde cada letra e deslocada "chave" posicoes à direita no alfabeto.
+   - `cifra_cesar_decrypt(texto_cifrado, chave)`: Descriptografa o texto cifrado usando a Cifra de Cesar, realizando o deslocamento inverso.
+
+2. **Cifra de Substituicao (criptografar/descriptografar)**:
+   - `cifra_substituicao_encrypt(texto, chave)`: Criptografa o texto usando a Cifra de Substituicao, onde cada letra e substituida por outra letra do alfabeto, de acordo com a "chave" fornecida.
+   - `cifra_substituicao_decrypt(texto_cifrado, chave)`: Descriptografa o texto cifrado usando a Cifra de Substituicao, revertendo a substituicao das letras.
+
+3. **Cifra de Vigenere (criptografar/descriptografar)**:
+   - `cifra_vigenere_encrypt(texto, chave)`: Criptografa o texto usando a Cifra de Vigenere, que e uma versao polialfabetica da Cifra de Cesar, onde cada letra e deslocada de acordo com a letra correspondente na "chave".
+   - `cifra_vigenere_decrypt(texto_cifrado, chave)`: Descriptografa o texto cifrado usando a Cifra de Vigenere, revertendo os deslocamentos realizados com base na "chave".
+
+4. **Cifra de Vernam (XOR one-time pad)**:
+   - `cifra_vernam_encrypt(texto, chave)`: Criptografa o texto usando a Cifra de Vernam, tambem conhecida como one-time pad. Cada caractere do texto e combinado com o caractere correspondente da "chave" usando a operacao XOR.
+   - Nao ha metodo para descriptografar a Cifra de Vernam, a nao ser que a "chave" seja reutilizada, o que a tornaria insegura.
+
+5. **Algoritmo de Transposicao (criptografar/descriptografar)**:
+   - `transposicao_encrypt(texto, chave)`: Criptografa o texto usando o Algoritmo de Transposicao, onde as letras sao rearranjadas de acordo com a ordem especificada na "chave".
+   - `transposicao_decrypt(texto_cifrado, chave)`: Descriptografa o texto cifrado usando o Algoritmo de Transposicao, rearranjando as letras na ordem original com base na "chave".
+
+Essa classe pode ser utilizada para realizar operacoes de criptografia e descriptografia em textos usando esses diferentes metodos. Porem, vale ressaltar que as cifras de Cesar, Substituicao e Vigenere sao cifras classicas e nao sao consideradas seguras para uso pratico na criptografia moderna, sendo mais utilizadas como exemplos educacionais. Ja a Cifra de Vernam e segura, mas requer que a "chave" seja tao longa quanto o texto original e seja mantida em segredo absoluto, o que a torna impraticavel para a maioria dos casos reais. Portanto, para uso em situacoes reais, e recomendavel usar algoritmos de criptografia modernos e bem estabelecidos.
+
+
+# Exemplo 1: Cifra de Cesar
+```python
+from progbr import Criptografia
+# Criptografar usando Cifra de Cesar
+texto_original = "criptografia"
+chave_cesar = 3
+texto_cifrado_cesar = Criptografia.cifra_cesar_encrypt(texto_original, chave_cesar)
+print("Texto original:", texto_original)
+print("Texto cifrado (Cifra de Cesar):", texto_cifrado_cesar)
+
+# Descriptografar o texto cifrado
+texto_descriptografado_cesar = Criptografia.cifra_cesar_decrypt(texto_cifrado_cesar, chave_cesar)
+print("Texto descriptografado (Cifra de Cesar):", texto_descriptografado_cesar)
+```
+
+# Exemplo 2: Cifra de Substituicao
+```python
+# Criptografar usando Cifra de Substituicao
+texto_original = "criptografia"
+chave_substituicao = "zyxwvutsrqponmlkjihgfedcba"  # Mapeando 'a' para 'z', 'b' para 'y', etc.
+texto_cifrado_substituicao = Criptografia.cifra_substituicao_encrypt(texto_original, chave_substituicao)
+print("Texto original:", texto_original)
+print("Texto cifrado (Cifra de Substituicao):", texto_cifrado_substituicao)
+
+# Descriptografar o texto cifrado
+texto_descriptografado_substituicao = Criptografia.cifra_substituicao_decrypt(texto_cifrado_substituicao, chave_substituicao)
+print("Texto descriptografado (Cifra de Substituicao):", texto_descriptografado_substituicao)
+```
+
+# Exemplo 3: Cifra de Vigenere
+```python
+# Criptografar usando Cifra de Vigenere
+texto_original = "criptografia"
+chave_vigenere = "segredo"
+texto_cifrado_vigenere = Criptografia.cifra_vigenere_encrypt(texto_original, chave_vigenere)
+print("Texto original:", texto_original)
+print("Texto cifrado (Cifra de Vigenere):", texto_cifrado_vigenere)
+
+# Descriptografar o texto cifrado
+texto_descriptografado_vigenere = Criptografia.cifra_vigenere_decrypt(texto_cifrado_vigenere, chave_vigenere)
+print("Texto descriptografado (Cifra de Vigenere):", texto_descriptografado_vigenere)
+```
+
+# Exemplo 4: Cifra de Vernam (XOR one-time pad)
+```python
+# Criptografar usando Cifra de Vernam
+texto_original = "criptografia"
+chave_vernam = "chavealeatoria"  # Deve ser tao longa quanto o texto original e mantida em segredo
+texto_cifrado_vernam = Criptografia.cifra_vernam_encrypt(texto_original, chave_vernam)
+print("Texto original:", texto_original)
+print("Texto cifrado (Cifra de Vernam):", texto_cifrado_vernam)
+
+# A Cifra de Vernam nao tem um metodo de descriptografia aqui, pois ela so seria segura com uma chave completamente aleatoria e secreta.
+```
+
+# Exemplo 5: Algoritmo de Transposicao
+```python
+# Criptografar usando Algoritmo de Transposicao
+texto_original = "criptografia"
+chave_transposicao = "4321"  # Alterando a ordem das colunas
+texto_cifrado_transposicao = Criptografia.transposicao_encrypt(texto_original, chave_transposicao)
+print("Texto original:", texto_original)
+print("Texto cifrado (Algoritmo de Transposicao):", texto_cifrado_transposicao)
+
+# Descriptografar o texto cifrado
+texto_descriptografado_transposicao = Criptografia.transposicao_decrypt(texto_cifrado_transposicao, chave_transposicao)
+print("Texto descriptografado (Algoritmo de Transposicao):", texto_descriptografado_transposicao)
+```
+# Exemplo 6: Verificando senha ou email hackeada
+
+```python
+senha = "exemplo_de_uma_senha"
+print (Criptografia.verificar_senha_hackeada(senha))
+email = "seu_email@exemplo.com"
+print(Criptografia.verificar_email_comprometido(email))
+```
+Se a resposta for 0, a senha ou o email nunca foi vazada, se não foi.
+
+# Exemplo 7: Calcular hash1, hash256, hash224, hash384
+```python
+
+dados = "exemplo"
+print(Criptografia.calcular_hash_sha1(dados))
+#calcular hash224
+print(Criptografia.calcular_hash_sha224(dados))
+#calcular hash256
+print(Criptografia.calcular_hash_sha256(dados))
+#calcular hash384
+print(Criptografia.calcular_hash_sha384(dados))
+```
+
+# Exemplo 8: Criptografar e Descriptografar mensagem 
+```python
+mensagem = "Eu to usando progbr"
+senha = "exemplo"
+
+print(Criptografia.criptografar_mensagem_(mensagem, senha))
+
+# descriptografar mensagem
+iv = b'\x00' * 16  # Use um valor aleatorio para o IV em produção
+salt = os.urandom(16)  # Gere um salt aleatório em produção
+mensagem_cifrada = b'\x8d~\x0b\x01\xff\xd6\x8e\xa2\xe9\xc0\x08\xa1M\x15\x84'  # Substitua pela mensagem cifrada real
+senha = "exemplo"
+
+mensagem_original = descriptografar_mensagem_(iv, salt, mensagem, senha)
+print("Mensagem original:", mensagem_original)
+```
+
+# Exemplo 9: gerar senha extremamente forte, e amdr(amadora)
+Se nao colocar nenhum parametro, vai ser 20 digitos por padrao, e nao pode ser menor que 20 se for colocar manualmente
+```python
+
+print(Criptografia.gerar_senha_extremamente_forte(20))
+# OUTPUT : -✭颷Ϟ␌♪Ỡ±∇BϚ%Љ0ỎÑd颩<Ә
+```
+Diferente da senha de maior ou igual a 20 digitos, a senha amadora ainda é forte mas pode ser maior ou igual a 3
+
+```python
+
+print(Criptografia.gerar_senha_extremamente_forte__amdr(4))
+# OUTPUT : \A8c
+```
+
+# Gerar Token de autenticacao
+```python
+# Defina o tamanho do token em bytes (recomendado usar pelo menos 32 bytes para segurança adequada)
+tamanho_token = 4
+print(Criptografia.gerar_token_autenticacao(tamanho_token))
+# OUTPUT : cb7cb886
+
+# Criar um objeto TOTP com a chave secreta fornecida
+print(Criptografia.gerar_codigo_totp_ch("exemplo"))
+# OUTPUT : 493538
+
+#gerar um codigo de totp atraves de um qrcode
+print(gerar_codigo_totp_qr_cd(caminho_imagem_qr_code))
+
+#converter um hex key para base32 b
+print(converter_hex_para_base32(hex_key))
+
+```
+
+
+
+
+
+
+Lembrando que as chaves utilizadas nesses exemplos sao apenas ilustrativas e nao devem ser usadas em um cenario real de criptografia. Alem disso, as cifras de Cesar, Substituicao e Vigenere sao consideradas inseguras para uso pratico em sistemas reais. Para aplicacoes reais, e importante utilizar algoritmos de criptografia modernos e bem estabelecidos, como AES, RSA, que serao em progbr em breve.
+
+# Classe de Analise Combinatoria
+
+## Arranjo Simples (Permutacao)
+
+- **arranjo(n, k)**: Este metodo calcula o numero de arranjos simples de "n" elementos tomados "k" a "k". Em outras palavras, e a permutacao de "n" elementos em grupos de "k".
+
+## Combinacao (Binômio)
+
+- **combinacao(n, k)**: Este metodo calcula o coeficiente binomial, tambem conhecido como combinacao, de "n" elementos tomados "k" a "k". Representa o numero de maneiras de escolher "k" elementos diferentes de um conjunto de "n" elementos.
+
+## Combinacao com Repeticao
+
+- **combinacao_repeticao(n, k)**: Este metodo calcula o numero de combinacoes com repeticao de "n" elementos tomados "k" a "k". Essa combinacao permite que elementos sejam escolhidos mais de uma vez, diferentemente da combinacao simples.
+
+## Permutacao com Repeticao
+
+- **permutacao_repeticao(lista)**: Este metodo calcula o numero de permutacoes com repeticao de uma lista de elementos. Ou seja, quantas maneiras diferentes podemos organizar os elementos da lista, levando em conta que ha elementos repetidos.
+
+## Permutacao Circular
+
+- **permutacao_circular(n)**: Este metodo calcula o numero de permutacoes circulares de "n" elementos, tambem conhecido como arranjo circular. Nesse tipo de permutacao, a ordem e importante, mas a rotacao e considerada como uma unica permutacao.
+
+## Numeros de Stirling de Segunda Especie
+
+- **numeros_stirling_segunda(n, k)**: Este metodo calcula os numeros de Stirling de segunda especie, que contam o numero de maneiras de particionar um conjunto de "n" elementos em "k" subconjuntos nao vazios e distintos.
+
+## Numeros de Stirling de Primeira Especie
+
+- **numeros_stirling_primeira(n, k)**: Este metodo calcula os numeros de Stirling de primeira especie, que contam o numero de permutacoes de "n" elementos com "k" ciclos disjuntos.
+
+## Coeficiente Multinomial
+
+- **multinomial(*args)**: Este metodo calcula o coeficiente multinomial, que generaliza o coeficiente binomial para mais de dois conjuntos. Recebe uma sequência de argumentos representando os tamanhos dos conjuntos.
+
+## Numero de Bell
+
+- **numero_bell(n)**: Este metodo calcula o numero de Bell, que representa o numero de maneiras de particionar um conjunto de "n" elementos em subconjuntos nao vazios e distintos.
+
+## Numero de Derivacoes
+
+- **numero_derivacoes(n)**: Este metodo calcula o numero de derivacoes de "n" elementos, que sao permutacoes de "n" elementos sem ponto fixo, ou seja, onde nenhum elemento permanece em sua posicao original.
+
+## Coeficiente Binomial Generalizado
+
+- **coeficiente_binomial_generalizado(n, k, m)**: Este metodo calcula o coeficiente binomial generalizado, que e uma generalizacao do coeficiente binomial para combinar elementos de três conjuntos diferentes.
+
+## Numero de Derangements
+
+- **numero_derangement_biblioteca(n)**: Este metodo calcula o numero de derangements de "n" elementos usando uma biblioteca externa. Derangement e uma permutacao em que nenhum elemento permanece em sua posicao original.
+
+## Triângulo de Pascal
+
+- **triangulo_pascal(n)**: Este metodo gera o triângulo de Pascal com "n + 1" linhas, onde cada numero representa o coeficiente binomial correspondente.
+
+## Numeros Harmônicos
+
+- **numeros_harmonicos(n)**: Este metodo calcula a soma dos primeiros "n" numeros harmônicos, onde o numero harmônico "H(n)" e a soma de "1/i" para cada "i" de 1 a "n".
+
+## Numero de Fibonacci
+
+- **fibonacci(n)**: Este metodo calcula o "n"-esimo numero da sequência de Fibonacci, onde cada numero e a soma dos dois numeros anteriores na sequência (exemplo: 0, 1, 1, 2, 3, 5, 8, ...).
+
+## Numero de Lucas
+
+- **lucas(n)**: Este metodo calcula o "n"-esimo numero da sequência de Lucas, que e uma sequência similar à sequência de Fibonacci, mas com valores iniciais diferentes (exemplo: 2, 1, 3, 4, 7, 11, ...).
+
+## Numeros de Catalan
+
+- **numeros_catalao(n)**: Este metodo calcula o "n"-esimo numero de Catalan, que aparece em varias situacoes de contagem, como sequências de parênteses corretamente aninhados.
+
+## Sequência de Farey
+
+- **sequencia_farey(n)**: Este metodo gera a sequência de Farey de ordem "n", que e a sequência de todas as fracoes irracionais e racionais em ordem crescente, dentro do intervalo [0, 1].
+
+## Numero de Particoes
+
+- **numero_particoes(n)**: Este metodo calcula o numero de particoes de um inteiro "n", ou seja, o numero de maneiras distintas de escrever "n" como a soma de inteiros positivos.
+
+# Exemplo de uso dos metodos da classe de Analise Combinatoria
+
+```python
+# Criando uma instância da classe
+from progbr import Analise_Combinatoria
+
+analise_comb = Analise_Combinatoria()
+
+# Exemplo de Arranjo Simples (Permutacao)
+n = 5
+k = 3
+arranjo_resultado = analise_comb.arranjo(n, k)
+print(f"Arranjo de {n} elementos tomados {k} a {k}: {arranjo_resultado}")  # Resultado: 60
+
+# Exemplo de Combinacao (Binômio)
+n = 7
+k = 2
+combinacao_resultado = analise_comb.combinacao(n, k)
+print(f"Combinacao de {n} elementos tomados {k} a {k}: {combinacao_resultado}")  # Resultado: 21
+
+# Exemplo de Permutacao com Repeticao
+lista = [1, 2, 2, 3]
+permutacao_repeticao_resultado = analise_comb.permutacao_repeticao(lista)
+print(f"Numero de permutacoes com repeticao da lista {lista}: {permutacao_repeticao_resultado}")  # Resultado: 12
+
+# Exemplo de Numero de Bell
+n = 4
+numero_bell_resultado = analise_comb.numero_bell(n)
+print(f"Numero de Bell para n={n}: {numero_bell_resultado}")  # Resultado: 15
+
+# Exemplo de Numeros de Stirling de Primeira Especie
+n = 5
+k = 2
+stirling_primeira_resultado = analise_comb.numeros_stirling_primeira(n, k)
+print(f"Numeros de Stirling de primeira especie para n={n}, k={k}: {stirling_primeira_resultado}")  # Resultado: 40
+
+# Exemplo de Coeficiente Multinomial
+n1, n2, n3 = 5, 3, 2
+multinomial_resultado = analise_comb.multinomial(n1, n2, n3)
+print(f"Coeficiente multinomial para n1={n1}, n2={n2}, n3={n3}: {multinomial_resultado}")  # Resultado: 60
+
+# Exemplo de Numeros Harmônicos
+n = 5
+numeros_harmonicos_resultado = analise_comb.numeros_harmonicos(n)
+print(f"Soma dos primeiros {n} numeros harmônicos: {numeros_harmonicos_resultado}")  # Resultado: 2.283333333333333
+
+# Exemplo de Numero de Fibonacci
+n = 8
+fibonacci_resultado = analise_comb.fibonacci(n)
+print(f"O {n}-esimo numero de Fibonacci: {fibonacci_resultado}")  # Resultado: 21
+
+# Exemplo de Numero de Lucas
+n = 5
+lucas_resultado = analise_comb.lucas(n)
+print(f"O {n}-esimo numero de Lucas: {lucas_resultado}")  # Resultado: 11
+
+# Exemplo de Sequência de Farey
+n = 5
+farey_sequence = analise_comb.sequencia_farey(n)
+print(f"Sequência de Farey de ordem {n}: {farey_sequence}")  
+# Resultado: [0, 1, 1/2, 1/3, 2/3, 1/4, 3/4, 1/5, 2/5, 3/5, 4/5, 1]
+```
+
+# Classe de Probabilidade
+
+A classe `Probabilidade` e uma implementacao de metodos matematicos relacionados à probabilidade, um ramo da matematica que estuda a incerteza e a aleatoriedade. A classe oferece diversas funcoes para calcular probabilidades de eventos e operacoes probabilisticas com base em formulas e conceitos da teoria da probabilidade.
+
+## Metodos e Funcionalidades Principais
+
+### Probabilidade de um Evento Simples
+
+O metodo `probabilidade_evento_simples(evento_favoravel, espaco_amostral)` calcula a probabilidade de um evento ocorrer em um espaco amostral finito, onde o `evento_favoravel` e o numero de casos em que o evento ocorre, e o `espaco_amostral` e o numero total de casos possiveis.
+
+### Probabilidade Complementar
+
+O metodo `probabilidade_complementar(probabilidade_evento)` calcula a probabilidade de o evento complementar ocorrer, ou seja, a probabilidade de que o evento nao ocorra. Ele e util quando a probabilidade de um evento acontecer e conhecida e queremos calcular a probabilidade de ele nao ocorrer.
+
+### Probabilidade Conjunta de Eventos Independentes
+
+O metodo `probabilidade_conjunta_independentes(probabilidade_evento1, probabilidade_evento2)` calcula a probabilidade de dois eventos independentes ocorrerem simultaneamente. Eventos independentes sao aqueles em que a ocorrência de um nao influencia na probabilidade do outro acontecer.
+
+### Probabilidade Conjunta de Eventos Dependentes
+
+O metodo `probabilidade_conjunta_dependentes(probabilidade_evento1, probabilidade_evento2_dado_evento1)` calcula a probabilidade de dois eventos dependentes ocorrerem simultaneamente. Eventos dependentes sao aqueles em que a ocorrência de um afeta a probabilidade do outro acontecer.
+
+### Probabilidade da Uniao de Eventos Mutuamente Exclusivos
+
+O metodo `probabilidade_uniao_mutuamente_exclusivos(probabilidade_evento1, probabilidade_evento2)` calcula a probabilidade da uniao de dois eventos mutuamente exclusivos, ou seja, a probabilidade de que ao menos um dos eventos ocorra.
+
+### Probabilidade da Uniao de Eventos Nao Mutuamente Exclusivos
+
+O metodo `probabilidade_uniao_nao_mutuamente_exclusivos(probabilidade_evento1, probabilidade_evento2, probabilidade_intersecao)` calcula a probabilidade da uniao de dois eventos nao mutuamente exclusivos, levando em conta a probabilidade da intersecao desses eventos.
+
+### Probabilidade Condicional
+
+O metodo `probabilidade_condicional(probabilidade_evento1, probabilidade_evento2_dado_evento1)` calcula a probabilidade de um evento ocorrer, dado que outro evento ja ocorreu. Ele e util para calcular a probabilidade de eventos que sao dependentes.
+
+### Teorema de Bayes
+
+O metodo `teorema_bayes(probabilidade_evento1, probabilidade_evento2_dado_evento1, probabilidade_evento2)` aplica o teorema de Bayes para calcular a probabilidade de um evento A ocorrer, dado que o evento B ocorreu. e um conceito fundamental em probabilidade condicional.
+
+### Probabilidade de Intersecao de Eventos Independentes
+
+O metodo `probabilidade_intersecao_independentes(probabilidade_evento1, probabilidade_evento2)` calcula a probabilidade da intersecao de dois eventos independentes, ou seja, a probabilidade de ambos os eventos ocorrerem.
+
+### Probabilidade de Intersecao de Eventos Dependentes
+
+O metodo `probabilidade_intersecao_dependentes(probabilidade_evento1, probabilidade_evento2_dado_evento1)` calcula a probabilidade da intersecao de dois eventos dependentes, ou seja, a probabilidade de ambos os eventos ocorrerem.
+
+## Variaveis Aleatorias
+
+A classe tambem possui metodos para lidar com variaveis aleatorias discretas e continuas, permitindo calcular suas esperancas matematicas, variâncias e desvios padrao.
+
+Essa classe e uma ferramenta util para calculos probabilisticos em Python, podendo ser usada para solucionar problemas em estatistica, teoria das probabilidades e outras areas relacionadas. Ela fornece uma implementacao simples e direta dos conceitos e formulas mais comuns utilizados no estudo da probabilidade.
+
+# Exemplo de uso dos metodos da classe de Probabilidade
+
+```python
+# Criando uma instância da classe
+from progbr import Probabilidade
+
+probabilidade = Probabilidade()
+
+# Exemplo de Probabilidade de um Evento Simples
+evento_favoravel = 3
+espaco_amostral = 10
+probabilidade_evento_simples_resultado = probabilidade.probabilidade_evento_simples(evento_favoravel, espaco_amostral)
+print(f"Probabilidade de um evento simples: {probabilidade_evento_simples_resultado}")  # Resultado: 0.3
+
+# Exemplo de Probabilidade Complementar
+probabilidade_evento = 0.7
+probabilidade_complementar_resultado = probabilidade.probabilidade_complementar(probabilidade_evento)
+print(f"Probabilidade complementar: {probabilidade_complementar_resultado}")  # Resultado: 0.3
+
+# Exemplo de Probabilidade Conjunta de Eventos Independentes
+probabilidade_evento1 = 0.4
+probabilidade_evento2 = 0.3
+probabilidade_conjunta_independentes_resultado = probabilidade.probabilidade_conjunta_independentes(probabilidade_evento1, probabilidade_evento2)
+print(f"Probabilidade conjunta de eventos independentes: {probabilidade_conjunta_independentes_resultado}")  # Resultado: 0.12
+
+# Exemplo de Probabilidade Conjunta de Eventos Dependentes
+probabilidade_evento1 = 0.4
+probabilidade_evento2_dado_evento1 = 0.2
+probabilidade_conjunta_dependentes_resultado = probabilidade.probabilidade_conjunta_dependentes(probabilidade_evento1, probabilidade_evento2_dado_evento1)
+print(f"Probabilidade conjunta de eventos dependentes: {probabilidade_conjunta_dependentes_resultado}")  # Resultado: 0.08
+
+# Exemplo de Probabilidade da Uniao de Eventos Mutuamente Exclusivos
+probabilidade_evento1 = 0.6
+probabilidade_evento2 = 0.4
+probabilidade_uniao_mutuamente_exclusivos_resultado = probabilidade.probabilidade_uniao_mutuamente_exclusivos(probabilidade_evento1, probabilidade_evento2)
+print(f"Probabilidade da uniao de eventos mutuamente exclusivos: {probabilidade_uniao_mutuamente_exclusivos_resultado}")  # Resultado: 1.0
+
+# Exemplo de Probabilidade da Uniao de Eventos Nao Mutuamente Exclusivos
+probabilidade_evento1 = 0.6
+probabilidade_evento2 = 0.4
+probabilidade_intersecao = 0.2
+probabilidade_uniao_nao_mutuamente_exclusivos_resultado = probabilidade.probabilidade_uniao_nao_mutuamente_exclusivos(probabilidade_evento1, probabilidade_evento2, probabilidade_intersecao)
+print(f"Probabilidade da uniao de eventos nao mutuamente exclusivos: {probabilidade_uniao_nao_mutuamente_exclusivos_resultado}")  # Resultado: 0.8
+
+# Exemplo de Probabilidade Condicional
+probabilidade_evento1 = 0.6
+probabilidade_evento2_dado_evento1 = 0.2
+probabilidade_condicional_resultado = probabilidade.probabilidade_condicional(probabilidade_evento1, probabilidade_evento2_dado_evento1)
+print(f"Probabilidade condicional: {probabilidade_condicional_resultado}")  # Resultado: 0.3333333333333333
+
+# Exemplo do Teorema de Bayes
+probabilidade_evento1 = 0.6
+probabilidade_evento2_dado_evento1 = 0.2
+probabilidade_evento2 = 0.5
+teorema_bayes_resultado = probabilidade.teorema_bayes(probabilidade_evento1, probabilidade_evento2_dado_evento1, probabilidade_evento2)
+print(f"Teorema de Bayes: {teorema_bayes_resultado}")  # Resultado: 0.24
+
+# Exemplo de Probabilidade de Intersecao de Eventos Independentes
+probabilidade_evento1 = 0.4
+probabilidade_evento2 = 0.3
+probabilidade_intersecao_independentes_resultado = probabilidade.probabilidade_intersecao_independentes(probabilidade_evento1, probabilidade_evento2)
+print(f"Probabilidade de intersecao de eventos independentes: {probabilidade_intersecao_independentes_resultado}")  # Resultado: 0.12
+
+# Exemplo de Probabilidade de Intersecao de Eventos Dependentes
+probabilidade_evento1 = 0.4
+probabilidade_evento2_dado_evento1 = 0.2
+probabilidade_intersecao_dependentes_resultado = probabilidade.probabilidade_intersecao_dependentes(probabilidade_evento1, probabilidade_evento2_dado_evento1)
+print(f"Probabilidade de intersecao de eventos dependentes: {probabilidade_intersecao_dependentes_resultado}")  # Resultado: 0.08
+
+# Exemplo da Regra da Multiplicacao para Eventos Independentes
+probabilidade_eventos = [0.4, 0.3, 0.2]
+regra_multiplicacao_independentes_resultado = probabilidade.regra_multiplicacao_independentes(probabilidade_eventos)
+print(f"Regra da multiplicacao para eventos independentes: {regra_multiplicacao_independentes_resultado}")  # Resultado: 0.024
+
+# Exemplo da Regra da Multiplicacao para Eventos Dependentes
+probabilidade_eventos_dado_evento_anterior = [0.3, 0.2]
+regra_multiplicacao_dependentes_resultado = probabilidade.regra_multiplicacao_dependentes(probabilidade_eventos_dado_evento_anterior)
+print(f"Regra da multiplicacao para eventos dependentes: {regra_multiplicacao_dependentes_resultado}")  # Resultado: 0.06
+
+```
+
+
+- Python 3.x
+- As bibliotecas NumPy, SciPy, Matplotlib sao utilizadas em alguns metodos.
+
+## Contribuicao
+
+Se você deseja contribuir, sinta-se à vontade para abrir uma solicitacao de pull ou relatar problemas.
+
+## Licenca
+
+Esta classe esta licenciada sob a Licenca MIT.
+
+## Contato
+
+Se você tiver alguma duvida ou precisar de suporte, entre em contato comigo em:
+
+- Email: bidjorys@exemplo.com
