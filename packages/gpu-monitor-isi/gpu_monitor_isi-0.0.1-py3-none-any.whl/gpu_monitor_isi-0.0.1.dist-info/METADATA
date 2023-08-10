@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: gpu-monitor-isi
+Version: 0.0.1
+Summary: A simple monitor for NVIDIA GPUs
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: datetime
+Requires-Dist: six
+
+# GPU Monitor
