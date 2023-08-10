@@ -1,0 +1,12 @@
+graiax/playwright/__init__.py,sha256=EmeQx8pfh62jjIbTm3EjKPeJfkwq9tPZ2MWGhw6uKhY,184
+graiax/playwright/i18n.py,sha256=FBdBgCLHEv0LWkBRoCxlNqpkVf-Zyr_cZs4DBvHXJxI,1052
+graiax/playwright/installer.py,sha256=NIIv9AgmiSfMG_4ZJI8D_843F8hMRkTXA6HJ_sSoXO8,3044
+graiax/playwright/interface.py,sha256=JREmwbijBNkeqx_M97qAq8aI4-Jb0xxc9X7x_7R2WlU,6011
+graiax/playwright/locale/zh_CN/LC_MESSAGES/graiax-playwright.mo,sha256=wJM6t2RFACxL6KY8kitCatdMrnf2-CIApATn8sgTif0,2938
+graiax/playwright/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+graiax/playwright/service.py,sha256=k4ESo0B19IKPpAkO91IMtebmbwnmFWDxPwh5YGEnGw0,9127
+graiax/playwright/utils.py,sha256=GTgPXZRhznlq7TwrLQgXeHnkKAKS-Kj4HCuxVQ1szS0,919
+graiax_playwright-0.2.5.dist-info/METADATA,sha256=IW9s0Cuvhr_3FgieS_fd5YSEm9Q_PaBazlZq9FDJYLE,3889
+graiax_playwright-0.2.5.dist-info/WHEEL,sha256=bbAwydobi_oZ_0rI4gBBovxINCqHVHcC26TV6S2A2Io,90
+graiax_playwright-0.2.5.dist-info/licenses/LICENSE,sha256=H-SdHD84kWmUcPsCOG4PIzZOcddlCcpiLXD5lYUAFvs,1070
+graiax_playwright-0.2.5.dist-info/RECORD,,
