@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: MiniFL
+Version: 0.1.1
+Summary: A smal framework for reproducing FL experiments
+Home-page: https://github.com/BlackSamorez/MiniFL
+Author: Andrei Panferov
+Author-email: andrei@blacksamorez.ru
+Project-URL: Bug Tracker, https://github.com/BlackSamorez/MiniFL/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# MiniFL
+[![PyPI version](https://img.shields.io/pypi/v/MiniFL.svg?color=blue)](https://pypi.org/project/MiniFL/)
+[![Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![CI status](https://github.com/BlackSamorez/MiniFL/actions/workflows/run-tests.yaml/badge.svg?branch=main)](https://github.com/BlackSamorez/MiniFL/actions)
