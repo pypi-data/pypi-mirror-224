@@ -1,0 +1,6 @@
+a.txt
+dist
+.idea
+script.txt
+*.iml
+venv
