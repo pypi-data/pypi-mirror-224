@@ -1,0 +1,12 @@
+CrazyFlyt/__init__.py,sha256=W18OAuOYXtfYBIvEPt9gy8IcIjisz4mF7V_rZeLK0-A,254
+CrazyFlyt/drone_controller.py,sha256=k8yQaGh-cvKLFbBKi-SrC9KdLks8eGVWx4EYJp5V36k,5729
+CrazyFlyt/simulator.py,sha256=Rzjf8qu4XXr278KSSrSH1A_R3tCwThOx9YX0t5ThEOg,4884
+CrazyFlyt/swarm_controller.py,sha256=Hvw2krkz2wUY0LdAVtUzQV1q2qFjQa0Laoo03hVYWkY,4027
+CrazyFlyt/models/cf2x/cf2.dae,sha256=8P-6VpRzSXzopypa5v-OB7LylUUHymkxma2gMXuV3hs,529735
+CrazyFlyt/models/cf2x/cf2x.urdf,sha256=fLvuwhPZUzseR31mavDvIfnLUHSwO89MsJ1ilYuTfxk,2580
+CrazyFlyt/models/cf2x/cf2x.yaml,sha256=5No3-mxCgjclBftGuQZF7ZwDY9OBx_viOfsfKIlABQw,1263
+CrazyFlyt-0.0.2.dist-info/LICENSE.txt,sha256=UIp30ue1HZit7tMmSK0SS3swJBqOcLLnLJn5LY5YdNE,1036
+CrazyFlyt-0.0.2.dist-info/METADATA,sha256=iW_TOVl2dw-kKX7Fzy0jiMqoMvhVaUlUaoJsHTPXMyk,3903
+CrazyFlyt-0.0.2.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+CrazyFlyt-0.0.2.dist-info/top_level.txt,sha256=dezYI68KnCWSpf-23l-uXHk3VVtSyl5YOa4rr-oGFoU,10
+CrazyFlyt-0.0.2.dist-info/RECORD,,
