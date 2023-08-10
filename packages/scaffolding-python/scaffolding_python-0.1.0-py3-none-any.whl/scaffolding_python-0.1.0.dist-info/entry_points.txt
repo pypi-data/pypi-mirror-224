@@ -1,0 +1,5 @@
+[console_scripts]
+coins=scaffolding_python.combinations_coins.__main__:start
+fibonacci=scaffolding_python.fibonacci_exercise.__main__:start
+my-script=scaffolding_python.script_for_toml:start
+
