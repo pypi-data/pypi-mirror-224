@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+tests/__init__.py
+tests/test_article.py
+web_article/__init__.py
+web_article/article.py
+web_article/bin.py
+web_article/selectors.py
+web_article/version.json
+web_article.egg-info/PKG-INFO
+web_article.egg-info/SOURCES.txt
+web_article.egg-info/dependency_links.txt
+web_article.egg-info/entry_points.txt
+web_article.egg-info/requires.txt
+web_article.egg-info/top_level.txt

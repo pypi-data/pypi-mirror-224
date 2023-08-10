@@ -1,0 +1,2 @@
+include requirements.txt
+include web_article/version.json
