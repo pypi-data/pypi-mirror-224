@@ -1,0 +1,11 @@
+traceloop/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+traceloop/decorators/__init__.py,sha256=Quph6jzJ5FzdrVPomVI27PE-T_DSdHkOB6u1V38viMA,1757
+traceloop/instrumentation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+traceloop/instrumentation/openai/__init__.py,sha256=OjX__NARdIi9mnozpjt7rypipW-NlaaVP4Jk2Yp6lUc,7092
+traceloop/semconv/__init__.py,sha256=IgPJaPQ_KNwBw5Xj-k6Tz3AUXGC3xomyD0YE7cO_aJA,1295
+traceloop/tracing/__init__.py,sha256=LgZGVM4Du6YjK7DP-1OSQVg3lnnGIxxfOZ_y9_dGddg,44
+traceloop/tracing/no_log_span_batch_processor.py,sha256=8FPzDXAFn4gsZEegVtrvdGJBy2tUwq9_rTOlkhk1ziU,1300
+traceloop/tracing/tracer.py,sha256=CMLxIoP1ND-9IJzjoPLfHFqWpZqgorR9W9ilKormdxY,2525
+traceloop_sdk-0.0.12.dist-info/METADATA,sha256=gZ3giYuDSv5wRqIV8K4zHUzbFfC4wfqcIOzvSyzQBBM,704
+traceloop_sdk-0.0.12.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+traceloop_sdk-0.0.12.dist-info/RECORD,,
