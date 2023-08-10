@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+ben-tru/__init__.py
+ben-tru/ben.py
+ben-tru/data/Matrizes Consolidadas (em tep) 1970 - 2022.xls
+ben-tru/data/coeficientes_emissoes_gee_ajustado.csv
+ben-tru/data/correspondencia_MIP56_TRU51_BEN.csv
+ben-tru/data/correspondencia_produtos_TRU51_BEN.csv
+ben_tru.egg-info/PKG-INFO
+ben_tru.egg-info/SOURCES.txt
+ben_tru.egg-info/dependency_links.txt
+ben_tru.egg-info/requires.txt
+ben_tru.egg-info/top_level.txt
