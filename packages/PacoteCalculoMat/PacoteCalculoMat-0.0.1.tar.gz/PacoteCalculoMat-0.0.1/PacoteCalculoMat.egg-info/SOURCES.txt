@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+PacoteCalculoMat.egg-info/PKG-INFO
+PacoteCalculoMat.egg-info/SOURCES.txt
+PacoteCalculoMat.egg-info/dependency_links.txt
+PacoteCalculoMat.egg-info/top_level.txt
+extra/__init__.py
+extra/divison.py
+extra/multiplication.py
