@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+bubble_library.egg-info/PKG-INFO
+bubble_library.egg-info/SOURCES.txt
+bubble_library.egg-info/dependency_links.txt
+bubble_library.egg-info/requires.txt
+bubble_library.egg-info/top_level.txt
