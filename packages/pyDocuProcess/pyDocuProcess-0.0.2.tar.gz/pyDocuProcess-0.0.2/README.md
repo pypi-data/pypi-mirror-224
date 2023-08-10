@@ -1,0 +1,1 @@
+This Package is developed to process the semi structured documents by separating digital and scanned documents.

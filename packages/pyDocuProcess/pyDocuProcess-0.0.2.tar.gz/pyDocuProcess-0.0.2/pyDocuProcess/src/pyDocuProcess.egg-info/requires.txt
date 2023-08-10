@@ -1,0 +1,4 @@
+PyMuPDF==1.22.5
+google-cloud-vision==3.4.4
+pandas==1.5.3
+numpy
