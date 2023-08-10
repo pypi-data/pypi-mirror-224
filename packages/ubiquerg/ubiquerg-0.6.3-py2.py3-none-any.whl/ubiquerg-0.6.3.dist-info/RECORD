@@ -1,0 +1,14 @@
+ubiquerg/__init__.py,sha256=02QU7TyXJmJEqHlK5Z3xPdA15aaGxMgJonOfgpmGnhc,220
+ubiquerg/_version.py,sha256=zYiFHqR7JwbvdK9dvKrh-RTNfUqjHUwC4CTcFAPVYLc,22
+ubiquerg/cli_tools.py,sha256=pxYh1DeDMgvU-U7oq-TbNiGhBvwaZfNJ6NOQiUCTaiI,8982
+ubiquerg/collection.py,sha256=1DP8dfm74Qo_mJzFptPY6b6PNCnvZJbFoIswuEe_KQg,3970
+ubiquerg/environment.py,sha256=0cWAMqnDR_RMh4m3MVKdeicZP1vtCXp8tH2sPkqXL7w,899
+ubiquerg/files.py,sha256=lB4e8aMTXvKUgPKm1ylUh8AqEmw5xBz0aTS6AzdvR7M,7867
+ubiquerg/paths.py,sha256=6Vshg5Hm0E6I294cVEn7rca5N3iwuDVAL-OSbujlgu0,3464
+ubiquerg/system.py,sha256=2QIGMHvdt9vl2C-lwwrmDi1hT8RdO9739IxBkkIe6pI,1958
+ubiquerg/web.py,sha256=VLXna7zpfImXTvEqfYnMwoZnJyJa9l36LSze8MetB5U,735
+ubiquerg-0.6.3.dist-info/LICENSE.txt,sha256=oB6ZGDa4kcznznJKJsLLFFcOZyi8Y6e2Jv0rJozgp-I,1269
+ubiquerg-0.6.3.dist-info/METADATA,sha256=FqAPdlFSrs8pGNQxCrQRmMmoVYG-M8uvPvgFzhEX4tM,1851
+ubiquerg-0.6.3.dist-info/WHEEL,sha256=m9WAupmBd2JGDsXWQGJgMGXIWbQY3F5c2xBJbBhq0nY,110
+ubiquerg-0.6.3.dist-info/top_level.txt,sha256=Cpf-V9NVN6Ep0xnomNb8DAOai6Rxh1BjO40ew8-Rzqw,9
+ubiquerg-0.6.3.dist-info/RECORD,,
