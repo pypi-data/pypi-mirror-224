@@ -1,0 +1,8 @@
+localstack_extension/__init__.py,sha256=bwJpxDJML_AISonCTqF8eTHxZDFA9uqzt9yqUWlj084,39
+localstack_extension/extension.py,sha256=VPb6uNcyPsJoo4Znn5eHcJALLuetLZMWlFT4D335RM8,4363
+localstack_extension/server.py,sha256=f27F3BC5v_xiAeZbmz8tUmWhXubQqTWlGngJuVg-Zvw,1810
+localstack_extension_authress-0.1.7.dist-info/METADATA,sha256=4_q-GrATJukNVqW23i_-w6QkP2AseJHLgQj-Lx5V8DY,3753
+localstack_extension_authress-0.1.7.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+localstack_extension_authress-0.1.7.dist-info/entry_points.txt,sha256=wVtP7ncKD0YguPEWX8ScGdOXNl6z0i0-TLh0BYVr-j0,93
+localstack_extension_authress-0.1.7.dist-info/top_level.txt,sha256=zNNEfKV9qKBY2GVugYAcK_Am8FuRmNOFoHgg5nwzBGI,21
+localstack_extension_authress-0.1.7.dist-info/RECORD,,
