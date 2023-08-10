@@ -1,0 +1,2 @@
+test
+waii_sdk_py
