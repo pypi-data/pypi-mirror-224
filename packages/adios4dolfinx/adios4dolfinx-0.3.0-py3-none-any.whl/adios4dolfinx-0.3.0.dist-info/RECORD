@@ -1,0 +1,11 @@
+adios4dolfinx/__init__.py,sha256=DOJkE6nJjEqr8C15UUrOylhUAK2U4XwT6N4x38Qc0rE,803
+adios4dolfinx/adios2_helpers.py,sha256=qy3x3seXrWCO9bg5DeXrVT5983mVaISIdQWt-duPmwc,6726
+adios4dolfinx/checkpointing.py,sha256=xuGJO1OPDlx0Cp1FWbS_VppR_cTMOTY0T7-Hpdh3QmQ,15624
+adios4dolfinx/comm_helpers.py,sha256=ttzScXxubl5arKCClwu_P4mFsh3Ji66E6v4ThfO6dmc,10835
+adios4dolfinx/legacy_readers.py,sha256=0URmqNIF2IhnM5tiAa2M6penZUEfoXHTdU4EItslP3U,15278
+adios4dolfinx/utils.py,sha256=NdTBMUC4FElV_r8nTHWyJibRlJZ6iCMLbrIWp5ubs0A,3748
+adios4dolfinx-0.3.0.dist-info/LICENSE,sha256=zd9gJBeLiR1R8KCgs6EFyFHGcxzEam3Ijs1STdFuQaA,1057
+adios4dolfinx-0.3.0.dist-info/METADATA,sha256=hi3LC-gtb86NmEZwUQx-M5hHtJuW9Xur-zIJQCjd09g,3722
+adios4dolfinx-0.3.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+adios4dolfinx-0.3.0.dist-info/top_level.txt,sha256=cShs14ge-BaUMNLp4EPIsq8mwRe4ZK4peFyS3FOmQ3g,14
+adios4dolfinx-0.3.0.dist-info/RECORD,,
