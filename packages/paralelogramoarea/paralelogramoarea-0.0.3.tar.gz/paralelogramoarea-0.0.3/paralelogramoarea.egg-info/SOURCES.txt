@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+calculandoparalelogramo/__init__.py
+calculandoparalelogramo/calculaparalelogramo.py
+paralelogramoarea.egg-info/PKG-INFO
+paralelogramoarea.egg-info/SOURCES.txt
+paralelogramoarea.egg-info/dependency_links.txt
+paralelogramoarea.egg-info/top_level.txt
