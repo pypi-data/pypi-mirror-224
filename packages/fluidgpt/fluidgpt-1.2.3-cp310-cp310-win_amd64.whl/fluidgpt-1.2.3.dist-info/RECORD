@@ -1,0 +1,12 @@
+fluidgpt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fluidgpt/fluidai_gpt_sdk/__init__.py,sha256=3pA6bPlj37q8mmKjD5zyBK1qc7cUmnboP-hqiKgBwj4,153
+fluidgpt/fluidai_gpt_sdk/endpoints.cp310-win_amd64.pyd,sha256=pkwGFZhQF9-rIDXxpA2TUaXcjYuXpdGpUWBv4Rnqsmk,57856
+fluidgpt/fluidai_gpt_sdk/jupyter_helper.cp310-win_amd64.pyd,sha256=rnhMmEN7mKEYLzARE8Q8Tt75qJpEOIasHQaAEf9IClo,92672
+fluidgpt/fluidai_gpt_sdk/prompt_list.cp310-win_amd64.pyd,sha256=SKCh3aINmpViwJaqB6QSDSxrtLIQZgqKPE--lvlf0aY,27648
+fluidgpt/validation/__init__.py,sha256=nVbp996PbMLxhSJE7rFMPxfogDTPEkatLimrwEc-nQs,113
+fluidgpt/validation/authentication.cp310-win_amd64.pyd,sha256=hvubh5Ih-x4N3IHuYnRo1d8Gk9ztvfxgz7d17mwoTUU,67072
+fluidgpt/validation/credentials_authentication.cp310-win_amd64.pyd,sha256=Q2-J1QhLwFYZXu867GKgX52kfLCncj_Ncg83u7l8_3A,81408
+fluidgpt-1.2.3.dist-info/METADATA,sha256=y58RvP63Ry3OyRNhwCu-wkF16vgtgi4-51yW0yDVvz0,697
+fluidgpt-1.2.3.dist-info/WHEEL,sha256=Wb1el1iP4ORW7FiLElw7HfxLpDiHzwvd2B382b2Idl0,102
+fluidgpt-1.2.3.dist-info/top_level.txt,sha256=wvmCfKc--Y9YazKg9wWJeEF4Det2AAMEhjEEcm-nXT0,9
+fluidgpt-1.2.3.dist-info/RECORD,,
