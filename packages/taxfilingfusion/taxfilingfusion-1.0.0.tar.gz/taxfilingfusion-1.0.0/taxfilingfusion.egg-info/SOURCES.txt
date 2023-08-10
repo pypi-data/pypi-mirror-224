@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+taxfilingfusion/__init__.py
+taxfilingfusion/ff_called_func.py
+taxfilingfusion/ff_fetch.py
+taxfilingfusion/ff_fusion.py
+taxfilingfusion.egg-info/PKG-INFO
+taxfilingfusion.egg-info/SOURCES.txt
+taxfilingfusion.egg-info/dependency_links.txt
+taxfilingfusion.egg-info/requires.txt
+taxfilingfusion.egg-info/top_level.txt
