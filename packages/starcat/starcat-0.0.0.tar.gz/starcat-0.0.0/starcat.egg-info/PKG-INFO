@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: starcat
+Version: 0.0.0
+Summary: Star cluster analysis toolkit
+Home-page: https://github.com/sarashenyy/starcat
+Author: Yueyue Shen
+Author-email: shenyy@bao.ac.cn
+License: MIT
+License-File: LICENSE
