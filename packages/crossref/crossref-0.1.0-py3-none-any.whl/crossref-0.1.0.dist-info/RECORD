@@ -1,0 +1,11 @@
+crossref/__init__.py,sha256=uW-HYS0CRLfz19hMygdef4QyyMOlfE7G2OaeyuBhcj0,5566
+crossref/argument_checkers.py,sha256=SGjpD5CNRDGGi_H6AhQRjL96Xmj3mncQb5XYwicEl6E,5827
+crossref/argument_parsers.py,sha256=qSQUExTi3c-5oJ9qiLuxiT-mGjg6bpM-NzbUSQ4ECEg,2396
+crossref/command_handlers.py,sha256=iAkq7pNWy0GNoWUlkVlJNoUR0BNfVwnzynoGExPirO4,7469
+crossref/crossref_cli.py,sha256=VaSIRL7EZ_KlVvTjeQyOXkjSm30wPOz2RammwEmRHqU,10195
+crossref/utils.py,sha256=YfbCvjsuInbdq6JGIhnebxv3DI42IAyzMhG63x2ETII,751
+crossref-0.1.0.dist-info/METADATA,sha256=8p-T4yxKB7JKH_5LAVxt-R9mONuKHbR8YQnKjrrbsSU,3806
+crossref-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+crossref-0.1.0.dist-info/entry_points.txt,sha256=vJoUlqAeDXvoo7sEkhMokPHash4U0dMSJIjrolTI8w8,56
+crossref-0.1.0.dist-info/top_level.txt,sha256=SU3igNxyJGhUeJm2PNiCRayvePB-mV4OdeastEgG16w,9
+crossref-0.1.0.dist-info/RECORD,,
