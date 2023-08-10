@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0",
+	"pandas~=1.3.2",
+        "geopandas~=0.6.1",
+        "numpy~=1.20.3",
+        "scipy~=1.7.1"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "ddoregio"
+version = "0.0.1"
+authors = [
+  { name="Nicolas Golenvaux", email="nicolas.golenvaux@uclouvain.be" },
+]
+description = "A Branch-and-Bound Approach Using Decision Diagrams for Regionalization"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
