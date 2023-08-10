@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: localstack-obfuscator
+Version: 0.2.0
+Home-page: https://localstack.cloud
+Author: LocalStack
+Author-email: support@localstack.cloud
+Requires-Python: >=3.9
