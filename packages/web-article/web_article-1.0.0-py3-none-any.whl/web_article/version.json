@@ -1,0 +1,8 @@
+{
+    "prog": "web_article",
+    "desc": "get title and text for given web url",
+    "url": "https://github.com/suqingdong/web_article",
+    "author": "suqingdong",
+    "author_email": "suqingdong1114@gmail.com",
+    "version": "1.0.0"
+}
