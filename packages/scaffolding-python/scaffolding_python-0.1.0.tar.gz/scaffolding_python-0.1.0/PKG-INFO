@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: scaffolding-python
+Version: 0.1.0
+Summary: 
+Author: eduardo.zapata
+Author-email: eduardo.zapata@wayops.eu
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.6,<9.0.0)
+Requires-Dist: fastapi (>=0.101.0,<0.102.0)
+Requires-Dist: opencensus-ext-azure (>=1.1.9,<2.0.0)
+Requires-Dist: uvicorn (>=0.23.2,<0.24.0)
+Description-Content-Type: text/markdown
+
+**Instalar el proyecto**
+
+- Para instalar todas las dependencias **poetry install**
+
+**Arrancar el proyecto**
+
+- Para arrancar el poyecto **poetry run py 'nombre_archivo'**
+- Para arracar el servidor **poetry run uvicorn src.api:app --reload**, para accede a la documentación de la api **http://127.0.0.1:8000/docs**
+
+**Gestion de dependencias**
+
+- Para agregar una dependencia **poetry add 'nombre_paquete'**
+- Para agregar una dependencia de desarrollo **poetry add 'nombre_paquete' --dev**
+- Para desinstalar una dependencia **poetry remove 'nombre_paquete'**
+
+**Debug**
+
+- Para correr un archivo en modo post mortem **poetry run py -m pdbp 'nombre_archivo'**
+- Para lanzar los test **poetry run pytest -v**
+
