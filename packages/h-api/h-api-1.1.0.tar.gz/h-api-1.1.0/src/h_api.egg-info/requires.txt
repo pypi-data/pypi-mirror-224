@@ -1,0 +1,6 @@
+jsonschema>=4.18
+importlib_resources
+referencing
+
+[:python_version < "3.8."]
+importlib_metadata
