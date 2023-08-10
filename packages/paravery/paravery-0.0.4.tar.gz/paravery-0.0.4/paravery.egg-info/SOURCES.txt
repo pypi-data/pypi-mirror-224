@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+paravery/__init__.py
+paravery/multiplicando.py
+paravery.egg-info/PKG-INFO
+paravery.egg-info/SOURCES.txt
+paravery.egg-info/dependency_links.txt
+paravery.egg-info/top_level.txt

@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: paravery
+Version: 0.0.4
+Summary: Meu primeiro pacote em python
+Author: Luis Eduardo
+Author-email: duardos36@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Descricao detalhada do meu pacote.
