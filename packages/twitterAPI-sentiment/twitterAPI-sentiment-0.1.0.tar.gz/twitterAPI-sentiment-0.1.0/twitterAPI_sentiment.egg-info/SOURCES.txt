@@ -1,0 +1,7 @@
+setup.py
+src/twits.py
+twitterAPI_sentiment.egg-info/PKG-INFO
+twitterAPI_sentiment.egg-info/SOURCES.txt
+twitterAPI_sentiment.egg-info/dependency_links.txt
+twitterAPI_sentiment.egg-info/requires.txt
+twitterAPI_sentiment.egg-info/top_level.txt
