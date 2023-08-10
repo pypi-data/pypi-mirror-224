@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: umar-py
+Version: 0.0.2
+Summary: Helper library.
+Home-page: https://github.com/umarriqbal/umar-py
+Author: Umar
+Author-email: umarrdev@gmail.com
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+License-File: LICENSE.txt
+
