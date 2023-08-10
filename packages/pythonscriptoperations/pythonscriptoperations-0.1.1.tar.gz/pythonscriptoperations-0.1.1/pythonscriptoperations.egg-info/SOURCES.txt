@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pythonscriptoperations/__init__.py
+pythonscriptoperations/operation_manager.py
+pythonscriptoperations/test_operation_manager.py
+pythonscriptoperations.egg-info/PKG-INFO
+pythonscriptoperations.egg-info/SOURCES.txt
+pythonscriptoperations.egg-info/dependency_links.txt
+pythonscriptoperations.egg-info/top_level.txt
