@@ -1,0 +1,6 @@
+hspylib
+hspylib-datasource
+hspylib-clitt
+requests
+firebase-admin
+urllib3<2.0.0
