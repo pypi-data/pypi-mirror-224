@@ -1,0 +1,2 @@
+[console_scripts]
+sardine = pymaschine.__main__:launch

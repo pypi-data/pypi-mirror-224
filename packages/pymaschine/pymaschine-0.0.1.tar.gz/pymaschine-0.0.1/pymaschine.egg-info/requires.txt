@@ -1,0 +1,7 @@
+pyqt6
+pymikro
+easymix
+
+[dev]
+
+[profile]
