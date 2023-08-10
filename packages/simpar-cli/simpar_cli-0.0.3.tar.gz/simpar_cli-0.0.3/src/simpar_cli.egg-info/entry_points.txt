@@ -1,0 +1,2 @@
+[console_scripts]
+myapplication = simpar_cli.cli
