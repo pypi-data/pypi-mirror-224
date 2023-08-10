@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+pythonscriptoperations.egg-info/PKG-INFO
+pythonscriptoperations.egg-info/SOURCES.txt
+pythonscriptoperations.egg-info/dependency_links.txt
+pythonscriptoperations.egg-info/top_level.txt
