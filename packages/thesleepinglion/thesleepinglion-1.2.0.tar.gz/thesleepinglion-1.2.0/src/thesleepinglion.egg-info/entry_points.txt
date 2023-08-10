@@ -1,0 +1,2 @@
+[console_scripts]
+thesleepinglion = thesleepinglion.main:thesleepinglion_main
