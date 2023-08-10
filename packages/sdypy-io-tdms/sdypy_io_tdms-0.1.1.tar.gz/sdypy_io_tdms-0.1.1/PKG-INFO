@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: sdypy_io_tdms
+Version: 0.1.1
+Summary: TDMS file read and write functions compliant with SDyPy SEP5
+Home-page: https://github.com/sdypy
+Author: Wout Weijtjens
+Author-email: wout.weijtjens@vub.be
+Maintainer: Wout Weijtjens
+Maintainer-email: wout.weijtjens@vub.be
+License: MIT license
+Keywords: io,tdms,SEP5
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+
+SDyPy TDMS io
+-----------------------
+
+Basic package to import National Instruments .tdms files in a way complient with
+SDyPy format for timeseries as proposed in SEP005.
+
+Using the package
+------------------
+
+    .. code-block:: python
+
+        from sdypy_io_tdms import read_tdms
+
+        file_path = # Path to the tdms file of interest
+        signals = read_tdms(file_path)
