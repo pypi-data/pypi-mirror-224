@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.py
+gp_wrapper/__init__.py
+gp_wrapper/album.py
+gp_wrapper/enrichment_item.py
+gp_wrapper/gp.py
+gp_wrapper/media_item.py
+gp_wrapper/utils.py
+gp_wrapper.egg-info/PKG-INFO
+gp_wrapper.egg-info/SOURCES.txt
+gp_wrapper.egg-info/dependency_links.txt
+gp_wrapper.egg-info/top_level.txt
