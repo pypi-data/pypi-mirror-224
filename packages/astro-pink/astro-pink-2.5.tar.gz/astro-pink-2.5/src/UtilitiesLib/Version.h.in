@@ -1,0 +1,10 @@
+/**
+ * @file   Version.h
+ * @date   Nov 6, 2014
+ * @author Bernd Doser, HITS gGmbH
+ */
+
+#pragma once
+
+#define PROJECT_VERSION "@PROJECT_VERSION@"
+#define GIT_REVISION "@GIT_REVISION@"
