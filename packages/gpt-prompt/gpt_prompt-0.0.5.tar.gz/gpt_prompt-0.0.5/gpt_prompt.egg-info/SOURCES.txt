@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+gpt_prompt.egg-info/PKG-INFO
+gpt_prompt.egg-info/SOURCES.txt
+gpt_prompt.egg-info/dependency_links.txt
+gpt_prompt.egg-info/top_level.txt
