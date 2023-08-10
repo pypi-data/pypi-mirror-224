@@ -1,0 +1,8 @@
+simplex_assimilate/__init__.py,sha256=hxw0t0HLwlPit-Rkf7gtLM4nMi0yG1Vx0tX94Heg7lQ,66
+simplex_assimilate/cdf.py,sha256=7UqkyB4aEnZnICNdt_ydH4GmLHyFvA4PxeiPSfRRvGg,10755
+simplex_assimilate/dirichlet.py,sha256=zIpBA18R6fXC6QA-eEDeasF12qdL22veW8Bqs3SQab4,4278
+simplex_assimilate/quantize.py,sha256=vt1IoQgqBUQRiRl42tGe_9DVDY5mWQaboLtXnczV72Y,1407
+simplex_assimilate/transport.py,sha256=tdHfNq19cpKOjM-PBArIopyzWemNLT2aMXHc_u3zktI,1153
+simplex_assimilate-0.1.7.dist-info/METADATA,sha256=o_LH7-4qPuhtQMJiyAyTEmltlMgmDdUVVAYqTxn2kAw,1367
+simplex_assimilate-0.1.7.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+simplex_assimilate-0.1.7.dist-info/RECORD,,
