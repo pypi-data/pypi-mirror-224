@@ -1,0 +1,10 @@
+winunlock/__init__.py,sha256=IcbdUDXRIu2LrMpuhcQFFoO3gmGzM9aTPkx_Tz0BoKs,69
+winunlock/_iotype.py,sha256=_NlYzFxwTY7XLzCGuiCLUrJR2dQEqIrXHKU1ecOMqWc,194
+winunlock/_monkeypatch.py,sha256=DGF6kG99CeGEIQNGfKtngwmDuaxnYL_RmjyYNz6OQzA,3234
+winunlock/_open.py,sha256=Cdc6PtXXWTTCxQN-en7Dtb7hN9FLifb2QxdIOl1nFXE,5895
+winunlock/version.py,sha256=QYN7TnYM7p6IuK0ctZg999jxHnkydqf7ORSJtpgDnac,164
+winunlock-0.1.2.dist-info/LICENSE,sha256=iA87AOQHdhE8EGYL3e5Bf0aWLdsU6umALVvhAnjizqM,1090
+winunlock-0.1.2.dist-info/METADATA,sha256=2j8FfIO-Skq5oDxYpZ6E5WBgkOYp2zQVIGGH-ePiF9M,3163
+winunlock-0.1.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+winunlock-0.1.2.dist-info/top_level.txt,sha256=ovg824nvJdAoiO6F217UbjkIxsJgVA84_g9Hgs-Qcpo,10
+winunlock-0.1.2.dist-info/RECORD,,
