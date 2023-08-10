@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: totokenizers
+Version: 1.0.0
+Summary: Text tokenizers.
+Home-page: https://github.com/TeiaLabs/totokenizers
+Author: TeiaLabs
+Author-email: contato@teialabs.com
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Provides-Extra: test
+
+# totokenizers
+
+A model-agnostic library to encode text into tokens and couting them using different tokenizers.
