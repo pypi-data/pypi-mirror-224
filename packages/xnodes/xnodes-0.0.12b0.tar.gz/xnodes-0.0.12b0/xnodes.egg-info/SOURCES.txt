@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+xnodes/__init__.py
+xnodes/xnodes.py
+xnodes.egg-info/PKG-INFO
+xnodes.egg-info/SOURCES.txt
+xnodes.egg-info/dependency_links.txt
+xnodes.egg-info/top_level.txt
