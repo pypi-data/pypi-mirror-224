@@ -1,0 +1,9 @@
+jupyter_sentry_extension/__init__.py,sha256=zOn1xOhz-jJW0IyNATZBr2i6euV4LNpbL2bGb8R7J6k,206
+jupyter_sentry_extension/config.py,sha256=jDR9QplQlllrJeSBjlXSk86ehboWqaCTGi6ZyL1vfY8,124
+jupyter_sentry_extension/constants.py,sha256=chii-CWiipdyxHZ8jVSTj1g11lrXSl_pw99Rd8KnPvQ,160
+jupyter_sentry_extension/extension.py,sha256=FHjm52WBkESMhBjk29tSa3rue11OE1jsCqa3EdPSNig,712
+jupyter_sentry_extension-0.0a2.data/data/etc/jupyter/jupyter_server_config.d/jupyter_sentry_extension.json,sha256=KO2i7T3cU1wrj16YCH-fsn7pWqJBmhgVmoxnK96ercE,99
+jupyter_sentry_extension-0.0a2.dist-info/METADATA,sha256=bVpy9htTsugRyZuB6SIxZ9mDylL0frCva5WpVh8dKNk,3187
+jupyter_sentry_extension-0.0a2.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+jupyter_sentry_extension-0.0a2.dist-info/licenses/LICENSE,sha256=LJkSp4suhlI8nz2XQ7hDH1TiG4vEzOwMGSsuh-tVN40,1519
+jupyter_sentry_extension-0.0a2.dist-info/RECORD,,
