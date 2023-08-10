@@ -1,0 +1,15 @@
+pyquicktest/__init__.py,sha256=ePgUrbbQ2hqGhXK6pIiFL2JLSHYg_uPoxlLBMqHlcrc,2847
+pyquicktest/assertions.py,sha256=hzD2VIe4cZgUilAKeIVWf4sh6E8mH_BLdAzWrWvYTG4,14632
+pyquicktest/authorship.py,sha256=cfFYzSJTgSdB2szWrwOheJTVzOMcbBnp_FQowyerMpA,2905
+pyquicktest/cli.py,sha256=GFz0slHfe5lf6H9Jls_Wt6xoDUEkM35WhQU3zmOpCxY,22818
+pyquicktest/decorators.py,sha256=r36CVKRuo3S0gbBakXTy4qsA_4P4oHguRa7Ae8pLWnc,11428
+pyquicktest/gen.py,sha256=e5ZR34xnX5qIV9KSLdJnlmFlCQUAOM3qR6RoB3vrDwI,8046
+pyquicktest/pqt.py,sha256=UIRh9rV8MfZKEwvJmmdvpS3cukNZ_aaDBddKf1YUay4,16192
+pyquicktest/rewrite.py,sha256=0mdycvwRYAleqwb_EKNP0JFLq8-xbKsowp2RDeDS-Dw,7013
+pyquicktest/utils.py,sha256=2VRTYrbUT4cV0Q9H9a_G9-1fdpr2Diwkwe-jU-d-fxo,10157
+PyQuickTest-0.1.0.dist-info/LICENSE,sha256=1qaMekEuxTsghmSHYeVyvJ4QAZxx5REo9uF3e2wm0ko,1094
+PyQuickTest-0.1.0.dist-info/METADATA,sha256=LM4VlAdEGWfK6b5Tp9tCOL86iLlyx0royaqoGJdpMr8,10926
+PyQuickTest-0.1.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+PyQuickTest-0.1.0.dist-info/entry_points.txt,sha256=Sj25stHviOpRpJJDsr7rcDl-14B_JoOu8dhpXhSY38U,44
+PyQuickTest-0.1.0.dist-info/top_level.txt,sha256=VJfaiw3mtf5R8Z40ORiRciQwYMjucZbI5n-4Sx-Dkbc,12
+PyQuickTest-0.1.0.dist-info/RECORD,,
