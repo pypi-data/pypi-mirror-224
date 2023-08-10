@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: merql
+Version: 0.0.1
+Summary: Datastore with a simple query language
+Author-Email: Rajiv Abraham <rajiv.abraham@gmail.com>
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# merql
