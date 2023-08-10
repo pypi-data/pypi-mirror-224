@@ -1,0 +1,11 @@
+cdisco/color_analysis.py,sha256=Nh8bH_NLlguZIfFn50kmpdjf2PLrjw3xFMk64XsIZtc,7978
+cdisco/datasets.py,sha256=NIFqVSjCCPVfTfsSaw5MN2wW20yJI_wQ3mXJb4Eqv5o,2677
+cdisco/predict.py,sha256=3dpNU8fhaY-5PRSsjz-M_ABRR82osT_0_KzLlqsKW5o,6976
+scripts/color_analysis.py,sha256=Nh8bH_NLlguZIfFn50kmpdjf2PLrjw3xFMk64XsIZtc,7978
+scripts/datasets.py,sha256=NIFqVSjCCPVfTfsSaw5MN2wW20yJI_wQ3mXJb4Eqv5o,2677
+scripts/predict.py,sha256=3dpNU8fhaY-5PRSsjz-M_ABRR82osT_0_KzLlqsKW5o,6976
+cdisco-0.1.0.dist-info/LICENSE.txt,sha256=VBrvANzYb40v7PseeZmhf_uztB1feHkppE-IVX63jFc,1069
+cdisco-0.1.0.dist-info/METADATA,sha256=nMVzhopY74QnzN5nkVO3pU07Cc219fhBMZzQFRzBGmE,881
+cdisco-0.1.0.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+cdisco-0.1.0.dist-info/top_level.txt,sha256=rmzd5mewlrJy4sT608KPib7sM7edoY75AeqJeY3SPB4,8
+cdisco-0.1.0.dist-info/RECORD,,
