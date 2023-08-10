@@ -1,0 +1,10 @@
+finetuning_suite/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+finetuning_suite/build_dataset.py,sha256=0kKPMjl3oY8WYa-uE49BJ9g4mHi_KZdyUxedUOG7_RU,2793
+finetuning_suite/finetune.py,sha256=Kyb_VJatH1Pk6koOaTp-aF03_oyyC-zFEh5xlxbpyH4,23336
+finetuning_suite/hf.py,sha256=557blJLxWW1Ks2jDeVYSHQXMGxn9vsv9XNG_-QAMrKw,5489
+finetuning_suite/test.py,sha256=RI9S5uMwOM_bJVO-Af-sLjjFN8WQwFPTXfPqRH1aASw,4385
+finetuning_suite/utils/stable_adamw.py,sha256=HH9N-bYeYa1klAyCeJs2xlXoXzIGTPm1_kWwErbBWvM,3306
+finetuning_suite-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+finetuning_suite-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+finetuning_suite-0.1.0.dist-info/METADATA,sha256=NyWcLw2_rjfT9vVfhx32rpBzk-3CdFDlIH-vICEsjWU,650
+finetuning_suite-0.1.0.dist-info/RECORD,,
