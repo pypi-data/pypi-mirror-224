@@ -1,0 +1,10 @@
+lagrange_rmatrix/__init__.py,sha256=3EtDRUh6llrRcHNGdlPGC5nAgWQxWclV2q9HHbx0ULA,397
+lagrange_rmatrix/bloch_se.py,sha256=0AE_7osE4vKYdweLekT9Z66Y8XHQAhTavr3grfF_-Q4,5956
+lagrange_rmatrix/lagrange_rmatrix.py,sha256=IufXQM7eu7psDjiLz4wkGynqjz34vIkEwYWYVbj6wgg,12137
+lagrange_rmatrix/potentials.py,sha256=QALQxc8MSeuiVaaPURXf8lQUCRABwir9iBa5RGmy1Dg,1116
+lagrange_rmatrix/utils.py,sha256=Nu7fN-rfPvaDyLBZTFXeJp4huYL7_bYZU4jhm2Y0wAg,2710
+lagrange_rmatrix-0.1.5.dist-info/LICENSE,sha256=Yil_HR1lMkve6AK5EyFOr8nPnBWcCgTq8DeMbuG3oFc,1497
+lagrange_rmatrix-0.1.5.dist-info/METADATA,sha256=vK28qOIHjjrmT3kw8wXZ-Km8RSPc59kOoJvsptnwNNY,5192
+lagrange_rmatrix-0.1.5.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+lagrange_rmatrix-0.1.5.dist-info/top_level.txt,sha256=ywhcWLqOsYB0XPwlzVtgxJg0RF1XiMZxvwG4qM9ocgo,17
+lagrange_rmatrix-0.1.5.dist-info/RECORD,,
