@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+PyChatVerse.egg-info/PKG-INFO
+PyChatVerse.egg-info/SOURCES.txt
+PyChatVerse.egg-info/dependency_links.txt
+PyChatVerse.egg-info/requires.txt
+PyChatVerse.egg-info/top_level.txt
