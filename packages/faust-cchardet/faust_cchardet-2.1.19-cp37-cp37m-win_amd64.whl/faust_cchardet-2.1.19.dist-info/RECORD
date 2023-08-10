@@ -1,0 +1,9 @@
+cchardet/__init__.py,sha256=3A1WHbqWB52yIrLhB4p3slD-DpmZWEEaxLQCHoToEmY,1211
+cchardet/_cchardet.cp37-win_amd64.pyd,sha256=FaQ_TVEgspkMK-GlnRVJglNu_dAUX9sFvPMrX1NsYOU,211456
+cchardet/version.py,sha256=9fXSVwg2u0Hc_82rEmgotFSHvguVJhI4wgu874NeGkw,24
+faust_cchardet-2.1.19.data/scripts/cchardetect,sha256=obZTPeY83MmBMx3gcMR1sl8BKgJE5PpDg8Ta_viShMw,1325
+faust_cchardet-2.1.19.dist-info/COPYING,sha256=t7QemtYEfl_6crBIXpyMn2q3yW2QfN7Z3eJtvqFVcVo,71833
+faust_cchardet-2.1.19.dist-info/METADATA,sha256=v0Ma_UHFX0QlnGBQJREw_caekQCCC-1i3-7aSbNpr1Q,8758
+faust_cchardet-2.1.19.dist-info/WHEEL,sha256=XjgoyucPba5KIJKeQEOuBejIax_ghuoOXGkTW4ghWp8,101
+faust_cchardet-2.1.19.dist-info/top_level.txt,sha256=Khgls4j_ipUgHqU5JjsYDtlYEsM7uP3jV8o1ZlZPSfA,9
+faust_cchardet-2.1.19.dist-info/RECORD,,
