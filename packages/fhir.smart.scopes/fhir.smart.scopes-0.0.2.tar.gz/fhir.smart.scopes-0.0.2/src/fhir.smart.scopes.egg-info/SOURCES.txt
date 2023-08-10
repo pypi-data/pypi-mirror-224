@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/fhir/__init__.py
+src/fhir.smart.scopes.egg-info/PKG-INFO
+src/fhir.smart.scopes.egg-info/SOURCES.txt
+src/fhir.smart.scopes.egg-info/dependency_links.txt
+src/fhir.smart.scopes.egg-info/top_level.txt
+src/fhir/smart/__init__.py
+src/fhir/smart/scopes/__init__.py
+tests/test_init.py
+tests/test_methods.py
+tests/test_methods_add.py
+tests/test_methods_copy.py
+tests/test_methods_delete.py
+tests/test_methods_information.py
