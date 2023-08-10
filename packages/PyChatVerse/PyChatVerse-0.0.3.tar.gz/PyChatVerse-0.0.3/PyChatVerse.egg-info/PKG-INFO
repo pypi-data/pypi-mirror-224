@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: PyChatVerse
+Version: 0.0.3
+Summary: PyChatVerse: Real-Time Chat Application for Python
+Author: Dayanidi
+Author-email: <dayanidigv954@gmail.com>
+Keywords: python,chat,real-time,communication,messaging
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+PyChatVerse is an innovative and user-friendly chat application package for Python, 
+designed to provide a seamless real-time communication experience. 
+With a focus on simplicity, interactivity, and versatility, PyChatVerse enables users 
+to engage in both global and private chat rooms, making it an ideal solution 
+for a wide range of communication needs.
