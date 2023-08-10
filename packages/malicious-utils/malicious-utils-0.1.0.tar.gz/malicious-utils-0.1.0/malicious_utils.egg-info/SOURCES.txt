@@ -1,0 +1,8 @@
+setup.py
+malicious-utils/__init__.py
+malicious-utils/main.py
+malicious_utils.egg-info/PKG-INFO
+malicious_utils.egg-info/SOURCES.txt
+malicious_utils.egg-info/dependency_links.txt
+malicious_utils.egg-info/requires.txt
+malicious_utils.egg-info/top_level.txt
