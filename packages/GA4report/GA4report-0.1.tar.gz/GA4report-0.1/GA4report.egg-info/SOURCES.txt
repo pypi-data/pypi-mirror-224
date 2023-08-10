@@ -1,0 +1,6 @@
+setup.py
+GA4report.egg-info/PKG-INFO
+GA4report.egg-info/SOURCES.txt
+GA4report.egg-info/dependency_links.txt
+GA4report.egg-info/requires.txt
+GA4report.egg-info/top_level.txt
