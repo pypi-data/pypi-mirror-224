@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "psycog"
+version = "0.0.1"
+description = "A tool for performing psychophysical and cognitive experiments."
+authors = ["Sam Mathias <samuel.mathias@childrens.harvard.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
