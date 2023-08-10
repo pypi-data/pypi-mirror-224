@@ -1,0 +1,8 @@
+README.md
+setup.py
+dwlib.egg-info/PKG-INFO
+dwlib.egg-info/SOURCES.txt
+dwlib.egg-info/dependency_links.txt
+dwlib.egg-info/not-zip-safe
+dwlib.egg-info/requires.txt
+dwlib.egg-info/top_level.txt
