@@ -1,0 +1,3 @@
+[console_scripts]
+belql=belql.cli:main
+
