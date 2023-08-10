@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/jsonmgnt/__init__.py
+src/jsonmgnt/lexer.py
+src/jsonmgnt/parser.py
+src/jsonmgnt.egg-info/PKG-INFO
+src/jsonmgnt.egg-info/SOURCES.txt
+src/jsonmgnt.egg-info/dependency_links.txt
+src/jsonmgnt.egg-info/requires.txt
+src/jsonmgnt.egg-info/top_level.txt
