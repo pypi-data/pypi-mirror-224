@@ -1,0 +1,10 @@
+targer_api/__init__.py,sha256=kGa15z3y3klWWeYg8UZQDa-LidQ3n9ArXFMrIkCMEYA,331
+targer_api/api.py,sha256=3DEBoPqHkBPoLnw4sWGAJLyuXD8cK58zTYTTQO0F5zw,3044
+targer_api/constants.py,sha256=HhgT16kMUjl2Iq5AvS_VHrSnJ1ZjUhNJ4rAEpxcM4SY,217
+targer_api/model.py,sha256=a3JYsA9Jzifls_PhZd3hl22g-JWqJkQhDoIkpjiepdQ,556
+targer_api/parse.py,sha256=nlvCTVo3no8r9_YUSJg7tFDf3T5yAcU1tqDkvd2vWSA,697
+targer_api-1.1.1.dist-info/LICENSE,sha256=5t27AF18dMT96bn4EjeiG2ywa-Fj0u-oWL_201OeZrI,1076
+targer_api-1.1.1.dist-info/METADATA,sha256=Xbl7Bv3CJ43CWdKMkyrnylWAV5vnEEVg5H31IGAVXpE,4814
+targer_api-1.1.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+targer_api-1.1.1.dist-info/top_level.txt,sha256=TnF_KqHJHln8nOJXxhQLmJbumkNuCfb29fqKNX0TuqY,11
+targer_api-1.1.1.dist-info/RECORD,,
