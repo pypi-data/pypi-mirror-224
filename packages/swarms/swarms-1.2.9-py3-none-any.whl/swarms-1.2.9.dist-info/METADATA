@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: swarms
+Version: 1.2.9
+Summary: Swarms - Pytorch
+Home-page: https://github.com/kyegomez/swarms
+Author: Kye Gomez
+Author-email: kye@apac.ai
+License: MIT
+Keywords: artificial intelligence,deep learning,optimizers,Prompt Engineering
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: transformers
+Requires-Dist: openai
+Requires-Dist: langchain ==0.0.240
+Requires-Dist: asyncio
+Requires-Dist: nest-asyncio
+Requires-Dist: pegasusx
+Requires-Dist: google-generativeai
+Requires-Dist: oceandb
+Requires-Dist: langchain-experimental
+Requires-Dist: playwright
+Requires-Dist: duckduckgo-search
+Requires-Dist: faiss-cpu
+Requires-Dist: wget ==3.2
+Requires-Dist: simpleaichat
+Requires-Dist: numpy
+Requires-Dist: webdataset
+Requires-Dist: yapf
+Requires-Dist: httpx
+Requires-Dist: ggl
+Requires-Dist: beautifulsoup4
+Requires-Dist: llama-index
+Requires-Dist: fastapi
+Requires-Dist: pydantic
+Requires-Dist: tenacity
+Requires-Dist: python-dotenv
+Requires-Dist: boto3
+Requires-Dist: jinja2
+Requires-Dist: python-multipart ==0.0.6
+Requires-Dist: celery
+Requires-Dist: redis
+Requires-Dist: psycopg2-binary ==2.9.5
+Requires-Dist: google-search-results ==2.4.2
+Requires-Dist: Pillow
+
