@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: cubicweb-invoice
+Version: 1.0.0
+Summary: invoice component for the CubicWeb framework
+Home-page: http://www.cubicweb.org/project/cubicweb-invoice
+Author: Logilab
+Author-email: contact@logilab.fr
+License: LGPL
+Classifier: Environment :: Web Environment
+Classifier: Framework :: CubicWeb
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: JavaScript
+Requires-Dist: cubicweb (<5.0.0,>=4.0.0)
+Requires-Dist: cubicweb-web (<2.0.0,>=1.0.0)
+
+This cube provides the ``Invoice`` and ``Account`` entity types to model
+invoices. It can be included when building a CRM or an accounting system.
