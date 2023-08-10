@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: outline-sdk
+Version: 0.1.0
+Summary: Async Python SDK wrapper for Outline Manager VPN
+License: MIT
+Author: Denis Malin
+Author-email: denis@malina.page
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aio-clients (>=2.0.0,<3.0.0)
+Requires-Dist: pyrogram (>=2.0.106,<3.0.0)
+Requires-Dist: uvloop (>=0.17.0,<0.18.0)
+Description-Content-Type: text/markdown
+
+# Async outline manager sdk
+
+> Thanks for the reverse engineering project https://github.com/jadolg/outline-vpn-api
+
+# Example:
+
+```python
+from outline_manager_sdk import OutlineVPN
+
+# Setup the access with the API URL (Use the one provided to you after the server setup)
+client = OutlineVPN(api_url="https://127.0.0.1:51083/xlUG4F5BBft4rSrIvDSWuw",
+                    cert_sha256="4EFF7BB90BCE5D4A172D338DC91B5B9975E197E39E3FA4FC42353763C4E58765")
+
+# Get all access URLs on the server
+for key in client.get_keys():
+    print(key.access_url)
+
+# Create a new key
+new_key = client.create_key()
+
+# Rename it
+client.rename_key(new_key.key_id, "new_key")
+
+# Delete it
+client.delete_key(new_key.key_id)
+
+# Set a monthly data limit for a key (20MB)
+client.add_data_limit(new_key.key_id, 1000 * 1000 * 20)
+
+# Remove the data limit
+client.delete_data_limit(new_key.key_id)
+```
+
+
