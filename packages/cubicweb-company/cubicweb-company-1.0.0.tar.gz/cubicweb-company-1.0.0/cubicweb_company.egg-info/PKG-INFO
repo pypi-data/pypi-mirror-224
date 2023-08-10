@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cubicweb-company
+Version: 1.0.0
+Summary: company component for the CubicWeb framework
+Home-page: http://www.cubicweb.org/project/cubicweb-company
+Author: Logilab
+Author-email: contact@logilab.fr
+License: LGPL
+Classifier: Environment :: Web Environment
+Classifier: Framework :: CubicWeb
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: JavaScript
+
+This cube models companies and divisions (divisions are parts of companies).
