@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: jsonmgnt
+Version: 1.0.0
+Summary: A JSON parser written in Python.
+Home-page: https://github.com/mariereidj001/jsonmgnt
+Author: Marie Reid
+Author-email: mariereidj0019291@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# jsonmgnt
+
+A simple JSON parsing tool.
+
+## Installation
+
+Install it via pip:
+
+```bash
+pip install jsonmgnt
+```
+
+## Usage
+
+```python
+import jsonmgnt
+
+dat2 = jsonmgnt.parse('{"Invoker": "SunStrike"}')
+print(dat2['Invoker']) # SunStrike
+
+dat1 = jsonmgnt.parse('{"Hammer Level": 25}')
+print(dat1['Hammer Level']) # 25
+```
