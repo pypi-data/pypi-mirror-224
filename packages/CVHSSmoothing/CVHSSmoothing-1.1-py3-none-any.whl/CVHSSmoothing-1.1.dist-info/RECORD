@@ -1,0 +1,12 @@
+CVHSSmoothing/Spline.py,sha256=dCW1Qz0WQ53Oj_JFsj0ewYtgZj9j370ys7tURNWwg-g,18746
+CVHSSmoothing/Spline_PCHIP.py,sha256=LzbeSCKjSFK0e7MU2VE44WLqKLfWk1Nyyq4ZvxCkH0k,13210
+CVHSSmoothing/Spline_from_Pandas.py,sha256=J95ObUqbi1HwQ4rfX81cLwkHo8Mm3M5RJtv6itaVXD4,8729
+CVHSSmoothing/__init__.py,sha256=6QPYjUQvQQiMFunDdwPJJ5AAqgnYs1qFdh49mULKuz8,51
+CVHSSmoothing/dss_util.py,sha256=EV7vPhfDpeEobzVc5-SPClf_J43v_6gJ0wXjNtKaizY,1471
+CVHSSmoothing/hydrograph_spline.py,sha256=26UGhZ8rcpc8vJGXTVV9UCQgxrfMS2qGr1nTNXMdcNE,2988
+CVHSSmoothing/version.py,sha256=8d3W84ppoNuA-IXGnod6-4xwmuagULswmOuA4dNygzw,20
+CVHSSmoothing-1.1.dist-info/LICENSE,sha256=gGNntRd0s3EQkIbrVkb2DaXovxK6wnggxE57_Jm71qc,1070
+CVHSSmoothing-1.1.dist-info/METADATA,sha256=oHr9bNCjH5pHE_hu1Eg_PZiP-9m8ujeKI_7QlNmJS3g,2095
+CVHSSmoothing-1.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+CVHSSmoothing-1.1.dist-info/top_level.txt,sha256=lyI34dMRkphfxbBowP53IrwnCnWyBE9UYDnjk_23yJs,14
+CVHSSmoothing-1.1.dist-info/RECORD,,
