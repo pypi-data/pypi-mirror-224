@@ -1,0 +1,11 @@
+pdqhash/__init__.py,sha256=AOW0vCiIU8366yiGmqV0FCTJcxolNbk0o1XKdtw07Mw,151
+pdqhash/_version.py,sha256=xjy-kpSdpQotNezviD4k3MiIfE7w9LPgWbD5a0OUpPk,497
+pdqhash/bindings.cpython-38-darwin.so,sha256=Myrg3ihnfzxwS4GZX5QajJO9MvnCSopXU9RQhEJJ-GU,175000
+pdqhash/bindings.pyx,sha256=6E5XgzEe5vVhnQ41r1AhZLvWqlp25Ae-p6VX_b9atiI,5599
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_compute.py,sha256=mNzqLZp0GbkkFiX4W2lES3pCcYTh4ddFG9p7OWVWPbA,11619
+pdqhash-0.2.4.dist-info/LICENSE,sha256=uV1--F0i2FZ6E4fVFH8LZ5XKYXrrHgz3pLhe2g0o5I0,1057
+pdqhash-0.2.4.dist-info/METADATA,sha256=Kih_powvzugm53t2i8fwiJGwFiS65paTrdNB6SNPpLE,2013
+pdqhash-0.2.4.dist-info/WHEEL,sha256=TwOdA75Ql5NjHeM7y4K19pPf9K5i_uMYG3SBDlrqYD8,109
+pdqhash-0.2.4.dist-info/top_level.txt,sha256=rCYUCk2ZCYdxQCdgCsl74af9_7VLanp7iOdoX4ZHouw,14
+pdqhash-0.2.4.dist-info/RECORD,,
