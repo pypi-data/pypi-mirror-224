@@ -1,0 +1,16 @@
+janus_client/__init__.py,sha256=IezEgUTFg757X7aE-NhNmkdcCRM1m52Qw1UWeI0KxKE,460
+janus_client/admin_monitor.py,sha256=LRKI7FMHgjhTLDz3DbrIl817RlXBp9r_qBhJWfyesYs,5260
+janus_client/media.py,sha256=G3sH64LtJEyxaXlJw519IE0hKe2AJM1t382zdK1ZJgI,7592
+janus_client/plugin_base.py,sha256=HXZJ2MPkPzFLBHSHXZqQz7uNFbGZyXjzsRL4Uo3gvBw,2867
+janus_client/plugin_video_call.py,sha256=hgnFgrXijW5S9hnPFm3PT6OqBmWs_NE7nONjbmLhBbI,1238
+janus_client/plugin_video_room.py,sha256=TrQ_hNLONFkvYzDq-bg7HwRbWO2xGdTG0FeLInSB89M,14360
+janus_client/plugin_video_room_ffmpeg.py,sha256=qCec8gHmWh12d8F_JBe6SK72oDaKHl4aaZjBQW0GXzQ,8037
+janus_client/session.py,sha256=Je1Zpl8geFRdrOqUPdZTv-vXduTCz19iRBBSvIYa6QA,4613
+janus_client/test.log,sha256=CzsbUdR57itCpIZ7vU63oS0DM41hjOgs7W5wqDeGCpE,58587
+janus_client/transport.py,sha256=nsyMfnbfQh7481fasWohKTTQ_RxuDdFc_SR1LYjGrDM,8904
+janus_client/transport_http.py,sha256=C02yVGxLzkfuC6MDLNHj1uJpt4P8gpxs36OQgipbJg0,5152
+janus_client/transport_websocket.py,sha256=6I0lBrXHHvir5qe9hkDICvB4eIRoB80RSyF2k3DLC64,2750
+janus_client-0.4.3.dist-info/LICENSE,sha256=vt-AD0km91M9UDdNoy1FUAkyBZpbfw1YngtsePYwd0g,1069
+janus_client-0.4.3.dist-info/METADATA,sha256=TrV8EElM6M_aJ10sLufclCGUgRK13cOK4Nf7yyAfPK8,5835
+janus_client-0.4.3.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+janus_client-0.4.3.dist-info/RECORD,,

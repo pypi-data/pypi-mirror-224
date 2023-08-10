@@ -1,0 +1,484 @@
+12:10:57: Send: {"janus": "create", "transaction": "845cca8171b44917b488e7bc3125af0a"}
+12:10:58: Send: {"janus": "create", "transaction": "566c905a426440aca26efda0f7337bad"}
+12:10:58: Send: {"janus": "create", "transaction": "aa3f304f8eba4105b185c2ad6b229536"}
+12:10:58: Getting address info janusmy.josephgetmyip.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 188.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('124.217.248.175', 443))]
+12:10:58: Getting address info janusmy.josephgetmyip.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 203.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('124.217.248.175', 443))]
+12:10:58: Getting address info janusmy.josephgetmyip.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 188.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('124.217.248.175', 443))]
+12:10:58: Received: {'janus': 'success', 'transaction': '566c905a426440aca26efda0f7337bad', 'data': {'id': 6491925915538241}}
+12:10:58: Create session_receive_response task (6491925915538241)
+12:10:58: Send: {"janus": "keepalive", "transaction": "681760c7a3c843a1a2a50f7f48d0249a", "session_id": 6491925915538241}
+12:10:58: Received: {'janus': 'success', 'transaction': 'aa3f304f8eba4105b185c2ad6b229536', 'data': {'id': 3394070181818833}}
+12:10:58: Received: {'janus': 'success', 'transaction': '845cca8171b44917b488e7bc3125af0a', 'data': {'id': 671031989330881}}
+12:10:58: Create session_receive_response task (3394070181818833)
+12:10:58: Send: {"janus": "keepalive", "transaction": "af1310c361494d869c6a20b8b8da7311", "session_id": 3394070181818833}
+12:10:58: Create session_receive_response task (671031989330881)
+12:10:58: Send: {"janus": "keepalive", "transaction": "36970cf4d8b84de1bdb9de80d21e644d", "session_id": 671031989330881}
+12:10:58: Received: {'janus': 'ack', 'session_id': 6491925915538241, 'transaction': '681760c7a3c843a1a2a50f7f48d0249a'}
+12:10:58: Received: {'janus': 'ack', 'session_id': 3394070181818833, 'transaction': 'af1310c361494d869c6a20b8b8da7311'}
+12:10:58: Received: {'janus': 'ack', 'session_id': 671031989330881, 'transaction': '36970cf4d8b84de1bdb9de80d21e644d'}
+12:10:58: Send: {"janus": "attach", "plugin": "janus.plugin.videoroom", "transaction": "f3dc430327154b768ec45b4017af8619", "session_id": 671031989330881}
+12:10:58: Send: {"janus": "attach", "plugin": "janus.plugin.videoroom", "transaction": "cee96f0eb29e4ca4b514c2af4b97e301", "session_id": 671031989330881}
+12:10:58: Send: {"janus": "attach", "plugin": "janus.plugin.videoroom", "transaction": "10833f7745e148d8956d992290375c26", "session_id": 671031989330881}
+12:10:58: Send: {"janus": "attach", "plugin": "janus.plugin.videoroom", "transaction": "5e65ed64db314c9d9b48cab516f8bfee", "session_id": 6491925915538241}
+12:10:58: Send: {"janus": "attach", "plugin": "janus.plugin.videoroom", "transaction": "dfb33389553b45d1b0c7c1a176a338b6", "session_id": 6491925915538241}
+12:10:58: Send: {"janus": "attach", "plugin": "janus.plugin.videoroom", "transaction": "efef0b933f8d4e539edf57f2158625f6", "session_id": 6491925915538241}
+12:10:58: Send: {"janus": "attach", "plugin": "janus.plugin.videoroom", "transaction": "64a69f87080f468883a2d4ee437b37bd", "session_id": 3394070181818833}
+12:10:58: Send: {"janus": "attach", "plugin": "janus.plugin.videoroom", "transaction": "84a911a8c30a42b9b1fd578d78c10e27", "session_id": 3394070181818833}
+12:10:58: Send: {"janus": "attach", "plugin": "janus.plugin.videoroom", "transaction": "9ae949a4ac0a45ef9330c4aebef0e2ec", "session_id": 3394070181818833}
+12:10:58: Received: {'janus': 'success', 'session_id': 671031989330881, 'transaction': 'f3dc430327154b768ec45b4017af8619', 'data': {'id': 6237911850711197}}
+12:10:58: Received: {'janus': 'success', 'session_id': 671031989330881, 'transaction': 'cee96f0eb29e4ca4b514c2af4b97e301', 'data': {'id': 4990624978302640}}
+12:10:58: Received: {'janus': 'success', 'session_id': 671031989330881, 'transaction': '10833f7745e148d8956d992290375c26', 'data': {'id': 5013012761741429}}
+12:10:58: Received: {'janus': 'success', 'session_id': 6491925915538241, 'transaction': '5e65ed64db314c9d9b48cab516f8bfee', 'data': {'id': 6292683269440998}}
+12:10:58: Received: {'janus': 'success', 'session_id': 6491925915538241, 'transaction': 'dfb33389553b45d1b0c7c1a176a338b6', 'data': {'id': 7808881214454276}}
+12:10:58: Received: {'janus': 'success', 'session_id': 6491925915538241, 'transaction': 'efef0b933f8d4e539edf57f2158625f6', 'data': {'id': 2769296351698525}}
+12:10:58: Received: {'janus': 'success', 'session_id': 3394070181818833, 'transaction': '64a69f87080f468883a2d4ee437b37bd', 'data': {'id': 1247497337718938}}
+12:10:58: Received: {'janus': 'success', 'session_id': 3394070181818833, 'transaction': '84a911a8c30a42b9b1fd578d78c10e27', 'data': {'id': 4748159919464163}}
+12:10:58: Received: {'janus': 'success', 'session_id': 3394070181818833, 'transaction': '9ae949a4ac0a45ef9330c4aebef0e2ec', 'data': {'id': 4099005854444219}}
+12:10:58: Send: {"janus": "message", "body": {"request": "join", "ptype": "publisher", "room": 1234, "id": 111, "display": "aaa"}, "transaction": "9c73184430c94590bc1e519844689796", "session_id": 671031989330881, "handle_id": 6237911850711197}
+12:10:58: Send: {"janus": "message", "body": {"request": "join", "ptype": "publisher", "room": 1234, "id": 112, "display": "bbb"}, "transaction": "34b93cee6fd74bccb2f84461b63d49e3", "session_id": 671031989330881, "handle_id": 4990624978302640}
+12:10:58: Send: {"janus": "message", "body": {"request": "join", "ptype": "publisher", "room": 1234, "id": 113, "display": "ccc"}, "transaction": "ee3bbc719cff47dabd3b54bf74a7071f", "session_id": 671031989330881, "handle_id": 5013012761741429}
+12:10:58: Send: {"janus": "message", "body": {"request": "join", "ptype": "publisher", "room": 1234, "id": 222, "display": "aaa"}, "transaction": "1ca732dc9b334ebc9e90eaf0f5aece0d", "session_id": 6491925915538241, "handle_id": 6292683269440998}
+12:10:58: Send: {"janus": "message", "body": {"request": "join", "ptype": "publisher", "room": 1234, "id": 223, "display": "bbb"}, "transaction": "e347451c763d41138aba3d76f64a2e98", "session_id": 6491925915538241, "handle_id": 7808881214454276}
+12:10:58: Send: {"janus": "message", "body": {"request": "join", "ptype": "publisher", "room": 1234, "id": 224, "display": "ccc"}, "transaction": "f338d7108a234bb78e37ff2b9b514ca3", "session_id": 6491925915538241, "handle_id": 2769296351698525}
+12:10:58: Send: {"janus": "message", "body": {"request": "join", "ptype": "publisher", "room": 1234, "id": 333, "display": "aaa"}, "transaction": "d46ffdd22e6c40a29ed65827e8adaea6", "session_id": 3394070181818833, "handle_id": 1247497337718938}
+12:10:58: Send: {"janus": "message", "body": {"request": "join", "ptype": "publisher", "room": 1234, "id": 334, "display": "bbb"}, "transaction": "51260159525d4f5baee41417c2b19d84", "session_id": 3394070181818833, "handle_id": 4748159919464163}
+12:10:58: Send: {"janus": "message", "body": {"request": "join", "ptype": "publisher", "room": 1234, "id": 335, "display": "ccc"}, "transaction": "1fae3a5aae1a46deb11b3b3e074f16d4", "session_id": 3394070181818833, "handle_id": 4099005854444219}
+12:10:58: Received: {'janus': 'ack', 'session_id': 671031989330881, 'transaction': '9c73184430c94590bc1e519844689796'}
+12:10:58: Received: {'janus': 'ack', 'session_id': 671031989330881, 'transaction': '34b93cee6fd74bccb2f84461b63d49e3'}
+12:10:58: Received: {'janus': 'ack', 'session_id': 671031989330881, 'transaction': 'ee3bbc719cff47dabd3b54bf74a7071f'}
+12:10:58: Received: {'janus': 'event', 'session_id': 671031989330881, 'transaction': '9c73184430c94590bc1e519844689796', 'sender': 6237911850711197, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'joined', 'room': 1234, 'description': 'Demo Room', 'id': 111, 'private_id': 2215201275, 'publishers': []}}}
+12:10:58: Event response: {'janus': 'event', 'session_id': 671031989330881, 'transaction': '9c73184430c94590bc1e519844689796', 'sender': 6237911850711197, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'joined', 'room': 1234, 'description': 'Demo Room', 'id': 111, 'private_id': 2215201275, 'publishers': []}}}
+12:10:58: Room join response: {'janus': 'ack', 'session_id': 671031989330881, 'transaction': '9c73184430c94590bc1e519844689796'}
+12:10:58: Room join response: {'janus': 'ack', 'session_id': 671031989330881, 'transaction': '34b93cee6fd74bccb2f84461b63d49e3'}
+12:10:58: Room join response: {'janus': 'ack', 'session_id': 671031989330881, 'transaction': 'ee3bbc719cff47dabd3b54bf74a7071f'}
+12:10:58: Received: {'janus': 'ack', 'session_id': 6491925915538241, 'transaction': '1ca732dc9b334ebc9e90eaf0f5aece0d'}
+12:10:58: Received: {'janus': 'ack', 'session_id': 6491925915538241, 'transaction': 'e347451c763d41138aba3d76f64a2e98'}
+12:10:58: Received: {'janus': 'event', 'session_id': 6491925915538241, 'transaction': '1ca732dc9b334ebc9e90eaf0f5aece0d', 'sender': 6292683269440998, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'joined', 'room': 1234, 'description': 'Demo Room', 'id': 222, 'private_id': 1130504397, 'publishers': []}}}
+12:10:58: Event response: {'janus': 'event', 'session_id': 6491925915538241, 'transaction': '1ca732dc9b334ebc9e90eaf0f5aece0d', 'sender': 6292683269440998, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'joined', 'room': 1234, 'description': 'Demo Room', 'id': 222, 'private_id': 1130504397, 'publishers': []}}}
+12:10:58: Room join response: {'janus': 'ack', 'session_id': 6491925915538241, 'transaction': '1ca732dc9b334ebc9e90eaf0f5aece0d'}
+12:10:58: Room join response: {'janus': 'ack', 'session_id': 6491925915538241, 'transaction': 'e347451c763d41138aba3d76f64a2e98'}
+12:10:58: Received: {'janus': 'ack', 'session_id': 6491925915538241, 'transaction': 'f338d7108a234bb78e37ff2b9b514ca3'}
+12:10:58: Received: {'janus': 'ack', 'session_id': 3394070181818833, 'transaction': 'd46ffdd22e6c40a29ed65827e8adaea6'}
+12:10:59: Received: {'janus': 'ack', 'session_id': 3394070181818833, 'transaction': '51260159525d4f5baee41417c2b19d84'}
+12:10:59: Received: {'janus': 'event', 'session_id': 3394070181818833, 'transaction': 'd46ffdd22e6c40a29ed65827e8adaea6', 'sender': 1247497337718938, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'joined', 'room': 1234, 'description': 'Demo Room', 'id': 333, 'private_id': 3961010541, 'publishers': []}}}
+12:10:59: Event response: {'janus': 'event', 'session_id': 3394070181818833, 'transaction': 'd46ffdd22e6c40a29ed65827e8adaea6', 'sender': 1247497337718938, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'joined', 'room': 1234, 'description': 'Demo Room', 'id': 333, 'private_id': 3961010541, 'publishers': []}}}
+12:10:59: Received: {'janus': 'event', 'session_id': 671031989330881, 'transaction': '34b93cee6fd74bccb2f84461b63d49e3', 'sender': 4990624978302640, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'joined', 'room': 1234, 'description': 'Demo Room', 'id': 112, 'private_id': 2892640349, 'publishers': []}}}
+12:10:59: Event response: {'janus': 'event', 'session_id': 671031989330881, 'transaction': '34b93cee6fd74bccb2f84461b63d49e3', 'sender': 4990624978302640, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'joined', 'room': 1234, 'description': 'Demo Room', 'id': 112, 'private_id': 2892640349, 'publishers': []}}}
+12:10:59: Room join response: {'janus': 'ack', 'session_id': 6491925915538241, 'transaction': 'f338d7108a234bb78e37ff2b9b514ca3'}
+12:10:59: Room join response: {'janus': 'ack', 'session_id': 3394070181818833, 'transaction': 'd46ffdd22e6c40a29ed65827e8adaea6'}
+12:10:59: Room join response: {'janus': 'ack', 'session_id': 3394070181818833, 'transaction': '51260159525d4f5baee41417c2b19d84'}
+12:10:59: Received: {'janus': 'ack', 'session_id': 3394070181818833, 'transaction': '1fae3a5aae1a46deb11b3b3e074f16d4'}
+12:10:59: Room join response: {'janus': 'ack', 'session_id': 3394070181818833, 'transaction': '1fae3a5aae1a46deb11b3b3e074f16d4'}
+12:10:59: Received: {'janus': 'event', 'session_id': 6491925915538241, 'transaction': 'e347451c763d41138aba3d76f64a2e98', 'sender': 7808881214454276, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'joined', 'room': 1234, 'description': 'Demo Room', 'id': 223, 'private_id': 2707238105, 'publishers': []}}}
+12:10:59: Event response: {'janus': 'event', 'session_id': 6491925915538241, 'transaction': 'e347451c763d41138aba3d76f64a2e98', 'sender': 7808881214454276, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'joined', 'room': 1234, 'description': 'Demo Room', 'id': 223, 'private_id': 2707238105, 'publishers': []}}}
+12:10:59: Received: {'janus': 'event', 'session_id': 3394070181818833, 'transaction': '51260159525d4f5baee41417c2b19d84', 'sender': 4748159919464163, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'joined', 'room': 1234, 'description': 'Demo Room', 'id': 334, 'private_id': 3750877983, 'publishers': []}}}
+12:10:59: Event response: {'janus': 'event', 'session_id': 3394070181818833, 'transaction': '51260159525d4f5baee41417c2b19d84', 'sender': 4748159919464163, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'joined', 'room': 1234, 'description': 'Demo Room', 'id': 334, 'private_id': 3750877983, 'publishers': []}}}
+12:10:59: Received: {'janus': 'event', 'session_id': 671031989330881, 'transaction': 'ee3bbc719cff47dabd3b54bf74a7071f', 'sender': 5013012761741429, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'joined', 'room': 1234, 'description': 'Demo Room', 'id': 113, 'private_id': 2730909898, 'publishers': []}}}
+12:10:59: Event response: {'janus': 'event', 'session_id': 671031989330881, 'transaction': 'ee3bbc719cff47dabd3b54bf74a7071f', 'sender': 5013012761741429, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'joined', 'room': 1234, 'description': 'Demo Room', 'id': 113, 'private_id': 2730909898, 'publishers': []}}}
+12:10:59: Received: {'janus': 'event', 'session_id': 6491925915538241, 'transaction': 'f338d7108a234bb78e37ff2b9b514ca3', 'sender': 2769296351698525, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'joined', 'room': 1234, 'description': 'Demo Room', 'id': 224, 'private_id': 3726196693, 'publishers': []}}}
+12:10:59: Event response: {'janus': 'event', 'session_id': 6491925915538241, 'transaction': 'f338d7108a234bb78e37ff2b9b514ca3', 'sender': 2769296351698525, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'joined', 'room': 1234, 'description': 'Demo Room', 'id': 224, 'private_id': 3726196693, 'publishers': []}}}
+12:10:59: Received: {'janus': 'event', 'session_id': 3394070181818833, 'transaction': '1fae3a5aae1a46deb11b3b3e074f16d4', 'sender': 4099005854444219, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'joined', 'room': 1234, 'description': 'Demo Room', 'id': 335, 'private_id': 3352282267, 'publishers': []}}}
+12:10:59: Event response: {'janus': 'event', 'session_id': 3394070181818833, 'transaction': '1fae3a5aae1a46deb11b3b3e074f16d4', 'sender': 4099005854444219, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'joined', 'room': 1234, 'description': 'Demo Room', 'id': 335, 'private_id': 3352282267, 'publishers': []}}}
+12:10:59: Send: {"janus": "message", "body": {"request": "leave"}, "transaction": "8a18e41d9070411580fbf11d1ce501d6", "session_id": 671031989330881, "handle_id": 6237911850711197}
+12:10:59: Send: {"janus": "message", "body": {"request": "leave"}, "transaction": "05c16c52ba3743239da55d18315ca4be", "session_id": 671031989330881, "handle_id": 4990624978302640}
+12:10:59: Send: {"janus": "message", "body": {"request": "leave"}, "transaction": "91b36cf5c7414ed1beea613a5cf4cd67", "session_id": 671031989330881, "handle_id": 5013012761741429}
+12:10:59: Send: {"janus": "message", "body": {"request": "leave"}, "transaction": "07774d51e80a49dfbb57507764327a1a", "session_id": 6491925915538241, "handle_id": 6292683269440998}
+12:10:59: Send: {"janus": "message", "body": {"request": "leave"}, "transaction": "5f6fed69a3104cadb30355ad7c58da24", "session_id": 6491925915538241, "handle_id": 7808881214454276}
+12:10:59: Send: {"janus": "message", "body": {"request": "leave"}, "transaction": "991fa3afadfe45cc8a41cdadddef5936", "session_id": 6491925915538241, "handle_id": 2769296351698525}
+12:10:59: Send: {"janus": "message", "body": {"request": "leave"}, "transaction": "3715147de33e40d098483ff7233019dd", "session_id": 3394070181818833, "handle_id": 1247497337718938}
+12:10:59: Send: {"janus": "message", "body": {"request": "leave"}, "transaction": "f1a6ec79d62340cbad0089ad1e4017da", "session_id": 3394070181818833, "handle_id": 4748159919464163}
+12:10:59: Send: {"janus": "message", "body": {"request": "leave"}, "transaction": "2c1bca7a6cc04033b79b2ff5d8866345", "session_id": 3394070181818833, "handle_id": 4099005854444219}
+12:10:59: Received: {'janus': 'ack', 'session_id': 671031989330881, 'transaction': '8a18e41d9070411580fbf11d1ce501d6'}
+12:10:59: Received: {'janus': 'event', 'session_id': 3394070181818833, 'sender': 4099005854444219, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 111}}}
+12:10:59: Event response: {'janus': 'event', 'session_id': 3394070181818833, 'sender': 4099005854444219, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 111}}}
+12:10:59: Received: {'janus': 'event', 'session_id': 6491925915538241, 'sender': 2769296351698525, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 111}}}
+12:10:59: Event response: {'janus': 'event', 'session_id': 6491925915538241, 'sender': 2769296351698525, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 111}}}
+12:10:59: Received: {'janus': 'event', 'session_id': 671031989330881, 'sender': 4990624978302640, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 111}}}
+12:10:59: Event response: {'janus': 'event', 'session_id': 671031989330881, 'sender': 4990624978302640, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 111}}}
+12:10:59: Room leave response: {'janus': 'ack', 'session_id': 671031989330881, 'transaction': '8a18e41d9070411580fbf11d1ce501d6'}
+12:10:59: Received: {'janus': 'ack', 'session_id': 671031989330881, 'transaction': '91b36cf5c7414ed1beea613a5cf4cd67'}
+12:10:59: Received: {'janus': 'ack', 'session_id': 671031989330881, 'transaction': '05c16c52ba3743239da55d18315ca4be'}
+12:10:59: Received: {'janus': 'ack', 'session_id': 6491925915538241, 'transaction': '07774d51e80a49dfbb57507764327a1a'}
+12:10:59: Room leave response: {'janus': 'ack', 'session_id': 671031989330881, 'transaction': '91b36cf5c7414ed1beea613a5cf4cd67'}
+12:10:59: Room leave response: {'janus': 'ack', 'session_id': 671031989330881, 'transaction': '05c16c52ba3743239da55d18315ca4be'}
+12:10:59: Room leave response: {'janus': 'ack', 'session_id': 6491925915538241, 'transaction': '07774d51e80a49dfbb57507764327a1a'}
+12:10:59: Received: {'janus': 'ack', 'session_id': 6491925915538241, 'transaction': '5f6fed69a3104cadb30355ad7c58da24'}
+12:10:59: Received: {'janus': 'ack', 'session_id': 6491925915538241, 'transaction': '991fa3afadfe45cc8a41cdadddef5936'}
+12:10:59: Received: {'janus': 'event', 'session_id': 3394070181818833, 'sender': 4748159919464163, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 111}}}
+12:10:59: Event response: {'janus': 'event', 'session_id': 3394070181818833, 'sender': 4748159919464163, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 111}}}
+12:10:59: Room leave response: {'janus': 'ack', 'session_id': 6491925915538241, 'transaction': '5f6fed69a3104cadb30355ad7c58da24'}
+12:10:59: Room leave response: {'janus': 'ack', 'session_id': 6491925915538241, 'transaction': '991fa3afadfe45cc8a41cdadddef5936'}
+12:10:59: Received: {'janus': 'ack', 'session_id': 3394070181818833, 'transaction': '3715147de33e40d098483ff7233019dd'}
+12:10:59: Received: {'janus': 'ack', 'session_id': 3394070181818833, 'transaction': 'f1a6ec79d62340cbad0089ad1e4017da'}
+12:10:59: Received: {'janus': 'ack', 'session_id': 3394070181818833, 'transaction': '2c1bca7a6cc04033b79b2ff5d8866345'}
+12:10:59: Received: {'janus': 'event', 'session_id': 6491925915538241, 'sender': 7808881214454276, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 111}}}
+12:10:59: Event response: {'janus': 'event', 'session_id': 6491925915538241, 'sender': 7808881214454276, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 111}}}
+12:10:59: Received: {'janus': 'event', 'session_id': 671031989330881, 'sender': 5013012761741429, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 111}}}
+12:10:59: Event response: {'janus': 'event', 'session_id': 671031989330881, 'sender': 5013012761741429, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 111}}}
+12:10:59: Room leave response: {'janus': 'ack', 'session_id': 3394070181818833, 'transaction': '3715147de33e40d098483ff7233019dd'}
+12:10:59: Room leave response: {'janus': 'ack', 'session_id': 3394070181818833, 'transaction': 'f1a6ec79d62340cbad0089ad1e4017da'}
+12:10:59: Room leave response: {'janus': 'ack', 'session_id': 3394070181818833, 'transaction': '2c1bca7a6cc04033b79b2ff5d8866345'}
+12:10:59: Send: {"janus": "detach", "transaction": "020f5ba1924f41419f2f7af741d07a7e", "session_id": 671031989330881, "handle_id": 6237911850711197}
+12:10:59: Send: {"janus": "detach", "transaction": "e13be2f9ba064020b7a1e36b160a86dc", "session_id": 671031989330881, "handle_id": 4990624978302640}
+12:10:59: Send: {"janus": "detach", "transaction": "1c49f53c4a174a1f94e7b038ff2214af", "session_id": 671031989330881, "handle_id": 5013012761741429}
+12:10:59: Received: {'janus': 'event', 'session_id': 3394070181818833, 'sender': 1247497337718938, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 111}}}
+12:10:59: Event response: {'janus': 'event', 'session_id': 3394070181818833, 'sender': 1247497337718938, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 111}}}
+12:10:59: Send: {"janus": "detach", "transaction": "87e0258b34494e1a89824edab170627e", "session_id": 6491925915538241, "handle_id": 6292683269440998}
+12:10:59: Send: {"janus": "detach", "transaction": "69d4881e6b214796b3c1339b23c6d785", "session_id": 6491925915538241, "handle_id": 7808881214454276}
+12:10:59: Send: {"janus": "detach", "transaction": "3d737757533a47dab57b548d7fa3e88f", "session_id": 6491925915538241, "handle_id": 2769296351698525}
+12:10:59: Received: {'janus': 'event', 'session_id': 6491925915538241, 'sender': 6292683269440998, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 111}}}
+12:10:59: Event response: {'janus': 'event', 'session_id': 6491925915538241, 'sender': 6292683269440998, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 111}}}
+12:10:59: Received: {'janus': 'event', 'session_id': 671031989330881, 'transaction': '8a18e41d9070411580fbf11d1ce501d6', 'sender': 6237911850711197, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 'ok'}}}
+12:10:59: Event response: {'janus': 'event', 'session_id': 671031989330881, 'transaction': '8a18e41d9070411580fbf11d1ce501d6', 'sender': 6237911850711197, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 'ok'}}}
+12:10:59: Send: {"janus": "detach", "transaction": "ac6b4febbe63496d8ffda14ccb6cd7e0", "session_id": 3394070181818833, "handle_id": 1247497337718938}
+12:10:59: Send: {"janus": "detach", "transaction": "24c1a43b69054559bb64697afea6797d", "session_id": 3394070181818833, "handle_id": 4748159919464163}
+12:10:59: Send: {"janus": "detach", "transaction": "305aa2b375dc457499a8973161b586b5", "session_id": 3394070181818833, "handle_id": 4099005854444219}
+12:10:59: Received: {'janus': 'event', 'session_id': 3394070181818833, 'sender': 4099005854444219, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 113}}}
+12:10:59: Event response: {'janus': 'event', 'session_id': 3394070181818833, 'sender': 4099005854444219, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 113}}}
+12:10:59: Received: {'janus': 'event', 'session_id': 6491925915538241, 'sender': 2769296351698525, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 113}}}
+12:10:59: Event response: {'janus': 'event', 'session_id': 6491925915538241, 'sender': 2769296351698525, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 113}}}
+12:10:59: Received: {'janus': 'event', 'session_id': 671031989330881, 'sender': 4990624978302640, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 113}}}
+12:10:59: Event response: {'janus': 'event', 'session_id': 671031989330881, 'sender': 4990624978302640, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 113}}}
+12:10:59: Received: {'janus': 'event', 'session_id': 3394070181818833, 'sender': 4748159919464163, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 113}}}
+12:10:59: Event response: {'janus': 'event', 'session_id': 3394070181818833, 'sender': 4748159919464163, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 113}}}
+12:10:59: Received: {'janus': 'event', 'session_id': 6491925915538241, 'sender': 7808881214454276, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 113}}}
+12:10:59: Event response: {'janus': 'event', 'session_id': 6491925915538241, 'sender': 7808881214454276, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 113}}}
+12:10:59: Received: {'janus': 'event', 'session_id': 671031989330881, 'transaction': '91b36cf5c7414ed1beea613a5cf4cd67', 'sender': 5013012761741429, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 'ok'}}}
+12:10:59: Event response: {'janus': 'event', 'session_id': 671031989330881, 'transaction': '91b36cf5c7414ed1beea613a5cf4cd67', 'sender': 5013012761741429, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 'ok'}}}
+12:10:59: Received: {'janus': 'event', 'session_id': 3394070181818833, 'sender': 1247497337718938, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 113}}}
+12:10:59: Event response: {'janus': 'event', 'session_id': 3394070181818833, 'sender': 1247497337718938, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 113}}}
+12:10:59: Received: {'janus': 'event', 'session_id': 6491925915538241, 'sender': 6292683269440998, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 113}}}
+12:10:59: Event response: {'janus': 'event', 'session_id': 6491925915538241, 'sender': 6292683269440998, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 113}}}
+12:10:59: Received: {'janus': 'event', 'session_id': 671031989330881, 'transaction': '05c16c52ba3743239da55d18315ca4be', 'sender': 4990624978302640, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 'ok'}}}
+12:10:59: Event response: {'janus': 'event', 'session_id': 671031989330881, 'transaction': '05c16c52ba3743239da55d18315ca4be', 'sender': 4990624978302640, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 'ok'}}}
+12:10:59: Received: {'janus': 'event', 'session_id': 3394070181818833, 'sender': 4099005854444219, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 112}}}
+12:10:59: Event response: {'janus': 'event', 'session_id': 3394070181818833, 'sender': 4099005854444219, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 112}}}
+12:10:59: Received: {'janus': 'event', 'session_id': 6491925915538241, 'sender': 2769296351698525, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 112}}}
+12:10:59: Event response: {'janus': 'event', 'session_id': 6491925915538241, 'sender': 2769296351698525, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 112}}}
+12:10:59: Received: {'janus': 'success', 'session_id': 671031989330881, 'transaction': '020f5ba1924f41419f2f7af741d07a7e'}
+12:10:59: Received: {'janus': 'success', 'session_id': 671031989330881, 'transaction': 'e13be2f9ba064020b7a1e36b160a86dc'}
+12:10:59: Received: {'janus': 'success', 'session_id': 671031989330881, 'transaction': '1c49f53c4a174a1f94e7b038ff2214af'}
+12:10:59: Received: {'janus': 'event', 'session_id': 3394070181818833, 'sender': 4748159919464163, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 112}}}
+12:10:59: Event response: {'janus': 'event', 'session_id': 3394070181818833, 'sender': 4748159919464163, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 112}}}
+12:10:59: Received: {'janus': 'detached', 'session_id': 671031989330881, 'sender': 6237911850711197}
+12:10:59: Unimplemented response handle: detached
+12:10:59: {'janus': 'detached', 'session_id': 671031989330881, 'sender': 6237911850711197}
+12:10:59: Received: {'janus': 'success', 'session_id': 6491925915538241, 'transaction': '87e0258b34494e1a89824edab170627e'}
+12:10:59: Received: {'janus': 'success', 'session_id': 6491925915538241, 'transaction': '69d4881e6b214796b3c1339b23c6d785'}
+12:10:59: Received: {'janus': 'success', 'session_id': 6491925915538241, 'transaction': '3d737757533a47dab57b548d7fa3e88f'}
+12:10:59: Received: {'janus': 'event', 'session_id': 6491925915538241, 'sender': 7808881214454276, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 112}}}
+12:10:59: Event response: {'janus': 'event', 'session_id': 6491925915538241, 'sender': 7808881214454276, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 112}}}
+12:10:59: Received: {'janus': 'success', 'session_id': 3394070181818833, 'transaction': 'ac6b4febbe63496d8ffda14ccb6cd7e0'}
+12:10:59: Received: {'janus': 'success', 'session_id': 3394070181818833, 'transaction': '24c1a43b69054559bb64697afea6797d'}
+12:10:59: Received: {'janus': 'success', 'session_id': 3394070181818833, 'transaction': '305aa2b375dc457499a8973161b586b5'}
+12:10:59: Received: {'janus': 'event', 'session_id': 3394070181818833, 'sender': 1247497337718938, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 112}}}
+12:10:59: Got response for plugin handle but handle not found. Handle ID: 1247497337718938
+12:10:59: Unhandeled response: {'janus': 'event', 'session_id': 3394070181818833, 'sender': 1247497337718938, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 112}}}
+12:10:59: Received: {'janus': 'detached', 'session_id': 671031989330881, 'sender': 4990624978302640}
+12:10:59: Got response for plugin handle but handle not found. Handle ID: 4990624978302640
+12:10:59: Unhandeled response: {'janus': 'detached', 'session_id': 671031989330881, 'sender': 4990624978302640}
+12:10:59: Received: {'janus': 'event', 'session_id': 6491925915538241, 'sender': 6292683269440998, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 112}}}
+12:10:59: Got response for plugin handle but handle not found. Handle ID: 6292683269440998
+12:10:59: Unhandeled response: {'janus': 'event', 'session_id': 6491925915538241, 'sender': 6292683269440998, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 112}}}
+12:10:59: Received: {'janus': 'event', 'session_id': 3394070181818833, 'sender': 4099005854444219, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 222}}}
+12:10:59: Got response for plugin handle but handle not found. Handle ID: 4099005854444219
+12:10:59: Unhandeled response: {'janus': 'event', 'session_id': 3394070181818833, 'sender': 4099005854444219, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 222}}}
+12:10:59: Received: {'janus': 'detached', 'session_id': 671031989330881, 'sender': 5013012761741429}
+12:10:59: Got response for plugin handle but handle not found. Handle ID: 5013012761741429
+12:10:59: Unhandeled response: {'janus': 'detached', 'session_id': 671031989330881, 'sender': 5013012761741429}
+12:10:59: Send: {"janus": "destroy", "transaction": "0a825b97f4cc4f158544ff8189e8f0a2", "session_id": 671031989330881}
+12:10:59: Send: {"janus": "destroy", "transaction": "07b628b092e5492ea48badaa137813bd", "session_id": 6491925915538241}
+12:10:59: Send: {"janus": "destroy", "transaction": "7319e0b15f1b41cf8890a1d3cdf0d2ea", "session_id": 3394070181818833}
+12:10:59: Received: {'janus': 'event', 'session_id': 6491925915538241, 'sender': 2769296351698525, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 222}}}
+12:10:59: Got response for plugin handle but handle not found. Handle ID: 2769296351698525
+12:10:59: Unhandeled response: {'janus': 'event', 'session_id': 6491925915538241, 'sender': 2769296351698525, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 222}}}
+12:10:59: Received: {'janus': 'event', 'session_id': 3394070181818833, 'sender': 4748159919464163, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 222}}}
+12:10:59: Got response for plugin handle but handle not found. Handle ID: 4748159919464163
+12:10:59: Unhandeled response: {'janus': 'event', 'session_id': 3394070181818833, 'sender': 4748159919464163, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 222}}}
+12:10:59: Received: {'janus': 'event', 'session_id': 6491925915538241, 'sender': 7808881214454276, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 222}}}
+12:10:59: Got response for plugin handle but handle not found. Handle ID: 7808881214454276
+12:10:59: Unhandeled response: {'janus': 'event', 'session_id': 6491925915538241, 'sender': 7808881214454276, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 222}}}
+12:10:59: Received: {'janus': 'event', 'session_id': 3394070181818833, 'sender': 1247497337718938, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 222}}}
+12:10:59: Got response for plugin handle but handle not found. Handle ID: 1247497337718938
+12:10:59: Unhandeled response: {'janus': 'event', 'session_id': 3394070181818833, 'sender': 1247497337718938, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 222}}}
+12:10:59: Received: {'janus': 'event', 'session_id': 6491925915538241, 'transaction': '07774d51e80a49dfbb57507764327a1a', 'sender': 6292683269440998, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 'ok'}}}
+12:10:59: Got response for plugin handle but handle not found. Handle ID: 6292683269440998
+12:10:59: Unhandeled response: {'janus': 'event', 'session_id': 6491925915538241, 'transaction': '07774d51e80a49dfbb57507764327a1a', 'sender': 6292683269440998, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 'ok'}}}
+12:10:59: Received: {'janus': 'event', 'session_id': 3394070181818833, 'sender': 4099005854444219, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 223}}}
+12:10:59: Got response for plugin handle but handle not found. Handle ID: 4099005854444219
+12:10:59: Unhandeled response: {'janus': 'event', 'session_id': 3394070181818833, 'sender': 4099005854444219, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 223}}}
+12:10:59: Received: {'janus': 'event', 'session_id': 6491925915538241, 'sender': 2769296351698525, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 223}}}
+12:10:59: Got response for plugin handle but handle not found. Handle ID: 2769296351698525
+12:10:59: Unhandeled response: {'janus': 'event', 'session_id': 6491925915538241, 'sender': 2769296351698525, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 223}}}
+12:10:59: Received: {'janus': 'event', 'session_id': 3394070181818833, 'sender': 4748159919464163, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 223}}}
+12:10:59: Got response for plugin handle but handle not found. Handle ID: 4748159919464163
+12:10:59: Unhandeled response: {'janus': 'event', 'session_id': 3394070181818833, 'sender': 4748159919464163, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 223}}}
+12:10:59: Received: {'janus': 'event', 'session_id': 6491925915538241, 'transaction': '5f6fed69a3104cadb30355ad7c58da24', 'sender': 7808881214454276, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 'ok'}}}
+12:10:59: Got response for plugin handle but handle not found. Handle ID: 7808881214454276
+12:10:59: Unhandeled response: {'janus': 'event', 'session_id': 6491925915538241, 'transaction': '5f6fed69a3104cadb30355ad7c58da24', 'sender': 7808881214454276, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 'ok'}}}
+12:10:59: Received: {'janus': 'event', 'session_id': 3394070181818833, 'sender': 1247497337718938, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 223}}}
+12:10:59: Got response for plugin handle but handle not found. Handle ID: 1247497337718938
+12:10:59: Unhandeled response: {'janus': 'event', 'session_id': 3394070181818833, 'sender': 1247497337718938, 'plugindata': {'plugin': 'janus.plugin.videoroom', 'data': {'videoroom': 'event', 'room': 1234, 'leaving': 223}}}
+12:10:59: Received: {'janus': 'success', 'session_id': 671031989330881, 'transaction': '0a825b97f4cc4f158544ff8189e8f0a2'}
+12:10:59: Destroy session_receive_response task (671031989330881)
+12:10:59: Received: {'janus': 'success', 'session_id': 6491925915538241, 'transaction': '07b628b092e5492ea48badaa137813bd'}
+12:10:59: Received: {'janus': 'success', 'session_id': 3394070181818833, 'transaction': '7319e0b15f1b41cf8890a1d3cdf0d2ea'}
+12:10:59: Destroy session_receive_response task (6491925915538241)
+12:10:59: Destroy session_receive_response task (3394070181818833)
+.
+----------------------------------------------------------------------
+Ran 1 test in 33.349s
+
+OK
+12:11:30: Task exception was never retrieved
+future: <Task finished name='Task-11' coro=<JanusTransportHTTP.session_receive_response() done, defined at C:\Users\Joseph\OneDrive\Documents\GitHub\janus_gst_client_py\janus_client\transport_http.py:81> exception=ClientResponseError(RequestInfo(url=URL('https://janusmy.josephgetmyip.com/janusbase/janus/6491925915538241'), method='GET', headers=<CIMultiDictProxy('Host': 'janusmy.josephgetmyip.com', 'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate', 'User-Agent': 'Python/3.10 aiohttp/3.8.5')>, real_url=URL('https://janusmy.josephgetmyip.com/janusbase/janus/6491925915538241')), (), status=404, message='Not Found', headers=<CIMultiDictProxy('Server': 'nginx/1.22.1', 'Date': 'Wed, 09 Aug 2023 04:11:00 GMT', 'Content-Length': '0', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '86400')>) created at C:\Python310\lib\asyncio\tasks.py:337>
+source_traceback: Object created at (most recent call last):
+  File "C:\Python310\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Python310\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\Joseph\AppData\Local\pypoetry\Cache\virtualenvs\janus-gst-client-py-fsjr8uZu-py3.10\Scripts\coverage.exe\__main__.py", line 7, in <module>
+    sys.exit(main())
+  File "C:\Users\Joseph\AppData\Local\pypoetry\Cache\virtualenvs\janus-gst-client-py-fsjr8uZu-py3.10\lib\site-packages\coverage\cmdline.py", line 973, in main
+    status = CoverageScript().command_line(argv)
+  File "C:\Users\Joseph\AppData\Local\pypoetry\Cache\virtualenvs\janus-gst-client-py-fsjr8uZu-py3.10\lib\site-packages\coverage\cmdline.py", line 684, in command_line
+    return self.do_run(options, args)
+  File "C:\Users\Joseph\AppData\Local\pypoetry\Cache\virtualenvs\janus-gst-client-py-fsjr8uZu-py3.10\lib\site-packages\coverage\cmdline.py", line 861, in do_run
+    runner.run()
+  File "C:\Users\Joseph\AppData\Local\pypoetry\Cache\virtualenvs\janus-gst-client-py-fsjr8uZu-py3.10\lib\site-packages\coverage\execfile.py", line 211, in run
+    exec(code, main_mod.__dict__)
+  File "C:\Python310\lib\unittest\__main__.py", line 18, in <module>
+    main(module=None)
+  File "C:\Python310\lib\unittest\main.py", line 101, in __init__
+    self.runTests()
+  File "C:\Python310\lib\unittest\main.py", line 271, in runTests
+    self.result = testRunner.run(self.test)
+  File "C:\Python310\lib\unittest\runner.py", line 184, in run
+    test(result)
+  File "C:\Python310\lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\Python310\lib\unittest\suite.py", line 122, in run
+    test(result)
+  File "C:\Python310\lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\Python310\lib\unittest\suite.py", line 122, in run
+    test(result)
+  File "C:\Python310\lib\unittest\case.py", line 650, in __call__
+    return self.run(*args, **kwds)
+  File "C:\Python310\lib\unittest\async_case.py", line 157, in run
+    return super().run(result)
+  File "C:\Python310\lib\unittest\case.py", line 591, in run
+    self._callTestMethod(testMethod)
+  File "C:\Python310\lib\unittest\async_case.py", line 64, in _callTestMethod
+    self._callMaybeAsync(method)
+  File "C:\Python310\lib\unittest\async_case.py", line 87, in _callMaybeAsync
+    return self._asyncioTestLoop.run_until_complete(fut)
+  File "C:\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Python310\lib\asyncio\base_events.py", line 1888, in _run_once
+    handle._run()
+  File "C:\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Joseph\OneDrive\Documents\GitHub\janus_gst_client_py\janus_client\session.py", line 101, in send
+    await self.create()
+  File "C:\Users\Joseph\OneDrive\Documents\GitHub\janus_gst_client_py\janus_client\session.py", line 60, in create
+    await self._create()
+  File "C:\Users\Joseph\OneDrive\Documents\GitHub\janus_gst_client_py\janus_client\session.py", line 51, in _create
+    self.__id = await self.transport.create_session(self)
+  File "C:\Users\Joseph\OneDrive\Documents\GitHub\janus_gst_client_py\janus_client\transport.py", line 208, in create_session
+    await self.dispatch_session_created(session_id=session_id)
+  File "C:\Users\Joseph\OneDrive\Documents\GitHub\janus_gst_client_py\janus_client\transport_http.py", line 107, in dispatch_session_created
+    task = asyncio.create_task(
+  File "C:\Python310\lib\asyncio\tasks.py", line 337, in create_task
+    task = loop.create_task(coro)
+Traceback (most recent call last):
+  File "C:\Users\Joseph\OneDrive\Documents\GitHub\janus_gst_client_py\janus_client\transport_http.py", line 90, in session_receive_response
+    response.raise_for_status()
+  File "C:\Users\Joseph\AppData\Local\pypoetry\Cache\virtualenvs\janus-gst-client-py-fsjr8uZu-py3.10\lib\site-packages\aiohttp\client_reqrep.py", line 1005, in raise_for_status
+    raise ClientResponseError(
+aiohttp.client_exceptions.ClientResponseError: 404, message='Not Found', url=URL('https://janusmy.josephgetmyip.com/janusbase/janus/6491925915538241')
+12:11:30: Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000016F538DFA30>
+source_traceback: Object created at (most recent call last):
+  File "C:\Python310\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Python310\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\Joseph\AppData\Local\pypoetry\Cache\virtualenvs\janus-gst-client-py-fsjr8uZu-py3.10\Scripts\coverage.exe\__main__.py", line 7, in <module>
+    sys.exit(main())
+  File "C:\Users\Joseph\AppData\Local\pypoetry\Cache\virtualenvs\janus-gst-client-py-fsjr8uZu-py3.10\lib\site-packages\coverage\cmdline.py", line 973, in main
+    status = CoverageScript().command_line(argv)
+  File "C:\Users\Joseph\AppData\Local\pypoetry\Cache\virtualenvs\janus-gst-client-py-fsjr8uZu-py3.10\lib\site-packages\coverage\cmdline.py", line 684, in command_line
+    return self.do_run(options, args)
+  File "C:\Users\Joseph\AppData\Local\pypoetry\Cache\virtualenvs\janus-gst-client-py-fsjr8uZu-py3.10\lib\site-packages\coverage\cmdline.py", line 861, in do_run
+    runner.run()
+  File "C:\Users\Joseph\AppData\Local\pypoetry\Cache\virtualenvs\janus-gst-client-py-fsjr8uZu-py3.10\lib\site-packages\coverage\execfile.py", line 211, in run
+    exec(code, main_mod.__dict__)
+  File "C:\Python310\lib\unittest\__main__.py", line 18, in <module>
+    main(module=None)
+  File "C:\Python310\lib\unittest\main.py", line 101, in __init__
+    self.runTests()
+  File "C:\Python310\lib\unittest\main.py", line 271, in runTests
+    self.result = testRunner.run(self.test)
+  File "C:\Python310\lib\unittest\runner.py", line 184, in run
+    test(result)
+  File "C:\Python310\lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\Python310\lib\unittest\suite.py", line 122, in run
+    test(result)
+  File "C:\Python310\lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\Python310\lib\unittest\suite.py", line 122, in run
+    test(result)
+  File "C:\Python310\lib\unittest\case.py", line 650, in __call__
+    return self.run(*args, **kwds)
+  File "C:\Python310\lib\unittest\async_case.py", line 157, in run
+    return super().run(result)
+  File "C:\Python310\lib\unittest\case.py", line 591, in run
+    self._callTestMethod(testMethod)
+  File "C:\Python310\lib\unittest\async_case.py", line 64, in _callTestMethod
+    self._callMaybeAsync(method)
+  File "C:\Python310\lib\unittest\async_case.py", line 87, in _callMaybeAsync
+    return self._asyncioTestLoop.run_until_complete(fut)
+  File "C:\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Python310\lib\asyncio\base_events.py", line 1888, in _run_once
+    handle._run()
+  File "C:\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Joseph\OneDrive\Documents\GitHub\janus_gst_client_py\janus_client\transport_http.py", line 84, in session_receive_response
+    http_session = aiohttp.ClientSession()
+12:11:30: Task exception was never retrieved
+future: <Task finished name='Task-15' coro=<JanusTransportHTTP.session_receive_response() done, defined at C:\Users\Joseph\OneDrive\Documents\GitHub\janus_gst_client_py\janus_client\transport_http.py:81> exception=ClientResponseError(RequestInfo(url=URL('https://janusmy.josephgetmyip.com/janusbase/janus/3394070181818833'), method='GET', headers=<CIMultiDictProxy('Host': 'janusmy.josephgetmyip.com', 'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate', 'User-Agent': 'Python/3.10 aiohttp/3.8.5')>, real_url=URL('https://janusmy.josephgetmyip.com/janusbase/janus/3394070181818833')), (), status=404, message='Not Found', headers=<CIMultiDictProxy('Server': 'nginx/1.22.1', 'Date': 'Wed, 09 Aug 2023 04:11:00 GMT', 'Content-Length': '0', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '86400')>) created at C:\Python310\lib\asyncio\tasks.py:337>
+source_traceback: Object created at (most recent call last):
+  File "C:\Python310\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Python310\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\Joseph\AppData\Local\pypoetry\Cache\virtualenvs\janus-gst-client-py-fsjr8uZu-py3.10\Scripts\coverage.exe\__main__.py", line 7, in <module>
+    sys.exit(main())
+  File "C:\Users\Joseph\AppData\Local\pypoetry\Cache\virtualenvs\janus-gst-client-py-fsjr8uZu-py3.10\lib\site-packages\coverage\cmdline.py", line 973, in main
+    status = CoverageScript().command_line(argv)
+  File "C:\Users\Joseph\AppData\Local\pypoetry\Cache\virtualenvs\janus-gst-client-py-fsjr8uZu-py3.10\lib\site-packages\coverage\cmdline.py", line 684, in command_line
+    return self.do_run(options, args)
+  File "C:\Users\Joseph\AppData\Local\pypoetry\Cache\virtualenvs\janus-gst-client-py-fsjr8uZu-py3.10\lib\site-packages\coverage\cmdline.py", line 861, in do_run
+    runner.run()
+  File "C:\Users\Joseph\AppData\Local\pypoetry\Cache\virtualenvs\janus-gst-client-py-fsjr8uZu-py3.10\lib\site-packages\coverage\execfile.py", line 211, in run
+    exec(code, main_mod.__dict__)
+  File "C:\Python310\lib\unittest\__main__.py", line 18, in <module>
+    main(module=None)
+  File "C:\Python310\lib\unittest\main.py", line 101, in __init__
+    self.runTests()
+  File "C:\Python310\lib\unittest\main.py", line 271, in runTests
+    self.result = testRunner.run(self.test)
+  File "C:\Python310\lib\unittest\runner.py", line 184, in run
+    test(result)
+  File "C:\Python310\lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\Python310\lib\unittest\suite.py", line 122, in run
+    test(result)
+  File "C:\Python310\lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\Python310\lib\unittest\suite.py", line 122, in run
+    test(result)
+  File "C:\Python310\lib\unittest\case.py", line 650, in __call__
+    return self.run(*args, **kwds)
+  File "C:\Python310\lib\unittest\async_case.py", line 157, in run
+    return super().run(result)
+  File "C:\Python310\lib\unittest\case.py", line 591, in run
+    self._callTestMethod(testMethod)
+  File "C:\Python310\lib\unittest\async_case.py", line 64, in _callTestMethod
+    self._callMaybeAsync(method)
+  File "C:\Python310\lib\unittest\async_case.py", line 87, in _callMaybeAsync
+    return self._asyncioTestLoop.run_until_complete(fut)
+  File "C:\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Python310\lib\asyncio\base_events.py", line 1888, in _run_once
+    handle._run()
+  File "C:\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Joseph\OneDrive\Documents\GitHub\janus_gst_client_py\janus_client\session.py", line 101, in send
+    await self.create()
+  File "C:\Users\Joseph\OneDrive\Documents\GitHub\janus_gst_client_py\janus_client\session.py", line 60, in create
+    await self._create()
+  File "C:\Users\Joseph\OneDrive\Documents\GitHub\janus_gst_client_py\janus_client\session.py", line 51, in _create
+    self.__id = await self.transport.create_session(self)
+  File "C:\Users\Joseph\OneDrive\Documents\GitHub\janus_gst_client_py\janus_client\transport.py", line 208, in create_session
+    await self.dispatch_session_created(session_id=session_id)
+  File "C:\Users\Joseph\OneDrive\Documents\GitHub\janus_gst_client_py\janus_client\transport_http.py", line 107, in dispatch_session_created
+    task = asyncio.create_task(
+  File "C:\Python310\lib\asyncio\tasks.py", line 337, in create_task
+    task = loop.create_task(coro)
+Traceback (most recent call last):
+  File "C:\Users\Joseph\OneDrive\Documents\GitHub\janus_gst_client_py\janus_client\transport_http.py", line 90, in session_receive_response
+    response.raise_for_status()
+  File "C:\Users\Joseph\AppData\Local\pypoetry\Cache\virtualenvs\janus-gst-client-py-fsjr8uZu-py3.10\lib\site-packages\aiohttp\client_reqrep.py", line 1005, in raise_for_status
+    raise ClientResponseError(
+aiohttp.client_exceptions.ClientResponseError: 404, message='Not Found', url=URL('https://janusmy.josephgetmyip.com/janusbase/janus/3394070181818833')
+12:11:30: Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000016F538DFDF0>
+source_traceback: Object created at (most recent call last):
+  File "C:\Python310\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Python310\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\Joseph\AppData\Local\pypoetry\Cache\virtualenvs\janus-gst-client-py-fsjr8uZu-py3.10\Scripts\coverage.exe\__main__.py", line 7, in <module>
+    sys.exit(main())
+  File "C:\Users\Joseph\AppData\Local\pypoetry\Cache\virtualenvs\janus-gst-client-py-fsjr8uZu-py3.10\lib\site-packages\coverage\cmdline.py", line 973, in main
+    status = CoverageScript().command_line(argv)
+  File "C:\Users\Joseph\AppData\Local\pypoetry\Cache\virtualenvs\janus-gst-client-py-fsjr8uZu-py3.10\lib\site-packages\coverage\cmdline.py", line 684, in command_line
+    return self.do_run(options, args)
+  File "C:\Users\Joseph\AppData\Local\pypoetry\Cache\virtualenvs\janus-gst-client-py-fsjr8uZu-py3.10\lib\site-packages\coverage\cmdline.py", line 861, in do_run
+    runner.run()
+  File "C:\Users\Joseph\AppData\Local\pypoetry\Cache\virtualenvs\janus-gst-client-py-fsjr8uZu-py3.10\lib\site-packages\coverage\execfile.py", line 211, in run
+    exec(code, main_mod.__dict__)
+  File "C:\Python310\lib\unittest\__main__.py", line 18, in <module>
+    main(module=None)
+  File "C:\Python310\lib\unittest\main.py", line 101, in __init__
+    self.runTests()
+  File "C:\Python310\lib\unittest\main.py", line 271, in runTests
+    self.result = testRunner.run(self.test)
+  File "C:\Python310\lib\unittest\runner.py", line 184, in run
+    test(result)
+  File "C:\Python310\lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\Python310\lib\unittest\suite.py", line 122, in run
+    test(result)
+  File "C:\Python310\lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\Python310\lib\unittest\suite.py", line 122, in run
+    test(result)
+  File "C:\Python310\lib\unittest\case.py", line 650, in __call__
+    return self.run(*args, **kwds)
+  File "C:\Python310\lib\unittest\async_case.py", line 157, in run
+    return super().run(result)
+  File "C:\Python310\lib\unittest\case.py", line 591, in run
+    self._callTestMethod(testMethod)
+  File "C:\Python310\lib\unittest\async_case.py", line 64, in _callTestMethod
+    self._callMaybeAsync(method)
+  File "C:\Python310\lib\unittest\async_case.py", line 87, in _callMaybeAsync
+    return self._asyncioTestLoop.run_until_complete(fut)
+  File "C:\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Python310\lib\asyncio\base_events.py", line 1888, in _run_once
+    handle._run()
+  File "C:\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Joseph\OneDrive\Documents\GitHub\janus_gst_client_py\janus_client\transport_http.py", line 84, in session_receive_response
+    http_session = aiohttp.ClientSession()
