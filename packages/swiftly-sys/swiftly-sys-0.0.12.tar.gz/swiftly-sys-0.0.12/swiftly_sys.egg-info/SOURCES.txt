@@ -1,0 +1,15 @@
+LICENCE
+setup.py
+scripts/unix
+scripts/windows
+scripts/unix/python
+scripts/unix/swiftly
+scripts/unix/python/swiftly-python.sh
+scripts/windows/python
+scripts/windows/swiftly.bat
+swiftly/__init__.py
+swiftly_sys.egg-info/PKG-INFO
+swiftly_sys.egg-info/SOURCES.txt
+swiftly_sys.egg-info/dependency_links.txt
+swiftly_sys.egg-info/requires.txt
+swiftly_sys.egg-info/top_level.txt
