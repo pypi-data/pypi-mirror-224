@@ -1,0 +1,3 @@
+[console_scripts]
+parking=examples.parking:start
+
