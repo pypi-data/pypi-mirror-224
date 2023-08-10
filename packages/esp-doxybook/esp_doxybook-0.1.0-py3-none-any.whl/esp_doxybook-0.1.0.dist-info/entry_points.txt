@@ -1,0 +1,3 @@
+[console_scripts]
+esp-doxybook=doxybook.__main__:main
+
