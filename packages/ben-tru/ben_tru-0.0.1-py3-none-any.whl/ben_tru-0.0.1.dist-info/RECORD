@@ -1,0 +1,11 @@
+ben-tru/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ben-tru/ben.py,sha256=alkGHfPPW8HUz2aNzpu5384jcUFqtdmaW-9mn0BfiiM,12643
+ben-tru/data/Matrizes Consolidadas (em tep) 1970 - 2022.xls,sha256=el0i87W48dHgTuuCyZmA4lKRYjOo4cXTOzkuQ7DkapY,1210880
+ben-tru/data/coeficientes_emissoes_gee_ajustado.csv,sha256=cS4UxjZQKrZPRxOcTtBWUES3ctX2R-truobAGQ9UN3w,20900
+ben-tru/data/correspondencia_MIP56_TRU51_BEN.csv,sha256=7TAYJnuiZcUdSwNsA9ipMYW3ki7BDWogK8l8xUxtFwo,4549
+ben-tru/data/correspondencia_produtos_TRU51_BEN.csv,sha256=Qi50ZAI4SmF61khGC-cd04JMQkiJTPcISz7KGa0Qozc,447
+ben_tru-0.0.1.dist-info/LICENSE,sha256=5SRtt_9FQE19m3do659hW1W-W48USLt7NO-FZ3UUvcw,1080
+ben_tru-0.0.1.dist-info/METADATA,sha256=NUI_hFjqRpGIqjT-jV-zxcUQIMZZm3Dyqg3aF4sPZtI,631
+ben_tru-0.0.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+ben_tru-0.0.1.dist-info/top_level.txt,sha256=8DeaABJcr79q3cUtxWncQrqREOEe1rWf7Vv53XtEV5w,8
+ben_tru-0.0.1.dist-info/RECORD,,
