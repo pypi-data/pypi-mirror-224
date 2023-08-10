@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: idn-quake-info
+Version: 0.1.1
+Summary: This package extracts the latest earthquake information from the official website of the Indonesian Meteorology, Climatology, and Geophysics Agency (BMKG)
+Author-email: Risky Mulya Nugraha <riskymulya@protonmail.com>
+Project-URL: Homepage, https://github.com/rizmulya/idn-quake-info.git
+Project-URL: Bug Tracker, https://github.com/rizmulya/idn-quake-info
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# idn-quake-info
+This package extracts the latest earthquake information from the official website of the Indonesian Meteorology, Climatology, and Geophysics Agency [(BMKG)](https://bmkg.go.id/)
+
+It utilizes the requests library to fetch the HTML content of the website and the BeautifulSoup library to parse the HTML and extract the desired earthquake data, which is then formatted in JSON format.
