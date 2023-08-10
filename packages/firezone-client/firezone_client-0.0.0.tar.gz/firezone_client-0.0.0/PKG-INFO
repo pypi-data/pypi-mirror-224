@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: firezone-client
+Version: 0.0.0
+Summary: Client for firezone
+Author: msterhuj
+Author-email: gabin.lanore@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Firezone Client
+
+Dev in progress.

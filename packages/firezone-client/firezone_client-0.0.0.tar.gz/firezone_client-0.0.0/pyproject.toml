@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "firezone-client"
+version = "0.0.0"
+description = "Client for firezone"
+authors = ["msterhuj <gabin.lanore@gmail.com>"]
+readme = "readme.md"
+packages = [{include = "firezone_client"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
