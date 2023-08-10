@@ -1,0 +1,12 @@
+README.md
+setup.py
+nepali_translator/__init__.py
+nepali_translator/converter.py
+nepali_translator/mappings.py
+nepali_translator/test.py
+nepali_translator/test_conversion.py
+nepali_translator/translator.py
+roman_nepali_translator.egg-info/PKG-INFO
+roman_nepali_translator.egg-info/SOURCES.txt
+roman_nepali_translator.egg-info/dependency_links.txt
+roman_nepali_translator.egg-info/top_level.txt
