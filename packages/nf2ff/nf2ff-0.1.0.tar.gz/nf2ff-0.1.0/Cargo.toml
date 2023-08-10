@@ -1,0 +1,19 @@
+[package]
+name = "nf2ff"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "nf2ff"
+crate-type = ["cdylib"]
+
+[dependencies]
+openssl = { version = "0.10", features = ["vendored"] }
+pyo3 = { version = "0.19", features = ["extension-module", "chrono"] }
+numpy = "0.19.0"
+itertools = "0.11.0"
+mysql = "*"
+mysql_common = { version = "*", features = ["chrono"] }
+serde = { version = "*", features = ["derive"] }
+chrono = "0.4.26"
