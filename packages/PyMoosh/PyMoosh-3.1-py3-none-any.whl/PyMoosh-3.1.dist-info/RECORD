@@ -1,0 +1,11 @@
+PyMoosh/__init__.py,sha256=kqa8EwsNAoKIfMcW9VnI5kXrIqkrxUA2w8oO9WwXF1Q,1273
+PyMoosh/core.py,sha256=I5wTwxqdjy6bQU0f-zCiK-GFfRReILYz6ravqgpkFvY,188481
+PyMoosh/materials.py,sha256=lFqgBkWULzNMwysntXnmAE6IiwGRqb3XpzdpKcG0ceE,4373
+PyMoosh/optim_algo.py,sha256=ek5EoLP_F2OVDi3UyOkvRwt-jlCcEGCaKgifwYu8m4A,4571
+PyMoosh/data/material_data.json,sha256=NJMxMWNpZ7SiLXp81qFQhdnJqHpvd_a1DECJj0hYJDo,11075
+PyMoosh/data/solar.json,sha256=Hxyd-NJC6ddLRMXITerAy8r1EGTuxapeRLFURYIaByI,80345
+PyMoosh-3.1.dist-info/LICENSE.txt,sha256=VXapH-nuSz68DG5ScURElxHkl1lKk4MOK9cgZCSRDXs,34502
+PyMoosh-3.1.dist-info/METADATA,sha256=BkqxfQNC3vSGtAvNEgARPzt_Zf2q17X5k5lQz8HEkuU,3077
+PyMoosh-3.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+PyMoosh-3.1.dist-info/top_level.txt,sha256=AGfuK-zUrgVOTm-OxcKnbd39SW8uCLEnOpy5UudLQ8I,8
+PyMoosh-3.1.dist-info/RECORD,,
