@@ -1,0 +1,12 @@
+tka/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tka/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tka/data/assay_metadata.csv,sha256=v6zWQmU8utgkQHLWN5PQ-Krx2mjqhjPjVGrc_ylXRfA,20217
+tka/data/l1000_mapped.csv,sha256=UKbhyeWDvwtcrSRW4EQSzltsw6IeNG7kCiFvwZr1yOI,35376
+tka/data/preds.csv,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tka/external_models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tka/external_models/moshkov.py,sha256=Y73FZ0UIFm2w30vvEk-3fG6IoF93rgGTs9t0WR0tEeE,672
+tka/utils.py,sha256=wybw_MKN3ets-VotDUzKGKpp_yodsq2CaaTwgGhLVZU,2747
+tka-0.1.2.dist-info/LICENSE,sha256=D614F0cVXFtrXRRbc4bUYM3DK_5WptZjp9KMewL5g3Y,1069
+tka-0.1.2.dist-info/METADATA,sha256=UQ8XS10pI67iJG7z16fXXdm8VsxSrig_7EdTBYjunnk,878
+tka-0.1.2.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+tka-0.1.2.dist-info/RECORD,,
