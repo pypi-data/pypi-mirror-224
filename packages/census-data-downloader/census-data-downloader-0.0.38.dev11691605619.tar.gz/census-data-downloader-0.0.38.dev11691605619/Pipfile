@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+flake8 = "*"
+coverage = "*"
+twine = "*"
+jupyterlab = "*"
+ipykernel = "*"
+setuptools-scm = "*"
+
+[packages]
+pandas = "*"
+us = "*"
+census = "*"
+click = "*"
+jinja2 = "*"
+census-data-aggregator = "*"
+census-data-downloader = "*"
+
+[requires]
+python_version = "3.8"
