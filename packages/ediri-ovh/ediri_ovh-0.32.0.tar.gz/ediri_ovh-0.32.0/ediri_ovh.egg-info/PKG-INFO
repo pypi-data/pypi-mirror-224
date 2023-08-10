@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ediri-ovh
+Version: 0.32.0
+Summary: A Pulumi package for creating and managing OVH resources.
+Home-page: https://www.pulumi.com
+License: Apache-2.0
+Project-URL: Repository, https://github.com/dirien/pulumi-ovh
+Keywords: pulumi ovh category/cloud
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# OVH Resource Provider
+
+The OVH Resource Provider lets you manage [OVH](https://www.ovhcloud.com/en/) resources.
+
+// TODO: Add more description here
+
+
