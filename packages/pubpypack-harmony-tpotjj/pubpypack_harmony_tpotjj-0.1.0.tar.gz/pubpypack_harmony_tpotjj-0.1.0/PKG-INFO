@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pubpypack-harmony-tpotjj
+Version: 0.1.0
+Summary: 
+Author: Joris Jansen
+Author-email: joris97jansen@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: cython (>=3.0.0,<4.0.0)
+Requires-Dist: flake8 (>=6.1.0,<7.0.0)
+Requires-Dist: termcolor (>=2.3.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+

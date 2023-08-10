@@ -1,0 +1,83 @@
+[tool.poetry]
+name = "pubpypack-harmony-tpotjj"
+version = "0.1.0"
+description = ""
+authors = ["Joris Jansen <joris97jansen@gmail.com>"]
+readme = "README.md"
+packages = [{include = "second_python_package"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+cython = "^3.0.0"
+termcolor = "^2.3.0"
+flake8 = "^6.1.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+pytest-cov = "^4.1.0"
+pytest-randomly = "^3.13.0"
+mypy = "^1.4.1"
+black = "^23.7.0"
+flake8 = "^6.1.0"
+isort = "^5.12.0"
+
+[tool.poetry.group.format.dependencies]
+black = "^23.7.0"
+
+[tool.poetry.group.typecheck.dependencies]
+mypy = "^1.4.1"
+pytest = "^7.4.0"
+types-termcolor = "^1.1.6.2"
+
+[tool.poetry.group.lint.dependencies]
+flake8 = "^6.1.0"
+flake8-bugbear = "^23.7.10"
+
+[tool.poetry.group.sort.dependencies]
+isort = "^5.12.0"
+
+[build-system]
+requires = ["poetry-core", "setuptools", "wheel", "cython"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.build]
+script = "build_cython.py"
+generate-setup-file = true
+
+[tool.poetry.scripts]
+harmony = "second_python_package.harmony:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests/"]
+addopts = "--cov --strict-markers"
+xfail_strict = true
+
+[tool.coverage.run]
+source = ["second_python_package"]
+branch = true
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true
+
+[tool.mypy]
+python_version = "3.10"
+files = "second_python_package, tests"
+check_untyped_defs = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_unused_configs = true
+namespace_packages = true
+explicit_package_bases = true
+show_error_codes = true
+show_error_context = true
+pretty = true
+strict = true
+
+[tool.black]
+target-version = ['py310', 'py311']
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+line_length = 88
