@@ -1,0 +1,15 @@
+battlebit_api/BattleBitApiClient.py,sha256=F-HlX4JftHz8hvQVaqC11xPFapkm0nvk96chQ6DSrws,1328
+battlebit_api/ServerBuilder.py,sha256=zfqkME7QLUeDVYsQ4a4fmFyKluuYkdujICBlq8njXjQ,3482
+battlebit_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+battlebit_api/model/AntiCheatProvider.py,sha256=X1AG9PXVXozir6xQUakCDs7YqPX-7c7SA91OeIBY9KE,84
+battlebit_api/model/GameMode.py,sha256=EnnPBuMWOYtfLoizI-W5dYuY7gw7uC1GqPfkOrWpvb4,220
+battlebit_api/model/Map.py,sha256=3hLJBV2Mm3x7MHR0Oav-stHNmqrgVGl_GJBuvalcO1o,139
+battlebit_api/model/MapSize.py,sha256=q4ND7UJg1uVXRg8oRRfCuTOG8ngC53vBxK6-AbjQnMc,117
+battlebit_api/model/Region.py,sha256=DvYHXA2jGNErxa-Ai3IG70v0hvy3t3zLZucpzprpr5E,205
+battlebit_api/model/Server.py,sha256=_0iZeX0ui5wNSMlkrWiwnOVk0jPrc5aPyy1_6-EPV2k,583
+battlebit_api/model/ServerList.py,sha256=Bhanm0EGFnKDRGxKWWHQIckWoWL-N_Valu_KzwHq8Ks,2087
+battlebit_api-0.0.1.dist-info/LICENSE,sha256=7EqMjyM6_4Wc-84TvaepmBYNQAi5cjvgG4_bbpudR0o,489
+battlebit_api-0.0.1.dist-info/METADATA,sha256=CqUXIV6dX9kgUSm6ffi3S0RiJGgoInwIRbmwaUVLb-o,3604
+battlebit_api-0.0.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+battlebit_api-0.0.1.dist-info/top_level.txt,sha256=Y9jWF096tDEEbledPt38MQD5lTI1_jzRX5w0X7ZBop8,14
+battlebit_api-0.0.1.dist-info/RECORD,,
