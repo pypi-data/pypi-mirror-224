@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: overhang_surrogates
+Version: 1.0
+Summary: Methods to create surrogate XGBoost models for overhangs attached to building energy models
+Author-email: "Dragan Stevanovic, Marko Milosevic, Sanja Stevanovic" <dragan_stevanovic@mi.sanu.ac.rs>
+Classifier: License :: OSI Approved :: MIT License
