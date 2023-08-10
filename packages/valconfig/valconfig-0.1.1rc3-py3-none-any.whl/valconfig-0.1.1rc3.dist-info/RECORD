@@ -1,0 +1,11 @@
+valconfig/__init__.py,sha256=-gRdn8q2FE4k1awz2qeCv4eVIX6JfWTZk2aFJI2mw8A,24
+valconfig/_version.py,sha256=olA4aDopEY778_KDrWOsnLXETkCbQzekZkRjerCIlr8,163
+valconfig/valconfig.py,sha256=R9KNUgw63yj3ZkYz1jFfDuC3KkHKB-Xk3QevQE0-Nvs,34864
+valconfig/contrib/README.md,sha256=EzPKs2Vk3uFevzv2D34-bKtWCW8_y7Y9O961m_Xeui8,541
+valconfig/contrib/holoviews.py,sha256=U40wmU4OyUWofBpd9ue8QGYXeln1jvGlOAVW2cDPt3I,17471
+valconfig/contrib/paul_tol_colors.cfg,sha256=LANJGpO79lqEVM02gsYNb88Gt1BqyQ3ry71y3ivo_v0,1917
+valconfig-0.1.1rc3.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+valconfig-0.1.1rc3.dist-info/METADATA,sha256=57PTHY8y6wVtwtycyKzn20s9utCf5jBhF9BdxSaZfuQ,13362
+valconfig-0.1.1rc3.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+valconfig-0.1.1rc3.dist-info/top_level.txt,sha256=3o5IbCnzTQOFW_f6gVjXZOORw_YjP_CMjChWzV9VjxI,10
+valconfig-0.1.1rc3.dist-info/RECORD,,
