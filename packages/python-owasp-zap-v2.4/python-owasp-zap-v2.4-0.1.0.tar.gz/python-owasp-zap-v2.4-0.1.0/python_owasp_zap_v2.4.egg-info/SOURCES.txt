@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+python_owasp_zap_v2.4.egg-info/PKG-INFO
+python_owasp_zap_v2.4.egg-info/SOURCES.txt
+python_owasp_zap_v2.4.egg-info/dependency_links.txt
+python_owasp_zap_v2.4.egg-info/requires.txt
+python_owasp_zap_v2.4.egg-info/top_level.txt
