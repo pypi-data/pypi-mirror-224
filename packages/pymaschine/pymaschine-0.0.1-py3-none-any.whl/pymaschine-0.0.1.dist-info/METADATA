@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pymaschine
+Version: 0.0.1
+Summary: Play or compose music using Maschine Mikro MK3
+Author: flokapi
+Author-email: flokapi@pm.me
+License: GPL-3.0-only
+Project-URL: Homepage, https://github.com/flokapi/pymikro
+Project-URL: Documentation, https://github.com/flokapi/pymikro
+Project-URL: Source Code, https://github.com/flokapi/pymikro
+Project-URL: Bug Tracker, https://github.com/flokapi/pymikro/issues
+Keywords: maschine,pads,music,patterns
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Artistic Software
+Classifier: Topic :: Multimedia
+Classifier: Topic :: Multimedia :: Sound/Audio
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: pyqt6
+Requires-Dist: pymikro
+Requires-Dist: easymix
+Provides-Extra: dev
+Provides-Extra: profile
+
