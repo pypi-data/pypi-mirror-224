@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: cetino
+Version: 0.1
+Summary: Store and load your data in a unified and light-weight way.
+Home-page: https://github.com/stevieflyer/cetino.git
+Author: steveflyer
+Author-email: steveflyer7@gmail.com
+License: MIT
+Keywords: sqlite dict storage
+License-File: LICENCE
