@@ -1,0 +1,13 @@
+thread_pool_with_timeout/__init__.py,sha256=hYOm7mpd67bxce37I4zBoprlskUIw-oDUTbmoBM0-WM,60
+thread_pool_with_timeout/pool_base.py,sha256=dTBc6vL01kjknIb5YqL6cwpLdtzf9rSii1tTDijhdAo,1050
+thread_pool_with_timeout/pool_final.py,sha256=e9SiOtPk8RyFYc8pw086QdpMvzD8ImKCsNN6yRa6mB8,6398
+thread_pool_with_timeout/pool_timeout_v1.py,sha256=8JgtRMhv0x4gIdGLwKo-jT4YoMlqZUTm6TydYk25aMw,533
+threadpool_with_timeout/__init__.py,sha256=hYOm7mpd67bxce37I4zBoprlskUIw-oDUTbmoBM0-WM,60
+threadpool_with_timeout/pool_base.py,sha256=dTBc6vL01kjknIb5YqL6cwpLdtzf9rSii1tTDijhdAo,1050
+threadpool_with_timeout/pool_final.py,sha256=e9SiOtPk8RyFYc8pw086QdpMvzD8ImKCsNN6yRa6mB8,6398
+threadpool_with_timeout/pool_timeout_v1.py,sha256=8JgtRMhv0x4gIdGLwKo-jT4YoMlqZUTm6TydYk25aMw,533
+threadpool_with_kill-0.0.1.dist-info/LICENSE,sha256=JBNNAltkjBX4XW83Eo3z_XZuPH5gRxNWlTjnN1T-_XE,1070
+threadpool_with_kill-0.0.1.dist-info/METADATA,sha256=L5am8_KTYsRRBZnPNXwXrmxEjn1QidHHeRZ5XihP_yY,323
+threadpool_with_kill-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+threadpool_with_kill-0.0.1.dist-info/top_level.txt,sha256=dw98JVpGRxqt2C9IzSnuS59zP6-oNBByZ9nnPmNrDuM,24
+threadpool_with_kill-0.0.1.dist-info/RECORD,,
