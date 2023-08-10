@@ -1,0 +1,11 @@
+itk_ioomezarrngff-0.1.6.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+itk_ioomezarrngff-0.1.6.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_ioomezarrngff-0.1.6.dist-info/RECORD,,
+itk_ioomezarrngff-0.1.6.dist-info/METADATA,sha256=ooLy8lWjuCYaCZC_PZJ7JiRILZylwqZrzVEEYrOsdUs,1278
+itk_ioomezarrngff-0.1.6.dist-info/WHEEL,sha256=Kh41ggVgrNWo383ZcTd2IrXJj9I_duwqyBoCIiNC_iQ,108
+itk_ioomezarrngff.libs/libtbb-46d889c7.so.12.9,sha256=hfIpqqDkwkunGhUK7RSduzJE7FuqMM4DaxlbWvI2fi0,345705
+itk/itkOMEZarrNGFFImageIOPython.py,sha256=jnwAEiH63aMIj7Wk83-bjlY92185f66Ks205MwBwN4E,8184
+itk/IOOMEZarrNGFFPython.py,sha256=0gS3mCmki5G5rLTuxJyXFW2zFXzyaabDXs0u9VLDJzE,2392
+itk/_IOOMEZarrNGFFPython.so,sha256=cvBAMdP0yB7K4tDd-WYjYTdh7_4apg64G4BhWEF2saM,42527729
+itk/Configuration/IOOMEZarrNGFFConfig.py,sha256=mxTiPeAivFIgkUycslnMqZCGGlN0lxwC2711xTv_BSk,302
+itk/Configuration/IOOMEZarrNGFF_snake_case.py,sha256=WRnLlen2jxLU1s5GGArPufZ1-DR4D7SdRd25VYoBFXE,26
