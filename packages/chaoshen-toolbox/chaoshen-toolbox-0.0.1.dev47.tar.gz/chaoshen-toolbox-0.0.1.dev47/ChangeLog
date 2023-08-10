@@ -1,0 +1,51 @@
+CHANGES
+=======
+
+* change msg
+* actions debug
+* actions debug
+* actions: ubuntu-latest
+* test piepline env
+* change wetchat robot id
+* 修改微信通知
+* add wxwork
+* bug: pipeline shell error
+* test jenkins file
+* bug: /etc/ssh/sshd\_config
+* add setup.cfg
+* permit-root-ssh
+* add actions
+* other
+* gitignore
+* add cs-task-watcher.sh
+* add demo
+* nova wait eventlet event
+* task watcher
+* common files
+* add filter log
+* openstack eventlet demo
+* 优化req匹配范围
+* modifu cs-sudo-command
+* add cs-git-push-use-token.sh to setup.cfg
+* add tools/cs-git-push-use-token.sh
+* debug add  sudo-command to aontainer
+* delete pyc
+* modify gitignore
+* find wifis bug
+* support config windows ip
+*  add filter
+* format tools
+* add tools
+* delete tools
+* 1
+* setup.cfg lack .sh
+* LF bug
+* LF bug
+* add docker-run-rm, tailc
+* add docker-run-rm , tailc
+* 优化help显示
+* change requirement
+* add delete noreq in openstack
+* Update README.md
+* Update README.md
+* Initial commit
