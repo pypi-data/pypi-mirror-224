@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: dwlib
+Version: 0.0.1
+Summary: Personal library to compute and draw
+Home-page: https://github.com/dowoonlee/dwlib.git
+Author: dwlee
+Author-email: 
+License: dwlee
+Requires-Dist: numpy ==1.22.3
+Requires-Dist: matplotlib ==3.5.2
+Requires-Dist: astropy ==5.1
+Requires-Dist: scipy ==1.7.3
+Requires-Dist: pandas ==1.4.3
+Requires-Dist: imageio ==2.19.3
+
