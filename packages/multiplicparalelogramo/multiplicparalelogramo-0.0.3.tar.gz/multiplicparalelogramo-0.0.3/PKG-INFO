@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: multiplicparalelogramo
+Version: 0.0.3
+Summary: Meu primeiro pacote em python
+Author: Luis Eduardo
+Author-email: le1307114@gmail.com
+Keywords: python pacote example
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Descricao detalhada do meu pacote.

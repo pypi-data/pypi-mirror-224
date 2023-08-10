@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+multiplicparalelogramo.egg-info/PKG-INFO
+multiplicparalelogramo.egg-info/SOURCES.txt
+multiplicparalelogramo.egg-info/dependency_links.txt
+multiplicparalelogramo.egg-info/top_level.txt
+multplicaparalelogramo/__init__.py
+multplicaparalelogramo/multiplicando.py
