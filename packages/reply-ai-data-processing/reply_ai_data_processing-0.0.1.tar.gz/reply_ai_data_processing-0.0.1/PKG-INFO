@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: reply_ai_data_processing
+Version: 0.0.1
+Summary: Package for processing data in multiple formats for Reply AI services
+Home-page: https://github.com/reply-team/reply_ai_data_processing
+Author: Marianna Diachuk
+Author-email: marianna.d@reply.io
+Project-URL: Bug Tracker, https://github.com/reply-team/reply_ai_data_processing
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Data processing package
+
+This package is dedicated to providing functionality for processing data in text, HTML formats and etc. for further usage in predictors and endpoints. 
+
+## Package installation guide
+To install package locally without usage of pip run this command in virtual env from the directory of the package:
+`python3 setup.py install`
+
+To rebuild package after major changes use:
+`pip install build`
+`python -m build`
