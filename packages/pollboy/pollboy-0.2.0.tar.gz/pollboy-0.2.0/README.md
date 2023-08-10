@@ -1,0 +1,53 @@
+## Pollboy
+
+Simple script to poll an RSS feed and send notifications about new posts. Currently only supports Telegram Bot notifications. 
+
+This script is meant to be scheduled with cron to run at regular intervals.
+
+Install
+
+```
+pip install pollboy
+```
+
+Run
+
+```
+pollboy
+```
+
+The first run will generate a config file at `~/.config/pollboy.config.yaml`. Update feeds and notification settings here.
+
+Note - `rss_url` can be either a local file path or remote URL.
+
+By default, pollboy will store the timestamp from the last post it sent a notification for. If you want to disable this functionality for testing you can set a top-level variable in the config.yaml file:
+
+```
+disable_db: True
+```
+
+### Publishing
+
+Install twine
+
+```
+pip install twine
+```
+
+Install wheel (not always necessary)
+
+```
+pip install wheel
+```
+
+Build
+
+```
+python setup.py sdist bdist_wheel
+```
+
+Publish to pypi.org
+
+```
+twine upload dist/*
+```
