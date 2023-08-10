@@ -1,0 +1,16 @@
+sspaf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sspaf/sspaf.py,sha256=AzNk-bYy9vDs6QqykrxX0cvyi89hSwSD6SzL3YuEZWM,1327
+sspaf/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sspaf/core/create.py,sha256=MbTw0yAO6lNAz6bdp6gdHDosK3k5oHgkVO17wzvR8_E,617
+sspaf/core/publish.py,sha256=lkDoR3PDkIkrgECj96z9GX4GU5aNjNcJmuxrGsNMr_g,385
+sspaf/core/render.py,sha256=RxGjn8R69bWFoEbTwBfLomhXVGQ7ZKqsRpbTEFQXSkU,3444
+sspaf/core/serve.py,sha256=JN0oOgIA1LnGlz8OszUiGEpmIRnIZ4TlDjGFlQyKKec,1995
+sspaf/core/assets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sspaf/core/assets/init.py,sha256=2ZIcPAUJoh7Roo2Y2iW_9IEjgYLM6lMY2LOD5dIdAfc,381
+sspaf/core/assets/js.py,sha256=DfmKM40XNmGVqB7dsXp3ZKP-O3w60KYdxIWPArnUtVI,815
+sspaf-0.0.3.dist-info/LICENSE,sha256=F96EzotgWhhpnQTW2TcdoqrMDir1jyEo6H915tGQ-QE,11524
+sspaf-0.0.3.dist-info/METADATA,sha256=jwEx9RfUqpNxXA-vBCOovxzfWQ8ge-Dh_z8t7NemAa8,278
+sspaf-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+sspaf-0.0.3.dist-info/entry_points.txt,sha256=XW8m9I67tqPCMij18sicn-d0ah3vTdcsjjLRuegtT8Q,44
+sspaf-0.0.3.dist-info/top_level.txt,sha256=eC9lmk0z9Rq-zhVgX7mt8VF_rIs9PdODNYf7xEhrY_I,6
+sspaf-0.0.3.dist-info/RECORD,,
