@@ -1,0 +1,40 @@
+# package overview
+package_name: classification_model
+
+# data files
+training_data_file: train.csv
+test_data_file: test.csv
+
+# variables
+# the variable we are attempting to predict
+target: churn
+
+pipeline_name: classification_model
+pipeline_save_file: classification_model_output_v
+
+# selected features
+features:   
+  - internetservice
+  - onlinesecurity 
+  - streamingmovies 
+  - contract 
+
+# categorical variables
+cat_vars:
+  - internetservice
+  - onlinesecurity 
+  - streamingmovies 
+  - contract
+
+
+# set the train test split size
+test_size: 0.3
+
+# set the random seed
+random_state: 1
+
+# set the learning rate
+eta: 0.4
+
+# set the regularization parameter
+alpha: 0.001
