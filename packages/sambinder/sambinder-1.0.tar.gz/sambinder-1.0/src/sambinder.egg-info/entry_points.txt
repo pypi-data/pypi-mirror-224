@@ -1,0 +1,2 @@
+[console_scripts]
+sambinder = sambinder.sambinder:main

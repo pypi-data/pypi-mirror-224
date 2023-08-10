@@ -1,0 +1,5 @@
+numpy
+pandas
+argparse
+joblib
+scikit-learn==0.21.2
