@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+./src/simpar_cli/__init__.py
+./src/simpar_cli/exception.py
+./src/simpar_cli/simpar.py
+./src/simpar_cli.egg-info/PKG-INFO
+./src/simpar_cli.egg-info/SOURCES.txt
+./src/simpar_cli.egg-info/dependency_links.txt
+./src/simpar_cli.egg-info/entry_points.txt
+./src/simpar_cli.egg-info/requires.txt
+./src/simpar_cli.egg-info/top_level.txt
