@@ -1,0 +1,9 @@
+README.rst
+setup.py
+sdypy_sep005/__init__.py
+sdypy_sep005/sep005.py
+sdypy_sep005.egg-info/PKG-INFO
+sdypy_sep005.egg-info/SOURCES.txt
+sdypy_sep005.egg-info/dependency_links.txt
+sdypy_sep005.egg-info/top_level.txt
+tests/test_sep005.py
