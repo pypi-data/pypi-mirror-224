@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+typedthon/__init__.py
+typedthon.egg-info/PKG-INFO
+typedthon.egg-info/SOURCES.txt
+typedthon.egg-info/dependency_links.txt
+typedthon.egg-info/top_level.txt
