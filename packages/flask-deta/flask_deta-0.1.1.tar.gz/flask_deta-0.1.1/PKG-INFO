@@ -1,0 +1,122 @@
+Metadata-Version: 2.1
+Name: flask-deta
+Version: 0.1.1
+Summary: A Python library for seamless integration with DetaSpace in Flask
+Project-URL: Homepage, https://github.com/Jesparzarom/Flask-Deta
+Project-URL: Source Code, https://github.com/Jesparzarom/Flask-Deta
+Project-URL: Bug Tracker, https://github.com/Jesparzarom/Flask-Deta/issues
+Author: J.P. Esparza
+Maintainer: J.P. Esparza
+License: BSD-3 Clause License
+        
+        Copyright (c) 2023 J.P. Esparza
+        
+        Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+        
+        1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+        
+        2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+        
+        3. Neither the name of J.P. Esparza nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+License-File: LICENSE
+Keywords: Databases,Deta,Detaspace,Drive,Fask Deta,Flask,Flask NoSQL,Flask Package,NoSQL,Python Deta,Web Development
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Flask
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Requires-Dist: deta
+Requires-Dist: flask
+Description-Content-Type: text/markdown
+
+## Version 0.1.1
+> ⚠️ This is the initial version 0.1.0 and is currently in the alpha stage. It is not recommended for professional production use.
+
+---
+
+**Welcome to FlaskDeta Docs!**
+
+Flask-Deta is a Python library that simplifies the integration of your [DetaSpace](https://deta.space/) collection of database and/or drive files with [Flask](https://flask.palletsprojects.com/en/2.3.x/) framework. 
+
+With Flask-Deta, you can store and manage data with `DetaBase` and handle file storage operations with `DetaDrive`, all within the context of your Flask application. This robust combination allows you to leverage the secure and scalable cloud infrastructure of [DetaSpace](https://deta.space/), making data and file management for your web projects convenient. 
+
+In this documents, we will provide you with an in-depth overview of Flask-Deta and help you get started using this extraordinary tool.
+
+> We'd like to inform you that not all DetaSpace functionalities are currently integrated, both in Drive and Base. However, we are working on gradually incorporating them to create a robust integration package between Flask and DetaSpace. Our aim is to enhance your development experience by leveraging the full potential of this integration.
+# Install
+```shell
+pip install flask-deta
+```
+
+# QuickStart
+
+1. **Create a Flask App:** Begin by creating an instance of the Flask app in your Python code.
+
+2. **Set Configuration Parameters:** Set the required parameters, such as your Deta project key, Base name, and Drive name.
+
+3. **Create DetaBase and DetaDrive Instances:** Create instances of DetaBase and DetaDrive using your Flask `app` as an argument.
+
+
+## DetaBase
+```python
+from flask import Flask
+from flask_deta import DetaBase
+
+app = Flask(__name__)
+
+# Set the DetaSpace project key and database name
+app.config["DETA_PROJECT_KEY"] = "MyKey12345"
+app.config["BASE_NAME"] = "products" # DetaSpace Base for data 
+
+# Create instance of DetaBase
+base = DetaBase(app)
+```
+
+## DetaDrive
+```python
+from flask import Flask
+from flask_deta import DetaDrive
+
+app = Flask(__name__)
+
+# Set the DetaSpace project key and drive name
+app.config["DETA_PROJECT_KEY"] = "MyKey12345"
+app.config["DRIVE_NAME"] = "icons" # DetaSpace Drive for files
+
+# Create instances of DetaDrive
+dd = DetaDrive(app)
+
+```
+
+
+## DetaBase + DetaDrive
+
+Integrate the features of DetaBase and DetaDrive seamlessly into your Flask application with. These components enable efficient storage and management of data and files within your project using DetaSpace.
+
+```python
+from flask import Flask
+from flask_deta import DetaBase, DetaDrive
+
+app = Flask(__name__)
+
+# Set the DetaSpace project key and drive name
+app.config["DETA_PROJECT_KEY"] = "MyKey12345"
+app.config["BASE_NAME"] = "products" # DetaSpace Base for data 
+app.config["DRIVE_NAME"] = "icons" # DetaSpace Drive for files
+
+# Create instances of DetaDrive
+db = DetaBase(app)
+dd = DetaDrive(app)
+
+```
+
+For comprehensive details on the usage and available methods, refer to our documentation: [DetaBase](./docs/DetaBase/Base.md) & [DetaDrive](./docs/DetaDrive/Drive.md).
