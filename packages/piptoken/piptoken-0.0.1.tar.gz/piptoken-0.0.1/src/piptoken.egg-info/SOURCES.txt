@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+data/data_file
+src/piptoken.egg-info/PKG-INFO
+src/piptoken.egg-info/SOURCES.txt
+src/piptoken.egg-info/dependency_links.txt
+src/piptoken.egg-info/entry_points.txt
+src/piptoken.egg-info/requires.txt
+src/piptoken.egg-info/top_level.txt
