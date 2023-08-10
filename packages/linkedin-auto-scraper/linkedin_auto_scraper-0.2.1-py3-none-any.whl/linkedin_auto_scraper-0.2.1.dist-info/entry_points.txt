@@ -1,0 +1,3 @@
+[console_scripts]
+linkedin-auto-scraper=linkedin_auto_scraper.main:app
+
