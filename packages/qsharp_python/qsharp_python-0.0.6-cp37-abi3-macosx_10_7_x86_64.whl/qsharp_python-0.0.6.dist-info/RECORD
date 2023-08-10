@@ -1,0 +1,9 @@
+qsharp_python-0.0.6.dist-info/METADATA,sha256=G3lPmd43F61ZWHnJzGCZQd4ExFl9Ps0mFOlctBQQI7Y,1022
+qsharp_python-0.0.6.dist-info/WHEEL,sha256=lGJxLRjMuh00j-kxXoBqljTIsqOIkqDW0u51TRCZoAo,105
+qsharp/__init__.py,sha256=DZez3p6bdFklhzjF3AcbCHYR7StTZlh1hWwOSpZrH2o,516
+qsharp/_ipython.py,sha256=PGOhPA5pEoJZJI4qO-yC_m7ZgRQFASAXRLEjI5zji68,1413
+qsharp/.data/qsharp_codemirror.js,sha256=eNZ8oKI3A_TA5WVCRYR-io-ESNuBnCTs7na1DJd0iH8,3162
+qsharp/_native.pyi,sha256=bEcdPs9dAx9enNUrfkY2JSEDOOFuGE9a54YoSp_PUHI,1300
+qsharp/_qsharp.py,sha256=Xe0jc7MzaY1co-qgqEId_ZioB63MiaaFiXmgrNEJ7xM,907
+qsharp/_native.abi3.so,sha256=4Np7lzlhAtwaQCdzsNACvEYIUEwVmiNuUSq3WOzcDUY,5092560
+qsharp_python-0.0.6.dist-info/RECORD,,
