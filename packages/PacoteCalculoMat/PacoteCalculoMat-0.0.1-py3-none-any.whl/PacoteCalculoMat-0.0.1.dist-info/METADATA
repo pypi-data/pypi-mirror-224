@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: PacoteCalculoMat
+Version: 0.0.1
+Summary: Pacote em python
+Author: Milene Fialho
+Author-email: milefialho16@gmail.com
+Keywords: python,first package
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python 
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+Pacote de realizar calculos matematicos
