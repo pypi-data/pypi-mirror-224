@@ -1,0 +1,3 @@
+[console_scripts]
+run-update-test-case = zephyrcore.src.zephyrcore.run_update_test_case:main
+run-zephyr = zephyrcore.src.zephyrcore.run_zephyr:main
