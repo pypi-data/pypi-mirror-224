@@ -1,0 +1,38 @@
+[package]
+name = "if97"
+version = "1.3.9"
+edition = "2021"
+authors = ["Cheng Maohua <cmh@seu.edu.cn>"]
+description = "The high-speed IAPWS-IF97 package with C binding"
+readme = "README.md"
+homepage = "https://github.com/thermalogic/"
+repository = "https://github.com/thermalogic/IF97/"
+license = "MIT"
+keywords = ["IF97", "IAPWS-IF97"]
+categories = ["science"]
+exclude=["/dynamic_lib"]
+
+[lib]
+name = "if97"
+crate-type = ["rlib","cdylib"]
+
+[features]
+cdecl=[]
+stdcall=[]
+python = ["pyo3"]
+
+[dependencies.pyo3]
+version = "0.15.1"
+features = ["extension-module"]
+optional = true
+
+
+[dev-dependencies]
+assert_approx_eq = "1.1.0"
+criterion = { version = "0.5.1", features = ["html_reports"] }
+
+#[[bench]]
+#name = "if97_speed_benchmark"
+#harness = false
+
+
