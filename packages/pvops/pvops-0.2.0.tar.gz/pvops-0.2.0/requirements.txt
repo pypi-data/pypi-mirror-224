@@ -1,0 +1,29 @@
+# Required
+pandas
+numpy
+scipy
+scikit-learn
+nltk
+datefinder
+matplotlib
+seaborn
+plotly
+gensim
+networkx
+pvlib
+pvanalytics
+timezonefinder
+pyDOE
+tensorflow
+
+# Testing / Docs
+pytest
+ipykernel
+nbsphinx
+nbsphinx-link
+sphinx-copybutton
+sphinxcontrib.bibtex
+nbformat
+nbconvert
+coverage
+sphinx_rtd_theme
