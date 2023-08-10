@@ -1,0 +1,7 @@
+setup.py
+PacoteCalculoMat/__init__.py
+PacoteCalculoMat/calculos.py
+PacoteCalculoMat.egg-info/PKG-INFO
+PacoteCalculoMat.egg-info/SOURCES.txt
+PacoteCalculoMat.egg-info/dependency_links.txt
+PacoteCalculoMat.egg-info/top_level.txt
