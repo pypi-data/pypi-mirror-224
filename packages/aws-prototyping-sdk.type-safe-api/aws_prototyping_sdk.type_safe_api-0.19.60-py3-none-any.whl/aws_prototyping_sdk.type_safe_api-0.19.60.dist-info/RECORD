@@ -1,0 +1,15 @@
+aws_prototyping_sdk/type_safe_api/__init__.py,sha256=vtdLPd13GlHkv8iFj6TQOyU687XniTsNi7TZBmjZe5c,993983
+aws_prototyping_sdk/type_safe_api/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_prototyping_sdk/type_safe_api/_jsii/__init__.py,sha256=WH2NsccgGdu0o5BLe24Ns1xNmy5gyaC_DIo4q5ZI0Qk,558
+aws_prototyping_sdk/type_safe_api/_jsii/type-safe-api@0.19.60.jsii.tgz,sha256=_n18iGewH-xmmaqxb2RqZ2ahIaSitwsPaQnYkpJgzrY,1254223
+aws_prototyping_sdk.type_safe_api-0.19.60.data/scripts/clean-openapi-generated-code,sha256=bxYmolmsU1fVcyhe4BINCwARZVXQisUV4HwzCWTSaVs,369
+aws_prototyping_sdk.type_safe_api-0.19.60.data/scripts/copy-gradle-wrapper,sha256=muVPHDeDVs9G-d8-iLu-cvro2wQyzV_JqXeQU1alj9w,360
+aws_prototyping_sdk.type_safe_api-0.19.60.data/scripts/generate,sha256=rsUcz8mzQCqYh08iaezhN4TfS67gfnTE1m02B8di7ik,349
+aws_prototyping_sdk.type_safe_api-0.19.60.data/scripts/generate-html-redoc-docs,sha256=deMrHye1y8VVUjR1iRY9vuEEgRUQ7zoYRGplYlCVyuo,365
+aws_prototyping_sdk.type_safe_api-0.19.60.data/scripts/generate-mock-data,sha256=QVE7er8KN7TYI4sGtUk8hCZIluhTP0DylBpdH8t8vSs,359
+aws_prototyping_sdk.type_safe_api-0.19.60.data/scripts/parse-openapi-spec,sha256=pT2wQlyk5H0LwmNIr56inPYh1WuBOyroa7wd-D-Wb1o,359
+aws_prototyping_sdk.type_safe_api-0.19.60.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+aws_prototyping_sdk.type_safe_api-0.19.60.dist-info/METADATA,sha256=qJ5eo30Ctw-fskTI_B5y2lqTjpVzbEpH-JXG0GTSIU8,4331
+aws_prototyping_sdk.type_safe_api-0.19.60.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aws_prototyping_sdk.type_safe_api-0.19.60.dist-info/top_level.txt,sha256=GI4X33MSLMhT7o3n6FDj9jqf2xWUdJ3qEo1cWYKXylw,20
+aws_prototyping_sdk.type_safe_api-0.19.60.dist-info/RECORD,,
