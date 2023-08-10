@@ -1,0 +1,11 @@
+README.md
+setup.py
+c3toc/__init__.py
+c3toc/api.py
+c3toc/exceptions.py
+c3toc/metadata.py
+pyc3toc.egg-info/PKG-INFO
+pyc3toc.egg-info/SOURCES.txt
+pyc3toc.egg-info/dependency_links.txt
+pyc3toc.egg-info/requires.txt
+pyc3toc.egg-info/top_level.txt
