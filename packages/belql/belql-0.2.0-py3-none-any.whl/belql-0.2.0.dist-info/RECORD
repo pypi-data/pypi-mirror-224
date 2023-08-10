@@ -1,0 +1,13 @@
+belql/cli.py,sha256=2KQYIhSJ9RYTds8eqY2pCNysQRRTpsMs8ZoV_5PBtnE,1561
+belql/run.py,sha256=OiQG2Fs5pQ-_JQMlPu2jBcLkRlMDnq8XtHQwgiITsoM,1547
+belql/static/belquery.js,sha256=H-Q9Fn4uKnYRlENdAxUnXEyr347jCZ5idN3fgUqNmdc,5014
+belql/static/gif/loading.gif,sha256=2n_QvovAwWFT2a3y-bYRlr8msLpX-t4QtGbWALPYdEg,20312
+belql/templates/index.html,sha256=c2Q1AXlJIFRivTAa4CMdCL-t9nDNLg47-0OfET5YddM,3146
+belql/templates/layout.html,sha256=KyVYg4g9U3GxV0UEsdoHwlk4AL5TzMhewsMmcmM0XuE,1473
+belql/templates/macros.html,sha256=cyVdgtoNtmsWuxoagU5dXtw1PyMGcRRQv4sqmNJ9esU,251
+belql/utils.py,sha256=P6lhM0z32GH0alqkXVq-f5ae9TaaSuwxhdjl35nqW5A,8545
+belql-0.2.0.dist-info/LICENSE,sha256=Gb0l6oqwN6DA297U0cOqksL7q2kGOszg3hSYWZFA3ho,10892
+belql-0.2.0.dist-info/METADATA,sha256=EcSu3p1a1Ikley3A2O2KmXZppGfc3gf1Xm9EbTHx-pc,1712
+belql-0.2.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+belql-0.2.0.dist-info/entry_points.txt,sha256=o9H2kSQf-m9BWh_IEt_nqoIBgDVdoLT63Rf706-vaI4,40
+belql-0.2.0.dist-info/RECORD,,
