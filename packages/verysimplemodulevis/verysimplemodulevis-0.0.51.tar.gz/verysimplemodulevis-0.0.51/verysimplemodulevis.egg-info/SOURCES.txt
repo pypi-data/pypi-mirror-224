@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+verysimplemodulevis/__init___.py
+verysimplemodulevis/mymodule.py
+verysimplemodulevis.egg-info/PKG-INFO
+verysimplemodulevis.egg-info/SOURCES.txt
+verysimplemodulevis.egg-info/dependency_links.txt
+verysimplemodulevis.egg-info/top_level.txt
