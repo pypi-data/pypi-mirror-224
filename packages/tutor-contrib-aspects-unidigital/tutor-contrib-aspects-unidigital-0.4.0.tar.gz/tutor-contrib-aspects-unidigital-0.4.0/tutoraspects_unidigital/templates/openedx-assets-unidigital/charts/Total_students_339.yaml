@@ -1,0 +1,20 @@
+- _file_name: Total_students
+  slice_name: Total students
+  viz_type: big_number_total
+  params:
+    adhoc_filters: []
+    datasource: 16__table
+    extra_form_data: {}
+    granularity_sqla: last_login
+    header_font_size: 0.4
+    metric: count
+    subheader_font_size: 0.15
+    time_format: smart_date
+    time_grain_sqla: P1D
+    time_range: No filter
+    viz_type: big_number_total
+    y_axis_format: SMART_NUMBER
+  cache_timeout: null
+  uuid: 6cab0e64-6eed-4e3b-bdb1-769cafa7b1a1
+  version: 1.0.0
+  dataset_uuid: 462de717-4a87-4ba9-9f68-a3dddc3de6a3

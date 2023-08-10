@@ -1,0 +1,110 @@
+- _file_name: student_courseenrollment_persistent_grade.yaml
+  table_name: student_courseenrollment_persistent_grade
+  main_dttm_col: created
+  description: null
+  default_endpoint: null
+  offset: 0
+  cache_timeout: null
+  schema: openedx
+  sql: "select
+    student_courseenrollment.user_id,
+    student_courseenrollment.course_id,
+    passed_timestamp,
+    percent_grade,
+    IF(passed_timestamp is not null, 'Approved', 'Not approved') as status,
+    grades_persistentcoursegrade.modified
+    from
+      student_courseenrollment LEFT JOIN grades_persistentcoursegrade 
+    on 
+      student_courseenrollment.user_id = grades_persistentcoursegrade.user_id"
+  params: null
+  template_params: null
+  filter_select_enabled: false
+  fetch_values_predicate: null
+  extra: null
+  uuid: 8789d1fc-29d6-4e2b-a15e-ed59e8df34a9
+  metrics:
+  - metric_name: count
+    verbose_name: COUNT(*)
+    metric_type: count
+    expression: COUNT(*)
+    description: null
+    d3format: null
+    extra:
+      warning_markdown: ''
+    warning_text: null
+  columns:
+  - column_name: passed_timestamp
+    verbose_name: null
+    is_dttm: true
+    is_active: true
+    type: DATETIME
+    advanced_data_type: null
+    groupby: true
+    filterable: true
+    expression: null
+    description: null
+    python_date_format: null
+    extra: {}
+  - column_name: modified
+    verbose_name: null
+    is_dttm: true
+    is_active: true
+    type: DATETIME
+    advanced_data_type: null
+    groupby: true
+    filterable: true
+    expression: null
+    description: null
+    python_date_format: null
+    extra: {}
+  - column_name: course_id
+    verbose_name: null
+    is_dttm: false
+    is_active: true
+    type: VAR_STRING
+    advanced_data_type: null
+    groupby: true
+    filterable: true
+    expression: null
+    description: null
+    python_date_format: null
+    extra: {}
+  - column_name: status
+    verbose_name: null
+    is_dttm: false
+    is_active: true
+    type: VAR_STRING
+    advanced_data_type: null
+    groupby: true
+    filterable: true
+    expression: null
+    description: null
+    python_date_format: null
+    extra: {}
+  - column_name: percent_grade
+    verbose_name: null
+    is_dttm: false
+    is_active: true
+    type: DOUBLE
+    advanced_data_type: null
+    groupby: true
+    filterable: true
+    expression: null
+    description: null
+    python_date_format: null
+    extra: {}
+  - column_name: user_id
+    verbose_name: null
+    is_dttm: false
+    is_active: true
+    type: LONG
+    advanced_data_type: null
+    groupby: true
+    filterable: true
+    expression: null
+    description: null
+    python_date_format: null
+    extra: {}
+  version: 1.0.0
+  database_uuid: b9dd68f2-5915-4082-8818-9b163bd3537a
