@@ -1,0 +1,3 @@
+[console_scripts]
+sspaf = sspaf.sspaf_bin:main
+
