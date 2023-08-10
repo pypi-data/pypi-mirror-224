@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: OpenHashDB
+Version: 0.0.1
+Summary: Official Python Package to easily integrate the OpenHashDB API to your project
+Author: Paul Harrer
+Author-email: support@openhashdb.com
+Project-URL: GitHub, https://github.com/PaulHarrer/openhashdb-python
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# openhashdb-python
