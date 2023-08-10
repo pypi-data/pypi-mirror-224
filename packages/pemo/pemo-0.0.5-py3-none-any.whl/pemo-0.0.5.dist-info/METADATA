@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pemo
+Version: 0.0.5
+Summary: 一个帮助用户下载服务器上的文件的命令行工具, 它依托于云存储服务实现中转
+Author-email: kenny <ztxemail@163.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: click==8.1.6
+Requires-Dist: cos-python-sdk-v5==1.9.25
+Description-Content-Type: text/markdown
+
+## 项目简介
+  pytrans是一个帮助用户下载服务器上的文件的命令行工具, 它依托于云存储服务实现中转。
+![img.png](img.png)
