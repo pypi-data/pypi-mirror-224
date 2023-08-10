@@ -1,0 +1,2 @@
+localstack>=2.2
+authress>=3.0.26
