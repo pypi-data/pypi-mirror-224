@@ -1,0 +1,10 @@
+minchin.pelican.plugins.post_stats-1.2.0-py3.11-nspkg.pth,sha256=uzPInLO2bJNPR_DFZbju0g_13dcw7qklMeP6vt24E-E,3603
+minchin/pelican/plugins/post_stats/__init__.py,sha256=BtTF6UqnBanXzc8l16yuhP7mhJKmnVTWADHBYAf9N_0,480
+minchin/pelican/plugins/post_stats/post_stats.py,sha256=F7UC1bEjPWsIUJCnVJ5bLSkUE9kASigEqRss7F5ivBk,2375
+minchin/pelican/plugins/post_stats/readability.py,sha256=kpJJGVoVoZ1yt4hwEUctxvnkuwY__JdMh8bpx89Qy4w,1420
+minchin.pelican.plugins.post_stats-1.2.0.dist-info/LICENSE.txt,sha256=KCdRuMmO6eRFNG61epksnsviXtjdVU3wRndzE-GbEPk,35181
+minchin.pelican.plugins.post_stats-1.2.0.dist-info/METADATA,sha256=OtbyVUveZRMDfx62hzVYc6w5mZ1WlCjuQ6GxZ0X10-U,5575
+minchin.pelican.plugins.post_stats-1.2.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+minchin.pelican.plugins.post_stats-1.2.0.dist-info/namespace_packages.txt,sha256=4E1cOlxNZopen4V1NQ3YjoWWeRHJ5NeEWMVuBH024rg,48
+minchin.pelican.plugins.post_stats-1.2.0.dist-info/top_level.txt,sha256=UfZcij00rJG77eOQBb7_ze25M4GNX6IZ7pbW2toN94c,8
+minchin.pelican.plugins.post_stats-1.2.0.dist-info/RECORD,,
