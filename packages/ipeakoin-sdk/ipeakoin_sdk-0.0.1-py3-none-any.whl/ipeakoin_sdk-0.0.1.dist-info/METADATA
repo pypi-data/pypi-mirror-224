@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: ipeakoin-sdk
+Version: 0.0.1
+Summary: bass api
+Home-page: https://github.com/ipeakoin/ipeakoin-python-sdk
+Author: iPeakoin team
+Author-email: wangjiancheng@qbitnetwork.com
+Keywords: Global Account,Crypto Asset,Quantum Card
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests (>=2.28.1)
+Requires-Dist: pydantic (>=2.1.1)
+
+<p style="text-align: center;">
+  <h1 align="center"><a href="javascript:void(0);">ipeakoin_sdk</a></h1>
+</p>
