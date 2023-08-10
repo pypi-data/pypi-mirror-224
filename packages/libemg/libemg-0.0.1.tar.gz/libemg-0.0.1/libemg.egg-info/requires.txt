@@ -1,0 +1,8 @@
+numpy
+scipy
+scikit-learn
+pillow
+matplotlib
+librosa
+wfdb
+pyserial
