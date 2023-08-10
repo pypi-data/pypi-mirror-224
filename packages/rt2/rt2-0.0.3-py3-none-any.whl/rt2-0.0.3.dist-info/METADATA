@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: rt2
+Version: 0.0.3
+Summary: rt-2 - PyTorch
+Home-page: https://github.com/kyegomez/rt-2
+Author: Kye Gomez
+Author-email: kye@apac.ai
+License: MIT
+Keywords: artificial intelligence,deep learning,optimizers,Prompt Engineering
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: transformers
+Requires-Dist: torch
+Requires-Dist: einops
+Requires-Dist: beartype
+Requires-Dist: palme
+Requires-Dist: palm-rlhf-pytorch
+Requires-Dist: tokenizers
+Requires-Dist: wandb
+Requires-Dist: classifier-free-guidance-pytorch
+
