@@ -1,0 +1,3 @@
+[console_scripts]
+run-update-test-case = .run_update_test_case:main
+run-zephyr = .run_zephyr:main
