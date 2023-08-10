@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: zones
+Version: 0.0.2
+Summary: AI powered trading software for MetaTrader
+Home-page: https://github.com/nguemechieu/zones
+Author: Noel M Nguemechieu
+Author-email: nguemechieu@live.com
+License: License :: MIT License
+Keywords: run,open,trade
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Financial and Insurance Industry
+Requires-Python: >=3.11
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+License-File: LICENSE.md
