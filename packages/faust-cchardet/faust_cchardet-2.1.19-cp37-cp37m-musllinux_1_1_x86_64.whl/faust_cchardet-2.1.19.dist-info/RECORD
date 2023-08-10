@@ -1,0 +1,11 @@
+cchardet/version.py,sha256=gS9ajAERrD7FHqyjzRl43xf8vuClviXGnaCab-WWPI4,23
+cchardet/_cchardet.cpython-37m-x86_64-linux-gnu.so,sha256=eou0qZYK_UWYG7PnaghoW_hqFl3Ise760Ss15PCUF48,901761
+cchardet/__init__.py,sha256=6a7mBjZQL553qcSRwQkzdux4Wrxuv3_Aw0SEe_sP8wc,1161
+faust_cchardet-2.1.19.dist-info/top_level.txt,sha256=Khgls4j_ipUgHqU5JjsYDtlYEsM7uP3jV8o1ZlZPSfA,9
+faust_cchardet-2.1.19.dist-info/RECORD,,
+faust_cchardet-2.1.19.dist-info/METADATA,sha256=utd1T9xxmncopIgE_T5YmuesxVV9RYBtXBFwxG_2f8s,8308
+faust_cchardet-2.1.19.dist-info/COPYING,sha256=EHopzN0td4qi31Ri-F3d-gmQWavSLgZOB-wsybr8N80,70517
+faust_cchardet-2.1.19.dist-info/WHEEL,sha256=sPMJwI20w7hF4jXq0Sz_IY8eopfB-TyvsX5almWqVsU,112
+faust_cchardet.libs/libgcc_s-a04fdf82.so.1,sha256=YxqJNaesQMhDswHEQpXsiLnVvMBBbYO6KYMDZFPWKSM,81257
+faust_cchardet.libs/libstdc++-a9383cce.so.6.0.28,sha256=Wy9UCdwS1rwI9GU5e7qE61S0AkRqqwti1q_adWSs-Rk,2447393
+faust_cchardet-2.1.19.data/scripts/cchardetect,sha256=ZQNvs4FsZh88VbRkDHnNIjtgZNsCQLIn_NKHGfGUweU,1281
