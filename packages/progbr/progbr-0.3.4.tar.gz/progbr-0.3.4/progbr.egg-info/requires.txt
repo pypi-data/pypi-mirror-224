@@ -1,0 +1,8 @@
+scipy
+numpy
+sympy
+mpmath
+matplotlib
+cryptography
+pyotp
+opencv-python
