@@ -1,0 +1,17 @@
+txtadv/BUILD_DESC.md,sha256=2xfhL-vtk9-pxliEo0uAsMAhQKXSc83T6LR5FYnPCk0,290
+txtadv/__init__.py,sha256=9hG1es-1KcfBm225tsaQ0g4zYuogLpAtYwsyx-h-uus,12699
+txtadv/color/__init__.py,sha256=wu4c5Be-ynWQ078p56wpzH1N4ys1kIg9S_FWQeHWN5Y,854
+txtadv/commands/__init__.py,sha256=PSKONPzLjd2g-W97X4ICEUjy6G-x8LAMJ-Yi2rsYAHA,10314
+txtadv/file/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+txtadv/file/load.py,sha256=cPbblBaTBhcOuPpRT4-9ZTqnC4HVFbaVI9DhWMDKrm8,2444
+txtadv/file/save.py,sha256=7ES5D0Ivezf557vHHaH_GW7bEpgIvBcvxZMbOlUUFxg,1935
+txtadv/location/__init__.py,sha256=z2wGoRwpZvM9DXOa6p7BVwLhyqqgNrxre5Gf5qz_SXQ,1199
+txtadv/messaging/__init__.py,sha256=CpSJDu2yLRjWScXtroO9OQh3lPVfubVNHnUXzGeUNWg,2353
+txtadv/saves/test.tasave,sha256=meAL1LG3QXjyWgraA-qdLvmcvcGQvJ7jRdKCOFNI0Bg,352
+txtadv/wip/multiplayer/__init__.py,sha256=GCte7PYE_KFnhtbYpwJ69mW8COEcdfiHB-7mixNqb4g,136
+txtadv/wip/multiplayer/recieve.py,sha256=dCMKMzK19hvM4CD38CZWKzS0W6YYMEP9i2nFxyt81Sk,754
+txtadv/wip/multiplayer/send.py,sha256=-8BfSFu3WYQXnJ3rUEkuZXOWLhOwODlc_CbxXfY4HH4,365
+txtadv-1.0b3.dist-info/LICENSE,sha256=m37mkNcV7ubcwT6jUuDEfpiRtzpeJm5gBtMyIQfiFnQ,1068
+txtadv-1.0b3.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+txtadv-1.0b3.dist-info/METADATA,sha256=OV9Ju8hn0g5yoVBQx87K6vSn6VcAFnncIcT0mNxO1gU,1248
+txtadv-1.0b3.dist-info/RECORD,,
