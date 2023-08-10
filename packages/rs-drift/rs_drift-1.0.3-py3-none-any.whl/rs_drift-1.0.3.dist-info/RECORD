@@ -1,0 +1,8 @@
+rs_drift/__init__.py,sha256=uxqQ_QxCOzGEytdR5YHZYL6g0U3p14Fx0Vgo81MHea8,22
+rs_drift/drift.py,sha256=3Bob2QI4uMIelXRR5Pp-thP6ZBsKVZXuW9YDUWM6jgM,8700
+rs_drift/.ipynb_checkpoints/drift-checkpoint.py,sha256=NxSQhJfGMsWZ9d3YRWEfZwZMzB9pBLaH_nhwrX2xVb0,8687
+rs_drift/data/test_data.csv,sha256=ulais5FXWx8WTAbkCvlDBG3uOKZbnwsGoplhhGs5CZs,360075
+rs_drift-1.0.3.dist-info/METADATA,sha256=WLbajX9cS9h_NjCgFmzmFXOEBKIzwRgaxWxL8JoELgo,1238
+rs_drift-1.0.3.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+rs_drift-1.0.3.dist-info/licenses/LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+rs_drift-1.0.3.dist-info/RECORD,,
