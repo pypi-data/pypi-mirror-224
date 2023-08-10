@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://idf.schemas.itn.pt" xmlns:idf="http:/idf.schemas.itn.pt" xmlns:ndf="http:/ndf.schemas.itn.pt" xsi:schemaLocation="http:/idf.schemas.itn.pt idfv1.xsd http://ndf.schemas.itn.pt ndfv1.xsd">
+	<users>
+		<user></user>
+	</users>
+	<notes>
+		
+	<note></note></notes>
+	<attributes>
+		<idfversion></idfversion>
+		<filename/>
+		<createtime></createtime>
+	</attributes>
+	<sample>
+		<users>
+			<user></user>
+		</users>
+		<notes>
+			<note/>
+		</notes>
+		<description></description>
+		<structure></structure>
+		<spectra>
+			<spectrum>
+				<notes>
+					<note></note>
+					<note>                </note>
+					<note>                </note>
+					<note></note>
+				</notes>
+				<beam>
+					<beamparticle></beamparticle>
+					<beamZ/>
+					<beammass units="amu"/>
+					<beamenergy units="keV"></beamenergy>
+					<beamfluence units="uC"/>
+				<beamenergyspread mode="FWHM" units="keV"></beamenergyspread></beam>
+				<geometry>
+					<geometrytype></geometrytype>
+					<incidenceangle units="degree"></incidenceangle>
+					<scatteringangle units="degree"></scatteringangle>
+					<exitangle units="degree"/>
+				</geometry>
+				<detection>
+					<detector>
+						<detectortype/>
+						<solidangle units="msr"></solidangle>
+					</detector>
+				</detection>
+				<calibrations>
+					<energycalibrations>
+						<energycalibration>
+							<calibrationmode>energy</calibrationmode>
+							<calibrationparameters>
+								
+								
+							<calibrationparameter units="keV"></calibrationparameter><calibrationparameter units="keV/channel"></calibrationparameter></calibrationparameters>
+						</energycalibration>
+					</energycalibrations>
+				</calibrations>
+				<reactions>
+					<technique/>
+				</reactions>
+				<data>
+					<simpledata>
+						<xaxis>
+							<axisname>energy</axisname>
+							<axisunit>channel</axisunit>
+						</xaxis>
+						<yaxis>
+							<axisname>yield</axisname>
+							<axisunit>counts</axisunit>
+						</yaxis>
+						<x>
+						</x>
+						<y>
+						</y>
+					</simpledata>
+				</data>
+			</spectrum>
+		</spectra>
+	</sample>
+</idf>
