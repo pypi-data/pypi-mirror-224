@@ -1,0 +1,21 @@
+[project]
+name = "merql"
+version = "0.0.2"
+description = "Datastore with a simple query language"
+authors = [
+    { name = "Rajiv Abraham", email = "rajiv.abraham@gmail.com" },
+]
+dependencies = []
+requires-python = ">=3.10"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool]
