@@ -1,0 +1,3 @@
+[console_scripts]
+hafez=poem_fa.main:app
+
