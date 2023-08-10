@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pyworkbook
+Version: 0.0.5
+Summary: Erweiterung für Jupyter Notebooks für den Informatik Unterricht
+Home-page: UNKNOWN
+Author: Stefan Hickl
+Author-email: <kontakt@stefanhickl.de>
+License: MIT
+Description: Erweiterung für Jupyter Notebooks für den Informatik Unterricht
+Keywords: python,jupyter,school
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Provides-Extra: dev
