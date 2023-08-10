@@ -1,0 +1,5 @@
+setup.py
+myhlcb.egg-info/PKG-INFO
+myhlcb.egg-info/SOURCES.txt
+myhlcb.egg-info/dependency_links.txt
+myhlcb.egg-info/top_level.txt
