@@ -1,0 +1,13 @@
+rstfmt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rstfmt/__main__.py,sha256=vXGQP1itE4stIw87_HB6D8H8zGpcZJoYauQxPqjycsI,3138
+rstfmt/_version.py,sha256=71Tw8stu19MsLPyF1q_DF5mb_BefzOTPYggLlSLvCms,23
+rstfmt/debug.py,sha256=dvZlPwQE82I1oGgqYmDkWvTvD7V4qW94MC9Ks2xi5Ng,3302
+rstfmt/rst_extras.py,sha256=IwIJaqEs1wTqzePLswKoaOw50aC3ymHXgRngT2NGfRQ,6455
+rstfmt/rstfmt.py,sha256=MMd_ztKjn9q4EKUDjQf_DrrUM7Q5mfbFg7A5n6xK1hs,27980
+rstfmt/server.py,sha256=FHLS9F4c-IBqUbrw6Z-xo0fRdtwo3Bfh1yxD1pbAB8U,1818
+rstfmt-0.0.14.dist-info/LICENSE,sha256=RmY6PHaTPfdyXYW6dIiFwJY_7imrVx4LpG9vZoDKBzs,1049
+rstfmt-0.0.14.dist-info/METADATA,sha256=nxElja0yFhj9Kjo7m-JjelqaRFfgb75T1LI-y50fD5U,4115
+rstfmt-0.0.14.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+rstfmt-0.0.14.dist-info/entry_points.txt,sha256=WZ6I882_QROFjPA55MhylXeeYiCyD01GEbgZ4M2aP6g,81
+rstfmt-0.0.14.dist-info/top_level.txt,sha256=OE-OP8wqyCdhK1fp8kvuIxVrEtrIlWtnrWLJz5pq6Uw,7
+rstfmt-0.0.14.dist-info/RECORD,,
