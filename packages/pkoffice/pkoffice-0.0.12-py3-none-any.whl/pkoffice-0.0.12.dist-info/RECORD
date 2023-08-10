@@ -1,0 +1,8 @@
+pkoffice/__init__.py,sha256=TmVnqUtULvEGMIqhWSmNF_1hCfOFTpIEHMBs_SpgYqc,54
+pkoffice/file.py,sha256=b89Jr0GRvsIWgMXuBioxFaDTzVmfrXQWh30d1_Mss48,1436
+pkoffice/outlook.py,sha256=8XtQCjhjThAjJKaEfVQ9WKqtlL2WGrZuOpmcfblh1A0,1482
+pkoffice/sql.py,sha256=q4CYrxHmxzWLF17PmDi7jdlcP_HW7iO2ReuYqyOQF54,7397
+pkoffice-0.0.12.dist-info/METADATA,sha256=0s1-7-SbLl_gA_hGO4UwNJNA0ewl3GWe0IL5fyJ09vI,589
+pkoffice-0.0.12.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pkoffice-0.0.12.dist-info/top_level.txt,sha256=dqIPU4NMvqAHxz0NaFjCZRHHTfjCdWR2GUc2q9QfISQ,9
+pkoffice-0.0.12.dist-info/RECORD,,
