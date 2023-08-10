@@ -1,0 +1,8 @@
+kittychat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kittychat/errors.py,sha256=ht0HC31k8WmfSHBt6Vuz0vtTf4JpM0wFIbSBm2EQeU8,694
+kittychat/msg_dropping/__init__.py,sha256=IOyr7-xPeJypAveTDCQQoFnsT6nS3V-VQE58CYqUXbg,40
+kittychat/msg_dropping/msg_dropper.py,sha256=39dp5SVXY3iywkD23ziHoayh2zegdnk_Acj_6t9EAvQ,2044
+kittychat-0.1.0.dist-info/METADATA,sha256=hUURgoEqMRDJdUDZxlnJY5j9cVhQ0U0oNxJpzJa3xIk,533
+kittychat-0.1.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+kittychat-0.1.0.dist-info/top_level.txt,sha256=nLU40xYHHS5uPMJs8LI004s0zroV3UqI6R50Kz2RZME,10
+kittychat-0.1.0.dist-info/RECORD,,
