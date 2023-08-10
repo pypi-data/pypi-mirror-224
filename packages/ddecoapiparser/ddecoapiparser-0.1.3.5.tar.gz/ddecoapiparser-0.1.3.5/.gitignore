@@ -1,0 +1,5 @@
+pyproject.toml
+dist/ddecoapiparser*
+.gitignore
+.DS_Store
+test.py
