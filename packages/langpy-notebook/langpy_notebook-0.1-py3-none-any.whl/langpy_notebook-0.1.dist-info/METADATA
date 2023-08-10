@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: langpy-notebook
+Version: 0.1
+Summary: Chat in Python on IPython notebook.
+Home-page: https://github.com/luohongyin/langpy-notebook
+Author: Hongyin Luo
+Author-email: hyluo@mit.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: IPython
+Requires-Dist: notebook (==6.5.2)
+
+# Lang.py
+
+ChatGPT enourages people to **give up thinking**.
+
+Lang.py help you read and manage AI's **code of thoughts**.
