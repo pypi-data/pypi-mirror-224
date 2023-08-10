@@ -1,0 +1,15 @@
+quickscope/__init__.py,sha256=0WWCey1DepJ3R7S1HvfKL_3xUrI7Ank7ghrjv8nOFp8,62
+quickscope/__main__.py,sha256=RqGxJ3lBVMYTmAXYPks3lufZ8GdA3yZcK-XzNySAscE,34
+quickscope/common.py,sha256=Xbvl99pprg1USFFJGzwegqvBAHW9blKGVLBlB1_ASg0,3195
+quickscope/shooter.py,sha256=VQsDBjt1KSxHCjeNbXlFhEFYblmYDMprCE69mP2wR7c,28486
+quickscope/statuspage.py,sha256=IYW5YdXUvm2OovXw9gt-H5e10rzOAXfysI7uH34WIv8,13465
+quickscope/tracker.py,sha256=tJ4LJ6_EZV5G-0hwXarElbX0861qYXeTnioxMXzGo0w,15970
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/script_basic.py,sha256=U7D1c_L6ztANWHSHLEwUSCXRDaR_C8GBj4zcjpRkiZQ,151
+tests/test.py,sha256=mNTxMMm5Nl_mQlU0P1kfs9ny2Al0exEBmmf0WKDwSBM,3091
+tests/test_ignore.py,sha256=rjoRuiPu9ARBtcUZ_ia7ho9jBtA7osC4KVlXou9JToI,492
+quickscope-0.1.7.dist-info/METADATA,sha256=l1dWZ0qIiuTx77jassvcRpg4XpWnTfIsyV-Ri6ATZhw,2325
+quickscope-0.1.7.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+quickscope-0.1.7.dist-info/entry_points.txt,sha256=6l4e_CPCz71ya696VaXbTohA59oy6keg1ga5A20vLV4,55
+quickscope-0.1.7.dist-info/top_level.txt,sha256=EfRPMJRFyvUpFcgGkOnlUFhUC01yjSFqv9IxA_ixkZI,17
+quickscope-0.1.7.dist-info/RECORD,,
