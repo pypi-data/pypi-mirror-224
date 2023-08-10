@@ -1,0 +1,10 @@
+fishhook/__init__.py,sha256=VztR9WxB8EVWfP5-qmyy04t1Af83a6JAX0lYoIlMDkg,601
+fishhook/asm.py,sha256=RThCTCXOLRg4xoM4SqMpNyxW7xKemkltvvcV56cc0KY,1702
+fishhook/fishhook.py,sha256=_NLcFnab89LRlXCxJwhZQHANm78flq367rYXPEFW_uw,16540
+fishhook/main.py,sha256=fa1l9JVrrCKR_Fd1w3hDcBbk5hC2JO8UYrw5FlMseWc,14013
+fishhook/tests.py,sha256=lFh8zMNRCvY6pegCJbDB0xPmIx3CNFcXQlK5_CfM0_Q,3609
+fishhook-0.2.9.dist-info/LICENSE,sha256=xDEnrt0zq8OebtXlY_Np-CAziOC61x1Oev5dHK9HSQ0,1065
+fishhook-0.2.9.dist-info/METADATA,sha256=Z64VhKZHsRKwShjAH3L88IVXSfb-x4bTyxCttxHtb9I,1653
+fishhook-0.2.9.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+fishhook-0.2.9.dist-info/top_level.txt,sha256=jX9Vsp2ySGajMWUrF0ViiQKjMUVZBqUEQGQKQT6iK6g,9
+fishhook-0.2.9.dist-info/RECORD,,
