@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pyDocuProcess
+Version: 0.0.1
+Summary: Python library to extract the information from documents
+Author: Pathrudu Chintakayala
+Keywords: pdf extraction python,invoice processing,data extraction
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11.3
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+This Package is developed to process the semi structured documents by separating digital and scanned documents.
