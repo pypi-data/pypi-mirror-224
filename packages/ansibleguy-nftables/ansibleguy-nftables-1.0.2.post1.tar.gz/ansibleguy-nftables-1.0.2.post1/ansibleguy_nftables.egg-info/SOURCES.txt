@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+nftables.py
+pyproject.toml
+schema.json
+setup.py
+ansibleguy_nftables.egg-info/PKG-INFO
+ansibleguy_nftables.egg-info/SOURCES.txt
+ansibleguy_nftables.egg-info/dependency_links.txt
+ansibleguy_nftables.egg-info/top_level.txt
