@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: cnextb
+Version: 1.0.4
+Summary: test board developped by CNEXLABS
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+
+INSTALLATION
+    - Before install cnextb, install pyserial:
+            pip install pyserial
+     	or
+     		python -m pip install pyserial
+
+	- First time installs:
+     		pip install cnextb
+     	or
+     		python -m pip install cnextb
+
+	- Specific version:
+		    pip install cnextb==version
+	    or
+		    python -m pip install cnextb==version
+
