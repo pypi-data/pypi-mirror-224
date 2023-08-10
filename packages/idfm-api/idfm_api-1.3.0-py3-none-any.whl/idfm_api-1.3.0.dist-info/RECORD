@@ -1,0 +1,10 @@
+idfm_api/__init__.py,sha256=27AtlnXNbYQE67gOXr6xVPIpoa9IsOhETD6OJUtraEw,10992
+idfm_api/attribution.py,sha256=OL0cl7c6pFUBbrOZ3DuskVJYeAENc5nJoHNjVMOKPSE,889
+idfm_api/dataset.py,sha256=BYB2EyQ7w5U6x89mb8H4PoO763ZB-Hj-apaGBi7MNak,5761
+idfm_api/models.py,sha256=hTJKvHv09fzD8OvL46KEx4qo5_b_3chs_6GxP0vCI40,8490
+idfm_api/utils.py,sha256=Xmyb6e44hvNnEv_dg2v_KS25zoxExp7R6J952G57-JY,816
+idfm_api-1.3.0.dist-info/LICENCE,sha256=n488yBRHwbT26fXg0SxnWhb3ZfJizrE8Ciq_6J-A2nY,1065
+idfm_api-1.3.0.dist-info/METADATA,sha256=OXhIPbxj9BwZgEqS2-v3MNRNbCFV4MhhtCSzOfCN6x8,1091
+idfm_api-1.3.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+idfm_api-1.3.0.dist-info/top_level.txt,sha256=U5WFtilDlWRsCKJqk3XCynDvLYhsTmnpfsbSGE9eh-g,9
+idfm_api-1.3.0.dist-info/RECORD,,
