@@ -1,0 +1,5 @@
+numpy
+opencv-python
+imread-from-url
+requests
+mapbox-vector-tile
