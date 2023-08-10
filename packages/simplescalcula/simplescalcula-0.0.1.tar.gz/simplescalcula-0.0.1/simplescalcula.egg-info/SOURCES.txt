@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+simplescalcula/__init__.py
+simplescalcula/calcula.py
+simplescalcula.egg-info/PKG-INFO
+simplescalcula.egg-info/SOURCES.txt
+simplescalcula.egg-info/dependency_links.txt
+simplescalcula.egg-info/top_level.txt
