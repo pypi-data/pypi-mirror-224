@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.cfg
+src/a20.egg-info/PKG-INFO
+src/a20.egg-info/SOURCES.txt
+src/a20.egg-info/dependency_links.txt
+src/a20.egg-info/top_level.txt
