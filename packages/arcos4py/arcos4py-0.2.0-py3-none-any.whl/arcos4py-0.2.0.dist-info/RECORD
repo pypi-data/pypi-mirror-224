@@ -1,0 +1,17 @@
+arcos4py/__init__.py,sha256=SHnAVUb1NKvyXli03KvISSY8nUmQ_pu9dlxlgDyuZXU,320
+arcos4py/_arcos4py.py,sha256=TT3CtNR4haqHb98vdVGw4oMDJOgHJkdOeV_Yh_l-E3g,9970
+arcos4py/plotting/__init__.py,sha256=UuFczAxrByUHMAGjHAezCj-tQCZ5xvq4oIB8EhldVAQ,302
+arcos4py/plotting/_plotting.py,sha256=Vwo1XA4S72EdiFglurbx7kdFEKlZ4P4TGY19e3uYZGU,14276
+arcos4py/tools/__init__.py,sha256=Y1P0WXV8OHiYeARVV-3MCw6uQq4TRIJU2L1nq1Y03wk,614
+arcos4py/tools/_binarize_detrend.py,sha256=3JNTmveT67qoOZKvH-sbmU2G7Zky4YwfHVIcgwNVgS0,11381
+arcos4py/tools/_cleandata.py,sha256=KCirw50Ab_lKXcweA3YqV5JZLiOp9-I69ilmyag2c_g,6270
+arcos4py/tools/_detect_events.py,sha256=tozqr85d05RseDwAXroPhnsQUv8BurhNV3qBovHk_uw,60790
+arcos4py/tools/_filter_events.py,sha256=FopZGxcK-72Q_oMZRvRWdO5dVv11EcEYnnx_4P5dZ3o,3574
+arcos4py/tools/_stats.py,sha256=uo4-hVQdkqi3PfZvOXLP5rmj3X7E9jsJjGTOvg4Cxzg,5640
+arcos4py/validation/__init__.py,sha256=jOVBmeLIUetxLJ6fUc9Nwqh_sRgCEiT_mYnP4TYspcU,429
+arcos4py/validation/_bootstrapping.py,sha256=97k5FSlvfMkHT2_kr8O4tFqREpcvveTQtPEz84RPPR4,16175
+arcos4py/validation/_resampling.py,sha256=3cp39lhg6zacB7Tmhq4LNgEQmvijh4CSz01Yntp-dXY,18696
+arcos4py-0.2.0.dist-info/LICENSE,sha256=lmZK5u9YoUoFTzw69mJ8ZtuJkWIbvKNuwEmy6fjWN64,1074
+arcos4py-0.2.0.dist-info/METADATA,sha256=gDOsH6xKJqfGHWN4FPHV911EbuFkcS5EQuDOjJmeYo8,5416
+arcos4py-0.2.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+arcos4py-0.2.0.dist-info/RECORD,,
