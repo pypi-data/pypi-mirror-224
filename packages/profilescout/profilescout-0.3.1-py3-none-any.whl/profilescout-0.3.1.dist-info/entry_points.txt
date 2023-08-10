@@ -1,0 +1,2 @@
+[console_scripts]
+profilescout = profilescout.cli:cli
