@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "py-roca"
+version = "0.1.0"
+description = ""
+authors = ["maravenag <Matias.Aravena@bain.com>"]
+readme = "README.md"
+packages = [{include = "py_roca"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
