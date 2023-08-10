@@ -1,0 +1,9 @@
+npc_session/__init__.py,sha256=eIV24wJLXffmoqApsmNyxz7wA3tMpyGzoe8mUdQIqf8,136
+npc_session/jobs.py,sha256=P_0dQi00QyV-hXGOhp1or1yYLUJHLzBUfgIsiv8KCCA,4032
+npc_session/parsing.py,sha256=Kiuxh46CHOob0XKKotDX6I5Kpb0qJ-xQzicznWfskmY,4770
+npc_session/py.typed,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+npc_session/records.py,sha256=GAxYKkLdwzsQFO8s2wUaoKKrXXMZtreLHO3w8vwRPh0,14664
+npc_session-0.1.5.dist-info/METADATA,sha256=PrpPy2zRUZKEiPK8so5QNPBwi7jQ5kB-ni_LUgBMjek,1850
+npc_session-0.1.5.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+npc_session-0.1.5.dist-info/top_level.txt,sha256=5c90hEYWgiLWwGyT_pRl1etN7s5dUFztRlL3MFwQvuU,12
+npc_session-0.1.5.dist-info/RECORD,,
