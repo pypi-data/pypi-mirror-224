@@ -1,0 +1,3 @@
+[console_scripts]
+pez-servermonitor=src.main:main
+
