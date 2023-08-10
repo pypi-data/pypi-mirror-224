@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: battlebit-api
+Version: 0.0.1
+Summary: An abstraction layer for the BattleBit Public API
+Author-email: David Rodenkirchen <davidr.develop@gmail.com>
+Project-URL: Homepage, https://git.jdrodenkirchen.de/drodenkirchen/battlebit-api
+Project-URL: Bug Tracker, https://git.jdrodenkirchen.de/drodenkirchen
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Games/Entertainment :: First Person Shooters
+Classifier: Typing :: Typed
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# BattleBit API
+_An abstraction layer for the BattleBit Public API that delivers a convenient data model_
+
+
+```python
+>>> from battlebit_api.BattleBitApiClient import BattleBitApiClient
+>>> battle_bit_api_client = BattleBitApiClient()
+>>> battle_bit_api_client.get_server_list().servers
+[
+    Server(
+        name='172-Z-00',
+        map=Map(name='Isle', size='Medium'),
+        game_mode=<GameMode.DOMINATION: 1>,
+        region=<Region.JAPAN_CENTRAL: 4>,
+        current_players=64,
+        max_players=64,
+        players_in_queue=0,
+        hz=60,
+        is_day_mode=True,
+        is_official=True,
+        has_password=False,
+        anti_cheat=<AntiCheatProvider.EAC: 1>,
+        server_version='Production 2.0.2'
+    ), ...
+]
+```
+
+## Quick Guide
+
+At the top level of each interaction with the BattleBit Public API is the `BattleBitApiClient`. After creating an instance of this class, all available API methods can be called from there.
+
+See class documentation for more information.
+
+## Class documentation
+
+### BattleBitApiClient
+
+#### `BattleBitApiClient(root_endpoint: str)`
+
+The initializer for `BattleBitApiClient` takes the optional argument `root_endpoint: str` which already points to the BattleBut Public API by default.
+
+If the domain of the API was to change, use this argument to adapt.
+
+#### `get_server_list(with_update: bool)`
+
+The method `get_server_list` returns an object of type `ServerList`. Use the optional argument `with_update` to force a new request to the API.
+
+You can use the `ServerList`s `last_updated` property to implement your own update cycle. `BattleBitApiClient` does not provide automatic refreshes. By default it will only refresh the `ServerList` if it is empty or explicitly told to do so.
+
+
+### ServerList
+
+#### `get_servers_by_map(map_: Map)`
+
+Returns all `Server`s that run the map `map_`. Does not differentiate between map sizes.
+
+#### `get_servers_by_region(region: Region)`
+
+Returns all `Server`s that run in the region `region`.
+
+#### `get_servers_by_size(size: MapSize)`
+
+Returns all `Server`s that have a map size of `size`. 
+
+#### `search_for_server_by_name(search_str: str)`
+
+Returns all `Server`s in which the string `search_str` appears as a substring in the `Server`s name. This is case sensitive.
+
+#### `get_servers_sorted_by_current_players(many_to_few: bool = True)`
+
+Returns all `Server`s, sorted by the amount of players currently on it. Use `many_to_few` to sort either ascending or descending.
+
+### Data Classes
+
+For information about the classes that hold the server data and provide no other functionality, refer to the source code or use your IDE features.
+
+## Regarding completeness
+
+As of the time of this writing, the BattleBit Public API is still heavily under development. This package aims at being resilient towards changes, but can not guarantee that it will always be up to date with the API.
