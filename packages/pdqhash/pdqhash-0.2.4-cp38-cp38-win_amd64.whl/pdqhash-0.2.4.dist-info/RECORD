@@ -1,0 +1,11 @@
+pdqhash/__init__.py,sha256=EKuDUOtsMvAQOGkvSK3y07q-uYOuVR5brSApyGL74ac,155
+pdqhash/_version.py,sha256=07C21ni5Bwa-5a8tTv7Ys8hdKKuGpKHqAkBdICAgJTQ,518
+pdqhash/bindings.cp38-win_amd64.pyd,sha256=4HpTZ_XsGzxGrfX8Bxwdjsz0g4bFw1-F0fcHxhrKhJQ,114688
+pdqhash/bindings.pyx,sha256=3IxrFj6CmNjW91IjVnaqVXiQ3e9mg2giD-AtgPEuu4U,5766
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_compute.py,sha256=OAgsSQDwyxbR91qpMu8aKjJruVyZCfBFcFHxuyz3iMk,11814
+pdqhash-0.2.4.dist-info/LICENSE,sha256=IRrFMKT0ip_yRd4OUY-hKPGA2DI5dXSuDYaP8MREL90,1075
+pdqhash-0.2.4.dist-info/METADATA,sha256=T8H7b2YlcxEIPT_moZlhc05cvrk8xqGw01MtcvOZm-E,2077
+pdqhash-0.2.4.dist-info/WHEEL,sha256=ubKCG5XSDI8ZG5iAwgsAU4yUktRq9BG9Pse4izScbq0,100
+pdqhash-0.2.4.dist-info/top_level.txt,sha256=rCYUCk2ZCYdxQCdgCsl74af9_7VLanp7iOdoX4ZHouw,14
+pdqhash-0.2.4.dist-info/RECORD,,
