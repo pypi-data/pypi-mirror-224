@@ -1,0 +1,11 @@
+.gitignore
+
+src/SU2xSU2/__pycache__/
+
+# file for quick manual tests
+src/SU2xSU2/mytests.py
+
+# directory of chains stored during production runs
+src/SU2xSU2/data/corfuncs/rawchains/
+src/SU2xSU2/data/slowdown/rawchains/
+src/SU2xSU2/my_tests.py
