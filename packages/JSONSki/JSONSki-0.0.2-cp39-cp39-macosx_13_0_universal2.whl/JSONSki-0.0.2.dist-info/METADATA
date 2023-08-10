@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: JSONSki
+Version: 0.0.2
+Summary: A test project using pybind11 and CMake
+Home-page: UNKNOWN
+Author: Dean Moldovan
+Author-email: dean0x7d@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+License-File: LICENSE
+Provides-Extra: test
+Requires-Dist: pytest (>=6.0) ; extra == 'test'
+
+UNKNOWN
+
