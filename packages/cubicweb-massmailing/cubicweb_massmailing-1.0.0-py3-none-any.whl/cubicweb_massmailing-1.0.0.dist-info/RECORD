@@ -1,0 +1,13 @@
+cubicweb_massmailing/__init__.py,sha256=vN5hjEQQjIL2JKmqwGANLo9sLJBUFXRyzWjd14wBSss,118
+cubicweb_massmailing/__pkginfo__.py,sha256=R7ZvhzPCAWzzqIc2z6C4sy9vtrL_lkYOuwf4BRkjxHo,744
+cubicweb_massmailing/views.py,sha256=U-Ays5qb1XYhnE2eNqclCX2ZPYtSviR_Kqh3TVXYW6Y,7703
+cubicweb_massmailing/data/cubicweb.mailform.css,sha256=okRXIHscd1Fez-23bLPBtmJuDjTYXGILyCSdIziboG0,1200
+cubicweb_massmailing/i18n/en.po,sha256=PczXiFFfvJJV0QriryPaFF2YjD8LhPRe3XAGcF-kLP0,203
+cubicweb_massmailing/i18n/es.po,sha256=PczXiFFfvJJV0QriryPaFF2YjD8LhPRe3XAGcF-kLP0,203
+cubicweb_massmailing/i18n/fr.po,sha256=PczXiFFfvJJV0QriryPaFF2YjD8LhPRe3XAGcF-kLP0,203
+cubicweb_massmailing/migration/postcreate.py,sha256=JDttttCddmxWRSi_CBWBOCyB3S93YAfVFVB334fg_-g,1094
+cubicweb_massmailing-1.0.0.dist-info/METADATA,sha256=aqfAQWUDdDICHy48jPitqHLHF3BH-Xuc_K0yVEyJctI,634
+cubicweb_massmailing-1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+cubicweb_massmailing-1.0.0.dist-info/entry_points.txt,sha256=ALfExYVsXneQ-0uUBPhWVTrH_DKYXxkhoJfVgZHckwU,52
+cubicweb_massmailing-1.0.0.dist-info/top_level.txt,sha256=SnW7ioLN-vSqvC3FbKwIDR3vC5Dh1o7ENVf3kLvlFqY,21
+cubicweb_massmailing-1.0.0.dist-info/RECORD,,
