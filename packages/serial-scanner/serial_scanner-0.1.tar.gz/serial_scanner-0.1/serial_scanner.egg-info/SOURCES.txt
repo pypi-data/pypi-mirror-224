@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+serial_scanner.egg-info/PKG-INFO
+serial_scanner.egg-info/SOURCES.txt
+serial_scanner.egg-info/dependency_links.txt
+serial_scanner.egg-info/requires.txt
+serial_scanner.egg-info/top_level.txt

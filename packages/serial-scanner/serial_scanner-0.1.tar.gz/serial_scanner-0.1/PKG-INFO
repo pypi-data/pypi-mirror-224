@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: serial_scanner
+Version: 0.1
+Summary: Serial port device scanner
+Home-page: https://github.com/jttaufa/serialport_scanner
+Author: Jonathon Taufatofua
+Author-email: j.taufatofua@uq.edu.au
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
