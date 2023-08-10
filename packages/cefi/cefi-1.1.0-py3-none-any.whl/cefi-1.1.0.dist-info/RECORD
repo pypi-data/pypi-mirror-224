@@ -1,0 +1,8 @@
+cefi/__init__.py,sha256=J798nRXkFfHKCvhn-Z7QRGXSdkw9KuynJLLOR3ddB0g,90
+cefi/config.py,sha256=WkAO6KyNZNZgONl8XA4jeoZWRLs-L8JGU3v4VOb-ilE,418
+cefi/default_settings.toml,sha256=ZXBOiRSGXqcI0MwU1rrQzdFyq6byJGNUGTgN51ICgEs,1050
+cefi/main.py,sha256=N6GPhem_M2U8xQCYifpbPPQKpErxgf0IRsCBi43sjYA,5020
+cefi-1.1.0.dist-info/LICENSE,sha256=Ym-WJCFdWfn0XKn-qLQI-u5nxBJX6F2kl-hPeRJp1fI,1064
+cefi-1.1.0.dist-info/METADATA,sha256=DRdfvVO34lMfRfAHfKVAiuOERmlDqdVi_lVrS_yTnBw,2886
+cefi-1.1.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+cefi-1.1.0.dist-info/RECORD,,
