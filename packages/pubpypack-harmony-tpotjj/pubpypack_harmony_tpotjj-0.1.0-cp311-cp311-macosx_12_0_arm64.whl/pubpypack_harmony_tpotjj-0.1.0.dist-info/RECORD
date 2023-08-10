@@ -1,0 +1,11 @@
+second_python_package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+second_python_package/harmonic_mean.pyi,sha256=iGxBK3vmuu_1R9LqChIDcECGXDc0sRqIOXrWc4sMU8M,51
+second_python_package/harmonic_mean.pyx,sha256=WgR3rAIrggdSf4gePIGtd7cLgs4rbicM_VDx-ZMc4yo,90
+second_python_package/harmony.py,sha256=AvWx1dveEDj5K6E4KyngPJii3JSc8AuaPytGMsUeNw0,640
+second_python_package/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+second_python_package/harmonic_mean.cpython-310-darwin.so,sha256=ydOAr6RBvHB_77n44Vp5xNI5aHFtbheg9OVOIQw0uOg,85872
+second_python_package/harmonic_mean.c,sha256=xQ0dVFAw7zU1GgnXh7ta4NkfAbkUcb3sYb_-vIlHFQ4,315241
+pubpypack_harmony_tpotjj-0.1.0.dist-info/WHEEL,sha256=epL9fF7hBlYSGNX5uNf_UGr4KcmCAGwBIXIevSmDWtM,106
+pubpypack_harmony_tpotjj-0.1.0.dist-info/entry_points.txt,sha256=DqRyr56gw1QQfQZFctIy3JeR2Spv3j4ATNBVnOepIiE,62
+pubpypack_harmony_tpotjj-0.1.0.dist-info/METADATA,sha256=qiNfsGcn9r0GrUytJZzEjyui0IPFsH2Dx_Ru9uXIQwE,478
+pubpypack_harmony_tpotjj-0.1.0.dist-info/RECORD,,
