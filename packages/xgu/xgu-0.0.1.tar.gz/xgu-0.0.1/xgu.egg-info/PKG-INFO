@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: xgu
+Version: 0.0.1
+Summary: Semi-Automatic Git Tool
+Home-page: https://github.com/JohnForbes/gitter
+Author: @JohnRForbes
+Author-email: john.robert.forbes@gmail.com
+License: MIT
+Description: 0.0.1
+Keywords: git
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
