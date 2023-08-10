@@ -1,0 +1,9 @@
+gpt-prompt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gpt-prompt/character/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gpt-prompt/character/terminal.py,sha256=UFUCeFp62WzwXlWgHMYk6wwILr39ro9h2Np7IWG6ij4,1136
+gpt-prompt/character/translator.py,sha256=a1olcpNGny9DXqjwScfuTB0JDyG5tUIJ3Sb_87KxmQg,1270
+gpt_prompt-0.0.1.dist-info/LICENSE,sha256=ivAziqK4P2KLO1YdbKDCc4IDSybNaVBK5CSGXAjo-HM,1066
+gpt_prompt-0.0.1.dist-info/METADATA,sha256=DJD7R3iRp84YhbnRaykI1czQo1kRNHYsSA96a4kQqK0,2491
+gpt_prompt-0.0.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+gpt_prompt-0.0.1.dist-info/top_level.txt,sha256=JZpSsOVmHElsIVtbIfQ557nuz9kNL1kAzWf3iAF20-g,11
+gpt_prompt-0.0.1.dist-info/RECORD,,
