@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: ddop2
+Version: 0.0.5
+Summary: Restructuring of ddop
+Home-page: https://github.com/opimwue/ddop2
+Author: kaiguender
+Author-email: kai.guender@yahoo.de
+License: Apache Software License 2.0
+Keywords: nbdev jupyter notebook python
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fastcore (>=1.5.29)
+Requires-Dist: numpy (>=1.18.2)
+Requires-Dist: scipy (>=1.4.1)
+Requires-Dist: pandas (>=1.1.4)
+Requires-Dist: statsmodels (>=0.11.1)
+Requires-Dist: scikit-learn (>=0.23.0)
+Requires-Dist: tensorflow (>=2.4.1)
+Requires-Dist: pulp (>=2.0)
+Requires-Dist: mpmath
+Provides-Extra: dev
+
+This file will be overwritten by `index.ipynb`
