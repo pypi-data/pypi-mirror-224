@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+spreadsheet/__init__.py
+spreadsheet/core.py
+spreadsheet_package.egg-info/PKG-INFO
+spreadsheet_package.egg-info/SOURCES.txt
+spreadsheet_package.egg-info/dependency_links.txt
+spreadsheet_package.egg-info/top_level.txt
+tests/__init__.py
+tests/test_core.py
