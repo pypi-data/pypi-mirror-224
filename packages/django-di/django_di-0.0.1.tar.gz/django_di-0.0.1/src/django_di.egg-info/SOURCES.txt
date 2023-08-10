@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/django_di/__init__.py
+src/django_di/context.py
+src/django_di.egg-info/PKG-INFO
+src/django_di.egg-info/SOURCES.txt
+src/django_di.egg-info/dependency_links.txt
+src/django_di.egg-info/top_level.txt
+tests/test_context.py

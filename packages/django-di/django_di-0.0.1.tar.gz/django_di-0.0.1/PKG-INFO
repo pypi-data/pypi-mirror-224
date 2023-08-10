@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: django_di
+Version: 0.0.1
+Summary: Django dependency injection inspired by ASP.NET
+Author-email: Joseph Riddle <joeriddles10@gmail.com>
+Project-URL: Homepage, https://github.com/joeriddles/django-di
+Project-URL: Bug Tracker, https://github.com/joeriddles/django-di/issues
+Classifier: Framework :: Django
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Django DI
+
+Django dependency injection inspired by ASP.NET 
+
+### Build
+
+```shell
+python3 -m pip install --upgrade build
+python3 -m build
+```
