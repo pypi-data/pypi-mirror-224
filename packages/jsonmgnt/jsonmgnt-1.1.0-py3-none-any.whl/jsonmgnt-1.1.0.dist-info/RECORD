@@ -1,0 +1,8 @@
+jsonmgnt/__init__.py,sha256=fCyVZTFGkSG2F4hKeooXpsl4PkCA_QztimCNVH7Q8_Q,67
+jsonmgnt/lexer.py,sha256=CC5s7aVZ41bLJyCU51TcW7nBFD9HjQ0uBDZoiI3-M1I,4913
+jsonmgnt/parser.py,sha256=DofBlld2N82RXqGCeH2tzIuhhtYVs2MQryZ4jpfAKjE,9775
+jsonmgnt-1.1.0.dist-info/LICENSE,sha256=DPqU0KSlOeuvq0zUQPhd_2gUWiRIPwCvwR9z56J1Oxk,1067
+jsonmgnt-1.1.0.dist-info/METADATA,sha256=Z4J8xlLekBWzpzrE-fy-uhKTxdiR4BBqODeNkXyFqDc,1802
+jsonmgnt-1.1.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+jsonmgnt-1.1.0.dist-info/top_level.txt,sha256=e03R0vRluoGuj1ZLgwl6-Ldkt2P2NUxogojzPCYt2MQ,9
+jsonmgnt-1.1.0.dist-info/RECORD,,
