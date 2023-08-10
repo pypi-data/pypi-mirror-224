@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: CyberCells
+Version: 0.1.1
+Summary: A simple Cyberpunk inspired Sudoku game
+Home-page: https://github.com/lasermatts/CyberCells
+Author: Matt Puchalski
+Author-email: me@mattp.tech
+Keywords: python Cyberpunk sudoku game
+License-File: LICENSE
+Requires-Dist: numpy
+
