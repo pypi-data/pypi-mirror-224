@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+multiplicarea.egg-info/PKG-INFO
+multiplicarea.egg-info/SOURCES.txt
+multiplicarea.egg-info/dependency_links.txt
+multiplicarea.egg-info/top_level.txt
+multplic/__init__.py
+multplic/multiplicando.py
