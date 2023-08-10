@@ -1,0 +1,2 @@
+[console_scripts]
+censusdatadownloader = census_data_downloader.cli:cmd

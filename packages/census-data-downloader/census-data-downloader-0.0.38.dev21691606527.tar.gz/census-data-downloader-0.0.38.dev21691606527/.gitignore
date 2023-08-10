@@ -1,0 +1,13 @@
+.~lock.*
+dist
+build
+*.egg*
+.coverage
+*.pyc
+test-data
+.DS_Store
+.env
+raw/
+processed/
+Pipfile
+Pipfile.lock
