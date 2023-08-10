@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: myrs
+Version: 0.0.1
+Summary: High Performance Machine Learning Primitives
+Author: altar31
+Author-email: damien.sicard31@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# 💧 Myr 
+
+*"High Performance Machine Learning Primitives"*
+
+**Myr** is an **experimental** attempt to provide **high performance implementation** of some ML/DL algorithms using [Apache TVM](https://tvm.apache.org/) the End to End Machine Learning Compiler Framework for several target architectures. The long-term goal of the project is to be able to build some generic **high performance ML primitives** (ie. building blocks) by providing **high-level** TVM abstractions easily reusable by the user.
+
+The goals (first draft) :
+- At first **satisfy my willingness** to deep dive into **Machine Learning Compilation** and **High Performance** ML algorithms.
+- Be **useful**...(a hard goal 😅) by provinding **simple** optimized reusable primitives...  
+
+## ⚠️ Warnings
+
+For the moment :
+
+- The development of the project takes place in a private github repository
+- The project is at the very early stage -> Nothing is implemented in this published version
+ - The documentation is missing
+
+
+Don't hesitate to contact me if you want to know more or are interested in !😃
+
+The project will be highly collaborative🤝, so everyone is welcome to the project ! 🤗  
+Contributions could be done in many ways and are not exclusively code. You could write documentation ( very important !😉), participate to the community creation (slack,matrix,gitter...) etc ...
+
+The repository as well as a "usable" python package will be available in the upcoming months when the project will be more advanced. Stay tuned ! 🗓️
