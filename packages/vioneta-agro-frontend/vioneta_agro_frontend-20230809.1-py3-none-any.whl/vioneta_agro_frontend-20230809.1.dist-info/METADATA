@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: vioneta-agro-frontend
+Version: 20230809.1
+Summary: The Vioneta Agro frontend
+Author-email: The Vioneta Agro Authors <admin@vioneta.com>
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/Vioneta/frontend
+Platform: any
+Requires-Python: >=3.10.0
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# Vioneta Agro Frontend --- Based on Home assistant frontend 20230725.0
