@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: LRU-tensorflow
+Version: 0.1.0
+Summary: Linear Recurrent Unit (LRU) - TensorFlow
+Home-page: https://github.com/DemandredEng/Linear-Recurrent-Units-Tensorflow
+Download-URL: 
+Author: Udit Sharma
+Author-email: uditsharma.eng@gmail.com
+License: MIT
+Keywords: Artificial Intelligence,Deep Learning,Recurrent Neural Networks,Linear Recurrent Unit
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE.txt
+Requires-Dist: tensorflow >=2.0
+
