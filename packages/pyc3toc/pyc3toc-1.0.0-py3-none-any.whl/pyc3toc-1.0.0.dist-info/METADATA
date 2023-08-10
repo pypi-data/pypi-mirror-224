@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pyc3toc
+Version: 1.0.0
+Summary: A Python wrapper for the c3toc API
+Home-page: https://github.com/Mezgrman/pyc3toc
+Author: Julian Metzler
+Author-email: git@mezgr.de
+License: GPLv3
+Keywords: library wrapper train api json
+Platform: UNKNOWN
+Requires-Dist: requests
+
+UNKNOWN
+
+
