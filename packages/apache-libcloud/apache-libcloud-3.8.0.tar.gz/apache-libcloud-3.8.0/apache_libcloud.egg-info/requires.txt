@@ -1,0 +1,11 @@
+requests>=2.26.0
+
+[build]
+build==0.10.0
+
+[publish]
+twine==4.0.2
+
+[test]
+pytest
+requests_mock
