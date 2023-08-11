@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "hello-pypi-data"
+version = "0.1.0"
+description = ""
+authors = ["Tom Forbes <tom@tomforb.es>"]
+readme = "README.md"
+packages = [{include = "hello_pypi_data"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
