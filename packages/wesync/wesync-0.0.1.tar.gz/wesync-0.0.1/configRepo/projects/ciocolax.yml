@@ -1,0 +1,16 @@
+---
+name: ciocolax
+type: wordpress
+deployments:
+  - name: zentiva-dev01
+    path: /var/www/ciocolax
+    host: 10.5.8.135
+    port: 22
+    username: developer
+    hostname: ciocolax.dev.welink.sh
+  - name: test
+    path: /var/www/ciocolax
+    host: 127.0.0.1
+    port: 22
+    username: developer
+    hostname: ciocolax.dev.welink.sh
