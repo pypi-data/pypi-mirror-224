@@ -1,0 +1,13 @@
+hyprshade/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hyprshade/__main__.py,sha256=yOXPbFzNIDwa0H0hEVLqAludemcsI5U5PChHCDOz0wA,70
+hyprshade/cli.py,sha256=8oAnPQXu2BC895a6-iobRQoDfr50j1DsozV_3cn54VU,5109
+hyprshade/config.py,sha256=Mo5wCJmb0xAZ6bfbzg2CC37NANHcljRxbxMAIpOmcFM,3709
+hyprshade/constants.py,sha256=9knV9pYSdJBiHyy8D0LqG59oVybk0aanlEQ19Nl0mWY,483
+hyprshade/helpers.py,sha256=7FB8B9NCrwvP3XawX5cbNgfZpEyxSYEHh2r96SUHPE4,748
+hyprshade/hyprctl.py,sha256=Pe64hv9qbhG_b1fEjoBU6C-wAJf8cj9Pdu_oFH2jBpE,1370
+hyprshade/utils.py,sha256=G7937wOulsR9XAzroQEbyQ3B5Mv6Zb6rCe-337CWVAg,812
+hyprshade-0.9.1.dist-info/LICENSE,sha256=YNhmhUzW7RAVpnxGOTSssbL5YdmlCF5mLDSavwXwjc0,1065
+hyprshade-0.9.1.dist-info/METADATA,sha256=_ez1-_GP1aKcHAvn6sHSv5zazYW3_PvdH19peRC98KU,3317
+hyprshade-0.9.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+hyprshade-0.9.1.dist-info/entry_points.txt,sha256=sC7UZh0SnK5J4P9PzYt3FNe740FSTAAd2ib38wMZMkU,48
+hyprshade-0.9.1.dist-info/RECORD,,
