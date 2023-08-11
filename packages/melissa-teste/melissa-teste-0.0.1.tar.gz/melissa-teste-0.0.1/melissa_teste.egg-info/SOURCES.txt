@@ -1,0 +1,12 @@
+LICENSE
+setup.py
+melissa_teste.egg-info/PKG-INFO
+melissa_teste.egg-info/SOURCES.txt
+melissa_teste.egg-info/dependency_links.txt
+melissa_teste.egg-info/top_level.txt
+verysimplemodule/__init__.py
+verysimplemodule/add.py
+verysimplemodule/subtract.py
+verysimplemodule/extra/__init__.py
+verysimplemodule/extra/divide.py
+verysimplemodule/extra/multiply.py
