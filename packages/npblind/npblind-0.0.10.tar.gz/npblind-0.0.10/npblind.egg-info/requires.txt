@@ -1,0 +1,9 @@
+google-cloud-datacatalog
+google-cloud-dlp
+npgbq>=2.1.3
+
+[dev]
+pandas
+
+[test]
+pandas
