@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: zephyr-library
+Version: 1.0.5
+Summary: A library for BEES test automation that execute zephyr scripts
+Home-page: https://dev.azure.com/ab-inbev/GHQ_B2B_Delta/_git/zephyr-lib
+Author: QM Core Team
+Author-email: qm.automation@ab-inbev.com
+License: AB-InBev Confidential
+Keywords: core,zephyr,zephyr-library
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Framework :: Pytest
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Testing
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: requests ==2.31.0
+Requires-Dist: atlassian-python-api ==3.40.0
+Requires-Dist: packaging ==23.1
+Requires-Dist: wheel ==0.41.1
+
+open('README.md').read()
