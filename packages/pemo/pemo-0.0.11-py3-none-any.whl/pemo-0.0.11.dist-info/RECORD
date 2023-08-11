@@ -1,0 +1,12 @@
+pemo/__init__.py,sha256=2fTXhdS-CQ4MZaBK08m7N8wJ_VtrxYzlp9pI2EaDYGk,21
+pemo/builder.py,sha256=VHe7VA9GNzBJ2NmmN7jqChL9qwJcfFHDKNm66olvtFc,1708
+pemo/commonoss.py,sha256=yhJdUMgpNVFMzlAG2BCXgK70Z5fN9nWFwls-IvBQBiQ,306
+pemo/configutil.py,sha256=CEqbF9t0iz75aQGgGFjDAx0OCxAt9CdtOTe5-dVjjuY,809
+pemo/main.py,sha256=_ZUOfVixZKENnzAOUUTfRoraN7Vdt2ebISMEknjyS1w,1260
+pemo/tencent.py,sha256=JBicyDGazIVy7GxLkoC3lNRHxZY0UQp6gdxb_zrHprg,2672
+pemo/resources/config.json,sha256=3mJC7ffOBHVsvm2maFCyTMymc5jBoLAPzLAu8eNCu3Y,22
+pemo-0.0.11.dist-info/METADATA,sha256=Dy5e2evjzvCDMLV9zRNrRIUYdQnvJQbQm-DZ9SzjxLQ,1320
+pemo-0.0.11.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+pemo-0.0.11.dist-info/entry_points.txt,sha256=ROCdEEr7b_eIJyN984C-YZfC87smhIltNbvNsEpU-lQ,34
+pemo-0.0.11.dist-info/top_level.txt,sha256=K8CIrIj9KSrtw2cYksO5xRwsPbNp8QtHqVmFv6z8I_0,5
+pemo-0.0.11.dist-info/RECORD,,
