@@ -1,0 +1,12 @@
+foolaunch/__init__.py,sha256=MW2Oah1Z8cN3V0iSzuRGvdTcOmzkJkkpLO2GV6yoO6k,11338
+foolaunch/__main__.py,sha256=M0ZYCgrEsjUVOfFsjDKDjMfjdlq18mn0_dE7KrJcGjM,4371
+foolaunch/prices.txt,sha256=BM5GQpdbgWfo_jFbVKf62jh5MV4NQOu84cn7KMIO-os,45321
+lib/foolaunch/__init__.py,sha256=MW2Oah1Z8cN3V0iSzuRGvdTcOmzkJkkpLO2GV6yoO6k,11338
+lib/foolaunch/__main__.py,sha256=M0ZYCgrEsjUVOfFsjDKDjMfjdlq18mn0_dE7KrJcGjM,4371
+lib/foolaunch/prices.txt,sha256=BM5GQpdbgWfo_jFbVKf62jh5MV4NQOu84cn7KMIO-os,45321
+foolaunch-1.1.0.dist-info/LICENSE,sha256=TTqBwBtM6dS36KgIE90d5F33bPZXr3BKrfx_v2fSRYM,1073
+foolaunch-1.1.0.dist-info/METADATA,sha256=1G63ehHfFumVcMsYBM_HX2hkYxTZMoZc3PrNbOW_-q8,2186
+foolaunch-1.1.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+foolaunch-1.1.0.dist-info/entry_points.txt,sha256=IiSXwt73wkz6tYhPGFlPpLGLObqTbKpI87VSAqdzGlg,54
+foolaunch-1.1.0.dist-info/top_level.txt,sha256=fnhlp9wZdKkqzHKbP5p3s7hGSe83Ai9vFXIothepoIw,10
+foolaunch-1.1.0.dist-info/RECORD,,
