@@ -1,0 +1,1 @@
+from lab_test.lab_test_class import lab_test
