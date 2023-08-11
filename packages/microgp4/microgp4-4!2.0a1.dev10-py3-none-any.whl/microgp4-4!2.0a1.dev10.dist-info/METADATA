@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: microgp4
+Version: 4!2.0a1.dev10
+Summary: Yet another multi-purpose extensible self-adaptive evolutionary tool
+Home-page: https://squillero.github.io/microgp4/
+License: Apache-2.0
+Keywords: Aritificial Intelligence,Evolutionary Computation,Approximate Optimization,Fuzzer
+Author: Giovanni Squillero
+Author-email: giovanni.squillero@polito.it
+Maintainer: Giovanni Squillero
+Maintainer-email: giovanni.squillero@polito.it
+Requires-Python: >=3.11,<3.13
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries
+Provides-Extra: plot
+Requires-Dist: arcade (>=2.6.17,<3.0.0) ; extra == "plot"
+Requires-Dist: joblib (>=1.3.1,<2.0.0)
+Requires-Dist: matplotlib (>=3.7.1,<4.0.0) ; extra == "plot"
+Requires-Dist: networkx (>=3.1,<4.0)
+Requires-Dist: numpy (>=1.25.0,<2.0.0)
+Requires-Dist: scipy (>=1.11.1,<2.0.0)
+Requires-Dist: tqdm (>=4.65.0,<5.0.0)
+Project-URL: Repository, https://github.com/squillero/microgp4
+Description-Content-Type: text/markdown
+
+MicroGP (µGP, `ugp`)  is an [evolutionary tool](https://squillero.github.io/microgp4/evolution.html): Given a problem, it first creates a set of random solutions, then iteratively refines and enhances them using the result of their evaluations together with structural information, routinely outperforming both human experts and conventional heuristics. It is able to tackle problem those solutions are simple fixed-length bit strings, as well as to optimize realistic assembly programs including loops, interrupts and recursive sub routines; and candidate solutions can be evaluated using proprietary external tools. Over the years it has been exploited as a coverage-driven [fuzzer](https://en.wikipedia.org/wiki/Fuzzing), as a general-purpose [optimizer](https://en.wikipedia.org/wiki/Engineering_optimization), and as a framework for prototyping and testing new ideas. [Some hundreds documents](https://scholar.google.com/scholar?q=%28+MicroGP+OR+%C2%B5GP+OR+ugp3+OR+ugp2+%29+AND+%28+Squillero+OR+Tonda+OR+Sanchez+OR+Schillaci+%29) discussing it and possible application can be found in the scientific literature.
+
+The prototype of MicroGP was hacked in 2001, the first fully working version was [coded in C in 2002](https://github.com/squillero/microgp2) and then [re-engineered in C++ in 2006](https://github.com/squillero/microgp3). MicroGP4 is in Python, it has been redesigned from scratch once again to take advantage of the peculiar features of the language and to exploit its huge standard library. MicroGP4 would not have been possible without the help and support of [several people](https://github.com/squillero/microgp4/blob/pre-alpha/docs/contributors.md). 
+
+> #### ⚠️ Notez Bien: MicroGP4 v2.0 is currently in [pre-alpha](https://en.wikipedia.org/wiki/Software_release_life_cycle#Pre-alpha) and under active development
+
+**Copyright © 2022-23 [Giovanni Squillero](https://github.com/squillero) and [Alberto Tonda](https://github.com/albertotonda/)**  
+MicroGP4 is [free and open-source software](https://en.wikipedia.org/wiki/Free_and_open-source_software), and it is distributed under the permissive [Apache License 2.0](https://opensource.org/license/apache-2-0/).
+
