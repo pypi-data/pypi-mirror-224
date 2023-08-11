@@ -1,0 +1,14 @@
+lost_cat>=0.1.6
+lost_cat_office
+numpy
+opencv-python
+pandas
+pillow
+psutil
+pymupdf
+pytesseract
+python-dotenv
+scipy
+scikit-image
+xlsxwriter
+openpyxl
