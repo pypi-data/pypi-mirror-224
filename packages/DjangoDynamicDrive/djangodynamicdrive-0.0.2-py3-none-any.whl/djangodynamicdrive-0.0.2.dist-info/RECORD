@@ -1,0 +1,15 @@
+DjangoDynamicDrive/__init__.py,sha256=kpLYvu0P1MaNAjQba73INaD3DQ_Nxix9hKn0_7T9ta0,56
+DjangoDynamicDrive/db/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+DjangoDynamicDrive/db/database_router.py,sha256=1WbrZpEZ-ejAXoZA_B7xu6X6R08G2Ki2VYJKtBEZoec,1716
+DjangoDynamicDrive/db/db.py,sha256=2jqOAg0VCxLMlKhlna92baBvZpoq8KIxiFmxU-la_E4,927
+DjangoDynamicDrive/dynamic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+DjangoDynamicDrive/dynamic/admin.py,sha256=N4boXuNWMKA81AWeyize_OAlgYkjaY3_BWenWz5XOCY,3611
+DjangoDynamicDrive/dynamic/apps.py,sha256=4wyuzqdOFtSpBj3CypR7THj_TpvIkw_JaNkEYaL8hhQ,146
+DjangoDynamicDrive/dynamic/models.py,sha256=Vjc0p2XbAPgE6HyTF6vll98A4eDhA5AvaQqsc4kQ9AQ,57
+DjangoDynamicDrive/dynamic/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+DjangoDynamicDrive/dynamic/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+DjangoDynamicDrive/dynamic/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djangodynamicdrive-0.0.2.dist-info/METADATA,sha256=M4lnNfEYP4n2mnayO-KGExj1JS2qf8LIG62b-1jLAYY,1695
+djangodynamicdrive-0.0.2.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+djangodynamicdrive-0.0.2.dist-info/licenses/LICENSE,sha256=hDRopVnI9PboJbetyIjtIuKUg_pZPt-YeNzcV--uv60,1093
+djangodynamicdrive-0.0.2.dist-info/RECORD,,
