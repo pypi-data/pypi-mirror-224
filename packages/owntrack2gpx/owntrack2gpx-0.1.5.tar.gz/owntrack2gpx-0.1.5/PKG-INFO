@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: owntrack2gpx
+Version: 0.1.5
+
+OwnTrack have its own tool ocat but with it you loosesome data like battery and speed data. For this reason you should export data tojson and then use this tool to convert to gpx.
