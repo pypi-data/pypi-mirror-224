@@ -1,0 +1,16 @@
+easyofd/__init__.py,sha256=DoqycAcla09h0bbEXyOqKX6LXlWZUiV5XVzE8vHLmOo,73
+easyofd/main.py,sha256=5xvqQ1hw9Ca0fs4A_K5tmktE7_fgNZPl5RgJ42S77TU,926
+easyofd/draw/__init__.py,sha256=-Q8f-6zKDvg6o6bvDnMjrmwBn8lpg_ZuNq5HEFfQBz4,1601
+easyofd/draw/draw_ofd.py,sha256=Is9lO61toA68L-GQLNrMTU4hnFrNYEKaveSTPcv73Rg,14
+easyofd/draw/draw_pdf.py,sha256=T6QFRJmlS5lYIRex9ikAhhUAeLwdRqUg73QC1hvdX0A,10060
+easyofd/draw/font_tools.py,sha256=UQUPgGInqnuP4Zpxt99iVuzFo5IC2mcWR3q_bzuH2EM,2638
+easyofd/parser_ofd/__init__.py,sha256=al5Hd0z3rqFiKhRokudWtqfcKr1xg76V0ZfOxmG-JOA,1380
+easyofd/parser_ofd/file_deal.py,sha256=5FX8Q5Q3herxfqeqc9Z93_kZifB_dTvG-8B3PW3VDSM,2618
+easyofd/parser_ofd/file_parser.py,sha256=MRUOsxLTkphn7fWChtQhoQZT_0Kcbu_LtzmzSWmIt38,9234
+easyofd/parser_ofd/ofd_parser.py,sha256=G9CQnJ_UaJUW8S7zjfcNiLM_FznqT6YLdXYIBEgsATs,6346
+easyofd/parser_ofd/ofdparser.py,sha256=ro0GBfSrY1j3gGZJfwCuSf4lXF7IcseIwl73e0jizIM,61460
+easyofd-0.0.9.dist-info/LICENSE,sha256=_JzbCvrDCFaYeGNd3IKKAQmcN__pZZa0li5Ad_-cLx4,11546
+easyofd-0.0.9.dist-info/METADATA,sha256=-KIm2noFdc96cLz8sHRdS8HhMS5hEDOVB2U3C9fH2o8,1808
+easyofd-0.0.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+easyofd-0.0.9.dist-info/top_level.txt,sha256=59lIU_LtaNSMUidMnpSnMPKYQz5-qlSm6PYlnQS56Mc,8
+easyofd-0.0.9.dist-info/RECORD,,
