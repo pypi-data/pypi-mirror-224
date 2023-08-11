@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: gediao-utils
+Version: 0.0.3
+Summary: xuxy utils package
+Home-page: https://gitee.com/ukihi/gediao-open-python-utils
+Author: 色调呀
+Author-email: 1059738716@qq.com
+Description-Content-Type: text/markdown
+
+### 20230802
+    测试提交自己的包
+    含有快排和带进度条的下载
+
+    [distutils]
+        index-servers = pypi
+    [pypi]
+        repository =  https://upload.pypi.org/legacy/
+        username = xuxy
+        password = Xuxueyang1
