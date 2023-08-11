@@ -1,0 +1,5 @@
+pygit2==1.12.2
+semver==3.0.1
+
+[dev]
+pytest==6.2.2
