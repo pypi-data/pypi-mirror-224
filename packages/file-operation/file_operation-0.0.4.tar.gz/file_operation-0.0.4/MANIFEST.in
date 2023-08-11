@@ -1,0 +1,4 @@
+include file_operations/media/wkhtmltox/*
+include file_operations/media/Pandoc/*
+include file_operations/REANME.md
+include file_operations/glob.ipynb

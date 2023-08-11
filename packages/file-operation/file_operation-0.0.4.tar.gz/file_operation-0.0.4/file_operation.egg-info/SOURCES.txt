@@ -1,0 +1,27 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+file_operation.egg-info/PKG-INFO
+file_operation.egg-info/SOURCES.txt
+file_operation.egg-info/dependency_links.txt
+file_operation.egg-info/requires.txt
+file_operation.egg-info/top_level.txt
+file_operations/REANME.md
+file_operations/__init__.py
+file_operations/config.py
+file_operations/excel_operation.py
+file_operations/file_operation.py
+file_operations/file_read_operation.py
+file_operations/file_transform.py
+file_operations/glob.ipynb
+file_operations/img_operations.py
+file_operations/pdf_operations.py
+file_operations/yaml_operations.py
+file_operations/异步管理文件上下文.py
+file_operations/media/Pandoc/COPYING.rtf
+file_operations/media/Pandoc/COPYRIGHT.txt
+file_operations/media/Pandoc/Pandoc User's Guide.html
+file_operations/media/Pandoc/pandoc.exe
+file_operations/media/wkhtmltox/templates.html
+file_operations/media/wkhtmltox/wkhtmltopdf.exe
