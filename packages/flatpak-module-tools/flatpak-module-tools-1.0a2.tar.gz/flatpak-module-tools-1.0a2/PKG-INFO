@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: flatpak-module-tools
+Version: 1.0a2
+Summary: Tools for creating and maintaining Flatpaks as Fedora modules
+Author-email: Owen Taylor <otaylor@redhat.com>
+License: MIT AND GPL-3.0-or-later
+Project-URL: repository, https://pagure.io/flatpak-module-tools
+Provides-Extra: cli
+Provides-Extra: tests
+License-File: LICENSE
+License-File: LICENSE.gplv3

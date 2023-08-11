@@ -1,0 +1,10 @@
+build
+dist
+etc
+flatpak_module_tools
+htmlcov
+repo
+stuff
+tests
+tmpzsh9b6xy
+x86_64

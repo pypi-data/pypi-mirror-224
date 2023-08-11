@@ -1,0 +1,52 @@
+{#
+The mock configuration defined by this template is shared between building RPMs
+to use with a runtime, and building Flatpak containers for that runtime. The main
+reason for doing this is that we can share the DNF cache, which is hardcoded to live
+within /var/cache/{{ root }}/dnf_cache. To avoid problems from the fact that
+chroot_setup_cmd is different, we disable the root cache for the container builds,
+where it is not very useful because there are few packages.
+
+arch: str - as understood by RPM
+includepkgs: List[str] - global list of includepkgs, used only for container builds against modules
+releasever: str - operating system version without prefix
+repos: List[str] - DNF repository definitions
+root_cache_enable: [False|True]
+runtimever: str - runtime branch, typically operating system version with prefix
+#}
+config_opts['releasever'] = '{{ releasever }}'
+config_opts['target_arch'] = '{{ arch }}'
+config_opts['legal_host_arches'] = ('{{ arch }}',)
+
+config_opts['root'] = 'flatpak-module-{{ runtimever }}-{{ arch }}'
+config_opts['description'] = 'Flatpak Buildroot for {{ runtimever }}'
+
+config_opts['chroot_setup_cmd'] = '{{ chroot_setup_cmd }}'
+
+config_opts['extra_chroot_dirs'] = [ '/run/lock', ]
+config_opts['use_bootstrap'] = False
+
+config_opts['plugin_conf']['root_cache_enable'] = {{ root_cache_enable }}
+
+config_opts['dnf.conf'] = """
+[main]
+keepcache=1
+debuglevel=2
+reposdir=/dev/null
+logfile=/var/log/yum.log
+retries=20
+obsoletes=1
+gpgcheck=0
+assumeyes=1
+syslog_ident=mock
+syslog_device=
+install_weak_deps=0
+metadata_expire=0
+best=1
+protected_packages=
+user_agent={{ user_agent }}
+
+# repos
+{% for repo in repos %}
+{{ repo }}
+{%- endfor %}
+"""
