@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: simple-licence-plugin
+Version: 1.0.0
+Summary: Provides a plugin for pyarmor for checking a licence file is valid.
+License: CSIRO Open Source Software Licence
+Author: Alex Hunt
+Author-email: alex.hunt@csiro.au
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: pydantic (>=2.0.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# simple-licence-plugin
+[![PyPI version](https://badge.fury.io/py/simple-licence-plugin.svg)](https://badge.fury.io/py/simple-licence-plugin)
+[![Build Status](https://dev.azure.com/CSIROMineralResources/Discovery%20Program/_apis/build/status/simple-licence-plugin?branchName=master)](https://dev.azure.com/CSIROMineralResources/Discovery%20Program/_build/latest?definitionId=1&branchName=master)
+
+## Version: 1.0.0
+
+`simple-licence-plugin` provides a plugin for use with `pyarmor` to allow python code to be commercially distributed in a simple manor. `pyarmor` allows you to obfuscate your code, call plugins, and implement a simple licensing scheme. This plugin provides additional features when using `pyarmor`'s licensing option:
+  - Extract data embedded in the licence file (license.lic)
+  - Controlling which features are unlocked
+  - Calling home via a web service for auditing product usage
+  - Ensuring the licence file is for the product
+
