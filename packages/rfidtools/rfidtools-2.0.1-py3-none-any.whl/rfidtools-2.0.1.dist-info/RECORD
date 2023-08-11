@@ -1,0 +1,12 @@
+rfidtools/RFID_Icon.ico,sha256=dyz3dY6J22Qis8_XNQE5MTbp5Je28lMOAtq3LK1rwjM,32921
+rfidtools/__init__.py,sha256=vBlFNh3sZskA2FQD0WisZRMhtFpvY_gYqOyO-MEDt78,914
+rfidtools/__main__.py,sha256=pWirgNhwCyEVRIiFE6t9-283TuexmZ8mniF2XAWbSLA,1438
+rfidtools/config_template.yaml,sha256=sy-zHag5pPbEYe_z7iK394aTJNtSyyTjbvS7uI2Xd2Q,678
+rfidtools/core.py,sha256=y5uGvAAAwbfXtTFP8hxgqSwWaIdKCT7jFeSktyXUymY,3381
+rfidtools/labels/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+rfidtools/labels/add.py,sha256=vAADtgOf04TUi7BkAtnBURNVFAc1gJUGnAnQZ8gHSmU,5907
+rfidtools/labels/print.py,sha256=POpT68DXbYFULqNqHWSKxWpLL-pHv9VQmzeyuE4YIto,5012
+rfidtools/labels/utils.py,sha256=Iq3rVLDLvLTRBAqe-PiabWiux6FO05dVXPPE-zisPzI,6681
+rfidtools-2.0.1.dist-info/METADATA,sha256=GGSMTWQP6MYag1rJLuGnUivsrC-RjtnkZegEa08KIUo,899
+rfidtools-2.0.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+rfidtools-2.0.1.dist-info/RECORD,,
