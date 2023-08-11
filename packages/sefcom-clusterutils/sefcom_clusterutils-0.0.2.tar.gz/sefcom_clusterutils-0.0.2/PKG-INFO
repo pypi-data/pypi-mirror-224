@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: sefcom_clusterutils
+Version: 0.0.2
+Summary: Utilities for ASU SEFCOM's kubernetes cluster
+Author-email: Kevin Phoenix <kevin@kphoenix.us>
+Requires-Python: ~=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: kubernetes~=27.2.0
+Requires-Dist: rich~=13.1.0
+Project-URL: Home, https://github.com/sefcom/clusterutils
+
+SEFCOM Cluster Utils
+====================
+
+Currently one utility is included in this package: `sc-utilization``. This
+program will display utilization for the cluster. See `sc-utilization --help`
+for more options.
+
