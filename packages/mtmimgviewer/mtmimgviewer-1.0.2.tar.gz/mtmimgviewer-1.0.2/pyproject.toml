@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=40.8.0", "wheel", "setuptools_scm[toml]>=6.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mtmimgviewer"
+description = "A simple GUI for viewing images."
+readme = "README.md"
+license = { file = "LICENSE" }
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3.8",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: MacOS",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: Microsoft :: Windows",
+]
+requires-python = ">=3.8"
+dependencies = ["pyside6>=6.2.0", "pillow>=8.3.2"]
+dynamic = ["version"]
+
+[project.scripts]
+mtmimgviewer_hello = "mtmimgviewer.cli:hello"
+mtmimgviewer = "mtmimgviewer.cli:show"
+
+[tool.setuptools_scm]

@@ -1,0 +1,3 @@
+[console_scripts]
+mtmimgviewer = mtmimgviewer.cli:show
+mtmimgviewer_hello = mtmimgviewer.cli:hello

@@ -1,0 +1,16 @@
+Pic:
+  List:
+    - "*image*"
+    - "*label*"
+  Size: 512
+InitIndex: 0
+Struct: 
+  HBoxLayout:
+    - ListWidget
+    - VBoxLayout:
+      - 0
+    - VBoxLayout: 
+      - 1
+    - setStretch: [0, 1] # 设置拉伸比例, 列表内第一个元素是创建时分配的索引, 第二个元素是拉伸比例
+    - setStretch: [1, 5] # 设置拉伸比例, 列表内第一个元素是创建时分配的索引, 第二个元素是拉伸比例
+    - setStretch: [2, 5] # 设置拉伸比例, 列表内第一个元素是创建时分配的索引, 第二个元素是拉伸比例
