@@ -1,0 +1,9 @@
+LICENSE
+setup.py
+operatorsdavi/__init__.py
+operatorsdavi/add.py
+operatorsdavi/subtract.py
+operatorsdavi.egg-info/PKG-INFO
+operatorsdavi.egg-info/SOURCES.txt
+operatorsdavi.egg-info/dependency_links.txt
+operatorsdavi.egg-info/top_level.txt
