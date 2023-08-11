@@ -1,0 +1,112 @@
+#!/bin/bash
+
+# A simple script to set up a new test project in the core framework with all required folders/files.
+# Created and tested in a Linux and MacOS environment.
+# If it doesn't work on other OS, help us improve.
+
+# Any tips or doubt? Please, let us know!
+
+# Exit the script immediately if a command exits with a non-zero status.
+set -e
+
+# Colors
+RED=`tput setaf 1`
+GREEN=`tput setaf 2`
+YELLOW=`tput setaf 3`
+CYAN=`tput setaf 6`
+RESET=`tput sgr0`
+
+function setup_project() {
+
+  local project="$1"
+  local description="$2"
+  local author="$3"
+  local email="$4"
+
+  # Create base project folder
+  mkdir "projects/$project"
+  mkdir "projects/$project/$project"
+
+  # Create MANIFEST.in file
+  echo """recursive-include $project/*
+recursive-include resources/*
+recursive-include tests/*""" > "projects/$project/MANIFEST.in"
+
+  # Create setup.py file
+  echo """from setuptools import setup, find_packages
+
+__pkg_name__ = '$project'
+__version__ = '0.0.1'
+__author__ = '$author'
+__author_email__ = '$email'
+
+setup(
+    name=__pkg_name__,
+    version=__version__,
+    author=__author__,
+    author_email=__author_email__,
+    description='$description',
+    classifiers=[
+        'Programming Language :: Python :: 3',
+        'License :: AB-InBev Confidential'  # TODO: Research for proper license name
+    ],
+    python_requires='>=3.6',
+    packages=find_packages(),
+    include_package_data=True,
+    entry_points={
+        'automation_tags': ['type=project']
+    },
+    install_requires=[
+        'automation_core',
+        'PyHamcrest',
+        'pytest',
+        'pytest-bdd'
+    ]
+)""" > "projects/$project/setup.py"
+
+
+######## SCRIPT START #########
+
+# STEP - PROJECT NAME
+while true
+do
+  echo "${CYAN}A - Project Name${RESET}"
+
+  read PROJECT_NAME
+
+  # Checks if project folder already exists and has a valid regex
+  if [[ "$PROJECT_NAME" =~ ^([a-z]+[a-z0-9_]+)$ &&  ! -d "projects/$PROJECT_NAME" ]]; then
+    echo "${GREEN}Project name ($PROJECT_NAME) is free to use${RESET}"
+    break
+  else
+    echo "${RED}Invalid project name ($PROJECT_NAME). This folder already exists or name does not match the regex${RESET}"
+  fi
+done
+
+# STEP - PROJECT DESCRIPTION
+echo "${CYAN}B - Project description${RESET}"
+
+read PROJECT_DESCRIPTION
+
+# STEP - PROJECT AUTHOR
+echo "${CYAN}C - Author${RESET}"
+
+read PROJECT_AUTHOR_NAME
+
+# STEP - PROJECT AUTHOR EMAIL
+while true
+do
+  echo "${CYAN}D - Author Email${RESET}"
+
+  read PROJECT_AUTHOR_EMAIL
+
+  if [[ "$PROJECT_AUTHOR_EMAIL" =~ ^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$ ]]
+  then
+    echo "${GREEN}Email address $PROJECT_AUTHOR_EMAIL is valid.${RESET}"
+      break
+    else
+      echo "${RED}Email address $PROJECT_AUTHOR_EMAIL is invalid.${RESET}"
+  fi
+done
+
+  exit 0
