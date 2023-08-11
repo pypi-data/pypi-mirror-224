@@ -1,0 +1,9 @@
+README.md
+setup.py
+dataExplore/__init__.py
+dataExplore/dataExplorer.py
+pa27_dataexplorer.egg-info/PKG-INFO
+pa27_dataexplorer.egg-info/SOURCES.txt
+pa27_dataexplorer.egg-info/dependency_links.txt
+pa27_dataexplorer.egg-info/not-zip-safe
+pa27_dataexplorer.egg-info/top_level.txt
