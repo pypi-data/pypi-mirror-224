@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: third-python-package
+Version: 0.0.1
+Summary: This package does amazing things.
+Home-page: https://github.com/tpotjj/third-python-package
+Author: Joris Jansen
+Author-email: "Joris Jansen" <github@tpotjj.com>
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# third-python-package
+
+This package does amazing things.
+
+## Installation
+
+```shell
+$ python -m pip install third-python-package
+```
