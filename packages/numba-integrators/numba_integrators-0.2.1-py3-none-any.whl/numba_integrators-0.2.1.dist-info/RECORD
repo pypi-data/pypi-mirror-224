@@ -1,0 +1,9 @@
+numba_integrators/_API.py,sha256=RPnMDKfPSd_ctU8Tp5wNgHRYku5yVfE9VIXXTP_5jGM,21512
+numba_integrators/__init__.py,sha256=uxaYeD4MOHI6Z7rFQZPGd5KYbG3_a54kDYtl6y7wPrE,66
+numba_integrators/_aux.py,sha256=ER0D8VL1GPURxJDUYY6NF9LdcAm_3OLZWthNJEhGyeA,2807
+numba_integrators/reference.py,sha256=kP-jVSSDy-ZOtiz18LkEJxF2ZFW47BnxaKoaG2SC41A,547
+numba_integrators-0.2.1.dist-info/LICENSE,sha256=wapuuwt6ejMcCnms_kMJGu0I_58l0998CayI0hqLQ7s,1064
+numba_integrators-0.2.1.dist-info/METADATA,sha256=GinCDSZdXOcYxYTn6WzIkXzGXiHMo-O6D747RV63rN8,4531
+numba_integrators-0.2.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+numba_integrators-0.2.1.dist-info/top_level.txt,sha256=l9jkzSbt2fzzxZxAi2tGpc79yAcOVZ3hSvWgxfWtg-c,18
+numba_integrators-0.2.1.dist-info/RECORD,,
