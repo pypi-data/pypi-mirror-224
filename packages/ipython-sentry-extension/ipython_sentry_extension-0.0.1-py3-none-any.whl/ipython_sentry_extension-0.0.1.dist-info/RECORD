@@ -1,0 +1,6 @@
+sentry_extension/__init__.py,sha256=KdQnPHrIIvKUO2P3qrIv1TELVU3KhAkQVOEmawL4LAc,1321
+sentry_extension/constants.py,sha256=_kIXg75YpD3nYDn8BXUcpz9Zp9D09RX2KPCS1oYCaqY,231
+sentry_extension/utils.py,sha256=rMwUItVNyIcsYP1BA4ItO0itQq7FcofFs2hRA8WFovY,196
+ipython_sentry_extension-0.0.1.dist-info/METADATA,sha256=XRY4MOkg6axGhHTF7HXfX6lut3e8dWwUkNStF5YpmW4,799
+ipython_sentry_extension-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+ipython_sentry_extension-0.0.1.dist-info/RECORD,,

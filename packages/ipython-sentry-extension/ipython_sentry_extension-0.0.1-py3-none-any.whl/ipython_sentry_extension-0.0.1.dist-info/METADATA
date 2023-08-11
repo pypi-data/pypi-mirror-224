@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ipython_sentry_extension
+Version: 0.0.1
+Author-email: Pavel Komar <pvkomar@cloud.ru>
+Keywords: Extension,Jupyter
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Requires-Dist: ipython>=7.0.0
+Requires-Dist: sentry-sdk>=1.5.5
+Description-Content-Type: text/markdown
+
+IPython Sentry Integration
+===========================
+
+This [IPython extension](https://ipython.readthedocs.io/en/stable/config/extensions/index.html) makes it easy to send errors from Cells to alloted [Sentry](
+https://sentry.io/) DSN.
