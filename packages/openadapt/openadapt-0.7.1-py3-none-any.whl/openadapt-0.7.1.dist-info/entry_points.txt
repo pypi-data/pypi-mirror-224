@@ -1,0 +1,6 @@
+[console_scripts]
+app=openadapt.app.main:run_app
+record=openadapt.record:start
+replay=openadapt.replay:start
+visualize=openadapt.visualize:main
+
