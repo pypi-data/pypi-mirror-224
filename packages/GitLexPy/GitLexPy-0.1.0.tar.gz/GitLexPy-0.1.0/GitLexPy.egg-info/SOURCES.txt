@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+setup.py
+GitLexPy.egg-info/PKG-INFO
+GitLexPy.egg-info/SOURCES.txt
+GitLexPy.egg-info/dependency_links.txt
+GitLexPy.egg-info/entry_points.txt
+GitLexPy.egg-info/requires.txt
+GitLexPy.egg-info/top_level.txt
+gitlexpy/__init__.py
+gitlexpy/main.py
