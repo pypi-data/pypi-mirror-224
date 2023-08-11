@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: bootloader-maya-utils-library
+Version: 1.0.0
+Summary: Bootloader Maya Utilities Library
+Home-page: https://github.com/bootloader-studio/bootloader-maya-utils-python-library
+License: SEE LICENSE IN <LICENSE>
+Keywords: conversion,maya,tool,utility
+Author: Daniel CAUNE
+Author-email: daniel.caune@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: perseus-core-library (>=1.19.4,<2.0.0)
+Requires-Dist: perseus-getenv-library (>=1.0.4,<2.0.0)
+Requires-Dist: pygifsicle (>=1.0.7,<2.0.0)
+Project-URL: Repository, https://github.com/bootloader-studio/bootloader-maya-utils-python-library
+Description-Content-Type: text/markdown
+
+# Bootloader Maya Utilities Python Library
+Python library and Command-line Interface (CLI) to convert Maya animation files to animated GIF file, and other useful features.
+
+This library requires both [Autodesk Maya](https://www.autodesk.com/products/maya/overview) and [gifsicle](https://www.lcdf.org/gifsicle/) to be installed.
+
+_Note: You shouldn't need to have a license for Maya to use this library._
+
