@@ -1,0 +1,16 @@
+hammingdist.cpython-310-x86_64-linux-gnu.so,sha256=tPr4aMKUjTd32Yb6H2bfRHbra7Zh2YQqNfwcMtN926A,479705
+lib64/libcpu_features.a,sha256=a0W0BZdpORHNNcsu0_t2N28-j752DsjgTCUNBicwJdE,87134
+lib64/cmake/CpuFeatures/CpuFeaturesTargets.cmake,sha256=6qWegB7QOmKcHhT8esG_BgTVds8f7itMUdMCwSzolKc,4338
+lib64/cmake/CpuFeatures/CpuFeaturesConfigVersion.cmake,sha256=nwHMvTqVlzSYV_Oj4_cnSbbJce5Q_ay67aEVOLQKtjg,2762
+lib64/cmake/CpuFeatures/CpuFeaturesTargets-release.cmake,sha256=4ZKDoXNENrJ8daCmfnC7e99lGv9r3mw-fhcFtT1DRvE,1419
+lib64/cmake/CpuFeatures/CpuFeaturesConfig.cmake,sha256=tfxF7km9v_3GAoksUGP4J-KAxsom1NvsMgoMrO_fDXw,102
+bin/list_cpu_features,sha256=cl3HFEy0fbs9XXz7Ng1kvMjdF24x51IqgJqmB_AQ4ck,51504
+include/cpu_features/cpuinfo_x86.h,sha256=xIOThg1lWA1qBuiunAPK-KvHH5zwRMGY5VwIP0ka3qE,7563
+include/cpu_features/cpu_features_macros.h,sha256=LLanrzzYJDvO0jkRhnVCVpRxONLeiLQrL8PXrxaEIJk,10415
+include/cpu_features/cpu_features_cache_info.h,sha256=bZ10Vv0YLVmKENCY9vX5ugq8mrzRhJCIrbB8Xd2GU6s,1693
+hammingdist.libs/libgomp-a34b3233.so.1.0.0,sha256=On6uznIxkRvi-7Gz58tMtcLg-E4MK7c3OUcrWh_uyME,168193
+hammingdist-0.20.0.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hammingdist-0.20.0.dist-info/RECORD,,
+hammingdist-0.20.0.dist-info/METADATA,sha256=ntC8yr-2DuCmw3tuZa3O8y9mJgEp_mb8U1-ZXNrB9os,5687
+hammingdist-0.20.0.dist-info/WHEEL,sha256=baHQaWeWVbJpzSyrBCaiOya-xAFibQZMSY05U9xvq3I,155
+hammingdist-0.20.0.dist-info/licenses/LICENSE.md,sha256=zzr0aw6Wm4kbiYfqyMbjG23ju3bk6uGItpH1SEAfIqQ,1053
