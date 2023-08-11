@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/txt2ics/__init__.py
+src/txt2ics/lib.py
+src/txt2ics/txt2ics.py
+src/txt2ics/txt2icsd.py
+src/txt2ics.egg-info/PKG-INFO
+src/txt2ics.egg-info/SOURCES.txt
+src/txt2ics.egg-info/dependency_links.txt
+src/txt2ics.egg-info/entry_points.txt
+src/txt2ics.egg-info/requires.txt
+src/txt2ics.egg-info/top_level.txt
+tests/test_lib.py
