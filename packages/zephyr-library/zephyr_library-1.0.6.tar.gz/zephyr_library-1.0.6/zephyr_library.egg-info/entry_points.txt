@@ -1,0 +1,4 @@
+[console_scripts]
+run-json-treatment = zephyr_core.run_json_treatment:main
+run-test-cycle = zephyr_core.run_test_cycle:main
+run-update-test-case = zephyr_core.run_update_test_case:main
