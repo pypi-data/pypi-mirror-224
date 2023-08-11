@@ -1,0 +1,11 @@
+gitverse/__init__.py,sha256=iUZG4HpkVbo9MdPb1Ytb2rVf9HGTJ94wlaS6pHxuMOM,17
+gitverse/commits.py,sha256=uzMDDoerwdHg7SeSp4VtuCJAasSV2tmdCDJ63BtvFG0,7793
+gitverse/debugger.py,sha256=CpSHYpjQfRYSNDiYdz7M8mJrMDcwVP9wVpvsM2m-aas,471
+gitverse/releases.py,sha256=9KT16q7vBSj-gR9gZLYk2qTeDaQfoIiC7gGMFDSkjyk,8500
+gitverse/utils/rst.py,sha256=HRgBUNkbqj9rNZ1PrDjuRyVZYJT2MNCjYhmEaqKcmWQ,2788
+gitverse-2.0b0.dist-info/LICENSE,sha256=khwb-_X88C6Va_FZB_sJgB-xukCrEvkq8C3P_IGzysE,1078
+gitverse-2.0b0.dist-info/METADATA,sha256=NAcvGrFvKjaAIg5ipsPKxkfxTPmZmYlimlE7O5bpwtY,6363
+gitverse-2.0b0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+gitverse-2.0b0.dist-info/entry_points.txt,sha256=lHgy0Cb8EyYsYZ0391yHOhzVUuu3ZOGy4149rEpq9oo,100
+gitverse-2.0b0.dist-info/top_level.txt,sha256=-Ehf5mQcZH6tZT_RiDu21Vr_ojCKi2ReyG7BtgUv51Q,9
+gitverse-2.0b0.dist-info/RECORD,,
