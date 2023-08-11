@@ -1,0 +1,10 @@
+src/__init__.py,sha256=9VZek6BO4JF9Ck_vhHbd3d-EHo6-1SSimeH7rhJ2EZk,76
+src/__main__.py,sha256=djhPU08vO9VxzkczFhBZOEfwZx6xvOdnQFFsQShKdNg,207
+src/convert.py,sha256=qf8HRsqdD9I2PeXMuYDYAUlMjuqQQUAHtO6VwsdbO5A,1582
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_convert.py,sha256=2W-wjYaguvaP6m2kOLuuwqKbtvZi1ECqZ340u51qK_E,571
+owntrack2gpx-0.1.6.dist-info/METADATA,sha256=Ef90N-nMDFJmQnpg1y0QMRPhxcuGfPxn8kIbyWkgv7o,297
+owntrack2gpx-0.1.6.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+owntrack2gpx-0.1.6.dist-info/entry_points.txt,sha256=72T_iwwWBo0iiBKco3vBo2SRNEPdOEZDvpxhf6H8tgU,42
+owntrack2gpx-0.1.6.dist-info/top_level.txt,sha256=KW3xgkz9NLMTcmmzgKvW8RFpCFkRIQ085qzq2diFf68,10
+owntrack2gpx-0.1.6.dist-info/RECORD,,
