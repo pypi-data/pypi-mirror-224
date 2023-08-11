@@ -1,0 +1,9 @@
+README.md
+setup.py
+manna2/__init__.py
+manna2/e.py
+manna2.egg-info/PKG-INFO
+manna2.egg-info/SOURCES.txt
+manna2.egg-info/dependency_links.txt
+manna2.egg-info/requires.txt
+manna2.egg-info/top_level.txt
