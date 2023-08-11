@@ -1,0 +1,9 @@
+funppy/__init__.py,sha256=ZmzLwTq48FM13JYbepTRYHmkYRaYQX52HSl9_cciHO0,99
+funppy/debugtalk_pb2.py,sha256=qBNptKs5ye7yRFWQxnrZDJRZ1VrnXQ2ZDspjFitOH0Y,2922
+funppy/debugtalk_pb2_grpc.py,sha256=19gYD9ZHwU2a2ql-QfCe0FfKgUP52BHRwBHjuPxcdWo,3843
+funppy/examples/debugtalk.py,sha256=5pvMZJrOgM7rnO6TSRwE-w4MPn0BTmnzQ33goqEd8hs,1312
+funppy/plugin.py,sha256=rQtiOgGeItb2jiblRtRH0LZEcLWwDBK64VFfdnfX-5k,1944
+funppy-0.5.2.dist-info/LICENSE,sha256=55xTP6gpTbZUPKrW4rRmikJLzi8laEUXRY2mtbYSxHg,11339
+funppy-0.5.2.dist-info/METADATA,sha256=gSQt4erTzUzPmpW0oEW9hhgk9rh6bSnZ5CQV91-MuI0,2337
+funppy-0.5.2.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+funppy-0.5.2.dist-info/RECORD,,
