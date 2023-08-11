@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/datasette_litestream/__init__.py
+src/datasette_litestream.egg-info/PKG-INFO
+src/datasette_litestream.egg-info/SOURCES.txt
+src/datasette_litestream.egg-info/dependency_links.txt
+src/datasette_litestream.egg-info/entry_points.txt
+src/datasette_litestream.egg-info/requires.txt
+src/datasette_litestream.egg-info/top_level.txt
+src/datasette_litestream/templates/litestream.html
+tests/test_datasette_litestream.py
