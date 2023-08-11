@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pyrubberduck
+Version: 0.0.4
+Summary: Python module for test purposes.
+Author-email: Vignesh Sivanandha Rao <svignesh1793@gmail.com>
+Project-URL: Homepage, https://github.com/thevickypedia/rubber-duck
+Keywords: rubber-duck
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+
+# Rubber Duck
+A placeholder application

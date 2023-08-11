@@ -1,0 +1,2 @@
+[console_scripts]
+rubberduck = rubberduck.main:main
