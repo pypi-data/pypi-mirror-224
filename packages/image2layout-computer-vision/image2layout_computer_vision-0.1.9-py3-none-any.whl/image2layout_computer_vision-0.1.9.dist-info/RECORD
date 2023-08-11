@@ -1,0 +1,14 @@
+image2layout_computer_vision/README.md,sha256=qIoM5VvTWRRaugH_LlZh5-AapysLOPnoQj2Z7y8LVd0,113
+image2layout_computer_vision/__init__.py,sha256=xXsZMIXYNfVkPK9deOvlR6TBtCZ2tBc5K0QZXnaqfek,718
+image2layout_computer_vision/requirements.txt,sha256=O7sEUBWVtbDsuGapCwfRunJ0y-GGKSsV2lwDU_z54H4,97
+image2layout_computer_vision/yolov6/class_names.txt,sha256=IbpNCLLFvLjS3vWBEDVpC3fqur4QblLJGTa2A1Al_Mc,192
+image2layout_computer_vision/yolov6/data_image2layoutH.yaml,sha256=_qRF4VzcRP-ycxVGBDG_skDthdF9nO9JKI_U3sIyHSw,514
+image2layout_computer_vision/yolov6/data_image2layoutJ.yaml,sha256=WAoQwAPVbbTdEwmzIJKuIq0SuKpZo1vQ2i7LWmdiZWY,505
+image2layout_computer_vision-0.1.9.data/data/txt/class_names.txt,sha256=IbpNCLLFvLjS3vWBEDVpC3fqur4QblLJGTa2A1Al_Mc,192
+image2layout_computer_vision-0.1.9.data/data/yaml/data_image2layoutH.yaml,sha256=_qRF4VzcRP-ycxVGBDG_skDthdF9nO9JKI_U3sIyHSw,514
+image2layout_computer_vision-0.1.9.data/data/yaml/data_image2layoutJ.yaml,sha256=WAoQwAPVbbTdEwmzIJKuIq0SuKpZo1vQ2i7LWmdiZWY,505
+image2layout_computer_vision-0.1.9.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+image2layout_computer_vision-0.1.9.dist-info/METADATA,sha256=r6jjYLSpFK2qOA6AI_eERiwWzhSG1ehNnnB6YkrU9mU,4005
+image2layout_computer_vision-0.1.9.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+image2layout_computer_vision-0.1.9.dist-info/top_level.txt,sha256=WACg35N9JP6b0Wv25OtjmfdF_up3uiq_N5d5LzGOaP8,29
+image2layout_computer_vision-0.1.9.dist-info/RECORD,,
