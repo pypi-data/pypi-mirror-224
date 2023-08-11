@@ -1,0 +1,8 @@
+stormtrooper/__init__.py,sha256=Q1jqaBeORFP9eKI3VOUfFfCAgESFNGv31WoVDS5n1l4,265
+stormtrooper/generative.py,sha256=ig7BEc7Qg90M76gVNGzgzms_Od9KgCBEVxDkTvYlF_g,12096
+stormtrooper/text2text.py,sha256=nTU3X4mopiJvhmljQlnA80kR-fHQoQ_zzb9-vRh8pDo,10617
+stormtrooper/zero_shot.py,sha256=n_iYxUfTlm59q_Twk5lBE_2R7H4D3f4t5xBGTZ3RMP8,5215
+stormtrooper-0.2.0.dist-info/METADATA,sha256=HEjmtge_oVwk1YfIN0Dgw-KrTJyUooUy3nkxZ68pVUM,3157
+stormtrooper-0.2.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+stormtrooper-0.2.0.dist-info/LICENSE,sha256=7PcztqmTAGXpzBRSdinEgaC-3s9032INZPjm3czQYXI,1095
+stormtrooper-0.2.0.dist-info/RECORD,,
