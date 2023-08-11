@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: reasoning-workbench
+Version: 0.1.0
+Requires-Dist: transformers
+Requires-Dist: bert-score
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: tqdm
+Requires-Dist: click
+

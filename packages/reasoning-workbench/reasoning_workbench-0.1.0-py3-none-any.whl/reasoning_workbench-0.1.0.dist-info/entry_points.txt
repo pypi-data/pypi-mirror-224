@@ -1,0 +1,2 @@
+[console_scripts]
+reasoning_workbench = reasoning_workbench.main:main
