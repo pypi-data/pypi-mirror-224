@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: open163
+Version: 0.0.1
+Summary: 网易公开课下载器，支持多线程
+Home-page: https://github.com/JamesHoi/Open163-Downloader
+Author: JamesHoi
+Author-email: jameshoi@foxmail.com
+License: MIT
+
