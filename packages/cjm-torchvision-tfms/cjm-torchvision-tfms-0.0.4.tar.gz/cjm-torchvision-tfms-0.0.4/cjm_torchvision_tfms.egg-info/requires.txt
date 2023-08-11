@@ -1,0 +1,8 @@
+torch
+numpy
+torchvision
+cjm_pytorch_utils
+cjm_pil_utils
+cjm_psl_utils
+
+[dev]
