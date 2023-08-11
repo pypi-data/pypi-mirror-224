@@ -1,0 +1,65 @@
+[tool.poetry]
+name = "simple-licence-plugin"
+version = "1.0.1"
+description = "Provides a plugin for pyarmor for checking a licence file is valid."
+authors = ["Alex Hunt <alex.hunt@csiro.au>"]
+license = "CSIRO Open Source Software Licence"
+readme = "README.md"
+classifiers = [
+	# How mature is this project? Common values are
+	#   3 - Alpha
+	#   4 - Beta
+	#   5 - Production/Stable
+	"Development Status :: 4 - Beta",
+	# Indicate who your project is intended for
+	"Intended Audience :: Science/Research",
+	# Pick your license as you wish (should match "license" above)
+	"License :: OSI Approved :: MIT License",
+	# Specify the Python versions you support here. In particular, ensure
+	# that you indicate whether you support Python 2, Python 3 or both.
+	"Programming Language :: Python :: 3",
+	"Programming Language :: Python :: 3.8",
+	"Programming Language :: Python :: 3.9",
+	"Programming Language :: Python :: 3.10",
+	"Programming Language :: Python :: 3.11",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pydantic = "^2.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+types-requests = "^2.31.0.2"
+requests = "^2.25.1"
+mypy = "^1.5.0"
+black = "^23.7.0"
+ruff = "*"
+importlib-metadata = "^6.0.0"
+lxml = "^4.6.2"
+
+[tool.ruff]
+ignore = [
+	# zip=strict only valid for py3.10+
+	"B905",
+	"B006", # Allow for [] as argument default
+	"B008",
+	"E402",
+	"D",
+]
+line-length = 120
+select = ["B", "D", "E", "F", "Q", "W", "I"]
+
+[tool.ruff.flake8-quotes]
+inline-quotes = "double"
+
+[tool.ruff.per-file-ignores]
+"**/__init__.py" = ["F401"]
+
+[tool.black]
+line-length = 120
+target-version = ['py310']
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
