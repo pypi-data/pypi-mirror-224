@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: CalibcheckUtils
+Version: 0.0.1
+Summary: The config is used for calib check
+Home-page: https://github.com/ChenXuhuaX/autolabelpipline.git
+Author: xuhua.chen
+Author-email: xuhua_chen@qq.com
+License: Apache Licence 2.0
+Keywords: pip,CalibcheckUtils
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: json
+
+# Example Package
+This is a simple  package to keep consistency between cpu code and gpu code for calibcheck project .  
+
+
+
