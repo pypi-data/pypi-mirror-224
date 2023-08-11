@@ -1,0 +1,16 @@
+pydantic_client/__init__.py,sha256=A0a8cR5wmNNAftp4P7HBfjHnthrFl0VenP9SAyW4ogM,272
+pydantic_client/clients/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydantic_client/clients/abstract_client.py,sha256=G_gX8uoRAOJJyGqY-_tER5h37RkeNWRkcAfTN8aWCVk,489
+pydantic_client/clients/aiohttp_client.py,sha256=AocaMEiBzzV6k69Zypk6olfqTKCQ-mMwMwsOeLkz8dQ,1111
+pydantic_client/clients/requests_client.py,sha256=-ShiwnflgAL71am9k-8Z1MDzrQ51CJAXbz9os5tJYtI,836
+pydantic_client/decorators.py,sha256=h-EDvp1Xw4b_eItxlcykfLQA4uv-XyZO-IJwXUia6cY,606
+pydantic_client/errors.py,sha256=PasCKJQ-76qVMZxb3BEPN8KzH7xiRCNiOJ3VntqSWo8,78
+pydantic_client/proxy.py,sha256=j2Iq20glZe4euKNMLdeNDQXyxNEmzNwndm8A7Dh79q4,2858
+pydantic_client/schema/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydantic_client/schema/http_request.py,sha256=4C2rPaxmdtx00dDyUZIUJmEx9l9UfPLFXR40hQHs-FU,192
+pydantic_client/schema/method_info.py,sha256=pAIOCXO7kO9Wz30Tz0JunYknjh2sFtvs2yIb99voT5o,455
+pydantic_client/utility.py,sha256=48Lt2O_CFKg_hhmxSIJwtjAdNGDXXv9C6GvBB4xF3Po,622
+pydantic_client-0.1.7.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pydantic_client-0.1.7.dist-info/METADATA,sha256=XxCb_ztKPuzPr79i54ZAnqfZM353haHd-yrWt4Vjm-U,1481
+pydantic_client-0.1.7.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+pydantic_client-0.1.7.dist-info/RECORD,,
