@@ -1,0 +1,2 @@
+[followthemoney.cli]
+store = ftmstore.cli:cli
