@@ -1,0 +1,15 @@
+bin/list_cpu_features.exe,sha256=flULaOlXvYJ5rKuz4j8pUeILE-pv26sFmchv3AtTIdo,31744
+hammingdist.cp39-win32.pyd,sha256=vq4zCzLTKHZp77rEwOjYLvkS5RRscSEyxU3tOBsTe94,191488
+include/cpu_features/cpu_features_cache_info.h,sha256=R_X7go3epObVH4cooSmtWTk5C7Js0JXIgnP-NWPWhxo,1747
+include/cpu_features/cpu_features_macros.h,sha256=IhOLAC-YE5YGhlIUgq0Q6xLzfY6wCf1RFFZa44N51Vs,10799
+include/cpu_features/cpuinfo_x86.h,sha256=g_PrzZPyDD6buEDFKhbwpgmA49NRMQqVB3S5WV4eR9w,7851
+lib/cmake/CpuFeatures/CpuFeaturesConfig.cmake,sha256=HuivjVek8CH-nbxkXoMpZTllE7pjvKUUE7_w61F_Cq4,105
+lib/cmake/CpuFeatures/CpuFeaturesConfigVersion.cmake,sha256=Nw-1WJo89PA3I45SYeceewx7lVCpgzV2DVY0E98vk4Q,2827
+lib/cmake/CpuFeatures/CpuFeaturesTargets-release.cmake,sha256=q0oOA7Aqr_8n8ETuaVVNjIgVl2h8H6fWPJSgeozSqiw,1449
+lib/cmake/CpuFeatures/CpuFeaturesTargets.cmake,sha256=0cx623aZEJA0d0YEBz2FM-XeFfI0YYQ1d5NhAaM5pyg,4279
+lib/cpu_features.lib,sha256=jLqhE0KTJrif4EsaEwdpEOP4UJwZFlAo6a5Zcz_bMkA,78668
+hammingdist-0.20.0.dist-info/METADATA,sha256=ntC8yr-2DuCmw3tuZa3O8y9mJgEp_mb8U1-ZXNrB9os,5687
+hammingdist-0.20.0.dist-info/WHEEL,sha256=YFDkj4JQDiIJRrWVeMD_eiCqjo3PDuRV4dK-sxSAwaI,99
+hammingdist-0.20.0.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hammingdist-0.20.0.dist-info/licenses/LICENSE.md,sha256=5uRRLj1vJSiNvQgVOU3p62Ri0ssAM_jAp5vbL_JZ_9o,1060
+hammingdist-0.20.0.dist-info/RECORD,,
