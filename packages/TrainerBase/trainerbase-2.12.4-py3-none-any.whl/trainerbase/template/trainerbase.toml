@@ -1,0 +1,4 @@
+[pymem]
+process_names = []
+exact_match = true
+ignore_case = false
