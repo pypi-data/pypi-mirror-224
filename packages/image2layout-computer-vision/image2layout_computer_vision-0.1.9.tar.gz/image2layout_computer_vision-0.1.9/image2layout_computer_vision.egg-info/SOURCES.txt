@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+image2layout_computer_vision.egg-info/PKG-INFO
+image2layout_computer_vision.egg-info/SOURCES.txt
+image2layout_computer_vision.egg-info/dependency_links.txt
+image2layout_computer_vision.egg-info/top_level.txt
+src/image2layout_computer_vision/README.md
+src/image2layout_computer_vision/__init__.py
+src/image2layout_computer_vision/requirements.txt
+src/image2layout_computer_vision/yolov6/class_names.txt
+src/image2layout_computer_vision/yolov6/data_image2layoutH.yaml
+src/image2layout_computer_vision/yolov6/data_image2layoutJ.yaml
