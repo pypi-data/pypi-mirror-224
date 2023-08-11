@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+ctg_analysis/__init__.py
+ctg_analysis/ctg_analysis.py
+ctg_analysis.egg-info/PKG-INFO
+ctg_analysis.egg-info/SOURCES.txt
+ctg_analysis.egg-info/dependency_links.txt
+ctg_analysis.egg-info/requires.txt
+ctg_analysis.egg-info/top_level.txt
