@@ -1,0 +1,11 @@
+LICENSE
+LICENSE.txt
+README.md
+setup.py
+kata2angka/__init__.py
+kata2angka/konversi.py
+kata2angka.egg-info/PKG-INFO
+kata2angka.egg-info/SOURCES.txt
+kata2angka.egg-info/dependency_links.txt
+kata2angka.egg-info/top_level.txt
+tests/test_konversi.py

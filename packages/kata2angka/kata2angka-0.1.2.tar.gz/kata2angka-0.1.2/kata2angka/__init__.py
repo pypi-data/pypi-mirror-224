@@ -1,0 +1,1 @@
+from .konversi import word_to_num
