@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: reply_ai_predictors
+Version: 0.0.1
+Summary: Package for encapsulation of AI models to use in Reply AI services
+Home-page: https://github.com/reply-team/reply_ai_predictors
+Author: Marianna Diachuk
+Author-email: marianna.d@reply.io
+Project-URL: Bug Tracker, https://github.com/reply-team/reply_ai_predictors
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Predictors package
+
+This package is used to encapsulate AI models functionality and simplify their usage for direct requests or tuning.
+
+## Package installation guide
+To install package locally without usage of pip run this command in virtual env from the directory of the package:
+`python3 setup.py install`
