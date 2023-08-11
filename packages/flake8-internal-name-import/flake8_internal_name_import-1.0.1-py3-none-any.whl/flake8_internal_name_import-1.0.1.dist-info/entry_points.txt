@@ -1,0 +1,2 @@
+[flake8.extension]
+INI00 = flake8_internal_name_import:Plugin
