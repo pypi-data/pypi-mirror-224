@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: melissa-teste
+Version: 0.0.2
+Summary: Meu primeiro pacote
+Author: Melissa
+Author-email: msnmelissaoa15@hotmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+Meu primeiro projeto em Python com uma descrição um pouco mais longa

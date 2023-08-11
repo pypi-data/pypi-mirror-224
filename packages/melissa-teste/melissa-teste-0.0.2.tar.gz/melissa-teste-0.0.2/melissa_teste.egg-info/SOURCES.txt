@@ -1,0 +1,12 @@
+LICENSE
+setup.py
+melissa-teste/__init__.py
+melissa-teste/add.py
+melissa-teste/subtract.py
+melissa-teste/extra/__init__.py
+melissa-teste/extra/divide.py
+melissa-teste/extra/multiply.py
+melissa_teste.egg-info/PKG-INFO
+melissa_teste.egg-info/SOURCES.txt
+melissa_teste.egg-info/dependency_links.txt
+melissa_teste.egg-info/top_level.txt
