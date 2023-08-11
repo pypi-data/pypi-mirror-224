@@ -1,0 +1,17 @@
+[project]
+name = 'KwoksTool'
+version ='0.0.19'
+dependencies=[
+    'selenium',
+    'tushare',
+    'pyexecjs',
+    'requests',
+    'pandas',
+    'numpy',
+    'pyecharts',
+    'pyinstaller',
+    'flask',
+    'twine==4.0.2',
+    'build==0.10.0',
+    'pyinstaller'
+]
