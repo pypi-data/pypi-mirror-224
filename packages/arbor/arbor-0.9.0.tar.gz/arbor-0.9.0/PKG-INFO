@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: arbor
+Version: 0.9.0
+Summary: High performance simulation of networks of multicompartment neurons.
+Keywords: simulator neuroscience morphological detail HPC GPU C++
+Home-page: https://arbor-sim.org
+Author-Email: Arbor Dev Team <contact@arbor-sim.org>
+Maintainer-Email: Arbor Dev Team <contact@arbor-sim.org>
+License: Copyright 2016-2020 Eidgenössische Technische Hochschule Zürich and Forschungszentrum Jülich GmbH.
+        
+        Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+        
+        1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+        
+        2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+        
+        3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: C++
+Project-URL: Homepage, https://arbor-sim.org
+Project-URL: Documentation, https://docs.arbor-sim.org
+Project-URL: Repository, https://github.com/arbor-sim/arbor
+Project-URL: Changelog, https://github.com/arbor-sim/arbor/releases
+Requires-Python: >=3.7
+Requires-Dist: numpy
+Description-Content-Type: text/markdown
+
+[![ci](https://github.com/arbor-sim/arbor/actions/workflows/test-matrix.yml/badge.svg)](https://github.com/arbor-sim/arbor/actions/workflows/test-matrix.yml)
+[![spack](https://github.com/arbor-sim/arbor/actions/workflows/test-spack.yml/badge.svg)](https://github.com/arbor-sim/arbor/actions/workflows/test-spack.yml)
+[![pip](https://github.com/arbor-sim/arbor/actions/workflows/test-pip.yml/badge.svg)](https://github.com/arbor-sim/arbor/actions/workflows/test-pip.yml)
+[![pythonwheels](https://github.com/arbor-sim/arbor/actions/workflows/build-pip-wheels.yml/badge.svg)](https://github.com/arbor-sim/arbor/actions/workflows/build-pip-wheels.yml)
+[![gitpod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/arbor-sim/arbor)
+[![docs](https://readthedocs.org/projects/arbor/badge/?version=latest)](https://docs.arbor-sim.org/en/latest/)
+[![gitter](https://badges.gitter.im/arbor-sim/community.svg)](https://gitter.im/arbor-sim/community)
+
+# Arbor Library
+
+[Arbor](https://arbor-sim.org) is a library for implementing performance portable network simulations of multi-compartment neuron models.
+
+An installation guide and library documentation are available online at [docs.arbor-sim.org](http://docs.arbor-sim.org).
+
+[Submit a ticket](https://github.com/arbor-sim/arbor/issues) or [join Gitter](https://gitter.im/arbor-sim/community) or [Matrix](https://matrix.to/#/#arbor-sim_community:gitter.im) if you have any questions or need help.
+
+### Citing Arbor
+
+The Arbor introductory paper and entry on Zenodo can be cited, see [CITATION.bib](CITATION.bib). Please refer to [our documentation](https://docs.arbor-sim.org/en/latest/index.html#citing-arbor) for more information.
