@@ -1,0 +1,2 @@
+[console_scripts]
+anticp2 = anticp2.python_scripts.anticp2:main
