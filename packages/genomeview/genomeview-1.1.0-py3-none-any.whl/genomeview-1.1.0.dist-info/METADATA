@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: genomeview
+Version: 1.1.0
+Summary: genomeview
+Author: Noah Spies
+Requires-Python: >=3.3
+License-File: LICENSE
+Requires-Dist: pysam
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pyBigWig
+
