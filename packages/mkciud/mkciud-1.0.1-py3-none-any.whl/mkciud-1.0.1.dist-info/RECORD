@@ -1,0 +1,12 @@
+lib/mkciud/__init__.py,sha256=RULE3tw-WNNHzdN5MY8zqcRdp8Q_coUUny_sWIREKCM,55
+lib/mkciud/__main__.py,sha256=bS59Rd0kYAxDp5Q45IeKj0RL7tytJ3fIThKlYwTdPSI,3430
+lib/mkciud/_internal.py,sha256=0T1JToRO5Tdj6-BpfmsIsr-7yjT3LpQrS3C9aKdlskw,1388
+mkciud/__init__.py,sha256=RULE3tw-WNNHzdN5MY8zqcRdp8Q_coUUny_sWIREKCM,55
+mkciud/__main__.py,sha256=bS59Rd0kYAxDp5Q45IeKj0RL7tytJ3fIThKlYwTdPSI,3430
+mkciud/_internal.py,sha256=0T1JToRO5Tdj6-BpfmsIsr-7yjT3LpQrS3C9aKdlskw,1388
+mkciud-1.0.1.dist-info/LICENSE,sha256=TTqBwBtM6dS36KgIE90d5F33bPZXr3BKrfx_v2fSRYM,1073
+mkciud-1.0.1.dist-info/METADATA,sha256=IMU2FhSETfT8Y3rq9536K-Yr7jkF1go8mMj26_owFUc,2931
+mkciud-1.0.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+mkciud-1.0.1.dist-info/entry_points.txt,sha256=S2mdRtUL21m7Wp8_c23ZSJwlWMRi6cgHFVmdgOZM0o8,48
+mkciud-1.0.1.dist-info/top_level.txt,sha256=0tYWJ7eHb6APrggvGV_FFyWXGc4dLaJGZ16Kgv-wtfg,7
+mkciud-1.0.1.dist-info/RECORD,,
