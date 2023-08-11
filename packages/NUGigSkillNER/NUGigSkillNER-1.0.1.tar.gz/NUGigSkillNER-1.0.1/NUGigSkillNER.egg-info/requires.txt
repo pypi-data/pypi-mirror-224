@@ -1,0 +1,6 @@
+jellyfish
+nltk
+numpy
+pandas
+scipy
+spacy
