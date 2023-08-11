@@ -1,0 +1,33 @@
+pyneuroml.plot package
+======================
+
+.. automodule:: pyneuroml.plot
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyneuroml.plot.Plot module
+--------------------------------
+
+.. automodule:: pyneuroml.plot.Plot
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyneuroml.plot.PlotSpikes module
+--------------------------------
+
+.. automodule:: pyneuroml.plot.PlotSpikes
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyneuroml.plot.PlotMorphology module
+-------------------------------------
+
+.. automodule:: pyneuroml.plot.PlotMorphology
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :exclude-members:  set, add_line, plot_from_console, main, process_args, LineDataUnits
+
