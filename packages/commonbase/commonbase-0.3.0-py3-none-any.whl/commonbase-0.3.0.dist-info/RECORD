@@ -1,0 +1,15 @@
+commonbase/__init__.py,sha256=zrKWbI8n4RIQ9xTHhHLXwijWsOPmI6c0MmtbrQXp9Mg,647
+commonbase/chat_context.py,sha256=Pe-1iUiPMi1vbNsHzuemGc6X-okQqK1_kfWOmOgffi0,306
+commonbase/completion.py,sha256=dFp_lTLnM5x-xa9O36Na6YVSzJV0EZ5-NIFh5_g72DU,6337
+commonbase/completion_response.py,sha256=b49X3ZnYKNl0nXJNfcIhf5_Xtw_bckYNm5YUW0S7qJE,1284
+commonbase/exceptions.py,sha256=e5jHVrvyUB8RyqU7WYw4OMvegZK1ILdndBqgyAy89_E,317
+commonbase/provider_config.py,sha256=MIzr_2vfJ79iQzwduAAh4DKUQpdwf6ZhZTzCzpwUA3s,1192
+commonbase/truncation_config.py,sha256=xtoIddJKsOtUBbyTr1npd5SlBbpE3XGe-72i7Ojxg5o,600
+commonbase/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+commonbase/tests/test_completion.py,sha256=EtnoGqqhQ06cZlllBtAPCwSosFY9NDFsvuA5MwdBHJ4,4377
+commonbase/tests/test_model.py,sha256=2IV8fO0EBx8OY5B3zZqcrsljJkXedR--kALYkjWzX50,2152
+commonbase/tests/test_provider_api_key.py,sha256=_MXp4dmUWPXp8oRXcr1UoxHuKwvov2_Sr2d0vb60z-s,1084
+commonbase-0.3.0.dist-info/METADATA,sha256=tTNwBfGqR0kbE0g7D6Alm5HOGFPRtCd7LaiIbSWvzLY,2804
+commonbase-0.3.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+commonbase-0.3.0.dist-info/licenses/LICENSE,sha256=mFYnRySE15HGXRdzXfoaMhm2ASSBrmEUeWg-xlvcc-Q,1067
+commonbase-0.3.0.dist-info/RECORD,,
