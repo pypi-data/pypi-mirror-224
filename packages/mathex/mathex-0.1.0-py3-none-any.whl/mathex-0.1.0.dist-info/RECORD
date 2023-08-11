@@ -1,0 +1,10 @@
+mathex/__init__.py,sha256=WC1O77W4vZ7lkAdbNM1cTuppCTgA03qTo_y9tACM4wM,1438
+mathex/config.py,sha256=IFXEV2LNUi6AAZeRbcFnoWuJB_1ZEwAkk6ZdH95vZQA,18384
+mathex/enums.py,sha256=juEY4Uidqf4csxDRr5Jl3osH2teHt5deVwpwnV9i2GA,1972
+mathex/error.py,sha256=ThR-a5J6gLgqvXSvzbJS8sBUzM2Ds5OmJK_UwlnkdsY,1231
+mathex/token.py,sha256=hLObv8_mLwKWG_x0MoO9-06wkizLdQSGISlrdatK4NQ,2515
+mathex/tokens.py,sha256=Ul-r7Kx7ay_IemO9qP8Y3DUIdpEEt35DCh4n8d0u4aM,2075
+mathex-0.1.0.dist-info/METADATA,sha256=DLK8-0wHARsitae-OC0ZniNE5PWlvNdV6ROCMAbg9e4,2116
+mathex-0.1.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+mathex-0.1.0.dist-info/licenses/LICENSE,sha256=qF5ufmU-EVFZnSDMr2rxqpDEJvgAVICR4wzlkvDFw9I,1052
+mathex-0.1.0.dist-info/RECORD,,
