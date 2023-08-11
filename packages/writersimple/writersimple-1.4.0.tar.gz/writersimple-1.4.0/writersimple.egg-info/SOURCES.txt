@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+writersimple/__init__.py
+writersimple.egg-info/PKG-INFO
+writersimple.egg-info/SOURCES.txt
+writersimple.egg-info/dependency_links.txt
+writersimple.egg-info/requires.txt
+writersimple.egg-info/top_level.txt
