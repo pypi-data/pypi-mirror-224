@@ -1,0 +1,2 @@
+[console_scripts]
+crossref = crossref.crossref_cli:main
