@@ -1,0 +1,3 @@
+import cputools
+
+cputools.main()
