@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: print_sql_tool
+Version: 0.0.4
+Summary: print_sql_tool
+Home-page: https://github.com/Rwwwrl/Django-sql-printer
+Author: Alexey Sosov
+Author-email: lesh.solowiew@yandex.ru
+License: BSD-3-Clause
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+## SqlPrinter
+
+Нужен для принтов _sql_-кода, которые генерирует джанго.
+
+#### Использование
+
+1. Использование в качестве **декоратора**:
+
+```python
+
+@PrintSqlTool()
+def some_func():
+    ...
+    models.SomeModel.objects.first()
+    ...
+    models = models.SomeModel.objects.all()
+    models_data = get_models_data(models)
+    ...
+
+    return smth
+```
+
+В этом случае мы увидим все запросы, которые проходили в функции
+
+2. Использование в качестве **контекстного менеджера**
+
+```python
+
+def some_func():
+    ...
+    models.SomeModel.objects.first()
+    ...
+    with PrintSqlTool():
+        models = models.SomeModel.objects.all()
+        models_data = get_models_data(models)
+    ...
+
+    return smth
+```
+
+В этом случае мы увидим все запросы, которые были выполнены внутри блока контекстного менеджера.
+
+##### Если в проекте используется несколько бд:
+
+Мы сможем увидеть запросы только к одной из бд, по умолчанию это бд, у которой _alias_ = **default**
+Если нужно указать другую бд, для которой нужно принтить запросы, то есть аргумент **db_alias**:
+
+```python
+
+@PrintSqlTool(db_alias='some_db_alias')
+def some_func():
+    ...
+    models.SomeModel.objects.first()
+    ...
+    models = models.SomeModel.objects.all()
+    models_data = get_models_data(models)
+    ...
+
+    return smth
+```
+
+
+
+
+
