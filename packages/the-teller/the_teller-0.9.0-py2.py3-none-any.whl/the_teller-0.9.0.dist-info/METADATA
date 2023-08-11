@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: the-teller
+Version: 0.9.0
+Summary: teller, explainable machine learning
+Home-page: https://github.com/thierrymoudiki/teller
+Download-URL: https://github.com/thierrymoudiki/teller/tarball/0.9.0
+Author: T. Moudiki
+Author-email: thierry.moudiki@gmail.com
+License: BSD
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: joblib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: seaborn
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: tqdm
+
+Model-agnostic Machine Learning explainability
