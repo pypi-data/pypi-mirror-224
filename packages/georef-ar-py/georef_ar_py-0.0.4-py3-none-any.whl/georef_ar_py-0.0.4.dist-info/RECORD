@@ -1,0 +1,16 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+georef_ar_py/__init__.py,sha256=VfBpeuJDS5O2nXB8bJ5vZc_CkotYSzDbIIeZOP0nGN8,138
+georef_ar_py/__main__.py,sha256=nKQZ_P5kHmOjfVwvX2LjpkSoKxdqwjOaNha-5VW08Iw,339
+georef_ar_py/commands.py,sha256=z0GlccoTFqtkYAARgl93s6c6tYWiSUTbDmwkgKOdtH4,2956
+georef_ar_py/constants.py,sha256=8zNUyi_yJSkA5ZLKCSkiGyBeYl8LsfymzbsC88NnE4I,1113
+georef_ar_py/diff.py,sha256=8QUYdporHa6ExkfBHFENU-RjKqErGGIjQIPF64uY8aE,8507
+georef_ar_py/georequests.py,sha256=UQy3vXZW9eqoEOv0toa5zeriaRwoKSrtId7MvTOFeoc,1896
+georef_ar_py/info.py,sha256=8B-i2AjAh2UK8FrUr1lThvv30Cq-QnUozpuw9JD2zTM,5083
+georef_ar_py/similar.py,sha256=bBc7YEarCMId-4EJh8Ppayvn4cNq8cSgYZzD9Se75ys,911
+georef_ar_py/territorial.py,sha256=9f6Tjmz2xng8a-775nAyWnZslDzIHVhqPFTAY9j4D5k,746
+georef_ar_py-0.0.4.dist-info/LICENSE,sha256=z57V5vAL4HnnoVwby9w1SUUB5B3WVDLScyK4BUkontY,1065
+georef_ar_py-0.0.4.dist-info/METADATA,sha256=ymJtNlzpNILj6ryIQU5PthZ94W6EmyGzRYmhdrMmBJk,2705
+georef_ar_py-0.0.4.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+georef_ar_py-0.0.4.dist-info/entry_points.txt,sha256=n32ukSTZWZmVfiUdnDBnJ3VxtB1NhjnHQ7IAAYdk2bM,54
+georef_ar_py-0.0.4.dist-info/top_level.txt,sha256=wdDLrWiPGCP5igp6gFfsxMl_1Tsj3xPKxN6BclTvnaU,22
+georef_ar_py-0.0.4.dist-info/RECORD,,
