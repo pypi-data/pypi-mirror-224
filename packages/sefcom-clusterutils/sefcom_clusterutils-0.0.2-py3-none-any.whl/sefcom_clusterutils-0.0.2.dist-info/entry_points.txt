@@ -1,0 +1,3 @@
+[console_scripts]
+sc-utilization=sefcom_clusterutils.utilization:main
+
