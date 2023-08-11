@@ -1,0 +1,8 @@
+# Core requirements for using this application
+-c constraints.txt
+
+Django                                  # Web application framework
+# openedx-events 8.5.0 adds serialization methods to EventsMetadata
+openedx-events>=8.5.0                   # Events API
+edx_django_utils
+edx_toggles
