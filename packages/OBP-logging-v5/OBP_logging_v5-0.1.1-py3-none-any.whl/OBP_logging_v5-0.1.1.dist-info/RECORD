@@ -1,0 +1,9 @@
+OBP_logging_v5/__init__.py,sha256=p5_11pJj7lyievLoDYSAkX6b7JPril5DUE6YD1snqQ0,6323
+OBP_logging_v5/cloudwatch.py,sha256=6FIC_pgj7bjBowEYyvFUrFjYxSLzYqHVHOVGh-HG0Pc,4342
+OBP_logging_v5/ec2.py,sha256=C-yS45mPeJXtr-6fwxJPP6cSZjcWz45PEF7IJ1XP12I,2159
+OBP_logging_v5/rds.py,sha256=2bik-NN6L-CjOl9GhY0JDZRtfeq71etcUOFJwMi4iys,7597
+OBP_logging_v5/utils.py,sha256=ju4_vi0BiQVuteBtOPmEZglUaglXhP2mC1U7Na8xI3Q,4756
+OBP_logging_v5-0.1.1.dist-info/METADATA,sha256=hPfOCyZxH-Vc-4BUojYxux7rxwIoBpRnIO4gceZjzKQ,418
+OBP_logging_v5-0.1.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+OBP_logging_v5-0.1.1.dist-info/top_level.txt,sha256=oMDyJuAgsC_AK_25BjySGrpXoxPS8A4Cux3DaNJmCRM,15
+OBP_logging_v5-0.1.1.dist-info/RECORD,,
