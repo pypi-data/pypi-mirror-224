@@ -1,0 +1,2 @@
+singlestoredb>=0.5.0
+sqlalchemy<3.0.0dev,>=1.4.0
