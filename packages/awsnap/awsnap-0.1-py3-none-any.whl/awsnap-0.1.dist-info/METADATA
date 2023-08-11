@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: awsnap
+Version: 0.1
+Summary: AWS SSO Utility
+Author: Aaron West
+Author-email: aphexlog@gmail.com
+License-File: LICENSE
+Requires-Dist: boto3
+
