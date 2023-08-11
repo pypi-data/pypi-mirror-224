@@ -1,0 +1,9 @@
+ccm15/CCM15Device.py,sha256=MZsa-i7fQPM9wPacVHK18520XvOEscs3Ig53eSO7k-k,1384
+ccm15/CCM15DeviceState.py,sha256=CRDD4A4N6xaLrt81Qz178M6PPPu1tmIMlEgMZpQbqZM,244
+ccm15/CCM15SlaveDevice.py,sha256=5z2SOn_OlLbDQffEjSwC8iSq8CC5FCpjRBRWRqkaDY8,1743
+ccm15/__init__.py,sha256=hHgQhen9MXWrZn-jTbUZ_AwiGjFiC3KvmeJrHXZgkxE,262
+py_ccm15-0.0.3.dist-info/LICENSE,sha256=_GTXQn40nzoMBOtvpqPCWPUlWirv0-5jJZEbrEhvU70,1089
+py_ccm15-0.0.3.dist-info/METADATA,sha256=43K0sLjYyO0_20D5gg7HTJ_aDVPMiZTTXkv5C3ar2AU,571
+py_ccm15-0.0.3.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+py_ccm15-0.0.3.dist-info/top_level.txt,sha256=fgKSrt9y6pIO3BeOiypouBwCm0msiT6sdoSRG3zJy4s,6
+py_ccm15-0.0.3.dist-info/RECORD,,
