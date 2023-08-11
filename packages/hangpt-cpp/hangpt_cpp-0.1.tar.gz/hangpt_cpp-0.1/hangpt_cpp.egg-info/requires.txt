@@ -1,0 +1,15 @@
+uuid
+ctranslate2
+sentencepiece
+urlextract
+diskcache
+numpy
+pandas
+sqlalchemy
+finetuner
+anyio
+starlette
+fastapi
+pydantic
+sse_starlette
+uvicorn

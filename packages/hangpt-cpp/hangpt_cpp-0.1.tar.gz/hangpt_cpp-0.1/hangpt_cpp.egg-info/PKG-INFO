@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: hangpt-cpp
+Version: 0.1
+Summary: A brief description of hangpt_cpp
+Home-page: https://github.com/yourusername/hangpt_cpp
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
