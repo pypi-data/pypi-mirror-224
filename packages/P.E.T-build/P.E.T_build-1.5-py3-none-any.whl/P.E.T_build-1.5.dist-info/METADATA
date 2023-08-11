@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: P.E.T-build
+Version: 1.5
+Summary: A python tool to edit image geolocation data.
+Home-page: UNKNOWN
+License: UNKNOWN
+Keywords: python,photo,edit,metadata,exif,gps
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: Environment :: Console
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: typer
+Requires-Dist: rich
+Requires-Dist: pyexiftool
+Requires-Dist: pyfzf
+
+# P.E.T
+A python tool to edit image geolocation data.
+
+## Installation
+
+Run pip install.
+
+```shell
+pip install git+https://github.com/ahoodatheguy/P.E.T
+```
+
+## Usage
+Just run `pet gps` followed by the path of an image in quotes.
+
+![](https://github.com/ahoodatheguy/P.E.T/blob/main/docs/media/demo.gif)
+
+# Help menu
+You can run `pet --help` to get a list of commands.
+
+
