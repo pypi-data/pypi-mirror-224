@@ -1,0 +1,13 @@
+README.md
+setup.py
+owntrack2gpx.egg-info/PKG-INFO
+owntrack2gpx.egg-info/SOURCES.txt
+owntrack2gpx.egg-info/dependency_links.txt
+owntrack2gpx.egg-info/entry_points.txt
+owntrack2gpx.egg-info/requires.txt
+owntrack2gpx.egg-info/top_level.txt
+src/__init__.py
+src/__main__.py
+src/convert.py
+tests/__init__.py
+tests/test_convert.py
