@@ -1,0 +1,11 @@
+CASTLE/ABA_annotation.py,sha256=v25vtELpJ8xFpMlGC88D-JH4LtukGE1zTbf1_5XzLoY,8519
+CASTLE/__init__.py,sha256=R_k_o_tnaL7pocI5hxuJInS2EHDzSTIBpl1mVXmeUQI,120
+CASTLE/emb_alignment.py,sha256=WSUFzPiHkYxcOW_aBDZGY4zoZQbcDHg8dztP2T8vqSs,17521
+CASTLE/loc_alignment.py,sha256=0Rl3_1_OepXS7-gqNbr2IWF-00KP7LajdeAI4vyrRG4,12340
+CASTLE/loc_prediction.py,sha256=o_05hpvU4dN51KwVnYmVcQ6GehrG3NeHDsrnzvRJCss,12511
+CASTLE/utils.py,sha256=w0l7ONwEPGO-3SV7bGKnZQgkcIvoVALZZUsb7mzObbE,2819
+CASTLE_tools-1.1.dist-info/LICENSE.txt,sha256=cKXK0RQ8KNwoSkdVzSTnR8inpNUU6JWeCgtzGxbZ1IU,1068
+CASTLE_tools-1.1.dist-info/METADATA,sha256=ArHyWfQlOlJDzZzZhYDKPGlf1Leze96dIxn-PFLFmrs,237
+CASTLE_tools-1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+CASTLE_tools-1.1.dist-info/top_level.txt,sha256=YYcr_vIMBr7Y2TCA3MA9RmiPhDfZYNlZUA2SLp2kL8E,7
+CASTLE_tools-1.1.dist-info/RECORD,,
