@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: psyl
+Version: 0.8.1
+Summary: a stripped down scheme-like parser
+Home-page: https://hg.sr.ht/~pythonian/psyl
+Author: Pythonian
+Author-email: aurelien.campeas@pythonian.fr
+
