@@ -1,0 +1,48 @@
+# Copyright (C) 2023 Bootloader.  All rights reserved.
+#
+# This software is the confidential and proprietary information of
+# Bootloader or one of its subsidiaries.  You shall not disclose this
+# confidential information and shall use it only in accordance with the
+# terms of the license agreement or other applicable agreement you
+# entered into with Bootloader.
+#
+# BOOTLOADER MAKES NO REPRESENTATIONS OR WARRANTIES ABOUT THE
+# SUITABILITY OF THE SOFTWARE, EITHER EXPRESS OR IMPLIED, INCLUDING BUT
+# NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR
+# A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.  BOOTLOADER SHALL NOT BE
+# LIABLE FOR ANY LOSSES OR DAMAGES SUFFERED BY LICENSEE AS A RESULT OF
+# USING, MODIFYING OR DISTRIBUTING THIS SOFTWARE OR ITS DERIVATIVES.
+
+[tool.poetry]
+authors = ["Daniel CAUNE <daniel.caune@gmail.com>"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "License :: Other/Proprietary License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Topic :: Software Development :: Libraries",
+]
+description = "Bootloader Maya Utilities Library"
+include = [
+    "CHANGELOG.md",
+]
+keywords = ["conversion", "maya", "tool", "utility"]
+license = "SEE LICENSE IN <LICENSE>"
+name = "bootloader-maya-utils-library"
+packages = [{ include = "bootloader", from = "src" }]
+readme = "README.md"
+repository = "https://github.com/bootloader-studio/bootloader-maya-utils-python-library"
+version = "0.0.1"
+
+[tool.poetry.dependencies]
+perseus-core-library = "^1.19.4"
+perseus-getenv-library = "^1.0.4"
+python = "^3.9"
+pygifsicle = "^1.0.7"
+
+[tool.poetry.scripts]
+maya-convert = 'bootloader.utils.cli.converter:main'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
