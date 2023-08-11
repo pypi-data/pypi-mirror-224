@@ -1,0 +1,11 @@
+packaage/__init__.py,sha256=fUu4LJlJtsTQf74eY1nimbWPxk1Vpj3tC4_xx65cn20,66
+packaage/aws.py,sha256=6byq7a5lhOxW4RKo2liv26HLWU2AOV27-0fdLn6tP4k,2910
+packaage/database.py,sha256=PZ7zDCfdmg9kQ89btmzK5MODyRYDrXfJV4KSPABx1OU,1651
+packaage/life.py,sha256=JflOXWIBBqfd7hhp6Q1q4eIo8-yb9OMNO4U19icfK20,278
+packaage/test.py,sha256=RWFNgI4gluuLQ4FTC0_HiPl05uLqDEaY-A8FO6gs18o,626
+packaage/utils.py,sha256=LebkRZ6k7tR-rOdiZzeT5BnZkAS2d-67P9LepC22Bw4,512
+packaage-0.0.6.dist-info/LICENSE.txt,sha256=Jc9ocSn6imfwNTUIK94MoB3s9QJ8BSXBg7NHs9cj98A,1090
+packaage-0.0.6.dist-info/METADATA,sha256=La2aQ_hvO1we27PuP49NU3PiSQdQ-ceMVuT9TBvPuAk,1427
+packaage-0.0.6.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+packaage-0.0.6.dist-info/top_level.txt,sha256=SH1ii_rmKlAPxNbY6kKtFH8PkID7zjHkjU2dcuYx3R4,9
+packaage-0.0.6.dist-info/RECORD,,
