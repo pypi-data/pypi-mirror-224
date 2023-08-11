@@ -1,0 +1,7 @@
+LICENSE
+README.md
+pyproject.toml
+src/python/t0wmadatasvc.egg-info/PKG-INFO
+src/python/t0wmadatasvc.egg-info/SOURCES.txt
+src/python/t0wmadatasvc.egg-info/dependency_links.txt
+src/python/t0wmadatasvc.egg-info/top_level.txt

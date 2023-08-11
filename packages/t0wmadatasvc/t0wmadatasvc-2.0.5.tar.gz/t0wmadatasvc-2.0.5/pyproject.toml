@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "t0wmadatasvc"
+version = "2.0.5"
+description = "This package contains the code that connects with the API and maintains its entry points"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {file = "LICENSE"}
+keywords = ["t0wmadatasvc"]
+authors = [
+  {email = "Dirk.Hufnagel@cern.ch"},
+  {name = "Dirk Hufnagel"}
+]
+maintainers = [
+  {name = "cmsweb", email = "hn-cms-webInterfaces@cern.ch"}
+]
+
+classifiers  = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved",
+  "Operating System :: MacOS :: MacOS X",
+  "Operating System :: Microsoft :: Windows",
+  "Operating System :: POSIX",
+  "Programming Language :: Python",
+  "Topic :: Database"
+]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+namespaces = false
+where = ["src/python"]
+
+[project.urls]
+homepage = "https://github.com/dmwm/t0wmadatasvc"
+ 
+
