@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "myevery"
+version = "0.0.11"
+description = "A package to easily create and expose FastAPI services."
+authors = ["B. Truong <myevery@mail.com>"]
+maintainers = [
+    "B. Truong <myevery@mail.com>",
+]
+repository = "https://github.com/myevery-ai/myevery"
+license = "MIT"
+readme = "README.md"
+keywords = ["langchain", "openai", "gpt", "fastapi", "llm"]
+packages = [{ include = "myevery", from = "." }]
+
+
+[tool.poetry.scripts]
+myevery = "myevery.__main__:entrypoint"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.101.0"
+uvicorn = "^0.23.2"
+langchain = "^0.0.258"
+openai = "^0.27.8"
+fire = "^0.5.0"
+loguru = "^0.7.0"
+langchain-experimental = "^0.0.8"
