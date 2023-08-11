@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+assistant_ostap/__init__.py
+assistant_ostap/main.py
+assistant_ostap.egg-info/PKG-INFO
+assistant_ostap.egg-info/SOURCES.txt
+assistant_ostap.egg-info/dependency_links.txt
+assistant_ostap.egg-info/entry_points.txt
+assistant_ostap.egg-info/requires.txt
+assistant_ostap.egg-info/top_level.txt
+assistant_ostap/assistant_ostap/__init__.py
+assistant_ostap/assistant_ostap/classes.py
+assistant_ostap/assistant_ostap/clean.py
+assistant_ostap/assistant_ostap/handlers.py
+assistant_ostap/assistant_ostap/notes.py
