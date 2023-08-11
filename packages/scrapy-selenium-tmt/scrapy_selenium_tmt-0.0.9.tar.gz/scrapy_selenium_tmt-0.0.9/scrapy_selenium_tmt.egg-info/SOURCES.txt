@@ -1,0 +1,11 @@
+LICENCE
+MANIFEST.in
+README.md
+setup.py
+requirements/requirements.txt
+scrapy_selenium_tmt.egg-info/PKG-INFO
+scrapy_selenium_tmt.egg-info/SOURCES.txt
+scrapy_selenium_tmt.egg-info/dependency_links.txt
+scrapy_selenium_tmt.egg-info/top_level.txt
+tests/test_cases.py
+tests/test_middlewares.py
