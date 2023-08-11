@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: byron
+Version: 0.0
+Summary: A multi-purpose extensible self-adaptive evolutionary algorithm
+License: Apache-2.0
+Author: Giovanni Squillero
+Author-email: giovanni.squillero@polito.it
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+
