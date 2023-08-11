@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pytest_line_profiler.py
+setup.py
+pytest_line_profiler.egg-info/PKG-INFO
+pytest_line_profiler.egg-info/SOURCES.txt
+pytest_line_profiler.egg-info/dependency_links.txt
+pytest_line_profiler.egg-info/entry_points.txt
+pytest_line_profiler.egg-info/requires.txt
+pytest_line_profiler.egg-info/top_level.txt
+tests/test_line_profiler.py
