@@ -1,0 +1,15 @@
+pyhdrh.pypy310-pp73-win_amd64.pyd,sha256=VTY4zTXySZnpbhQUYNgc5g_bdKK18uO6Mox7MZAgQ18,14848
+hdrh/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hdrh/codec.py,sha256=WnIRa64Rf2ePvZCuaGMVQ6BoyC3r-zqCwYZWg-tSgi0,15948
+hdrh/dump.py,sha256=RGCbmDY4T6jMTa4USodgOgUqeElArT5T9qHzw6AWgI4,1290
+hdrh/histogram.py,sha256=ryrt0g5rmcmrTS2v73zbCjzZ5PsBZktWJOZNl0HdwXw,31398
+hdrh/iterators.py,sha256=WkLRA9k2ShF7cHA5Aovs5-jWRMpYYYVx36-S_XB3tFk,14114
+hdrh/log.py,sha256=lZpQv7daiZ_uUTvtat4Jvk7-Lpml7UZkCCLKm8Rb5NU,18918
+hdrhistogram-0.10.3.dist-info/AUTHORS,sha256=Xor38gbz8vxsELxhJapN_7B7tbnG-OeqHALj_DdSPeQ,36
+hdrhistogram-0.10.3.dist-info/LICENSE,sha256=LlTNhKZFvqJZQ8dd2K5nyykeZqR6EVeDM8m0s7a4bIU,11560
+hdrhistogram-0.10.3.dist-info/METADATA,sha256=e15uzHdcjoae5zMT-8cwUECZ1-NpZoBa3Iiu9xIOAwU,26724
+hdrhistogram-0.10.3.dist-info/WHEEL,sha256=vcy-lihoqwghRQkqGIVD4VBlQqW85DvR6vXNeqjzQYY,109
+hdrhistogram-0.10.3.dist-info/entry_points.txt,sha256=N0vLLMuS7FbFKQVyvMqw_oIFQU52dBrsyoxKhQncaHU,45
+hdrhistogram-0.10.3.dist-info/pbr.json,sha256=63Jz00qezqlSaUFaujBtqewrwg-pfFRjWPqv_E75r3U,47
+hdrhistogram-0.10.3.dist-info/top_level.txt,sha256=5N89_105CneGuBugu0ceXDKbHmlGhWXr2-yuVhQItjk,12
+hdrhistogram-0.10.3.dist-info/RECORD,,
