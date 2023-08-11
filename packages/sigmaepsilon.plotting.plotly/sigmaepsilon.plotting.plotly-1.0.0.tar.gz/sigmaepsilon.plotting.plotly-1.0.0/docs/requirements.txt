@@ -1,0 +1,13 @@
+ipython
+myst_parser
+nbsphinx
+sphinx-gallery
+sphinx_copybutton
+nbsphinx-link
+sphinxcontrib-svg2pdfconverter
+sphinx_design
+sphinx-inline-tabs
+pydata-sphinx-theme
+
+matplotlib
+plotly

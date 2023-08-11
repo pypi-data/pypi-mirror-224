@@ -1,0 +1,4 @@
+linkeddeepdict>=0.0.1
+sigmaepsilon.mesh>=1.0.0
+pandas
+plotly
