@@ -1,0 +1,23 @@
+file_operations/REANME.md,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+file_operations/__init__.py,sha256=AvV_LubFNCppG66msrYqyHMIpD1rye7yOulEKIwXBtY,333
+file_operations/config.py,sha256=PMbzVKYXehFWzjLSBE8ul1E9XRT5P3bpORkumqbcQKw,380
+file_operations/excel_operation.py,sha256=lB-zL15aXFbfUFgjVeuNuSX4PKDaNKVxc5XfQPfwNLo,26988
+file_operations/file_operation.py,sha256=tLPE7VaDiV4PJcDp_SLEJQCQ2uj3RydU0Jp7GeN5O-A,34196
+file_operations/file_read_operation.py,sha256=GV-Yc2oqgAsIq_bcvT3_F-IVJvWexismbzOsUKle5GY,2131
+file_operations/file_transform.py,sha256=GBY5sOAkDxeoYvRHgGo9vUaYf3A__dkaCANfXErOauE,686
+file_operations/glob.ipynb,sha256=YPt2W_xFM51wGwZZtPuRiDygWbXVpm0uhm-FuLKvxKU,4069
+file_operations/img_operations.py,sha256=SEPj9B6bT0iKqI_eovqnX0m0i2SmfjJHjm09CXRAElo,932
+file_operations/pdf_operations.py,sha256=gsixJ-Tn2xfqp9RtvMvE01v613pN8rKWv5VaUYaikFo,3625
+file_operations/yaml_operations.py,sha256=Xksq7QOsNN--tql1P3v5jAejjWsFZO70vHCLzoGIlAY,729
+file_operations/异步管理文件上下文.py,sha256=OyG0t9oLuePC0p5KZIjWTs_ft5O0oR-3ogxDyAYknQg,7378
+file_operations/media/Pandoc/COPYING.rtf,sha256=YqpY7fL7xAnFHK2Ycg_xso5ktTJTHwLI6Cu8WjwJsQg,20519
+file_operations/media/Pandoc/COPYRIGHT.txt,sha256=HbPYqMxGEUvKy8P-pEokueE8ksgTKTK3Q_iexECMqL4,8490
+file_operations/media/Pandoc/Pandoc User's Guide.html,sha256=Y_WaU48v3QEjVAc8k18Hhyw7AVMsSur95vCcgsEnRUs,375499
+file_operations/media/Pandoc/pandoc.exe,sha256=fDlsL3GqZUPeOi-FviYr_r9Mu0OZkjKRWWzPPy0L14Y,210754048
+file_operations/media/wkhtmltox/templates.html,sha256=C_K9O0uMOliOKlul0u31oNcHHW_izNTJH8rGSl8K9uU,7594
+file_operations/media/wkhtmltox/wkhtmltopdf.exe,sha256=ZNF2gjIL_9RbIgjtE7E21ZE56CVzdF8UVWzyXpXL2Ag,41563648
+file_operation-0.0.4.dist-info/LICENSE,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+file_operation-0.0.4.dist-info/METADATA,sha256=0waE1cMSj2jJiZ6oF7Rs_JfWFKriTc9sekWKXfUpwXo,1065
+file_operation-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+file_operation-0.0.4.dist-info/top_level.txt,sha256=3ZKjCCimAx8Q87nHD_CzNRr1xFDRIzE8dDdVW9b7laU,16
+file_operation-0.0.4.dist-info/RECORD,,
