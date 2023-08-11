@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: KwoksTool
+Version: 0.0.19
+Requires-Dist: selenium
+Requires-Dist: tushare
+Requires-Dist: pyexecjs
+Requires-Dist: requests
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: pyecharts
+Requires-Dist: pyinstaller
+Requires-Dist: flask
+Requires-Dist: twine ==4.0.2
+Requires-Dist: build ==0.10.0
+
