@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: BatchEval
+Version: 1.0.2
+Summary: BatchEval
+Home-page: https://github.com/BGIResearch/batchqc-pipeline.git
+Author: zhangchao
+Author-email: zhangchao5@genomics.cn
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: psutil (>=5.9.0)
+
