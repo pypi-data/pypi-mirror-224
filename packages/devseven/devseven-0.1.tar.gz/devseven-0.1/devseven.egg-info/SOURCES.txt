@@ -1,0 +1,5 @@
+setup.py
+devseven.egg-info/PKG-INFO
+devseven.egg-info/SOURCES.txt
+devseven.egg-info/dependency_links.txt
+devseven.egg-info/top_level.txt
