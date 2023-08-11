@@ -1,0 +1,16 @@
+third_python_package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+third_python_package/data.json,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+third_python_package/harmonic_mean.c,sha256=ul4ABFmaWV9It_paR6OGIEZo99tHgFoWBku33SVGYTs,315935
+third_python_package/harmonic_mean.cp312-win_amd64.pyd,sha256=_0ZYTqFwUM613XijFpgq8ixKxHdlOSGZhmH2FwhPdbc,50688
+third_python_package/harmonic_mean.pyi,sha256=JaRXPToU5I-8dV3JyVaEc4saPV6qh_9H8463pc-73i0,52
+third_python_package/harmonic_mean.pyx,sha256=ZDL62QD3ufjIMGUa9s8IbcoborI-wDeajfKlo-61toQ,101
+third_python_package/harmony.py,sha256=X0eeYQbUSjb1erJXLsd534824RPyt9DvV0yFKtXDt5Q,668
+third_python_package/hello.py,sha256=pp7DPy56WgL6ye4_ojS5jxcCZhIktNpqZyLNmoJmHSQ,15
+third_python_package/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+third_python_package/slow_harmonic_mean.py,sha256=n5mnrtVC4VITBia5DUYu4meJYdPh3QPWJ4fAW1Q3wLg,106
+third_python_package_tpotjj-0.0.2.dist-info/LICENSE,sha256=J9fwcVRgjsgB4b2pVFcSJFNxopZJe7PF66ushJPDrZs,1084
+third_python_package_tpotjj-0.0.2.dist-info/METADATA,sha256=V4YjFTQdZ8sHvWqsj3WIMsdfkvmnrOOmETxk2UDk2W0,561
+third_python_package_tpotjj-0.0.2.dist-info/WHEEL,sha256=e0epPQlGepThu0I0BNaKYpx2fF2LzLIOVLrIH8OyEko,102
+third_python_package_tpotjj-0.0.2.dist-info/entry_points.txt,sha256=66jbpOYabg3c5NZdouCsW1pXV2YQ0L9R9cvQi8WDFt4,62
+third_python_package_tpotjj-0.0.2.dist-info/top_level.txt,sha256=oukqlUpQOOee7qpOScsOX5hPoxyC2_43EMburY_X0P8,21
+third_python_package_tpotjj-0.0.2.dist-info/RECORD,,
