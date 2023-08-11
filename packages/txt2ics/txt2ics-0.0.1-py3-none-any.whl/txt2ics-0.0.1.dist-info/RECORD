@@ -1,0 +1,10 @@
+txt2ics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+txt2ics/lib.py,sha256=Vwjp4a5YQObEnf6VJEFm9LCj7kcXH6d5lcKdoGnZfYQ,5447
+txt2ics/txt2ics.py,sha256=ov_8qSHIX9g3oadbausMrWXpLETSrKARA3W3Mg6W-EI,1070
+txt2ics/txt2icsd.py,sha256=861DDpfh5peOvJ2I8ABQ5KPbZoUL2k9xpCOBFwp-fi8,1386
+txt2ics-0.0.1.dist-info/LICENSE,sha256=JlGQGIL_YFvLR5tbBPPorbCAugEhcSi_ng32BmKJZXM,1059
+txt2ics-0.0.1.dist-info/METADATA,sha256=i_cARi1WsIC7K3tRrRu252ppZWRfBsbg_4-VF7B-YsE,861
+txt2ics-0.0.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+txt2ics-0.0.1.dist-info/entry_points.txt,sha256=UQLH91e4VAW_hysp7gzAsK7uIOGeY2aaPtPLFaArlUU,90
+txt2ics-0.0.1.dist-info/top_level.txt,sha256=age1JxQuzDunhalSii7ER3FadWszp-6ns4ixKaFrBek,8
+txt2ics-0.0.1.dist-info/RECORD,,
