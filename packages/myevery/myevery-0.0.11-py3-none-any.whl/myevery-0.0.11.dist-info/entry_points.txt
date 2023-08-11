@@ -1,0 +1,3 @@
+[console_scripts]
+myevery=myevery.__main__:entrypoint
+

@@ -1,0 +1,11 @@
+myevery/__init__.py,sha256=HKnm-i7vlFZvCq1aTRaooOHROTujNvh_Cheir3UBvao,76
+myevery/__main__.py,sha256=AEOWHHUIiFeC9oUgCLbUUjd79L88mZWFj0bH3rkM0uQ,484
+myevery/server/__init__.py,sha256=qCCVv8_qVo0Bxm5NHNKkDROI34maj9MV9NUDgFmeXMs,32
+myevery/server/api.py,sha256=opPOADAMeVPoM9eDf5xnV4gcEzIkW4uUoRRmWRJ8J3o,7850
+myevery/static/css/docs.css,sha256=oiXY7cO_7sfEI1qFqimxHg0mS7uysVQkTelmzjI-YS8,200510
+myevery/static/img/favicon.png,sha256=2DtxTZRmmNt3VvA6L2R-nV0fUtR1aZJXp-iFKpgweoM,689
+myevery-0.0.11.dist-info/entry_points.txt,sha256=LEBJIrNJTzL2G9NPk9MLSEJb9HLZoyrv9wNlq6q-pJo,55
+myevery-0.0.11.dist-info/LICENSE,sha256=zSyeP42yyYtuJZ7wid_2Ru_60pDs6M9966Vomdtmv3c,1063
+myevery-0.0.11.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+myevery-0.0.11.dist-info/METADATA,sha256=UnACRwFfCCHtvQ_q_rgBQU_I32mTj9O3VPt09WOvMXA,974
+myevery-0.0.11.dist-info/RECORD,,

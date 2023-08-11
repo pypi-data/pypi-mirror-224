@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: myevery
+Version: 0.0.11
+Summary: A package to easily create and expose FastAPI services.
+Home-page: https://github.com/myevery-ai/myevery
+License: MIT
+Keywords: langchain,openai,gpt,fastapi,llm
+Author: B. Truong
+Author-email: myevery@mail.com
+Maintainer: B. Truong
+Maintainer-email: myevery@mail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: fastapi (>=0.101.0,<0.102.0)
+Requires-Dist: fire (>=0.5.0,<0.6.0)
+Requires-Dist: langchain (>=0.0.258,<0.0.259)
+Requires-Dist: langchain-experimental (>=0.0.8,<0.0.9)
+Requires-Dist: loguru (>=0.7.0,<0.8.0)
+Requires-Dist: openai (>=0.27.8,<0.28.0)
+Requires-Dist: uvicorn (>=0.23.2,<0.24.0)
+Project-URL: Repository, https://github.com/myevery-ai/myevery
+Description-Content-Type: text/markdown
+
+# myevery
