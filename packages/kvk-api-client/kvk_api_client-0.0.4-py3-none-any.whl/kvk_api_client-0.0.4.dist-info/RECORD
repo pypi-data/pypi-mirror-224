@@ -1,0 +1,13 @@
+kvk_api_client.py,sha256=2Lzu6Gyn_PsbQ0mcCJ0SEgfaUcif_0LrdR10vjfozto,7626
+kvk/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kvk/src/kvk_api_async_client.py,sha256=vYQvumuGvV5obgitdwuJS5KkV0GarpAY8X07qHmgDDE,8256
+kvk/src/kvk_api_client.py,sha256=2Lzu6Gyn_PsbQ0mcCJ0SEgfaUcif_0LrdR10vjfozto,7626
+kvk/src/paths.py,sha256=rDj9nrCEVqNMbUgexIhpUUysD83xW9R8mmbOUxuAEHs,984
+tests/__init__.py,sha256=pS6cWYaK5DKLDGbQypRlE7eiV4gPEvGtc2mY3qYs07g,132
+tests/test_async_kvk_api.py,sha256=XHHytnKiAcpxE0bDvKDn1230KSY2ozCpyxHnO-_EAYo,1454
+tests/test_kvk_api.py,sha256=8sX1HAuthni_x1TwgQB7nycOY9sc8FNDAlnVbwMqceI,1137
+kvk_api_client-0.0.4.dist-info/LICENCE,sha256=S3qvo20DRUlVRgTLC5zsUAgUMauOuHs9UrFih9sqJdM,1082
+kvk_api_client-0.0.4.dist-info/METADATA,sha256=DMnLOUasNYWcZMOobgPIhko9d1ThhVq9xROvB6Kcx5Q,1664
+kvk_api_client-0.0.4.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+kvk_api_client-0.0.4.dist-info/top_level.txt,sha256=8OceciXgg3_JkLyBFF4WD3oddznlpIDb1FyQiZCkHAM,4
+kvk_api_client-0.0.4.dist-info/RECORD,,
