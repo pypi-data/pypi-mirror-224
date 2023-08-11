@@ -1,0 +1,254 @@
+[tool.poetry]
+name = "mcproto"
+version = "0.5.0" # Versioning handled by poetry-dynamic-versioning
+description = "Library providing easy interactions with minecraft servers"
+authors = ["ItsDrike <itsdrike@protonmail.com>"]
+license = "LGPL-3.0-or-later"
+readme = "README.md"
+repository = "https://github.com/py-mine/mcproto"
+documentation = "https://mcproto.readthedocs.io/"
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)",
+  "Natural Language :: English",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Games/Entertainment",
+  "Topic :: Software Development :: Libraries",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Topic :: System :: Networking",
+  "Typing :: Typed",
+]
+include = ["CHANGELOG.md"]
+packages = [{ include = "mcproto" }]
+
+[tool.poetry.dependencies]
+python = ">=3.8.1,<4"
+asyncio-dgram = "^2.1.2"
+typing-extensions = "^4.4.0"
+semantic-version = "^2.10.0"
+httpx = "^0.24.1"
+cryptography = "^41.0.3"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = ">=2.18.1,<4.0.0"
+taskipy = "^1.10.4"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.3.1"
+pytest-asyncio = "^0.21.0"
+pytest-cov = ">=3,<5"
+pytest-httpx = { version = "^0.23.1", python = ">=3.9,<4" }
+
+[tool.poetry.group.lint.dependencies]
+ruff = ">=0.0.278,<0.0.285"
+black = ">=22.3,<24.0"
+isort = "^5.10.1"
+pyright = "^1.1.313"
+slotscheck = ">=0.16.1,<0.18.0"
+
+[tool.poetry.group.release.dependencies]
+towncrier = ">=22.12,<24.0"
+
+[tool.poetry.group.release-ci]
+optional = true
+
+[tool.poetry.group.release-ci.dependencies]
+poetry-dynamic-versioning = ">=0.22,<0.26"
+
+[tool.poetry.group.docs.dependencies]
+sphinx = ">=6.2.1,<8.0.0"
+tomli = { version = "^2.0.1", python = "<3.11" }
+m2r2 = "^0.3.3.post2"
+packaging = "^23.1"
+sphinx-autodoc-typehints = "^1.23"
+sphinx-copybutton = "^0.5.2"
+furo = ">=2022.12.7"
+sphinxcontrib-towncrier = "^0.3.2a0"
+
+[tool.poetry.group.docs-ci]
+optional = true
+
+[tool.poetry.group.docs-ci.dependencies]
+poetry-dynamic-versioning = ">=0.22,<0.26"
+taskipy = "^1.10.4"
+
+[tool.pyright]
+pythonVersion = "3.8"
+
+reportUntypedFunctionDecorator = "error"
+reportUntypedClassDecorator = "error"
+reportUntypedNamedTuple = "error"
+reportTypeCommentUsage = "error"
+reportConstantRedefinition = "error"
+reportDeprecated = "warning"
+reportIncompatibleMethodOverride = "error"
+reportOverlappingOverload = "error"
+reportUnnecessaryIsInstance = "error"
+reportUnnecessaryCast = "error"
+reportUnnecessaryComparison = "error"
+reportUnnecessaryContains = "error"
+reportUnnecessaryTypeIgnoreComment = "error"
+reportShadowedImports = "error"
+
+[tool.ruff]
+target-version = "py38"
+line-length = 119
+
+select = [
+  "F",     # Pyflakes
+  "W",     # Pycodestyle (warnigns)
+  "E",     # Pycodestyle (errors)
+  "N",     # pep8-naming
+  "YTT",   # flake8-2020
+  "ANN",   # flake8-annotations
+  "ASYNC", # flake8-async
+  "S",     # flake8-bandit
+  "B",     # flake8-bugbear
+  "A",     # flake8-builtins
+  "C4",    # flake8-comprehensions
+  "FA",    # flake8-future-annotations
+  "T20",   # flake8-print
+  "PT",    # flake8-pytest-style
+  "Q",     # flake8-quotes
+  "RSE",   # flake8-raise
+  "RET",   # flake8-return
+  "SIM",   # flake8-simplify
+  "TID",   # flake8-tidy-imports
+  "INT",   # flake8-gettext
+  "PTH",   # flake8-use-pathlib
+  "PGH",   # pygrep-hooks
+  "PL",    # pylint
+  "RUF",   # ruff-specific rules
+  "UP",    # pyupgrade
+]
+
+ignore = [
+  "ANN002",  # Missing type annotation for *args
+  "ANN003",  # Missing type annotation for **kwargs
+  "ANN101",  # Missing type annotation for self in method
+  "ANN102",  # Missing type annotation for cls in classmethod
+  "ANN204",  # Missing return type annotation for special method
+  "PT011",   # pytest.raises without match parameter is too broad # TODO: Unignore this
+  "UP024",   # Using errors that alias OSError
+  "PLR2004", # Using unnamed numerical constants
+  "PGH003",  # Using specific rule codes in type ignores
+]
+
+[tool.ruff.extend-per-file-ignores]
+"tests/*" = [
+  "ANN",  # flake8-annotations
+  "S101", # Use of assert
+]
+
+[tool.ruff.flake8-tidy-imports]
+ban-relative-imports = "all"
+
+[tool.ruff.pylint]
+max-args = 6
+max-branches = 12
+max-returns = 10
+max-statements = 50
+
+[tool.black]
+line-length = 119
+
+[tool.isort]
+profile = "black"
+line_length = 119
+atomic = true
+order_by_type = false
+case_sensitive = true
+combine_as_imports = true
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+asyncio_mode = "auto"
+testpaths = ["tests"]
+addopts = "--strict-markers --cov --no-cov-on-fail"
+
+[tool.coverage.report]
+precision = 2
+fail_under = 20
+show_missing = true
+skip_covered = false
+skip_empty = false
+sort = "cover"
+exclude_lines = [
+  "\\#\\s*pragma: no cover",
+  "^\\s*if (typing\\.)?TYPE_CHECKING:",
+  "^\\s*@(abc\\.)?abstractmethod",
+  "^\\s*@(typing\\.)?overload",
+  "^\\s*def __repr__\\(",
+  "^\\s*class .*\\bProtocol\\):",
+  "^\\s*raise NotImplementedError",
+  "^\\s*return NotImplemented",
+  "^\\s*\\.\\.\\.",
+]
+
+[tool.coverage.run]
+relative_files = true
+parallel = true
+branch = true
+timid = false
+source = ["mcproto"]
+
+[tool.towncrier]
+package = "mcproto"
+directory = "changes"
+template = "changes/.template.rst"
+filename = "CHANGELOG.md"
+issue_format = "[#{issue}](https://github.com/py-mine/mcproto/issues/{issue})"
+orphan_prefix = "+" # Use '+' instead of number for fragments not connected to any PR
+underlines = [2, 3] # We use this for heading levels (see template file)
+type = [
+  { name = "Breaking Changes", directory = "breaking", showcontent = true },
+  { name = "Deprecation", directory = "deprecation", showcontent = true },
+  { name = "Features", directory = "feature", showcontent = true },
+  { name = "Bugfixes", directory = "bugfix", showcontent = true },
+  { name = "Documentation Improvements", directory = "docs", showcontent = true },
+  { name = "Internal Changes", directory = "internal", showcontent = true },
+]
+
+[tool.slotscheck]
+strict-imports = true
+require-superclass = true
+require-subclass = true
+exclude-modules = '''
+(
+  ^test  # ignore any tests
+  |^.github/scripts  # Ignore any CI scripts
+  |^mcproto\.utils\.version  # Dataclasses below python 3.10 don't support __slots__ due to default value fields being treated as classvars.
+)
+'''
+
+[tool.taskipy.tasks]
+precommit = "pre-commit install"
+lint = "pre-commit run --all-files"
+black = "black ."
+isort = "isort ."
+pyright = "pyright ."
+flake8 = "flake8 ."
+slotscheck = "slotscheck -m mcproto"
+test = "pytest -v --failed-first"
+retest = "pytest -v --last-failed"
+test-nocov = "pytest -v --no-cov --failed-first"
+retest-nocov = "pytest -v --no-cov --last-failed"
+changelog-preview = "towncrier build --draft --version next"
+docs = "sphinx-build -b dirhtml -d ./docs/_build/doctrees -W -E -T --keep-going ./docs ./docs/_build/html"
+
+[tool.poetry-dynamic-versioning]
+enable = true
+bump = true
+vcs = "git"
+style = "pep440"
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning"]
+build-backend = "poetry.core.masonry.api"
