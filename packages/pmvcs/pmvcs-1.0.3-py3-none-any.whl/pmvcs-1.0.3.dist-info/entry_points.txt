@@ -1,0 +1,5 @@
+[console_scripts]
+pmvcs-cli = pmvcs.cli:main
+
+[pmvcs]
+pmvcs = pmvcs:main
