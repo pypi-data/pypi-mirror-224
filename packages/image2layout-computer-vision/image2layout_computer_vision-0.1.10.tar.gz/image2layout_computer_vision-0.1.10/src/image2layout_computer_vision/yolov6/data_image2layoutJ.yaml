@@ -1,0 +1,31 @@
+
+train: /data/image2layoutJ/images/train
+val: /data/image2layoutJ/images/val
+
+# whether it is coco dataset, only coco dataset should be set to True.
+is_coco: False
+
+# Classes
+nc: 20  # number of classes
+names: [
+  'text',
+  'button',
+  'image',
+  'hero_banner',
+  'icon_list_horizontal',
+  'icon_list_vertical',
+  'countdown_timer',
+  'product',
+  'p_title',
+  'p_desc',
+  'p_price',
+  'p_quantity',
+  'p_images',
+  'p_variant',
+  'p_button',
+  'p_list',
+  'accordion',
+  'tabs',
+  'video',
+  'carousel'
+]

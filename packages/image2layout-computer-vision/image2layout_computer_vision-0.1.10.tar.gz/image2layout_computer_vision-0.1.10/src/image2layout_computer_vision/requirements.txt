@@ -1,0 +1,10 @@
+setuptools
+torch
+torchvision
+opencv-python
+scikit-learn
+Pillow
+numpy
+pandas
+datasets
+transformers
