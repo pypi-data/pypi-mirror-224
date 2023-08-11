@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+bash/rye-shebang
+py/rye-shebang
+rye_shebang.egg-info/PKG-INFO
+rye_shebang.egg-info/SOURCES.txt
+rye_shebang.egg-info/dependency_links.txt
+rye_shebang.egg-info/top_level.txt

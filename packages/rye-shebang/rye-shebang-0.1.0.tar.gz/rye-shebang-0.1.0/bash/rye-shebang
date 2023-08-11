@@ -1,0 +1,17 @@
+#!/bin/bash
+
+function search_pyproject() {
+    DIR=$1
+    PARENT=`dirname $DIR`
+
+    if [ $PARENT = "/" ]; then
+        exit
+    elif [ -f "$PARENT/pyproject.toml" ]; then
+        echo "$PARENT/pyproject.toml"
+    else
+        search_pyproject $PARENT
+    fi
+}
+
+SCRIPT=`realpath $1`
+rye run --pyproject $(search_pyproject $SCRIPT) python $SCRIPT $@
