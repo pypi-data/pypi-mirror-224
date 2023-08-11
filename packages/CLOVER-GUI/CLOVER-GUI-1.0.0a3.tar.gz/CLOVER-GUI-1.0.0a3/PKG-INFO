@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: CLOVER-GUI
+Version: 1.0.0a3
+Summary: A graphical user interface for CLOVER
+Home-page: https://github.com/CLOVER-energy/CLOVER-GUI
+Author: Ben Winchester and Hamish Beath
+Author-email: benedict.winchester@gmail.com,hamishbeath@outlook.com
+Project-URL: Bug Tracker, https://github.com/CLOVER-energy/CLOVER-GUI/issues
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# CLOVER-GUI
+A graphical user interface for CLOVER
