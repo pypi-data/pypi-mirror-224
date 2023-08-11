@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "byron"
+version = "0.0"
+description = "A multi-purpose extensible self-adaptive evolutionary algorithm"
+authors = ["Giovanni Squillero <giovanni.squillero@polito.it>"]
+license = "Apache-2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
