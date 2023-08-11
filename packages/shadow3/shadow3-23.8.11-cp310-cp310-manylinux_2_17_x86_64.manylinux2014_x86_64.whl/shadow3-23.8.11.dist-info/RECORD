@@ -1,0 +1,13 @@
+shadow3.libs/libquadmath-96973f99.so.0.0.0,sha256=k0wi3tDn0WnE1GeIdslgUa3z2UVF2pYvYLQWWbB12js,247609
+shadow3.libs/libgfortran-040039e1.so.5.0.0,sha256=FK-zEpsai1C8QKOwggx_EVLqm8EBIaqxUpQ_cFdHKIY,2686065
+Shadow/__init__.py,sha256=gs_A0MbJTBwPaQuktI1dZD7cCLbUeaDmtIYC0c031Q4,968
+Shadow/ShadowLib.cpython-310-x86_64-linux-gnu.so,sha256=5W_iBzIVHay5O_WzdWqEyoqvvgUgAmPOSgDFaumf-mY,2435577
+Shadow/ShadowToolsPrivate.py,sha256=sezlD0oi1GUosw_HVikKpE4veUb8Xyk8TXo0aMYvgtw,9754
+Shadow/ShadowTools.py,sha256=lpUnlmMWF2Sq_xic4gZClVkE2SY0PNcPhLAKrmBE09E,79557
+Shadow/ShadowPreprocessorsXraylib.py,sha256=E4reomjtWlzsntwkVAsEBg7S7aA_JOX3GhHG-FuRY_M,20784
+Shadow/ShadowLibExtensions.py,sha256=O6UVFYW3SMXF1FSa-CEC2HZtg46pIW_MelQh-_2JBmc,165196
+shadow3-23.8.11.dist-info/WHEEL,sha256=ZrrSt1fsSqwm5WLe8zxIW8_reaPHoodZsEVNH1Lux0k,152
+shadow3-23.8.11.dist-info/top_level.txt,sha256=N4uM_DVFv5qO2A7yma3HA0zfW1xu2FzZpwq_WiYNQik,7
+shadow3-23.8.11.dist-info/RECORD,,
+shadow3-23.8.11.dist-info/METADATA,sha256=aEUkb9v9l3bEVlLD66inf9FlIlllJeW_7HsA7akII7I,379
+shadow3-23.8.11.dist-info/LICENSE,sha256=jZi3qxw1RFek2wE24-lMoUnfUxcvlSqvTvI0VawRzME,1080
