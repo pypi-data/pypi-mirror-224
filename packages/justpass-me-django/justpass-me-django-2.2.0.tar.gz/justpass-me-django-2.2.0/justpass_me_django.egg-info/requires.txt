@@ -1,0 +1,4 @@
+django>=2.0
+mozilla-django-oidc<3.0.0
+PyOpenSSL>=0.13
+python-jose==3.3.0
