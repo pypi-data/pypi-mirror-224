@@ -1,0 +1,9 @@
+LICENSE
+setup.py
+operatorsMelissa/__init__.py
+operatorsMelissa/add.py
+operatorsMelissa/subtract.py
+operatorsMelissa.egg-info/PKG-INFO
+operatorsMelissa.egg-info/SOURCES.txt
+operatorsMelissa.egg-info/dependency_links.txt
+operatorsMelissa.egg-info/top_level.txt
