@@ -1,0 +1,6 @@
+numpy
+munch
+fuzzywuzzy
+python-Levenshtein
+pinyin
+djangorestframework
