@@ -1,0 +1,2 @@
+[console_scripts]
+foostitch = foostitch.__main__:main
