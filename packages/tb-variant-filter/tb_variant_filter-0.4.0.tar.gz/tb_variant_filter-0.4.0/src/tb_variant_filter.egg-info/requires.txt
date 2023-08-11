@@ -1,0 +1,9 @@
+intervaltree
+lxml
+pandas
+vcfpy
+requests
+neo4j
+
+[test]
+pytest>=6
