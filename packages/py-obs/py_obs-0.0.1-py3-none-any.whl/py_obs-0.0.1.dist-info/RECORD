@@ -1,0 +1,12 @@
+py_obs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_obs/build_result.py,sha256=hcL34Ibmn0m5pGSxTJsTgSzRitZDg7l5T_KnakMVXGQ,1743
+py_obs/logger.py,sha256=ucjUlL-u1ADd4-hq80uHavbwiewhTwYs95JUft4jt-E,220
+py_obs/osc.py,sha256=-XaruoBhcludUAfKKXbDFVYAhErYFjvKnSbnqHOwaQ0,2087
+py_obs/person.py,sha256=fpnhn8A5iq5lMwWkrbd0W0lZHGZbjdWnNNTuWvf-PYo,2533
+py_obs/project.py,sha256=Yqq4vrAz-2nMbArhs4-9oqVw1K6rH8I_tsreTU42v78,10861
+py_obs/request.py,sha256=ZW40cdmoTEHpNX14thL2t8a5W5nuSqkqHSFJYB9Jsxc,13405
+py_obs/service.py,sha256=4UeH9ZhqgDb4Y20w-NYoTHG4Jt5RLrBo8rlj91e3fmg,666
+py_obs/xml_factory.py,sha256=RgzWLfapAh3GBK7KdAFnhCSpZTj5I0S4vw3BUKdOXh8,7839
+py_obs-0.0.1.dist-info/METADATA,sha256=WHqZvQlgolFK_UDPUK9OltKkIGJzd7kQrvvQMv5-GRY,799
+py_obs-0.0.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+py_obs-0.0.1.dist-info/RECORD,,

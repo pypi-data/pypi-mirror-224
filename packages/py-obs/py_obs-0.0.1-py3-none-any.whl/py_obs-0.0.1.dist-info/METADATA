@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: py-obs
+Version: 0.0.1
+Summary: Asynchronous API wrapper for the Open Build Service
+License: GPL-2.0-or-later
+Author: Dan Čermák
+Author-email: dcermak@suse.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aiohttp (>=3.8.5,<4.0.0)
+Description-Content-Type: text/x-rst
+
+py-obs
+======
+
+``py-obs`` is a simple asynchronous python API wrapper for the `Open Build
+Service <https://openbuildservice.org/>`_.
+
+
+Testing
+-------
+
+The following commands will launch a local OBS instance using
+``docker-compose``:
+
+.. code-block:: shell-session
+
+   ./start-mini-obs.sh
+   ./configure-mini-obs.sh
+
