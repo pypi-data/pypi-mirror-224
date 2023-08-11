@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: fettuccine
+Version: 0.1.2
+Summary: Project and workflow management library
+Author-email: Rui Vieira <ruidevieira@googlemail.com>
+License: Apache License Version 2.0
+Project-URL: Project-URL, https://github.com/ruivieira/fettuccine
+Keywords: git,projects,workflow
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pygit2 ==1.12.2
+Requires-Dist: semver ==3.0.1
+Provides-Extra: dev
+Requires-Dist: pytest ==6.2.2 ; extra == 'dev'
+
+# fettuccine
+
+A Python library for project and workflow management.
