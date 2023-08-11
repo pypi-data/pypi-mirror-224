@@ -1,0 +1,9 @@
+setup.py
+errorcalc/__init__.py
+errorcalc/errors.py
+errorcalc/latex_containers.py
+pyerrorcalc.egg-info/PKG-INFO
+pyerrorcalc.egg-info/SOURCES.txt
+pyerrorcalc.egg-info/dependency_links.txt
+pyerrorcalc.egg-info/requires.txt
+pyerrorcalc.egg-info/top_level.txt
