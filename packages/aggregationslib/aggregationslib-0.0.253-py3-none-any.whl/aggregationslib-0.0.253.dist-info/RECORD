@@ -1,0 +1,10 @@
+aggregationslib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aggregationslib/aggregation.py,sha256=xByHAEHVtu3PdnK21dJz9bayKqEO9_8xPjDGQytMpSY,4565
+aggregationslib/aggregations.py,sha256=dEJXmQzpO17x2IQsene_ZmpBt-yNQBKILGBO6uqVhRA,11033
+aggregationslib/decimalaggregations.py,sha256=FYwro4KcojPH7ZMAEcKoE7MHN_1ojaTDY0UkEAzJN0M,5351
+aggregationslib/example.py,sha256=4y3caiSBq4jkqz88Qan1m0LB389TXvlf7VSOPC_1Cj4,149
+aggregationslib/purepython.py,sha256=Ov7AuBHLzoebS7HwTsDo8Ceed5pMzn3i71uevHnHbno,557
+aggregationslib-0.0.253.dist-info/METADATA,sha256=_ii5PYhxUtBkuQZ7XFzRWJV0VIrvBRsWl9Ctsf74mWs,1853
+aggregationslib-0.0.253.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+aggregationslib-0.0.253.dist-info/top_level.txt,sha256=aAqYX4rNyBs40QOh2hc-jTE08IsMq0haGyyy7-GSdUQ,16
+aggregationslib-0.0.253.dist-info/RECORD,,
