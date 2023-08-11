@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: tketool
+Version: 0.3.36
+Summary: Some base methods for developing
+Home-page: http://www.example.com/~cschultz/bvote/
+Author: Ke
+Author-email: jiangke1207@icloud.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: redis (==4.5.4)
+Requires-Dist: paramiko
+Requires-Dist: minio
+
+UNKNOWN
+
