@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/nixvenv/__init__.py
+src/nixvenv/__main__.py
+src/nixvenv.egg-info/PKG-INFO
+src/nixvenv.egg-info/SOURCES.txt
+src/nixvenv.egg-info/dependency_links.txt
+src/nixvenv.egg-info/top_level.txt
