@@ -1,0 +1,12 @@
+MultiChannelVol/__init__.py,sha256=Uo8hrsX_UODStxByq9mw_IdR77cKOkPNVjQ1e_zHz2o,11362
+MultiChannelVol/spec/ndx-multichannel-volume.extensions.yaml,sha256=g0ovp7LHbKPZqDG7OFInwF_PYoQ0r_eV4JyWsm9bm2o,8100
+MultiChannelVol/spec/ndx-multichannel-volume.namespace.yaml,sha256=0lDieK66iomGX4SY4uhWgvsKEinUavHzOqybCJsgLWQ,556
+ndx_multichannel_volume/__init__.py,sha256=xsi05j6ri5LiDZxWflw-t_Xnt5SBxKphmoK43qlB-Lk,1689
+ndx_multichannel_volume/ndx_multichannel_volume.py,sha256=cNkEEitBfgPAwYvWUkcYplKD8oCz187hBi0QPuBRA-0,10943
+ndx_multichannel_volume/spec/ndx-multichannel-volume.extensions.yaml,sha256=vlTBKDTNtx78PRoDVJxbeqXnEGULj9EyHX0OFQEsEhI,5695
+ndx_multichannel_volume/spec/ndx-multichannel-volume.namespace.yaml,sha256=6ZRlHpD6iFLRI1TszFzkf77YuPCAhLWqE8nRtLogPl4,599
+ndx_multichannel_volume-0.1.2.dist-info/LICENSE.txt,sha256=JJ3aFgrORj4lE803jc72UWdOwVOtsMfEDm7jmuTPmps,1522
+ndx_multichannel_volume-0.1.2.dist-info/METADATA,sha256=emK_BDnKrNG1zCQOc7hImn3mT-e_zyj4zqaUP67YfhY,2951
+ndx_multichannel_volume-0.1.2.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+ndx_multichannel_volume-0.1.2.dist-info/top_level.txt,sha256=GnX1xPgN_nnVnH0jUdg2UN6MmX5izUn8vcc5wPQwa8o,24
+ndx_multichannel_volume-0.1.2.dist-info/RECORD,,
