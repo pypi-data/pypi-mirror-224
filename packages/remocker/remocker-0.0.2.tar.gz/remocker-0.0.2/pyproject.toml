@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "remocker"
+version = "0.0.2"
+description = "For mocking remote server"
+authors = ["Jrog <jrog612@gmail.com>"]
+license = "MIT"
+repository = "https://github.com/jrog612/remocker"
+readme = 'README.md'
+packages = [{include = "remocker.py"}]
+
+
+[tool.poetry.dependencies]
+python = "^3.6"
+httpretty = "^1.1.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
