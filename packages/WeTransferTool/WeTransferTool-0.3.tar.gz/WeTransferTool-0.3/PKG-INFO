@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: WeTransferTool
+Version: 0.3
+Summary: WeTransfer unofficial API wrapper written in python facilitating features like uploading and downloading files and folders
+Home-page: https://github.com/bunnykek/WeTransferTool
+Download-URL: https://github.com/bunnykek/WeTransferTool
+Author: bunny
+Author-email: 
+License: MIT
+Keywords: api,wetransfer,wrapper,upload,download
