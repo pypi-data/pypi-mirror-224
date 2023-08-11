@@ -1,0 +1,38 @@
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+# All rights reserved.
+
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+
+from setuptools import find_packages, setup
+
+with open("README.md") as readme_file:
+    readme = readme_file.read()
+
+setup(
+    author="Mingqiao Ye",
+    author_email="mingqiaoye@gmail.com",
+    python_requires=">=3.8",
+    classifiers=[
+        "Intended Audience :: Developers",
+        "License :: OSI Approved :: MIT License",
+        "Natural Language :: English",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+    ],
+    description="Official Python package for Segment Anything in High Quality (https://arxiv.org/abs/2306.01567)",
+    url="https://github.com/SysCV/sam-hq",
+    name="segment-anything-hq",
+    version="0.3",
+    install_requires=["torch>=1.7", "torchvision>=0.8"],
+    license="MIT license",
+    long_description=readme,
+    long_description_content_type="text/markdown",
+    packages=find_packages(exclude="notebooks"),
+    extras_require={
+        "all": ["matplotlib", "pycocotools", "opencv-python", "onnx", "onnxruntime"],
+        "dev": ["flake8", "isort", "black", "mypy"],
+    },
+)
