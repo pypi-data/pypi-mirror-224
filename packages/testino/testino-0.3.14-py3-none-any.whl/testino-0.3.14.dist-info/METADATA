@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: testino
+Version: 0.3.14
+Summary: Test ASGI/WSGI applications using lxml
+Author-email: Ed Singleton <singletoned@gmail.com>
+License: BSD
+Project-URL: Homepage, https://github.com/Singletoned/testino
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI
+Classifier: Topic :: Software Development :: Testing
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cssselect >=1
+Requires-Dist: lxml >=3.7
+Requires-Dist: parsel >=1.1
+Requires-Dist: requests-wsgi-adapter >=0.2
+Requires-Dist: requests >=2
+Requires-Dist: werkzeug >=0.12
+
+# testino
