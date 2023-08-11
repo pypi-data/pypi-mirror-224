@@ -1,0 +1,2 @@
+[console_scripts]
+owntrack2gpx = convert:main
