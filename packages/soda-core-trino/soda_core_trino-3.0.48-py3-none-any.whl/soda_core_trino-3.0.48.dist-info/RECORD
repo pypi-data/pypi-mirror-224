@@ -1,0 +1,5 @@
+soda/data_sources/trino_data_source.py,sha256=wdyy7ryEObl3hwtdtCh7EoL1bVLTQKeD-p6y2KGOFDA,4994
+soda_core_trino-3.0.48.dist-info/METADATA,sha256=nfoHfbhmiUDHBxNV8qBNVqxc7ADL6ZC2O2FHRY4Mk5Q,126
+soda_core_trino-3.0.48.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+soda_core_trino-3.0.48.dist-info/top_level.txt,sha256=nh9kmM9ZWOtIXfwHLUKLl7m6xAFti83JVa2Rcxm6Zck,5
+soda_core_trino-3.0.48.dist-info/RECORD,,
