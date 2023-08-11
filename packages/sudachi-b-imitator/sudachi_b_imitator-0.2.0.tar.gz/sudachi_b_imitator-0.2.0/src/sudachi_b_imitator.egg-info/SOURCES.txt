@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/sudachi_b_imitator/__init__.py
+src/sudachi_b_imitator/config.json
+src/sudachi_b_imitator/ma_imitator.py
+src/sudachi_b_imitator/model.onnx
+src/sudachi_b_imitator.egg-info/PKG-INFO
+src/sudachi_b_imitator.egg-info/SOURCES.txt
+src/sudachi_b_imitator.egg-info/dependency_links.txt
+src/sudachi_b_imitator.egg-info/requires.txt
+src/sudachi_b_imitator.egg-info/top_level.txt
