@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pyvns
+Version: 0.1
+Summary: VNS (Visual Novel Script), a universal scripting language for creating scripts for visual novel games.
+Author-email: Linpg Foundation <yudong9912@gmail.com>
+Project-URL: Homepage, https://github.com/LinpgFoundation/VisualNovelScript
+Project-URL: Bug Tracker, https://github.com/LinpgFoundation/VisualNovelScript/issues
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
