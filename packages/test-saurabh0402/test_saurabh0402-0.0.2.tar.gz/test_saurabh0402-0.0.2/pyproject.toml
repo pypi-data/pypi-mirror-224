@@ -1,0 +1,25 @@
+[build-system]
+requires = ["poetry-core>=1.4.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "test-saurabh0402"
+version = "0.0.2"
+authors = [
+  "Saurabh <saurabh.kumar@peak.ai>",
+]
+description = "A small example package"
+readme = "docs.md"
+requires-python = ">=3.7"
+homepage = "https://github.com/saurabh0402/padhai"
+repository = "https://github.com/saurabh0402/padhai"
+documentation = "https://github.com/saurabh0402/padhai"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry.urls]
+releases = "https://github.com/saurabh0402/padhai/releases"
+issues = "https://github.com/saurabh0402/padhai/issues"
