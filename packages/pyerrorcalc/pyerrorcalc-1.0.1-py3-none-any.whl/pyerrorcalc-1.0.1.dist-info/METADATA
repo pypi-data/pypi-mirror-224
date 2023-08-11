@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pyerrorcalc
+Version: 1.0.1
+Summary: Error calculation
+Home-page: UNKNOWN
+Author: Philip
+Author-email: <digests-earnest.0r@icloud.com>
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: sympy
+
+Compute errors with gaussian or minmax method
+
