@@ -1,0 +1,6 @@
+nonebot2
+qq-botpy
+watchdog
+loguru
+pyyaml
+openai
