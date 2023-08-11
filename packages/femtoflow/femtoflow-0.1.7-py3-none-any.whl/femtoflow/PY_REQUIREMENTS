@@ -1,0 +1,12 @@
+Cython # do not remove
+numpy
+tensorflow
+tensorflow_model_optimization
+matplotlib
+python_speech_features
+parameterized
+pytest
+testbook
+notebook
+scipy
+femtocrux
