@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+socketman.py
+socketman.egg-info/PKG-INFO
+socketman.egg-info/SOURCES.txt
+socketman.egg-info/dependency_links.txt
+socketman.egg-info/requires.txt
+socketman.egg-info/top_level.txt
