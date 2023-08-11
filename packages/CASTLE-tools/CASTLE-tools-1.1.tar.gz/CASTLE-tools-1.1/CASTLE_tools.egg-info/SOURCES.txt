@@ -1,0 +1,12 @@
+README.md
+setup.py
+CASTLE/ABA_annotation.py
+CASTLE/__init__.py
+CASTLE/emb_alignment.py
+CASTLE/loc_alignment.py
+CASTLE/loc_prediction.py
+CASTLE/utils.py
+CASTLE_tools.egg-info/PKG-INFO
+CASTLE_tools.egg-info/SOURCES.txt
+CASTLE_tools.egg-info/dependency_links.txt
+CASTLE_tools.egg-info/top_level.txt
