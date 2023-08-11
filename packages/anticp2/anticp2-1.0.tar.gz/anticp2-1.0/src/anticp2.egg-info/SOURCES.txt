@@ -1,0 +1,12 @@
+README.md
+setup.py
+src/anticp2.egg-info/PKG-INFO
+src/anticp2.egg-info/SOURCES.txt
+src/anticp2.egg-info/dependency_links.txt
+src/anticp2.egg-info/entry_points.txt
+src/anticp2.egg-info/requires.txt
+src/anticp2.egg-info/top_level.txt
+src/anticp2/model/aac_extra_model
+src/anticp2/model/dpc_extra_model
+src/anticp2/python_scripts/__init__.py
+src/anticp2/python_scripts/anticp2.py
