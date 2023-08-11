@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pyBunniApi
+Version: 0.1.0
+Summary: A API Client for fommunicating with the Bunni accounting software
+Home-page: https://github.com/sme4gle/pyBunniApi
+Author: Mickael van Schie
+Author-email: mickael.v.s.19@hotmail.com
+License: BSD 2-clause
+Requires-Dist: requests >=2.25.1
+
