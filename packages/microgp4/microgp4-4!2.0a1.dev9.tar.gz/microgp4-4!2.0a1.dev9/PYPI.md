@@ -1,0 +1,6 @@
+MicroGP (µGP, `ugp`)  is an [evolutionary tool](https://squillero.github.io/microgp4/evolution.html) created around 2001. Over the years it has been exploited as a coverage-driven [fuzzer](https://en.wikipedia.org/wiki/Fuzzing), as a general-purpose [optimizer](https://en.wikipedia.org/wiki/Engineering_optimization), and as a framework for prototyping and testing new ideas. [Some hundreds documents](https://scholar.google.com/scholar?q=%28+MicroGP+OR+%C2%B5GP+OR+ugp3+OR+ugp2+%29+AND+%28+Squillero+OR+Tonda+OR+Sanchez+OR+Schillaci+%29) discussing it and possible application can be found in the scientific literature. [**[read more]**](https://microgp4.readthedocs.io/en/pre-alpha/summary.html)
+
+> #### ⚠️ Notez Bien: MicroGP4 v2.0 is currently in [pre-alpha](https://en.wikipedia.org/wiki/Software_release_life_cycle#Pre-alpha) and under active development
+
+**Copyright © 2022-23 [Giovanni Squillero](https://github.com/squillero) and [Alberto Tonda](https://github.com/albertotonda/)**  
+MicroGP4 is [free and open-source software](https://en.wikipedia.org/wiki/Free_and_open-source_software), and it is distributed under the permissive [Apache License 2.0](https://opensource.org/license/apache-2-0/).
