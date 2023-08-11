@@ -1,0 +1,6 @@
+win32api
+pygame
+win32con
+win32gui
+ctypes
+thefuzz
