@@ -1,0 +1,11 @@
+skyreader/__init__.py,sha256=5g1DhQ4fTsc8mC6c4uWERaWdB7sSvfsBArsNFIMGTqE,740
+skyreader/event_metadata.py,sha256=bJ3Mr2841aVnsFiqpdi2kt1xakKmeTAfodoCDESdmbo,915
+skyreader/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+skyreader/result.py,sha256=HXrsxyYdXKFLeMHzbx9MNIN8bDiH-3aG6Zlb7VVbOXM,47891
+skyreader/plot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+skyreader/plot/plotting_tools.py,sha256=bhdkY9FFLlQUXosFySi5PjVu4JcBtJSeijp4pPCQKaw,9057
+icecube_skyreader-1.2.4.dist-info/LICENSE,sha256=Jf3GD4pnk3TvM_kQW9IGzWq3DcA-fE7fLLuV_M3p39o,1085
+icecube_skyreader-1.2.4.dist-info/METADATA,sha256=4ABjlMVleArKSE38HEcxcGZWCGKaA-csJnX5Dtcge2k,2296
+icecube_skyreader-1.2.4.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+icecube_skyreader-1.2.4.dist-info/top_level.txt,sha256=imn97C6S8s_e6xJN3xRdewUhjWii6d4r8BHKuX-TbCU,10
+icecube_skyreader-1.2.4.dist-info/RECORD,,
