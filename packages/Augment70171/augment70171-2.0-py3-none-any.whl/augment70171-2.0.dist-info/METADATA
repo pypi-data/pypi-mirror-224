@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: Augment70171
+Version: 2.0
+Summary: 對有label的圖片進行資料擴增。
+Project-URL: Homepage, https://github.com/70171toolbox/70171_Augment
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# 70171_Augment
+## 目的
+對有label的圖片進行資料擴增。
+## 現有功能
+Detection:
+
+Color, Sample, Mirror, Resize, Normalize
+## 尚未完成的功能
+Segmentation:
+
+Color, Sample, Mirror, Resize, Normalize
