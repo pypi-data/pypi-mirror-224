@@ -1,0 +1,8 @@
+include gxddk/scripts/_templates/layout.html
+include gxddk/scripts/_templates/search.html
+include gxddk/scripts/_static/style.css
+include gxddk/scripts/_ext/genmodule.py
+include gxddk/scripts/_ext/retex.py
+include gxddk/scripts/_ext/rst_table.py
+include gxddk/scripts/envexec
+include gxddk/index.rst

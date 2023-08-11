@@ -1,0 +1,3 @@
+[console_scripts]
+gxddkbuild = gxddk.gxddkbuild:run
+
