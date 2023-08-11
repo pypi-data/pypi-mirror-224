@@ -1,0 +1,5 @@
+numpy
+scipy
+pytket
+pytket-qiskit
+physics-tenpy
