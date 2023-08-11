@@ -1,0 +1,5 @@
+grid_model:
+  learning_rate: [0.001, 0.01, 0.1]
+  n_estimators: [100, 250, 500]
+  max_depth: [3,5,7,9]
+  subsample: [0.4, 0.6, 0.8, 1.0]
