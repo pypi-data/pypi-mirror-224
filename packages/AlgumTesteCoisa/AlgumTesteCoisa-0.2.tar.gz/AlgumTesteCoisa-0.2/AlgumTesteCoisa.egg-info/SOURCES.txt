@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+AlgumTesteCoisa/AlgumTesteCoisa.py
+AlgumTesteCoisa/__init__.py
+AlgumTesteCoisa.egg-info/PKG-INFO
+AlgumTesteCoisa.egg-info/SOURCES.txt
+AlgumTesteCoisa.egg-info/dependency_links.txt
+AlgumTesteCoisa.egg-info/top_level.txt
