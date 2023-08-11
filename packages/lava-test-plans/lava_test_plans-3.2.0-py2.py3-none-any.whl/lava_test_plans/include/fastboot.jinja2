@@ -1,0 +1,321 @@
+{% extends "master.jinja2" %}
+
+{% set use_context = true %}
+
+{% set DOCKER_IMAGE_DEPLOY = DOCKER_IMAGE_DEPLOY|default("debian:buster") %}
+{% set DOCKER_IMAGE_POSTPROCESS = DOCKER_IMAGE_POSTPROCESS|default("debian:buster") %}
+{% set ptable = ptable|default(false) %}
+{% set PTABLE_LABEL = PTABLE_LABEL|default("ptable") %}
+{% set reboot_reset = reboot_reset|default(false) %}
+{% set reboot_to_fastboot = reboot_to_fastboot|default("false") %}
+{% set boot = boot|default(true) %}
+{% set BOOT_LABEL = BOOT_LABEL|default("boot") %}
+{% set rootfs = rootfs|default(true) %}
+{% set rootfs_label = rootfs_label|default("rootfs") %}
+{% set apply_overlay = apply_overlay|default("rootfs") %}
+{% set DEPLOY_TARGET = DEPLOY_TARGET|default("fastboot") %}
+{% set pre_boot_command = pre_boot_command|default(true) %}
+{% set pre_power_command = pre_power_command|default(true) %}
+{% set pre_os_command = pre_os_command|default(true) %}
+{% set auto_login = auto_login|default(true) %}
+{% set boot_method = boot_method|default("fastboot") %}
+{% set fastboot_deploy_timeout = fastboot_deploy_timeout|default(40) %}
+{% set download_postprocess_required = download_postprocess_required|default(true) %}
+
+{# partitions for android jobs #}
+{# boot_a partition would be set via boot_label #}
+{% set partition_boot_b = partition_boot_b|default(false) %}
+{% set partition_super = partition_super|default(false) %}
+{% set partition_system = partition_system|default(false) %}
+{% set partition_vendor = partition_vendor|default(false) %}
+{% set partition_vendor_boot = partition_vendor_boot|default(false) %}
+{% set partition_cache = partition_cache|default(false) %}
+{% set partition_vbmeta = partition_vbmeta|default(false) %}
+{% set partition_vbmeta_a = partition_vbmeta_a|default(false) %}
+{% set partition_vbmeta_b = partition_vbmeta_b|default(false) %}
+{% set partition_recovery = partition_recovery|default(false) %}
+{% set partition_userdata = partition_userdata|default(false) %}
+
+{% set partition_boot_with_postprocess = partition_boot_with_postprocess|default(boot) %}
+{% set partition_boot_b_with_postprocess = partition_boot_b_with_postprocess|default(partition_boot_b) %}
+{% set partition_super_with_postprocess = partition_super_with_postprocess|default(partition_super) %}
+{% set partition_system_with_postprocess = partition_system_with_postprocess|default(partition_system) %}
+{% set partition_vendor_with_postprocess = partition_vendor_with_postprocess|default(partition_vendor) %}
+{% set partition_vendor_boot_with_postprocess = partition_vendor_boot_with_postprocess|default(partition_vendor_boot) %}
+{% set partition_cache_with_postprocess = partition_cache_with_postprocess|default(partition_cache) %}
+{% set partition_vbmeta_with_postprocess = partition_vbmeta_with_postprocess|default(partition_vbmeta) %}
+{% set partition_vbmeta_a_with_postprocess = partition_vbmeta_a_with_postprocess|default(partition_vbmeta_a) %}
+{% set partition_vbmeta_b_with_postprocess = partition_vbmeta_b_with_postprocess|default(partition_vbmeta_b) %}
+{% set partition_recovery_with_postprocess = partition_recovery_with_postprocess|default(partition_recovery) %}
+{% set partition_userdata_with_postprocess = partition_userdata_with_postprocess|default(partition_userdata) %}
+
+{% block global_settings %}
+{{ super() }}
+reboot_to_fastboot: {{ reboot_to_fastboot }}
+{% endblock global_settings %}
+
+{% block context %}
+  test_character_delay: 10
+{% endblock context %}
+
+{% block actions %}
+{% block deploy_target %}
+- deploy:
+{% if lxc_project == true %}
+    namespace: target
+{% endif %}
+    timeout:
+      minutes: {{ target_deploy_timeout }}
+    to: {{ DEPLOY_TARGET }}
+    images:
+{% if ptable == true %}
+      {{ PTABLE_LABEL }}:
+        url: {{PTABLE_URL}}
+{% if PTABLE_URL_COMP is defined %}
+        compression: {{PTABLE_URL_COMP}}
+{% endif %}
+{% if reboot_reset == true and DEPLOY_TARGET == "fastboot" %}
+        reboot: hard-reset
+{% endif %}
+{% endif %}
+{% if boot == true and partition_boot_with_postprocess == true %}
+      {{ BOOT_LABEL }}:
+        url: {{BOOT_URL}}
+{% block kernel_extra_args %}
+{% endblock kernel_extra_args %}
+{% if BOOT_URL_COMP is defined %}
+        compression: {{BOOT_URL_COMP}}
+{% endif %}
+{% if reboot_reset == true and DEPLOY_TARGET == "fastboot" and BOOT_LABEL == "boot" %}
+        reboot: hard-reset
+{% endif %}
+{% if apply_overlay == "bootimg" %}
+        apply-overlay: true
+{% endif %}
+{% block boot_extra_args %}
+{% endblock boot_extra_args %}
+{% if BOOT_LABEL != "kernel" and KERNEL_URL is defined %}
+      kernel:
+        url: {{KERNEL_URL}}
+{% if KERNEL_URL_COMP is defined %}
+        compression: {{KERNEL_URL_COMP}}
+{% endif %}
+{% endif %}
+{% endif %}
+{% if DTB_URL is defined %}
+      dtb:
+        url: {{DTB_URL}}
+{% endif %}
+{% if MODULES_URL is defined %}
+      modules:
+        url: {{MODULES_URL}}
+{% if MODULES_URL_FORMAT is defined %}
+        format: {{MODULES_URL_FORMAT}}
+{% endif %}
+{% if MODULES_URL_COMP is defined %}
+        compression: {{MODULES_URL_COMP}}
+{% endif %}
+{% endif %}
+{% if rootfs == true %}
+      {{ rootfs_label }}:
+        url: {{ROOTFS_URL}}
+{% if ROOTFS_URL_FORMAT is defined %}
+        format: {{ROOTFS_URL_FORMAT}}
+{% endif %}
+{% if ROOTFS_URL_COMP is defined %}
+        compression: {{ROOTFS_URL_COMP}}
+{% endif %}
+{% if apply_overlay == "rootfs" %}
+        apply-overlay: true
+{% endif %}
+{% block rootfs_extra_args %}
+{% endblock rootfs_extra_args %}
+{% if OVERLAY_URL is defined or OVERLAY_MODULES_URL is defined or OVERLAY_KSELFTEST_URL is defined or OVERLAY_PERF_URL is defined %}
+        overlays:
+{% endif %}
+{% if OVERLAY_URL is defined %}
+          over:
+            url: {{OVERLAY_URL}}
+            path: {{OVERLAY_PATH|default("/")}}
+{% if OVERLAY_URL_FORMAT is defined %}
+            format: {{OVERLAY_URL_FORMAT}}
+{% endif %}
+{% if OVERLAY_URL_COMP is defined %}
+            compression: {{OVERLAY_URL_COMP}}
+{% endif %}
+{% endif %}
+{% if OVERLAY_MODULES_URL is defined %}
+          modules:
+            url: {{OVERLAY_MODULES_URL}}
+            path: /
+{% if OVERLAY_MODULES_URL_FORMAT is defined %}
+            format: {{OVERLAY_MODULES_URL_FORMAT}}
+{% endif %}
+{% if OVERLAY_MODULES_URL_COMP is defined %}
+            compression: {{OVERLAY_MODULES_URL_COMP}}
+{% endif %}
+{% endif %}
+{% if OVERLAY_KSELFTEST_URL is defined %}
+          kselftest:
+            url: {{OVERLAY_KSELFTEST_URL}}
+            path: {{KSELFTEST_PATH|default("/opt/kselftests/default-in-kernel")}}
+{% if OVERLAY_KSELFTEST_URL_FORMAT is defined %}
+            format: {{OVERLAY_KSELFTEST_URL_FORMAT}}
+{% endif %}
+{% if OVERLAY_KSELFTEST_URL_COMP is defined %}
+            compression: {{OVERLAY_KSELFTEST_URL_COMP}}
+{% endif %}
+{% endif %}
+{% if OVERLAY_PERF_URL is defined %}
+          perf:
+            url: {{OVERLAY_PERF_URL}}
+            path: {{PERF_PATH|default("/")}}
+{% if OVERLAY_PERF_URL_FORMAT is defined %}
+            format: {{OVERLAY_PERF_URL_FORMAT}}
+{% endif %}
+{% if OVERLAY_PERF_URL_COMP is defined %}
+            compression: {{OVERLAY_PERF_URL_COMP}}
+{% endif %}
+{% endif %}
+{% endif %}
+{# partition_boot_a will be done with the boot partition block #}
+{% if partition_boot_b == true and partition_boot_b_with_postprocess == true %}
+      boot_b:
+        url: {{ BOOT_B_URL }}
+{% if BOOT_B_URL_COMP is defined %}
+        compression: {{ BOOT_B_URL_COMP }}
+{% endif %}
+{% endif %}
+{% if partition_super == true and partition_super_with_postprocess == true %}
+      super:
+        url: {{ SUPER_URL }}
+{% if SUPER_URL_COMP is defined %}
+        compression: {{ SUPER_URL_COMP }}
+{% endif %}
+{% endif %}
+{% if partition_system == true and partition_system_with_postprocess == true %}
+      system:
+        url: {{ SYSTEM_URL }}
+{% if SYSTEM_URL_COMP is defined %}
+        compression: {{ SYSTEM_URL_COMP }}
+{% endif %}
+{% endif %}
+{% if partition_vendor == true and partition_vendor_with_postprocess == true %}
+      vendor:
+        url: {{ VENDOR_URL }}
+{% if VENDOR_URL_COMP is defined %}
+        compression: {{ VENDOR_URL_COMP }}
+{% endif %}
+{% endif %}
+{% if partition_vendor_boot == true and partition_vendor_boot_with_postprocess == true %}
+      vendor_boot:
+        url: {{ VENDOR_BOOT_URL }}
+{% if VENDOR_BOOT_URL_COMP is defined %}
+        compression: {{ VENDOR_BOOT_URL_COMP }}
+{% endif %}
+{% endif %}
+{% if partition_cache == true and partition_cache_with_postprocess == true %}
+      cache:
+        url: {{ CACHE_URL }}
+{% if CACHE_URL_COMP is defined %}
+        compression: {{ CACHE_URL_COMP }}
+{% endif %}
+{% endif %}
+{% if partition_vbmeta == true and partition_vbmeta_with_postprocess == true %}
+      vbmeta:
+        url: {{ VBMETA_URL }}
+{% if VBMETA_URL_COMP is defined %}
+        compression: {{ VBMETA_URL_COMP }}
+{% endif %}
+{% endif %}
+{% if partition_vbmeta_a == true and partition_vbmeta_a_with_postprocess == true %}
+      vbmeta_a:
+        url: {{ VBMETA_A_URL }}
+{% if VBMETA_A_URL_COMP is defined %}
+        compression: {{ VBMETA_A_URL_COMP }}
+{% endif %}
+{% endif %}
+{% if partition_vbmeta_b == true and partition_vbmeta_b_with_postprocess == true %}
+      vbmeta_b:
+        url: {{ VBMETA_B_URL }}
+{% if VBMETA_B_URL_COMP is defined %}
+        compression: {{ VBMETA_B_URL_COMP }}
+{% endif %}
+{% endif %}
+{% if partition_recovery == true and partition_recovery_with_postprocess == true %}
+      recovery:
+        url: {{ RECOVERY_URL }}
+{% if RECOVERY_URL_COMP is defined %}
+        compression: {{ RECOVERY_URL_COMP }}
+{% endif %}
+{% endif %}
+{% if partition_userdata == true and partition_userdata_with_postprocess == true %}
+      userdata:
+        url: {{ USERDATA_URL }}
+{% if USERDATA_URL_COMP is defined %}
+        compression: {{ USERDATA_URL_COMP }}
+{% endif %}
+{% endif %}
+    os: {{DEPLOY_OS}}
+{% if lxc_project == false and download_postprocess_required == true %}
+    postprocess:
+      docker:
+        image: {{DOCKER_IMAGE_POSTPROCESS}}
+{% endif %}
+{% endblock deploy_target %}
+
+{% block pre_boot_command %}
+{% include "include/boot_target/pre_boot_commands.jinja2" %}
+{% endblock pre_boot_command %}
+
+{% block boot_target %}
+- boot:
+{% if kernel_start_message is defined and kernel_start_message %}
+    parameters:
+      kernel-start-message: {{ kernel_start_message }}
+{% endif %}
+{% if lxc_project == true %}
+    namespace: target
+{% endif %}
+{% block boot_commands %}
+{% endblock boot_commands %}
+{% if auto_login == true %}
+{% include "include/boot_target/auto_login.jinja2" %}
+{% block auto_login_commands %}
+{% include "include/boot_target/auto_login_commands.jinja2" %}
+{% endblock auto_login_commands %}
+{% endif %}
+{% include "include/boot_target/boot_os_prompt.jinja2" %}
+{% include "include/boot_target/timeout_and_method.jinja2" %}
+{% if FASTBOOT_COMMANDS is defined %}
+    commands:
+{% for fcmd in FASTBOOT_COMMANDS %}
+      - {{ fcmd }}
+{% endfor %}
+{% endif %}
+{% if lxc_project == true and pre_os_command is defined and pre_os_command == true %}
+    protocols:
+      lava-lxc:
+      - action: auto-login-action
+        request: pre-os-command
+        timeout:
+          minutes: 2
+{% endif %}
+{% if DOCKER_IMAGE_BOOT is defined %}
+    docker:
+      image: {{DOCKER_IMAGE_BOOT}}
+{% endif %}
+{% endblock boot_target %}
+
+{% block post_boot_command %}
+{% include "include/boot_target/post_boot_command.jinja2" %}
+{% endblock post_boot_command %}
+
+{{ super() }}
+
+{% if lxc_project == true %}
+{% block test_lxc %}
+{% endblock test_lxc %}
+{% endif %}
+
+{% endblock actions %}

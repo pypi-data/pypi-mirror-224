@@ -1,0 +1,19 @@
+{% set USE_DOCKER_IMAGE_TEST_TARGET = USE_DOCKER_IMAGE_TEST_TARGET|default(false) %}
+
+{% if enable_tests is defined and enable_tests %}
+- test:
+{% if USE_DOCKER_IMAGE_TEST_TARGET == true %}
+    docker:
+      image: {{ DOCKER_IMAGE_TEST }}
+{% endif %}
+{% if lxc_project == true %}
+    namespace: target
+{% endif %}
+    timeout:
+      minutes: {{ test_timeout }}
+{% if test_target_interactive is undefined %}
+    definitions:
+{% else %}
+    interactive:
+{% endif %}
+{% endif %}
