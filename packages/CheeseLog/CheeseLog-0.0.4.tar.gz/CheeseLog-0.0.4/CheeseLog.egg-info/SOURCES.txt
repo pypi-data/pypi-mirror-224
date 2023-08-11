@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+CheeseLog/__init__.py
+CheeseLog.egg-info/PKG-INFO
+CheeseLog.egg-info/SOURCES.txt
+CheeseLog.egg-info/dependency_links.txt
+CheeseLog.egg-info/requires.txt
+CheeseLog.egg-info/top_level.txt
