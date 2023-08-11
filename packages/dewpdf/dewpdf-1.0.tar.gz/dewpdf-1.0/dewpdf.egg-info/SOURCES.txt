@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+dewpdf/__init__.py
+dewpdf/pdf2image.py
+dewpdf/pdf2text.py
+dewpdf.egg-info/PKG-INFO
+dewpdf.egg-info/SOURCES.txt
+dewpdf.egg-info/dependency_links.txt
+dewpdf.egg-info/top_level.txt
