@@ -1,0 +1,12 @@
+sql_field_report/__init__.py,sha256=Zo8IFQx6UEx4w8lcospoMtWWzxWnSZIog0oj-mx4Qfw,123
+sql_field_report/__main__.py,sha256=TSxqWVtGYqVTEWvI5q0ZTedJpLjzbMPeeBxqNnsyqUc,69
+sql_field_report/sql_field_report.py,sha256=hzfLUPGD-16JFv-Q-LmPPG3HKyx58Tv3qg72wV5xT8k,4110
+sql_field_report/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sql_field_report/utils/analysis.py,sha256=7EW6RloOWalRZaDOSGBeJ7-s9J3nJ_7xsdQ45yinZxU,8080
+sql_field_report/utils/databases.py,sha256=lpygzau461qGRXHan5M2qOrA98dQn86K7BG7wr5DsYE,2585
+sql_field_report/utils/excel.py,sha256=f5JNowWLurai8HNgFAsFBAWZp1xm7D6I6S1putgEM-o,3062
+sql_field_report/utils/file_utils.py,sha256=4_56ZUf_HfrB8Ph0yZVGrQTvrAyH5emPJ147R05dH68,770
+sql_field_report-1.0.15.dist-info/METADATA,sha256=XKQ7jxxTrJBsA2JcVyMXjTvSVkiPOUrJ9EbNR8rFTOA,3557
+sql_field_report-1.0.15.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+sql_field_report-1.0.15.dist-info/entry_points.txt,sha256=ElG3kK5oE7yl_7D8ROZZzYmsckTYl0YyRRgpzVP1xEw,74
+sql_field_report-1.0.15.dist-info/RECORD,,
