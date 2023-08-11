@@ -1,0 +1,16 @@
+ondewo/__init__.py,sha256=bpT73UG7mZL_JjEqMwbYx6q69jA8J5Jcoul1LcDokhA,81
+ondewo/sip/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ondewo/sip/sip_pb2.py,sha256=-2QrVjY2-lXzWO3MgacCpK0OTFKXRm5iyPPLqG2Of1k,10890
+ondewo/sip/sip_pb2.pyi,sha256=g3VNQs5f_YErquAT2rJ_fP1Vk30j8jnEOhqaJHvbD28,16729
+ondewo/sip/sip_pb2_grpc.py,sha256=Kk6hTFYezyaUx5TiSXWIKCsfSd1XzCidRIH67xwKcc8,19384
+ondewo/sip/client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ondewo/sip/client/client.py,sha256=p_R8s5l4tDoaVY17-pmmLVESxCruf0srYpa60UZ8qww,1294
+ondewo/sip/client/client_config.py,sha256=gTxVC9bMBW0C8Vaojqe-k4HDgIw3MliTUGQvVfSJ5zw,838
+ondewo/sip/client/services_container.py,sha256=Kp-eDaMK2uFifaBHPmIoebF-YfUs8VuTn5iDndVkOHc,803
+ondewo/sip/client/services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ondewo/sip/client/services/sip.py,sha256=KvaH1QmhAywxuDjKfqXwZYhqdOXYsiI7y5Csw87aASg,2894
+ondewo_sip_client-5.1.0.dist-info/LICENSE,sha256=b64U8Nlwl-DmaozBK6sSUjWnhkGg9syz9EueNgfDLtg,10257
+ondewo_sip_client-5.1.0.dist-info/METADATA,sha256=6FUEUaDI2111wYN76D1VDPKZPhnhjuEKxEtQcCUU6nU,6695
+ondewo_sip_client-5.1.0.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+ondewo_sip_client-5.1.0.dist-info/top_level.txt,sha256=k6xvj-4simLbghb9G4LX5lD3UvNgTBdB-WT8oPDlqqE,7
+ondewo_sip_client-5.1.0.dist-info/RECORD,,
