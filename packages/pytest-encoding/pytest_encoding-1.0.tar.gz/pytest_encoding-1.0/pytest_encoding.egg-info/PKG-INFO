@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pytest-encoding
+Version: 1.0
+Summary: set your encoding and logger
+Home-page: https://github.com/xxx/pytest-encoding
+Author: aria
+Author-email: oh111@126.com
+License: proprietary
+Keywords: pytest,py.test,pytest_encode
+Platform: UNKNOWN
+Classifier: Framework :: Pytest
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Testing
+Classifier: Programming Language :: Python :: 3.8
+
+Show Chinese for your mark.parametrize(). Define logger variable for getting your log
+
