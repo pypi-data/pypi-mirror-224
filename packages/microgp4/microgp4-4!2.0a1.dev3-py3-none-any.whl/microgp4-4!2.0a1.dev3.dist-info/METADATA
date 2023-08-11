@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: microgp4
+Version: 4!2.0a1.dev3
+Summary: Yet another multi-purpose extensible self-adaptive evolutionary tool
+License: Apache-2.0
+Author: Giovanni Squillero
+Author-email: giovanni.squillero@polito.it
+Requires-Python: >=3.11,<3.13
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: plot
+Requires-Dist: arcade (>=2.6.17,<3.0.0) ; extra == "plot"
+Requires-Dist: install (>=1.3.5,<2.0.0)
+Requires-Dist: joblib (>=1.3.1,<2.0.0)
+Requires-Dist: matplotlib (>=3.7.1,<4.0.0) ; extra == "plot"
+Requires-Dist: networkx (>=3.1,<4.0)
+Requires-Dist: numpy (>=1.25.0,<2.0.0)
+Requires-Dist: scipy (>=1.11.1,<2.0.0)
+Requires-Dist: tqdm (>=4.65.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+MicroGP4
+========
+
+## Documentation
+
+* [Current documentation](https://microgp4.readthedocs.io/) (⚠️ notez bien: still incomplete)
+
+## Previous Versions
+
+* The documentation for [MicroGP3](http://ugp3.sourceforge.net/) (v3.1 *"Bluebell"*), together with the old design rationale, can be found in the book *Evolutionary Optimization: the µGP toolkit*, Springer Science & Business Media (2011), [10.1007/978-0-387-09426-7](https://www.doi.org/10.1007/978-0-387-09426-7)
+* [MicroGP2](https://github.com/squillero/microgp2) is described in the paper "MicroGP — An Evolutionary Assembly Program Generator", *Genetic Programming and Evolvable Machines*,  vol. 6, 247–263 (2005), [10.1007/s10710-005-2985-x](http://dx.doi.org/10.1007/s10710-005-2985-x)
+* An evolutionary tool able to generate realistic assembly programs (MicroGP1) has been presented in the paper "Efficient machine-code test-program induction", *Proceedings of the Congress on Evolutionary Computation* (2002), [10.1109/CEC.2002.1004462](http://dx.doi.org/10.1109/CEC.2002.1004462)
+
