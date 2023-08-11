@@ -1,0 +1,12 @@
+highrise/__init__.py,sha256=exEi4mUDvY3-YYwiTZP9os7w9LX6Urc1OJsiXTsKypk,15649
+highrise/__main__.py,sha256=Qw2bX__RtppPpJqc68x-6L0ki0m8o17j3oZnZcnDu-I,16471
+highrise/_unions.py,sha256=a3Z2_MtR3syEl4p2jincT1nphWnZYFuRd0e5DB8BNg4,3064
+highrise/models.py,sha256=fh367JLalfMj-d_gb14smmpkDRjH4PdkWZWDjsnQEP0,17435
+highrise/models_control.py,sha256=VnGqiSi6MMERchLU_VCZBo4Vb0u0Yr_gakqoSBMT3_w,621
+highrise/models_webapi.py,sha256=oWqQt8ApmSw2sUCzpVltpDkU6GqahgkQKDsqlCtEJRw,9595
+highrise/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+highrise/webapi.py,sha256=-v-IgBOT7Ts4OCWP5AnQ5Jj1k53CyarYAdCRSpI-FHQ,8842
+highrise_bot_sdk-23.3.2.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+highrise_bot_sdk-23.3.2.dist-info/entry_points.txt,sha256=_cxeMH0-Om7kAMfZq8pXjjggq1ElVlz0rqhd05ZoA4Q,50
+highrise_bot_sdk-23.3.2.dist-info/METADATA,sha256=TgjVwv2rIRkO-OZnfJLgx1tSOykK1DMdkEqgAINii3s,10312
+highrise_bot_sdk-23.3.2.dist-info/RECORD,,
