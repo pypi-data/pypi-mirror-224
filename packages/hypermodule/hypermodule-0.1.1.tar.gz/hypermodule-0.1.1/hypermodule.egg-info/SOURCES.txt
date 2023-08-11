@@ -1,0 +1,11 @@
+README.md
+setup.py
+hypermodule/__init__.py
+hypermodule/hypermodule.py
+hypermodule/partials.py
+hypermodule/utils.py
+hypermodule.egg-info/PKG-INFO
+hypermodule.egg-info/SOURCES.txt
+hypermodule.egg-info/dependency_links.txt
+hypermodule.egg-info/requires.txt
+hypermodule.egg-info/top_level.txt
