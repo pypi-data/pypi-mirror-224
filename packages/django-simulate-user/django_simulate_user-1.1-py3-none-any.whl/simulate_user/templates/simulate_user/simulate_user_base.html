@@ -1,0 +1,47 @@
+{% load static %}
+{% load private_tags %}
+<!DOCTYPE html>
+<html{% block htmlattributes %} lang="en"{% endblock %}>
+<head>
+    {% block prehead %}{% endblock %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block headtitle %}Simulate User Base{% endblock %}</title>
+    <link href="{% static 'simulate_user/css/styles.css' %}" rel="stylesheet" type="text/css">
+    {% if show_simulated_user_control_bar %}<script src="{% static 'simulate_user/js/main.js' %}" defer></script>{% endif %}
+    {% block extrahead %}{% endblock %}
+</head>
+<body>
+    <div id="everything-wrapper">
+        {% if show_simulated_user_control_bar %}
+            <div id="simulate-user-wrapper" class="collapsed">
+                <!-- Display real and simulated user information -->
+                <div class="simulate-user-main-bar">
+                    <p><strong>Real User:</strong> {{ request.real_user.username }}</p>
+                    <p><strong>Simulated User:</strong> {{ request.user.username }}</p>
+                    <p><strong>Time since last change:</strong> <span id="simulate-user-simulation-timer">{{ time_since_last_change }}</span></p>
+                    <a href="{% url 'admin:index' %}"><button>Admin Site</button></a>
+                    <button id="expand-simulate-user-bar-toggle">Expand</button>
+                </div>
+
+                <!-- Form to switch user -->
+                <div class="simulate-user-secondary-bar">
+                    <form action="{% url 'simulate_user_switch_user' %}" method="post">
+                        {% csrf_token %}
+                        {{ simulate_user_form.as_ul }}
+                        <button type="submit">Switch User</button>
+                    </form>
+                </div>
+            </div>
+        {% endif %}
+
+        <!-- Main content area with red border -->
+        <div id="main-content" class="{% if simulated_user_control_bar_enabled %}enabled{% else %}disabled{% endif %} {% if show_simulated_user_control_bar %}showing{% else %}hidden{% endif %}">
+            {% block maincontent %}{% endblock %}
+        </div>
+    </div>
+
+    {% block extrabody %}{% endblock %}
+
+</body>
+</html>
