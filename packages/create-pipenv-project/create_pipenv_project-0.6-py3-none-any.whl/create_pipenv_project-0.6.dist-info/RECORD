@@ -1,0 +1,16 @@
+create_pipenv_project/__init__.py,sha256=qZcS8AsF5obStMWdeS1kEzsCG7MeacK3EZKJHWPpr2c,3917
+create_pipenv_project/__main__.py,sha256=kJgaoyILrJK28AQ2btbBuU1E4cCkQfbnR0SIABXgNh8,68
+create_pipenv_project/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+create_pipenv_project/terminal.py,sha256=Q0XE2I7j89Tbvl5iJJxmnP0ZUQ5PtCAsSi0TlvT-MF8,1496
+create_pipenv_project/user_files/.gitignore,sha256=_tiDxJSYlZ4IFrdoSuQFCv2k0DgPqUN_5nJocCn7ykQ,3505
+create_pipenv_project/user_files/__init__.py,sha256=9oRLiIfbtZsDaAz6nm85RCRuXC9OtKR2P5IB4KXz-ig,199
+create_pipenv_project/user_files/_main_runner.py,sha256=o9Qvf-a33y8pmfjKdA9ANFSGqvyorbJ7wUNFtnv1CK0,1664
+create_pipenv_project/user_files/env,sha256=JxLT8-Y_xw8D22LxthZLr4pKk9hS_QlAjjsFDUreKEY,45
+create_pipenv_project/user_files/logging.py,sha256=j-LH9ABlnpvf-KVZjd_Xtl-uyXxiM8T5n9sF6xyc9kQ,3216
+create_pipenv_project/user_files/mypy.ini,sha256=mxA3XrjuS9bcbjbZCsV13L_I3d774C98gps0Xng5ztM,838
+create_pipenv_project/user_files/run.py,sha256=-zNK4CoW2Jxizm2CVuQeJVnvPlIgCaoc_wTVjAFhcPg,129
+create_pipenv_project-0.6.dist-info/METADATA,sha256=2Zc8eVywSAt-7u6RgUrZIVDQ1_8FXbO0Otx3C5y6V0s,1223
+create_pipenv_project-0.6.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+create_pipenv_project-0.6.dist-info/entry_points.txt,sha256=PQ9V6ywh-qy6EtK1q4fmSJLP-3v7p-9-O735TX1O2CQ,69
+create_pipenv_project-0.6.dist-info/licenses/LICENSE,sha256=lxqeFMhqt0JOV4zC99vBs-VZhwi_KfzoAWsSjnhD5Jo,1073
+create_pipenv_project-0.6.dist-info/RECORD,,
