@@ -1,0 +1,15 @@
+cdisco/color_analysis.py,sha256=Nh8bH_NLlguZIfFn50kmpdjf2PLrjw3xFMk64XsIZtc,7978
+cdisco/datasets.py,sha256=NIFqVSjCCPVfTfsSaw5MN2wW20yJI_wQ3mXJb4Eqv5o,2677
+cdisco/predict.py,sha256=3dpNU8fhaY-5PRSsjz-M_ABRR82osT_0_KzLlqsKW5o,6976
+scripts/analyze.py,sha256=NfWYdqUCVQlneYvmCMdlrCqYcTpWLH92sdG4ueV1Ijo,3394
+scripts/cdisco.py,sha256=0n6Ja6hUTzCWZmuYavXB6_mn8azhJdtntlIPzsIVqfw,8293
+scripts/color_analysis.py,sha256=Nh8bH_NLlguZIfFn50kmpdjf2PLrjw3xFMk64XsIZtc,7978
+scripts/datasets.py,sha256=NIFqVSjCCPVfTfsSaw5MN2wW20yJI_wQ3mXJb4Eqv5o,2677
+scripts/predict.py,sha256=3dpNU8fhaY-5PRSsjz-M_ABRR82osT_0_KzLlqsKW5o,6976
+scripts/utils.py,sha256=k7esKDXzRZ7xLcxgAPzZoNhEbmR14oUSCQE5qgoA2Ec,545
+scripts/vis.py,sha256=s84RBT5DdLnyxF9AJ8HjEsPGs_IzoBfArmAOFuuHsJ0,9976
+cdisco-0.1.1.dist-info/LICENSE.txt,sha256=VBrvANzYb40v7PseeZmhf_uztB1feHkppE-IVX63jFc,1069
+cdisco-0.1.1.dist-info/METADATA,sha256=xB9ExOmGUMyeqTZL2muznZFQ9Ldrn5SBvljo4jxHtOM,875
+cdisco-0.1.1.dist-info/WHEEL,sha256=m9WAupmBd2JGDsXWQGJgMGXIWbQY3F5c2xBJbBhq0nY,110
+cdisco-0.1.1.dist-info/top_level.txt,sha256=rmzd5mewlrJy4sT608KPib7sM7edoY75AeqJeY3SPB4,8
+cdisco-0.1.1.dist-info/RECORD,,
