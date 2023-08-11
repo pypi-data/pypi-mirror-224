@@ -1,0 +1,17 @@
+AUTHORS.rst
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+pc_mouseparty/__init__.py
+pc_mouseparty/cli.py
+pc_mouseparty/common.py
+pc_mouseparty/pc_mouseparty.py
+pc_mouseparty.egg-info/PKG-INFO
+pc_mouseparty.egg-info/SOURCES.txt
+pc_mouseparty.egg-info/dependency_links.txt
+pc_mouseparty.egg-info/entry_points.txt
+pc_mouseparty.egg-info/not-zip-safe
+pc_mouseparty.egg-info/top_level.txt
