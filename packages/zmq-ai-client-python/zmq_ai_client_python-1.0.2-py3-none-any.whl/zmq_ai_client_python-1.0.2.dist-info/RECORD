@@ -1,0 +1,9 @@
+zmq_ai_client_python/__init__.py,sha256=fZNG5_GWgkacNnq52VDSAi0avS9QzgEyPWPVb-mkVRU,190
+zmq_ai_client_python/client.py,sha256=6j3HaoBD5U4MIULHTAhc614KowBEAfd5ogXRqgw-5FU,3933
+zmq_ai_client_python/client_test.py,sha256=9tcA8wTpmAvpqVtyxo8RkyMrYeUKXV-BRVb2xCm71kA,1018
+zmq_ai_client_python/schema/completion.py,sha256=Pf9z99ubJ5D43gCpwJsK6jh1eJyKht46hwyxLpv8d7U,1807
+zmq_ai_client_python/schema/request.py,sha256=iacEJjVMO2WU1R88uj69uF44Yu-K8nbnl-h3y7cSv4k,1880
+zmq_ai_client_python-1.0.2.dist-info/METADATA,sha256=zb6nI9dK2tSQIDWv5A7lWxz5F-jn9RXJqrtOwzmNgoM,298
+zmq_ai_client_python-1.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+zmq_ai_client_python-1.0.2.dist-info/top_level.txt,sha256=S861527CPZCvskUBY2V92tD-Rs5tuU5qYa8aTBJYjdc,21
+zmq_ai_client_python-1.0.2.dist-info/RECORD,,
