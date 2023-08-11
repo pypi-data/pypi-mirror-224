@@ -1,0 +1,10 @@
+agnostic/__init__.py,sha256=xkm4El7bxXiIhdlj_batRuF_fYPBs76y_-u3jze_LRs,9945
+agnostic/cli.py,sha256=4yNNkoGQRy1WzWyAFqLbJlSE0OxHLmI4d1gCGEOXj0E,19433
+agnostic/mysql.py,sha256=4wEC33CSCMy6VGgS0k_R-bAjOwZOxEuVSdNZVTxFXsM,3288
+agnostic/postgres.py,sha256=q4yVAYIH5BAWgy6Ku22nVM8rE62npufWzwMMT0hJjf0,5870
+agnostic/sqlite.py,sha256=aACQamzVpsEUjN4dSZlZDY3JlzjIQm2l6jIWTps_5ME,2057
+agnostic-1.0.3.dist-info/LICENSE,sha256=MKlYBS5HY3pVBdAPs4BsDp9X_gGn9l10ALNyy65kD3Y,1085
+agnostic-1.0.3.dist-info/METADATA,sha256=1rcd1IIl3aafhWqF9-LRkQM1EwjrqnWq2DgCGUrEt0o,2327
+agnostic-1.0.3.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+agnostic-1.0.3.dist-info/entry_points.txt,sha256=wgy6lFbmhlN1L1Fxk-A_Q4GOcbXcw52t2Pg5rHTbY2M,46
+agnostic-1.0.3.dist-info/RECORD,,
