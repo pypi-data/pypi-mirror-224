@@ -1,0 +1,10 @@
+dataframe_api_compat/__init__.py,sha256=cYpoY6nB1WfgM7nZLuxlxAxFV__eVQMYubfJVY-Qp_4,331
+dataframe_api_compat/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dataframe_api_compat/pandas_standard/__init__.py,sha256=mbRlrtDYJbQki8-nRdCkw7QtL4hjAMPlr6FP9rwqFSg,4786
+dataframe_api_compat/pandas_standard/pandas_standard.py,sha256=JszEyS_hpeIJjaAgdhRdlRpl8w1YLhoE51lOjMkJauU,30276
+dataframe_api_compat/polars_standard/__init__.py,sha256=BzGiz_rXJ_opXb9jGDmvOJTVER2_UsNFs8d0IKUbvx0,4722
+dataframe_api_compat/polars_standard/polars_standard.py,sha256=eNYC9TPPN-7QCl4JsnJK65-YWkM3hxJ3ElZOjsijzZ8,39891
+dataframe_api_compat-0.1.11.dist-info/METADATA,sha256=EB8hKRh4ZY-N2tIs73sPer3T9--fIZrj7_kkg4eJ2Yc,2488
+dataframe_api_compat-0.1.11.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+dataframe_api_compat-0.1.11.dist-info/licenses/LICENSE,sha256=HcGJW3IVtkYAVmy4K0PTcLajPoZDxMaNizYdYQXwBdA,1071
+dataframe_api_compat-0.1.11.dist-info/RECORD,,
