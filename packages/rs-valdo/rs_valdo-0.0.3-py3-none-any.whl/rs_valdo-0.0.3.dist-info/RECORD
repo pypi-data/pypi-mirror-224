@@ -1,0 +1,16 @@
+valdo/VERSION,sha256=dEj8KrFke0LnS0oaAsirXMHgTLLcLZS-xELsN8s-KUg,5
+valdo/__init__.py,sha256=rHBCuDMCYfTXmOTFccvmpJjmQkLjX6f2eK-ZxRcJmZs,157
+valdo/blobs.py,sha256=Rq8_DIzjYJwZaYR4-EZfDxSWa30e74dz1-vLd4haEBI,5078
+valdo/helper.py,sha256=YaURFqWCAjhkuyRLvr_lHREHO3RDhe9j1Tu2dDvXKkY,146
+valdo/preprocessing.py,sha256=yPp-Bbt37IweUwI5vb0dDmHMndGOQ__uOh_pI7kQO1c,6015
+valdo/reindex.py,sha256=vp0u9k8I4Esp2y2RCkh7WzEouH4jm5YGrA8PW_sdL78,2341
+valdo/scaling.py,sha256=qjI-5i8luf4Yv_UsQRTNZrOhHzzNb7NBZnO9KYygXNg,5194
+valdo/vae_basics.py,sha256=Bc0M0H8d90L9asF2x9AGSt6vNyO7DKroYTfX6DQZqbM,4789
+valdo/vae_networks.py,sha256=tIrY_gLUgHZhT3JCPB-_S0GStOT0MIaeYolmaVjJCcg,7308
+valdo/commandline/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+valdo/commandline/refine.py,sha256=F2zKi4vZVzxQU-urPFpwllRxo7vN9n0OZ79XCsGAkPA,2101
+rs_valdo-0.0.3.dist-info/METADATA,sha256=o9iwthbRlVZoUUlGiLG3_UYOdFxIWAMoQPLaThG1BBg,427
+rs_valdo-0.0.3.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+rs_valdo-0.0.3.dist-info/entry_points.txt,sha256=jD3F11yC_CBeA4k8ukiEZQaltQhr3mYBY61w-7Ycyus,63
+rs_valdo-0.0.3.dist-info/top_level.txt,sha256=e5AuD4RRtA7xU1Ru0qfSU7vIxMOBBM53zwsb0O_bvS0,6
+rs_valdo-0.0.3.dist-info/RECORD,,
