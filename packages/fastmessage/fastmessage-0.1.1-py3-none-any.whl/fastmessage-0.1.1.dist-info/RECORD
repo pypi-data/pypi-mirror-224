@@ -1,0 +1,11 @@
+fastmessage/__init__.py,sha256=3Vt682EwI5rYqEECKNMWv0eMEoZrTdyrkqzZmbOCfUw,364
+fastmessage/callable_wrapper.py,sha256=skmOB2o8g1FSmRibjQL45uN2ohoPbONz_mb8Cw3QWOI,7663
+fastmessage/common.py,sha256=4KGtuB8z4Av-XOjUWd42fOZZFXH9ZacaDq4bNNkQGg4,475
+fastmessage/exceptions.py,sha256=FHNnVZODVo_g0tyPnROXtCqp4BlLuHMR8HMpV2KpQOM,383
+fastmessage/fastmessage_handler.py,sha256=eeirvgBFG6wfHR0kK8NI6H3VRfIjrQB443rowdVXywU,6942
+fastmessage/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastmessage-0.1.1.dist-info/LICENSE,sha256=TMxJyOG5WzCQtNcBIE0pjtdZwX2pJK2a3NiQpRMciQs,1067
+fastmessage-0.1.1.dist-info/METADATA,sha256=vB5O9As4J_LXg4u8rpFc7Hq6r-AQ0rUFMqD61_9PRcA,4620
+fastmessage-0.1.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+fastmessage-0.1.1.dist-info/top_level.txt,sha256=QecpHWjUDTwK2vfaeTanNv2Szk6eZM2ripY5PwmHqHo,12
+fastmessage-0.1.1.dist-info/RECORD,,
