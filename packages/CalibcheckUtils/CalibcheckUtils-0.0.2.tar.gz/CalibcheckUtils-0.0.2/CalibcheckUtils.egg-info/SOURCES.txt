@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+setup.py
+CalibcheckUtils/__init__.py
+CalibcheckUtils/calibcheckutils_gpu.py
+CalibcheckUtils/config.py
+CalibcheckUtils.egg-info/PKG-INFO
+CalibcheckUtils.egg-info/SOURCES.txt
+CalibcheckUtils.egg-info/dependency_links.txt
+CalibcheckUtils.egg-info/not-zip-safe
+CalibcheckUtils.egg-info/requires.txt
+CalibcheckUtils.egg-info/top_level.txt
