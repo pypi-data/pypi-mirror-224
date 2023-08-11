@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: llmevals
+Version: 0.0.0
+Summary: Eval
+Home-page: https://github.com/mr-gpt/evals
+Author: Twilix
+Author-email: jacky@twilix.io
+Requires-Dist: requests
+Requires-Dist: tqdm
+
