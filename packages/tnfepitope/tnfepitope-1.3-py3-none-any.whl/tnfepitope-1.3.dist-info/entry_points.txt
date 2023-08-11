@@ -1,0 +1,2 @@
+[console_scripts]
+tnfepitope = tnfepitope.python_scripts.tnfepitope:main
