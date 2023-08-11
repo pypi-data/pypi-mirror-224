@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: scrapy-selenium-tmt
+Version: 0.0.9
+Summary: Scrapy with selenium
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENCE
+
