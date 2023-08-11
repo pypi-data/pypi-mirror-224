@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: greet2o
+Version: 0.1.0
+Summary: tetete1118@gmail.com: Receiving and deleting email on an IMAP4 server.
+Home-page: https://github.com/tetsu5555/tetete1118@gmail.com
+Author: TETSUO Yamamoto
+Author-email: tetete1118@gmail.com
+Maintainer: TETSUO Yamamoto
+Maintainer-email: tetete1118@gmail.com
+License: MIT
+Download-URL: https://github.com/tetsu5555/tetete1118@gmail.com
+Description: # greet2o
+        
+        - アカウント作った
+          - https://test.pypi.org/
+          - https://pypi.org/account/register/
+        
+Keywords: greeting greet2o
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown

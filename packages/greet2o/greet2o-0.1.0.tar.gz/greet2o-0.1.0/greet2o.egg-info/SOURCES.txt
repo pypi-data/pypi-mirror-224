@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+greet2o/__init__.py
+greet2o/logic.py
+greet2o.egg-info/PKG-INFO
+greet2o.egg-info/SOURCES.txt
+greet2o.egg-info/dependency_links.txt
+greet2o.egg-info/top_level.txt
