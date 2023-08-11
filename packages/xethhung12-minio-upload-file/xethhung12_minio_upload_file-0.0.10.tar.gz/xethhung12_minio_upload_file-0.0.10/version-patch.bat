@@ -1,0 +1,1 @@
+python -m xh_py_project_versioning --patch -d
