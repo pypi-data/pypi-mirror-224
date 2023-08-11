@@ -1,0 +1,9 @@
+deephaven/plugin/plotly/__init__.py,sha256=N9e_Vd42wnSidGk14wy61TI546MLTs6RUwwLXtB9DAs,547
+deephaven/plugin/plotly/figure_type.py,sha256=iBEq6Aw00dNcdvSC-OhjrL2tS0CAZR2lc9FOMtm0VEM,541
+deephaven/plugin/plotly/theme_deephaven.py,sha256=mcUrJyDak1yFJJerWEK2YnruIDbaVl-Ax8OuK3i4Yvs,3180
+deephaven_plugin_plotly-0.2.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+deephaven_plugin_plotly-0.2.0.dist-info/METADATA,sha256=IuXEYJF1SjsOAUxQiLR3KQ6yykcG_7db8h3EdQ_9RQI,2736
+deephaven_plugin_plotly-0.2.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+deephaven_plugin_plotly-0.2.0.dist-info/entry_points.txt,sha256=tcMxBWBxY5FQrizNLyAcLYzWIzzqR8t6beCeuprrpBM,81
+deephaven_plugin_plotly-0.2.0.dist-info/top_level.txt,sha256=lOQLipCMwmvTe9Ezpb8YCd5P0DN7eeS6pnIDrdz4Dzg,10
+deephaven_plugin_plotly-0.2.0.dist-info/RECORD,,
