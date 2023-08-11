@@ -1,0 +1,16 @@
+discord-py-interactions<6.0.0,>=5.0.0
+
+[daphne]
+daphne>=4.0.0
+
+[fastapi]
+fastapi>=0.92.0
+
+[hypercorn]
+hypercorn>=0.14.0
+
+[quart]
+quart>=0.15.0
+
+[uvicorn]
+uvicorn>=0.15.0
