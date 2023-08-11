@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: basic_type_operations
+Version: 0.0.5
+Summary: Short description
+Home-page: https://gitee.com/SkyOceanchen/basic_type_operations.git
+Author: SkyOceanChen
+Author-email: skyoceanchen@foxmail.com
+License: MIT
+Keywords: basic_type,python,str,list,numpy,number,datetime,time,calendar
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# 基础数据类型的使用
+
+有时间，字典，列表，数值，字符串，元组等。
+
+```
+pip install basic-type-operations
+```
+
+## 常用的关于时间的方法
+
+## 1，某年的开始和结束
