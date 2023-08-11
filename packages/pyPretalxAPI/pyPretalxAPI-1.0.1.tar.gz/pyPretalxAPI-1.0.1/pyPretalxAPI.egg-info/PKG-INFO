@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: pyPretalxAPI
+Version: 1.0.1
+Summary: A Python wrapper for the pretalx API
+Home-page: https://github.com/Mezgrman/pyPretalxAPI
+Author: Julian Metzler
+Author-email: git@mezgr.de
+License: GPLv3
+Description: UNKNOWN
+Keywords: library wrapper schedule conference planning pretalx api json
+Platform: UNKNOWN

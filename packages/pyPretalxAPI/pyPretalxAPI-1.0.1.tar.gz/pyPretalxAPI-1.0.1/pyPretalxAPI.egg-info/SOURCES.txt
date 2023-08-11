@@ -1,0 +1,12 @@
+README.md
+setup.py
+pretalx_api/__init__.py
+pretalx_api/api.py
+pretalx_api/exceptions.py
+pretalx_api/filters.py
+pretalx_api/metadata.py
+pyPretalxAPI.egg-info/PKG-INFO
+pyPretalxAPI.egg-info/SOURCES.txt
+pyPretalxAPI.egg-info/dependency_links.txt
+pyPretalxAPI.egg-info/requires.txt
+pyPretalxAPI.egg-info/top_level.txt
