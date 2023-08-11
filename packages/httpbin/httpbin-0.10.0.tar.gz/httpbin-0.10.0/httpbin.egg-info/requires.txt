@@ -1,0 +1,9 @@
+Flask
+MarkupSafe
+decorator
+itsdangerous
+brotlicffi
+werkzeug
+gevent
+flasgger
+jinja2
