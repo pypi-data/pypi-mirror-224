@@ -1,0 +1,16 @@
+cubicweb_localperms/__init__.py,sha256=H5RhzNE6iaiCOE5nVUZo9IVQ2bzjEkwhIGEJ_soCydo,3135
+cubicweb_localperms/__pkginfo__.py,sha256=Ngql6HSw867XxZSR87lcXHl7aAECn0hOfHSwTvyRPKs,662
+cubicweb_localperms/ccplugin.py,sha256=MBPDbweOSU_LWUzg_L8AXG7LXVYhSCqpQsZxxJNmvF8,6505
+cubicweb_localperms/entities.py,sha256=sfS2A8-gTf0lqOAhsVxUHMK72CXSGcuQzCKMQ3KlsYg,2429
+cubicweb_localperms/hooks.py,sha256=az5GQ4dc3VlijJ-D7OH2vmGNDLXaVSZn_awBm0ufgbk,5652
+cubicweb_localperms/schema.py,sha256=coxejh2isqWiRcuLyH8avw8pHgjp4ee0guOoEUONfKM,2931
+cubicweb_localperms/site_cubicweb.py,sha256=JeYXuuGjj57tzQ_OD2ToLrIk9Ga0_AwzJB8255hzheQ,995
+cubicweb_localperms/views.py,sha256=12EpRJIh964__zsjDhcnxmXbXFFlRl3deoUznxqDY00,8057
+cubicweb_localperms/i18n/en.po,sha256=dSocFoYGYAblpsRQsbfbNH9TrpCBB_ppoRgLysw5Y0k,2419
+cubicweb_localperms/i18n/es.po,sha256=arsBmenk14x0gBedRroh6T3wNRGUD_OZZizB49BvnSc,3204
+cubicweb_localperms/i18n/fr.po,sha256=ePd67oZA8ZKD6W8ZwSQm-Pt4vGahqmeMMt-b7sSKHys,2894
+cubicweb_localperms-1.0.0.dist-info/METADATA,sha256=2ls9vXX5N0i5JHtGNAXUo4kAVCaVeZ2UacMtykOwYW8,6551
+cubicweb_localperms-1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+cubicweb_localperms-1.0.0.dist-info/entry_points.txt,sha256=1x4LLhxpHQHY0cFcUWxHkFeN23D1hIAmp95EO0xVT4A,50
+cubicweb_localperms-1.0.0.dist-info/top_level.txt,sha256=DOnKVBskTV9LyCCIG6FCNUeacry_hzGSgxcDYwoa8PI,20
+cubicweb_localperms-1.0.0.dist-info/RECORD,,
