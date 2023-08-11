@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: panthon
+Version: 0.1.9
+Summary: A Machine Learning-powered Cybersecurity Attack Simulation Library
+Home-page: https://github.com/nripeshn/panthon
+Author: Nripesh Niketan
+Author-email: nripesh14@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: scapy
+Requires-Dist: netifaces
+Requires-Dist: bs4
+Requires-Dist: tld
+Requires-Dist: fuzzywuzzy
+Requires-Dist: requests
+
