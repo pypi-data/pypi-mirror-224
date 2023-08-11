@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+license.txt
+requirements.txt
+setup.py
+publishtutorial.egg-info/PKG-INFO
+publishtutorial.egg-info/SOURCES.txt
+publishtutorial.egg-info/dependency_links.txt
+publishtutorial.egg-info/requires.txt
+publishtutorial.egg-info/top_level.txt
