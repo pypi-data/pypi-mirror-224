@@ -1,0 +1,94 @@
+Metadata-Version: 2.1
+Name: delcom904x
+Version: 0.4.0
+Summary: A python module to control Delcom USBLMP Products 904x multi-color, USB, visual signal indicators
+Author-email: Aaron Linville <aaron@linville.org>
+License: Copyright (c) 2021, Aaron Linville <aaron@linville.org>
+        
+        Permission to use, copy, modify, and/or distribute this software for any
+        purpose with or without fee is hereby granted, provided that the above
+        copyright notice and this permission notice appear in all copies.
+        
+        THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+        WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+        MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+        ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+        WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+        ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+        OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/linville/delcom904x/
+Keywords: hidapi,usb-hid,iot-device
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: System :: Hardware :: Hardware Drivers
+Classifier: Topic :: Home Automation
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: hidapi ==0.14.*
+Provides-Extra: dev
+Requires-Dist: black ==23.7.* ; extra == 'dev'
+Requires-Dist: build ==0.10.* ; extra == 'dev'
+Requires-Dist: ruff ; extra == 'dev'
+Requires-Dist: twine ==4.0.* ; extra == 'dev'
+
+delcom904x
+==========
+delcom904x is a python class and command-line script to control the [Delcom Products 904x
+series multi-color visual signal indicators](http://www.delcomproducts.com/products_USBLMP.asp).
+These are USB HID devices that are easily controllable from most platforms.
+
+It has been tested with the [904005-SB](http://www.delcomproducts.com/productdetails.asp?productnum=904005-SB)
+but should work with any of the other models without any issues. The yellow in the green,
+red and *yellow* indicators is wired the same as blue. There also doesn't appear to be a
+method of detecting if the attached indicator supports blue or yellow, so blue and yellow
+commands are synonyms.
+
+
+Installation
+------------
+
+        $ pip install delcom904x
+        $ control_delcom904x --green --red --flash --cycle
+
+
+`control-delcom904x` usage
+-----------------------------
+
+        -h, --help        show this help message and exit
+        --list            List all USB devices.
+        --info            Returns info on the device.
+        --red             Enable the red light.
+        --green           Enable the green light.
+        --blue            Enable the blue light.
+        --yellow          Enable the yellow light (if equipped; synonym for blue).
+        --flash           Turns on flashing.
+        --cycle [100]     Turns on cycling.
+        --intensity [80]  Sets brightness: 0-100.
+        --buzzer          Buzzes three times.
+        --reset           Resets the device.
+
+
+Python Code Example
+-------------------
+
+```python
+import delcom904x
+light = delcom904x.DelcomMultiColorIndicator()
+light.set_color(delcom904x.red, flashing=True)
+```
+
+
+udev Notes
+----------
+
+On Linux machines, the default udev rulesets may set the permissions on the device to only
+be accessible to the root user. Add the following rule to `/etc/udev/rules.d/` and
+re-plugin the indicator to allow all users to access the device (optionally, consider
+changing `MODE="0666"` to `GROUP="dialout"` to allow only the dialout group access).
+
+        SUBSYSTEMS=="usb", ATTRS{idVendor}=="0fc5", ATTRS{idProduct}=="b080", MODE="0666"
+
