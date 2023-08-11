@@ -1,0 +1,28 @@
+[build-system]
+requires = ["flit_core"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "tofea"
+authors = [{ name = "Yannick Augenstein" }]
+description = "Simple Finite Element Analysis for Topology Optimization"
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+dynamic = ["version"]
+requires-python = ">=3.10"
+dependencies = ["numpy", "scipy", "sympy", "autograd"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+mkl = ["pyMKL"]
+cholmod = ["scikit-sparse"]
+umfpack = ["scikit-umfpack"]
+gpu = ["cupy"]
+examples = ["nlopt", "matplotlib", "pyvista"]
+
+[project.urls]
+Source = "https://github.com/mrbaozi/tofea"
