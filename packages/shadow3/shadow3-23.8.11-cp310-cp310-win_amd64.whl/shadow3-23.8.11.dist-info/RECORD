@@ -1,0 +1,11 @@
+Shadow/ShadowLib.cp310-win_amd64.pyd,sha256=eqxf8lJgp-1ZVHzxK5l8B8x6LwimGF3df4GF298ynPE,1273344
+Shadow/ShadowLibExtensions.py,sha256=O6UVFYW3SMXF1FSa-CEC2HZtg46pIW_MelQh-_2JBmc,165196
+Shadow/ShadowPreprocessorsXraylib.py,sha256=E4reomjtWlzsntwkVAsEBg7S7aA_JOX3GhHG-FuRY_M,20784
+Shadow/ShadowTools.py,sha256=lpUnlmMWF2Sq_xic4gZClVkE2SY0PNcPhLAKrmBE09E,79557
+Shadow/ShadowToolsPrivate.py,sha256=sezlD0oi1GUosw_HVikKpE4veUb8Xyk8TXo0aMYvgtw,9754
+Shadow/__init__.py,sha256=gs_A0MbJTBwPaQuktI1dZD7cCLbUeaDmtIYC0c031Q4,968
+shadow3-23.8.11.dist-info/LICENSE,sha256=jZi3qxw1RFek2wE24-lMoUnfUxcvlSqvTvI0VawRzME,1080
+shadow3-23.8.11.dist-info/METADATA,sha256=O1U44p6hoV4K-gz95oGOPN0aMF0sqEZRjqhsAeRKWu0,363
+shadow3-23.8.11.dist-info/WHEEL,sha256=Wb1el1iP4ORW7FiLElw7HfxLpDiHzwvd2B382b2Idl0,102
+shadow3-23.8.11.dist-info/top_level.txt,sha256=N4uM_DVFv5qO2A7yma3HA0zfW1xu2FzZpwq_WiYNQik,7
+shadow3-23.8.11.dist-info/RECORD,,
