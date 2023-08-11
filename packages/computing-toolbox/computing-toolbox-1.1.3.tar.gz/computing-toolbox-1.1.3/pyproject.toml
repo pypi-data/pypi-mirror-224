@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "computing-toolbox"
+version = "1.1.3"
+authors = [
+  { name="Pedro Mayorga", email="ppmayorga80@gmail.com" },
+]
+description = "Computing Toolbox for daily computations"
+readme = "README.md"
+requires-python = ">=3.7"
+
+dynamic = ["dependencies"]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[project.scripts]
+jsonl = "computing_toolbox.utils.jsonl:main"
+es_long_search = "computing_toolbox.utils.es_long_search:main"
