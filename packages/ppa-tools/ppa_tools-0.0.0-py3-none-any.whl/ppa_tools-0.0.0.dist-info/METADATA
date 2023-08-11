@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: ppa-tools
+Version: 0.0.0
+Summary: This is a placeholder package, do not install
+License-File: LICENSE
+Requires-Dist: PPA-TOOLS-SHOULD-NOT-BE-INSTALLED-FROM-PYPI
+
