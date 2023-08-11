@@ -1,0 +1,2 @@
+[console_scripts]
+harmony = third_python_package.harmony:main
