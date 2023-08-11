@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+fettuccine/__init__.py
+fettuccine/git.py
+fettuccine.egg-info/PKG-INFO
+fettuccine.egg-info/SOURCES.txt
+fettuccine.egg-info/dependency_links.txt
+fettuccine.egg-info/requires.txt
+fettuccine.egg-info/top_level.txt
+tests/test_git.py
