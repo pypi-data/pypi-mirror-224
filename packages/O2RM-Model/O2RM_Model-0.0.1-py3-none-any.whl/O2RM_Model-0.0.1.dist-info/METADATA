@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: O2RM-Model
+Version: 0.0.1
+Summary: Model to recognise symbols & letters
+Author-email: Kent vejrup Madsen <kent.vejrup.madsen@designermadsen.dk>
+Project-URL: Homepage, https://github.com/KentVejrupMadsen/O2RM-Model
+Project-URL: Bug Tracker, https://github.com/KentVejrupMadsen/O2RM-Model/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Open Optical Recognition Model
+
+
+
+
+
+
