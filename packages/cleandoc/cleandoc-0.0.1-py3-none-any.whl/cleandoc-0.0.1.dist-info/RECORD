@@ -1,0 +1,12 @@
+cleandoc/__init__.py,sha256=3ysSy9u2-0Ir-YsawTBLHTxXwkB6g3rh-M6-QNhnPwo,5993
+cleandoc/clean.py,sha256=njIKdqmLd0UcFlGSjqgoiaOwXoaX2NhoTEpJxz59Id0,2785
+cleandoc/cli.py,sha256=odz2I8_pikg-wolDbIbx9_czLSRV2ytU0GKSqM14f2I,3317
+cleandoc/doq.py,sha256=SfH6rIKrY7uoxlol3E1XK14kCxJ01R2u6qygrHIkctE,2884
+cleandoc/helper.py,sha256=sInWVQy5xYS_Hfqh14TC1VlLy_dou6qvqdbOw8JNxWY,6989
+cleandoc/sphinx.py,sha256=6-Jbz33LdPjONOltAMY4-rn3VZ-HS9CTyOasI3NtDd0,9602
+cleandoc-0.0.1.dist-info/LICENSE.txt,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+cleandoc-0.0.1.dist-info/METADATA,sha256=tV6-fDBOLH4SzKnkH4BCAX1pbTYxmwsciawxioqnkOY,1601
+cleandoc-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+cleandoc-0.0.1.dist-info/entry_points.txt,sha256=E5SN8FmJ-RqKOyq2f6KTt2oPN7pyTES3GrzeVGUszDQ,47
+cleandoc-0.0.1.dist-info/top_level.txt,sha256=BIK4yQFOAYNYG8dE4jdkINs9tf6R6hpDndhFOaTEHcc,9
+cleandoc-0.0.1.dist-info/RECORD,,
