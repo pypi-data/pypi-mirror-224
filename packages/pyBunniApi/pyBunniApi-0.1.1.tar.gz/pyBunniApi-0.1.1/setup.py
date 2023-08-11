@@ -1,0 +1,16 @@
+from setuptools import setup, find_packages
+
+setup(
+    name='pyBunniApi',
+    version='0.1.1',
+    description='A API Client for fommunicating with the Bunni accounting software',
+    url='https://github.com/sme4gle/pyBunniApi',
+    author='Mickael van Schie',
+    author_email='mickael.v.s.19@hotmail.com',
+    package_data={
+        "pyBunniApi": ["py.typed"],
+    },
+    license='BSD 2-clause',
+    packages=find_packages(),
+    install_requires=['requests>=2.25.1'],
+)
