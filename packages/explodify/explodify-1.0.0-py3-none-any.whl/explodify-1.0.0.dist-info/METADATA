@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: explodify
+Version: 1.0.0
+Summary: Package Description: Explodify
+Home-page: https://github.com/tanuj24/explodify
+Author: Tanuj Soni
+Author-email: tanujsoni027@gmail.com
+License-File: LICENSE
+Requires-Dist: pyspark
+
