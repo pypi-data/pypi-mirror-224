@@ -1,0 +1,3 @@
+[console_scripts]
+gl=gl.main:main
+
