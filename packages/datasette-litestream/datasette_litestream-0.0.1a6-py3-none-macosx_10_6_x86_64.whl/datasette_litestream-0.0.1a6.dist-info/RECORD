@@ -1,0 +1,9 @@
+datasette_litestream/__init__.py,sha256=lDJw2L_lNCzx-gLiVhVQHA-ZcnomQHN8NFH3HzpxmzY,9561
+datasette_litestream/bin/litestream,sha256=tabH-I4T7FTMGZaYzXig5FMEYKGO3rV6ptbfZGtJNHE,32520144
+datasette_litestream/templates/litestream.html,sha256=6qOQ3yHquhp_SQsQ9BXKq3FKH8rwEhiAXNBhqFe02CA,1256
+datasette_litestream-0.0.1a6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+datasette_litestream-0.0.1a6.dist-info/METADATA,sha256=jJRFlA_slcjWbUVQdkV3eV_60VlDScKnGpL7Dq0JZzc,3572
+datasette_litestream-0.0.1a6.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+datasette_litestream-0.0.1a6.dist-info/entry_points.txt,sha256=VKnVt-Hz7ExUZkSf2cYBvaWq3EH63gwjcDSh_N-N4Mo,46
+datasette_litestream-0.0.1a6.dist-info/top_level.txt,sha256=Xkg2nRP6MZU83H7yzvU7gNFThj2iDsHpSNZS5dFac74,21
+datasette_litestream-0.0.1a6.dist-info/RECORD,,
