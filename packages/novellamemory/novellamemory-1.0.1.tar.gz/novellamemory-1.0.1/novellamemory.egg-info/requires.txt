@@ -1,0 +1,6 @@
+langchain
+requests
+pydantic
+typing
+pymongo
+openai
