@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: near_calculator
+Version: 1.9
+Author: Caique Santos Carvalho
+Author-email: subdr2nk@gmail.com
+License: LICENSE.txt
+Requires-Python: >=3.4.0
+License-File: LICENSE.txt
