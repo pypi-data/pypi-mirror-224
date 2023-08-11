@@ -1,0 +1,9 @@
+slim_compose-2.0.1.dist-info/METADATA,sha256=NK7vouR9JoBZYFYVEOcSx5LhImoCbX-E81aCQ4Leus4,953
+slim_compose-2.0.1.dist-info/WHEEL,sha256=bbAwydobi_oZ_0rI4gBBovxINCqHVHcC26TV6S2A2Io,90
+slim_compose-2.0.1.dist-info/entry_points.txt,sha256=_6QD2PzFYM6LBhKQfrzyMk4yqPSfO8f3cXc0DRuzML4,57
+slim_compose-2.0.1.dist-info/licenses/LICENSE,sha256=cRUkcDKaApMRtqeMdgPPiPqDQaWw2ALofc26q69OpNw,1061
+slim_compose/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slim_compose/args.py,sha256=jnEXVlGQGbaL8ccFWOf9navGfhYCReNEv1UFB7RrXng,4774
+slim_compose/main.py,sha256=BYWJbQWXbDDseJ3gFZeK0X9DcvBUaGhekyr6fILlm9Q,10138
+slim_compose/utils.py,sha256=MFzQK4Frq8zDq5B-HVK_eZ2VTNHeDdxrfvYfO3h7iNc,2947
+slim_compose-2.0.1.dist-info/RECORD,,
