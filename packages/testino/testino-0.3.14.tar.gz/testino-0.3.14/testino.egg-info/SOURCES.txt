@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+testino.py
+testino.egg-info/PKG-INFO
+testino.egg-info/SOURCES.txt
+testino.egg-info/dependency_links.txt
+testino.egg-info/requires.txt
+testino.egg-info/top_level.txt
+tests/test_asgi_app.py
+tests/test_form.py
+tests/test_testino.py
+tests/test_wsgi_apps.py
