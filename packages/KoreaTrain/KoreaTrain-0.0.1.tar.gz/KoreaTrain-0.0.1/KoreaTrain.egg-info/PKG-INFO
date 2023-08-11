@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: KoreaTrain
+Version: 0.0.1
+Summary: A Python wrapper for SR and Korail train client service.
+Home-page: https://github.com/Nitro1231/KoreaTrain
+Author: Nitro
+Author-email: nitrodev0@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Korea-Train
+A Python wrapper for [korail2](https://github.com/carpedm20/korail2) and [SRT](https://github.com/ryanking13/SRT).
+
+
