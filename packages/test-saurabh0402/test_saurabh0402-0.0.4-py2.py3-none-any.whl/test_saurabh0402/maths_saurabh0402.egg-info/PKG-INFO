@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: maths-saurabh0402
+Version: 0.0.1
+Summary: A small example package
+Author-email: Saurabh <saurabh.kumar@peak.ai>
+Project-URL: Homepage, https://github.com/saurabh0402/padhai
+Project-URL: Bug Tracker, https://github.com/saurabh0402/padhai/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# maths_saurabh0402
+A simple package for trying out PyPi.
