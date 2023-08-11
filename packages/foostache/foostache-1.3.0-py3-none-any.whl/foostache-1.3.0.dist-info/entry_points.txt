@@ -1,0 +1,2 @@
+[console_scripts]
+foostache = foostache.__main__:main
