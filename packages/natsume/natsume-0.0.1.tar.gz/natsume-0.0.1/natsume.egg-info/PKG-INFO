@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: natsume
+Version: 0.0.1
+Summary: A Japanese text frontend toolkit
+Home-page: https://github.com/Francis-Komizu/natsume
+Author: Rui Hu
+Author-email: franciskomizu@gmail.com
+License: GNU Licence
+Platform: any
+License-File: LICENSE

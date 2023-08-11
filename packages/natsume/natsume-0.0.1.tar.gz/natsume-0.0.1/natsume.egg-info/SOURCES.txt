@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+natsume/__init__.py
+natsume.egg-info/PKG-INFO
+natsume.egg-info/SOURCES.txt
+natsume.egg-info/dependency_links.txt
+natsume.egg-info/requires.txt
+natsume.egg-info/top_level.txt
