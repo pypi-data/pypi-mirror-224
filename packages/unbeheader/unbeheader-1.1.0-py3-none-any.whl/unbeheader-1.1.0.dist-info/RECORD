@@ -1,0 +1,10 @@
+unbeheader/__init__.py,sha256=Z-ShlEWOSWcc_laL8fybbDtRcV6dLqhXX8IA228V1XA,1848
+unbeheader/cli.py,sha256=9JBCOaK3M0rI4WO3UDelQoAp7WxYmixzilS2CGPYMPs,3689
+unbeheader/config.py,sha256=8WcU4BrXthwGCZjbhmUveH7_q2Dj4SKb8uaL5KeqBmM,2112
+unbeheader/headers.py,sha256=hs_RCi4ZShVi6j-fLJIC_YzUEAj4ucKxprJ9-LJAx74,2829
+unbeheader/util.py,sha256=EVVL1sp03mtG38RYgg85ZJqKeak2Hi2q7qTU9uxUM78,1747
+unbeheader-1.1.0.dist-info/LICENSE,sha256=UvkYI6rLKwxlLrvrVUymCPtSZo6v7SkAoe4d5GjFAO8,1139
+unbeheader-1.1.0.dist-info/METADATA,sha256=Fhx_SzBjhmUWYDomEPWrqyUrKzcOYnwq1_T6cFlVpVQ,7413
+unbeheader-1.1.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+unbeheader-1.1.0.dist-info/entry_points.txt,sha256=kqMxkfvt7iINgVjInrBVKFX1oXAqg62oEfW0-9HGL1g,48
+unbeheader-1.1.0.dist-info/RECORD,,
