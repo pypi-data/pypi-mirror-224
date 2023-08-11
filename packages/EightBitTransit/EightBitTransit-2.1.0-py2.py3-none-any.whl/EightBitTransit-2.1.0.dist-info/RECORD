@@ -1,0 +1,16 @@
+EightBitTransit/TransitingImage.py,sha256=vpSVtyb3TpwjD3PJlGFuoG00SFeehWoGZ1i7PQ1UOME,11156
+EightBitTransit/__init__.py,sha256=9o6rts_j4mON3BQBIOKvR-mHOhf_GCK-RdIlsgNGczw,1215
+EightBitTransit/cGridFunctions.py,sha256=Mz24yqXBKUX10XwMZvR0VleexfUAcduJl-WgNchXCM0,7684
+EightBitTransit/gpu_methods.py,sha256=8LH3_NV8TJpo8ir0_dWA858eUh8KO3JMQAOkHkErX50,648
+EightBitTransit/inversion.py,sha256=1MiYGJKle9bk3gg2x0DrtJrbSLuvJwo9ObXWKp4Bqdo,83119
+EightBitTransit/mats.py,sha256=wOc0Yzbc1SQUTOmW5ZLZq8rsssWZpAPLd_kMSswa0FU,9279
+EightBitTransit/misc.py,sha256=cV_Odofv6FBTB8q2Ik7QZCCK_-ev5XzDTbRjuKqToq8,15408
+EightBitTransit/pep8.py,sha256=dzCPzcaC_G0nGYXqfDzka4dI2Y0_WhFU4CXL5oaYpHY,14802
+EightBitTransit/pixeloverlap.py,sha256=iZRtuunle0hok0DLCir905SEjrgc69uZVOUQ0cudVcY,22222
+EightBitTransit/transitmodel.py,sha256=NnYFvwFvw7nETKpwcQrdiNqlJOhK2fHVQDlZpNMMVos,6159
+EightBitTransit-2.1.0.dist-info/AUTHORS.rst,sha256=8QDUDku8NLR1psU3S1tDX20Wit0WsWRvb5oET_OZsG4,1206
+EightBitTransit-2.1.0.dist-info/LICENSE,sha256=Nw_iTHCvOm_vt4BR8jsAdGxW0yu10kMO7edE3krZJIU,1069
+EightBitTransit-2.1.0.dist-info/METADATA,sha256=sPuGnQDHAtP-Yk8DFwgsoiXx8CmDIE_F9HjP_oPIil0,1625
+EightBitTransit-2.1.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+EightBitTransit-2.1.0.dist-info/top_level.txt,sha256=5jPkg97FkER-qjlBYPMZQ2isljQ9EzBgXNFviyqYXyU,16
+EightBitTransit-2.1.0.dist-info/RECORD,,
