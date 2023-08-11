@@ -1,0 +1,9 @@
+argparse
+typing
+
+[dev]
+black
+bumpver
+isort
+pip-tools
+flake8

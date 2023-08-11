@@ -1,0 +1,2 @@
+[console_scripts]
+parse-reparsepoint = parse_reparsepoint.__main__:main
