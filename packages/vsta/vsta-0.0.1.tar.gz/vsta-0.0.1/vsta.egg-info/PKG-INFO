@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: vsta
+Version: 0.0.1
+Summary: ML experiment tracking and model optimization
+Author-email: Garrett Smith <garrett@placeon.earth>
+Project-URL: Homepage, https://github.com/vistaml/vistaml
+Project-URL: Bug Tracker, https://github.com/vistaml/vistaml/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Vista ML
+
+Stay tuned!
