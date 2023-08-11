@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+marimo_cloud.egg-info/PKG-INFO
+marimo_cloud.egg-info/SOURCES.txt
+marimo_cloud.egg-info/dependency_links.txt
+marimo_cloud.egg-info/requires.txt
+marimo_cloud.egg-info/top_level.txt
+mcloud/__init__.py

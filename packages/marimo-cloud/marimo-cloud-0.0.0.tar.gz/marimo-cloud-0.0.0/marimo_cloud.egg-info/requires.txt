@@ -1,0 +1,8 @@
+
+[dev]
+click<8.1.4
+black~=23.3.0
+build~=0.10.0
+pytest~=7.4.0
+mypy~=1.4.1
+ruff~=0.0.275

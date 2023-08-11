@@ -1,0 +1,81 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "marimo-cloud"
+description = ""
+dynamic = ["version"]
+dependencies = []
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+
+[project.optional-dependencies]
+dev = [
+    "click < 8.1.4",  # https://github.com/pallets/click/issues/2558
+    "black~=23.3.0",
+    "build~=0.10.0",
+    "pytest~=7.4.0",
+    "mypy~=1.4.1",
+    "ruff~=0.0.275",
+]
+
+[project.urls]
+homepage = "https://marimo.io"
+
+[tool.setuptools.dynamic]
+version = { attr = "mcloud.__version__" }
+
+[tool.setuptools.packages]
+find = {}
+
+[tool.ruff]
+line-length=79
+exclude = [
+    "build",
+]
+ignore = []
+select = [
+    # pyflakes
+    "F",
+    # pycodestyle
+    "E",
+    # warning
+    "W",
+    # flake8 builtin-variable-shadowing
+    "A001",
+    # flake8 builtin-argument-shadowing
+    "A002",
+    # flake8-bugbear
+    "B",
+    # future annotations
+    "FA102",
+    # isort
+    "I001",
+    # copyright notice
+    "CPY001",
+]
+
+# Never try to fix `F401` (unused imports).
+unfixable = ["F401"]
+
+[tool.black]
+line-length = 79
+
+[tool.isort]
+profile = "black"
+line_length = 79
+
+[tool.mypy]
+strict = true
+exclude = []
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q -v"
+testpaths = [
+    "mcloud",
+]
