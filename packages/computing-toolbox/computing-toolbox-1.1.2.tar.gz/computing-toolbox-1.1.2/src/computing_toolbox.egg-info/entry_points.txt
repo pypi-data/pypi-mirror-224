@@ -1,0 +1,3 @@
+[console_scripts]
+es_long_search = computing_toolbox.utils.es_long_search:main
+jsonl = computing_toolbox.utils.jsonl:main
