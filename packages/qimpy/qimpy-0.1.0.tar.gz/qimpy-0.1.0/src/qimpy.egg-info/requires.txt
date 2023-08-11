@@ -1,0 +1,7 @@
+torch>1.10
+pyyaml
+numpy
+scipy
+mpi4py
+h5py
+psutil
