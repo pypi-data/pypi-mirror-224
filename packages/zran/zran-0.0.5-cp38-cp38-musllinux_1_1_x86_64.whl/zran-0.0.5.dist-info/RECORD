@@ -1,0 +1,10 @@
+zran.cpython-38-x86_64-linux-gnu.so,sha256=4YD3AXgveIxvDL059RaY76r30VUT_WeHGAArtvz5rCw,2157360
+zran-0.0.5.dist-info/RECORD,,
+zran-0.0.5.dist-info/top_level.txt,sha256=5wEQYufNxrxGfA16sIZMn3MXkSDvItuudc0R1gBtgVM,5
+zran-0.0.5.dist-info/METADATA,sha256=RwUt-W5AaA0VbaozjmU1gE_QJvylxu7A57kXiNnoghw,4287
+zran-0.0.5.dist-info/WHEEL,sha256=CxKCxlqmMXHZkNJ8bGmiVKSFDbclvYzQPQqjyuqJCQA,111
+zran/zranlib.c,sha256=f2yqjGpuXLqK8-W9cblsweds3GCUhSSLaK2XRq4dklo,846492
+zran/zran.pxd,sha256=QFZj_gx3NLq25x-rhF-u65LQZ2PCnuNo8cB99jBLxAs,926
+zran/zran.h,sha256=fryVkrPSNJTegBI0BCSOtaJIfwkT9sXLVVuVzwIjdRA,2742
+zran/zranlib.pyx,sha256=lVJ4wg_bj2PGg4MlreR1teFoX7kFc1CpSzcgrJA2psM,13162
+zran/zran.c,sha256=K60n26eCq8FLmtSOtQ4wzk2DYtBcfj_edKBEzA3ZB9o,17615
