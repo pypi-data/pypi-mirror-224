@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+testfunnel/__init__.py
+testfunnel.egg-info/PKG-INFO
+testfunnel.egg-info/SOURCES.txt
+testfunnel.egg-info/dependency_links.txt
+testfunnel.egg-info/top_level.txt
