@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "gitlab-command"
+version = "0.1.0"
+description = ""
+authors = ["Jason Viloria <jason.viloria@optiscangroup.com>"]
+
+packages = [
+  { include = "gl", from = "src" },
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-gitlab = "^3.15.0"
+pydantic = "^2.1.1"
+pydantic-settings = "^2.0.2"
+bump-pydantic = "^0.6.1"
+
+
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+gl = "gl.main:main"
