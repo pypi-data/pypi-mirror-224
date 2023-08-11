@@ -1,0 +1,4 @@
+finnhub
+pandas
+numpy
+matplotlib
