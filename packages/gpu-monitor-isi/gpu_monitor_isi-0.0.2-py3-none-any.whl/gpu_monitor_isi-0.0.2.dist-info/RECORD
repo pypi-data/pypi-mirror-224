@@ -1,0 +1,9 @@
+GPUDashboard.py,sha256=BexaOFDqjCiFlNdFVVq8l4XUj5DqyfgHc2kU5z1gUmk,10072
+GPUMonitor.py,sha256=-xArUmWqYbJ0l6nuU77S1MREtdDfZFScZN3BX9fLt-s,10113
+runGPUDashboard.py,sha256=KgqHkqS4NPIUHt0dn45XTAvsV8-vZflxoooaywRJS0I,1646
+runGPUMonitor.py,sha256=umygaav_Ly_WYKDmSaHDBao4wzd8mqKlhu2Gc-tYYWU,1636
+gpu_monitor_isi-0.0.2.dist-info/METADATA,sha256=cekc1qtSP6ftVU3sk7FJiD0oNSOCELRpF0RuFFUU9eA,2801
+gpu_monitor_isi-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+gpu_monitor_isi-0.0.2.dist-info/entry_points.txt,sha256=jcCB7KIcQOeTKetBXG-bWyEWDl5Jj6XbVK9dTLvRrA8,50
+gpu_monitor_isi-0.0.2.dist-info/top_level.txt,sha256=i6_UxI4I4WM6yyhEocU1hCfa-2LNa_L5wqGpEpYN-J0,25
+gpu_monitor_isi-0.0.2.dist-info/RECORD,,
