@@ -1,0 +1,2 @@
+[console_scripts]
+autolabel = autolabel.cli.main:app
