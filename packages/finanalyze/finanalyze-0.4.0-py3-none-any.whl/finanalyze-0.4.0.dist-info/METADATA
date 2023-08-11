@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: finanalyze
+Version: 0.4.0
+Summary: A package for analyzing Financial Instruments like stocks.
+Home-page: https://github.com/MANOJ21K/FinOps/blob/main/custom_package
+Author: Manoj Kumar
+Author-email: manojkotary@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: finnhub-python
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
+A package for analyzing Financial Instruments like stocks.
