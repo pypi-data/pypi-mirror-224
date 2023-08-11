@@ -1,0 +1,3 @@
+TLDR
+
+{text}
