@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: Discus
+Version: 0.1.2b0
+Summary: generate high-quality data to fine-tune LLMs
+Home-page: https://github.com/discus-labs/discus.git
+Author: Discus Founders
+Author-email: founders@discus.ai
+License-File: LICENSE
