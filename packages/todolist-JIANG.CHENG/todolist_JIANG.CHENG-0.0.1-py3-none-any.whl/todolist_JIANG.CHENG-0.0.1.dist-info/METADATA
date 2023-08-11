@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: todolist-JIANG.CHENG
+Version: 0.0.1
+Summary: a simple project to save to do stuff
+Home-page: https://github.com/skyjiangcheng/todolist-JIANG
+Author: jiang.cheng
+Author-email: jiangcheng1806@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >3.6
+Description-Content-Type: markdown
+License-File: LICENSE
+

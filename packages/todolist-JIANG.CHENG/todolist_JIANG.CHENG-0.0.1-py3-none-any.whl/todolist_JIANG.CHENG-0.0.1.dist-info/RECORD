@@ -1,0 +1,11 @@
+todo_pkg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+todo_pkg/todolist.py,sha256=YmGlvvDdI_J9LBbhyr-gxbDQu6A4JgdAlv98Mn7aNDE,2883
+todo_pkg/data/todo.db,sha256=LfwbEvdop02ND69oSVyeE_oPskxPaICYpTsFm1PVIRA,12288
+todo_pkg/template/edit_task.tpl,sha256=1Vtl59OlrsTmj5j4PgDTQhiPdiQyuRFV1bAdqOBDZzs,377
+todo_pkg/template/make_table.tpl,sha256=gpmrgqGHBP-7HKbryTSBAE3GphktzsTDW14plQQ9WNI,173
+todo_pkg/template/new_task.tpl,sha256=7qJ-z6ByDkDXlyYHxlQr6TMl0gSRg9REmYIbyV0TaBk,228
+todolist_JIANG.CHENG-0.0.1.dist-info/LICENSE,sha256=TERfmkocaBloDAMI4ELKw17Rh562vX7Ii_9dGtZW0hQ,1064
+todolist_JIANG.CHENG-0.0.1.dist-info/METADATA,sha256=telVUMJahS5SN9dmus5e4kASy8OiwEegkH6fMqRxajM,468
+todolist_JIANG.CHENG-0.0.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+todolist_JIANG.CHENG-0.0.1.dist-info/top_level.txt,sha256=Dq21QIIOnzYYdmRl1ANrVk-o2UpOdvh7tcp_GhRTodU,9
+todolist_JIANG.CHENG-0.0.1.dist-info/RECORD,,
