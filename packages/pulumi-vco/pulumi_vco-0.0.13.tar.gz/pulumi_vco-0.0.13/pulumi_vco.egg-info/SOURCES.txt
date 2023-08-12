@@ -1,0 +1,16 @@
+README.md
+setup.py
+pulumi_vco/__init__.py
+pulumi_vco/_utilities.py
+pulumi_vco/provider.py
+pulumi_vco/pulumi-plugin.json
+pulumi_vco/py.typed
+pulumi_vco.egg-info/PKG-INFO
+pulumi_vco.egg-info/SOURCES.txt
+pulumi_vco.egg-info/dependency_links.txt
+pulumi_vco.egg-info/not-zip-safe
+pulumi_vco.egg-info/requires.txt
+pulumi_vco.egg-info/top_level.txt
+pulumi_vco/base/__init__.py
+pulumi_vco/base/cloudspace.py
+pulumi_vco/base/outputs.py
