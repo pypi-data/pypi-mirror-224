@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+JSONSki.egg-info/PKG-INFO
+JSONSki.egg-info/SOURCES.txt
+JSONSki.egg-info/dependency_links.txt
+JSONSki.egg-info/not-zip-safe
+JSONSki.egg-info/requires.txt
+JSONSki.egg-info/top_level.txt
