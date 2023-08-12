@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+df_api/__init__.py
+df_api/apps.py
+df_api/openapi.py
+df_api/serializers.py
+df_api/settings.py
+df_api/urls.py
+django_df_api.egg-info/PKG-INFO
+django_df_api.egg-info/SOURCES.txt
+django_df_api.egg-info/dependency_links.txt
+django_df_api.egg-info/requires.txt
+django_df_api.egg-info/top_level.txt
