@@ -1,0 +1,17 @@
+specfabpy.libs/libquadmath-96973f99.so.0.0.0,sha256=l82oXdtRY-Labh7bTh1rVXgzqZpA7aB5rjflA5Rltl0,247608
+specfabpy.libs/libgfortran-040039e1.so.5.0.0,sha256=R6s7aClbCjzomQpEjef6sRq928Fg-IlZcsqapxLPhtA,2686064
+specfabpy-2023.8.11.dist-info/WHEEL,sha256=Ndc4zXPhdqNgJqi8psfswmMKifuLB08jYiyzI5g2sJY,168
+specfabpy-2023.8.11.dist-info/RECORD,,
+specfabpy-2023.8.11.dist-info/METADATA,sha256=LO37QBoONA-k2D9ia2FmxUe-m66hrQSF-zy0v6OWcVc,220
+specfabpy-2023.8.11.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+specfabpy/integrator.py,sha256=J0HIQ07Lx3YovkkNij1QcCmqQhDSZc6gb7mCG408RWI,3412
+specfabpy/specfabpy.cpython-36m-x86_64-linux-gnu.so,sha256=xtfXq9cbB2_kbTYMnf60OtXOuQp_qznxUya7fmRplQo,3426176
+specfabpy/specfabpy.cpython-38-x86_64-linux-gnu.so,sha256=KEhtQZUlcFvn-9IBddzPM4VMkvT-M04MPxc9-0QWXos,3475512
+specfabpy/specfabpy.cpython-310-x86_64-linux-gnu.so,sha256=LW1MU0DonbLjlN9v98XcQsiG3Q3uRb6BWTzzzqPG9V0,3483712
+specfabpy/constants.py,sha256=GwUTs-yD2CBWQlfZcU9ideQFfV3GIbXNpthu7KSCBaw,1798
+specfabpy/discrete.py,sha256=F_MqaFuiZGcPr_26-HrfR84lmON8RXjLqs5UVMTkWyM,5044
+specfabpy/__init__.py,sha256=EtkCr2MmbcEcKTPUCF30GlTnGj7TZVGmbyNrEc22N9A,277
+specfabpy/specfabpy.cpython-39-x86_64-linux-gnu.so,sha256=EdqOzLPXYMUPGFZc6UwuwZdtGXwscdPJkgehV6LeuIc,3471424
+specfabpy/specfabpy.cpython-37m-x86_64-linux-gnu.so,sha256=2gPqUB_9XcJx_JZ9QRZg3lD30DXhJkyHp7UEG41M0EA,3438616
+specfabpy/specfabpy.cpython-311-x86_64-linux-gnu.so,sha256=DcWSPUjFA4X_vxdUD0rFx0Y5gf1s_jPZc3l54gKhPzg,3508288
+specfabpy/plotting.py,sha256=ExIrRGg4gyTaZeFGaFtO753xQW68Tg4GTKHcBYS0SjM,10676
