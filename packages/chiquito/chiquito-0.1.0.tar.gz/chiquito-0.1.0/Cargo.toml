@@ -1,0 +1,21 @@
+[package]
+name = "rust_chiquito"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "rust_chiquito"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.19.1", features = ["extension-module"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+chiquito = { path = "local_dependencies/chiquito" }
+halo2_proofs = { git = "https://github.com/privacy-scaling-explorations/halo2.git", features = [
+    "circuit-params", 
+], tag = "v2023_04_20" }
+
+[patch."https://github.com/privacy-scaling-explorations/halo2.git"]
+halo2_proofs = { git = "https://github.com/appliedzkp/halo2.git", rev = "d3746109d7d38be53afc8ddae8fdfaf1f02ad1d7" }
