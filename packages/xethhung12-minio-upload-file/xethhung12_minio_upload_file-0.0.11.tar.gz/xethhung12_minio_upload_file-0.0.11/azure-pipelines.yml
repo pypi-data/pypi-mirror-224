@@ -1,0 +1,42 @@
+# Python package
+# Create and test a Python package on multiple Python versions.
+# Add steps that analyze code, save the dist with the build record, publish to a PyPI-compatible index, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/python
+
+trigger:
+  branches:
+    include:
+      - master
+  paths:
+    exclude:
+      - README.md
+pool:
+  vmImage: ubuntu-latest
+
+variables:
+  - group: upload-variables
+
+steps:
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '3.10'
+  displayName: 'Use Python 3.10'
+
+- script: |
+    python -m pip install --upgrade pip
+    pip install -r requirements.txt
+  displayName: 'Install dependencies'
+
+- script: |
+    rm -fr dist/*
+    python -m build
+  displayName: 'Build the project'
+
+- script: |
+    python -m twine upload dist/* -u __token__ -p $(token)
+  displayName: 'Upload to pypi'
+
+#- script: |
+#    pip install pytest pytest-azurepipelines
+#    pytest
+#  displayName: 'pytest'

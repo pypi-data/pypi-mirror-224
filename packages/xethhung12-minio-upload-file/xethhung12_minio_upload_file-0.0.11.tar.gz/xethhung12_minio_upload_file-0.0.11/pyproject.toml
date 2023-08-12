@@ -1,0 +1,19 @@
+[build-system]
+requires = [ "hatchling",]
+build-backend = "hatchling.build"
+
+[project]
+name = "xethhung12_minio_upload_file"
+version = "0.0.11"
+description = "A small program uploading file to minio repo"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [ "Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License", "Operating System :: OS Independent",]
+dependencies = [ "minio>=7.1.15",]
+[[project.authors]]
+name = "Xeth Hung"
+email = "admin@xethh.me"
+
+[project.urls]
+Homepage = "https://github.com/xh-dev-py/xethhung12_minio_upload_file"
+"Bug Tracker" = "https://github.com/xh-dev-py/xethhung12_minio_upload_file/issues"
