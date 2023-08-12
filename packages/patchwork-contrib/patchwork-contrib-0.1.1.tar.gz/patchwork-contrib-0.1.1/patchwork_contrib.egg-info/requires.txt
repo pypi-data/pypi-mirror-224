@@ -1,0 +1,10 @@
+patchwork-core>=0.1.9
+aiohttp
+
+[fastapi]
+fastapi>=0.70
+pydantic~=1.10.0
+python-jose[cryptography]
+
+[tortoise]
+tortoise-orm
