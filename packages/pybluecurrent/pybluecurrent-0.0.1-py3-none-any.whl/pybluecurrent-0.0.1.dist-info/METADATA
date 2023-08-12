@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pybluecurrent
+Version: 0.0.1
+Summary: Python client for BlueCurrent charge points.
+Author-email: Rogier van der Geer <rogier@vander-geer.nl>
+License: MIT
+Project-URL: Repository, https://github.com/rogiervandergeer/pybluecurrent
+Keywords: api,blue current,electric vehicle,ev
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Typing :: Typed
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests >=2.31.0
+Provides-Extra: dev
+Requires-Dist: black ==23.3.0 ; extra == 'dev'
+Requires-Dist: pytest >=7.3.1 ; extra == 'dev'
+Requires-Dist: pytest-mock >=3.11.0 ; extra == 'dev'
+
+# pybluecurrent
+
+Python client for BlueCurrent charge points.
