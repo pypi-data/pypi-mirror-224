@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/my_ardihikaru/__init__.py
+src/my_ardihikaru/my.py
+src/my_ardihikaru.egg-info/PKG-INFO
+src/my_ardihikaru.egg-info/SOURCES.txt
+src/my_ardihikaru.egg-info/dependency_links.txt
+src/my_ardihikaru.egg-info/top_level.txt
