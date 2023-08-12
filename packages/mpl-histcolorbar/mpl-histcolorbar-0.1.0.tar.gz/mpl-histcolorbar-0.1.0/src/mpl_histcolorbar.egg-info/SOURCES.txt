@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/mpl_histcolorbar/__init__.py
+src/mpl_histcolorbar/_histcolorbar.py
+src/mpl_histcolorbar.egg-info/PKG-INFO
+src/mpl_histcolorbar.egg-info/SOURCES.txt
+src/mpl_histcolorbar.egg-info/dependency_links.txt
+src/mpl_histcolorbar.egg-info/requires.txt
+src/mpl_histcolorbar.egg-info/top_level.txt
+tests/test_histcolorbar.py

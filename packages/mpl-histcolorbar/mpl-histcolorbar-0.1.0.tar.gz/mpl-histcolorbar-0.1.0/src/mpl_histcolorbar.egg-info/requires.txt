@@ -1,0 +1,11 @@
+matplotlib
+numpy
+
+[dev]
+pytest
+black
+ruff
+spinx
+sphinx_rtd_theme
+build
+twine
