@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "scared-dashboard"
+version = "0.1.0"
+description = ""
+authors = ["Aethor <oow.autre@gmail.com>"]
+packages = [
+	 { include = "scared" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+dearpygui = "^1.7.0"
+fabric = "^3.2.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
