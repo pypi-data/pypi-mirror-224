@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: scutemc
+Version: 0.0.1
+Summary: A Python library for making Minecraft datapacks.
+Project-URL: documentation, https://t0rnato.github.io/scute
+Project-URL: repository, https://github.com/T0RNATO/scute
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+![Title](/assets/title.png)
+
+A simple Python library for creating Minecraft datapacks with Python. (Very much in development)
+
+[Read the docs](https://t0rnato.github.io/scute)
