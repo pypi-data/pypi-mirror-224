@@ -1,0 +1,13 @@
+allspice/__init__.py,sha256=p7McxXlhISvlC5a_CgLIiWcUf6SYJtckJurYTuegyCw,547
+allspice/allspice.py,sha256=7_omMUOstMyZPOQv-PpDvu6YYZsaTiJWhmuWTR999RY,16653
+allspice/apiobject.py,sha256=3Rdb93D2vOkxlJaAJ2eNUiRmjHAZvPu6GqyNBuE8LP8,59292
+allspice/baseapiobject.py,sha256=YnIUqvuh6zFMoKwCITa8jBUw1-RjuDRK9gbz09QfiMs,4815
+allspice/exceptions.py,sha256=rkCzwW5M4ojgfHqzTmVg6SeOqw498TNtFhNxT9mSrHo,877
+allspice/ratelimiter.py,sha256=-P4hAErxE9qvRJWlq56qaNtXPHj_M-5_KISd6eDZWp8,1148
+allspice/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+allspice/utils/bom_generation.py,sha256=Z2x8xbFSmzBjakfx5pKAhPRVC2XVWV0VoEobmkafm3E,11769
+py_allspice-2.3.1.dist-info/LICENSE,sha256=siPF7p0wgOZ20EiUX5CYfrUHKAURSS5A8xc-Url73P0,1109
+py_allspice-2.3.1.dist-info/METADATA,sha256=bat9IED18QKb76gfu9FAL-PmDm3zHwZRqo2qyphMxes,3752
+py_allspice-2.3.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+py_allspice-2.3.1.dist-info/top_level.txt,sha256=r4-LUhFeGLPXoGnthzqqmIRjOn3iwgaOIrf0j_yko68,9
+py_allspice-2.3.1.dist-info/RECORD,,
