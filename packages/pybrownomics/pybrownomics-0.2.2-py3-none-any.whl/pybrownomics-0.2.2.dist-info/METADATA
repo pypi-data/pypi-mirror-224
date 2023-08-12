@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pybrownomics
+Version: 0.2.2
+Summary: 
+License: MIT
+Author: Lorenzo Alencar Tomaz
+Author-email: lolo.tomaz@gmail.com
+Requires-Python: >=3.8.0,<3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: matplotlib (>=3.7.2,<4.0.0)
+Requires-Dist: numpy (>=1.24.2,<2.0.0)
+Requires-Dist: pandas (>=2.0.3,<3.0.0)
+Requires-Dist: scipy (>=1.10.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+# PyBrownomics
+
+PyBrownomics is a package with different tokenomics simulation models.
+
+Models:
+
+- pybrownomics/control:
+
+  - Implements the concepts outlined in the research article [A Control Theoretic Approach to Infrastructure-Centric Blockchain Tokenomics](https://arxiv.org/pdf/2210.12881.pdf) by Oguzhan Akcin, Robert P. Streit, Benjamin Oommen, Sriram Vishwanath, and Sandeep Chinchali.
+  - **The implementation for this module was designed by the pybrownomics team during for the [superhack](https://ethglobal.com/events/superhack) ETHGlobal hackathon.**
+
+- pybrownomics/brown:
+  - Utility Token Price Simulator is a simulator that simulates general token price when setting parameters.
+    It is implemented based on the theory of [Tokenomics: Dynamic Adoption and Valuation](https://bfi.uchicago.edu/wp-content/uploads/WP_2018-49.pdf).
+  - **This modules was designed and implemented by [melonattacker](https://github.com/melonattacker) and the original source code comes from [utility-token-price-simulator](https://github.com/melonattacker/utility-token-price-simulator).**
+
