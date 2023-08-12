@@ -1,0 +1,11 @@
+LICENSE
+setup.cfg
+setup.py
+py_simple_sqlite.egg-info/PKG-INFO
+py_simple_sqlite.egg-info/SOURCES.txt
+py_simple_sqlite.egg-info/dependency_links.txt
+py_simple_sqlite.egg-info/requires.txt
+py_simple_sqlite.egg-info/top_level.txt
+simple_sqlite/__init__.py
+simple_sqlite/const.py
+simple_sqlite/main.py
