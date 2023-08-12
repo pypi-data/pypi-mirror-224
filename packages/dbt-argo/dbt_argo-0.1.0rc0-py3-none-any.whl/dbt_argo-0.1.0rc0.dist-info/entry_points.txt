@@ -1,0 +1,3 @@
+[console_scripts]
+dbt-argo=dbt_argo.cli:cli
+

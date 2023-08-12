@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: dbt-argo
+Version: 0.1.0rc0
+Summary: A dbt pipeline converter to Argo Workflows
+Author: Léo Grosjean
+Author-email: leo.grosjean@live.fr
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: PyYAML (>=6.0.1,<7.0.0)
+Requires-Dist: click (>=8.1.6,<9.0.0)
+Requires-Dist: pydantic (>=2.1.1,<3.0.0)
+Description-Content-Type: text/markdown
+
+# dbt-argo
+
+A simple Python package to parse dbt dependencies to create an Argo Workflow job
+
+## Limitations
+
+- This version only support Google Cloud Storage as backend to store `manifest.json` and `dbt models` files to be executed.
+- This version only support `CronWorkflow` and `Workflow` generation
+
+## Usage
+
+```sh
+dbt-argo [PATH] \
+    --target-path [TARGET_PATH] \
+    --output_file [OUTPUT_FILE]
+```
+## `.dbt-argo.yml` configuration file
+
+This file is a simplify Argo Workflow spec file. It only contains root configuration options and any reference to templates, steps or containers.
