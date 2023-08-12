@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: pypiratzzi
+Version: 23.8.0
+Summary: pypiratzzi downloads signatures from PyPI.
+Author-email: meejah <meejah@meejah.ca>
+License: GPL
+License-File: LICENSE
+Keywords: cryptography,pypi,signatures
+Classifier: Framework :: Twisted
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Requires-Dist: click
+Requires-Dist: setuptools
+Requires-Dist: treq
+Requires-Dist: twisted
+Provides-Extra: dev
+Requires-Dist: dulwich; extra == 'dev'
+Requires-Dist: gpg; extra == 'dev'
+Requires-Dist: hatchling; extra == 'dev'
+Requires-Dist: pip-tools; extra == 'dev'
+Requires-Dist: readme-renderer; extra == 'dev'
+Requires-Dist: sphinx; extra == 'dev'
+Requires-Dist: twine; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: cuvner; extra == 'test'
+Requires-Dist: pytest; extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
+Requires-Dist: pytest-twisted; extra == 'test'
+Description-Content-Type: text/x-rst
+
+
+pypiratzzi
+==========
+
+PyPI stopped accepting signatures for uploaded artifacts.
+``pypiratzzi`` downloads all signatures for all releases for a project from PyPI.
+
+One use-case for this is to commit all past signatures to source-control.
+
+
+Using pypiratzzi
+----------------
+
+For example, I recently migrated "magic-wormhole" signatures from PyPI:
+
+.. code-block:: shell
+
+    $ pypiratzzi --signatures ~/src/magic-wormhole/signatures magic-wormhole
+
+This will use the PyPI Legacy API in JSON mode (as recommended by their documentation) to find all the releases and artifacts for "magic-wormhole".
+It will then download any missing signatures; ``--signatures`` (defaults to ``.``) says where to cache the signatures (and skips any already found locally).
