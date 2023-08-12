@@ -1,0 +1,10 @@
+seabird_processing/__init__.py,sha256=NuAT9Ya_99_H35U0q4i4bLyNLWEsWVuCXIfQsjANDzs,1111
+seabird_processing/batch.py,sha256=vquZmzIGLl_KaJpoRflKZWvkTj8d4r0nGjmIvnwts7o,2953
+seabird_processing/commands.py,sha256=LIU58W8mk1_3JhKvSiWpPSDf6E_LQ2e91IxFKdqiWxg,8348
+seabird_processing/configs.py,sha256=bp8WGSsZB4Zudzl7GBKoRE-ABxSFyeYOJo-pfXlbEUo,4820
+seabird_processing/logger.py,sha256=mcZg94jaboXC4aD1yBxpL_d5LZQSR7E-AFV5Ns1z89M,92
+seabird_processing/settings.py,sha256=2EByst7pWe4vREU0Caz1B2bnDddYb8asDK7iedAocE4,889
+seabird_processing-0.2.0.dist-info/LICENSE,sha256=Ag7Q1MVBG7kruFExfcgV9OajxdpvGDbo0n4lft2yMWs,1072
+seabird_processing-0.2.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+seabird_processing-0.2.0.dist-info/METADATA,sha256=3Ligjaws3r4lg-eLHSVenbDQvMaUM9Qt8yIgMNz5sg4,4463
+seabird_processing-0.2.0.dist-info/RECORD,,
