@@ -1,0 +1,94 @@
+Metadata-Version: 2.1
+Name: DjangoDynamicDrive
+Version: 0.0.4
+Summary: Django Rapid Development Assistant Tool
+Project-URL: Homepage, https://github.com/xiaoyue9527/DjangoDynamicDrive
+Author-email: xiaoyue9527 <xiaoyue9527@hotmail.com>
+License: MIT License
+        
+        Copyright (c) [2023] [xiaoyue9527]
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: django>=4.0
+Description-Content-Type: text/markdown
+
+# D
+## 快速开始
+
+### 自动注册模型到Admin
+
+setting.py
+
+```python
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'DjangoDynamicDrive.dynamic',
+    # 你的APP
+    'testapp',
+]
+```
+
+### 数据库路由，指定Django app 使用所选择的数据库
+
+```python
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'default',
+        'USER': '你的账户',
+        'PASSWORD': '你的密码',
+        'HOST': '数据库的IP或者host',
+        'PORT': '数据库服务开放的端口',
+    },
+    'logsdb': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'logs',
+        'USER': '你的账户',
+        'PASSWORD': '你的密码',
+        'HOST': '数据库的IP或者host',
+        'PORT': '数据库服务开放的端口',
+    }
+}
+
+# 数据库路由
+DATABASE_ROUTERS = ['DjangoDynamicDrive.db.database_router.DatabaseAppsRouter']
+# 应用与数据库映射
+DATABASE_APPS_MAPPING = {
+    'testapp': 'logsdb',
+    # app名称：数据库路由
+}
+```
+
+数据库迁移
+
+```bash
+python manage.py makemigrations
+python manage.py migrate --database=logsdb
+```
+
