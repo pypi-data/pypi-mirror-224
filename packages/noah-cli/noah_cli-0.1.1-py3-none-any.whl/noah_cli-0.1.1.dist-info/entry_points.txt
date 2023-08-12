@@ -1,0 +1,3 @@
+[console_scripts]
+noah=noah_cli.app.main:app
+
