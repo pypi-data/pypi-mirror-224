@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools >= 40.9.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.ruff]
+select = [
+    "E",  # pycodestyle
+    "F",  # pyflakes
+    "I",  # isort
+]
+exclude = [
+    'examples/whisper/whisper.cpp',
+    'livekit/proto',
+]
