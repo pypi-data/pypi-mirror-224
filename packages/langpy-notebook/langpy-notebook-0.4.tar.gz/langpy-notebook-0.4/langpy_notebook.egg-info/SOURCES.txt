@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+langpy/__init__.py
+langpy/auto.py
+langpy/base.py
+langpy/colab_lp.py
+langpy/jupyter_lp.py
+langpy/data_loader/__init__.py
+langpy/data_loader/csv_loader.py
+langpy/data_loader/json_loader.py
+langpy/data_loader/loader.py
+langpy_notebook.egg-info/PKG-INFO
+langpy_notebook.egg-info/SOURCES.txt
+langpy_notebook.egg-info/dependency_links.txt
+langpy_notebook.egg-info/requires.txt
+langpy_notebook.egg-info/top_level.txt
