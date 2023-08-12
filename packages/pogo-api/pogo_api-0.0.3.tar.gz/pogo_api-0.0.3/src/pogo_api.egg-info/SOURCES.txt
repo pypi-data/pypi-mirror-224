@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pogo_api/__init__.py
+src/pogo_api/endpoint.py
+src/pogo_api/http.py
+src/pogo_api/pascal_converter.py
+src/pogo_api/route.py
+src/pogo_api/version.py
+src/pogo_api.egg-info/PKG-INFO
+src/pogo_api.egg-info/SOURCES.txt
+src/pogo_api.egg-info/dependency_links.txt
+src/pogo_api.egg-info/requires.txt
+src/pogo_api.egg-info/top_level.txt
