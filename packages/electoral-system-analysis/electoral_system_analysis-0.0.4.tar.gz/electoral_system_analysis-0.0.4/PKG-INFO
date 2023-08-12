@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: electoral_system_analysis
+Version: 0.0.4
+Summary: Repositorio que recoge diferentes elementos de sistemas electorales para su comparación, dentro de los marcos de la constitución española de 1978.
+Author: Santiago Arranz Sanz
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# analisis-de-sistemas-electorales
+Repositorio que recoge diferentes elementos de sistemas electorales para su comparación, dentro de los marcos de la constitución española de 1978.
