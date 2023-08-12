@@ -1,0 +1,2 @@
+[console_scripts]
+jupyter-dashboard = jupyter_dashboard.application:main
