@@ -1,0 +1,2 @@
+[console_scripts]
+archive-reddit-user = archive_reddit_user.main:main
