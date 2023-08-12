@@ -1,0 +1,2 @@
+[console_scripts]
+spex = spex.__main__:main
