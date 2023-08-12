@@ -1,0 +1,13 @@
+django_dynaconf/__init__.py,sha256=LT9JZKnU9pnope0qdE_BuPLxYKRan7w15MnbK1CTTeI,155
+django_dynaconf/admin.py,sha256=ZuHN7J0suMQVHraPuxb-bOPmAIQ1sxbv6QaNE--xpp0,439
+django_dynaconf/apps.py,sha256=D_woTrv9e6_XgvJ0vaZevzU7XyxlnPBD8YQJAKL0MmA,169
+django_dynaconf/configs.py,sha256=A1XiqwvEnbvRJYloS3lcxsy2kpJln9wDOR7yd6MDcsI,3057
+django_dynaconf/models.py,sha256=RUS2EsMu-m5UAobTnEAHRwJSvYj_pRBgS-JWSHih4FQ,4942
+django_dynaconf/migrations/0001_initial.py,sha256=4QjU7VnrJag3pWKEBRYzZWwaurcH9kQACawq5OFXSl0,1365
+django_dynaconf/migrations/0002_auto_20230730_1449.py,sha256=o6yu4ExXed_6XLgHTTztIoRjLti_9RsXwlxLKLfVruI,577
+django_dynaconf/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_dynaconf-1.3.1.dist-info/LICENSE,sha256=t_cZM8wJ_Oh_i0zQrlVe3-Enxr3RRb_LNnJEs3tdVVU,1067
+django_dynaconf-1.3.1.dist-info/METADATA,sha256=d7HfHjRuvc1UPIg_L4IFWUxUn2_6DV0qnx8Mql-wLZo,4858
+django_dynaconf-1.3.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+django_dynaconf-1.3.1.dist-info/top_level.txt,sha256=CQp4ctdOeGynZMvtQ0KCKU87YT6_hLqwf-4MKOqonqw,16
+django_dynaconf-1.3.1.dist-info/RECORD,,
