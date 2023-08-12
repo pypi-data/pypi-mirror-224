@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<mxpiblock>
+    <name>test</name>
+    <version>0.02</version>
+    <author>yuan</author>
+    <info>test</info>
+    <xml>
+          <block type="MQTT_msg">
+            <value name="STEP">
+                <shadow type="math_number">
+                  <field name="NUM">15</field>
+                </shadow>
+            </value>
+          </block>
+    </xml>
+    <block>
+    Blockly.Blocks.MQTT_msg= {
+    init: function() {
+    this.appendDummyInput()
+        .appendField("中的MQTT消息");
+    this.setInputsInline(true);
+    this.setOutput(true, null);
+    this.setColour(90);
+    this.setTooltip("");
+    this.setHelpUrl("");
+    }
+    };
+    </block>
+    <code>
+    Blockly.Python.MQTT_msg = function() {
+    Blockly.Python.definitions_['time'] = 'import time';
+    var code = 'time.time()';
+    return [code, Blockly.Python.ORDER_ATOMIC];
+    };
+    </code>
+</mxpiblock>
