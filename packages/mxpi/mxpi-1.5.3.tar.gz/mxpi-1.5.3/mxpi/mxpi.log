@@ -1,0 +1,697 @@
+ERROR 2022-12-02 07:32:59,873 log 241 Internal Server Error: /vnc
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\asyncio\tasks.py", line 442, in wait_for
+    return await fut
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\zm\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 28, in vnc
+    return render(request,'vnc.html')
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\engine.py", line 176, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\engine.py", line 158, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 21: 'static'. Did you forget to register or load this tag?
+ERROR 2023-07-27 22:53:45,996 log 224 Internal Server Error: /files
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 38, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 74, in files
+    if file_obj.name=='blob':
+AttributeError: 'NoneType' object has no attribute 'name'
+ERROR 2023-08-10 14:40:05,457 log 224 Internal Server Error: /upblock
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 38, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 175, in upblock
+    with open('/block/'+file_obj.name, "wb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/block/face_masks9.xml'
+ERROR 2023-08-10 14:52:50,358 log 224 Internal Server Error: /upblock
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 38, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 181, in upblock
+    jianchaxml(file)
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 190, in jianchaxml
+    et = parse(f)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\xml\etree\ElementTree.py", line 1222, in parse
+    tree.parse(source, parser)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\xml\etree\ElementTree.py", line 580, in parse
+    self._root = parser._parse_whole(source)
+UnicodeDecodeError: 'gbk' codec can't decode byte 0xad in position 199: illegal multibyte sequence
+ERROR 2023-08-10 14:53:34,764 log 224 Internal Server Error: /upblock
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 38, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 181, in upblock
+    jianchaxml(file)
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 190, in jianchaxml
+    et = parse(f)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\xml\etree\ElementTree.py", line 1222, in parse
+    tree.parse(source, parser)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\xml\etree\ElementTree.py", line 580, in parse
+    self._root = parser._parse_whole(source)
+xml.etree.ElementTree.ParseError: junk after document element: line 5, column 0
+ERROR 2023-08-10 19:02:32,546 log 224 Internal Server Error: /upblock
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 38, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 183, in upblock
+    mxltojs(file)
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 217, in mxltojs
+    xml.write(xmlpath)
+AttributeError: 'xml.etree.ElementTree.Element' object has no attribute 'write'
+ERROR 2023-08-10 19:14:15,267 log 224 Internal Server Error: /upblock
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 38, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 184, in upblock
+    mxltojs(file)
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 210, in mxltojs
+    et = parse(f)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\xml\etree\ElementTree.py", line 1222, in parse
+    tree.parse(source, parser)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\xml\etree\ElementTree.py", line 580, in parse
+    self._root = parser._parse_whole(source)
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+ERROR 2023-08-10 19:14:55,403 log 224 Internal Server Error: /upblock
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 38, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 184, in upblock
+    mxltojs(file)
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 210, in mxltojs
+    et = parse(f)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\xml\etree\ElementTree.py", line 1222, in parse
+    tree.parse(source, parser)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\xml\etree\ElementTree.py", line 580, in parse
+    self._root = parser._parse_whole(source)
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+ERROR 2023-08-10 19:15:55,680 log 224 Internal Server Error: /upblock
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 38, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 184, in upblock
+    mxltojs(file)
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 210, in mxltojs
+    xmlstr=f.read()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\xml\etree\ElementTree.py", line 1222, in parse
+    tree.parse(source, parser)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\xml\etree\ElementTree.py", line 580, in parse
+    self._root = parser._parse_whole(source)
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+ERROR 2023-08-10 19:16:44,389 log 224 Internal Server Error: /upblock
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 38, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 184, in upblock
+    mxltojs(file)
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 210, in mxltojs
+    xmlstr=open(filepath,encoding='utf-8').read()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\xml\etree\ElementTree.py", line 1222, in parse
+    tree.parse(source, parser)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\xml\etree\ElementTree.py", line 580, in parse
+    self._root = parser._parse_whole(source)
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+ERROR 2023-08-10 19:17:36,842 log 224 Internal Server Error: /upblock
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 38, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 184, in upblock
+    mxltojs(file)
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 210, in mxltojs
+    xmlstr=open(filepath,encoding='utf-8').read()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\xml\etree\ElementTree.py", line 1222, in parse
+    tree.parse(source, parser)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\xml\etree\ElementTree.py", line 580, in parse
+    self._root = parser._parse_whole(source)
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+ERROR 2023-08-10 19:18:42,008 log 224 Internal Server Error: /upblock
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 38, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 184, in upblock
+    mxltojs(file)
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 210, in mxltojs
+    xmlstr=open(filepath,encoding='utf-8').read()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\xml\etree\ElementTree.py", line 1222, in parse
+    tree.parse(source, parser)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\xml\etree\ElementTree.py", line 580, in parse
+    self._root = parser._parse_whole(source)
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+ERROR 2023-08-10 19:29:15,319 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 38, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 219, in _get_response_async
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 290, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 560, in resolve
+    for pattern in self.url_patterns:
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 602, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 595, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\MxPisite\urls.py", line 20, in <module>
+    from app import urls
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\urls.py", line 2, in <module>
+    from . import views
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 218
+    pattern = re.compile(ur'<xml>.*?xml>')
+                           ^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+ERROR 2023-08-10 19:29:16,829 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 38, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 219, in _get_response_async
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 290, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 560, in resolve
+    for pattern in self.url_patterns:
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 602, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 595, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\MxPisite\urls.py", line 20, in <module>
+    from app import urls
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\urls.py", line 2, in <module>
+    from . import views
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 218
+    pattern = re.compile(ur'<xml>.*?xml>')
+                           ^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+ERROR 2023-08-10 19:31:05,793 log 224 Internal Server Error: /upblock
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 38, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 184, in upblock
+    mxltojs(file)
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 220, in mxltojs
+    print(result.group())
+AttributeError: 'NoneType' object has no attribute 'group'
+ERROR 2023-08-10 19:38:00,815 log 224 Internal Server Error: /upblock
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 38, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 184, in upblock
+    mxltojs(file)
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 220, in mxltojs
+    result=result.group().replace('<xml>').replace('</xml>')
+TypeError: replace expected at least 2 arguments, got 1
+ERROR 2023-08-10 23:26:50,815 log 224 Internal Server Error: /upblock
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 38, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 184, in upblock
+    if mxltojs(file):
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 230, in mxltojs
+    op=open(xmlpath,'w',encoding='utf-8')
+FileNotFoundError: [Errno 2] No such file or directory: 'static/block/static/block/test_0.01/test_0.01_block.xml'
+ERROR 2023-08-10 23:46:00,783 log 224 Internal Server Error: /load_mk_add
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 38, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 253, in load_mk_add
+    f=open(xmlpath,'r',encoding='utf-8')
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\mxpistatic/block/test_0.01/test_0.01_block.xml'
+ERROR 2023-08-11 10:53:34,274 log 224 Internal Server Error: /upblock
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 38, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 184, in upblock
+    if mxltojs(file):
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 223, in mxltojs
+    savefile=dirpath+'/'+name+'_'+version+'_info.json'
+UnboundLocalError: local variable 'dirpath' referenced before assignment
+ERROR 2023-08-11 10:54:13,918 log 224 Internal Server Error: /upblock
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 38, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 184, in upblock
+    if mxltojs(file):
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 233, in mxltojs
+    op.write(result)
+TypeError: write() argument must be str, not dict
+ERROR 2023-08-11 10:54:49,155 log 224 Internal Server Error: /load_mk_add
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 38, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 264, in load_mk_add
+    f=open(xmlpath,'r',encoding='utf-8')
+FileNotFoundError: [Errno 2] No such file or directory: 'static/block/test_0.02/test_0.02_block.xml'
+ERROR 2023-08-11 10:54:49,402 log 224 Internal Server Error: /load_mk_add
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 38, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 264, in load_mk_add
+    f=open(xmlpath,'r',encoding='utf-8')
+FileNotFoundError: [Errno 2] No such file or directory: 'static/block/test_0.02/test_0.02_block.xml'
+ERROR 2023-08-11 11:16:41,112 log 224 Internal Server Error: /mk_list
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 38, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 280, in mk_list
+    f=open(ku+"/"+ku+'_info.json', "r", encoding="utf-8")
+FileNotFoundError: [Errno 2] No such file or directory: 'test_0.02/test_0.02_info.json'
+ERROR 2023-08-11 11:16:41,824 log 224 Internal Server Error: /mk_list
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 38, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 280, in mk_list
+    f=open(ku+"/"+ku+'_info.json', "r", encoding="utf-8")
+FileNotFoundError: [Errno 2] No such file or directory: 'test_0.02/test_0.02_info.json'
+ERROR 2023-08-11 11:17:12,839 log 224 Internal Server Error: /mk_list
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 38, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 281, in mk_list
+    content = json.load(f.read())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+AttributeError: 'str' object has no attribute 'read'
+ERROR 2023-08-11 11:17:14,943 log 224 Internal Server Error: /mk_list
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 38, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 281, in mk_list
+    content = json.load(f.read())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+AttributeError: 'str' object has no attribute 'read'
+ERROR 2023-08-11 11:23:58,510 log 224 Internal Server Error: /mk_list
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 38, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 284, in mk_list
+    content.id=i
+AttributeError: 'dict' object has no attribute 'id'
+ERROR 2023-08-11 11:23:58,798 log 224 Internal Server Error: /mk_list
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 38, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 284, in mk_list
+    content.id=i
+AttributeError: 'dict' object has no attribute 'id'
+ERROR 2023-08-11 11:29:36,309 log 224 Internal Server Error: /mk_list
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 38, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 285, in mk_list
+    content['down']='<i class="fa fa-close" style="color: red;" onclick="delmk('+content.name+'_'+content.version+')"></i>'
+AttributeError: 'dict' object has no attribute 'name'
+ERROR 2023-08-11 11:29:36,926 log 224 Internal Server Error: /mk_list
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 472, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 38, in inner
+    response = await get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 435, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 408, in wait_for
+    return await fut
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\asgiref\sync.py", line 476, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\MxPi\mx-raspberry-pi\mxpi\.\app\views.py", line 285, in mk_list
+    content['down']='<i class="fa fa-close" style="color: red;" onclick="delmk('+content.name+'_'+content.version+')"></i>'
+AttributeError: 'dict' object has no attribute 'name'
