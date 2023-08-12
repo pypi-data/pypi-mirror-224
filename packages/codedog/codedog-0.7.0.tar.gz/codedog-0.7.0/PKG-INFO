@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: codedog
+Version: 0.7.0
+Summary: Codedog reviews your pull request using llm.
+Home-page: https://www.codedog.ai
+License: MIT
+Keywords: code review,langchain,llm
+Author: Arcadia
+Author-email: arcadia822@gmail.com
+Requires-Python: >=3.10,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: langchain (>=0.0.247,<0.0.248)
+Requires-Dist: openai (>=0.27.8,<0.28.0)
+Requires-Dist: pydantic (>=1.10.7,<2.0.0)
+Requires-Dist: pygithub (>=1.58.2,<2.0.0)
+Requires-Dist: python-gitlab (>=3.14.0,<4.0.0)
+Requires-Dist: unidiff (>=0.7.5,<0.8.0)
+Project-URL: Bug Tracker, https://github.com/codedog-ai/codedog/issues
+Project-URL: Discord, https://discord.gg/8TfqpFC4
+Project-URL: Repository, https://www.github.com/codedog-ai/codedog
+Description-Content-Type: text/markdown
+
+# 🐶 Codedog
+
+[![Checkstyle](https://github.com/Arcadia822/codedog/actions/workflows/flake8.yml/badge.svg)](https://github.com/Arcadia822/codedog/actions/workflows/flake8.yml)
+[![Pytest](https://github.com/Arcadia822/codedog/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/Arcadia822/codedog/actions/workflows/test.yml)
+[![Coverage](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/Arcadia822/ce38dae58995aeffef42065093fcfe84/raw/codedog_master.json)](https://github.com/Arcadia822/codedog/actions/workflows/test.yml)
+
+Review your Github/Gitlab PR with ChatGPT
+
+![Design](docs/design.png)
+
+## Configuration
+
+Codedog currently load config from environment variables.
+
+settings:
+
+| Config Name                   | Required | Default           | Description                             |
+| ----------------------------- | -------- | ----------------- | --------------------------------------- |
+| OPENAI_API_KEY                | Yes      |                   | Api Key for calling openai gpt api      |
+| AZURE_OPENAI                  | No       |                   | Use azure openai gpt 3.5 if not blank   |
+| AZURE_OPENAI_API_KEY          | No       |                   | Azure openai api key                    |
+| AZURE_OPENAI_API_BASE         | No       |                   | Azure openai api base                   |
+| AZURE_OPENAI_DEPLOYMENT_ID    | No       |                   | Azure openai deployment id for gpt 3.5  |
+| AZURE_OPENAI_EMBEDDING_DEP_ID | No       |                   | Azure openai deployment id for embedding|
+
+## Usage
+
+### Github Example with GPT4
+
+check `example/github_review.py`
+
+### server
+
+We have a demo server for you to try.
+
+1. Run server with:
+
+    ```bash
+    poetry install --with http
+
+    poetry run demoserver
+    ```
+## Development
+
+```shell
+poetry install --with dev, test, http
+```
+
