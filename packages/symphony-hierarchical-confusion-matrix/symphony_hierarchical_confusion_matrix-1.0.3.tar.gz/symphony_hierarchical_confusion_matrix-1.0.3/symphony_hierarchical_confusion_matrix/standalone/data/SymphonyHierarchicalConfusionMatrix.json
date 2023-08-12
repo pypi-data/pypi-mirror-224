@@ -1,0 +1,1 @@
+{"width": "XXL", "height": "M", "page": "Hierarchical Confusion Matrix", "name": "SymphonyHierarchicalConfusionMatrix", "description": "A confusion matrix Symphony component that can display hierarchical labels", "labelColumn": "label", "predictionColumn": "pred"}
