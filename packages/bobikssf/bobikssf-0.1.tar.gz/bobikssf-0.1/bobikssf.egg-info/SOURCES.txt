@@ -1,0 +1,8 @@
+setup.py
+bobik/__init__.py
+bobik/bobik.py
+bobikssf.egg-info/PKG-INFO
+bobikssf.egg-info/SOURCES.txt
+bobikssf.egg-info/dependency_links.txt
+bobikssf.egg-info/requires.txt
+bobikssf.egg-info/top_level.txt
