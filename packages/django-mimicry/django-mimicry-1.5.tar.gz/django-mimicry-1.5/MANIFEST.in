@@ -1,0 +1,5 @@
+include LICENSE
+include README.md
+recursive-include mimicry/static/mimicry/css *
+recursive-include mimicry/static/mimicry/js *
+recursive-include mimicry/templates *
