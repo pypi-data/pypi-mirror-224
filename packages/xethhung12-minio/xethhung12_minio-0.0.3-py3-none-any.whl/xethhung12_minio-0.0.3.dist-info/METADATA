@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: xethhung12_minio
+Version: 0.0.3
+Summary: A small program for downloading and uploading file to minio storage
+Project-URL: Homepage, https://github.com/xh-dev/xethhung12_minio
+Project-URL: Bug Tracker, https://github.com/xh-dev/xethhung12_minio/issues
+Author-email: Xeth Hung <admin@xethh.me>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: minio>=7.1.15
+Description-Content-Type: text/markdown
+
+# Build and deploy
+```shell
+rm -fr dist/*
+python -m build
+python twine upload dist/* -u __token__ -p {token}
+```
+
+# Behind Proxy 
+if the client is connecting to internet though a company proxy server, use the environment variable(`http_proxy`) to setup the proxy. \
+e.g. `http_proxy=http://127.0.0.1:8080`
+
+
+# Usage of upload
+```python
+python -m xethhung12_minio_upload_file \
+    --url {url} \
+    --access-key {access-key} \
+    --secret-key {secret-key} \
+    --bucket {bucket} \
+    --local-file {local file} \
+    --remote-file {remote file}
+```
+
+# Usage  of download
+```python
+python -m xethhung12_minio_download_file \
+    --url {url} \
+    --access-key {access-key} \
+    --secret-key {secret-key} \
+    --bucket {bucket} \
+    --local-file {local file} \
+    --remote-file {remote file}
+```
