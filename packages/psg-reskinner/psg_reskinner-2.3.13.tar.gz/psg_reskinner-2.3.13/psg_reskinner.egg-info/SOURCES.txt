@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+./res/DESCRIPTION.md
+psg_reskinner/__init__.py
+psg_reskinner/__main__.py
+psg_reskinner.egg-info/PKG-INFO
+psg_reskinner.egg-info/SOURCES.txt
+psg_reskinner.egg-info/dependency_links.txt
+psg_reskinner.egg-info/requires.txt
+psg_reskinner.egg-info/top_level.txt
+res/DESCRIPTION.md
