@@ -1,0 +1,6 @@
+openai
+termcolor
+sys
+traceback
+logging
+getpass
