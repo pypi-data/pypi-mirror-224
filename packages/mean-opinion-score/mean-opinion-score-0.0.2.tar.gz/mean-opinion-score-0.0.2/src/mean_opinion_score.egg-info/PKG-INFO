@@ -1,0 +1,160 @@
+Metadata-Version: 2.1
+Name: mean-opinion-score
+Version: 0.0.2
+Summary: Library for calculating the mean opinion score and 95% confidence interval of the standard deviation of text-to-speech ratings according to Ribeiro et al. (2011).
+Author-email: Stefan Taubert <pypi@stefantaubert.com>
+Maintainer-email: Stefan Taubert <pypi@stefantaubert.com>
+License: MIT
+Project-URL: Homepage, https://github.com/stefantaubert/mean-opinion-score
+Project-URL: Issues, https://github.com/stefantaubert/mean-opinion-score/issues
+Keywords: TTS,Text-to-speech,Speech synthesis,Mean Opinion Score,Language
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: BSD
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: <3.12,>=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# mean-opinion-score
+
+[![PyPI](https://img.shields.io/pypi/v/mean-opinion-score.svg)](https://pypi.python.org/pypi/mean-opinion-score)
+[![PyPI](https://img.shields.io/pypi/pyversions/mean-opinion-score.svg)](https://pypi.python.org/pypi/mean-opinion-score)
+[![MIT](https://img.shields.io/github/license/stefantaubert/mean-opinion-score.svg)](https://github.com/stefantaubert/mean-opinion-score/blob/master/LICENSE)
+[![PyPI](https://img.shields.io/pypi/wheel/mean-opinion-score.svg)](https://pypi.python.org/pypi/mean-opinion-score/#files)
+![PyPI](https://img.shields.io/pypi/implementation/mean-opinion-score.svg)
+[![PyPI](https://img.shields.io/github/commits-since/stefantaubert/mean-opinion-score/latest/master.svg)](https://github.com/stefantaubert/mean-opinion-score/compare/v0.0.2...master)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8238259.svg)](https://doi.org/10.5281/zenodo.8238259)
+
+Python library for calculating the mean opinion score (MOS) and 95% confidence interval (CI) of the standard deviation (SD) of text-to-speech (TTS) ratings according to ["Ribeiro, F., Florêncio, D., Zhang, C., & Seltzer, M. (2011). CrowdMOS: An approach for crowdsourcing mean opinion score studies"](https://doi.org/10.1109/ICASSP.2011.5946971). To determine CIs, the authors used a two-way random effects model with the variables: diversity of intrinsic sentence quality, diversity of rater preference, and subjective uncertainty.
+
+## Installation
+
+```sh
+pip install mean-opinion-score --user
+```
+
+## Usage
+
+```py
+import numpy as np
+
+from mean_opinion_score import get_ci95, get_ci95_default, get_mos
+
+_ = np.nan
+
+ratings = np.array([
+    # columns represent sentences
+    [4, 5, _, 4, _, 3],  # rater 1
+    [4, 4, 4, 5, _, 4],  # rater 2
+    [_, 3, 5, 4, _, 1],  # rater 3
+    [_, _, _, _, _, _],  # rater 4
+])
+
+mos = get_mos(ratings)
+ci = get_ci95(ratings)
+ci_default = get_ci95_default(ratings)
+
+print(f"MOS: {mos:.2f} ± {ci:.4f}")
+print(f"MOS: {mos:.2f} ± {ci_default:.4f}")
+# MOS: 3.85 ± 1.3316
+# MOS: 3.85 ± 0.5579
+```
+
+## Dependencies
+
+- `numpy`
+- `scipy`
+
+## Contributing
+
+If you notice an error, please don't hesitate to open an issue.
+
+### Development setup
+
+```sh
+# update
+sudo apt update
+# install Python 3.6, 3.7, 3.8, 3.9, 3.10 & 3.11 for ensuring that tests can be run
+sudo apt install python3-pip \
+  python3.6 python3.6-dev python3.6-distutils python3.6-venv \
+  python3.7 python3.7-dev python3.7-distutils python3.7-venv \
+  python3.8 python3.8-dev python3.8-distutils python3.8-venv \
+  python3.9 python3.9-dev python3.9-distutils python3.9-venv \
+  python3.10 python3.10-dev python3.10-distutils python3.10-venv \
+  python3.11 python3.11-dev python3.11-distutils python3.11-venv
+# install pipenv for creation of virtual environments
+python3.11 -m pip install pipenv --user
+
+# check out repo
+git clone https://github.com/stefantaubert/mean-opinion-score.git
+cd mean-opinion-score
+# create virtual environment
+python3.11 -m pipenv install --dev
+```
+
+## Running the tests
+
+```sh
+# first install the tool like in "Development setup"
+# then, navigate into the directory of the repo (if not already done)
+cd mean-opinion-score
+# activate environment
+python3.11 -m pipenv shell
+# run tests
+tox
+```
+
+Final lines of test result output:
+
+```log
+  py36: OK
+  py37: OK
+  py38: OK
+  py39: OK
+  py310: OK
+  py311: OK
+  congratulations :)
+```
+
+## License
+
+MIT License
+
+## Acknowledgments
+
+MOS and CI calculation is taken from:
+
+- Ribeiro, F., Florêncio, D., Zhang, C., & Seltzer, M. (2011). CrowdMOS: An approach for crowdsourcing mean opinion score studies. 2011 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2416–2419. [https://doi.org/10.1109/ICASSP.2011.5946971](https://doi.org/10.1109/ICASSP.2011.5946971)
+
+Funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) – Project-ID 416228727 – CRC 1410.
+
+## Citation
+
+If you want to cite this repo, you can use this BibTeX-entry generated by GitHub (see *About => Cite this repository*).
+
+```txt
+Taubert, S. (2023). mean-opinion-score (Version 0.0.2) [Computer software]. https://doi.org/10.5281/zenodo.8238259
+```
+
+## Changelog
+
+- v0.0.2 (2023-08-11)
+  - Added:
+    - commonly used 95% confidence interval calculation
+- v0.0.1 (2023-02-23)
+  - Initial release
