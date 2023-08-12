@@ -1,0 +1,2 @@
+[console_scripts]
+mlkit = mlkit.cli.app:run
