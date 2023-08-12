@@ -1,0 +1,5 @@
+requests
+ws4py
+lightning
+pydantic[email]
+python-dateutil
