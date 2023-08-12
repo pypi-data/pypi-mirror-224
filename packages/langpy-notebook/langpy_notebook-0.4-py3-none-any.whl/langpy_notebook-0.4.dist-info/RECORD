@@ -1,0 +1,14 @@
+langpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+langpy/auto.py,sha256=DYucOmtXyen0PkVRtFOHZjmGlPXWDeq5fSdmBS2_arc,356
+langpy/base.py,sha256=1m5cqUSwe2iKnl0gsbplCSK_LSKoaP8Gfg_ylsoL57Y,2320
+langpy/colab_lp.py,sha256=bxk9v7fSs8pgKtO1DlgaM5Zi7zTMkeBWtWpveRzuCaU,3876
+langpy/jupyter_lp.py,sha256=-b0ThCJUODAbwZJz4AZPcMvXrVMumZ7zHCO-dxqV_1I,5537
+langpy/data_loader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+langpy/data_loader/csv_loader.py,sha256=gtximhj9cV6SQBVmRLiHZywTpWi_1LMs6dpyWPH83JI,931
+langpy/data_loader/json_loader.py,sha256=5IHhsE76vWVBb4Z6Zdn5wJ5GX2YQ4r8-YJNoPe_wZZQ,1308
+langpy/data_loader/loader.py,sha256=EOO9z2eFgb7gESwnmp1oCTbpLuDSLRhcXBTtwv7iB7E,523
+langpy_notebook-0.4.dist-info/LICENSE,sha256=hyjRK3-kcUF2k1sSjFYTSJnNDquaYglPf8rgrpI7oUY,1068
+langpy_notebook-0.4.dist-info/METADATA,sha256=JLsUCLArM5XqjN_26VY6gylVxXLSjDOTfo3iIzhsNFY,17390
+langpy_notebook-0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+langpy_notebook-0.4.dist-info/top_level.txt,sha256=GvKssczKZBIuf-utvtGMkwvnJEEbIzzbHptGhWLM9aI,7
+langpy_notebook-0.4.dist-info/RECORD,,
