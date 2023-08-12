@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+getmwmap/__init__.py
+getmwmap.egg-info/PKG-INFO
+getmwmap.egg-info/SOURCES.txt
+getmwmap.egg-info/dependency_links.txt
+getmwmap.egg-info/top_level.txt
