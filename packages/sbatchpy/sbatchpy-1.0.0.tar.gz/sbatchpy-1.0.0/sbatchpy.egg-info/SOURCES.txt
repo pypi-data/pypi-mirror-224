@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+sbatchpy/__init__.py
+sbatchpy.egg-info/PKG-INFO
+sbatchpy.egg-info/SOURCES.txt
+sbatchpy.egg-info/dependency_links.txt
+sbatchpy.egg-info/top_level.txt
