@@ -1,0 +1,13 @@
+dal/__init__.py,sha256=y1Sa0EqtwUG77L8wzx5JOvyEn3LJEOPfXIYpXyIAj04,175
+dal/_dal.cpython-311-x86_64-linux-gnu.so,sha256=uqa1RmPFm1xnMHd8k-u8xc8PO2nk-XH69TCu9ighEGE,7893160
+dal/api.py,sha256=Kt7EWqL3Rn53c7jxoeRzSCCNhP-S-58nSkBEdjuN0Ok,355
+dal/dal.py,sha256=3Yg38ucqkm-5M7verP0sSiZkN--FusWS4fL8fRbLLL4,62110
+dal/dal_wrap.cpp,sha256=MhgIkgYAgKUxlgxoBpBXTnpTCI5sH9ngJnXWswFeZD4,726254
+dal/examples/001.european.py,sha256=f-Oj8kqjv0hnMcepZ9KJXzXMkyMAKI31oFqpe2ASroA,538
+dal/examples/002.uoc.py,sha256=fub7_l4RoZ4CZtVOBZcC9pVD2JMGqHXUYKfCJZB73w0,1395
+dal/examples/003.snowball.py,sha256=gt47SFpTuzknaAqQCc0VepFhceT8k7LuYd5b9PjdvN8,2322
+dal/examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dal_python-0.3.6.dist-info/METADATA,sha256=uOQSbwroniG3aQ5xxCvhLbgOiCNCVMMrxWa7jTw-yDU,799
+dal_python-0.3.6.dist-info/WHEEL,sha256=wCpHU5PrLGNdpo-ZaCOtE6te0ycAK2oYvJmTJCUKnUQ,105
+dal_python-0.3.6.dist-info/top_level.txt,sha256=0NCtz794zxjwhJcMbphMLr-IHz_8WAyZFNMqTPXtulw,4
+dal_python-0.3.6.dist-info/RECORD,,
