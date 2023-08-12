@@ -1,0 +1,13 @@
+sonyci-0.2.0a1.dist-info/METADATA,sha256=cO5j-Fn3WAXvqZ_6_p7k67ceTKt5JAa9PQYFWlh_quU,4314
+sonyci-0.2.0a1.dist-info/WHEEL,sha256=bbAwydobi_oZ_0rI4gBBovxINCqHVHcC26TV6S2A2Io,90
+sonyci-0.2.0a1.dist-info/entry_points.txt,sha256=G5HqnwaoT2l-sS7EgCZoFM0Baj8oKiFmyeCocH8qKpY,44
+sonyci/__init__.py,sha256=4EkofMTb1rhy3e5xZhTy8wpb8dbUdEK-dSDjiF03fa8,135
+sonyci/__main__.py,sha256=nU03R-YKZ2qg-ls_mpSOQTrDX8Br0EZS5yQxDCwm0TI,34
+sonyci/_version.py,sha256=CwxsQRkCSBoEdKdM2jQpD6nV4Fy83yhs6FF0tblqRfo,24
+sonyci/cli.py,sha256=MRnuwO8MKiG7BSJoOlz0wYurw5DDMuMYMI9H6ZHWiE4,5975
+sonyci/config.py,sha256=nf0vx1QqzCHflaFK2M616juI5o-6AEf1-odJUnljiYM,1869
+sonyci/log.py,sha256=TolcEwlXa7s46mh9wVSyK8hgxlggJTkf1xU-gHipG30,232
+sonyci/sonyci.py,sha256=KFXAxqwKLFWkqcneAmevgTzBxUxrqe9I-eBz3uaXvCw,3517
+sonyci/types.py,sha256=Ol_rR8e0AbsiYhhA5xwhG4JYUq7ke9wgSJ8-FhroA5I,133
+sonyci/utils.py,sha256=2vLxa-Nzq6fOqYBJD9s-zc0m6rRABXkbK2wlSxy9X3Q,1410
+sonyci-0.2.0a1.dist-info/RECORD,,
