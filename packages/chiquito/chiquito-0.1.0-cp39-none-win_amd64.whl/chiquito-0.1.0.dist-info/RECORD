@@ -1,0 +1,12 @@
+chiquito-0.1.0.dist-info/METADATA,sha256=fVu949T_fFlNTdmtoBqpi4WGhd_qx-VFVLNTB4MNO64,2011
+chiquito-0.1.0.dist-info/WHEEL,sha256=mZ-gOuUfUQX-Vl7sSPMP9u-Nmf0lPir1Qp9CgO4uKSY,94
+chiquito/cb.py,sha256=719Fd1Hj8iIgz5fPtngvEqFgVswD0vhrWl_DyGDktro,7820
+chiquito/chiquito_ast.py,sha256=G03uCerwp-HKu5CO_Zu1nZNAbqe3yQ1xv5MNhpgPLS4,12180
+chiquito/dsl.py,sha256=jFY7K74oMV26uAPm5Y9oEnWxoljGssFQ3duCH04JuZ4,6142
+chiquito/expr.py,sha256=h4-yzMv1NvVGoOidbgbTSypA1TIQojW5kCK5k6Fe00o,3730
+chiquito/query.py,sha256=MxotFRu5uNqn6Pp2tcDNYnblgM_tHCi62uRYfkiZypg,4190
+chiquito/util.py,sha256=qPvCc_8OUPC7T4-vCphaS-c6nSnE29xWP2iiHJPoOAs,753
+chiquito/wit_gen.py,sha256=IDP1yfsEU1DpfjMpfltUucvhpK25aKOGo2rSbZpTwTo,4019
+chiquito/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chiquito/rust_chiquito.cp39-win_amd64.pyd,sha256=nM5LNlJEy-jn4ynzO_H3Z6GN0aJYkHcRVASGGk8ZPHE,1401344
+chiquito-0.1.0.dist-info/RECORD,,
