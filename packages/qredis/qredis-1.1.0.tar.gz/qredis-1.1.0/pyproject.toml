@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "qredis"
+version = "0.1.0"
+description = ""
+authors = ["Jose Tiago Macara Coutinho <coutinhotiago@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+redis = "^4.3.4"
+QtPy = "^2.2.0"
+PyQt5 = "^5.15.7"
+msgpack = "^1.0.4"
+msgpack-numpy = "^0.4.8"
+
+[tool.poetry.scripts]
+qredis = "qredis.window:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
