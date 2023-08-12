@@ -1,0 +1,84 @@
+# expando
+Dynamic Dictionary Object Wrapper
+
+<!-- [![Build Status](https://travis-ci.org/robertzk/expando.svg?branch=master)](https://travis-ci.org/robertzk/expando)
+[![Coverage Status](https://coveralls.io/repos/robertzk/expando/badge.svg?branch=master&service=github)](https://coveralls.io/github/robertzk/expando?branch=master)
+[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/expando)](http://cran.r-project.org/package=expando)
+[![Downloads](http://cranlogs.r-pkg.org/badges/expando)](http://cran.rstudio.com/package=expando) -->
+
+
+## Lightning setup with Upstash
+1. Get xo.redis - `python3 -m pip install xo.redis`
+2. Create a (free) account on Upstash
+3. Create a database, get the credetials, and see the python oneliner
+4. Use the same line as that but use xoRedis instead, and input your namespace first
+
+```python
+from xo.redis import xoRedis
+xo = xoRedis("any_namespace", host='wise-coyote-11111.upstash.io', port=11111, password='********', ssl=True)
+...
+
+```
+
+
+
+
+
+## Classic Installation/Update
+
+```python
+python3 -m pip install --upgrade xo.redis expando
+```
+
+## import
+
+```python
+'''for classic expando'''
+from xo import xo, Expando
+'''# or'''
+from xo import *
+
+'''for xo.redis'''
+from xo.redis import xoRedis
+```
+
+## Classic Usage
+```python
+
+# Use xo as your root object
+xo.foo.bar(17).baz.plus.something = lambda *a, **kv : (f"Hello Expando! {xo.foo.bar.value}" , a, kv)
+print(xo.foo.bar.baz.plus.something())
+
+# Create a new Expando object
+myStore = Expando()
+```
+
+
+### Dev Notes:
+
+#### to reupload to pip after edits (internal use only)
+```
+# install twine
+python3 -m pip install twine 
+# Skip if you have it already
+
+export VERSION=0.5.5.1
+#### for xo.redis: ### export VERSION=0.2.6.1
+# Copy/edit setup.py
+# update setup.py version
+python3 setup.py sdist bdist_wheel
+twine upload dist/*
+
+# to install locally (before twine upload)
+python3 -m pip install --force-reinstall --no-deps . 
+```
+
+```
+```
+#### make sure you'd like to commit all changes
+git add . 
+git tag -a $VERSION -m "Release $VERSION"
+git commit -m "Release $VERSION"
+git push origin --tags
+git push
+```
