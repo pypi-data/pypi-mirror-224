@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+microservice_shared.egg-info/PKG-INFO
+microservice_shared.egg-info/SOURCES.txt
+microservice_shared.egg-info/dependency_links.txt
+microservice_shared.egg-info/requires.txt
+microservice_shared.egg-info/top_level.txt
