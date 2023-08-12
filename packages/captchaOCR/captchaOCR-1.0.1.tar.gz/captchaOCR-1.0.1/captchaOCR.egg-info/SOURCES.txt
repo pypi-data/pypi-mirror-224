@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+captchaOCR/__init__.py
+captchaOCR/__version__.py
+captchaOCR/charsets.py
+captchaOCR/ocr.py
+captchaOCR/utils.py
+captchaOCR.egg-info/PKG-INFO
+captchaOCR.egg-info/SOURCES.txt
+captchaOCR.egg-info/dependency_links.txt
+captchaOCR.egg-info/requires.txt
+captchaOCR.egg-info/top_level.txt
+captchaOCR/onnx/common.onnx
+captchaOCR/onnx/common_beta.onnx
