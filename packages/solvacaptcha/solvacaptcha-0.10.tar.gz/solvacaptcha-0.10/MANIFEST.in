@@ -1,0 +1,3 @@
+include solvacaptcha/requirements.txt
+include solvacaptcha/thirdparty.json
+include solvacaptcha/README.MD

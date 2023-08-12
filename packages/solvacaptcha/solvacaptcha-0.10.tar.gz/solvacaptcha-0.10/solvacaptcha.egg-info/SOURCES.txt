@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+solvacaptcha/README.MD
+solvacaptcha/__init__.py
+solvacaptcha/requirements.txt
+solvacaptcha/thirdparty.json
+solvacaptcha.egg-info/PKG-INFO
+solvacaptcha.egg-info/SOURCES.txt
+solvacaptcha.egg-info/dependency_links.txt
+solvacaptcha.egg-info/requires.txt
+solvacaptcha.egg-info/top_level.txt
