@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "psycopg2_utility_functions"
+version = "0.0.8"
+authors = [
+  { name="qxh5696", email="qxh5696@g.rit.edu" },
+]
+description = "Utility functions/wrapper for psycopg2 python package"
+readme = "README.md"
+requires-python = ">=3.5"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/psycopg2-utility-functions"
+"Bug Tracker" = "https://github.com/pypa/psycopg2-utility-functions/issues"
