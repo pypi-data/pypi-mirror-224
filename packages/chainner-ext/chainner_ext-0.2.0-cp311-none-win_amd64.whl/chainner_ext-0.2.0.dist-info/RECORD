@@ -1,0 +1,7 @@
+chainner_ext-0.2.0.dist-info/METADATA,sha256=MQoVJsGU3WrF5QsYeSgqtW0ZdyVa33xcmfhcXIQS54U,648
+chainner_ext-0.2.0.dist-info/WHEEL,sha256=OdornJZnv5gS-rT5Vzme3AdhyQVZ4bnAet2yYIVAaXY,95
+chainner_ext/__init__.py,sha256=1FijOzUvNH9mYmnVBNzvXct5d5YRz3ANy0nds-MiXjI,131
+chainner_ext/__init__.pyi,sha256=30TiXOi_8mQtgrFCRS_OQFnEwzHfS4_jXWjZGc0L54Q,2613
+chainner_ext/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chainner_ext/chainner_ext.cp311-win_amd64.pyd,sha256=aAH77Exw1KME965aDkMhE-wmwlSSKDPRQVy9Q4uqlfc,2079232
+chainner_ext-0.2.0.dist-info/RECORD,,
