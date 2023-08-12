@@ -1,0 +1,11 @@
+pogo_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pogo_api/endpoint.py,sha256=5AAFCGr08h45BRk80PNS90abo0QxzVplsGwI0RfLhfQ,1082
+pogo_api/http.py,sha256=5B-frJ-RQ1Rzkiwi1YRxFSGutxFp5EvtaUq1X7UE8Ik,158
+pogo_api/pascal_converter.py,sha256=zF2eiL_3VcE8oDSGfYcsXCklkvOX7S6DE5JHbLhXfAk,420
+pogo_api/route.py,sha256=7CIXdKztVpGxXlxpxL1FCvPsT3JRrUdjSBMkw_Y9XJ8,491
+pogo_api/version.py,sha256=4GZKi13lDTD25YBkGakhZyEQZWTER_OWQMNPoH_UM2c,22
+pogo_api-0.0.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pogo_api-0.0.3.dist-info/METADATA,sha256=tC2Q0k7ZoinoADHUqUq_7If5AgkiXdzZQvETKzkg-cw,1446
+pogo_api-0.0.3.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+pogo_api-0.0.3.dist-info/top_level.txt,sha256=mUurkaF-RTC6Hm-Zv-pfQOkyZO9eA2oln3PP0EsuFZM,9
+pogo_api-0.0.3.dist-info/RECORD,,
