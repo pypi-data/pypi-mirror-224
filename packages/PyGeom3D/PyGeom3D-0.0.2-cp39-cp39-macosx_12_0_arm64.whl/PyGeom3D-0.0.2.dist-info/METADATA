@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: PyGeom3D
+Version: 0.0.2
+Summary: Useful tools to work Geometries in Python(beta)
+Home-page: https://github.com/jain-roh/Geom3D
+Author: Rohit Jain
+Author-email: rohit.jain058@gmail.com
+License: MIT
+Download-URL: https://pypi.org/project/PyGeom3D/
+Keywords: Geometry,Python,Polygon,Plane,Line,3D
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+This is test upload for this package, better version coming up soon!
+
+# Change log
+
+## [0.0.31] - 2023-08-1
+- First Upload to test the package
+
