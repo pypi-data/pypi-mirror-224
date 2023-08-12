@@ -1,0 +1,8 @@
+README.md
+setup.py
+stochastic-parrot/__init__.py
+stochasticparrot.egg-info/PKG-INFO
+stochasticparrot.egg-info/SOURCES.txt
+stochasticparrot.egg-info/dependency_links.txt
+stochasticparrot.egg-info/requires.txt
+stochasticparrot.egg-info/top_level.txt
