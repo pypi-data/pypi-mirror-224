@@ -1,0 +1,9 @@
+astrolabel/__init__.py,sha256=Wl-jmokaV04lLWOaSiRxNvgzsXaGmV7K4GNgxVlZNB0,65
+astrolabel/data/astrolabel.yml,sha256=ZqL9YOPFY2qAd-vJqeBvfdwNrYXjHB2jQ_MJjTTcOl4,1771
+astrolabel/main.py,sha256=VLhgXCG__PzWs-qyRNbtX3j6-liI9pdi1XXzcGELbRo,3994
+astrolabel/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+astrolabel/tests/test_main.py,sha256=tFzsqtEka3RT1kXRkEOD638LL13Dpce6RRXWkXE64kY,3494
+astrolabel-0.1.1.dist-info/LICENSE.txt,sha256=1W7KuslXK-tqPgO7UJ7Guj2h4wcJ8kxwfHH0SHRswLs,1071
+astrolabel-0.1.1.dist-info/METADATA,sha256=Y5gfChGyVixVCjf6vFlUrXqFt9AjmKSKrZFYD9niMNE,5378
+astrolabel-0.1.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+astrolabel-0.1.1.dist-info/RECORD,,
