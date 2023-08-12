@@ -1,0 +1,16 @@
+seqscore/__init__.py,sha256=LBK46heutvn3KmsCrKIYu8RQikbfnjZaj2xFrXaeCzQ,22
+seqscore/conll.py,sha256=g3bjJNljOIU9V_XhewgzyvAZGHGgX5pRMzw98G3-py8,25172
+seqscore/encoding.py,sha256=QzL1rBtC4Rwsj38eC17C7Xyagkig-PtDIDlRyVvYcbo,23673
+seqscore/model.py,sha256=DMfpPc5v0PJt3cw9m3R8EZv5IXYFmDX3xdLwPYGklSA,4447
+seqscore/processing.py,sha256=HqGm8QO7pxaHhlj6NKTqL0w5j1Z_A09xFp814KO2Iho,2224
+seqscore/scoring.py,sha256=5x5md1WnRpr0fUWKSIFcKCxRY0ELPQOyfvp7WuzRQfA,10097
+seqscore/util.py,sha256=iZ-LvfgLrUyc_9VN0oYKCZjYgmfHQWnx_RFKXEG86J8,2282
+seqscore/validation.py,sha256=HoVJP1hQzj6lwp_sPPBBeaJW_Fo1Ok-nccTgvCYI7YI,4957
+seqscore/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+seqscore/scripts/seqscore.py,sha256=QLWZG-l1_cFUGJkCgQUNN_1KpTofaGav7Fnkut4mXfY,14869
+seqscore-0.5.0.dist-info/LICENSE,sha256=HL-2Z9CsVWalofSie-IF2nJxW2wS-SLZ7tnF3ZHiXBw,1115
+seqscore-0.5.0.dist-info/METADATA,sha256=W-VLWCn9ODMUONPbTUihgX0JBcn4QawKvNaSqT7Ovyo,16071
+seqscore-0.5.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+seqscore-0.5.0.dist-info/entry_points.txt,sha256=FTpTWDUs4f3vttVS6ENYoTSCHTY0etfyhDXHoSN3T4Y,59
+seqscore-0.5.0.dist-info/top_level.txt,sha256=QBHF0EwDA-R55Z4cMMUW_tVly0PckutkR8mb_CBl__Q,9
+seqscore-0.5.0.dist-info/RECORD,,
