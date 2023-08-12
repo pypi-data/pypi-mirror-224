@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: psycopg2-utility-functions
+Version: 0.0.10
+Summary: Utility functions/wrapper for psycopg2 python package
+Author: qxh5696
+Author-email: qxh5696@g.rit.edu
+Keywords: python,database,postgresql,psql
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: psycopg2-binary
+
+Python package that extends basic functionality for interacting with PostgreSQL databases. It's built on top of the psycopg2 library, providing an easier and more streamlined interface.
