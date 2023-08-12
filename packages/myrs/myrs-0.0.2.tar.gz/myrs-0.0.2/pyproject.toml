@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "myrs"
+version = "0.0.2"
+description = "The friendly scientific machine learning library"
+authors = ["altar31 <damien.sicard31@gmail.com>"]
+license = "new BSD"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.0.3"
+scikit-learn = "^1.3.0"
+keras = "^2.13.1"
+seaborn = "^0.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
