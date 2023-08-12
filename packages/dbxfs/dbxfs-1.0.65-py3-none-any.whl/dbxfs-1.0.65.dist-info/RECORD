@@ -1,0 +1,13 @@
+dbxfs/__init__.py,sha256=pQBD0D4GzKJ3MGyxXDK1xRvsbNJRQptGEBry35rzvwo,666
+dbxfs/cachingfs.py,sha256=xF9JuH4lr1RBQZhWYh3kZd-NSdUGXS-cVhCY-GEu3eU,78938
+dbxfs/dbxfs.py,sha256=szOezhK6Z9H7E3DnEic58Kwrn9ohjiFNc-joSeU4bYA,33923
+dbxfs/disable_quick_look.py,sha256=AdI8I2OOt6dt7UcryFNudcIN2gJywqL14tJ802QO7yw,3428
+dbxfs/main.py,sha256=H_m3Y44-0ASI-fXl1cCMkTB0yijE42_CNurhDH-oGys,24400
+dbxfs/safefs_glue.py,sha256=7HZ1yEae-8yzgg8JflamqpSK3y_xVc2k_uI7Crj7VZ0,8540
+dbxfs/translate_ignored_files.py,sha256=vyYiP2g9PdV5yZtYR1nbhRNw5Plhbu4OSnVQ-ocs46c,3763
+dbxfs-1.0.65.dist-info/LICENSE,sha256=GXDsxugs18-QVVHnPnY7Hv0afYPm1OucvBFWCecgzB0,35441
+dbxfs-1.0.65.dist-info/METADATA,sha256=90GBmpLtILI81R8tstZFxmCjWNgfoXK1xHqoaLoF2G8,3351
+dbxfs-1.0.65.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+dbxfs-1.0.65.dist-info/entry_points.txt,sha256=qk5tEbnmlo6Z4dXpQ44yUnOKQGTJOpS2zmhaMkD3Gmw,42
+dbxfs-1.0.65.dist-info/top_level.txt,sha256=NROUfl_igaRqSieAM_1uKIqWWxcU6DRxJhF9-N92-5I,6
+dbxfs-1.0.65.dist-info/RECORD,,
