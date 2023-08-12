@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fluffymodel"
+version = "0.1.1"
+description = ""
+authors = ["AvinaashAnandK <p17avinaashak@iima.ac.in>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.scripts]
+fluffymodel = 'fluffymodel:main'
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
