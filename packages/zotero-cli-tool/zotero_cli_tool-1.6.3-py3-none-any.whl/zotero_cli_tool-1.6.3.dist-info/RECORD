@@ -1,0 +1,11 @@
+zotero/VERSION.txt,sha256=hvj6gyp2NYIB1uL88LtHcn7-LbI69zDbZM6tZSd3a-o,6
+zotero/__info__.py,sha256=umGVQ3FyWh5FqN_e8nWfs9CoOeLnlKD45ZY_lL44SJY,313
+zotero/__init__.py,sha256=q98HQAUuY5kqsLu7RNMsGwfCJ5wHV0onETqrvRNwAlE,39982
+zotero/__main__.py,sha256=YA20xQw2-3F4LmthKFf8immKPrSPdh2dvDzFcjML4lE,8552
+zotero/gpt.py,sha256=TscD5pE54AT3hV5cbzOE1Q0BrfMFCUXcllCoZtIZoms,9120
+zotero_cli_tool-1.6.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+zotero_cli_tool-1.6.3.dist-info/METADATA,sha256=fzeo7jGhP5FraLjDHezZnuEkGlp5PfZd_g-ipu5Jt6c,51435
+zotero_cli_tool-1.6.3.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+zotero_cli_tool-1.6.3.dist-info/entry_points.txt,sha256=qBODJ73K5rSiMEILVZsSJsYmLfcf0nFmy_PySCQZWUQ,52
+zotero_cli_tool-1.6.3.dist-info/top_level.txt,sha256=wJ4Ji0nXB30WQOSIVxTh5GYWJslfG5hKkrEnEVOi1hs,7
+zotero_cli_tool-1.6.3.dist-info/RECORD,,
