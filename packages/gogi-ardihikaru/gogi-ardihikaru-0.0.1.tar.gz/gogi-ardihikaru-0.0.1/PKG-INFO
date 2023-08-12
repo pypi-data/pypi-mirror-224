@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gogi-ardihikaru
+Version: 0.0.1
+Summary: Modules to extract information from Google Finance
+Author: Muhammad Febrian Ardiansyah
+Author-email: mfardiansyah@outlook.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# `Google Finance Scraper`
+
+The `Google Finance Scraper` is a simple testing example to understand the basics of developing your first Python package. 
