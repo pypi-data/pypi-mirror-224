@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+lowrank.egg-info/PKG-INFO
+lowrank.egg-info/SOURCES.txt
+lowrank.egg-info/dependency_links.txt
+lowrank.egg-info/requires.txt
+lowrank.egg-info/top_level.txt
+tensorlearn/__init__.py
+tests/test_1.py
