@@ -1,0 +1,7 @@
+setproctitle
+
+[:platform_system == "Windows"]
+portalocker
+
+[test]
+pytest
