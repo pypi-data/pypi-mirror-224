@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/minesweeper/__init__.py
+src/minesweeper/minesweeper.py
+src/minesweeper_python.egg-info/PKG-INFO
+src/minesweeper_python.egg-info/SOURCES.txt
+src/minesweeper_python.egg-info/dependency_links.txt
+src/minesweeper_python.egg-info/top_level.txt
