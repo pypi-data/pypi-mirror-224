@@ -1,0 +1,47 @@
+{% load static %}
+{% load private_tags %}
+<!DOCTYPE html>
+<html{% block htmlattributes %} lang="en"{% endblock %}>
+<head>
+    {% block prehead %}{% endblock %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block headtitle %}Mimicry Base{% endblock %}</title>
+    <link href="{% static 'mimicry/css/styles.css' %}" rel="stylesheet" type="text/css">
+    {% if show_mimicry_control_bar %}<script src="{% static 'mimicry/js/main.js' %}" defer></script>{% endif %}
+    {% block extrahead %}{% endblock %}
+</head>
+<body>
+    <div id="everything-wrapper">
+        {% if show_mimicry_control_bar %}
+            <div id="mimicry-wrapper" class="collapsed">
+                <!-- Display real and simulated user information -->
+                <div class="mimicry-main-bar">
+                    <p><strong>Real User:</strong> {{ request.real_user.username }}</p>
+                    <p><strong>Simulated User:</strong> {{ request.user.username }}</p>
+                    <p><strong>Time since last change:</strong> <span id="mimicry-simulation-timer">{{ time_since_last_change }}</span></p>
+                    <a href="{% url 'admin:index' %}"><button>Admin Site</button></a>
+                    <button id="expand-mimicry-bar-toggle">Expand</button>
+                </div>
+
+                <!-- Form to switch user -->
+                <div class="mimicry-secondary-bar">
+                    <form action="{% url 'mimicry_switch_user' %}" method="post">
+                        {% csrf_token %}
+                        {{ mimicry_form.as_ul }}
+                        <button type="submit">Switch User</button>
+                    </form>
+                </div>
+            </div>
+        {% endif %}
+
+        <!-- Main content area with red border -->
+        <div id="main-content" class="{% if mimicry_control_bar_enabled %}enabled{% else %}disabled{% endif %} {% if show_mimicry_control_bar %}showing{% else %}hidden{% endif %}">
+            {% block maincontent %}{% endblock %}
+        </div>
+    </div>
+
+    {% block extrabody %}{% endblock %}
+
+</body>
+</html>
