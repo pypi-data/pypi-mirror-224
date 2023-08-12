@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: minesweeper-python
+Version: 0.0.3
+Summary: The classic minesweeper game, rebuilt with python
+Author-email: DevBhuyan <devvjiit.bhuyan@gmail.com>
+Project-URL: Homepage, https://github.com/DevBhuyan/minesweeper
+Project-URL: Bug Tracker, https://github.com/DevBhuyan/minesweeper/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+The classic minesweeper game, developed in Python. Run __init__.py to start the game
