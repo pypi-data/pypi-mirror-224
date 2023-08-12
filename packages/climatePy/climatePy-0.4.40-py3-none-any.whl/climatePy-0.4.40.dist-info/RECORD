@@ -1,0 +1,17 @@
+climatePy/__init__.py,sha256=CHZkI76h_wCRzAJFqpayBz-bcUoJqeJXalSHMi4NzUU,2580
+climatePy/_climatepy_filter.py,sha256=z641tPkS2W4R-Z0cn8i_GyxCmOEq9gIfa3lGPT91-NM,22670
+climatePy/_dap.py,sha256=0fDnmRXx_O3cPDpQsuvDfOyN24OoiVY0g8hJ3tuTbpY,75826
+climatePy/_extract_sites.py,sha256=0-M3z7hGzY-vdpL7ba0iYXpZ_fjFOoPpdw-I4S4ZL6A,6465
+climatePy/_netrc_utils.py,sha256=NBc7fmQ0KKccFC6JBxZ4wFnTEmziNF3A0hQVCgq_zhE,10165
+climatePy/_shortcuts.py,sha256=vPOODqkK2h1I6bQ4U2zls_RZx8-Z2NmdGQwF-QeZjZg,39426
+climatePy/_utils.py,sha256=Q-oFv-JiqOseWvkCPepqVgNjOVlQO6Jopetjh-UV9TU,46470
+climatePy/data/catalog.parquet,sha256=hMwDFY9D6Nf7oAwB0zJgBa1gVv7uMdnQqZHkJY1Hzcs,774021
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_extract_sites.py,sha256=6NX6CKwSr5DzNyWPkW-zn41SC-5i0Xwr_xDJyulUCVo,2294
+tests/test_shortcuts.py,sha256=uPDQm2UlqvQ874M5xTWkWE2EIt76rr2KS14iDD2CXYY,49522
+tests/test_utils.py,sha256=0XeqpvK29HPgz63_woQKAQMYbPNCEp1xifJeOlBt32A,4207
+climatePy-0.4.40.dist-info/LICENSE,sha256=-BC_GOio9hLoamRtchpbwkqSZCWairTz8q3QLaVV-mo,1087
+climatePy-0.4.40.dist-info/METADATA,sha256=MGrfZD-4R5o1rcciAoe7h2bLDJ-w8Wk0CvVcaiKOXMg,6223
+climatePy-0.4.40.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+climatePy-0.4.40.dist-info/top_level.txt,sha256=SN6PVw_QvwRxNeO9sntBeh3XUhk6he6LrCzBWvGnOW8,16
+climatePy-0.4.40.dist-info/RECORD,,
