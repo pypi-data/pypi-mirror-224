@@ -1,0 +1,12 @@
+htmlobj/__init__.py,sha256=MHgbS5oSSjxduJcp9_WOL-p6LKwET67tOpw5uwvQcj0,191
+htmlobj/html_parser.py,sha256=T3rgkvhukKthMGRA5xmthC_jl6wP9jH3VzGmX4GclB8,2188
+htmlobj/htmlobj.py,sha256=doJHb9woy1MYl-YNhuhzVTye7gVVI25Ey4BvWTFxYjw,9755
+htmlobj/xhtml.py,sha256=OIdSprJl5ldB8ltjY0F3R0MmOS-MiGCiYzWIxQufmgk,1217
+htmlobj/xml.py,sha256=pdZyZRIYia0bKVjurAd8HIi5e_UtL0klIqssL4dKa9I,1030
+htmlobj/examples/simple_page.py,sha256=0gIMLS_6McRcvN0CR19SMAsAV409sc8WDR3_4KOq0M4,1405
+htmlobj/examples/simple_page_output.html,sha256=2-gGy7xC4JYpXSLBRXSuAsuJkVCf1ovilhQbGn-c1OU,439
+htmlobj/examples/very_simple.py,sha256=MPonXP_mKW_t5FGhAzszqE_DDBFiXl_kTnoWNNofnfM,513
+htmlobj-1.20.0.dist-info/LICENSE,sha256=RKuKKMBQuL8Bvxp03p2p5T-uC4waLTCS2L-5jp_Qd_0,3605
+htmlobj-1.20.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+htmlobj-1.20.0.dist-info/METADATA,sha256=OcIYgVJxtn3Rp5-Mat6OykzKrK57358P8nqHI-kFmbo,3343
+htmlobj-1.20.0.dist-info/RECORD,,
