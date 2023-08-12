@@ -1,0 +1,7 @@
+a.txt
+dist
+.idea
+script.txt
+*.iml
+venv
+__pycache__
