@@ -1,0 +1,11 @@
+FastWARC-0.14.5.dist-info/RECORD,,
+FastWARC-0.14.5.dist-info/WHEEL,sha256=Ge8EEn6Sa7LLzvdg5TraB5KucccEUnHoQkMN7K8br3U,111
+FastWARC-0.14.5.dist-info/top_level.txt,sha256=kd2NdQA_61TyRclx6gmvrHOEiEqZh8LDqGMxfmsOEDw,9
+FastWARC-0.14.5.dist-info/METADATA,sha256=_d9Sc2o1lQBqhH6jv6mWJ_uD8aBPI5-Xuca6xSWX0-c,3224
+fastwarc/tools.cpython-311-darwin.so,sha256=h72GiJFsLjaTelwwvMGyfRitelj2qDHjXLzRgGI8Bvw,193128
+fastwarc/warc.cpython-311-darwin.so,sha256=E95H-6uSSQ6zktZOq2GGE3aBSPRLte3uYCGkv1TW3-M,492472
+fastwarc/__init__.py,sha256=nnaFAC-2x0BhCKEJOeHnvwdIbeUW4YXyUb1oVzDdllY,750
+fastwarc/cli.py,sha256=vg57dwKQR_GANMT-9KNvPeKJXKKuCL5JFFaReZeJPDA,19049
+fastwarc/stream_io.cpython-311-darwin.so,sha256=ElIq47QS4eCIaNV1Kp7M-aKrzX17W3zvFNDYtcifqqU,370384
+fastwarc/.dylibs/libz.1.2.13.dylib,sha256=fowtHMahgJvlv3z7S4zon53ORGUhahCewD2Qy1k1SfM,140912
+fastwarc/.dylibs/liblz4.dylib,sha256=CW0KMwOtvy6AlIwPcb44hyvoNdkjuHZF43Ky6HwSh20,242416
