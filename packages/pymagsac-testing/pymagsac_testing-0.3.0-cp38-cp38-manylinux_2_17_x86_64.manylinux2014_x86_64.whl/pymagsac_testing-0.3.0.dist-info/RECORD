@@ -1,0 +1,13 @@
+pymagsac/pymagsac.cpython-38-x86_64-linux-gnu.so,sha256=hx1OGillfuPFSs_NMFPwS2sxAHYzFn4B12Ig9LWmQYY,2916169
+pymagsac/__init__.py,sha256=ONutCDHotSwdd3KhT2Q15gP7mvN4zzLw8zxveyZgQ6Y,24
+pymagsac_testing.libs/libopencv_flann-80c081ea.so.3.4.5,sha256=pMBgQUwFA1mUh4j86jqbLcQtoUs8lFJi2rvCPyAWR8w,500225
+pymagsac_testing.libs/libopencv_core-4ac423c3.so.3.4.5,sha256=nSke6W5yhWC86Q3c_TSWX6ZVdzIkOfIyYBeT857MEIA,3529217
+pymagsac_testing.libs/libgflags-f1543f81.so.2.1,sha256=w74_qa7sP29hh00-z8vEcsZcaQP4b4WrX7CvZvlXtzs,146873
+pymagsac_testing.libs/libopencv_features2d-0eb98270.so.3.4.5,sha256=WRXoRQ2lyCC1U1YDbtu-ba6TLP1GNCB-rZRhRhejvIA,871585
+pymagsac_testing.libs/libopencv_imgproc-458179af.so.3.4.5,sha256=K0ojXsNypzb7OR2YYfi8Wa0735jnHIFMNpN1L4ep1LA,3417537
+pymagsac_testing.libs/libopencv_calib3d-b2e6635f.so.3.4.5,sha256=PD7aPbuzOs45z-FLMIdbLjf0T2GM0KD5pIoI6w1rKkk,1715201
+pymagsac_testing-0.3.0.dist-info/LICENSE,sha256=kfVvQufIkGgwa_SyufvbtSlId61U28li3LakGexSVT0,1968
+pymagsac_testing-0.3.0.dist-info/top_level.txt,sha256=k0tW6EDE-1at4yBYbqWGTeqCseIttjkWdedW0T0qLsY,9
+pymagsac_testing-0.3.0.dist-info/RECORD,,
+pymagsac_testing-0.3.0.dist-info/METADATA,sha256=wq2pAXkg_l2WUbxvB6sD1dJlwETfjG-uEaxuwANJGdU,253
+pymagsac_testing-0.3.0.dist-info/WHEEL,sha256=CKI7hX_udpEyOOMQtVo4MuPvMy5fJbrBR3HJXFdbayw,142
