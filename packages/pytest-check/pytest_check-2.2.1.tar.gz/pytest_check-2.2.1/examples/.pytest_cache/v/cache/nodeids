@@ -1,0 +1,11 @@
+[
+  "test_example_alt_names.py::ends_with_test",
+  "test_example_alt_names.py::test_default_naming",
+  "test_example_any_failures.py::test_any_failures_false",
+  "test_example_any_failures.py::test_any_failures_true",
+  "test_example_helpers.py::test_func",
+  "test_example_locals.py::test_check_func",
+  "test_example_locals.py::test_ctx",
+  "test_example_simple.py::test_fail",
+  "test_example_simple.py::test_pass"
+]
