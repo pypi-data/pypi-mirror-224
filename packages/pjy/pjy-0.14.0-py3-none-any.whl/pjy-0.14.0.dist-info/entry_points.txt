@@ -1,0 +1,2 @@
+[console_scripts]
+pjy = pjy:main
