@@ -1,0 +1,9 @@
+febraban_barcode/__init__.py,sha256=JwaumM0CS-CMKqTyLWAaaNNItQrU62vP8QWGb5MeJNI,3605
+febraban_barcode/base64.py,sha256=zHUdUodAXFtSP_lX43Pap2HSdc61drjpzSpX1SDBjPU,1391
+febraban_barcode/image.py,sha256=LniRAmHzT_fEMht8TzHe108z0jVwhgZh0MQA9Tm_OHk,1113
+febraban_barcode/modulo10.py,sha256=lftFb4ZcNmNg_fDsb-CEm0Iz-ZWxPADKcwuRtRlfYVY,1844
+febraban_barcode/modulo11.py,sha256=REb-llYDVC_MVwcf42gwTMZtzgRwIOLJfHVq4F0TARU,1772
+febraban_barcode-0.1.2.dist-info/LICENSE,sha256=W6BOPUXo1YPbyujzBqAig8xls5Fg1SA6ReVQnDI4VvA,1089
+febraban_barcode-0.1.2.dist-info/METADATA,sha256=s_f-Gdpe1t12zJ8Z9pRndQfTfAaGtzq6xQ7ixhOQzsg,3718
+febraban_barcode-0.1.2.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+febraban_barcode-0.1.2.dist-info/RECORD,,
