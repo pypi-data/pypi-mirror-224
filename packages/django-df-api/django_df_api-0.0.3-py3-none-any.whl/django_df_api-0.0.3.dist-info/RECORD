@@ -1,0 +1,10 @@
+df_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+df_api/apps.py,sha256=gdOyyE3-QqwMHnlvBLmL6KmD-jdxjvb9eWHIP92iydk,180
+df_api/openapi.py,sha256=_mFfjd3GxaIGV86hdKDkqQBee9HsJdQRq3idFAXINb0,874
+df_api/serializers.py,sha256=8cIE-29vs5-bini0mzouveuj1_K68glHxxFlwxL9qg8,349
+df_api/settings.py,sha256=O6ckYWAmeK7ZrJkmIayhviwKilILY4WSEmYcxsRjMUs,240
+df_api/urls.py,sha256=YxwhzSTmfBy1YkQqhm80zh6Bw0oyIZ8eJeZU1Hh41eU,683
+django_df_api-0.0.3.dist-info/METADATA,sha256=GglMzKfj6XUfDcTz88Y3lv7rCujthN5BG3KUukk1fq8,1304
+django_df_api-0.0.3.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+django_df_api-0.0.3.dist-info/top_level.txt,sha256=T9Aannq9L7BwTd0xjjzkcxuK_o2X1F9hpfDSu3KFFJ4,7
+django_df_api-0.0.3.dist-info/RECORD,,
