@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/electoral_system_analysis.egg-info/PKG-INFO
+src/electoral_system_analysis.egg-info/SOURCES.txt
+src/electoral_system_analysis.egg-info/dependency_links.txt
+src/electoral_system_analysis.egg-info/requires.txt
+src/electoral_system_analysis.egg-info/top_level.txt
