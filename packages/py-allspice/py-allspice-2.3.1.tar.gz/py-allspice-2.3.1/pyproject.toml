@@ -1,0 +1,14 @@
+[tool.autopep8]
+max_line_length = 100
+# This should match ruff excludes.
+exclude = ""
+
+[tool.ruff]
+ignore = [
+  "E501", # Line length.
+  "F405", # Unknown identifier usage due to import *.
+]
+line-length = 100
+select = ["E", "F", "RUF"]
+# This should match autopep8 excludes.
+exclude = []
