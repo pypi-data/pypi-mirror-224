@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: firefox-newuser
+Version: 0.9.0
+Summary: Script to execute a firefox instance with a recently created user. It deletes user after firefox execution
+License: GPL-3.0 license
+Author: turulomio
+Author-email: turulomio@yahoo.es
+Requires-Python: >=3.11,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: colorama (>=0.4.6,<0.5.0)
+Requires-Dist: psutil (>=5.9.5,<6.0.0)
+Requires-Dist: tqdm (>=4.66.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+# Changelog
+## 0.9.0 (2023-08-12)
+- Migrated to pyproject.toml
+- Added wayland support with a new command firefox_newuser_wayland
+
+## 0.8.0 (2022-11-13)
+- Sync directory in now created if it doesn't exist.
+
+## 0.7.0 (2022-11-02)
+- Personal --sync directory now works
+
+## 0.6.0 (2022-11-02)
+- Sync files feature improved. You can download files in any place  on firefox_newuser home
+
+## 0.5.0 (2022-09-20)
+- Changed to a python app
+
+## 0.4.0 (2022-09-14)
+- Added sync directory.
+- .cache/doc is unmounted now cache/doc
+
+## 0.3.0 (2021-12-29)
+- Added DISPLAY environment variable
+
+## 0.2.0 (2020-01-09)
+- Process information on exit is improved
+
+## 0.1.0 (2020-01-09)
+- Imported from old scripts
