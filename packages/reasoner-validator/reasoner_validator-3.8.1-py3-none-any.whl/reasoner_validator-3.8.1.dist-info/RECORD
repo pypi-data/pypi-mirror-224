@@ -1,0 +1,16 @@
+reasoner_validator/__init__.py,sha256=OmtUkQrKHcZjOTUi1Orz2AatGqNCjWwiAnKzOYn4rRI,990
+reasoner_validator/biolink/__init__.py,sha256=Ot8GUQuS5n9eIFU-_9m5yVv7CotvMM0Jkd0S6s-0Ouc,80461
+reasoner_validator/codes.yaml,sha256=NcqDDxv4P-NRBeLWwxZbto4TPNnUMM0aDlTnWyVA5QU,40494
+reasoner_validator/message.py,sha256=0oP0h95HSgYhA4c7laL3KP0m8-G-2Fmzls8McDav9Pg,3382
+reasoner_validator/report.py,sha256=mrSlr0gSF_cbT4DEtezcjjeTDIUq4dwxetw95DXYB1g,27600
+reasoner_validator/sri/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+reasoner_validator/sri/util.py,sha256=c9q4iLzIpWuXScP5PsQHQt8YiBl0iV8AP3QKCHQJLUg,4754
+reasoner_validator/trapi/__init__.py,sha256=fCZdodPP8lO1xqCwIMKOC4k0p5cbeD3Yk1gb3ehMJHw,13776
+reasoner_validator/trapi/mapping.py,sha256=SXvbxTjaq9YamFfuX1ekU6owtxPy_f0BqYjqnkfqj30,1112
+reasoner_validator/validation_codes.py,sha256=vB00QqQ-bLkLqiEZO8ahpTh1LDkbQ3C192A0PPvqQw4,14569
+reasoner_validator/validator.py,sha256=I0fvCGnoXQmIAhEm9dwgqTlHz8Z1FbCtQSEs3jSo-8M,37300
+reasoner_validator/versioning.py,sha256=TljMgxP1XPl0ecURVLaMG4Y10APsqcaSMh4mE6Jct-M,12532
+reasoner_validator-3.8.1.dist-info/LICENSE,sha256=LBZfIIEPOCKgfDaaTujuDNW8wZHsVdNmNBqQqSmShaw,1153
+reasoner_validator-3.8.1.dist-info/METADATA,sha256=DCAvSPNECoX_XZtouLkaqPuztxy_7mpzHgyvrJRclXQ,15171
+reasoner_validator-3.8.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+reasoner_validator-3.8.1.dist-info/RECORD,,
