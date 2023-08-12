@@ -1,0 +1,2 @@
+[nbdev]
+create_vars = create_vars._modidx:d
