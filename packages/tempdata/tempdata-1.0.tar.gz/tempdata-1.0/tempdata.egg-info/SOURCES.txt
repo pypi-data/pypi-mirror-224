@@ -1,0 +1,9 @@
+LICENSE
+README
+setup.py
+src/tempdata.c
+src/tempdata_module.c
+tempdata.egg-info/PKG-INFO
+tempdata.egg-info/SOURCES.txt
+tempdata.egg-info/dependency_links.txt
+tempdata.egg-info/top_level.txt
