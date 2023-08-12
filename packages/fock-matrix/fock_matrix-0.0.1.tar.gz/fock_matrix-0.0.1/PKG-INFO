@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: fock_matrix
+Version: 0.0.1
+Summary: fock matrix implementation
+Home-page: https://github.com/Razer-07
+Author: Rahul
+Author-email: rajkrahul00@gmail.com
+License: UNKNOWN
+Description: ## Description
+        
+        Fock matrix calculation for H2 molecule with only S type functions considered
+        
+        ## Installation
+        pip install fock_matrix
+        
+        ## Usage 
+        
+        import fock_matrix
+        from fock_matrix import overlap
+        
+        ## Developing Fock Matrix Project
+        
+        To install fock_matrix, along with the tools you need to develop and run tests, run the follwing in your virtualenv : 
+        
+        ``` bash 
+        $ pip install -e .[dev]
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: dev
