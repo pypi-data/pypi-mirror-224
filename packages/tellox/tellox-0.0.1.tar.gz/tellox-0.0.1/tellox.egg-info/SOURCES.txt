@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+tellox/__init__.py
+tellox/pilot.py
+tellox/utils.py
+tellox.egg-info/PKG-INFO
+tellox.egg-info/SOURCES.txt
+tellox.egg-info/dependency_links.txt
+tellox.egg-info/requires.txt
+tellox.egg-info/top_level.txt

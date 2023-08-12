@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: tellox
+Version: 0.0.1
+Summary: The easy way to control a DJI Tello drone.
+Author-email: Charles Dawson <charles.dwsn@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2020 michaelcurrin
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/dawsonc/tello-x
+Keywords: tello,drone,dji,robotics,control
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: System :: Hardware
+Classifier: Framework :: Robot Framework :: Library
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# Tello-X 🚁
+> The easy way to control a DJI Tello drone from Python.
+
+[![GitHub tag](https://img.shields.io/github/tag/dawsonc/tello-x?include_prereleases=&sort=semver)](https://github.com/dawsonc/tello-x/releases/)
+[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
+
+## Features
+
+- Easily pilot the Tello drone by sending commands and reading sensor data.
+- Built-in support for [AprilTag](https://github.com/duckietown/lib-dt-apriltags) detection.
+- Built-in data logging
+
+## Installation
+
+`pip install tello-x`
+
+That's it! Connect to your Tello over WiFi and try some of the [examples](https://github.com/dawsonc/tello-x/scripts).
+
+## A note on coordinate frames
+
+The Tello's body frame is defined North-East-Down (a standard for aircraft), so `x` points forward (out of the camera), `y` points to the right of the drone, and `z` points down.
+The camera frame is defined with `z` pointing out of the camera and `x` pointing to the right of the drone. If you use `pilot.detect_tags` to get the relative pose of AprilTags in the drone's view, then the returned translation `pose_t` and rotation `pose_R` are defined *relative to the camera frame*. To convert the tag position to the drone body frame, use `pilot.convert_to_drone_frame`.
+
+## License
+
+Released under [MIT](/LICENSE) by [Charles Dawson](https://github.com/dawsonc).

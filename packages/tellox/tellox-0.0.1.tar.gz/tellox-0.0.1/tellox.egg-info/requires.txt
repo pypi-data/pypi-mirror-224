@@ -1,0 +1,13 @@
+numpy
+opencv-python
+pandas
+djitellopy
+dt-apriltags
+matplotlib
+
+[dev]
+black
+flake8
+isort
+mypy
+pip-tools
