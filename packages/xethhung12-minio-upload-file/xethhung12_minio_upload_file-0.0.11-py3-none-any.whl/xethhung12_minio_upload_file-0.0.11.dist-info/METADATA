@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: xethhung12_minio_upload_file
+Version: 0.0.11
+Summary: A small program uploading file to minio repo
+Project-URL: Homepage, https://github.com/xh-dev-py/xethhung12_minio_upload_file
+Project-URL: Bug Tracker, https://github.com/xh-dev-py/xethhung12_minio_upload_file/issues
+Author-email: Xeth Hung <admin@xethh.me>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: minio>=7.1.15
+Description-Content-Type: text/markdown
+
+***
+~~[xethhung12_minio_upload_file]~~ has moved to [[xethhung12_minio]](https://github.com/xh-dev/xethhung12_minio).\
+This repo no longer maintained.
+---
+
+
+# Build
+```shell
+rm -fr dist/*
+python -m build
+```
+
+# Deploy
+```shell
+python twine upload dist/* -u __token__ -p {token}
+```
+
+# Usage 
+```python
+python -m xethhung12_minio_upload_file \
+    --url {url} \
+    --access-key {access-key} \
+    --secret-key {secret-key} \
+    --bucket {bucket} \
+    --local-file {local file} \
+    --remote-file {remote file}
+```
