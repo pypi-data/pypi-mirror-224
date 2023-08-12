@@ -1,0 +1,7 @@
+__title__ = "captchaOCR"
+__version__ = "1.0.1"
+__description__ = "A OCR tool to recognize captcha"
+__url__ = "https://github.com/Do1e/captchaOCR"
+__author__ = "Do1e"
+__author_email__ = "dpj.email@qq.com"
+__license__ = "MIT"

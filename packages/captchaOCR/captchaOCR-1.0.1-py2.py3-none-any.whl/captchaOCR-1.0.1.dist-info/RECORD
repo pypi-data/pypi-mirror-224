@@ -1,0 +1,12 @@
+captchaOCR/__init__.py,sha256=IaPk4fgdiC9rfZYTlvSpUErWYJTUDtouAsl8HN7HkI8,188
+captchaOCR/__version__.py,sha256=zbftbiX1hXG3uV_8XLQGrj03xmYvFD5N6e7-UDS6hH4,231
+captchaOCR/charsets.py,sha256=3OkjtJA2ZRjDcPeFn1erYn5hCugzcnaIxLiiWVnxU38,133662
+captchaOCR/ocr.py,sha256=pCatdIMallIi9GAjH-Wy8HxQEwj2cZpfWjHgmQrZSR0,5051
+captchaOCR/utils.py,sha256=cS0vncZ4_SjyqJbcc2ShwpSkOtfjN3gNO1MO9ab079c,353
+captchaOCR/onnx/common.onnx,sha256=sdXhNElUNVsQtAYyBiuKne8GvMMyKftmcnRmK_Mdzz8,13606198
+captchaOCR/onnx/common_beta.onnx,sha256=kOQyY1v7EArGuFYiChCxhgUyZMwwfdBJ1Y6OomQ8tuk,54088521
+captchaOCR-1.0.1.dist-info/LICENSE,sha256=38LnZtTemMwsBIJLGk4DSpG-JVOE6Pi95mRLYAE9CUY,1082
+captchaOCR-1.0.1.dist-info/METADATA,sha256=7jcG8wJ0cjMePSXwS8NYHl1ZY8zLbwD8pVySbtxvIg8,1064
+captchaOCR-1.0.1.dist-info/WHEEL,sha256=m9WAupmBd2JGDsXWQGJgMGXIWbQY3F5c2xBJbBhq0nY,110
+captchaOCR-1.0.1.dist-info/top_level.txt,sha256=GwskEDh2fPzUkT3yK7ezkMxNP6Ij5sajiBQhOf3n2Wk,11
+captchaOCR-1.0.1.dist-info/RECORD,,
