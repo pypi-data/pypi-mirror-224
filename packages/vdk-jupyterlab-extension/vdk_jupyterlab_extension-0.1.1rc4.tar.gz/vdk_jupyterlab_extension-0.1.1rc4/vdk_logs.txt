@@ -1,0 +1,149 @@
+Versatile Data Kit (VDK)
+Version: 0.3.948436673
+Build details: RELEASE_VERSION=0.3.948436673, BUILD_DATE=Fri Jul 28 09:42:28 UTC 2023, BUILD_MACHINE_INFO=Linux runner-5w-mmpfk-project-28359933-concurrent-28wc24 5.4.235-144.344.amzn2.x86_64 #1 SMP Sun Mar 12 12:50:22 UTC 2023 x86_64 GNU/Linux, GITLAB_CI_JOB_ID=4759422994, GIT_COMMIT_SHA=ccea46a96f8ab0d2558c38afd21d04414d4acf9f, GIT_BRANCH=main
+Python version: 3.9.5 64bit (/Users/aivanov/.pyenv/versions/3.9.5/envs/build-jupyter39/bin/python3.9)
+
+Installed plugins:
+None
+--------------------------------------------------------------------------------
+Run job with directory /Users/aivanov/dev/workspace/github/vmware/versatile-data-kit/projects/vdk-plugins/vdk-jupyter/vdk-jupyterlab-extension
+Missing config.ini file.
+2023-08-11 20:55:21,045 [VDK] vdk-jupyterlab-extension [INFO ] vdk.internal.builtin_plugins.r   file_based_step.py:85   run_python_step [id:0d750c47-6fa4-4d78-bdd6-f3055de33920-1691776520-e8c45]- Loading conftest.py FAILURE
+2023-08-11 20:55:21,046 [VDK] vdk-jupyterlab-extension [ERROR] vdk.internal.builtin_plugins.r            errors.py:438  log_and_rethrow [id:0d750c47-6fa4-4d78-bdd6-f3055de33920-1691776520-e8c45]- An error in data job code  occurred. The error should be resolved by User. Here are the details:
+  WHAT HAPPENED : Failed loading job sources of conftest.py
+WHY IT HAPPENED : An exception occurred, exception message was: No module named 'pytest'
+   CONSEQUENCES : The provided Data Job will not be executed. Terminating application.
+COUNTERMEASURES : See contents of the exception and fix the problem that causes it. Most likely importing a dependency or data job step failed, see logs for details and fix the failed step (details in stacktrace).
+Traceback (most recent call last):
+  File "/Users/aivanov/.pyenv/versions/3.9.5/envs/build-jupyter39/lib/python3.9/site-packages/vdk/internal/builtin_plugins/run/file_based_step.py", line 82, in run_python_step
+    python_module = imp.load_source(namespace, str(step.file_path))
+  File "/Users/aivanov/.pyenv/versions/3.9.5/lib/python3.9/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 711, in _load
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 855, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/aivanov/dev/workspace/github/vmware/versatile-data-kit/projects/vdk-plugins/vdk-jupyter/vdk-jupyterlab-extension/conftest.py", line 3, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+2023-08-11 20:55:21,059 [VDK] vdk-jupyterlab-extension [ERROR] vdk.internal.builtin_plugins.r            errors.py:349  log_exception   [id:0d750c47-6fa4-4d78-bdd6-f3055de33920-1691776520-e8c45]- An error in data job code  occurred. The error should be resolved by User. Here are the details:
+  WHAT HAPPENED : Processing step conftest.py completed with error.
+WHY IT HAPPENED : An exception occurred, exception message was: An error in data job code  occurred. The error should be resolved by User. Here are the details:
+  WHAT HAPPENED : Failed loading job sources of conftest.py
+WHY IT HAPPENED : An exception occurred, exception message was: No module named 'pytest'
+   CONSEQUENCES : The provided Data Job will not be executed. Terminating application.
+COUNTERMEASURES : See contents of the exception and fix the problem that causes it. Most likely importing a dependency or data job step failed, see logs for details and fix the failed step (details in stacktrace).
+   CONSEQUENCES : I will not process the remaining steps (if any), and this Data Job execution will be marked as failed.
+COUNTERMEASURES : See exception and fix the root cause, so that the exception does not appear anymore.
+Traceback (most recent call last):
+  File "/Users/aivanov/.pyenv/versions/3.9.5/envs/build-jupyter39/lib/python3.9/site-packages/vdk/internal/builtin_plugins/run/file_based_step.py", line 82, in run_python_step
+    python_module = imp.load_source(namespace, str(step.file_path))
+  File "/Users/aivanov/.pyenv/versions/3.9.5/lib/python3.9/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 711, in _load
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 855, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/aivanov/dev/workspace/github/vmware/versatile-data-kit/projects/vdk-plugins/vdk-jupyter/vdk-jupyterlab-extension/conftest.py", line 3, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/aivanov/.pyenv/versions/3.9.5/envs/build-jupyter39/lib/python3.9/site-packages/vdk/internal/builtin_plugins/run/data_job.py", line 73, in run_step
+    step_executed = step.runner_func(step, context.job_input)
+  File "/Users/aivanov/.pyenv/versions/3.9.5/envs/build-jupyter39/lib/python3.9/site-packages/vdk/internal/builtin_plugins/run/file_based_step.py", line 86, in run_python_step
+    errors.log_and_rethrow(
+  File "/Users/aivanov/.pyenv/versions/3.9.5/envs/build-jupyter39/lib/python3.9/site-packages/vdk/internal/core/errors.py", line 442, in log_and_rethrow
+    raise to_be_raised_exception from exception if wrap_in_vdk_error else exception
+vdk.internal.core.errors.UserCodeError: An error in data job code  occurred. The error should be resolved by User. Here are the details:
+  WHAT HAPPENED : Failed loading job sources of conftest.py
+WHY IT HAPPENED : An exception occurred, exception message was: No module named 'pytest'
+   CONSEQUENCES : The provided Data Job will not be executed. Terminating application.
+COUNTERMEASURES : See contents of the exception and fix the problem that causes it. Most likely importing a dependency or data job step failed, see logs for details and fix the failed step (details in stacktrace).
+2023-08-11 20:55:21,064 [VDK] vdk-jupyterlab-extension [INFO ] vdk.internal.builtin_plugins.r           cli_run.py:162  create_and_run_d[id:0d750c47-6fa4-4d78-bdd6-f3055de33920-1691776520-e8c45]- Data Job execution summary: {
+  "data_job_name": "vdk-jupyterlab-extension",
+  "execution_id": "0d750c47-6fa4-4d78-bdd6-f3055de33920-1691776520",
+  "start_time": "2023-08-11T17:55:21.043753",
+  "end_time": "2023-08-11T17:55:21.064674",
+  "status": "error",
+  "steps_list": [
+    {
+      "name": "conftest.py",
+      "type": "python",
+      "start_time": "2023-08-11T17:55:21.043786",
+      "end_time": "2023-08-11T17:55:21.064625",
+      "status": "error",
+      "details": "An exception occurred, exception message was: An error in data job code  occurred. The error should be resolved by User. Here are the details:\n  WHAT HAPPENED : Failed loading job sources of conftest.py\nWHY IT HAPPENED : An exception occurred, exception message was: No module named 'pytest'\n   CONSEQUENCES : The provided Data Job will not be executed. Terminating application.\nCOUNTERMEASURES : See contents of the exception and fix the problem that causes it. Most likely importing a dependency or data job step failed, see logs for details and fix the failed step (details in stacktrace).",
+      "exception": {
+        "is_logged": true,
+        "cause_exception_name": "ModuleNotFoundError",
+        "cause_exception": {
+          "is_logged": true
+        }
+      },
+      "blamee": "User Error",
+      "exception_name": "UserCodeError"
+    }
+  ],
+  "exception": null,
+  "blamee": "User Error",
+  "exception_name": "UserCodeError"
+}
+2023-08-11 20:55:21,065 [VDK] vdk-jupyterlab-extension [ERROR] vdk.internal.cli_entry                 cli_entry.py:156  vdk_main        [id:0d750c47-6fa4-4d78-bdd6-f3055de33920-1691776520-e8c45]- Exiting with exception.
+Traceback (most recent call last):
+  File "/Users/aivanov/.pyenv/versions/3.9.5/envs/build-jupyter39/lib/python3.9/site-packages/vdk/internal/builtin_plugins/run/file_based_step.py", line 82, in run_python_step
+    python_module = imp.load_source(namespace, str(step.file_path))
+  File "/Users/aivanov/.pyenv/versions/3.9.5/lib/python3.9/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 711, in _load
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 855, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/aivanov/dev/workspace/github/vmware/versatile-data-kit/projects/vdk-plugins/vdk-jupyter/vdk-jupyterlab-extension/conftest.py", line 3, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/aivanov/.pyenv/versions/3.9.5/envs/build-jupyter39/lib/python3.9/site-packages/vdk/internal/cli_entry.py", line 134, in vdk_main
+    exit_code = cast(
+  File "/Users/aivanov/.pyenv/versions/3.9.5/envs/build-jupyter39/lib/python3.9/site-packages/pluggy/_hooks.py", line 433, in __call__
+    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)
+  File "/Users/aivanov/.pyenv/versions/3.9.5/envs/build-jupyter39/lib/python3.9/site-packages/pluggy/_manager.py", line 112, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "/Users/aivanov/.pyenv/versions/3.9.5/envs/build-jupyter39/lib/python3.9/site-packages/pluggy/_callers.py", line 116, in _multicall
+    raise exception.with_traceback(exception.__traceback__)
+  File "/Users/aivanov/.pyenv/versions/3.9.5/envs/build-jupyter39/lib/python3.9/site-packages/pluggy/_callers.py", line 80, in _multicall
+    res = hook_impl.function(*args)
+  File "/Users/aivanov/.pyenv/versions/3.9.5/envs/build-jupyter39/lib/python3.9/site-packages/vdk/internal/cli_entry.py", line 95, in vdk_cli_execute
+    exit_code = root_command(
+  File "/Users/aivanov/.pyenv/versions/3.9.5/envs/build-jupyter39/lib/python3.9/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/Users/aivanov/.pyenv/versions/3.9.5/envs/build-jupyter39/lib/python3.9/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/Users/aivanov/.pyenv/versions/3.9.5/envs/build-jupyter39/lib/python3.9/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/aivanov/.pyenv/versions/3.9.5/envs/build-jupyter39/lib/python3.9/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/aivanov/.pyenv/versions/3.9.5/envs/build-jupyter39/lib/python3.9/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/Users/aivanov/.pyenv/versions/3.9.5/envs/build-jupyter39/lib/python3.9/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/Users/aivanov/.pyenv/versions/3.9.5/envs/build-jupyter39/lib/python3.9/site-packages/vdk/internal/builtin_plugins/run/cli_run.py", line 220, in run
+    run_impl.create_and_run_data_job(
+  File "/Users/aivanov/.pyenv/versions/3.9.5/envs/build-jupyter39/lib/python3.9/site-packages/vdk/internal/builtin_plugins/run/cli_run.py", line 178, in create_and_run_data_job
+    raise execution_result.get_exception_to_raise()
+  File "/Users/aivanov/.pyenv/versions/3.9.5/envs/build-jupyter39/lib/python3.9/site-packages/vdk/internal/builtin_plugins/run/data_job.py", line 73, in run_step
+    step_executed = step.runner_func(step, context.job_input)
+  File "/Users/aivanov/.pyenv/versions/3.9.5/envs/build-jupyter39/lib/python3.9/site-packages/vdk/internal/builtin_plugins/run/file_based_step.py", line 86, in run_python_step
+    errors.log_and_rethrow(
+  File "/Users/aivanov/.pyenv/versions/3.9.5/envs/build-jupyter39/lib/python3.9/site-packages/vdk/internal/core/errors.py", line 442, in log_and_rethrow
+    raise to_be_raised_exception from exception if wrap_in_vdk_error else exception
+vdk.internal.core.errors.UserCodeError: An error in data job code  occurred. The error should be resolved by User. Here are the details:
+  WHAT HAPPENED : Failed loading job sources of conftest.py
+WHY IT HAPPENED : An exception occurred, exception message was: No module named 'pytest'
+   CONSEQUENCES : The provided Data Job will not be executed. Terminating application.
+COUNTERMEASURES : See contents of the exception and fix the problem that causes it. Most likely importing a dependency or data job step failed, see logs for details and fix the failed step (details in stacktrace).
