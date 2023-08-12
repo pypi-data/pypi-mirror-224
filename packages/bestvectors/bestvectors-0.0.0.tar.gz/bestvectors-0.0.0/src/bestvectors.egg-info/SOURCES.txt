@@ -1,0 +1,9 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+src/bestvectors/__init__.py
+src/bestvectors.egg-info/PKG-INFO
+src/bestvectors.egg-info/SOURCES.txt
+src/bestvectors.egg-info/dependency_links.txt
+src/bestvectors.egg-info/top_level.txt
