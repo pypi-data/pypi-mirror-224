@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: steampie
+Version: 0.80
+Summary: A Steam lib for trade automation
+Home-page: https://github.com/venoia/steampie
+Download-URL: https://github.com/venoia/steampie/tarball/0.80
+Author: venoia
+Author-email: overutilization@gmail.com
+License: MIT
+Keywords: steam,trade
+License-File: LICENSE.txt
