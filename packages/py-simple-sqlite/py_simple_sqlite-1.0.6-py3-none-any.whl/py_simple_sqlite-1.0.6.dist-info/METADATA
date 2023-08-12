@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: py-simple-sqlite
+Version: 1.0.6
+Summary: Библиотека для упрощенной работы с sqlite
+Home-page: https://github.com/GiperBoreipy/ez_sqlite
+Author: giperborei
+Keywords: python sqlite sql
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: requests >=2.25.1
+
