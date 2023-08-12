@@ -1,0 +1,16 @@
+event2vec/__init__.py,sha256=kRgv4Ye0l4MAD7gHut5wGxrR3W2E00keZRaDrvUjiwI,17
+event2vec/concept_proximity.py,sha256=V339ib_GNR4dJmbrygQ41mILVq3NnciZWqvo5hlHuyQ,1923
+event2vec/config.py,sha256=88svrZjMr6iR-xLQCUP2jnBfp5d9_g50Go3Xf_gup-0,1442
+event2vec/cooccurrence_matrix_pandas.py,sha256=g2ARwV2fxzlejiJ52IPSEYbT2Fx4BcWFd4A_u1Zv72s,5381
+event2vec/cooccurrence_matrix_polars.py,sha256=Kdr3wtEg94ZwCozwf6bmhMRu8_kqx3Tv6aFn6ONtOb4,5338
+event2vec/cooccurrence_matrix_spark.py,sha256=lnds4smlsSoPtlb7mtwmTIqv8Hdf3E3zJHoAb_MlBmI,7099
+event2vec/datasets.py,sha256=OvuFRBdmBOMA_nl5gZ5jpM6_8quLPj-4CyTslrfS_vQ,1848
+event2vec/event_transformer.py,sha256=V2kQH4HrHKWDFaULkPLDefR-gaRS6_kLtH6V5cBxDh4,18500
+event2vec/nomenclatures.py,sha256=VnciWfQZjjIR41GMOVlejdTPiiuI6WQR6642Yh19OQU,6425
+event2vec/svd_ppmi.py,sha256=RRMdF6voLeULWIalIy4yyDr5U2CIfx4Uq2Xooeu2tPY,7751
+event2vec/utils.py,sha256=JHXt8NaccA-1k5mYUx1W3QeH3uuMBwKca_o1NPsGYVc,4315
+event2vec-0.0.46.dist-info/LICENSE,sha256=tOrnqLG7EyPakIJzX0JzYySIfBgWFVrSy0VU7MR0FUA,15731
+event2vec-0.0.46.dist-info/METADATA,sha256=M1cVudFuFkxe4I_IdDQnS58HK2V0U67o1hWNRzMja6Y,2954
+event2vec-0.0.46.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+event2vec-0.0.46.dist-info/entry_points.txt,sha256=b4AFa8Cq79GG6gKa7f2edpwsgEarU5W9PHw9ELfUTdQ,35
+event2vec-0.0.46.dist-info/RECORD,,
