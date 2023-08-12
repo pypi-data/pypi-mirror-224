@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/__init__.py
+src/fixed_point.py
+src/interact.py
+src/type_t.py
+tetras_toolbox.egg-info/PKG-INFO
+tetras_toolbox.egg-info/SOURCES.txt
+tetras_toolbox.egg-info/dependency_links.txt
+tetras_toolbox.egg-info/top_level.txt
