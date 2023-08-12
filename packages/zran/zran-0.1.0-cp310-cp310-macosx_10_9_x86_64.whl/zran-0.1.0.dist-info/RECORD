@@ -1,0 +1,10 @@
+zran.cpython-310-darwin.so,sha256=HUIILm1Rii_QwIXIL8mk28rsXkRfK2Gygf9PhBGe2Fs,232784
+zran-0.1.0.dist-info/RECORD,,
+zran-0.1.0.dist-info/WHEEL,sha256=53ljkZikrpjTcpEOpJC3z3Nj5gq2XzTADakrFbV1CD0,111
+zran-0.1.0.dist-info/top_level.txt,sha256=5wEQYufNxrxGfA16sIZMn3MXkSDvItuudc0R1gBtgVM,5
+zran-0.1.0.dist-info/METADATA,sha256=Dfopb1VV--BkHnXs4lVWKflwpwmzQANMGQ9I1KvSnwI,4287
+zran/zran.pxd,sha256=QFZj_gx3NLq25x-rhF-u65LQZ2PCnuNo8cB99jBLxAs,926
+zran/zran.h,sha256=fryVkrPSNJTegBI0BCSOtaJIfwkT9sXLVVuVzwIjdRA,2742
+zran/zranlib.c,sha256=DakZyjNiGppO_J-NW_mPhiccLa7nm_x5__e-Cy7Tnzc,813843
+zran/zran.c,sha256=K60n26eCq8FLmtSOtQ4wzk2DYtBcfj_edKBEzA3ZB9o,17615
+zran/zranlib.pyx,sha256=7yp7X56iKtvrKmZPcxIDSXVcWWuTbI3vEjdszE2WWj8,13529
