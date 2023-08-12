@@ -1,0 +1,11 @@
+ngcpp/cli/cluster_info.py,sha256=0lw7wwtAT5dlvg4ZlQidHMWDxD4QbbxlGGd6nz64ymM,1343
+ngcpp/cli/job_info.py,sha256=lnOQjKQPPyHnsMUCTHDldDcDnKIvlg8RUHXHCMaIBrM,6920
+ngcpp/cli/resume.py,sha256=DkkT4davHPs1EIk6Dm5HRGUgWO_mE36oRypFTk6bVmA,1249
+ngcpp/cluster.py,sha256=lJxQyveie2bfzkZD3fScRTvKMTek_Hc-giVBGRv4KSg,5799
+ngcpp/cluster.yaml,sha256=TMTL1a67woWHK7OtfCTeledrqn4CGttsXvWQm102_lQ,1154
+ngcpp/jobs.py,sha256=JjzBudq1NgSJiK6qAqmra563pc6KXjgifkWYKNTNijw,3723
+ngcpp/utils.py,sha256=u1QG1UUI9UmoW8wrXzHiRcybajn8eHYdBZa5V6XDFUM,1153
+ngcpp-0.0.8.dist-info/METADATA,sha256=ya7rrojfjZC24Kz6zPSrXSJHAjIY6VPaqrdm4LdDypU,1456
+ngcpp-0.0.8.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+ngcpp-0.0.8.dist-info/entry_points.txt,sha256=y9jF-U3-Ui3MpXrRQ-kfeWq8xShK-1RlmMOMaR7fD4g,126
+ngcpp-0.0.8.dist-info/RECORD,,
