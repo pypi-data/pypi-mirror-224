@@ -1,0 +1,8 @@
+setup.py
+ssmptpaf/__init__.py
+ssmptpaf/ssmptpaf.py
+ssmptpaf.egg-info/PKG-INFO
+ssmptpaf.egg-info/SOURCES.txt
+ssmptpaf.egg-info/dependency_links.txt
+ssmptpaf.egg-info/requires.txt
+ssmptpaf.egg-info/top_level.txt

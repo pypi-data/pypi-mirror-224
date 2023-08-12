@@ -1,0 +1,1 @@
+from .ssmptpaf import main
