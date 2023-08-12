@@ -1,0 +1,8 @@
+radial_basis_function/__init__.py,sha256=fdM08VC9hjOXtTb147Y7PbOv8DRbP47uOhNiKF5f5uk,240
+radial_basis_function/funcoes_auxiliares.py,sha256=a8jrUMk1TY50Da5LpyuPsmEu8rw9NB-vq1bfxAlplOM,925
+radial_basis_function/pseudo_inversa.py,sha256=8_VWPfw8rWYpFUBiiJEcxrQWpslPT-8MbEJbf6wySLo,2150
+radial_basis_function/rbf.py,sha256=Wl0RTpPKeoKj1MSVUFCvYs5qBgdnaKpoonEPWPaYg4k,8492
+radial_basis_function-0.4.0.dist-info/LICENSE,sha256=Yk8srVpWI3A8bAL1u0k1jW7cnPKh4Io68hus1X0rx4Y,1099
+radial_basis_function-0.4.0.dist-info/METADATA,sha256=2huUoK-tL3FcuYfiuDn9iZetNbYPVVbEdMpPXT9Scuo,3710
+radial_basis_function-0.4.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+radial_basis_function-0.4.0.dist-info/RECORD,,
