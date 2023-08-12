@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+hunikpdf/__init__.py
+hunikpdf/pdf2text.py
+hunikpdf.egg-info/PKG-INFO
+hunikpdf.egg-info/SOURCES.txt
+hunikpdf.egg-info/dependency_links.txt
+hunikpdf.egg-info/top_level.txt
