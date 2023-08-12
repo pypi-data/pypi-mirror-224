@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: EasyPyKnn
+Version: 0.2.0
+Summary: An easy educational implementation of the K nearest neighbors algorithm
+Author-email: v0ltis <hello@voltis.me>
+Project-URL: Homepage, https://github.com/v0ltis/EasyKNN
+Project-URL: Bug Tracker, https://github.com/v0ltis/EasyKNN/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# EasyKNN
+
+EasyKNN is a simple implementation of the K-Nearest Neighbors algorithm in Python. It is designed to be easy to use and easy to understand. It is not designed to be fast or efficient, but rather for educational purposes.
+
+## Installation
+
+EasyKNN is available on PyPI:
+
+```bash
+pip install EasyPyKnn
+```
+
+## Usage
+
+You can import the library with the following code:
+```python
+from EasyKNN import Value, Dataset, Plan
+```
+
+A few examples of how to use the library are available in the [examples](examples) folder.
+
+## Documentation
+Currently, the library is not documented. However, the code is commented and should be easy to understand.
+
+A documentation will be available in the future, but not planned for now.
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+EasyKNN is licensed under the [MIT](LICENSE) license.
+
+## Authors
+EasyKNN was created by Barnabé Havard.
