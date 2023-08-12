@@ -1,0 +1,6 @@
+tests/__init__.py,sha256=iut6skK5McR36ePeBBS6qwOTBnaNxxgty6yszBh5hpQ,107
+tests/test_rotation.py,sha256=QAKTCSDy6I_20WlobPUTnebc123i5w82v0fNdD8CRFE,300
+lsq_solver-0.1.0.dist-info/METADATA,sha256=-F3fEdqZFrnQbRZq3cnedvGmH_lm7a4XITTNXae3fpA,1427
+lsq_solver-0.1.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+lsq_solver-0.1.0.dist-info/licenses/LICENSE,sha256=X-DeDegnq78cka5gIf8raCMoUqBhbQZ6sv4yrskaqAk,1066
+lsq_solver-0.1.0.dist-info/RECORD,,
