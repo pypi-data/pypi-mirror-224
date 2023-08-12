@@ -1,0 +1,12 @@
+chiquito-0.1.0.dist-info/METADATA,sha256=y8T7m0xQvpFzlTGY2tBsvDLMOu0QhljFH29B62_hdR0,1967
+chiquito-0.1.0.dist-info/WHEEL,sha256=YYbXDkpEt1AJp8yuL4762z_HdQwkhTud6WT7_QZpJKo,134
+chiquito/chiquito_ast.py,sha256=274u_rRDyXO67V2XYIrF7Tp-YRUUxGW3WC-oRU7TNJk,11794
+chiquito/cb.py,sha256=RCEIB4VoV-PdWC_pe9u-Ar-lypkymB8BNHE15hoOVko,7596
+chiquito/util.py,sha256=Q_9FjLnUXUzmYQvEmGuu4L5aRpQ5z-DImIShzkxltCg,722
+chiquito/wit_gen.py,sha256=fcGcc-jfcQUdsrg6KedKW0_DkSedTNEA-dYZUePbwsE,3897
+chiquito/dsl.py,sha256=BlhDaQIgwf2aq7nwtMjhW6JmQz8_As8gA3-3F-7og9E,5978
+chiquito/query.py,sha256=qxF3G5WAKn8DhFUcUx8sgiRD6RS9mJUKT31wXqCiDtQ,4052
+chiquito/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chiquito/expr.py,sha256=EAkspWUOArGMP29yyy9AuwfA8fqW5lJitgkj3ySrRrI,3573
+chiquito/rust_chiquito.pypy38-pp73-x86_64-linux-gnu.so,sha256=QqsY1RMM5YeX4etRQPTuEfOCaxYXKLCuZ4EGE5qKfZk,6164104
+chiquito-0.1.0.dist-info/RECORD,,
