@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: proxr-protocol
+Version: 2023.8.0
+Project-URL: Source, https://github.com/yaq-project/proxr-protocol
+Project-URL: Issues, https://github.com/yaq-project/proxr-protocol/issues
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.7
+Provides-Extra: dev
+Requires-Dist: black; extra == 'dev'
+Requires-Dist: pre-commit; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# proxr-protocol
+
+[![PyPI](https://img.shields.io/pypi/v/proxr-protocol)](https://pypi.org/project/proxr-protocol)
+[![Conda](https://img.shields.io/conda/vn/conda-forge/proxr-protocol)](https://anaconda.org/conda-forge/proxr-protocol)
+[![black](https://img.shields.io/badge/code--style-black-black)](https://black.readthedocs.io/)
+[![ver](https://img.shields.io/badge/calver-YYYY.M.MICRO-blue)](https://calver.org/)
+[![log](https://img.shields.io/badge/change-log-informational)](https://github.com/yaq-project/proxr-protocol/-/blob/main/CHANGELOG.md)
+
+A sans I/O Python implementation of the [ProXR Protocol](https://ncd.io/proxr-quick-start-guide/).
+
+## Introduction
+
+This Python package contains tooling for encoding and decoding bytestrings for communication with ProXR peripherals.
+ProXR has been implemented using a variety of transport layers---XBee, UART, Ethernet, etc.
+In persuit of simplicity and reusability, this package does not contain any interface capabilities.
+Use something like [pySerial](https://pyserial.readthedocs.io) for transport.
+Read the [sans I/O manifesto](https://sans-io.readthedocs.io/) for more motivation regarding this design pattern.
+
+## Maintainers
+
+- [Blaise Thompson](https://github.com/untzag)
