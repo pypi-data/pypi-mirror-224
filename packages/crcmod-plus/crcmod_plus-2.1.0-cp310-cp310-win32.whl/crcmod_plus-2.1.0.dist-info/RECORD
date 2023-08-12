@@ -1,0 +1,13 @@
+crcmod/__init__.py,sha256=gVvg-cJ8fcxrgeIPTf1cJXv6z9Tq-RyCictZ2M763Ao,772
+crcmod/_crcfunext.cp310-win32.pyd,sha256=qHTbOCT7JlzxAaS7TX_VsOziehcNY9Iw-J6NquaQytg,12800
+crcmod/_crcfunpy.py,sha256=OGhLAh5rLE3dK6ElLcR51SEND3XYEWHyWjFOZkuvj94,4267
+crcmod/_version.py,sha256=mVJHkqiXWxZGXA63I1uRmEk_Kme7N4jw4HeV5bMKI10,84
+crcmod/crcmod.py,sha256=mSjaAttkHUBU6n6TtLq9mbGL8l5YpjiyDBicMeM3dpU,17741
+crcmod/predefined.py,sha256=Z2EaX243I-gF7QfxdFj9x78Xs_zwu_rJnokZeYJ4Q_I,10299
+crcmod/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crcmod/types.py,sha256=1w7TX3eSsK4e43d1cukf2dtctwu9eHWY3YlCDSSka1I,1907
+crcmod_plus-2.1.0.dist-info/LICENSE.txt,sha256=3tGrvCdfCR4ViHj2u3GW60NmUEgvcPJvwM7sUM0oVVY,1271
+crcmod_plus-2.1.0.dist-info/METADATA,sha256=g_G9t0_vptNT1Mx0ctrsYtC7nsr-fm_M-vSVc9caCZs,7039
+crcmod_plus-2.1.0.dist-info/WHEEL,sha256=Q1-Z25IsdIUCF8Kl3jXp4n4gR3PTk0L0l5G6bg-dz_s,98
+crcmod_plus-2.1.0.dist-info/top_level.txt,sha256=cAzaN03P6VQ8WGDLTMMtjwtm-Nm-xzRFhEdYAVSHLY0,7
+crcmod_plus-2.1.0.dist-info/RECORD,,
