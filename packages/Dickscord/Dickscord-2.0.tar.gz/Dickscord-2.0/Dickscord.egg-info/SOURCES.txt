@@ -1,0 +1,11 @@
+LICENCE.txt
+setup.py
+Dickscord.egg-info/PKG-INFO
+Dickscord.egg-info/SOURCES.txt
+Dickscord.egg-info/dependency_links.txt
+Dickscord.egg-info/top_level.txt
+ab/Style.py
+ab/__init__.py
+ab/autocord.py
+ab/dickpc.py
+ab/imports.py
