@@ -1,0 +1,11 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+yandex_realty_parser/__init__.py
+yandex_realty_parser/yandex_realty_parser.py
+yandex_realty_parser.egg-info/PKG-INFO
+yandex_realty_parser.egg-info/SOURCES.txt
+yandex_realty_parser.egg-info/dependency_links.txt
+yandex_realty_parser.egg-info/requires.txt
+yandex_realty_parser.egg-info/top_level.txt
