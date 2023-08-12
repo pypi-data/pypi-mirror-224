@@ -1,0 +1,10 @@
+captcha_admin/__init__.py,sha256=79BX5j5tk94pmlQxaIvzak0MX2N7oNgSyRbJd8IBQb0,36
+captcha_admin/admin.py,sha256=63yxzEpOh-rBkkJSstOyOvPopbh7oCQhnwB3Ylxflv0,167
+captcha_admin/forms.py,sha256=xFgdwVnM7sHgchCOGLC3_mwS-JNmjMzKamzALdgTaAE,1146
+captcha_admin/settings.py,sha256=pNyF7er4887ztOr5sVDF_9ZRR_N7t3EM6Nb6b5jYnhA,2068
+captcha_admin/templates/admin/login.html,sha256=_pSfZikZayvpHoRS4NrcVUpz1AiMmrEA27OlkgaWeKE,4491
+django_grappelli_captcha_admin-1.0.0.dist-info/LICENSE,sha256=bMZU2zWqbluontEqyhElvw8lRbl8J-JAYdQ_keQWvDE,1062
+django_grappelli_captcha_admin-1.0.0.dist-info/METADATA,sha256=5kVhosVfm16CKa60re3hsqZJYDN0zz1UZDZDj83vrGw,2806
+django_grappelli_captcha_admin-1.0.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+django_grappelli_captcha_admin-1.0.0.dist-info/top_level.txt,sha256=SjFkM5eYHOv5I46R8W7kQQLdi-Ia5m7WZlVuvWkTQpU,14
+django_grappelli_captcha_admin-1.0.0.dist-info/RECORD,,
