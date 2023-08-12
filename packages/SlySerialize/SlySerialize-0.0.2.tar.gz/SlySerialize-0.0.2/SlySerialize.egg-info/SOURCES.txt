@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+SlySerialize/__init__.py
+SlySerialize/_type_vars.py
+SlySerialize/abc.py
+SlySerialize/converters.py
+SlySerialize/top_level.py
+SlySerialize.egg-info/PKG-INFO
+SlySerialize.egg-info/SOURCES.txt
+SlySerialize.egg-info/dependency_links.txt
+SlySerialize.egg-info/requires.txt
+SlySerialize.egg-info/top_level.txt
+tests/test_async.py
+tests/test_common.py
+tests/test_readme.py
+tests/test_serialize.py
