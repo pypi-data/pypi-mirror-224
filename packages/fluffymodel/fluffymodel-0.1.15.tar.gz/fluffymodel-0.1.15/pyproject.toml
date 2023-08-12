@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fluffymodel"
+version = "0.1.15"
+description = "`FluffyModel` is a user-friendly CLI tool designed to seamlessly set up an inference endpoint for open-source ML models. It leverages Gradio and Hugging Face spaces to achieve this."
+authors = ["AvinaashAnandK <p17avinaashak@iima.ac.in>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.scripts]
+fluffymodel = "fluffymodel:hf_to_gradio"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
