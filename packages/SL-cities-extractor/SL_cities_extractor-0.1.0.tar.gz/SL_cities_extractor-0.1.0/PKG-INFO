@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: SL_cities_extractor
+Version: 0.1.0
+Summary: Description of your library
+Home-page: https://github.com/TharinduMadhusanka/SL_cities_extractor.git
+License: UNKNOWN
+Description: # SL_cities_extractor
+        Sri Lankan cities extract from a given text
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

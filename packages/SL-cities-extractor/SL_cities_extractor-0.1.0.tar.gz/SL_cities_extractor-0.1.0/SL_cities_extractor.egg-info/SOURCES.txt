@@ -1,0 +1,8 @@
+README.md
+setup.py
+SL_cities_extractor/SL_cities_extractor.py
+SL_cities_extractor/__init__.py
+SL_cities_extractor.egg-info/PKG-INFO
+SL_cities_extractor.egg-info/SOURCES.txt
+SL_cities_extractor.egg-info/dependency_links.txt
+SL_cities_extractor.egg-info/top_level.txt
