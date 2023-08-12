@@ -1,0 +1,13 @@
+pyradiance>=0.1.2
+scipy~=1.10.1
+pywincalc>=3.1.0
+numpy>=1.24.4
+pyenergyplus
+
+[docs]
+mkdocs>=1.4.3
+mkdocstrings[python]>=0.22.0
+mkdocs-material>=9.1.18
+
+[test]
+pytest>=7.4.0
