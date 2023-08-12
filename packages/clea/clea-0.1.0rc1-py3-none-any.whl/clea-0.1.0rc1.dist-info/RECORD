@@ -1,0 +1,13 @@
+clea/__init__.py,sha256=hH7-smlRc2ThJgEGzhXO-Vc4MpLce84ib5UWV1p8gbU,60
+clea/context.py,sha256=CWwIMe_a1GUath6z0gDFyGdxCcqAu5PrKeDiSKafg8A,640
+clea/exceptions.py,sha256=tz5lHQMzU7JPIROAopkW17Bh9qGCHg6-lJJHuv7jf6g,500
+clea/helpers.py,sha256=6G5FdaGJT_YSIEHC_S5ez2FRwyrCSTGgrtcWv7jAwcY,792
+clea/params.py,sha256=UyYGyQsz_HKsupu0aBC8Con6pZk-tlrEIt9p56WI79s,11292
+clea/parser.py,sha256=1gRcNfb9e_zPj_0R7bPksycaWCDnaZwU3t0wbhPYCOA,5716
+clea/py.typed,sha256=B_F7JRj9AAnIBOiJuJSWJPh1PKIZh-CYbLdelswiWQY,13
+clea/runner.py,sha256=20na5Namx5_QQCDS4SjIONl2TXCTktV15BQAlk7Xgvw,475
+clea/wrappers.py,sha256=9whkwAu0ccmi_UdFy8YwLrh3ebdrH5bnUQWnbLTymDI,14073
+clea-0.1.0rc1.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+clea-0.1.0rc1.dist-info/METADATA,sha256=cHx0PlHYfbMwUCTn9g9aK5kZ-9SN9Wq_IW3DzwG4jys,1614
+clea-0.1.0rc1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+clea-0.1.0rc1.dist-info/RECORD,,
