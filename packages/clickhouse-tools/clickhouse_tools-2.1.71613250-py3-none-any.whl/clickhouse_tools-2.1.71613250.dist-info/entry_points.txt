@@ -1,0 +1,6 @@
+[console_scripts]
+ch-monitoring=ch_tools.monrun_checks.main:main
+ch-s3-credentials=ch_tools.s3_credentials.main:main
+chadmin=ch_tools.chadmin.chadmin_cli:main
+keeper-monitoring=ch_tools.monrun_checks_keeper.main:main
+

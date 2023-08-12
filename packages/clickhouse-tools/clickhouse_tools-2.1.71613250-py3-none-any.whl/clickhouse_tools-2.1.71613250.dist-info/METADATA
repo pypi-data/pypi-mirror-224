@@ -1,0 +1,114 @@
+Metadata-Version: 2.1
+Name: clickhouse-tools
+Version: 2.1.71613250
+Summary: clickhouse-tools is a set of tools for administration and diagnostics of ClickHouse DBMS.
+Home-page: https://github.com/yandex/ch-tools
+License: MIT
+Keywords: clickhouse,database,monitoring,diagnostics,administration
+Author: Alexander Burmak
+Author-email: alex-burmak@yandex-team.ru
+Maintainer: Alexander Burmak
+Maintainer-email: alex-burmak@yandex-team.ru
+Requires-Python: >=3.6.2,<4.0.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: BSD
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Database
+Classifier: Typing :: Typed
+Requires-Dist: boto3 (>=1.23.10,<1.24.0)
+Requires-Dist: click (>=8.0.4,<8.1.0)
+Requires-Dist: cloup
+Requires-Dist: deepdiff
+Requires-Dist: dnspython
+Requires-Dist: file_read_backwards
+Requires-Dist: humanfriendly
+Requires-Dist: jinja2
+Requires-Dist: kazoo
+Requires-Dist: lxml
+Requires-Dist: psutil
+Requires-Dist: pygments
+Requires-Dist: pyopenssl
+Requires-Dist: python-dateutil
+Requires-Dist: pyyaml (<5.4)
+Requires-Dist: requests
+Requires-Dist: tabulate
+Requires-Dist: tenacity
+Requires-Dist: termcolor
+Requires-Dist: tqdm
+Requires-Dist: typing-extensions (>=4.1.1,<4.2.0)
+Requires-Dist: xmltodict
+Project-URL: Repository, https://github.com/yandex/ch-tools
+Description-Content-Type: text/markdown
+
+[![license](https://img.shields.io/github/license/yandex/ch-tools)](https://github.com/yandex/ch-tools/blob/main/LICENSE)
+[![tests status](https://img.shields.io/github/actions/workflow/status/yandex/ch-tools/.github%2Fworkflows%2Fworkflow.yml?event=push&label=tests)](https://github.com/yandex/ch-tools/actions/workflows/workflow.yml?query=event%3Apush)
+
+# clickhouse-tools
+
+**clickhouse-tools** is a set of tools for administration and diagnostics of [ClickHouse](https://clickhouse.com/) DBMS.
+
+## Tools
+
+**clickhouse-tools** consist of following components:
+- [chadmin](./src/chtools/chadmin/README.md) - ClickHouse administration tool
+- [ch-monitoring](./src/chtools/monrun_checks/README.md) - ClickHouse monitoring tool
+- [keeper-monitoring](./src/chtools/monrun_checks_keeper/README.md) - ClickHouse Keeper / ZooKeeper monitoring tool
+- [ch-s3-credentials](./src/chtools/s3_credentials/README.md) - ClickHouse S3 credentials management tool
+
+All of these tools must be run on the same host as ClickHouse server is running.
+
+## Local development (using poetry)
+
+```sh
+sudo make install-poetry
+# or to install in user's home directory
+make POETRY_HOME=~/opt/poetry install-poetry
+
+# lint
+make lint
+
+# unit tests
+make test-unit
+make test-unit PYTEST_ARGS="-k test_name"
+
+# integration tests (rebuild docker images using a .whl file)
+make test-integration
+make test-integration BEHAVE_ARGS="-i feature_name"
+
+# integration tests (supply a custom ClickHouse version to test against)
+CLICKHOUSE_VERSION="1.2.3.4" make test-integration
+# If you want to have containers running on failure, supply a flag:
+# BEHAVE_ARGS="-D no_stop_on_fail"
+
+# For building deb packages
+make prepare-build-deb
+make build-deb-package  
+```
+
+Please note: base images for tests are pulled from [chtools Dockerhub](https://hub.docker.com/u/chtools).
+If you want to build base images locally, run
+
+```sh
+docker buildx bake -f tests/bake.hcl
+```
+
+If you want to build base images for multiple versions of ClickHouse, run:
+
+```sh
+CLICKHOUSE_VERSIONS='1.2.3.4, 5.6.7.8, latest' docker buildx bake -f tests/bake.hcl
+```
+
