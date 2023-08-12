@@ -1,0 +1,7 @@
+setup.py
+allah/__init__.py
+allah/blessings.py
+allah.egg-info/PKG-INFO
+allah.egg-info/SOURCES.txt
+allah.egg-info/dependency_links.txt
+allah.egg-info/top_level.txt
