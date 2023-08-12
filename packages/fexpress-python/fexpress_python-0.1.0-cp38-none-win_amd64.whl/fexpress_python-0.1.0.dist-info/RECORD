@@ -1,0 +1,15 @@
+fexpress_python-0.1.0.dist-info/METADATA,sha256=aIU-pvGqDWk_QfPjJUsgJEX6G3NASwg45YMbtEOCW2E,767
+fexpress_python-0.1.0.dist-info/WHEEL,sha256=AqVGELKyWWi5VRFuY2fsfQtkJ3pLyJIkacc0rC7ZCSA,94
+fexpress_python/.gitignore,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fexpress_python/sdk/event.json,sha256=bZ3QDOYQTgS3wXNfHY9MV7mmSOhMxAr60E7Ix1q4OR8,3037
+fexpress_python/sdk/event.py,sha256=UR3k8MSIT-0N85vhkIRgIP5PQjBRaDoKBbBCT_t1kWQ,4875
+fexpress_python/sdk/event_query_config.json,sha256=eS-HWX-ia6jRB4tgRKzElxd83KX1rk8bM3uPXw6XfMg,512
+fexpress_python/sdk/event_query_config.py,sha256=PXx3P7eyYjEtEsDsRCVPTL291l_v5LFmPIX4tf4Kat0,1739
+fexpress_python/sdk/event_store_settings.json,sha256=_zUUJQaqtZnGP6mw-YxZFUrdWA4E0LV1h_ytDUbKDbw,335
+fexpress_python/sdk/event_store_settings.py,sha256=sPJ-mqLwaEUISJLTZM0y5AvWxVmTKsOWF2syAtSErS4,1178
+fexpress_python/sdk/observation_dates_config.json,sha256=8vNK654aK3JF8pp3BWw2pT6BkN-k9mprykzB-Opv5_0,6071
+fexpress_python/sdk/observation_dates_config.py,sha256=sylup4kg4eqdI7i8RdJFkFBPWiCV8fxkL-agNw88tc4,8271
+fexpress_python/sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fexpress_python/__init__.py,sha256=HU6ugWVv2xeteQLtwDFOSR5jUb3DWukZ2kj5qzI8xAc,6141
+fexpress_python/fexpress_python.cp38-win_amd64.pyd,sha256=yvujl9j8dgss9NqHf3wt7bDseWg1ICxspu1gTFXLnVA,3568128
+fexpress_python-0.1.0.dist-info/RECORD,,
