@@ -1,0 +1,13 @@
+laff/__init__.py,sha256=OpDj01AeUhLM9fTAQwdr-4vzfEfqQHB_cosbIbvWZ4w,110
+laff/flarefinding/__init__.py,sha256=TjW57aA40xqIoJn2cPxiJdzHepguJ0mm79guSkXa7Tc,177
+laff/flarefinding/flarefinding.py,sha256=rdZAb_EqO5HKK0s1E09lR6qCHhje9WT_KR_FiLxwZQA,10522
+laff/laff.py,sha256=VydCSTBXP6-9wCEAUBihDOnhYoFHcim9hSbgjGx1cBk,10037
+laff/lightcurve_import.py,sha256=OcNw1wAtXBxkmrwI-NAeVaUA_ri-9ShRm15phjVkgKQ,1828
+laff/modelling/__init__.py,sha256=5l75EFgdo_k5topNZ_I-ca042Q2RYE5ZrsZnUtcxGY0,148
+laff/modelling/fit_continuum.py,sha256=BC3J9S6KpeEWWzfzvSaVxpymPdtJ7mqNOmkAtMn_S-M,6535
+laff/modelling/fit_flare.py,sha256=777tvvoOnGEHbcod74SN5ibpHI2lvTqlHNkqkxr-03Q,6906
+laff/utility/__init__.py,sha256=xK9coJUPeq3EmpJA1tIM9f_WYVIfwgfyLpWE2Oh1Z2k,63
+laff/utility/utility.py,sha256=BVlid4E8nI-07szrf3MJU_JvAijWW3LNIlXe7vTF8l0,1264
+laff-0.7.3.dist-info/METADATA,sha256=4h8x8dUc6KLpTcBJAt0rYQyxvaNWZ1py55QU-9joK6I,3397
+laff-0.7.3.dist-info/WHEEL,sha256=WGfLGfLX43Ei_YORXSnT54hxFygu34kMpcQdmgmEwCQ,88
+laff-0.7.3.dist-info/RECORD,,
