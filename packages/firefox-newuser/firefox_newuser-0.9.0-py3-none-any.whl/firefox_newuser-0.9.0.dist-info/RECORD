@@ -1,0 +1,13 @@
+firefox_newuser/__init__.py,sha256=5PX2D2pVj0QhxAVtfV9YnwpSnccReAzn1y9pV1kDqqM,143
+firefox_newuser/core.py,sha256=hO29CPNfi08o-JebjbkNNUYL5yy1Mp7rOMND8r33uUM,9895
+firefox_newuser/locale/en/LC_MESSAGES/firefox_newuser.mo,sha256=-5Hgff2pmCFFbfqMcHAYXFXkXlPdLpoT0F_kuCmmPwM,424
+firefox_newuser/locale/en.po,sha256=iQd3zNctpjlvAm1LA1MxAq2imsN7GQKqcEPdk9gdXpY,738
+firefox_newuser/locale/es/LC_MESSAGES/firefox_newuser.mo,sha256=p4MmKU58mDG_SoV_V3GOjbztW2g0x0pmggsKeQm59eo,2507
+firefox_newuser/locale/es.po,sha256=uTW5ZvQ7Ynww2q3wLHzk7MsmHBT0uHeFxXFYirSHOI8,2937
+firefox_newuser/locale/firefox_newuser.pot,sha256=gZV91A9N_6zBtgzc3qVLMwn1FC3w_TDq0LBWwrogyKY,1881
+firefox_newuser/poethepoet.py,sha256=XrjYaRpYLIVMZ5Bs4mrvgNoun-NPJaZrPCqrWwkef4Q,1109
+firefox_newuser-0.9.0.dist-info/LICENSE.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+firefox_newuser-0.9.0.dist-info/METADATA,sha256=GRUhkcDztnkjJsfS07JKRETmIN88V9H8YTyrYnfiky0,1281
+firefox_newuser-0.9.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+firefox_newuser-0.9.0.dist-info/entry_points.txt,sha256=l_Fg1ui-qBcJbMfwv9PYW0h9gctjkjFCpBE_q7DYC1U,114
+firefox_newuser-0.9.0.dist-info/RECORD,,
