@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ipymongodb
+Version: 0.2.2
+Summary: pymongo 패키지 wrapper
+Home-page: https://github.com/innovata/iPyMongo
+Author: innovata sambong
+Author-email: iinnovata@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pymongo
+Requires-Dist: pandas
+Requires-Dist: ipylib
+
+# iPyMongoDB (innovata-pymongo-database)
+ 
+파이썬 pymongo 패키지 Wrapper
+
+
+## 사용법 
