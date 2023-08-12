@@ -1,0 +1,15 @@
+.readthedocs.yaml
+LICENSE
+README.md
+SECURITY.md
+pyproject.toml
+sqliteS.py
+.github/workflows/publish.yml
+.github/workflows/python-publish.yml
+src/SSQLA.egg-info/PKG-INFO
+src/SSQLA.egg-info/SOURCES.txt
+src/SSQLA.egg-info/dependency_links.txt
+src/SSQLA.egg-info/requires.txt
+src/SSQLA.egg-info/top_level.txt
+src/SimpleAlchemy/__init__.py
+src/SimpleAlchemy/sqliteS.py

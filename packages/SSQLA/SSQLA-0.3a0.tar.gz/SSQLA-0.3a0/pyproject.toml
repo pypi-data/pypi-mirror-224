@@ -1,0 +1,32 @@
+[project]
+name = "SSQLA"
+version = "0.3a"
+description = "Making SQLAlchemy simpler, because it's not"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {file = "LICENSE"}
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3 :: Only",
+]
+
+dependencies = [
+  "sqlalchemy"
+]
+
+[build-system]
+requires = ["setuptools>=43.0.0", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+"Homepage" = "https://github.com/Arcader717/SAlc_Simplified"
+"Bug Reports" = "https://github.com/Arcader717/SAlc_Simplified/issues"
+
+[tool.setuptools_scm]
