@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: CGF
+Version: 0.0.5
+Summary: Compositional Game Framework
+Author: Nivedh
+Author-email: krishniv27@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+from CGF.CGFCore import main
+from CGF.test import evaluate
+
+# main.test_composed_game_sequential()
+
+evaluate.run_tests()
