@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+osuExchange/__init__.py
+osuExchange/api.py
+osuExchange/auth.py
+osuExchange/beatmaps.py
+osuExchange/client.py
+osuExchange/scores.py
+osuExchange/seasonalbg.py
+osuExchange/typing.py
+osuExchange/users.py
+osuExchange/util.py
+osuExchange.egg-info/PKG-INFO
+osuExchange.egg-info/SOURCES.txt
+osuExchange.egg-info/dependency_links.txt
+osuExchange.egg-info/requires.txt
+osuExchange.egg-info/top_level.txt
