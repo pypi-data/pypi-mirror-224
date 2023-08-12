@@ -1,0 +1,6 @@
+wmill/__init__.py,sha256=d0Q6Fn44e7wFfLabDOBxpcJ1DPKWlFunGYDUBmO-4hA,22
+wmill/client.py,sha256=M94nGOUS1Ad9GBgaC2Wxd493ZH7jq2ElPtvSAKGIjZo,10544
+wmill/py.typed,sha256=8PjyZ1aVoQpRVvt71muvuq5qE-jTFZkK-GLHkhdebmc,26
+wmill-1.145.2.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+wmill-1.145.2.dist-info/METADATA,sha256=Az9VMfXE8YVlXx-HTzcK11UJlodgprDfIHXyJaHvaqQ,1571
+wmill-1.145.2.dist-info/RECORD,,
