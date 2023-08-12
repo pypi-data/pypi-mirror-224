@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: codenav
+Version: 0.0.1
+Summary: Web App for cleaning, searching, editing, and navigating Python code.
+Home-page: https://github.com/jkrist2696/codenav
+Author: Jason Krist
+Author-email: jkrist2696@gmail.com
+License: GNU GPLv3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: dash-ace (>=0.2.1)
+Requires-Dist: dash-bootstrap-components (>=1.4.1)
+Requires-Dist: dash-editor-components (>=0.0.2)
+Requires-Dist: dash-iconify (>=0.1.2)
+Requires-Dist: dash-mantine-components (>=0.12.1)
+Requires-Dist: feffery-antd-components (>=0.2.9)
+Requires-Dist: psutil (>=5.9.0)
+Requires-Dist: snipsearch (>=0.0.1)
+Requires-Dist: waitress (>=2.1.2)
+Requires-Dist: cleandoc (>=0.0.1)
+
+# CodéNav
+
+Web App for cleaning, searching, editing, and navigating Python code.
+
+## Install
+
+pip install codenav
+
+## Usage
+
+codenav
+
+## Read The Docs
+
+Download "docs" folder or check preview below.
+
+https://htmlpreview.github.io/?https://github.com/jkrist2696/codenav/blob/main/docs/index.html
+
+
+## Contributing
+
+Message me on Github.
+
+## License
+
+[GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
+
+## Copyright:
+
+(c) 2023, Jason Krist
