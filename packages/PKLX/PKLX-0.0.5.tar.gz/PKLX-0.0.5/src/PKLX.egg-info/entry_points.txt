@@ -1,0 +1,4 @@
+[console_scripts]
+pklx-collect = pklx.manage:cmd_collect
+pklx-set-settings = pklx.manage:cmd_set_settings
+pklx-view = pklx.manage:cmd_view
