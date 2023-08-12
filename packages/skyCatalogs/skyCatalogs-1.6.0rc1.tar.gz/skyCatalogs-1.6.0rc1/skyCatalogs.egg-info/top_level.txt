@@ -1,0 +1,7 @@
+cfg
+dist
+doc
+setup
+skycatalogs
+tests
+ups
