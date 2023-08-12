@@ -1,0 +1,100 @@
+# djp_py_helpers
+
+This package exposes some basic helper functions for
+configuring the built-in python logging package.
+
+[Github](https://github.com/Djpleasant/djp-py-logger)
+
+## Table of Contents
+
+- [Dependencies](#dependencies)
+- [Building](#building)
+- [Publishing](#publishing)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Testing](#testing)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Dependencies
+- [Poetry](https://python-poetry.org/docs/) - Great tool for managing dependencies 
+
+## Building
+
+
+## Publishing
+
+## Installation
+### Poetry
+Refer to installation docs for [Poetry](https://python-poetry.org/docs/).
+
+Navigate to your project you want to use this library in:  
+`cd <path/to/project>`
+
+Create a Python virtual environment to work in with this command:  
+`python -m venv ./venv`
+
+On Mac & Linux:
+Run `source ./venv/bin/activate`
+
+On Windows
+Run `./venv/scripts/activate.ps1`
+
+Download the library from Github with this command:
+`pip install git+https://github.com/Djpleasant/djp-py-logger.git#egg=djp_py_helpers`
+
+In your requirements.txt file, adding this line will install the djp_py_helpers package after running `pip install -r requirements.txt`:
+`djp_py_helpers @ git+https://github.com/Djpleasant/djp-py-logger.git`
+
+## Usage
+### Basic setup
+```
+""" example script to use the most basic helper function """
+
+import logging
+from djp_py_helpers.helpers import configure_logger
+
+# This will not do anything
+logging.info('hello world')
+
+# The logging library has been configured now
+configure_logger()
+
+# This will output `hello world` in our default logging format
+logging.info('hello world')
+```
+
+## Project Structure
+TDB
+
+## Testing
+For unit testing:
+`poetry run pytest`
+
+For coverage testing:
+`poetry run pytest --cov-report term-missing --cov=./ tests`
+
+For coverage testing with report in html:
+`poetry run pytest --cov-report term-missing --cov-report html --cov=./ tests`
+
+## Contributing
+TBD
+
+## License
+Helper functions for the built-in python logging package.
+
+Copyright (C) 2023  Dawson Pleasant <dawsonpleasant@outlook.com> (https://https://github.com/Djpleasant)
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.

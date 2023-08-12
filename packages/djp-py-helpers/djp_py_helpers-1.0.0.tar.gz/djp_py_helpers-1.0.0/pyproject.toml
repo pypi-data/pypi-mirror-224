@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "djp-py-helpers"
+version = "1.0.0"
+description = "python helper functions"
+authors = ["Dawson Pleasant <dawsonpleasant@outlook.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "djp_py_helpers", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+pytest-cov = "^4.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
