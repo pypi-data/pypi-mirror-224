@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/brohub/__init__.py
+src/brohub/compiled.c
+src/brohub/compiled.pyi
+src/brohub/compiled.pyx
+src/brohub/plain.py
+src/brohub/py.typed
+src/qt_brohub.egg-info/PKG-INFO
+src/qt_brohub.egg-info/SOURCES.txt
+src/qt_brohub.egg-info/dependency_links.txt
+src/qt_brohub.egg-info/top_level.txt
+tests/test_harmonic_mean.py
