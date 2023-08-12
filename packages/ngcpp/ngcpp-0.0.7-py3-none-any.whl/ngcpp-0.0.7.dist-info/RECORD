@@ -1,0 +1,9 @@
+ngcpp/cli/cluster_info.py,sha256=0lw7wwtAT5dlvg4ZlQidHMWDxD4QbbxlGGd6nz64ymM,1343
+ngcpp/cli/job_info.py,sha256=lnOQjKQPPyHnsMUCTHDldDcDnKIvlg8RUHXHCMaIBrM,6920
+ngcpp/cluster.py,sha256=Lg2rLeEGqCNoMqXW1IztBY6k2l937w06yDsxIJTgi1I,5087
+ngcpp/cluster.yaml,sha256=TMTL1a67woWHK7OtfCTeledrqn4CGttsXvWQm102_lQ,1154
+ngcpp/utils.py,sha256=6ysM1qdaX-jgbPSulqAPMQKXnM6aLfYy4HLKVdtn1Sg,383
+ngcpp-0.0.7.dist-info/METADATA,sha256=W0clJZHFzkUHTWtPUuxEsVM5LXkaHV3Xj6Fq2pEsriA,1456
+ngcpp-0.0.7.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+ngcpp-0.0.7.dist-info/entry_points.txt,sha256=NSgR5iUJugvrXqzKQnW1STUCFOkYSZdXKIbZZqyH6Qg,91
+ngcpp-0.0.7.dist-info/RECORD,,
