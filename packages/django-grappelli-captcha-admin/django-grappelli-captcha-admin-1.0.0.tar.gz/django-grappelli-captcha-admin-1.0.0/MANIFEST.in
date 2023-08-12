@@ -1,0 +1,2 @@
+recursive-include captcha_admin/templates captcha_admin/static *
+include README.md
