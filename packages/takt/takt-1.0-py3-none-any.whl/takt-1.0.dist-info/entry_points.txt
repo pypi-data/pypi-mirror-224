@@ -1,0 +1,3 @@
+[console_scripts]
+takt=takt.__main__:entry
+
