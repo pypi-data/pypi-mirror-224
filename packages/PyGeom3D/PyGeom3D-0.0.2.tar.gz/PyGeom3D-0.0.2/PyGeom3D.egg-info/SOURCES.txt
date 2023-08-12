@@ -1,0 +1,8 @@
+README.md
+setup.py
+PyGeom3D/Point.c
+PyGeom3D/__init__.c
+PyGeom3D.egg-info/PKG-INFO
+PyGeom3D.egg-info/SOURCES.txt
+PyGeom3D.egg-info/dependency_links.txt
+PyGeom3D.egg-info/top_level.txt
