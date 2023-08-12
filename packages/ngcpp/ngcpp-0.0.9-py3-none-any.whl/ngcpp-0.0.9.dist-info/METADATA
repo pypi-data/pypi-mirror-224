@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: ngcpp
+Version: 0.0.9
+Summary: A toolkit for ngc
+License: MIT
+Keywords: jam,experiment,ngc
+Author: Qinsheng
+Author-email: qsh.zh27@gmail.com
+Requires-Python: >=3.8,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: hydra-core (>=1.1.0,<2.0.0)
+Requires-Dist: loguru (>=0.7.0,<0.8.0)
+Requires-Dist: pandas (>=1.5.3,<2.0.0)
+Requires-Dist: pyfzf (>=0.2.2,<0.3.0)
+Requires-Dist: tqdm (>=4.65.0,<5.0.0)
+Requires-Dist: typer (>=0.3.2,<0.4.0)
+Description-Content-Type: text/markdown
+
+# Install
+
+```shell
+pip install ngcpp
+sudo apt install fzf # iteractive fuzzy finder
+
+# if apt installed fzf does not work or give strange behavior
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+```
+
+# Feature
+
+## cluster `ngc_cluster --help`
+
+* `ngc_cluster usage --help`: List user usage
+* `ngc_cluster hang --help`: List your all hanging jobs
+* `ngc_cluster list --help`: List your jobs in one cluster
+* `ngc_cluster alias --help`: List all available cluster aliases
+
+## job `ngc_job --help`
+
+* `ngc_job kill --help`: kill your jobs interactively
+* `ngc_job result --help`: download results for your jobs interactively
+* `ngc_job bash --help`: exec bash for one selected job~(support autoresuming)
+
+
+## resume `ngc_resume --help`
+
+Define the job to track in `ngc_resume.yaml`
+
+```yaml
+"10": # cluster alias, prd10
+    ml-model.test_unet: # jobname, !!!make sure jobname matches the `--name` in cmd
+        ngc batch run --name "ml-model.test_unet" --priority HIGH --order 50 --preempt RUNONCE --min-timeslice 0s --total-runtime 1209600s --ace nv-us-west-2 --instance dgxa100.40g.8.norm --commandline "sleep 10h" --result /result --array-type "PYTORCH" --replicas "18" --image "another_docker_image" --org your_org --team your_team
+    ml-model.test_unet:
+        # Another job
+"77": # cluster alias, prd77
+    job_name: cmd
+```
+
+* **make sure** jobname matches the `--name` in cmd
+* `cmd` can be copied from `https://bc.ngc.nvidia.com/jobs/{job_id}?tab=overview`
+
+
+### TODO
+
+- [ ] Auto copy cmd
+
