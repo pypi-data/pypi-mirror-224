@@ -1,0 +1,9 @@
+simple_sqlite/__init__.py,sha256=1VlbeYUvNQuJdJb25vu978W9JQXhfJR6uGuORKgpoMw,26
+simple_sqlite/const.py,sha256=y-gSiEkNRYf5fwit8juSJ--g7m6m7_eMaseRJR3kyvk,78
+simple_sqlite/errors.py,sha256=4IRz90nGfVIREWwlhtVs5gQXpmFfeRXiPTbCjB8qYxU,1783
+simple_sqlite/main.py,sha256=t9bwobrYNnHS68Okdi36utu_UJRAXyIFUB8ttHVUzNY,8571
+py_simple_sqlite-1.0.7.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_simple_sqlite-1.0.7.dist-info/METADATA,sha256=rWAwPtVhSfPW_DPCUTLGpX1G_k2mqsn4Z-1UyHPHhZ0,484
+py_simple_sqlite-1.0.7.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+py_simple_sqlite-1.0.7.dist-info/top_level.txt,sha256=5G3L_pyWCxzEIemjq7wSI5COHz0xqcR72oHAeZUbf74,14
+py_simple_sqlite-1.0.7.dist-info/RECORD,,
