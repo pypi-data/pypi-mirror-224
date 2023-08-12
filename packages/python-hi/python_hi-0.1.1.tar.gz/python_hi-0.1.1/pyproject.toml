@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python-hi"
+version = "0.1.1"
+description = ""
+authors = ["femto <femtowin@gmail.com>"]
+readme = "README.md"
+packages = [{include = "hi"}]
+
+[tool.poetry.dependencies]
+python = ">=3.5"
+requests = "^2.31.0"
+pyyaml = "^6.0.1"
+[tool.poetry.scripts]
+hi = 'hi:main'
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
