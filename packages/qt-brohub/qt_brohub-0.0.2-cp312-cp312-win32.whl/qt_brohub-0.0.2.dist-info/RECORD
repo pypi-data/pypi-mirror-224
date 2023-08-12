@@ -1,0 +1,12 @@
+brohub/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+brohub/compiled.c,sha256=j6BDYnIRJyFlGoRasRxj0LTqa9TFyml4hoQ8VInyxrg,313308
+brohub/compiled.cp312-win32.pyd,sha256=IaI_RkQXVJ55VzeuDfbvyLBtLNDJF46SLkDZ257xc7Y,41984
+brohub/compiled.pyi,sha256=JaRXPToU5I-8dV3JyVaEc4saPV6qh_9H8463pc-73i0,52
+brohub/compiled.pyx,sha256=ZDL62QD3ufjIMGUa9s8IbcoborI-wDeajfKlo-61toQ,101
+brohub/plain.py,sha256=ZDL62QD3ufjIMGUa9s8IbcoborI-wDeajfKlo-61toQ,101
+brohub/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qt_brohub-0.0.2.dist-info/LICENSE,sha256=_o1-8UFeLjO_pM5BaeFUFyYP4yzYjkzOYo2uPGYdF1c,1091
+qt_brohub-0.0.2.dist-info/METADATA,sha256=Kejya2T3Fy4lClYMcGNPABUKrpuJpVSp-1_V246hxSk,621
+qt_brohub-0.0.2.dist-info/WHEEL,sha256=hgw21682hRmfLj5nsd2kf-rkdu51i6WpSSV68iGxfBg,98
+qt_brohub-0.0.2.dist-info/top_level.txt,sha256=B-DFc9figY11jWAp4sHqp9E01M0_kPnFFUUFpHsDLRI,7
+qt_brohub-0.0.2.dist-info/RECORD,,
