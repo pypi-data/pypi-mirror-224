@@ -1,0 +1,6 @@
+Hello, {{ simulated_user.username }},
+
+Your account was accessed for simulation by {{ real_user.username }} on {{ timestamp }}. If you did not expect this, please contact the support team.
+
+Regards,
+Your Team
