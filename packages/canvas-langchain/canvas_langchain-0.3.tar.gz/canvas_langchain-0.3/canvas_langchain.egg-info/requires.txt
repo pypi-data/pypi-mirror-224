@@ -1,0 +1,12 @@
+langchain
+unstructured
+canvasapi
+beautifulsoup4
+lxml
+PyPDF2
+docx2txt
+striprtf
+pandas
+openpyxl
+xlrd
+markdown
