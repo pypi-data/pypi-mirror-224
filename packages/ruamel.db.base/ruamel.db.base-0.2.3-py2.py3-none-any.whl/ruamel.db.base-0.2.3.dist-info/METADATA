@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ruamel.db.base
+Version: 0.2.3
+Summary: base for db handling
+Home-page: https://sourceforge.net/p/ruamel-db-base/code/ci/default/tree
+Author: Anthon van der Neut
+Author-email: a.van.der.neut@ruamel.eu
+License: Copyright Ruamel bvba 2007-2016
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Description-Content-Type: text/x-rst
+
+
+Full description of the package
