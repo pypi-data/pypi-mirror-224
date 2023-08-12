@@ -1,0 +1,16 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_auth.py,sha256=q6JWp5ntv26Nm57O9fSqgULChk1zNCJtiF-7d4BtGmY,412
+tests/test_auth_object_re.py,sha256=9nRgEqtYJxL6cbBcPR3VIEHJe3mzf6EAHTM5Ch8igk0,1769
+tests/test_download.py,sha256=xUcqFnC7Gwos6DDANb52hAT6PSir9FTQVGI5xfAnY4g,558
+tests/test_search.py,sha256=R3Kje94kWEwhByEfLkL1YbqUezx7TAbSfkvVmTxaYT8,521
+univk_audio/__init__.py,sha256=JPGIzGXGFAKyecKGfRWLhHnzIjAy56eyzJJSuiP1h2I,1279
+univk_audio/async_auth.py,sha256=4dkTtlWYcXDOWXCTAvU3_fJg1PI02LBU1etymaNLZJw,10180
+univk_audio/async_client.py,sha256=UmqwHWk9mjkV_YiOIgttC-NBb0k4pweCqyz0FMLN0JI,7754
+univk_audio/auth_exceptions.py,sha256=nlSS7sNjdTnMgAXDu0zwAl7Oi2NfbBPInMJuL1WMF_w,1003
+univk_audio/client_exceptions.py,sha256=vUjM0tC4d80EugH90w74ze_CMUWjJvwIQkZ3wOSU_Hc,757
+univk_audio/request_data.py,sha256=rs2miuCWM_-xa2ocgxLHXz6cFJdfTIro9wJf3juJNIs,2677
+univk_audio-1.0.3.dist-info/LICENSE,sha256=8hBdUxsgAqfOmRUKrwxlVwZ7Q0RCsusBesyOW0vs2c4,1099
+univk_audio-1.0.3.dist-info/METADATA,sha256=VDROqwwl_eivuoSgrIK4uvnKnnIfAnfUpSHnCH2HXZc,7622
+univk_audio-1.0.3.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+univk_audio-1.0.3.dist-info/top_level.txt,sha256=MJHqVoYvT2UN_VIoKoGLyGqW3jIlapCscKqUjR3GJRM,18
+univk_audio-1.0.3.dist-info/RECORD,,
