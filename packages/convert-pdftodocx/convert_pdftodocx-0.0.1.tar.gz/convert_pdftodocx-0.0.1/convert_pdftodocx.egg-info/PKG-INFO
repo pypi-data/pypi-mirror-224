@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: convert-pdftodocx
+Version: 0.0.1
+Summary: It will convert PDF to Docx format using pywin32 & comtypes library. Also it will extract the text & table text from docx file
+Home-page: https://bitbucket.org/mayurborkar1/pdf-to-docx-package/src/master/
+Author: Volody Product Pvt Ltd
+Author-email: sd12@consultlane.com
+License: MIT
+Description: # PDF To Docx Conversion Package
+        
+        ### It will convert PDF to Docx format using pywin32 & comtypes library. Also it will extract the text & table text from docx file. 
+        
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
