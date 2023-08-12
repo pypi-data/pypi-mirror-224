@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "vec_cache"
+version = "0.1.4"  # using poetry-dynamic-versioning
+description = ""
+authors = ["kaz <kaz.j11@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/punisuke/VecCache"
+repository = "https://github.com/punisuke/VecCache"
+
+[tool.poetry-dynamic-versioning]
+enable = false
+format = "{base}"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+openai = "^0.27.8"
+faiss-cpu = "^1.7.4"
+python-dotenv = "^1.0.0"
+numpy = "^1.25.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+pytest-mock = "^3.11.1"
+pre-commit = "^3.3.3"
+
+[build-system]
+requires = ["poetry-core",  "poetry-dynamic-versioning"]
+build-backend = "poetry_dynamic_versioning.backend"
+
+[build]
+include = ["vec_cache/**"]
+exclude = ["examples/**"]
+
+[tool.isort]
+profile = "black"
