@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: omero-bifrost
+Version: 0.0.3
+Summary: Bifrost bridge for simplified large-scale transfer of bioimage data using an OMERO server
+Home-page: https://github.com/luiskuhn/omero-bifrost
+Author: Luis Kuhn Cuellar
+Author-email: luis.kuhn@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: typer ==0.9.0
+Requires-Dist: rich ==13.5.2
+Requires-Dist: zeroc-ice ==3.6.5
+Requires-Dist: omero-py ==5.15.0
+Requires-Dist: omero-upload ==0.4.0
+
+# OMERO-Bifrost
+
+Bifrost bridge for large-scale transfer of bioimage data using an OMERO server. A simplified Python CLI tool and package to transfer image data/metadata from and to an OMERO server.
+
+![omero-bifrost](docs/images/bifrost_img.png)
+
+### Requirements
+
+- Python `3.8`
+- typer `0.9.0`
+- rich `13.5.2`
+- zeroc-ice `3.6.5`
+- omero-py `5.15.0`
+- omero-upload `0.4.0`
+
+
+### Install with PyPI
+
+`pip install omero-bifrost`
+
+### Usage
+
+Type `omero-bifrost --help` to see the full range of commands and subcommands.
+
+---
+
+### Development notes
+
+To install packages in `requirements.txt` in the current conda env.:
+
+`pip install -r requirements.txt`
+
+To test package, install using pip:
+
+`pip install -e .`
+
