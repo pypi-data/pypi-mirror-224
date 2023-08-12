@@ -1,0 +1,3 @@
+[console_scripts]
+turboyaml = turboyaml.cli:main
+
