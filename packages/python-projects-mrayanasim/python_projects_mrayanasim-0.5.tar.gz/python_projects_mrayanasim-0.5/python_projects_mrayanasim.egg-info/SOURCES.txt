@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+python_projects_mrayanasim.egg-info/PKG-INFO
+python_projects_mrayanasim.egg-info/SOURCES.txt
+python_projects_mrayanasim.egg-info/dependency_links.txt
+python_projects_mrayanasim.egg-info/top_level.txt
