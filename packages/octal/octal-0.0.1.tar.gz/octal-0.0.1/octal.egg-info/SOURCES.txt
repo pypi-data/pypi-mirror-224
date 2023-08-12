@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+octal/__init__.py
+octal/base.py
+octal/error.py
+octal.egg-info/PKG-INFO
+octal.egg-info/SOURCES.txt
+octal.egg-info/dependency_links.txt
+octal.egg-info/requires.txt
+octal.egg-info/top_level.txt
