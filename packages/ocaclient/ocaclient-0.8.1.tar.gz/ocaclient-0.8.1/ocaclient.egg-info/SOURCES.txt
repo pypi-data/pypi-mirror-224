@@ -1,0 +1,15 @@
+.gitignore
+.pre-commit-config.yaml
+LICENCE
+README.rst
+pyproject.toml
+setup.py
+ocaclient/__init__.py
+ocaclient/client.py
+ocaclient/models.py
+ocaclient/version.py
+ocaclient.egg-info/PKG-INFO
+ocaclient.egg-info/SOURCES.txt
+ocaclient.egg-info/dependency_links.txt
+ocaclient.egg-info/requires.txt
+ocaclient.egg-info/top_level.txt

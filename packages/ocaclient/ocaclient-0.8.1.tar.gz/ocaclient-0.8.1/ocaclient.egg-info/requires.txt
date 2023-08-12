@@ -1,0 +1,8 @@
+python-dateutil
+lxml
+zeep>=3.0.0
+
+[dev]
+ipython
+mypy
+types-python-dateutil

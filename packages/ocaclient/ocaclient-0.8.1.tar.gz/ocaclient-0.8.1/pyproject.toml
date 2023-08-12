@@ -1,0 +1,25 @@
+[tool.black]
+target-version = ['py37']
+
+[tool.ruff]
+select = [
+    "E",
+    "F",
+    "W",
+    "B0",
+    "I",
+    "UP",
+    "N",
+    "C4",
+    "PT",
+    "SIM",
+    "TID",
+    "T10"
+]
+target-version = "py37"
+
+[tool.ruff.isort]
+force-single-line = true
+
+[tool.mypy]
+ignore_missing_imports = true
