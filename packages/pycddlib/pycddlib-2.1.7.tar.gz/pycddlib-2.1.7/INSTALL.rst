@@ -1,0 +1,46 @@
+Automatic Installer
+~~~~~~~~~~~~~~~~~~~
+
+The simplest way to install pycddlib is to
+`install it with pip <https://packaging.python.org/tutorials/installing-packages/>`_::
+
+    pip install pycddlib
+
+On Windows, this will install from a binary wheel
+(for Python 3.6 and up; for older versions of Python
+you will need to build from source, see below).
+
+On Linux, this will install from source,
+and you will need `GMP <https://gmplib.org/>`_
+as well as the Python development headers.
+Your
+distribution probably has pre-built packages for it. For example, on
+Fedora, install it by running::
+
+    dnf install gmp-devel python3-devel
+
+and on Ubuntu::
+
+    apt-get install libgmp-dev python3-dev
+
+Building From Source
+~~~~~~~~~~~~~~~~~~~~
+
+Full build instructions are in the git repository,
+under `python-package.yml <https://github.com/mcmtroffaes/pycddlib/blob/develop/.github/workflows/python-package.yml>`_.
+
+For Windows, you must take care to use a compiler and platform toolset
+that is compatible with the one that was used
+to compile Python. For Python 3.6 to 3.10, you can use
+`Visual Studio <https://visualstudio.microsoft.com/>`_ 2022
+with platform toolset v143.
+
+Next, you can build MPIR using its provided project file.
+For instance, for Python 3.6 to 3.10, this should work::
+
+    msbuild mpir-x.x.x/build.vc14/lib_mpir_gc/lib_mpir_gc.vcxproj /p:Configuration=Release /p:Platform=x64 /p:PlatformToolset=v143
+
+When building pycddlib,
+to tell Python where MPIR is located on your Windows machine, you can use::
+
+    python setup.py build build_ext -I<mpir_include_folder> -L<mpir_lib_folder>
