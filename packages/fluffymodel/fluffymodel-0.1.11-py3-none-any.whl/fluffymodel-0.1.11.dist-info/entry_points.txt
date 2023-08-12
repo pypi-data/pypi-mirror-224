@@ -1,0 +1,3 @@
+[console_scripts]
+fluffymodel=fluffymodel:hf_to_gradio
+
