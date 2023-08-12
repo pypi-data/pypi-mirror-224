@@ -1,0 +1,51 @@
+[tool.poetry]
+name = "poetry-release"
+version = "0.3.1"
+description = "Plugin for release management in projects based on Poetry"
+license = "MIT"
+authors = ["Denis Kayshev <topenkoff@gmail.com>"]
+readme = "README.rst"
+homepage = "https://github.com/topenkoff/poetry-release"
+repository = "https://github.com/topenkoff/poetry-release"
+
+packages = [
+    { include = "poetry_release"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+poetry = "^1.2.0"
+
+[tool.poetry.plugins."poetry.application.plugin"]
+poetry-release = "poetry_release.plugin:ReleasePlugin"
+
+[tool.poetry-release]
+release-replacements = [
+    { file="CHANGELOG.md", pattern="\\[Unreleased\\]", replace="[{version}] - {date}" },
+    { file="CHANGELOG.md", pattern="\\(https://semver.org/spec/v2.0.0.html\\).", replace="(https://semver.org/spec/v2.0.0.html).\n\n## [Unreleased]"},
+]
+release-commit-message = "Release {package_name} {version} 🎉🎉🎉"
+sign-commit = true
+sign-tag = true
+
+[tool.poetry.dev-dependencies]
+mypy = "^1.0"
+isort = "^5.11"
+# flake8 = "^3.9"
+black = "^23.1"
+
+[tool.mypy]
+files = "poetry_release"
+strict = true
+ignore_missing_imports = true
+
+[tool.black]
+line-length = 79
+
+[tool.isort]
+profile = "black"
+atomic = true
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
