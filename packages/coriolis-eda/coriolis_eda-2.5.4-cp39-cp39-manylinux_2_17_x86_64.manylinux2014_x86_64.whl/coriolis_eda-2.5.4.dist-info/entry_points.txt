@@ -1,0 +1,6 @@
+[console_scripts]
+blif2vst=coriolis:blif2vst
+tutorial=coriolis:tutorial
+unittests=coriolis:unittests
+yosys_coriolis=coriolis:yosys_coriolis
+

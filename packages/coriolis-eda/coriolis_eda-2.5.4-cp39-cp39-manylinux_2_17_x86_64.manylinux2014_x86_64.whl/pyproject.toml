@@ -1,0 +1,100 @@
+[tool.poetry]
+name = "coriolis-eda"
+version = "2.5.4"
+description = "Place and Route for semiconductors"
+authors = ["Jean-Paul Chaput <Jean-Paul.Chaput@lip6.fr>"]
+readme = "README.rst"
+homepage = "https://github.com/lip6/coriolis"
+repository = "https://github.com/lip6/coriolis"
+packages = [
+  { include = "coriolis"},
+]
+include = [
+  "COPYRIGHT.rst",
+  "LICENSE.rst",
+  "README.rst",
+  "SUPPORT.rst",
+  "Seabreeze",
+  "anabatic",
+  "bootstrap",
+  "bora",
+  "builder.py",
+  "coloquinte",
+  "crlcore",
+  "cumulus",
+  "equinox",
+  "etesian",
+  "flute",
+  "foehn",
+  "hurricane",
+  "ispd",
+  "karakaze",
+  "katana",
+  "lefdef",
+  "oroshi",
+  "poetry.lock",
+  "pyproject.toml",
+  "solstice",
+  "stratus1",
+  "tramontana",
+  "tutorial",
+  "unicorn",
+  "unittests",
+]
+
+[tool.poetry-dynamic-versioning]
+enable = false
+vcs = "git"
+style = "pep440"
+format-jinja = """
+    {%- if distance == 0 -%}
+        {{ serialize_pep440(base, stage, revision) }}
+    {%- else -%}
+        {{ serialize_pep440(bump_version(base), stage="a", revision=distance) }}
+    {%- endif -%}
+"""
+
+[tool.poetry.dependencies]
+python = "^3.8"
+find-libpython = "^0.3.0"
+
+[tool.poetry.dev-dependencies]
+cmake = ">=3"
+ninja = "^1.11.1"
+
+[tool.poetry.group.doc.dependencies]
+pelican = ">= 4.5.0"
+
+[tool.poetry.build] 
+script = "builder.py" 
+generate-setup-file = true
+
+[tool.poetry.scripts]
+blif2vst =  'coriolis:blif2vst'
+tutorial = 'coriolis:tutorial'
+unittests = 'coriolis:unittests'
+yosys_coriolis = 'coriolis:yosys_coriolis'
+
+[build-system]
+requires = ["poetry-core", "setuptools", "cmake", "ninja", "patchelf", "poetry-dynamic-versioning"]
+build-backend = "poetry_dynamic_versioning.backend"
+
+[tool.cibuildwheel.linux]
+skip = ["cp36-*", "cp37-*", "pp*"]
+build-frontend = "build"
+before-all = '''
+ yum -y install epel-release
+ yum repolist
+ yum install -y \
+ qt5-qtbase-devel qt5-qtsvg-devel \
+ rapidjson-devel bison flex doxygen bzip2-devel flex-devel \
+ boost-devel \
+ boost-python boost-filesystem \
+ boost-regex  boost-wave \
+ python36-devel libxml2-devel \
+ qwt-devel \
+ ccache \
+ eigen3-devel \
+ wget
+ wget http://lemon.cs.elte.hu/pub/sources/lemon-1.3.1.tar.gz; tar -xzf lemon-1.3.1.tar.gz; cd lemon-1.3.1; mkdir build; cd build; cmake ..; make install; cd ../..
+'''
