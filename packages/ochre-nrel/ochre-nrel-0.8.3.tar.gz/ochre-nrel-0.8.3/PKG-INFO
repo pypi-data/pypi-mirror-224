@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ochre-nrel
+Version: 0.8.3
+Summary: A residential energy model with flexible loads and DERs for building-to-grid co-simulation
+Home-page: https://github.com/NREL/OCHRE
+Author: Jeff Maguire
+Author-email: Jeff.Maguire@nrel.gov
+Maintainer: Michael Blonsky
+Maintainer-email: Michael.Blonsky@nrel.gov
+Requires-Python: >=3.9
+License-File: LICENSE
