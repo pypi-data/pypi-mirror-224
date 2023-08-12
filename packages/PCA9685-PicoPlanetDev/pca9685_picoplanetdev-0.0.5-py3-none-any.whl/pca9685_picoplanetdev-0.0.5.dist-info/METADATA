@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: PCA9685_PicoPlanetDev
+Version: 0.0.5
+Summary: Pure Python interface for PCA9685 built on smbus2
+Project-URL: Homepage, https://github.com/PicoPlanetDev/https://github.com/PicoPlanetDev/Python_PCA9685
+Project-URL: Bug Tracker, https://github.com/PicoPlanetDev/Python_PCA9685/issues
+Author-email: Sigmond Kukla <picoplanetdev@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: smbus2
+Description-Content-Type: text/markdown
+
+# Python-PCA9685
+
+A ~~probably~~ definitely not-best-practices way to use the PCA9685 with an Orange Pi Zero 3.
