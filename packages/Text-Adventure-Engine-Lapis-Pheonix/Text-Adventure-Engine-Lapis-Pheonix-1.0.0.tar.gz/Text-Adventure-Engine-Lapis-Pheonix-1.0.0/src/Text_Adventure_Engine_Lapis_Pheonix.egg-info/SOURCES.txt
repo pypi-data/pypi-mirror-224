@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/Text-Adventure-Engine/__init__.py
+src/Text-Adventure-Engine/character.py
+src/Text-Adventure-Engine/error.py
+src/Text-Adventure-Engine/interaction.py
+src/Text-Adventure-Engine/item.py
+src/Text-Adventure-Engine/text.py
+src/Text_Adventure_Engine_Lapis_Pheonix.egg-info/PKG-INFO
+src/Text_Adventure_Engine_Lapis_Pheonix.egg-info/SOURCES.txt
+src/Text_Adventure_Engine_Lapis_Pheonix.egg-info/dependency_links.txt
+src/Text_Adventure_Engine_Lapis_Pheonix.egg-info/top_level.txt
