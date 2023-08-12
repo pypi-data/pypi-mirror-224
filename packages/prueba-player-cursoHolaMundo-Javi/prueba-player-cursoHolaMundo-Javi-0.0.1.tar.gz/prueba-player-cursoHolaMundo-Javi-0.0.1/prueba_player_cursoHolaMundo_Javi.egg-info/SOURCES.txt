@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+paquete/__init__.py
+paquete/player.py
+prueba_player_cursoHolaMundo_Javi.egg-info/PKG-INFO
+prueba_player_cursoHolaMundo_Javi.egg-info/SOURCES.txt
+prueba_player_cursoHolaMundo_Javi.egg-info/dependency_links.txt
+prueba_player_cursoHolaMundo_Javi.egg-info/top_level.txt
