@@ -1,0 +1,12 @@
+-c ${CONSTRAINTS}
+black
+mypy
+pipdeptree
+pip-tools
+pydocstyle
+pylint
+pytest
+pytest-cov
+setuptools_scm
+toml
+update-toml
