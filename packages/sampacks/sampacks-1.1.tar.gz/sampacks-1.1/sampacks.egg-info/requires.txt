@@ -1,0 +1,6 @@
+Functions
+pillow
+setuptools
+requests
+win10toast
+shutil
