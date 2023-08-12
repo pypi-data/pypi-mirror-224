@@ -1,0 +1,620 @@
+Metadata-Version: 2.1
+Name: AdroitFisherman
+Version: 0.0.17
+Summary: This is a simple package about Data Structure packed by C/C++ language.
+Author: adroit_fisherman
+Author-email: 1295284735@qq.com
+Platform: Windows
+Classifier: Development Status :: 1 - Planning
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Utilities
+
+#ifndef CIRCULARSINGLELINKEDLIST_INT
+#define CIRCULARSINGLELINKEDLIST_INT
+#include "framework.h"
+#include "DataStorage.h"
+#include <iostream>
+extern "C" __declspec(dllimport) bool init_list();
+extern "C" __declspec(dllimport) void destroy_list();
+extern "C" __declspec(dllimport) void clear_list();
+extern "C" __declspec(dllimport) bool list_empty();
+extern "C" __declspec(dllimport) int list_length();
+extern "C" __declspec(dllimport) int get_elem(int index);
+extern "C" __declspec(dllimport) int locate_elem(int elem);
+extern "C" __declspec(dllimport) int prior_elem(int elem);
+extern "C" __declspec(dllimport) int next_elem(int elem);
+extern "C" __declspec(dllimport) bool add_first(int elem);
+extern "C" __declspec(dllimport) bool add_after(int elem);
+extern "C" __declspec(dllimport) bool list_insert(int index, int elem);
+extern "C" __declspec(dllimport) bool list_delete(int index);
+extern "C" __declspec(dllimport) void traverse_list();
+#endif // !CIRCULARSINGLELINKEDLIST_INT
+#ifndef CIRCULARSINGLELINKEDLIST_CHAR
+#define CIRCULARSINGLELINKEDLIST_CHAR
+#include "framework.h"
+#include "DataStorage.h"
+#include <iostream>
+extern "C" __declspec(dllimport) bool init_list();
+extern "C" __declspec(dllimport) void destroy_list();
+extern "C" __declspec(dllimport) void clear_list();
+extern "C" __declspec(dllimport) bool list_empty();
+extern "C" __declspec(dllimport) int list_length();
+extern "C" __declspec(dllimport) char get_elem(int index);
+extern "C" __declspec(dllimport) int locate_elem(char elem);
+extern "C" __declspec(dllimport) char prior_elem(char elem);
+extern "C" __declspec(dllimport) char next_elem(char elem);
+extern "C" __declspec(dllimport) bool add_first(char elem);
+extern "C" __declspec(dllimport) bool add_after(char elem);
+extern "C" __declspec(dllimport) bool list_insert(int index, char elem);
+extern "C" __declspec(dllimport) bool list_delete(int index);
+extern "C" __declspec(dllimport) void traverse_list();
+#endif // !CIRCULARSINGLELINKEDLIST_CHAR
+#ifndef CIRCULARSINGLELINKEDLIST_FLOAT
+#define CIRCULARSINGLELINKEDLIST_FLOAT
+#include "framework.h"
+#include "DataStorage.h"
+#include <iostream>
+extern "C" __declspec(dllimport) bool init_list();
+extern "C" __declspec(dllimport) void destroy_list();
+extern "C" __declspec(dllimport) void clear_list();
+extern "C" __declspec(dllimport) bool list_empty();
+extern "C" __declspec(dllimport) int list_length();
+extern "C" __declspec(dllimport) float get_elem(int index);
+extern "C" __declspec(dllimport) int locate_elem(float elem);
+extern "C" __declspec(dllimport) float prior_elem(float elem);
+extern "C" __declspec(dllimport) float next_elem(float elem);
+extern "C" __declspec(dllimport) bool add_first(float elem);
+extern "C" __declspec(dllimport) bool add_after(float elem);
+extern "C" __declspec(dllimport) bool list_insert(int index, float elem);
+extern "C" __declspec(dllimport) bool list_delete(int index);
+extern "C" __declspec(dllimport) void traverse_list();
+#endif // !CIRCULARSINGLELINKEDLIST_FLOAT
+#ifndef CIRCULARSINGLELINKEDLIST_DOUBLE
+#define CIRCULARSINGLELINKEDLIST_DOUBLE
+#include "framework.h"
+#include "DataStorage.h"
+#include <iostream>
+extern "C" __declspec(dllimport) bool init_list();
+extern "C" __declspec(dllimport) void destroy_list();
+extern "C" __declspec(dllimport) void clear_list();
+extern "C" __declspec(dllimport) bool list_empty();
+extern "C" __declspec(dllimport) int list_length();
+extern "C" __declspec(dllimport) double get_elem(int index);
+extern "C" __declspec(dllimport) int locate_elem(double elem);
+extern "C" __declspec(dllimport) double prior_elem(double elem);
+extern "C" __declspec(dllimport) double next_elem(double elem);
+extern "C" __declspec(dllimport) bool add_first(double elem);
+extern "C" __declspec(dllimport) bool add_after(double elem);
+extern "C" __declspec(dllimport) bool list_insert(int index, double elem);
+extern "C" __declspec(dllimport) bool list_delete(int index);
+extern "C" __declspec(dllimport) void traverse_list();
+#endif // !CIRCULARSINGLELINKEDLIST_DOUBLE
+#ifndef CIRCULARSINGLELINKEDLIST_STRING
+#define CIRCULARSINGLELINKEDLIST_STRING
+#include "framework.h"
+#include "DataStorage.h"
+#include <iostream>
+extern "C" __declspec(dllimport) bool init_list();
+extern "C" __declspec(dllimport) void destroy_list();
+extern "C" __declspec(dllimport) void clear_list();
+extern "C" __declspec(dllimport) bool list_empty();
+extern "C" __declspec(dllimport) int list_length();
+extern "C" __declspec(dllimport) char * get_elem(int index);
+extern "C" __declspec(dllimport) int locate_elem(char * elem);
+extern "C" __declspec(dllimport) char * prior_elem(char * elem);
+extern "C" __declspec(dllimport) char * next_elem(char * elem);
+extern "C" __declspec(dllimport) bool add_first(char * elem);
+extern "C" __declspec(dllimport) bool add_after(char * elem);
+extern "C" __declspec(dllimport) bool list_insert(int index, char * elem);
+extern "C" __declspec(dllimport) bool list_delete(int index);
+extern "C" __declspec(dllimport) void traverse_list();
+#endif // !CIRCULARSINGLELINKEDLIST_STRING
+#ifndef DOUBLELINKEDLIST_INT
+#define DOUBLELINKEDLIST_INT
+#include "framework.h"
+#include "DataStorage.h"
+#include <iostream>
+extern "C" __declspec(dllimport) bool init_list();
+extern "C" __declspec(dllimport) void destroy_list();
+extern "C" __declspec(dllimport) void clear_list();
+extern "C" __declspec(dllimport) bool list_empty();
+extern "C" __declspec(dllimport) int list_length();
+extern "C" __declspec(dllimport) int get_elem(int index);
+extern "C" __declspec(dllimport) int locate_elem(int elem);
+extern "C" __declspec(dllimport) int prior_elem(int elem);
+extern "C" __declspec(dllimport) int next_elem(int elem);
+extern "C" __declspec(dllimport) bool add_first(int elem);
+extern "C" __declspec(dllimport) bool add_after(int elem);
+extern "C" __declspec(dllimport) bool list_insert(int index, int elem);
+extern "C" __declspec(dllimport) bool list_delete(int index);
+extern "C" __declspec(dllimport) void traverse_list();
+extern "C" __declspec(dllimport) void traverse_list_by_reverse_order();
+#endif // !DOUBLELINKEDLIST_INT
+#ifndef DOUBLELINKEDLIST_CHAR
+#define DOUBLELINKEDLIST_CHAR
+#include "framework.h"
+#include "DataStorage.h"
+#include <iostream>
+extern "C" __declspec(dllimport) bool init_list();
+extern "C" __declspec(dllimport) void destroy_list();
+extern "C" __declspec(dllimport) void clear_list();
+extern "C" __declspec(dllimport) bool list_empty();
+extern "C" __declspec(dllimport) int list_length();
+extern "C" __declspec(dllimport) char get_elem(int index);
+extern "C" __declspec(dllimport) int locate_elem(char elem);
+extern "C" __declspec(dllimport) char prior_elem(char elem);
+extern "C" __declspec(dllimport) char next_elem(char elem);
+extern "C" __declspec(dllimport) bool add_first(char elem);
+extern "C" __declspec(dllimport) bool add_after(char elem);
+extern "C" __declspec(dllimport) bool list_insert(int index, char elem);
+extern "C" __declspec(dllimport) bool list_delete(int index);
+extern "C" __declspec(dllimport) void traverse_list();
+extern "C" __declspec(dllimport) void traverse_list_by_reverse_order();
+#endif // !DOUBLELINKEDLIST_CHAR
+#ifndef DOUBLELINKEDLIST_FLOAT
+#define DOUBLELINKEDLIST_FLOAT
+#include "framework.h"
+#include "DataStorage.h"
+#include <iostream>
+extern "C" __declspec(dllimport) bool init_list();
+extern "C" __declspec(dllimport) void destroy_list();
+extern "C" __declspec(dllimport) void clear_list();
+extern "C" __declspec(dllimport) bool list_empty();
+extern "C" __declspec(dllimport) int list_length();
+extern "C" __declspec(dllimport) float get_elem(int index);
+extern "C" __declspec(dllimport) int locate_elem(float elem);
+extern "C" __declspec(dllimport) float prior_elem(float elem);
+extern "C" __declspec(dllimport) float next_elem(float elem);
+extern "C" __declspec(dllimport) bool add_first(float elem);
+extern "C" __declspec(dllimport) bool add_after(float elem);
+extern "C" __declspec(dllimport) bool list_insert(int index, float elem);
+extern "C" __declspec(dllimport) bool list_delete(int index);
+extern "C" __declspec(dllimport) void traverse_list();
+extern "C" __declspec(dllimport) void traverse_list_by_reverse_order();
+#endif // !DOUBLELINKEDLIST_FLOAT
+#ifndef DOUBLELINKEDLIST_DOUBLE
+#define DOUBLELINKEDLIST_DOUBLE
+#include "framework.h"
+#include "DataStorage.h"
+#include <iostream>
+extern "C" __declspec(dllimport) bool init_list();
+extern "C" __declspec(dllimport) void destroy_list();
+extern "C" __declspec(dllimport) void clear_list();
+extern "C" __declspec(dllimport) bool list_empty();
+extern "C" __declspec(dllimport) int list_length();
+extern "C" __declspec(dllimport) double get_elem(int index);
+extern "C" __declspec(dllimport) int locate_elem(double elem);
+extern "C" __declspec(dllimport) double prior_elem(double elem);
+extern "C" __declspec(dllimport) double next_elem(double elem);
+extern "C" __declspec(dllimport) bool add_first(double elem);
+extern "C" __declspec(dllimport) bool add_after(double elem);
+extern "C" __declspec(dllimport) bool list_insert(int index, double elem);
+extern "C" __declspec(dllimport) bool list_delete(int index);
+extern "C" __declspec(dllimport) void traverse_list();
+extern "C" __declspec(dllimport) void traverse_list_by_reverse_order();
+#endif // !DOUBLELINKEDLIST_DOUBLE
+#ifndef DOUBLELINKEDLIST_STRING
+#define DOUBLELINKEDLIST_STRING
+#include "framework.h"
+#include "DataStorage.h"
+#include <iostream>
+extern "C" __declspec(dllimport) bool init_list();
+extern "C" __declspec(dllimport) void destroy_list();
+extern "C" __declspec(dllimport) void clear_list();
+extern "C" __declspec(dllimport) bool list_empty();
+extern "C" __declspec(dllimport) int list_length();
+extern "C" __declspec(dllimport) char * get_elem(int index);
+extern "C" __declspec(dllimport) int locate_elem(char * elem);
+extern "C" __declspec(dllimport) char * prior_elem(char * elem);
+extern "C" __declspec(dllimport) char * next_elem(char * elem);
+extern "C" __declspec(dllimport) bool add_first(char * elem);
+extern "C" __declspec(dllimport) bool add_after(char * elem);
+extern "C" __declspec(dllimport) bool list_insert(int index, char * elem);
+extern "C" __declspec(dllimport) bool list_delete(int index);
+extern "C" __declspec(dllimport) void traverse_list();
+extern "C" __declspec(dllimport) void traverse_list_by_reverse_order();
+#endif // !DOUBLELINKEDLIST_STRING
+#ifndef DOUBLELINKEDLISTWITHOUTHEADNODE_INT
+#define DOUBLELINKEDLISTWITHOUTHEADNODE_INT
+#include "framework.h"
+#include "DataStorage.h"
+#include <iostream>
+extern "C" __declspec(dllimport) void init_list();
+extern "C" __declspec(dllimport) void destroy_list();
+extern "C" __declspec(dllimport) void clear_list();
+extern "C" __declspec(dllimport) bool list_empty();
+extern "C" __declspec(dllimport) int list_length();
+extern "C" __declspec(dllimport) int get_elem(int index);
+extern "C" __declspec(dllimport) int locate_elem(int elem);
+extern "C" __declspec(dllimport) int prior_elem(int elem);
+extern "C" __declspec(dllimport) int next_elem(int elem);
+extern "C" __declspec(dllimport) bool add_first(int elem);
+extern "C" __declspec(dllimport) bool add_after(int elem);
+extern "C" __declspec(dllimport) bool list_insert(int index, int elem);
+extern "C" __declspec(dllimport) bool list_delete(int index);
+extern "C" __declspec(dllimport) void traverse_list();
+extern "C" __declspec(dllimport) void traverse_list_by_reverse_order();
+#endif // !DOUBLELINKEDLISTWITHOUTHEADNODE_INT
+#ifndef DOUBLELINKEDLISTWITHOUTHEADNODE_CHAR
+#define DOUBLELINKEDLISTWITHOUTHEADNODE_CHAR
+#include "framework.h"
+#include "DataStorage.h"
+#include <iostream>
+extern "C" __declspec(dllimport) void init_list();
+extern "C" __declspec(dllimport) void destroy_list();
+extern "C" __declspec(dllimport) void clear_list();
+extern "C" __declspec(dllimport) bool list_empty();
+extern "C" __declspec(dllimport) int list_length();
+extern "C" __declspec(dllimport) char get_elem(int index);
+extern "C" __declspec(dllimport) int locate_elem(char elem);
+extern "C" __declspec(dllimport) char prior_elem(char elem);
+extern "C" __declspec(dllimport) char next_elem(char elem);
+extern "C" __declspec(dllimport) bool add_first(char elem);
+extern "C" __declspec(dllimport) bool add_after(char elem);
+extern "C" __declspec(dllimport) bool list_insert(int index, char elem);
+extern "C" __declspec(dllimport) bool list_delete(int index);
+extern "C" __declspec(dllimport) void traverse_list();
+extern "C" __declspec(dllimport) void traverse_list_by_reverse_order();
+#endif // !DOUBLELINKEDLISTWITHOUTHEADNODE_CHAR
+#ifndef DOUBLELINKEDLISTWITHOUTHEADNODE_FLOAT
+#define DOUBLELINKEDLISTWITHOUTHEADNODE_FLOAT
+#include "framework.h"
+#include "DataStorage.h"
+#include <iostream>
+extern "C" __declspec(dllimport) void init_list();
+extern "C" __declspec(dllimport) void destroy_list();
+extern "C" __declspec(dllimport) void clear_list();
+extern "C" __declspec(dllimport) bool list_empty();
+extern "C" __declspec(dllimport) int list_length();
+extern "C" __declspec(dllimport) float get_elem(int index);
+extern "C" __declspec(dllimport) int locate_elem(float elem);
+extern "C" __declspec(dllimport) float prior_elem(float elem);
+extern "C" __declspec(dllimport) float next_elem(float elem);
+extern "C" __declspec(dllimport) bool add_first(float elem);
+extern "C" __declspec(dllimport) bool add_after(float elem);
+extern "C" __declspec(dllimport) bool list_insert(int index, float elem);
+extern "C" __declspec(dllimport) bool list_delete(int index);
+extern "C" __declspec(dllimport) void traverse_list();
+extern "C" __declspec(dllimport) void traverse_list_by_reverse_order();
+#endif // !DOUBLELINKEDLISTWITHOUTHEADNODE_FLOAT
+#ifndef DOUBLELINKEDLISTWITHOUTHEADNODE_DOUBLE
+#define DOUBLELINKEDLISTWITHOUTHEADNODE_DOUBLE
+#include "framework.h"
+#include "DataStorage.h"
+#include <iostream>
+extern "C" __declspec(dllimport) void init_list();
+extern "C" __declspec(dllimport) void destroy_list();
+extern "C" __declspec(dllimport) void clear_list();
+extern "C" __declspec(dllimport) bool list_empty();
+extern "C" __declspec(dllimport) int list_length();
+extern "C" __declspec(dllimport) double get_elem(int index);
+extern "C" __declspec(dllimport) int locate_elem(double elem);
+extern "C" __declspec(dllimport) double prior_elem(double elem);
+extern "C" __declspec(dllimport) double next_elem(double elem);
+extern "C" __declspec(dllimport) bool add_first(double elem);
+extern "C" __declspec(dllimport) bool add_after(double elem);
+extern "C" __declspec(dllimport) bool list_insert(int index, double elem);
+extern "C" __declspec(dllimport) bool list_delete(int index);
+extern "C" __declspec(dllimport) void traverse_list();
+extern "C" __declspec(dllimport) void traverse_list_by_reverse_order();
+#endif // !DOUBLELINKEDLISTWITHOUTHEADNODE_DOUBLE
+#ifndef DOUBLELINKEDLISTWITHOUTHEADNODE_STRING
+#define DOUBLELINKEDLISTWITHOUTHEADNODE_STRING
+#include "framework.h"
+#include "DataStorage.h"
+#include <iostream>
+extern "C" __declspec(dllimport) void init_list();
+extern "C" __declspec(dllimport) void destroy_list();
+extern "C" __declspec(dllimport) void clear_list();
+extern "C" __declspec(dllimport) bool list_empty();
+extern "C" __declspec(dllimport) int list_length();
+extern "C" __declspec(dllimport) char * get_elem(int index);
+extern "C" __declspec(dllimport) int locate_elem(char * elem);
+extern "C" __declspec(dllimport) char * prior_elem(char * elem);
+extern "C" __declspec(dllimport) char * next_elem(char * elem);
+extern "C" __declspec(dllimport) bool add_first(char * elem);
+extern "C" __declspec(dllimport) bool add_after(char * elem);
+extern "C" __declspec(dllimport) bool list_insert(int index, char * elem);
+extern "C" __declspec(dllimport) bool list_delete(int index);
+extern "C" __declspec(dllimport) void traverse_list();
+extern "C" __declspec(dllimport) void traverse_list_by_reverse_order();
+#endif // !DOUBLELINKEDLISTWITHOUTHEADNODE_STRING
+#ifndef SEQUENTIALLIST_INT
+#define SEQUENTIALLIST_INT
+#include "framework.h"
+#include "DataStorage.h"
+#include <iostream>
+extern "C" __declspec(dllimport) void set_capacity(int maxsize);
+extern "C" __declspec(dllimport) bool init_list();
+extern "C" __declspec(dllimport) void destroy_list();
+extern "C" __declspec(dllimport) void clear_list();
+extern "C" __declspec(dllimport) bool list_empty();
+extern "C" __declspec(dllimport) int list_length();
+extern "C" __declspec(dllimport) int get_elem(int index);
+extern "C" __declspec(dllimport) int locate_elem(int elem);
+extern "C" __declspec(dllimport) int prior_elem(int elem);
+extern "C" __declspec(dllimport) int next_elem(int elem);
+extern "C" __declspec(dllimport) bool list_insert(int index, int elem);
+extern "C" __declspec(dllimport) bool list_delete(int index);
+extern "C" __declspec(dllimport) void traverse_list();
+#endif // !SEQUENTIALLIST_INT
+#ifndef SEQUENTIALLIST_CHAR
+#define SEQUENTIALLIST_CHAR
+#include "framework.h"
+#include "DataStorage.h"
+#include <iostream>
+extern "C" __declspec(dllimport) void set_capacity(int maxsize);
+extern "C" __declspec(dllimport) bool init_list();
+extern "C" __declspec(dllimport) void destroy_list();
+extern "C" __declspec(dllimport) void clear_list();
+extern "C" __declspec(dllimport) bool list_empty();
+extern "C" __declspec(dllimport) int list_length();
+extern "C" __declspec(dllimport) char get_elem(int index);
+extern "C" __declspec(dllimport) int locate_elem(char elem);
+extern "C" __declspec(dllimport) char prior_elem(char elem);
+extern "C" __declspec(dllimport) char next_elem(char elem);
+extern "C" __declspec(dllimport) bool list_insert(int index, char elem);
+extern "C" __declspec(dllimport) bool list_delete(int index);
+extern "C" __declspec(dllimport) void traverse_list();
+#endif // !SEQUENTIALLIST_CHAR
+#ifndef SEQUENTIALLIST_FLOAT
+#define SEQUENTIALLIST_FLOAT
+#include "framework.h"
+#include "DataStorage.h"
+#include <iostream>
+extern "C" __declspec(dllimport) void set_capacity(int maxsize);
+extern "C" __declspec(dllimport) bool init_list();
+extern "C" __declspec(dllimport) void destroy_list();
+extern "C" __declspec(dllimport) void clear_list();
+extern "C" __declspec(dllimport) bool list_empty();
+extern "C" __declspec(dllimport) int list_length();
+extern "C" __declspec(dllimport) float get_elem(int index);
+extern "C" __declspec(dllimport) int locate_elem(float elem);
+extern "C" __declspec(dllimport) float prior_elem(float elem);
+extern "C" __declspec(dllimport) float next_elem(float elem);
+extern "C" __declspec(dllimport) bool list_insert(int index, float elem);
+extern "C" __declspec(dllimport) bool list_delete(int index);
+extern "C" __declspec(dllimport) void traverse_list();
+#endif // !SEQUENTIALLIST_FLOAT
+#ifndef SEQUENTIALLIST_DOUBLE
+#define SEQUENTIALLIST_DOUBLE
+#include "framework.h"
+#include "DataStorage.h"
+#include <iostream>
+extern "C" __declspec(dllimport) void set_capacity(int maxsize);
+extern "C" __declspec(dllimport) bool init_list();
+extern "C" __declspec(dllimport) void destroy_list();
+extern "C" __declspec(dllimport) void clear_list();
+extern "C" __declspec(dllimport) bool list_empty();
+extern "C" __declspec(dllimport) int list_length();
+extern "C" __declspec(dllimport) double get_elem(int index);
+extern "C" __declspec(dllimport) int locate_elem(double elem);
+extern "C" __declspec(dllimport) double prior_elem(double elem);
+extern "C" __declspec(dllimport) double next_elem(double elem);
+extern "C" __declspec(dllimport) bool list_insert(int index, double elem);
+extern "C" __declspec(dllimport) bool list_delete(int index);
+extern "C" __declspec(dllimport) void traverse_list();
+#endif // !SEQUENTIALLIST_DOUBLE
+#ifndef SEQUENTIALLIST_STRING
+#define SEQUENTIALLIST_STRING
+#include "framework.h"
+#include "DataStorage.h"
+#include <iostream>
+extern "C" __declspec(dllimport) void set_capacity(int maxsize);
+extern "C" __declspec(dllimport) bool init_list();
+extern "C" __declspec(dllimport) void destroy_list();
+extern "C" __declspec(dllimport) void clear_list();
+extern "C" __declspec(dllimport) bool list_empty();
+extern "C" __declspec(dllimport) int list_length();
+extern "C" __declspec(dllimport) char * get_elem(int index);
+extern "C" __declspec(dllimport) int locate_elem(char * elem);
+extern "C" __declspec(dllimport) char * prior_elem(char * elem);
+extern "C" __declspec(dllimport) char * next_elem(char * elem);
+extern "C" __declspec(dllimport) bool list_insert(int index, char * elem);
+extern "C" __declspec(dllimport) bool list_delete(int index);
+extern "C" __declspec(dllimport) void traverse_list();
+#endif // !SEQUENTIALLIST_STRING
+#ifndef SINGLELINKEDLIST_FLOAT
+#define SINGLELINKEDLIST_FLOAT
+#include "framework.h"
+#include "DataStorage.h"
+#include <iostream>
+extern "C" __declspec(dllimport) bool init_list();
+extern "C" __declspec(dllimport) void destroy_list();
+extern "C" __declspec(dllimport) void clear_list();
+extern "C" __declspec(dllimport) bool list_empty();
+extern "C" __declspec(dllimport) int list_length();
+extern "C" __declspec(dllimport) int get_elem(int index);
+extern "C" __declspec(dllimport) int locate_elem(int elem);
+extern "C" __declspec(dllimport) int prior_elem(int elem);
+extern "C" __declspec(dllimport) int next_elem(int elem);
+extern "C" __declspec(dllimport) bool add_first(int elem);
+extern "C" __declspec(dllimport) bool add_after(int elem);
+extern "C" __declspec(dllimport) bool list_insert(int index, int elem);
+extern "C" __declspec(dllimport) bool list_delete(int index);
+extern "C" __declspec(dllimport) void traverse_list();
+#endif // !SINGLELINKEDLIST_FLOAT
+#ifndef SINGLELINKEDLIST_CHAR
+#define SINGLELINKEDLIST_CHAR
+#include "framework.h"
+#include "DataStorage.h"
+#include <iostream>
+extern "C" __declspec(dllimport) bool init_list();
+extern "C" __declspec(dllimport) void destroy_list();
+extern "C" __declspec(dllimport) void clear_list();
+extern "C" __declspec(dllimport) bool list_empty();
+extern "C" __declspec(dllimport) int list_length();
+extern "C" __declspec(dllimport) char get_elem(int index);
+extern "C" __declspec(dllimport) int locate_elem(char elem);
+extern "C" __declspec(dllimport) char prior_elem(char elem);
+extern "C" __declspec(dllimport) char next_elem(char elem);
+extern "C" __declspec(dllimport) bool add_first(char elem);
+extern "C" __declspec(dllimport) bool add_after(char elem);
+extern "C" __declspec(dllimport) bool list_insert(int index, char elem);
+extern "C" __declspec(dllimport) bool list_delete(int index);
+extern "C" __declspec(dllimport) void traverse_list();
+#endif // !SINGLELINKEDLIST_CHAR
+#ifndef SINGLELINKEDLIST_FLOAT
+#define SINGLELINKEDLIST_FLOAT
+#include "framework.h"
+#include "DataStorage.h"
+#include <iostream>
+extern "C" __declspec(dllimport) bool init_list();
+extern "C" __declspec(dllimport) void destroy_list();
+extern "C" __declspec(dllimport) void clear_list();
+extern "C" __declspec(dllimport) bool list_empty();
+extern "C" __declspec(dllimport) int list_length();
+extern "C" __declspec(dllimport) float get_elem(int index);
+extern "C" __declspec(dllimport) int locate_elem(float elem);
+extern "C" __declspec(dllimport) float prior_elem(float elem);
+extern "C" __declspec(dllimport) float next_elem(float elem);
+extern "C" __declspec(dllimport) bool add_first(float elem);
+extern "C" __declspec(dllimport) bool add_after(float elem);
+extern "C" __declspec(dllimport) bool list_insert(int index, float elem);
+extern "C" __declspec(dllimport) bool list_delete(int index);
+extern "C" __declspec(dllimport) void traverse_list();
+#endif // !SINGLELINKEDLIST_FLOAT
+#ifndef SINGLELINKEDLIST_DOUBLE
+#define SINGLELINKEDLIST_DOUBLE
+#include "framework.h"
+#include "DataStorage.h"
+#include <iostream>
+extern "C" __declspec(dllimport) bool init_list();
+extern "C" __declspec(dllimport) void destroy_list();
+extern "C" __declspec(dllimport) void clear_list();
+extern "C" __declspec(dllimport) bool list_empty();
+extern "C" __declspec(dllimport) int list_length();
+extern "C" __declspec(dllimport) double get_elem(int index);
+extern "C" __declspec(dllimport) int locate_elem(double elem);
+extern "C" __declspec(dllimport) double prior_elem(double elem);
+extern "C" __declspec(dllimport) double next_elem(double elem);
+extern "C" __declspec(dllimport) bool add_first(double elem);
+extern "C" __declspec(dllimport) bool add_after(double elem);
+extern "C" __declspec(dllimport) bool list_insert(int index, double elem);
+extern "C" __declspec(dllimport) bool list_delete(int index);
+extern "C" __declspec(dllimport) void traverse_list();
+#endif // !SINGLELINKEDLIST_DOUBLE
+#ifndef SINGLELINKEDLIST_STRING
+#define SINGLELINKEDLIST_STRING
+#include "framework.h"
+#include "DataStorage.h"
+#include <iostream>
+extern "C" __declspec(dllimport) bool init_list();
+extern "C" __declspec(dllimport) void destroy_list();
+extern "C" __declspec(dllimport) void clear_list();
+extern "C" __declspec(dllimport) bool list_empty();
+extern "C" __declspec(dllimport) int list_length();
+extern "C" __declspec(dllimport) char * get_elem(int index);
+extern "C" __declspec(dllimport) int locate_elem(char * elem);
+extern "C" __declspec(dllimport) char * prior_elem(char * elem);
+extern "C" __declspec(dllimport) char * next_elem(char * elem);
+extern "C" __declspec(dllimport) bool add_first(char * elem);
+extern "C" __declspec(dllimport) bool add_after(char * elem);
+extern "C" __declspec(dllimport) bool list_insert(int index, char * elem);
+extern "C" __declspec(dllimport) bool list_delete(int index);
+extern "C" __declspec(dllimport) void traverse_list();
+#endif // !SINGLELINKEDLIST_STRING
+#ifndef SINGLELINKEDLISTWITHOUTHEADNODE_INT
+#define SINGLELINKEDLISTWITHOUTHEADNODE_INT
+#include "framework.h"
+#include "DataStorage.h"
+#include <iostream>
+extern "C" __declspec(dllimport) void init_list();
+extern "C" __declspec(dllimport) void destroy_list();
+extern "C" __declspec(dllimport) void clear_list();
+extern "C" __declspec(dllimport) bool list_empty();
+extern "C" __declspec(dllimport) int list_length();
+extern "C" __declspec(dllimport) int get_elem(int index);
+extern "C" __declspec(dllimport) int locate_elem(int elem);
+extern "C" __declspec(dllimport) int prior_elem(int elem);
+extern "C" __declspec(dllimport) int next_elem(int elem);
+extern "C" __declspec(dllimport) bool add_first(int elem);
+extern "C" __declspec(dllimport) bool add_after(int elem);
+extern "C" __declspec(dllimport) bool list_insert(int index, int elem);
+extern "C" __declspec(dllimport) bool list_delete(int index);
+extern "C" __declspec(dllimport) void traverse_list();
+#endif // !SINGLELINKEDLISTWITHOUTHEADNODE_INT
+#ifndef SINGLELINKEDLISTWITHOUTHEADNODE_CHAR
+#define SINGLELINKEDLISTWITHOUTHEADNODE_CHAR
+#include "framework.h"
+#include "DataStorage.h"
+#include <iostream>
+extern "C" __declspec(dllimport) void init_list();
+extern "C" __declspec(dllimport) void destroy_list();
+extern "C" __declspec(dllimport) void clear_list();
+extern "C" __declspec(dllimport) bool list_empty();
+extern "C" __declspec(dllimport) int list_length();
+extern "C" __declspec(dllimport) char get_elem(int index);
+extern "C" __declspec(dllimport) int locate_elem(char elem);
+extern "C" __declspec(dllimport) char prior_elem(char elem);
+extern "C" __declspec(dllimport) char next_elem(char elem);
+extern "C" __declspec(dllimport) bool add_first(char elem);
+extern "C" __declspec(dllimport) bool add_after(char elem);
+extern "C" __declspec(dllimport) bool list_insert(int index, char elem);
+extern "C" __declspec(dllimport) bool list_delete(int index);
+extern "C" __declspec(dllimport) void traverse_list();
+#endif // !SINGLELINKEDLISTWITHOUTHEADNODE_CHAR
+#ifndef SINGLELINKEDLISTWITHOUTHEADNODE_FLOAT
+#define SINGLELINKEDLISTWITHOUTHEADNODE_FLOAT
+#include "framework.h"
+#include "DataStorage.h"
+#include <iostream>
+extern "C" __declspec(dllimport) void init_list();
+extern "C" __declspec(dllimport) void destroy_list();
+extern "C" __declspec(dllimport) void clear_list();
+extern "C" __declspec(dllimport) bool list_empty();
+extern "C" __declspec(dllimport) int list_length();
+extern "C" __declspec(dllimport) float get_elem(int index);
+extern "C" __declspec(dllimport) int locate_elem(float elem);
+extern "C" __declspec(dllimport) float prior_elem(float elem);
+extern "C" __declspec(dllimport) float next_elem(float elem);
+extern "C" __declspec(dllimport) bool add_first(float elem);
+extern "C" __declspec(dllimport) bool add_after(float elem);
+extern "C" __declspec(dllimport) bool list_insert(int index, float elem);
+extern "C" __declspec(dllimport) bool list_delete(int index);
+extern "C" __declspec(dllimport) void traverse_list();
+#endif // !SINGLELINKEDLISTWITHOUTHEADNODE_FLOAT
+#ifndef SINGLELINKEDLISTWITHOUTHEADNODE_DOUBLE
+#define SINGLELINKEDLISTWITHOUTHEADNODE_DOUBLE
+#include "framework.h"
+#include "DataStorage.h"
+#include <iostream>
+extern "C" __declspec(dllimport) void init_list();
+extern "C" __declspec(dllimport) void destroy_list();
+extern "C" __declspec(dllimport) void clear_list();
+extern "C" __declspec(dllimport) bool list_empty();
+extern "C" __declspec(dllimport) int list_length();
+extern "C" __declspec(dllimport) double get_elem(int index);
+extern "C" __declspec(dllimport) int locate_elem(double elem);
+extern "C" __declspec(dllimport) double prior_elem(double elem);
+extern "C" __declspec(dllimport) double next_elem(double elem);
+extern "C" __declspec(dllimport) bool add_first(double elem);
+extern "C" __declspec(dllimport) bool add_after(double elem);
+extern "C" __declspec(dllimport) bool list_insert(int index, double elem);
+extern "C" __declspec(dllimport) bool list_delete(int index);
+extern "C" __declspec(dllimport) void traverse_list();
+#endif // !SINGLELINKEDLISTWITHOUTHEADNODE_DOUBLE
+#ifndef SINGLELINKEDLISTWITHOUTHEADNODE_STRING
+#define SINGLELINKEDLISTWITHOUTHEADNODE_STRING
+#include "framework.h"
+#include "DataStorage.h"
+#include <iostream>
+extern "C" __declspec(dllimport) void init_list();
+extern "C" __declspec(dllimport) void destroy_list();
+extern "C" __declspec(dllimport) void clear_list();
+extern "C" __declspec(dllimport) bool list_empty();
+extern "C" __declspec(dllimport) int list_length();
+extern "C" __declspec(dllimport) char * get_elem(int index);
+extern "C" __declspec(dllimport) int locate_elem(char * elem);
+extern "C" __declspec(dllimport) char * prior_elem(char * elem);
+extern "C" __declspec(dllimport) char * next_elem(char * elem);
+extern "C" __declspec(dllimport) bool add_first(char * elem);
+extern "C" __declspec(dllimport) bool add_after(char * elem);
+extern "C" __declspec(dllimport) bool list_insert(int index, char * elem);
+extern "C" __declspec(dllimport) bool list_delete(int index);
+extern "C" __declspec(dllimport) void traverse_list();
+#endif // !SINGLELINKEDLISTWITHOUTHEADNODE_STRING
