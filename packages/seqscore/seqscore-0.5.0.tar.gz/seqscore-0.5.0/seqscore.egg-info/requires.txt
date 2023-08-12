@@ -1,0 +1,6 @@
+attrs>=19.2.0
+click
+tabulate
+
+[:python_version < "3.8"]
+typing_extensions
