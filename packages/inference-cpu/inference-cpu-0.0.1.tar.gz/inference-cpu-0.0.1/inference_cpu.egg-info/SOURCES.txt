@@ -1,0 +1,8 @@
+README.md
+setup.py
+inference_cpu/__init__.py
+inference_cpu.egg-info/PKG-INFO
+inference_cpu.egg-info/SOURCES.txt
+inference_cpu.egg-info/dependency_links.txt
+inference_cpu.egg-info/requires.txt
+inference_cpu.egg-info/top_level.txt
