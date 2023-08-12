@@ -1,0 +1,17 @@
+CGFCore/BayesianGameFile.py,sha256=z6Pz38FBFRmBWrC6UN9DIrB6mmeez5AQCw1l9zPHU8Y,749
+CGFCore/ComposedGameFile.py,sha256=pianKF1C09Igmu0WVYJ25-YmuOn8YF0bN_sanPmtlJU,892
+CGFCore/GameFile.py,sha256=peY9HK0i-iE2wWJEIo2g0GJFk0N0S88gzY_f-18XbXM,315
+CGFCore/ImperfectInformationGame.py,sha256=Jm7obEvGLoD2q8gj1OpODuXAOMmBQzuaWkGPRf-Be98,1908
+CGFCore/NonZeroSumGameFile.py,sha256=XtRMLfyBPTxi2dNlp-ykZCoIC84kbRgWMF0Gz_PZcMg,2128
+CGFCore/SequentialGameFile.py,sha256=t0nXXx7QGIrQPLqJKCTmFS_Txz9oaIjtlTam_ji4VHo,598
+CGFCore/StochasticGameFile.py,sha256=96lBqTfS8PlLYo406zi7ZzLSHQoBK1g8NgAkX_oYXzc,2051
+CGFCore/ZeroSumGameFile.py,sha256=xbD6t9YvjDXXlvCe2zmb_abgLObEn5URN4u3PLrfI6Q,2486
+CGFCore/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+CGFCore/main.py,sha256=ks79NWZkk10uboaC5p6iG_jx3aVZUaMYtwi1Bgl_2Tw,5786
+CGFCore/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+CGFCore/test/evaluate.py,sha256=A1HdKZnm7g9tdsSu1vNxSi9kKuA-ufgLny6yyBkTT9s,845
+CGF-0.0.3.dist-info/LICENSE.txt,sha256=twB8h2SgjX9GKbojKeW-xtgHzOn-KHqdQ8jU51kZxoc,1077
+CGF-0.0.3.dist-info/METADATA,sha256=507zttkTGOPL7ah4ntMttWCMVKa47j-9qaMdyI_915s,492
+CGF-0.0.3.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+CGF-0.0.3.dist-info/top_level.txt,sha256=dufGnD16YYh3yN0Yd4oGJloZaQIHTcQEff9hG9mIL8w,8
+CGF-0.0.3.dist-info/RECORD,,
