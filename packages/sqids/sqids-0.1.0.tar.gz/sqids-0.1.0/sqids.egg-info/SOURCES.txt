@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+sqids.py
+sqids.egg-info/PKG-INFO
+sqids.egg-info/SOURCES.txt
+sqids.egg-info/dependency_links.txt
+sqids.egg-info/top_level.txt
