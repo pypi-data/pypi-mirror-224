@@ -1,0 +1,10 @@
+zran.cpython-310-x86_64-linux-gnu.so,sha256=CrQZ_U-jv5ufN-ucMJ_OagqnLzNtBQwkplmRlQjp6ZA,1489088
+zran/zranlib.c,sha256=DakZyjNiGppO_J-NW_mPhiccLa7nm_x5__e-Cy7Tnzc,813843
+zran/zran.pxd,sha256=QFZj_gx3NLq25x-rhF-u65LQZ2PCnuNo8cB99jBLxAs,926
+zran/zran.h,sha256=fryVkrPSNJTegBI0BCSOtaJIfwkT9sXLVVuVzwIjdRA,2742
+zran/zranlib.pyx,sha256=7yp7X56iKtvrKmZPcxIDSXVcWWuTbI3vEjdszE2WWj8,13529
+zran/zran.c,sha256=K60n26eCq8FLmtSOtQ4wzk2DYtBcfj_edKBEzA3ZB9o,17615
+zran-0.1.0.dist-info/RECORD,,
+zran-0.1.0.dist-info/top_level.txt,sha256=5wEQYufNxrxGfA16sIZMn3MXkSDvItuudc0R1gBtgVM,5
+zran-0.1.0.dist-info/METADATA,sha256=Dfopb1VV--BkHnXs4lVWKflwpwmzQANMGQ9I1KvSnwI,4287
+zran-0.1.0.dist-info/WHEEL,sha256=WM3Jrkbc-xe4mIMxUBIYGsri4OoxNzMzRWfX8kKy4N4,113
