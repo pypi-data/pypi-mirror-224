@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: disk-formator
+Version: 1.0.0
+Summary: It's a little program in Python to format disks.
+Project-URL: Documentation, https://github.com/Useless-Projects/disk-formator#readme
+Project-URL: Issues, https://github.com/Useless-Projects/disk-formator/issues
+Project-URL: Source, https://github.com/Useless-Projects/disk-formator
+Author-email: Thibault Savenkoff <thibault.savenkoff@outlook.fr>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Framework :: Hatch
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Security
+Classifier: Topic :: System
+Requires-Python: >=3.7
+Requires-Dist: psutil
+Description-Content-Type: text/markdown
+
+# Disk Formator
+
+[![PyPI - Version](https://img.shields.io/pypi/v/disk-formator?style=flat-square&logo=PyPI&label=Version%3A)](https://pypi.org/project/disk-formator)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/disk-formator?style=flat-square&logo=python&logoColor=%23ffd343&label=Version%20of%20Python%3A
+)](https://pypi.org/project/disk-formator)
+![License](https://img.shields.io/badge/License%3A-MIT-red?style=flat-square)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/disk-formator?style=flat-square&label=Downloads%3A)
+[![GitHub - Last Commit](https://img.shields.io/github/last-commit/Useless-Projects/Disk-Formator?style=flat-square&label=Last%20Commit%3A)](https://github.com/Useless-Projects/Disk-Formator/commits/main/)
+![Size](https://img.shields.io/github/repo-size/Useless-Projects/Disk-Formator?style=flat-square&label=Size%3A&color=teal)
+
+It's a little program in Python to format disks.
+
+## Installation
+
+```console
+pip install disk-formator
+```
+
+## Usage
+
+```console
+python -m disk_formator
+```
+
+or
+
+```python
+import disk_formator
+```
