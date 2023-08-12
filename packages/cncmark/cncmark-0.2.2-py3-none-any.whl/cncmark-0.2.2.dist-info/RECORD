@@ -1,0 +1,7 @@
+cncmark/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cncmark/config.py,sha256=exJ2GONin0MF0lxUoNIde2Yeg5CsC4Dgzas-BwWMQXU,310
+cncmark/gcode.py,sha256=3r5f4zCPS6vtBD0KMFwUSQc-NDPR6Qab7PRyh6qtUHA,1193
+cncmark/point.py,sha256=6itJEGRbuk_-2X0-cYarDLazlD38Ilmn0ZtB8E5Zgcs,3070
+cncmark-0.2.2.dist-info/METADATA,sha256=182C8rSlrOHQLPAZeNRNynqXB9W1MT1yrn2yKknTJBo,672
+cncmark-0.2.2.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+cncmark-0.2.2.dist-info/RECORD,,
