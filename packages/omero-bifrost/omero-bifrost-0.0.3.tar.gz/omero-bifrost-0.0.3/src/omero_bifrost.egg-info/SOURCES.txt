@@ -1,0 +1,13 @@
+LICENSE
+README.md
+requirements.txt
+setup.cfg
+setup.py
+src/omero_bifrost/__init__.py
+src/omero_bifrost/cli.py
+src/omero_bifrost.egg-info/PKG-INFO
+src/omero_bifrost.egg-info/SOURCES.txt
+src/omero_bifrost.egg-info/dependency_links.txt
+src/omero_bifrost.egg-info/entry_points.txt
+src/omero_bifrost.egg-info/requires.txt
+src/omero_bifrost.egg-info/top_level.txt

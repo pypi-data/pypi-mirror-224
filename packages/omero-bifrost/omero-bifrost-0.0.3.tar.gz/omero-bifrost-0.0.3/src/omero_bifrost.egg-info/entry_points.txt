@@ -1,0 +1,2 @@
+[console_scripts]
+omero-bifrost = omero_bifrost.cli:app
