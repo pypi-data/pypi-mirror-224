@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: lcapi
+Version: 0.9.3
+Summary: A CLI client for the lc API.
+Home-page: https://github.com/unix-ninja/lcapi
+Author: unix-ninja
+Author-email: chris@unix-ninja.com
+License: BSD
+Requires-Python: >=3.9.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# lcapi
+lc api client
