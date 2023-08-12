@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: lux-discord
+Version: 0.1.0
+Summary: Lightweight Python Discord bot framework
+License: MIT
+Author: Euxcbsks
+Author-email: hawhaw02030746@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: colorlog
+Provides-Extra: dotenv
+Provides-Extra: mongodb
+Requires-Dist: beanie (>=1.20.0,<2.0.0) ; extra == "mongodb"
+Requires-Dist: click (>=8.1.6,<9.0.0)
+Requires-Dist: colorlog (>=6.7.0,<7.0.0) ; extra == "colorlog"
+Requires-Dist: disnake (>=2.9.0,<3.0.0)
+Requires-Dist: pydantic (>=2.1.1,<3.0.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0) ; extra == "dotenv"
+Description-Content-Type: text/markdown
+
+# lux
+Lightweight Python Discord bot framework
+
