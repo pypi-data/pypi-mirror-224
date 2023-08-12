@@ -1,0 +1,11 @@
+lcapi/__init__.py,sha256=JxmqMFMFnpVUIJ2A50COas9G5Q5RGnu67a8BLXhcv2A,27
+lcapi/__main__.py,sha256=RzR8KmQ4639p6e7upFp5jZ9eOFLq1BpIvaVPbNqiYDk,64
+lcapi/cli.py,sha256=wcPLm5z-VJfP2xv0ZLtSS_Xu1xvpIMYUw6xGxfAVnFI,3147
+lcapi/commands.py,sha256=57w4Qxp9gXQzebh1Gk4g-hT9tHRsSo6AMeS_-FKMmyg,1965
+lcapi/config.py,sha256=tkKry5m5Vrur8F2EdW81YaJi8lAmPlHN57WwdJgOw34,910
+lcapi-0.9.5.dist-info/LICENSE,sha256=7L3cU0ukWAFBPXTy6GZ-B2PTCzQtRZDGMM_or_bfOXI,1299
+lcapi-0.9.5.dist-info/METADATA,sha256=s2LDXL5QomMB0zsTCW1RbkMN4PMspGoTTzB6CMQY77o,335
+lcapi-0.9.5.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+lcapi-0.9.5.dist-info/entry_points.txt,sha256=ThgPM9YikKm5MspoWw-YgK98ktRXYGsB0xmA1dH7xRU,37
+lcapi-0.9.5.dist-info/top_level.txt,sha256=2k2IlhnTTyFvMo8fNAuji32nMbjJAN_2SZNfkYNk6IU,6
+lcapi-0.9.5.dist-info/RECORD,,
