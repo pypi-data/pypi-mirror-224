@@ -1,0 +1,88 @@
+[project]
+name = "menderbot"
+dynamic = ["version"]
+description = "The AI-powered command line tool for working with legacy code"
+readme = "README.md"
+authors = [{ name = "Ray Myers" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Development Status :: 3 - Alpha",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Quality Assurance",
+    "Topic :: Software Development :: Documentation",
+    "Topic :: Software Development :: Code Generators"
+]
+keywords = ["ai", "gpt", "refactoring", "legacy", "code"]
+dependencies = [
+    "click >= 8.0.0",
+    "rich-click >= 1.6.0",
+    "charset-normalizer >= 3.2.0",
+    "tiktoken",
+    "llama-index >= 0.7.12",
+    "rich-click",
+    "gitpython",
+    "antlr4-python3-runtime"
+]
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+dev = [
+    "black", 
+    "bumpver", 
+    "isort", 
+    "pip-tools", 
+    "pytest",
+    "pylint",
+    "mypy",
+    "pre-commit",
+    "pytest-cov",
+    "types-PyYAML"
+]
+
+[project.urls]
+Homepage = "https://github.com/craftvscruft/menderbot"
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+menderbot = "menderbot:cli"
+
+[tool.setuptools]
+packages = ["menderbot"]
+
+platforms = [
+    'Linux',
+    'Mac OSX',
+    'Windows',
+]
+
+[tool.setuptools.dynamic]
+version = {attr = "menderbot.__version__"}
+
+[tool.black]
+exclude = "vendor"
+extend-exclude = "menderbot/antlr_generated"
+
+"README.md" = [
+    "{version}",
+    "{pep440_version}",
+]
+
+[tool.pylint.main]
+ignore-paths = ["vendor|vendor", "menderbot\\\\antlr_generated|menderbot/antlr_generated"]
+
+[tool.mypy]
+python_version = 3.9
+
+[[tool.mypy.overrides]]
+module = [
+    'vendor.*',
+    'menderbot.antlr_generated.*'
+]
+ignore_errors = true
+ignore_missing_imports = true
