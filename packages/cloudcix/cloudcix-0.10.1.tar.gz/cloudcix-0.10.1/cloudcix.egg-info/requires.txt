@@ -1,0 +1,4 @@
+opentracing
+psycopg2
+python-dateutil
+requests
