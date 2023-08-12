@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pymagsac-testing
+Version: 0.3.0
+Summary: MAGSAC and MAGSAC++
+Author: Daniel Barath, Dmytro Mishkin
+Author-email: barath.daniel@sztaki.hu
+License-File: LICENSE
+Requires-Dist: numpy
+
+Robust estimator for H, F and E estimation.
