@@ -1,0 +1,11 @@
+datasourcelib/__init__.py,sha256=qdbi4wwCvwyV-S9OyIpFbMxC0C48ZSPQkatrShcVMGs,364
+datasourcelib/database.py,sha256=2-h6iAsqR4ULuetvvKrlwkm60WElzFlJvpwxpA6rKoc,2169
+datasourcelib/datasource.py,sha256=_b0ejm9sM_-4jUBu5m5wgd1ndbdVlnEGBJNlpeTvwtk,717
+datasourcelib/mongodb.py,sha256=DzVOTefvxxIdNmPCKgc69YXhiWmiMyVKlRQsLZHnb9g,1670
+datasourcelib/postgresdb.py,sha256=AYaX1kjdeljX7-9ElIHn2ES0KmioCRaIC2o4cwo5TDA,3518
+datasourcelib/sqlitedb.py,sha256=MwL5fKPmYNzY8DUB1VVYz8yDbVnhDLUl7gxZsTerghc,2556
+dekeyrej_datasource-0.9.4.dist-info/LICENSE,sha256=KFAFBfYteGvgTYQlNAfxg1vI3idJ4M-EzQp-VboxUNM,1089
+dekeyrej_datasource-0.9.4.dist-info/METADATA,sha256=5wRIBS-8svx8Z5Ql38DMSRtTVitUhj8lPtO21Sy1VJM,1978
+dekeyrej_datasource-0.9.4.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+dekeyrej_datasource-0.9.4.dist-info/top_level.txt,sha256=wIwiwdIj8T9pAvE2TkGLUvT2oIi43C2vkkTKibUlv3U,14
+dekeyrej_datasource-0.9.4.dist-info/RECORD,,
