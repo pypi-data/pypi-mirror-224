@@ -1,0 +1,6 @@
+vec_cache/__init__.py,sha256=u0EtG2QNjSeX2Kz-xMCPuxaNVGbEVtY1biiOsNjLLNE,35
+vec_cache/core.py,sha256=6ZHJETvu6kaN4FVYT2rRLrW-Cs8SVTEn28vwm9mNzCc,1757
+vec_cache/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vec_cache-0.1.0.dist-info/METADATA,sha256=h3LcJl24ptFoiRcAow0iLKR6w4UJatfhnMeYI_oEBK4,2664
+vec_cache-0.1.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+vec_cache-0.1.0.dist-info/RECORD,,
