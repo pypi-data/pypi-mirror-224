@@ -1,0 +1,9 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/fixed_point.py,sha256=s27PLpJ9B5BH3aLr8tVYUPC8MhpJd5Ng8HRwd_6BNMU,1704
+src/interact.py,sha256=dgQx-5oKCKBl_6YY723HG9TDSao1brCDmsiZRH76NKQ,2023
+src/type_t.py,sha256=LcbvQkEpNIR1dlfCQq3BgrmEeXwn3Rw2ztwS2Ax7zNI,83
+tetras_toolbox-0.0.3.dist-info/LICENSE,sha256=YF6QR6Vjxcg5b_sYIyqkME7FZYau5TfEUGTG-0JeRK0,35129
+tetras_toolbox-0.0.3.dist-info/METADATA,sha256=Gq_FSayMw96dZvaLbQJR7yWimAtvL9NF4OZtU5M07qc,748
+tetras_toolbox-0.0.3.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+tetras_toolbox-0.0.3.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+tetras_toolbox-0.0.3.dist-info/RECORD,,
