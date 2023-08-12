@@ -1,0 +1,68 @@
+# TODO
+- GPU OVH
+- Complete code coverage
+
+# To think about later
+- add conditional diffusion?
+- losses.py get_score_fn_cc, std of adjacency matrix, but also rank2 or not??
+- for mol, we generate mol and lift into cc again. Do the same for graph-based applications?
+    OR generate two types of CC, one with the lift, one with the predicted rank2 matrices and compare?
+
+# Upgrade / next steps
+- Update the package with latest version
+- Add to README link of my thesis
+- data_generators.py Add more CC dataset (ego citation to path-lift?)
+- python-igraph/cairocffi for analysis/plot/generation of graphs
+- ModelNET & ShapeNET
+- add more eval_CC_list metrics (e.g. preservation of cycles?)
+- Add more parameters for ScoreNetwork (ex: activation function?) and for Graph data generators?
+- Update unit tests (add more of them, especially for the remaining files)
+
+# Documentation
+- Based on test_ files, add Examples: ... on each functions
+- Check if docs.yml works well?
+- Update Dependencies: (pipreqs ./ --force --mode gt)  in README and repo
+- Better CITATION.cff https://citation-file-format.github.io/assets/pdf/cff-specifications-1.0.0.pdf
+- Documentation command line: data_generator, main, preprocess, preprocess_for_nspdk.py
+- Add CONTRIBUTING.md?
+- Add uni logo on GitHub? / my github page add link to the thesis?
+- Add github workflow to update package:
+  
+    - name: publish
+      uses: pypa/gh-action-pypi-publish@master
+      with:
+        user: __token__
+        password: ${{ secrets.PYPI_TOKEN }}
+
+
+Generate datasets:
+python data/data_generators.py --dataset ${dataset_name}
+Generate molecular datasets: (QM9)
+python data/preprocess.py --dataset ${dataset_name}
+python data/preprocess_for_nspdk.py --dataset ${dataset_name}
+
+For the evaluation of generic graph generation tasks, run the following command to compile the ORCA program (see http://www.biolab.si/supp/orca/orca.html):
+cd evaluation/orca 
+g++ -O2 -std=c++11 -o orca orca.cpp
+
+# Report
+- Add link to the Github, the package, and the documentation
+- All information: https://wiki.imperial.ac.uk/pages/viewpage.action?spaceKey=docteaching&title=Final+Project+Report
+- eBISS_2023 - Google Slides
+- hodge_mask, my model, hodge matrices
+- GCN layers to my report, architectures of my models, how training is done, lifting functions, etc
+  + some figures and the rest of the maths (and link to SBM)
+- Some literature:
+  - https://arxiv.org/abs/2307.04613
+  - https://arxiv.org/pdf/2102.10058.pdf
+  - https://arxiv.org/pdf/1907.11577.pdf
+  - https://arxiv.org/pdf/2101.05510.pdf
+
+# Before pushing
+black .
+isort . --profile black -o wandb
+(optionally) test sphinx build
+cd docs
+Update requirements.txt files, conf.py, .rst files, .readthedocs.yaml
+.\make html
+Run a readthedocs build
