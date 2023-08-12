@@ -1,0 +1,6 @@
+crypt4gh==1.6
+hexkit[s3]<0.11,>=0.10
+ghga-transpiler<2.0,>=1.2.0
+metldata<0.5,>=0.4.1
+
+[all]
