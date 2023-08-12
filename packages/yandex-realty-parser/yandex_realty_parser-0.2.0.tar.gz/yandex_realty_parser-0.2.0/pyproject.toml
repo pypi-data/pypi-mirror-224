@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yandex_realty_parser"
+version = "0.2.0"
+authors = [
+    {name = "Dmitriy Gorokhov", email = "didedoshka@gmail.com"},
+]
+description = "Library that parses yandex realty website"
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["realty", "parse"]
+license = {file = "LICENSE"}
+dependencies = [
+    "beautifulsoup4",
+    "requests",
+    "tqdm"
+]
+
