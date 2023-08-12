@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: xethhung12_tg_msg
+Version: 0.0.3
+Summary: A small program for sending telegram message in quick
+Project-URL: Homepage, https://github.com/xh-dev/xethhung12_tg_msg
+Project-URL: Bug Tracker, https://github.com/xh-dev/xethhung12_tg_msg/issues
+Author-email: Xeth Hung <admin@xethh.me>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: requests>=2.31.0
+Description-Content-Type: text/markdown
+
+# Build and deploy
+```shell
+rm -fr dist/*
+python -m build
+python twine upload dist/* -u __token__ -p {token}
+```
+
+# Usage of simple sending
+```shell
+python -m xethhung12_tg_msg_send \
+    --receiver-id {receiver-id} \
+    --bot-token {bot-token} \
+    --msg {message} 
+```
+
+# Usage  of sending through STDIN
+```shell
+python -m xethhung12_tg_msg_send \
+    --receiver-id {receiver-id} \
+    --bot-token {bot-token} \
+    --from-stdin {stdin input} 
+```
