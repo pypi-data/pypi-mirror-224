@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: scape-apa
+Version: 1.0.0
+Summary: A package for estimating alternative polyadenylation events from scRNA-seq data.
+Author-email: "Guangzhao Cheng, Tien Le, Lu Cheng. Department of Computer Science, Aalto University." <lu.cheng.ac@gmail.com>
+Project-URL: Homepage, https://github.com/chengl7-lab/scape
+Project-URL: Bug Tracker, https://github.com/chengl7-lab/scape/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: <3.11,>=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+conda config --append channels bioconda 
+conda config --append channels conda-forge 
+conda create -n test_conda python=3.9
+conda activate test_conda
+
+conda install pip
+conda install -c bioconda bedtools
+pip install taichi
+pip install .
+
+scape --help
+scape gen_utr_annotation --help
+
+python -m scape --help
+python -m scape gen_utr_annotation --help
+
+
+
