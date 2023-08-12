@@ -1,0 +1,12 @@
+pymagsac/pymagsac.cp39-win_amd64.pyd,sha256=V64ZqP0OqH4U3-g8puJ1gZNaflU9BMKMkd2KKLmqmAU,2679808
+pymagsac/__init__.py,sha256=QnfTei_rwzXccmL1yvjGKHPGyJtRfElxBe2pjQAS_8o,1339
+pymagsac_testing-0.3.0.dist-info/DELVEWHEEL,sha256=sDhK9K-ycBEe9dxNoqLJfQ7RLB__yxhBJ04o2mJxVBM,456
+pymagsac_testing-0.3.0.dist-info/LICENSE,sha256=E6Kah612x5WdIujnm-5_VS2SeSxo1uOrmuFJO1ogicA,2004
+pymagsac_testing-0.3.0.dist-info/METADATA,sha256=inRD_nv7sh3ld-vpW7ZT_iKGmCokRlD-t4q2Ti6Bc3Y,263
+pymagsac_testing-0.3.0.dist-info/RECORD,,
+pymagsac_testing-0.3.0.dist-info/top_level.txt,sha256=k0tW6EDE-1at4yBYbqWGTeqCseIttjkWdedW0T0qLsY,9
+pymagsac_testing-0.3.0.dist-info/WHEEL,sha256=aFh_uQusBybh-RCXOkSlg-ycdQBtqU_JDPyXfjBBBgs,94
+pymagsac_testing.libs/.load-order-pymagsac_testing-0.3.0,sha256=Xt3ceWDpDie3NP57E1GdFIpy3julVC8Brmi1Hpcp6-E,145
+pymagsac_testing.libs/concrt140-077fdfdd5a435e4ba8edcfa65a0b23ad.dll,sha256=ELyxmQiup-JGP3gOMwVWBCaSBbXV1SEHKtht6u8Cils,307200
+pymagsac_testing.libs/msvcp140-0522a1b08bcb5dd346820d5bc53e66c7.dll,sha256=YT8UC4ud0VTQ1TFEtXSn3Yyq7zbMi1o0jIBqXtjTbxo,578344
+pymagsac_testing.libs/opencv_core345-d9b361ea67142b44f20b6e3abb6ea083.dll,sha256=4_Jp3v2VEVaNGq08J3Fomb-7xbHe9xIyzaqUk65IxqM,3412992
