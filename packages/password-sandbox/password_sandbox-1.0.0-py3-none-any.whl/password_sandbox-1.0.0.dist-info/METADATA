@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: password-sandbox
+Version: 1.0.0
+Summary: Password Sandbox is password sandbox to create strong passwords and test the strength of your passwords.
+Project-URL: Documentation, https://github.com/Useless-Projects/password-sandbox#readme
+Project-URL: Issues, https://github.com/Useless-Projects/password-sandbox/issues
+Project-URL: Source, https://github.com/Useless-Projects/password-sandbox
+Author-email: Thibault Savenkoff <thibault.savenkoff@outlook.fr>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: zxcvbn
+Description-Content-Type: text/markdown
+
+# Password Sandbox
+
+[![PyPI - Version](https://img.shields.io/pypi/v/password-sandbox?style=flat-square&logo=PyPI&label=Version%3A)](https://pypi.org/project/password-sandbox)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/password-sandbox?style=flat-square&logo=python&logoColor=%23ffd343&label=Version%20of%20Python%3A
+)](https://pypi.org/project/password-sandbox)
+![License](https://img.shields.io/badge/License%3A-MIT-red?style=flat-square)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/password-sandbox?style=flat-square&label=Downloads%3A)
+![GitHub - Last Commit](https://img.shields.io/github/last-commit/Useless-Projects/password-sandbox?style=flat-square&label=Last%20Commit%3A)
+![Size](https://img.shields.io/github/repo-size/Useless-Projects/password-sandbox?style=flat-square&label=Size%3A&color=teal)
+
+-----
+
+## Installation
+
+```console
+pip install password-sandbox
+```
+
+## Usage
+
+```python
+import password_sandbox
+```
+
+or
+
+```console
+python -m password_sandbox
+```
+
+-----
+
+[Icons made by juicy_fish - Flaticon](https://www.flaticon.com/authors/juicy-fish)
