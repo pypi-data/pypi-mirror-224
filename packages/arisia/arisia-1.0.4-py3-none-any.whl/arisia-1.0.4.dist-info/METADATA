@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: arisia
+Version: 1.0.4
+Summary: Test Package - Dev Version
+Home-page: https://github.com/layla-focalors
+Author: layla-focalors
+Author-email: layla-focalors@arisia.space
+License: MIT
+Requires-Python: >=3
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: pymysql
+Requires-Dist: cryptography
+
