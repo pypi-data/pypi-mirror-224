@@ -1,0 +1,10 @@
+minimonolith_schema/__init__.py,sha256=Fuj-c5yLagXiB6E-d_iyW8QpgK1OgtUDSt1AGCCRKbg,171
+minimonolith_schema/pdf_layout.py,sha256=Blpz4ggDxyYgjUF7CQ93DAj1Dz1Q32LlHAKxAypb-Oc,1718
+minimonolith_schema/plot_columns.py,sha256=VJG2BMbQsyz2jKECGNEN1iA0TxNp1TPj-GeL1bM-y8k,3897
+minimonolith_schema/print_metrics.py,sha256=9yFsP2VyvvfekAfo-YDKoCMjmGrntGqYtG8Ylehu6yc,3980
+minimonolith_schema/validators.py,sha256=n0oH7s6J9bRSodZNFuH81L4xHyKrUc_VDqXhSyDUFVE,2622
+minimonolith_schema-0.3.0.dist-info/LICENSE.txt,sha256=9UFwTH1_GZKEre-yGoBpIS7tg0fUdRtatBGauHHd4-0,1093
+minimonolith_schema-0.3.0.dist-info/METADATA,sha256=7biDiS5eKiDX6Zj0Jm3u7CvkhYZezUy2UeJqOeWRipQ,1540
+minimonolith_schema-0.3.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+minimonolith_schema-0.3.0.dist-info/top_level.txt,sha256=z6Xd4yt8uPpBVTxqyEPVo2lgOpQMSdmOI__BLd0qjYI,20
+minimonolith_schema-0.3.0.dist-info/RECORD,,
