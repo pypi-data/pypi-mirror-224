@@ -1,0 +1,11 @@
+itk_totalvariation-0.2.3.dist-info/RECORD,,
+itk_totalvariation-0.2.3.dist-info/LICENSE,sha256=qsc7MUj20dcRHbyjIJn2jSbGRMaBOuHk8F9leaomY_4,11360
+itk_totalvariation-0.2.3.dist-info/WHEEL,sha256=LaxVLUMCL-j14PpDeXfWxW_E_rpJNLk6c4Q8j7iJ7Gw,104
+itk_totalvariation-0.2.3.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_totalvariation-0.2.3.dist-info/METADATA,sha256=ixUKSmXW2mMnf1pFx_GtFXbrfSjI7On8Xqnvgs16BO8,1567
+itk/TotalVariationPython.py,sha256=AuvCgYhXVxSAL6FI_HNhWp1dSvvOmVrwNxWHYN8I5tA,2432
+itk/itkProxTVImageFilterPython.py,sha256=qrXXVw-f_RjEmTuINhVw_Td_YAeaFntnmyZo9-eyXxs,22126
+itk/_TotalVariationPython.so,sha256=IX0gRiIno-qkBkGSwlQhlKh95zhO8RWdYKhKucCX5GA,3562608
+itk/Configuration/TotalVariationConfig.py,sha256=QIxIn2rK_fagTmDQsOF8boTV0OjsGU_F6lQujHnDO-c,926
+itk/Configuration/TotalVariation_snake_case.py,sha256=czILYn5XQ-2vs_Wd_4ubWNCqVsZvn0ijOdXDbxBEuko,50
+itk/.dylibs/libtbb.12.3.dylib,sha256=E4ma_iqQM3j9mMICxOZCT2bhPxGzccnHE1g1CDhqCzU,394048
