@@ -1,0 +1,14 @@
+oqtant/__init__.py,sha256=Rmhq4syDW7WWrRQOOrkOL_1xp-acaghjzg4yZsgEWGo,575
+oqtant/oqtant_client.py,sha256=GsKljuTPwo7pl3a0QFOtJJ_su3UgwNjLBq3s_nA4AZ8,22451
+oqtant/schemas/__init__.py,sha256=Rmhq4syDW7WWrRQOOrkOL_1xp-acaghjzg4yZsgEWGo,575
+oqtant/schemas/job.py,sha256=3Nr_XOcCAUt5CvxNkeD90-PnzLW5EpXNMwxqnB2OJmk,18389
+oqtant/settings.py,sha256=m9rr43xgHws6er4KR7Jf9a8tE-jD9MFIgVygh7WRM8Y,1084
+oqtant/util/__init__.py,sha256=Rmhq4syDW7WWrRQOOrkOL_1xp-acaghjzg4yZsgEWGo,575
+oqtant/util/auth.py,sha256=ZoMVp-gM9HGwa_Po1aJLMvO7rTQ6f-a2ueXY5-ZYRc8,3899
+oqtant/util/exceptions.py,sha256=_hgRyXe4vYkT8hDAXfbQHxj16Z4WbGm3eTkdSX0Bx4c,1600
+oqtant/util/server.py,sha256=qdwRObFK62JqmeDymOM-A6tmDp5giEhpaYPjrDPNCI8,1050
+oqtant-0.16.3.dist-info/entry_points.txt,sha256=uDFH8-2BXnLnTvgDFJoxCZ4Z2F4wBebpaehdU1_hiWs,74
+oqtant-0.16.3.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+oqtant-0.16.3.dist-info/METADATA,sha256=t0o8EdHUdtZB9F3iO0ycEBSLzbN36QB7XX2dc-40Tv8,3744
+oqtant-0.16.3.dist-info/LICENSE,sha256=NLb7JQ2kGdln1fgzT3af5gQNEVH83uYygIgVwWaD-fY,11341
+oqtant-0.16.3.dist-info/RECORD,,
