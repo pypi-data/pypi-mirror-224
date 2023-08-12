@@ -1,0 +1,9 @@
+ocaclient/__init__.py,sha256=HpRBNXJFiPvPOb8OX9s6qmOGGRtZy-FIPbfCiJkz9cU,351
+ocaclient/client.py,sha256=OL1_sf-LKySjmJkFEi47Y2KKBvp3FCDAGqw6vYqI9Zw,4955
+ocaclient/models.py,sha256=Ld6CThgKJInieec_ZTfGejC_YwtQdBR0k5CTDe5EXZw,3829
+ocaclient/version.py,sha256=L_gEOgdT7gAa9D1y6iNVRbzDLJwjvbUyUUsqNLh_b9M,160
+ocaclient-0.8.1.dist-info/LICENCE,sha256=FEFwqTMvTNMQwYleMgKHFKloL1fZ8HX311pD8nOz9w4,762
+ocaclient-0.8.1.dist-info/METADATA,sha256=gPcOviYbbYi0YoKqMRo71bQuHGDdwuRFTZrnvjdpXh0,2263
+ocaclient-0.8.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ocaclient-0.8.1.dist-info/top_level.txt,sha256=mfj7JhGwTu3bWvfrfmpbBqGhuXOABG9Dxi4hmeLpaSE,10
+ocaclient-0.8.1.dist-info/RECORD,,
