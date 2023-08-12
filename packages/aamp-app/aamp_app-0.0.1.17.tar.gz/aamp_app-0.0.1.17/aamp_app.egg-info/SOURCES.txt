@@ -1,0 +1,7 @@
+README.md
+setup.py
+aamp_app.egg-info/PKG-INFO
+aamp_app.egg-info/SOURCES.txt
+aamp_app.egg-info/dependency_links.txt
+aamp_app.egg-info/requires.txt
+aamp_app.egg-info/top_level.txt
