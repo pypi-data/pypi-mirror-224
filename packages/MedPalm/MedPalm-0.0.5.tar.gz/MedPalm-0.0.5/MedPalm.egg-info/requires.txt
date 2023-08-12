@@ -1,0 +1,11 @@
+torch
+lion-pytorch
+numpy
+einops
+accelerate
+bitsandbytes
+transformers
+SentencePiece
+datasets
+matplotlib
+deepspeed
