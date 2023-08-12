@@ -1,0 +1,9 @@
+create_vars/__init__.py,sha256=ry5O5SW74ugwOUMKSV2_LbWjYa8B0IEvUm7S-lHPA2c,23
+create_vars/_modidx.py,sha256=WQFkQvUXD98m1BNTJbwDIVviKA4apSs7Cv5GdLPipDs,804
+create_vars/vars.py,sha256=brk6s8MYu7oG2p2d1kgeZj-MObkdhKOVoiT58ZPs9vQ,2308
+create_vars-0.0.1.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+create_vars-0.0.1.dist-info/METADATA,sha256=du6GY2QSGPSTrfmgvZilcjbNoD3kwHN16YZHIfsy1gM,10284
+create_vars-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+create_vars-0.0.1.dist-info/entry_points.txt,sha256=zXYr93kdP2S8dHuApzgO_BdG1I1v86mnKagtSV7upcY,44
+create_vars-0.0.1.dist-info/top_level.txt,sha256=FqAmwZo51m8NDaic2lRS51pmS7DVNVGXrJ-3rThebRA,12
+create_vars-0.0.1.dist-info/RECORD,,
