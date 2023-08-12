@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/psycopg2_utility_functions.egg-info/PKG-INFO
+src/psycopg2_utility_functions.egg-info/SOURCES.txt
+src/psycopg2_utility_functions.egg-info/dependency_links.txt
+src/psycopg2_utility_functions.egg-info/requires.txt
+src/psycopg2_utility_functions.egg-info/top_level.txt
