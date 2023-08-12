@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: 360blockscope
+Version: 0.1.0
+Summary: Block scoping for python
+License: MIT
+Author: Davis Yoshida
+Author-email: dyoshida@ttic.edu
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# Block scoping in python
+Just to be clear, I made this as a joke.
+
+```python
+import block_scoping as bs
+
+def main():
+    x = 7
+    with bs():
+        y = x + 4
+        print(f'y: {y}') # y: 11
+        x -= 3
+
+    print('x: {x}') # x: 4
+    print('y: {y}') # UnboundLocalError
+
+main()
+```
+
