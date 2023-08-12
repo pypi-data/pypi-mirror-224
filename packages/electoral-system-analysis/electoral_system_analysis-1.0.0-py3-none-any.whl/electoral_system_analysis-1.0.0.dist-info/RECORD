@@ -1,0 +1,12 @@
+electoral_system_analysis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+electoral_system_analysis/clean_electoral_data.py,sha256=vleWS4uk-4XYgHg0Mz1fqfN6964Ogcs-EhpvSr4LOA0,8238
+electoral_system_analysis/distribution_formulas.py,sha256=bylVoQmHfycP8VqiuuvJjcjXOwBX5K-t_ZreiR_hcEE,10881
+electoral_system_analysis/distribution_regions.py,sha256=uO9SKaRXVrVdAOfG-B115E3CoJzDB_Efr-uJQtMUcrA,6101
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_distribution_formulas.py,sha256=GN2bfnGo2XUCyHlqe2_Ep6e70QdthoGB3lV0YOJmjeU,2838
+tests/test_distribution_regions.py,sha256=21otcnyZPFQITJlYYT0aksEtkJqngvX5jQaZARyEHyE,1668
+electoral_system_analysis-1.0.0.dist-info/LICENSE,sha256=wBYC1D-9cLwFe7eIQzAXhEawy5KIP_1IDpGNMkaVGsc,1072
+electoral_system_analysis-1.0.0.dist-info/METADATA,sha256=MkiJgDiYZFE1jc4cyGHOTEDP8eixyD8g8UReR0NVJXI,3775
+electoral_system_analysis-1.0.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+electoral_system_analysis-1.0.0.dist-info/top_level.txt,sha256=ZRD4TG-G3gpkZsVuQr1Hpv66Pj9Ye0nCpsODqy55tTw,32
+electoral_system_analysis-1.0.0.dist-info/RECORD,,
