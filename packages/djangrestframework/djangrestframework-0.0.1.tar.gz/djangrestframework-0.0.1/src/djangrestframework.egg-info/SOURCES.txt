@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+data/data_file
+src/djangrestframework.egg-info/PKG-INFO
+src/djangrestframework.egg-info/SOURCES.txt
+src/djangrestframework.egg-info/dependency_links.txt
+src/djangrestframework.egg-info/entry_points.txt
+src/djangrestframework.egg-info/requires.txt
+src/djangrestframework.egg-info/top_level.txt
