@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: securitycopilot
+Version: 0.0.1
+Summary: securitycopilot
+Author-email: Mark Kendrick <aeetos@gmail.com>
+Project-URL: Homepage, https://github.com/aeetos/securitycopilot
+Project-URL: Bug Tracker, https://github.com/aeetos/securitycopilot/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# securitycopilot
+
+This project is currently under private development, with release expected in late 2023. 
