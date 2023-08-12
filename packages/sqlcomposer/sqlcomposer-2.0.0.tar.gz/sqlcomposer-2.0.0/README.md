@@ -1,0 +1,305 @@
+# SQL Composer
+
+SQL Composer is SQL query builder for people who love raw SQL and just need a
+little "something" to make it composable. SQL Composer is this little
+"something".
+
+With SQL builder you write raw SQL queries in ordinary .sql files and add
+composable bits which you enable with help of SQL composer.
+
+Any variables which you need to substitute should be passed to SQL Composer
+when enabling a part of your query. This way SQL can _do-the-right-thing_ and
+substitute them with database-specific named placeholders, which will be
+properly escaped by the underlying database. When using this technique, you
+don't have to worry about SQL Injection attacks.
+
+Below are some scenarios where SQL builder is especially useful.
+
+_NOTE_: we're using sqlite dialect of SQL in below examples.
+
+## Preparing Query Builder
+
+First we need to create some SQL scripts. They can be ordinary raw SQL files,
+but this would be no fun, as they could be simply read and sent to the
+engine.
+
+Instead we'll annotate our scripts with _subqueries_. Subqueries are
+replacements, typically written at the top of the script, which SQL Composer
+uses to replace parts of the query.
+
+Subqueries are SQL comments, starting with two dashes `--`, followed by the
+`sub` string, followed by the subquery name, followed by the colon `:`,
+followed by the actual SQL string. For example:
+
+```sql
+-- insert_feeds.sql
+
+-- sub values: {binds}
+-- sub and_return: RETURNING id, name, rss
+INSERT INTO feeds(name, rss)
+VALUES {values}
+{and_return}
+```
+
+Above script has two subqueries which might be replaced: `values` and
+`and_return`. Let's also create a second query which we'll need later:
+
+```sql
+-- get_feeds.sql
+
+-- sub where_rss_is: AND rss = :url
+-- sub where_name_is: AND name = :name
+-- sub where_name_is_in: AND name IN ({names})
+-- sub order_by: ORDER BY {what}
+SELECT id, name, rss
+FROM feeds
+WHERE
+  true
+  {where_rss_is}
+  {where_name_is}
+  {where_name_is_in}
+{order_by}
+```
+
+
+Now we need to initialize instance of `QueryLoader` and tell it
+where to search for the scripts.
+
+Depending on how you'd like to distribute your application, `QueryLoader`
+might load scripts either from a package or ordinary directory.
+
+### Loading from the Package
+
+Let's say that you'd like to distribute SQL scripts together with your
+application in a single Python package. In that case, you should create a
+sub-package inside your application's package. You do this by creating a
+subdirectory in the source tree of your application and by putting
+`__init__.py` file inside there. You might end up with a directory structure
+like this:
+
+```
+.
++- src/
+   +- myapp/
+     +- __init__.py
+     +- app.py
+     +- queries/
+        +- __init__.py
+        +- insert_feeds.sql
+        +- get_feeds.sql
++- pyproject.toml
+```
+
+In this case you should initialize QueryLoader like this:
+
+```python
+from sqlcomposer import QueryLoader
+
+loader = QueryLoader(package="myapp.queries")
+```
+
+### Loading from the Path
+
+Alternatively you can pass a path to the directory which contains your SQL
+scripts. Both absolute and relative paths are accepted.
+
+```python
+from sqlcomposer import QueryLoader
+
+loader = QueryLoader(path="/home/user/myapp/src/myapp/queries")
+```
+
+## Preparing the query
+
+To load a query, simply call a method on QueryLoader's instance with the name
+of the file:
+
+```python
+get_feeds = loader.get_feeds()
+```
+
+Now we can easily compose parts of this query. For example if we'd like to
+filter only feeds with specific names and make sure they're ordered by name:
+
+```python
+get_feeds = loader.get_feeds()
+get_feeds.where_name_is(name="foo").order_by(what="name")
+
+cursor.execute(get_feeds.sql(), get_feeds.params)
+```
+
+`get_feeds.sql()` produces the following query:
+
+```sql
+SELECT id, name, rss
+FROM feeds
+WHERE
+  true
+  AND name = :name
+ORDER BY name
+```
+
+Alternatively we may decide to fetch feeds with names from a set of values:
+
+```python
+from sqlcomposer import QueryLoader, Another
+
+get_feeds = loader.get_feeds()
+get_feeds.where_name_is_in(names=Another("foo", "bar", "baz")).order_by(what="name")
+cursor.execute(get_feeds.sql(), get_feeds.params)
+
+# or alternatively:
+
+get_feeds = loader.get_feeds()
+for name in ["foo", "bar", "baz"]:
+    get_feeds.where_name_is_in(names=Another("foo"))
+get_feeds.order_by(what="name")
+
+cursor.execute(get_feeds.sql(), get_feeds.params)
+```
+
+Here we wrap the set of values in `Another()` object. This is a way of
+telling SQL Composer that we want to create a separate placeholder for each
+value inside it and put them in place of `{names}` substitution in
+`where_name_is_in` subquery. We can repeat adding more values wrapped in
+`Another()` object and they will be added to the values added previously, as
+presented in the alternative form  of this query.
+
+If we called `where_name_is(names="foo")` (i.e. with a value not wrapped
+inside `Another()` object), it'd overwrite the previous setup.
+
+Above code produces the following query:
+
+```sql
+SELECT id, name, rss
+FROM feeds
+WHERE
+  true
+  AND name IN (:names_p1_0, :names_p1_1, :names_p1_2)
+ORDER BY name
+```
+
+If you inspect the `get_feeds.params`, you'll see that it is a dictionary
+with your values mapped to the names of placeholders in produced SQL query.
+
+```python
+{ 'names_p1_0': 'foo', 'names_p1_1': 'bar', 'names_p1_2': 'baz' }
+```
+
+## Bulk Inserts
+
+Bulk operations (like inserts) requre a little different syntax, where each
+inserted row is enclosed in parentheses. SQL Composer supports this with
+by enclosing the row values in `AnotherGroup()` object. Here's the example:
+
+```python
+objects_to_insert = [
+  {"name": "foo", "rss": "https://example.com/foo.xml"},
+  {"name": "bar", "rss": "https://example.com/bar.xml"},
+]
+
+insert_feeds = loader.insert_feeds().and_return()
+for obj in objects_to_insert:
+  insert_feeds.values(binds=AnotherGroup(obj["name"], obj["rss"]))
+
+cursor.execute(insert_feeds.sql(), insert_feeds.params)
+```
+
+This produces the following query:
+
+```sql
+INSERT INTO feeds(name, rss)
+VALUES (:names_p1_0, :names_p1_1), (:names_p2_0, :names_p2_1)
+RETURNING id, name, rss
+```
+
+## Simple Initialization
+
+Some simple queries might not require any substitutions, but for clarity or
+other reasons you might want to use SQL Composer for them anyway. Suppose we
+have this script:
+
+```sql
+-- add_user.sql
+INSERT INTO users(name, password)
+VALUES :name, :username
+```
+
+You can use by passing necessary variables to the method which initializes
+the script (`add_user()` here). It is much simpler and clearer than embedding
+the query inside your code.
+
+```python
+add_user = loader.add_user(name="alice", password="hunter1")
+cursor.execute(add_user.sql(), add_user.params)
+```
+
+Alternatively:
+
+```python
+add_user = loader.add_user()
+add_user.update_params(name="alice", password="hunter1")
+cursor.execute(add_user.sql(), add_user.params)
+```
+
+## Simplifying SQL
+
+Normally `sql()` function doesn't touch the formatting of the output query.
+If you pass `simplify=True` to it, it'll remove all lines which start with a
+double dash (comments) and will put the whole query in a single line.
+
+```python
+add_user = loader.add_user(name="alice", password="hunter1")
+print(add_user.sql())
+```
+
+This should output:
+
+```
+INSERT INTO users(name, password) VALUES :name, :username
+```
+
+Keep in mind that this won't remove any inline comments, so you might end up
+with accidentally breaking half of your query if you use them.
+
+## Query Copying
+
+Sometimes you might want to execute some very similar queries but with
+different values passed to them. This is especially useful when your database
+engine has a limit on number of rows you can insert or on the size of the
+query. Usually in these cases big queries are split into many smaller
+queries.
+
+If you'd use a single query, then in some cases, especially if you use
+`Another()` and `AnotherGroup()` features, you could end up with duplicates
+in your database from earlier queries.
+
+Solution to this is to initialize common pieces of query once and then copy
+it when needed. For example:
+
+```python
+insert_feeds = loader.insert_feeds().and_return()
+
+for chunk in split_list(very_large_list_of_feeds):
+  insert_copy = insert_feeds.copy()
+  for obj in chunk:
+    insert_copy.values(binds=AnotherGroup(obj["name"], obj["rss"]))
+  cursor.execute(insert_copy.sql(), insert_copy.params)
+```
+
+## Dialects
+
+Different databases and their drivers might use a different flavours of SQL.
+For this reason SQL Composer allows specifying a dialect which it should use
+for some parts of built query.
+
+```python
+loader = QueryLoader(package=queries, dialect="postgres")
+```
+
+Supported dialects are:
+
+- sqlite (default)
+    - named placeholders have form `:name`
+- postgres
+    - named placeholders have form `%(name)s`

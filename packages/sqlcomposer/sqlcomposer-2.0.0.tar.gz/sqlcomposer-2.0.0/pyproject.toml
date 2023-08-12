@@ -1,0 +1,40 @@
+[build-system]
+requires = ["poetry-core>=1.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "sqlcomposer"
+version = "2.0.0"
+description = "Compose raw SQL queries in ORM-like fashion"
+authors = ["Michal Goral <dev@goral.net.pl>"]
+license = "GPL-3.0-only"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Database",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: PL/SQL",
+]
+readme = "README.md"
+packages = [
+    { include = "sqlcomposer", from = "src" },
+]
+homepage = "https://git.goral.net.pl/sqlcomposer.git/about"
+repository = "https://git.goral.net.pl/sqlcomposer.git"
+keywords = ["sql", "query builder"]
+
+include = [
+    { path = "test", format = "sdist" },
+    { path = "CHANGELOG", format = "sdist" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^6.2.5"
+pytest-cov = "^3.0.0"
+pytest-xdist = "^2.4.0"
+pytest-sugar = ">=0.9"
+black = "^22"

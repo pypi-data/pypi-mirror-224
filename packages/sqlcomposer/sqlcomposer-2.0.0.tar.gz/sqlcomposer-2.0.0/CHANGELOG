@@ -1,0 +1,17 @@
+2.0.0: 2023-08-11
+    [Breaking]
+    - Change "flair" to "dialect"
+
+    [Fixed]
+    - Added tests and changelog to source distribution
+
+1.0.0: 2023-08-11
+
+    Initial release
+
+    [Added]
+    - QueryLoader is able to load SQL scripts from both path and package
+    - Composition of queries by using subqueries (substitutions)
+    - Automatic storing and using query parameters in a safe manner
+    - Queries copying
+    - Generating placeholders through Another() and AnotherGroup() objects
