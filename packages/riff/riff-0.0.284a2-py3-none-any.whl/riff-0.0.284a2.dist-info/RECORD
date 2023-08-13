@@ -1,0 +1,12 @@
+riff/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+riff/logger.py,sha256=lH4oeHq-peGsBrFFDmEU9jBcNggCkxBLer57WkQjJ3Q,48
+riff/riff.py,sha256=GxAKD8T15KYqtV9PU2ZcP_gBNgKomy44CzGG86cHrjw,5355
+riff/tests/riff_test.py,sha256=XLPPLb3DJU6S6mRISMWKUYV4CAgxypbHyiW7cneUkJ0,2063
+riff/tests/utils_test.py,sha256=067DdBq6Xxf4WN9miKLphcgDeyGO8kX3DhtcMgpApy0,1145
+riff/utils.py,sha256=96oXHE4xKxILVso3oZ4yzCohOt_JV3M5S89Ne2T40xk,3736
+riff/violation.py,sha256=ddoJgyJ0LmfX5FAZFyRxL9Ld6-6W1QoA0E_2oIb6WPU,2198
+riff-0.0.284a2.dist-info/LICENSE.md,sha256=I6470KwDTUng1qYZgdW7AnOTD1NUteHqO2_0eJqnCjg,1051
+riff-0.0.284a2.dist-info/METADATA,sha256=pOvycE3-5J7SQHx2LfSBCafIYiSxQt-U9mK7mA40wGo,3004
+riff-0.0.284a2.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+riff-0.0.284a2.dist-info/entry_points.txt,sha256=VpZYVCK7BY4VCyGa5AZwmFyMmtWE-AtNBIuA1G3X2TY,38
+riff-0.0.284a2.dist-info/RECORD,,
