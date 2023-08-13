@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: windpower_upc
+Version: 0.0.2
+Summary: A module for wind power prediction
+Home-page: https://github.com/962516016/windpower_upc
+Author: yuange_liu, daobin_luo
+Author-email: liuyuange811@gmail.com, luodaobin2001@gmail.com
+License: MIT
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/markdown
+
+# windpower_upc
+A module for turbine power prediction developed by UPC.

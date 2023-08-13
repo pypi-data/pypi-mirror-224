@@ -1,0 +1,8 @@
+README.md
+setup.py
+windpower_upc.py
+windpower_upc.egg-info/PKG-INFO
+windpower_upc.egg-info/SOURCES.txt
+windpower_upc.egg-info/dependency_links.txt
+windpower_upc.egg-info/requires.txt
+windpower_upc.egg-info/top_level.txt
