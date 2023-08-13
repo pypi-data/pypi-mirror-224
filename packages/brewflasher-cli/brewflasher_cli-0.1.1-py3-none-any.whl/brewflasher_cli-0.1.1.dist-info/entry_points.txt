@@ -1,0 +1,2 @@
+[console_scripts]
+brewflasher = brewflasher_cli.brewflasher_cli_edition:main

@@ -1,0 +1,11 @@
+brewflasher_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+brewflasher_cli/brewflasher_cli_edition.py,sha256=AjXZYrWPgKGTZNPw9uLibUFYUkrEqasreE0BSC5J3ew,14987
+brewflasher_cli/brewflasher_com_integration.py,sha256=KSl4Ep9nuX97Wi9xBw2y_ah-fR5VyZVkrI2o0tLKeFs,18303
+brewflasher_cli/fhash.py,sha256=XXt33UY94uVua4dT5EnJv9-wlhIqW7dBk2U6kTkCmO8,624
+brewflasher_cli/serial_integration.py,sha256=4RVLDuoMIc4UewsyTdT-BZWi161xoH-rrcTJ2W-AoHw,4514
+brewflasher_cli-0.1.1.dist-info/LICENSE,sha256=QKaphS38C-P6oxgKThfCdbJnM2SS8MuZjlV5MfgVnt8,1067
+brewflasher_cli-0.1.1.dist-info/METADATA,sha256=rnwCugVtssstBVElKXKmEZMvsnqoHo7CoibbhmfU_bw,3526
+brewflasher_cli-0.1.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+brewflasher_cli-0.1.1.dist-info/entry_points.txt,sha256=ho1CVw7_3gd8nbeFZo47dQdZ0WgxABGFT4KaecWl8ew,77
+brewflasher_cli-0.1.1.dist-info/top_level.txt,sha256=D5v6-3HSL3g9LwAgGvWi5lhO9gtKBdLQmjHl3Rxofhw,16
+brewflasher_cli-0.1.1.dist-info/RECORD,,
