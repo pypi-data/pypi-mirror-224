@@ -1,0 +1,8 @@
+azureml/dataprep/rslex.cp38-win_amd64.pyd,sha256=tC-4ajl4BFUPlcVG7vY038Fl6fI1RocJ6XuCMhs6FFA,50216960
+azureml/dataprep/rslex_fuse_subprocess_wrapper/__init__.py,sha256=XNV5Cqg8N8eBNv3z1UFfXamSk3QrRbk54UAXQPANbyM,6452
+azureml_dataprep_rslex-2.19.1.dist-info/LICENSE.txt,sha256=GBoIyZ-6vJ4xjRc8U3wTw4EfkuaEdVTm_gbr1Nm8uDI,859
+azureml_dataprep_rslex-2.19.1.dist-info/METADATA,sha256=PbJhtqQ33k1_9BeSUOryl9Sr-gRx4mCI7nqUmQsmA4k,1685
+azureml_dataprep_rslex-2.19.1.dist-info/NOTICE.txt,sha256=8z8_I4H7nrfDNSP-LXQ53_5hOkEkR8dRJaZslAHpb8E,2543572
+azureml_dataprep_rslex-2.19.1.dist-info/WHEEL,sha256=ubKCG5XSDI8ZG5iAwgsAU4yUktRq9BG9Pse4izScbq0,100
+azureml_dataprep_rslex-2.19.1.dist-info/top_level.txt,sha256=ZOeEa0TAXo6i5wOjwBoqfIGEuxOcKuscGgNSpizqREY,8
+azureml_dataprep_rslex-2.19.1.dist-info/RECORD,,
