@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+src/patentgpt/__init__.py
+src/patentgpt/main.py
+src/patentgpt/preprocess_data.py
+src/patentgpt/qaagent.py
+src/patentgpt_extract.egg-info/PKG-INFO
+src/patentgpt_extract.egg-info/SOURCES.txt
+src/patentgpt_extract.egg-info/dependency_links.txt
+src/patentgpt_extract.egg-info/requires.txt
+src/patentgpt_extract.egg-info/top_level.txt
