@@ -1,0 +1,3 @@
+[console_scripts]
+scicmd = scicommander.scicmd:main
+
