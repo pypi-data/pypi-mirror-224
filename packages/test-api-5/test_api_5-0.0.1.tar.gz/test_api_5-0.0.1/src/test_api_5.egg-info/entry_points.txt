@@ -1,0 +1,2 @@
+[console_scripts]
+test-api-5 = test_api_5.scripts:test_api_5

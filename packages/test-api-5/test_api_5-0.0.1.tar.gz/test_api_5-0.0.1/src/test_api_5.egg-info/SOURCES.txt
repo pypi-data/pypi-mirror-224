@@ -1,0 +1,12 @@
+MANIFEST.in
+pyproject.toml
+setup.cfg
+src/test_api_5/__init__.py
+src/test_api_5/example.py
+src/test_api_5/scripts.py
+src/test_api_5.egg-info/PKG-INFO
+src/test_api_5.egg-info/SOURCES.txt
+src/test_api_5.egg-info/dependency_links.txt
+src/test_api_5.egg-info/entry_points.txt
+src/test_api_5.egg-info/requires.txt
+src/test_api_5.egg-info/top_level.txt
