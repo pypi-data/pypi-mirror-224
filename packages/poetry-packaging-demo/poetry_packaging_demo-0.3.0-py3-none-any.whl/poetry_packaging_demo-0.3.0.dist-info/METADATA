@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: poetry-packaging-demo
+Version: 0.3.0
+Summary: A demo of a Python packaging workflow using GH Actions and poetry
+Author: Matteo Fordiani
+Author-email: matteofordiani@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: numpy (>=1.24,<2.0)
+Description-Content-Type: text/markdown
+
+# poetry-packaging-demo
+Demo of a CI pipeline for Python projects that lints, tests and publishes to PyPI with Poetry
+
