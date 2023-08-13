@@ -1,0 +1,12 @@
+bsdm/__init__.py,sha256=03HnVstE6giNxZwcp2_WVOcChhU-OVUEOQ_HpPFXpcM,47
+bsdm/block.py,sha256=akzEU0LXaiVk1siQezlZXJlXd9vrkq-eoDzB_7V-FD0,1424
+bsdm/bsdm.py,sha256=zBWBkZtxgn1VTNswdc4TasDxDy7SDrvbU4R90Wg2GFU,2814
+bsdm/classes/__init__.py,sha256=5WJaaBk-iBsfSkB8115fLalax9YMAA3uazsMnuyYh0w,49
+bsdm/classes/Text.py,sha256=9bUgB4Np5In_OMhdQh1uh4gV4vqlJUqc77Qax-fDy1w,4249
+bsdm/stylesheet.py,sha256=DBwIseb9gya4skXpHapR_KNnYu4PvNwKq187JGUki38,2563
+bsdm/utils/__init__.py,sha256=buGrjko0BaoGtH4GIsX5OBLV-f6PMbH6omOIv9B_Rlo,51
+bsdm/utils/logger.py,sha256=5VCpqQci2vykyAVxJiyavTc1oNcFDOrjJyLW4dpsMF8,753
+bsdm-0.1.1.dist-info/LICENSE,sha256=-hZ3-zAfuZQ4rhEXLpOKmYRr4EaqCl6f2ktxpY9vF8w,1088
+bsdm-0.1.1.dist-info/METADATA,sha256=PqmSEJJZ1DKTj3YolKNSzmFWWYj5iyHLjuz7t7KUv6g,568
+bsdm-0.1.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+bsdm-0.1.1.dist-info/RECORD,,
