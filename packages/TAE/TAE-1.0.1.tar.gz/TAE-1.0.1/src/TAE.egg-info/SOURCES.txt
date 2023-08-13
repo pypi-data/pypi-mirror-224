@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/TAE.egg-info/PKG-INFO
+src/TAE.egg-info/SOURCES.txt
+src/TAE.egg-info/dependency_links.txt
+src/TAE.egg-info/top_level.txt
+src/TextEngine/__init__.py
+src/TextEngine/character.py
+src/TextEngine/error.py
+src/TextEngine/interaction.py
+src/TextEngine/item.py
+src/TextEngine/text.py
