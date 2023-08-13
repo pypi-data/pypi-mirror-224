@@ -1,0 +1,2 @@
+[console_scripts]
+jupyter-run = jupyter_run.application:main
