@@ -1,0 +1,10 @@
+pybet/__init__.py,sha256=CWmdbbvZFvDH8lNn7RvCaWNU6RhWpzF8072gOZ-c0HI,113
+pybet/bet.py,sha256=SE169q_IaWOxpzTGUlHDgf4emzLcNT17VCMLhjboTlY,3327
+pybet/market.py,sha256=ijSHzBfWrqt6w0u6WHcADcmrLnI5kJY909bwQVYFKhg,10441
+pybet/odds.py,sha256=Pjh1O-ZsZhaRfpFjsn2sBqlgKyEw12vaogWCuxTBO6I,11717
+pybet/staking/__init__.py,sha256=d2BCQCiyj7McYjg9n-X63dhZPYYJEB0_dkLloTXIcYc,49
+pybet/staking/kelly.py,sha256=bWAo3hmvRvfzRQsKM4N9InTGWat0UEguM-40sjQqTZs,1496
+pybet-0.8.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+pybet-0.8.0.dist-info/METADATA,sha256=aWFM7eN4JPy9PleipCsLYsftfvHu3TENmf2_6HHhHco,1389
+pybet-0.8.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+pybet-0.8.0.dist-info/RECORD,,
