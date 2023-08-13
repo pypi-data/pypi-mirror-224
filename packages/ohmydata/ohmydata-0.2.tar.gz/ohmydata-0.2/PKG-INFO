@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ohmydata
+Version: 0.2
+Summary: An Easy Database Basd On Json
+Project-URL: Home-page, https://github.com/crillerium/
+Author-email: Crillerium <crillerium@outlook.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+An Easy Database Basd On Json
