@@ -1,0 +1,10 @@
+twenty48tools/Decoder.py,sha256=Mh56UDYZlk0om0NHqrRHR9xU-zGO_mEq7yR4ra_y4Us,583
+twenty48tools/Encoder.py,sha256=NXbj6AkkxQUBNV5YnU98AL51uWW76jojbXl08AYeTqE,427
+twenty48tools/GameReplay.py,sha256=cpun_iKp3To3rswPgRpxU76ZRoFXySdQVdjPOgEKzb0,401
+twenty48tools/Reporter.py,sha256=wVOLWjb4N-pMbCOTsg2UfTZDxKOFyEGyONE3Xl_q6gw,1346
+twenty48tools/Statistics.py,sha256=tqpailRWMkh-ChKX4E1Xgp7O0jUQ1PZv5GS0fBKaImo,319
+twenty48tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+twenty48tools-0.0.1.dist-info/METADATA,sha256=cTHtc_ChmNKBgg5BpXa3wPQNNdF49RqkJhGjLPN4M_8,554
+twenty48tools-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+twenty48tools-0.0.1.dist-info/licenses/LICENSE,sha256=A7Q54FErUXfGWOOFSg60q4qgOagargeIf6xofYPob0c,1070
+twenty48tools-0.0.1.dist-info/RECORD,,
