@@ -1,0 +1,12 @@
+shapecms/__init__.py,sha256=bCHAoSgoavygX6nNbHG31jPAEFxVmrXPA6VOIwkrfgo,1414
+shapecms/shape.py,sha256=MNeb-Y5tA5ZMq4AUFM2nqNJCf8Fmd1hay5wOBUyrCcg,280
+shapecms/shape_field.py,sha256=egvmYhiGCc7cWlNBuvGFtZddpeTHabq4NS4ZcVGZoxU,469
+shapecms/shape_view.py,sha256=0qT9tP1K5SoPemuTNlShcL2Q_IcFqU5771PB4phf4JQ,232
+shapecms/fields/text_field.py,sha256=ezo1XHnXV39TNPuYmW-MHF6HYFaZq7VdfEgoL77YZvs,377
+shapecms/templates/admin/login.html,sha256=3Do86v4JsBNvkDJE77XWbiX9LEZPwBwE2Za5Vn8so3o,223
+shapecms/views/admin.py,sha256=mL6GOCbUmKBa-rmg868X88kixw99fdGeGCXHJD_bwxM,239
+shapecms/views/admin_login.py,sha256=b052uJjAadtSBoEcTGNlEyYV0Z3sPfm2U414RJjnnYE,205
+shapecms-0.0.5.dist-info/METADATA,sha256=uKSuk3t5bPO2FrJB7ULFoC1elTdrZWYjbIP6VoyewXc,533
+shapecms-0.0.5.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+shapecms-0.0.5.dist-info/licenses/LICENSE,sha256=yv2Msz_z9UozWvVaVn25ZMsJfp-QoRDtsUf7f9GLaW0,1070
+shapecms-0.0.5.dist-info/RECORD,,
