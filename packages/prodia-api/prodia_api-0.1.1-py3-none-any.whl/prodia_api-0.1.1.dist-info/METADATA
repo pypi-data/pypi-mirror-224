@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: prodia-api
+Version: 0.1.1
+Summary: 
+License: GPLv3+
+Author: hoopengo
+Author-email: hoopengo@yandex.ru
+Requires-Python: >=3.8,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aiohttp (>=3.8.5,<4.0.0)
+Description-Content-Type: text/markdown
+
+# Prodia_API
+
+> prodia API python wrapper
+
+## installation
+
+```sh
+$ pip install prodia_api
+```
+
