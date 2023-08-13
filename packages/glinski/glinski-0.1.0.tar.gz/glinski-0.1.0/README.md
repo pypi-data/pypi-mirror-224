@@ -1,0 +1,2 @@
+# glinski
+Glinski chess
