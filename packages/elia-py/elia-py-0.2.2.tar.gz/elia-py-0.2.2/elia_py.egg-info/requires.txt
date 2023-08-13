@@ -1,0 +1,6 @@
+pandas>=1.4.0
+pytest
+python-dateutil
+pytz
+requests
+xlrd
