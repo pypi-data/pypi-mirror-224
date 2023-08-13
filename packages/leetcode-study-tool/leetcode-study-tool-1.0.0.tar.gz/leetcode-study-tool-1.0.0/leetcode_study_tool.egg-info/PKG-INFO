@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: leetcode-study-tool
+Version: 1.0.0
+Summary: A tool for studying Leetcode with Python
+Author-email: John Sutor <johnsutor3@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2023 John Sutor
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Project-URL: homepage, https://github.com/johnsutor/leetcode-study-tool
+Keywords: leetcode,leet,study,Anki
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Leetcode Study Tool
+This package provides a command-line tool for interracting with Leetcode to create flashcards for study,
+which can then be imported into Anki.
+
+## Usage 
+```shell
+usage: leetcode-study-tool [-h] (--url URL | --file FILE) [--format {cards}] [--output OUTPUT] [--language LANGUAGE]
+
+Generates problems from LeetCode questions in a desired format.
+
+options:
+  -h, --help            show this help message and exit
+  --url URL, -u URL     The URL(s) or slug(s) of the LeetCode question(s) to generate problem(s) for. (default: None)
+  --file FILE, -f FILE  The file containing the URL(s) or slug(s) of the LeetCode question(s) to generate problem(s) for. (default: None)
+  --format {cards}, -F {cards}
+                        The format to save the Anki problem(s) in. (default: cards)
+  --output OUTPUT, -o OUTPUT
+                        The output file to write the problem(s) to. (default: output.txt)
+  --language LANGUAGE, -l LANGUAGE
+                        The language to generate problem(s) for. (default: None)
+```
+
+## Roadmap 
+- [ ] Add support for fetching premium questions via authentification
+- [ ] Add support for importing cards into Quizlet
+- [ ] Add support for fetching questions by topic or tag 
+- [ ] Add support for exporting to an excel sheet
+- [ ] Add support for showing neetcode solutions on the back of the card as a link
+- [ ] Reach 100% test coverage
