@@ -1,0 +1,115 @@
+.gitignore
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README-instructions.md
+README.md
+azure-pipelines.yml
+pytest.ini
+requirements.txt
+setup.py
+bw_recipe_2016/__init__.py
+bw_recipe_2016/base.py
+bw_recipe_2016/biosphere.py
+bw_recipe_2016/chemidplus.py
+bw_recipe_2016/config.py
+bw_recipe_2016/endpoints.py
+bw_recipe_2016/excel_extraction.py
+bw_recipe_2016/extraction.py
+bw_recipe_2016/version.py
+bw_recipe_2016.egg-info/PKG-INFO
+bw_recipe_2016.egg-info/SOURCES.txt
+bw_recipe_2016.egg-info/dependency_links.txt
+bw_recipe_2016.egg-info/requires.txt
+bw_recipe_2016.egg-info/top_level.txt
+bw_recipe_2016/categories/__init__.py
+bw_recipe_2016/categories/eutrophication.py
+bw_recipe_2016/categories/global_warming.py
+bw_recipe_2016/categories/ionizing_radiation.py
+bw_recipe_2016/categories/land.py
+bw_recipe_2016/categories/ozone_formation.py
+bw_recipe_2016/categories/particulate_matter.py
+bw_recipe_2016/categories/resources.py
+bw_recipe_2016/categories/stratospheric_ozone_depletion.py
+bw_recipe_2016/categories/terrestrial_acidification.py
+bw_recipe_2016/categories/toxicity.py
+bw_recipe_2016/categories/water.py
+bw_recipe_2016/data/ReCiPe2016_CFs_v1.0_20161004.xlsx
+bw_recipe_2016/data/ReCiPe2016_CFs_v1.1_20170929.xlsx
+bw_recipe_2016/data/ReCiPe2016_CFs_v1.1_20180117.xlsx
+bw_recipe_2016/data/chemid_cache.json
+bw_recipe_2016/strategies/__init__.py
+bw_recipe_2016/strategies/eutrophication.py
+bw_recipe_2016/strategies/formatting.py
+bw_recipe_2016/strategies/global_warming.py
+bw_recipe_2016/strategies/ionizing_radiation.py
+bw_recipe_2016/strategies/land.py
+bw_recipe_2016/strategies/matching.py
+bw_recipe_2016/strategies/names.py
+bw_recipe_2016/strategies/ozone_formation.py
+bw_recipe_2016/strategies/particulate_matter.py
+bw_recipe_2016/strategies/resources.py
+bw_recipe_2016/strategies/string_manipulation.py
+bw_recipe_2016/strategies/toxicity.py
+bw_recipe_2016/strategies/validation.py
+dev/Calculation of single score endpoint weights.ipynb
+dev/Comparing ReCiPe versions.ipynb
+dev/Endpoints.ipynb
+dev/Extraction.ipynb
+dev/Fossil resource scarcity endpoint.ipynb
+dev/Fossil resource scarcity.ipynb
+dev/Freshwater Eutrophication.ipynb
+dev/Freshwater ecotoxicity.ipynb
+dev/Global warming.ipynb
+dev/Import original CFs.ipynb
+dev/Ionizing Radiation.ipynb
+dev/Land Occupation.ipynb
+dev/Land Transformation.ipynb
+dev/Marine Eutrophication.ipynb
+dev/Mineral resource scarcity.ipynb
+dev/Particulate matter formation.ipynb
+dev/Photochemical ozone formation - humans.ipynb
+dev/Populate ChemID cache.ipynb
+dev/Stratospheric ozone depletion.ipynb
+dev/Terrestrial acidification.ipynb
+dev/Terrestrial ecotoxicity.ipynb
+dev/Water Consumption.ipynb
+dev/data/Egalitarian/Non-Carcinogenic Tox - Agriculturalsoil - Egalitarian - 1.0.png
+dev/data/Egalitarian/Non-Carcinogenic Tox - Freshwater - Egalitarian - 1.0.png
+dev/data/Egalitarian/Non-Carcinogenic Tox - Industrialsoil - Egalitarian - 1.0.png
+dev/data/Egalitarian/Non-Carcinogenic Tox - Ruralair - Egalitarian - 1.0.png
+dev/data/Egalitarian/Non-Carcinogenic Tox - Seawater - Egalitarian - 1.0.png
+dev/data/Egalitarian/Non-Carcinogenic Tox - Urbanair - Egalitarian - 1.0.png
+dev/data/Egalitarian/Terrestrial Ecotox - Agriculturalsoil - Egalitarian - 1.0.png
+dev/data/Egalitarian/Terrestrial Ecotox - Freshwater - Egalitarian - 1.0.png
+dev/data/Egalitarian/Terrestrial Ecotox - Industrialsoil - Egalitarian - 1.0.png
+dev/data/Egalitarian/Terrestrial Ecotox - Ruralair - Egalitarian - 1.0.png
+dev/data/Egalitarian/Terrestrial Ecotox - Seawater - Egalitarian - 1.0.png
+dev/data/Egalitarian/Terrestrial Ecotox - Urbanair - Egalitarian - 1.0.png
+dev/data/Hierarchic/Non-Carcinogenic Tox - Agriculturalsoil - Hierarchic - 1.0.png
+dev/data/Hierarchic/Non-Carcinogenic Tox - Freshwater - Hierarchic - 1.0.png
+dev/data/Hierarchic/Non-Carcinogenic Tox - Industrialsoil - Hierarchic - 1.0.png
+dev/data/Hierarchic/Non-Carcinogenic Tox - Ruralair - Hierarchic - 1.0.png
+dev/data/Hierarchic/Non-Carcinogenic Tox - Seawater - Hierarchic - 1.0.png
+dev/data/Hierarchic/Non-Carcinogenic Tox - Urbanair - Hierarchic - 1.0.png
+dev/data/Hierarchic/Terrestrial Ecotox - Agriculturalsoil - Hierarchic - 1.0.png
+dev/data/Hierarchic/Terrestrial Ecotox - Freshwater - Hierarchic - 1.0.png
+dev/data/Hierarchic/Terrestrial Ecotox - Industrialsoil - Hierarchic - 1.0.png
+dev/data/Hierarchic/Terrestrial Ecotox - Ruralair - Hierarchic - 1.0.png
+dev/data/Hierarchic/Terrestrial Ecotox - Seawater - Hierarchic - 1.0.png
+dev/data/Hierarchic/Terrestrial Ecotox - Urbanair - Hierarchic - 1.0.png
+dev/data/Individualistic/Non-Carcinogenic Tox - Agriculturalsoil - Individualistic - 1.0.png
+dev/data/Individualistic/Non-Carcinogenic Tox - Freshwater - Individualistic - 1.0.png
+dev/data/Individualistic/Non-Carcinogenic Tox - Industrialsoil - Individualistic - 1.0.png
+dev/data/Individualistic/Non-Carcinogenic Tox - Ruralair - Individualistic - 1.0.png
+dev/data/Individualistic/Non-Carcinogenic Tox - Seawater - Individualistic - 1.0.png
+dev/data/Individualistic/Non-Carcinogenic Tox - Urbanair - Individualistic - 1.0.png
+dev/data/Individualistic/Terrestrial Ecotox - Agriculturalsoil - Individualistic - 1.0.png
+dev/data/Individualistic/Terrestrial Ecotox - Freshwater - Individualistic - 1.0.png
+dev/data/Individualistic/Terrestrial Ecotox - Industrialsoil - Individualistic - 1.0.png
+dev/data/Individualistic/Terrestrial Ecotox - Ruralair - Individualistic - 1.0.png
+dev/data/Individualistic/Terrestrial Ecotox - Seawater - Individualistic - 1.0.png
+dev/data/Individualistic/Terrestrial Ecotox - Urbanair - Individualistic - 1.0.png
+docs/.dummy
+tests/strategies.py
+tests/strategies/matching.py
