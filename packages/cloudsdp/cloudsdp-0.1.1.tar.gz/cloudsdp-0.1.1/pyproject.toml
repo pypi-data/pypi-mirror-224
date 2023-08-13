@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "cloudsdp"
+version = "0.1.1"
+description = ""
+authors = ["Naveen Anil <naveenms01@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+google-cloud-bigquery = "^3.11.4"
+google-cloud-run = "^0.9.1"
+deepdiff = "^6.3.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
