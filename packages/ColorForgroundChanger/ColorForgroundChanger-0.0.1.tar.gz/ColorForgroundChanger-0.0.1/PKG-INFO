@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: ColorForgroundChanger
+Version: 0.0.1
+Summary: A forground color changer
+Home-page: 
+Author: Dean Brosnan
+Author-email: deangames200@hotmail.com
+License: MIT
+Keywords: forgroundcolor
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+this is a forground color changer that has these colors : Blue, Green, Aqua, Red, Purple, Yellow, White, Gray, LightBlue, LightGreen, LightRed, LightPurple, LightYellow and BrightWhite.
+
+
+Change Log
+============
+
+0.0.1 (12/08/2023)
+----------------------------
+- First Release
