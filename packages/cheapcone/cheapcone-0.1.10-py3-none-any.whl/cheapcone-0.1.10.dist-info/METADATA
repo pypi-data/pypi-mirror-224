@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: cheapcone
+Version: 0.1.10
+Summary: 
+Author: Oscar Bahamonde
+Author-email: oscar.bahamonde@pucp.pe
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aiohttp (>=3.8.5,<4.0.0)
+Requires-Dist: pydantic (>=2.1.1,<3.0.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+
