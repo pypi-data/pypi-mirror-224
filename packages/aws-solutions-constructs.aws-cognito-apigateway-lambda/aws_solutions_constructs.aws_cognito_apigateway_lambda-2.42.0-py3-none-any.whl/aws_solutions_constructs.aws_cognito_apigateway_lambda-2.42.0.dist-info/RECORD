@@ -1,0 +1,9 @@
+aws_solutions_constructs/aws_cognito_apigateway_lambda/__init__.py,sha256=995gPsZkbayKC14Px-reC0WBNVpxiN9dwh-8sivxirI,25225
+aws_solutions_constructs/aws_cognito_apigateway_lambda/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_solutions_constructs/aws_cognito_apigateway_lambda/_jsii/__init__.py,sha256=KyCns1AD9oviX_3dKnLvux0GU_gcXDXlLw8dkeeCtC8,509
+aws_solutions_constructs/aws_cognito_apigateway_lambda/_jsii/aws-cognito-apigateway-lambda@2.42.0.jsii.tgz,sha256=lGlkKHm5348gUFvdwmzaP_yVUvJrcv9LULVNJa-CxTo,110504
+aws_solutions_constructs.aws_cognito_apigateway_lambda-2.42.0.dist-info/LICENSE,sha256=wnT4A3LZDAEpNzcPDh8VCH0i4wjvmLJ86l3A0tCINmw,10279
+aws_solutions_constructs.aws_cognito_apigateway_lambda-2.42.0.dist-info/METADATA,sha256=eMdSYOpq363n1G6woJzFt94-rvVT__mz_AGOb9cHLNQ,12016
+aws_solutions_constructs.aws_cognito_apigateway_lambda-2.42.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+aws_solutions_constructs.aws_cognito_apigateway_lambda-2.42.0.dist-info/top_level.txt,sha256=hi3us_KW7V1ocfOqVsNq1o3w552jCEgu_KsCckqYWsg,25
+aws_solutions_constructs.aws_cognito_apigateway_lambda-2.42.0.dist-info/RECORD,,
