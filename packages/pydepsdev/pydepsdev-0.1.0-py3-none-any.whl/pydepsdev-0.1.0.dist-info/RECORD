@@ -1,0 +1,13 @@
+pydepsdev/__init__.py,sha256=DT3RSDRstW7uz4AKXbSC56HQlZPoUfUenCCC4sJ3Zh8,61
+pydepsdev/api.py,sha256=2_FNrIeNaBaqaAjd3a6DW8pl3hudOI6mC0hpersTx8o,8443
+pydepsdev/constants.py,sha256=DCITMqqlY9NJ_TfSwZ20EsJk3ZO2QFYgZTEHZtue6S4,261
+pydepsdev/exceptions.py,sha256=m1j4sOgRfFwg8eMe_A2TGJEFVLDiYZsv_oe2QZusO30,375
+pydepsdev/utils.py,sha256=I-XO_v5nF6P32AtrCd4eH8Wu3SQkhbHhMyf1KJVmEVs,572
+tests/__init__.py,sha256=4W8VliAYUP1KY2gLJ_YDy2TmcXYVm-PY7XikQD_bFwA,2
+tests/mock_responses.py,sha256=T6Q5Ct1hhGeGUudbbwvc3IJUqoOhV5e1P-D8shJY7I0,15873
+tests/test_api.py,sha256=WpSi3KaK77_9NvK23PdSQ_udKcmpvinbe6MWXfj3DFg,5425
+pydepsdev-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pydepsdev-0.1.0.dist-info/METADATA,sha256=_ytRgfE1KBV-NJu3W5iis0BADsQVjfnYa5Jt74fNMkw,16776
+pydepsdev-0.1.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+pydepsdev-0.1.0.dist-info/top_level.txt,sha256=WaEw5UpiQ3cezVN-vRLkHPYI2hVZTCl7UwEGRIB0WBE,16
+pydepsdev-0.1.0.dist-info/RECORD,,
