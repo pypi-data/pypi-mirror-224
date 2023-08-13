@@ -1,0 +1,11 @@
+mlopscfg/__init__.py,sha256=ShXQBVjyiSOHxoQJS2BvNG395W4KZfqMxZWBAR0MZrE,22
+mlopscfg/backend.py,sha256=UaXneuRjaJb4bAawDQJ2J4V652ZTu4p8bzeaB1yepgc,7422
+mlopscfg/cli.py,sha256=83AA2S5NiHh6FlBXpDUBh_FD9OIZ1AfX2yVsAdeT0gQ,4288
+mlopscfg/environment.py,sha256=YSDTfkmxVrdoNd34pSHktp2WmXi6GIjkM6xP2Kn6PEw,7345
+mlopscfg/parameters.py,sha256=w1UnmSDaNPPjv1aFPrNAprM1ohxS5RU8Xo7PvWBF8jE,9094
+mlopscfg/parameters_cache.py,sha256=slDi1wWhxDovNhhxjUJb5NNtTEAfvMy-BT7KjNZ4ykQ,3607
+mlopscfg/struct_log.py,sha256=63L4h6MA2DxL-avYhFWshNTqdHt7LZHSVN-SpW0YSrw,5190
+mlopscfg-1.0.1.dist-info/METADATA,sha256=czh-IzAHYBiBuytxaaLO8CdW0RF4zl7mlHOaBSkEDqY,504
+mlopscfg-1.0.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+mlopscfg-1.0.1.dist-info/entry_points.txt,sha256=0z8AzSd6xUP4bKTDmbMH-yDvO2NQ8KV1DD8KKkAYlp8,50
+mlopscfg-1.0.1.dist-info/RECORD,,
