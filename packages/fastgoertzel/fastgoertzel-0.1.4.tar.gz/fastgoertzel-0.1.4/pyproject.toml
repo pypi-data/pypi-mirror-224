@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "fastgoertzel"
+version = "0.1.4"
+homepage = "https://github.com/0zean/fastgoertzel"
+repository = "https://github.com/0zean/fastgoertzel"
+description = "Goertzel algorithm implemented with cython in 3 different ways"
+authors = ["Nicholas Picini <ozeanwave@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+# packages = [{include = "fastgoertzel", from = "src"}]
+exclude = ["src/**/*.py"]
+include = [
+    "src/**/*.so",
+    "src/**/*.pyd",
+    "LICENSE"
+] 
+
+[tool.poetry.dependencies]
+python = "<3.13 >=3.9"
+numpy = "=1.25.2"
+scipy = "=1.11.1"
+
+[tool.poetry.dev-dependencies]
+cython = "=0.29.24"
+
+[build-system]
+requires = ["poetry-core", "setuptools", "cython", "numpy"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.build]
+generate-setup-file = false
+script = "build.py"
