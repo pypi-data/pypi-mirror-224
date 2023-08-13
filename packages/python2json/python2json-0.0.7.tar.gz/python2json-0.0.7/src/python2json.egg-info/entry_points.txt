@@ -1,0 +1,2 @@
+[console_scripts]
+python_parser = python_parser:main
