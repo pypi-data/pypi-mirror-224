@@ -1,0 +1,114 @@
+Metadata-Version: 2.1
+Name: contextful
+Version: 0.0.1a0
+Summary: Logging helper for contextful logging
+Author-email: Moe Dev <ddevmoe@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2023 Moe Dev
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: homepage, https://github.com/ddevmoe/contextful
+Project-URL: repository, https://github.com/ddevmoe/contextful
+Keywords: context,logging,logger,logging-utility,logging-helper
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Context Logger
+
+Enhanced logging features emphasizing context for complex logging requirements.
+
+## Installation
+
+Install using pip:
+
+```SHELL
+pip install contextful
+```
+
+## Usage Example
+
+Here's an example for a process of shipping a couple of items to their respective destinations.
+
+We use logging context to tie each log to it's respective item.
+
+```python
+import logging
+from context_logger import ContextLogger
+
+
+class CustomHandler(logging.Handler):
+    def emit(record) -> None:
+        sender = record.context.get('sender')
+        item_id = record.context.get('item_id')
+        print(f'[{sender} -> {item_id}] {record.msg}')
+
+
+logger = ContextLogger()
+logger.addHandler(CustomHandler())
+
+
+
+def measure_item_weight(item_contents) -> float:
+    ...  # Magic here
+    logger.info('Item weight was measured successfully')
+
+
+def determine_item_destination(item) -> str:
+    ...  # Magic here
+    logger.info('Determined item address')
+
+
+def ship_item(item):
+    ...  # Magic here
+    logger.info('Shipped item successfuly')
+
+
+# Ship some items
+sender = 'Johnny John'
+items = [Item(id='item-1', ...), Item(id='item-1', ...)]
+with logger.context({'sender': sender}):
+    for item in items:
+        with logger.context({'item': item.id}):
+            weight = measure_item_weight(item.contents)
+            destination = determine_item_destination(item)
+            ship_item(item)
+
+# Output:
+# [Johnny John -> item-1] Item weight was measured successfully
+# [Johnny John -> item-1] Determined item address
+# [Johnny John -> item-1] Shipped item successfuly
+# [Johnny John -> item-2] Item weight was measured successfully
+# [Johnny John -> item-2] Determined item address
+# [Johnny John -> item-2] Shipped item successfuly
+```
+
+This simple demonstration showcases two powerful benefits of using a context for logging -
+
+1. We were able to append valuable information - the sender name - to each of the logs on _every item_ without having to propagate down
+data that was unnecessary for the logic of the function itself (- we don't need the sender name to measure an item's weight, only the contents).
+
+1. We were able to append an item id to each log without explicitly adding it to any of them, even though
+they were invoked in different functions.
+
+## License
+
+This project is open sourced under MIT license, see the [LICENSE](LICENSE) file for more details.
