@@ -1,0 +1,15 @@
+# python
+build
+twine
+python-dotenv
+
+# data
+ibis-framework[duckdb,deltalake] @ git+https://github.com/ibis-project/ibis.git@master
+
+# viz
+plotly
+streamlit
+
+# ml
+openai
+

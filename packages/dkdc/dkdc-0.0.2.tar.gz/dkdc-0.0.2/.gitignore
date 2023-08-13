@@ -1,0 +1,8 @@
+.env
+.venv
+venv
+data
+dist
+target
+.streamlit/secrets.toml
+*.ddb*
