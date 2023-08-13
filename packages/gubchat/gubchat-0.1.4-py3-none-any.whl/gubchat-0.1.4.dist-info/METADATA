@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: gubchat
+Version: 0.1.4
+Summary: Gubchat is a twitch chat client built using Kivy
+Author-email: Douglas <hashy.software@gmail.com>
+Project-URL: Homepage, https://github.com/Hashy-Software/gubchat
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 2 - Pre-Alpha
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp >=3.8.5
+Requires-Dist: websockets >=11.0.3
+Requires-Dist: kivy >=2.2.1
+Requires-Dist: kivymd >=1.1.1
+Requires-Dist: keyring >=24.2.0
+Requires-Dist: sqlalchemy >=2.0.19
+Requires-Dist: aiosqlite >=0.19.0
+Requires-Dist: alembic >=1.11.2
+Requires-Dist: uvloop >=0.17.0
+Provides-Extra: dev
+
+# gubchat
+A gub twitch chat client
