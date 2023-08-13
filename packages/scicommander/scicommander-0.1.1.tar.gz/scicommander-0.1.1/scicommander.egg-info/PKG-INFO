@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: scicommander
+Version: 0.1.1
+Summary: A small library for executing shell commands in a reproducible way.
+Home-page: https://github.com/samuell/scicommander
+Author: Samuel Lampa
+Author-email: samuel.lampa@scilifelab.se
+License: MIT
+Keywords: reproducibility,shell,bash
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Description-Content-Type: text/markdown
+
+# Reproducibility Toolkit
+
+
