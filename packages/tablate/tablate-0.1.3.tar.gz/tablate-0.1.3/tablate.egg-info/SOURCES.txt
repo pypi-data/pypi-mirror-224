@@ -1,0 +1,17 @@
+LICENCE
+README.md
+pyproject.toml
+tablate/__init__.py
+tablate.egg-info/PKG-INFO
+tablate.egg-info/SOURCES.txt
+tablate.egg-info/dependency_links.txt
+tablate.egg-info/top_level.txt
+tests/test_api_grid.py
+tests/test_api_table.py
+tests/test_api_text.py
+tests/test_defs.py
+tests/test_future.py
+tests/test_objs.py
+tests/test_out_html.py
+tests/test_out_text.py
+tests/test_styles.py
