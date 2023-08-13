@@ -1,0 +1,2 @@
+[console_scripts]
+nanologp = nanolog_parser.parse:main
