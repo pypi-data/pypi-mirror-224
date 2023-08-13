@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: scicommander
+Version: 0.1.2
+Summary: A small library for executing shell commands in a reproducible way.
+Home-page: https://github.com/samuell/scicommander
+Author: Samuel Lampa
+Author-email: samuel.lampa@scilifelab.se
+License: MIT
+Keywords: reproducibility,shell,bash
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Description-Content-Type: text/markdown
+
+SciCommander
+============
+
+This is a small tool that executes single shell commands in a scientifically
+more reproducible and robust way, by doing the following things:
+
+- Atomic writes: Writes files to a temporary location until command is finished
+- Auditing: Creating an audit log of most output files
+- Caching: Skipping executions where output files already exist
+
+It allows executing shell commands with very minor modifications:
+
+1. Prepend your command with the `scicmd` command.
+2. Wrap definitions of input fields in `{i:INPATH}` and output files in
+   `{o:OUTPATH}` for output paths.
+
+The benefits are multiple:
+
+1. Detailed audit logs for every command (Compatible with SciPipe audit logs).
+2. Unfinished output files are never written to final paths
+3. Avoid re-running already completed commands
+4. Can be combined with any existing scripting solution, such as:
+  - Shell scripts
+  - Python scripts
+  - Nextflow pipelines [1]
+  - Snakemake pipelines [1]
+
+## Notes
+
+[1] Although Nextflow and Snakemake already take care of some of the benefits,
+such as atomic writes, SciExec adds additional features such as detailed
+per-output audit logs.
+
+
