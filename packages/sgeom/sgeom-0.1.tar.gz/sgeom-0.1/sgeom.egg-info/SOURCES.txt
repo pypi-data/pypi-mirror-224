@@ -1,0 +1,11 @@
+AUTHORS.md
+LICENSE
+README.md
+setup.py
+sgeom/__init__.py
+sgeom/sgeom.py
+sgeom.egg-info/PKG-INFO
+sgeom.egg-info/SOURCES.txt
+sgeom.egg-info/dependency_links.txt
+sgeom.egg-info/requires.txt
+sgeom.egg-info/top_level.txt
