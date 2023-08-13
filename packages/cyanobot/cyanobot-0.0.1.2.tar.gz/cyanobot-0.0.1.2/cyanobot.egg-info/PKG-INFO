@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: cyanobot
+Version: 0.0.1.2
+Summary: A simple bot framework
+Home-page: UNKNOWN
+Author: cyanobird
+Author-email: 3358851903@qq.com
+License: UNKNOWN
+Description: # cyanoBot👋
+        *即问即答，api请求式bot框架，适用于网页聊天机器人*
+        
+        ------------
+        
+        ## 我们的优势
+        1. 无需调用其他api，直接在web对话中返回结果
+        2. 适配器编写简单易上手，快速对接第三方平台
+        3. 储存上下文信息，对话功能更加灵活
+        
+        ------------
+        
+        ## 开始使用
+        ### 1. 安装
+        `pip install cyanobot`
+        ### 2. 调用
+        `from cyanobot.cb import *`
+        ### 3. 运行
+        `cb.run()`
+        
+        
+Platform: all
+Description-Content-Type: text/markdown
