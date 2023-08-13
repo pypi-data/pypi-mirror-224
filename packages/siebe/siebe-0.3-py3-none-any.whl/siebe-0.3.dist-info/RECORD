@@ -1,0 +1,9 @@
+siebe/__init__.py,sha256=TpEYl0pgdDcv27iJYVezYdx5h_dAFHAJlX5TLXbwH2w,682
+siebe/datastructuring.py,sha256=8HYE00AosZV3iCf6PG0kXSXiogkNjtsPKTqMvtgxe-8,1462
+siebe/imports.py,sha256=lr3JIzsWwm7RFRlznxIKhQrti42P_0ixc_P7jg9q7TI,1487
+siebe/media_file_handling.py,sha256=9gDKws9RiUN8Un5jFvVSVTRbPsYOw9fMtwP4er8mz6U,963
+siebe/rename_writtenNumbersToDigits.py,sha256=F65EI9RKfBGACYmipraBoh1kgH0oo49bUPx8HF51ocU,1440
+siebe-0.3.dist-info/METADATA,sha256=hEez0dR-OmLIV11MOyA8Uau5bSCPydCbhcZr-1WxdUI,338
+siebe-0.3.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+siebe-0.3.dist-info/top_level.txt,sha256=dHuhzIp9EYOnLNvFx8P6gPVOTFIoPwUijuOTqF3p_Pk,6
+siebe-0.3.dist-info/RECORD,,
