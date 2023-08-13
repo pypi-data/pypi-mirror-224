@@ -1,0 +1,14 @@
+panopto_dl/__init__.py,sha256=Loc0ATIqDizBTItiQrT-s21VNbW9mpclOrMP8ckz0sc,56
+panopto_dl/chatgpt.py,sha256=G7C3Ioo9XOSJQBU4nL71OmNBhoJld_CqMjA94pquVVE,866
+panopto_dl/main.py,sha256=_7vxwLiZL49uCkXMp9IvzX70lsuuoXmeJrquxgJMMyU,452
+panopto_dl/PanoptoDownloader/PanoptoDownloader.py,sha256=66sc-3YS6djttg8JciTe_bfz_1YGUWe3HM_fpUUBdp8,2018
+panopto_dl/PanoptoDownloader/__init__.py,sha256=VD8AnO6L8UOxRNZ0qGavXXQPaqxwtkR9unaPDsbl4Dg,186
+panopto_dl/PanoptoDownloader/__main__.py,sha256=7UcH4hxB90T18fGmZLI7BHV9yuhbQe2Q4Y0r8AOPTIg,2227
+panopto_dl/PanoptoDownloader/__version__.py,sha256=EyMGX1ADFzN6XVXHWbJUtKPONYKeFkvWoKIFPDDB2I8,22
+panopto_dl/PanoptoDownloader/exceptions.py,sha256=8c-FL3VO5teYq4vCZAICtk7KJsXUrawEoNhy2Pimtj0,242
+panopto_dl/PanoptoDownloader/hls_downloader.py,sha256=lCQPD3IHk3U0r2k5myp5B87ZH-E5zckD1rjTKfDWCs4,5182
+panopto_dl-0.1.0.dist-info/LICENSE,sha256=bVX9Bc0OyCCVQOfOV6YwPCW027ucRl1Kp6kKBbCHpVE,1068
+panopto_dl-0.1.0.dist-info/METADATA,sha256=p6kEgZozBc_hGCIFp7G9LhNFkDk0Xogh6tXqddxyoY8,3755
+panopto_dl-0.1.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+panopto_dl-0.1.0.dist-info/top_level.txt,sha256=MQa6_1-xgcQQOt_ahx124W-ZMuJ5wLK26DigADp15lI,11
+panopto_dl-0.1.0.dist-info/RECORD,,
