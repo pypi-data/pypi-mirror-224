@@ -1,0 +1,32 @@
+# 介绍
+
+简单的tkinter包装库，可以快速地创建小型桌面应用。
+
+# 示例代码
+
+```python
+from tkinter import *
+
+from tkinter_utils import *
+
+class ExampleApp(App):
+	def __init__(self):
+		# 标题，宽高
+		super().__init__("A", 400, 300)
+	# 在这里写代码
+	def UI(self):
+		button = Button(self.app, text='Okay', command=self.a)
+		# place布局，宽高，坐标
+		place(button, 100, 100, 0, 0)
+	def a(self):
+		print(1)
+
+if __name__ == "__main__":
+	ExampleApp()
+
+```
+
+# 我做了什么
+
+1. 专注于内容：窗口居中放置，且不可改变大小。
+2. 简化了place方法。
