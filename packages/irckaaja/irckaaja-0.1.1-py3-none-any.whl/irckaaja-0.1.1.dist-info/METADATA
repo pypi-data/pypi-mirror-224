@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: irckaaja
+Version: 0.1.1
+Summary: 
+Author: Jukka-Pekka Virtanen
+Author-email: virtanen@jukk.is
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: configobj
+Requires-Dist: shove
+Description-Content-Type: text/markdown
+
+# Irckaaja
+
+A scriptable IRC bot with a Python interface.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Installation
+
+```bash
+pip install irckaaja
+```
+
+## Usage
+```bash
+python -m irckaaja.irckaaja -c config.ini
+```
+
+### Configuration
+
+Example configuration:
+
+```ini
+[servers]
+	[[QuakeNet]] # also alias for the network
+		hostname = se.quakenet.org
+		port = 6667 # if port is no defined, default is 6667
+		channels = "#example1", "#example2"
+	#[[IRCNet]]
+	#	hostname = irc.cs.hut.fi
+
+[bot]
+	nick = irckaaja
+	altnick = irckaaja_ # if not provided, nick + "_"
+	realname = Irkkaa Nörttien Kanssa
+	username = irckaaja
+	owner = "nick!user@example.com"
+
+[modules]
+	[[HelloWorld]]
+```
+
+## Screenshots
+
+![Connection output](doc/output.png "Connection output")
+
+## Contributing
+
+Drop a pull request if you have something you'd want to incorporate.
+
+## License
+
+See [Licence.txt](LICENCE.txt).
+
