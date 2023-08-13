@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: BFR
+Version: 0.1
+Summary: A bulk file renaming utility.
+Author: Ovi Quintanal
+Author-email: oj2kOfficial@gmail.com
+License: MIT
+License-File: LICENSE
+
