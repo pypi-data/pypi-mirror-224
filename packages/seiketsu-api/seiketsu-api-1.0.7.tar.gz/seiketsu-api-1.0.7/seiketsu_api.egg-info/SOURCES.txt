@@ -1,0 +1,7 @@
+README.md
+api_seiketsu.py
+pyproject.toml
+seiketsu_api.egg-info/PKG-INFO
+seiketsu_api.egg-info/SOURCES.txt
+seiketsu_api.egg-info/dependency_links.txt
+seiketsu_api.egg-info/top_level.txt
