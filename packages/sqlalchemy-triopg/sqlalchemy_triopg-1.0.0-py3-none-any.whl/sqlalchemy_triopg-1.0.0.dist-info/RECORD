@@ -1,0 +1,7 @@
+sqlalchemy_triopg-1.0.0.dist-info/METADATA,sha256=ykhU29XRwHzcSK25D907gHLX6cjnl7BHosY_WHJtN98,4280
+sqlalchemy_triopg-1.0.0.dist-info/WHEEL,sha256=bbAwydobi_oZ_0rI4gBBovxINCqHVHcC26TV6S2A2Io,90
+sqlalchemy_triopg-1.0.0.dist-info/entry_points.txt,sha256=80mYy4kJFK2-1ItnWFJ390nFbb9_ts6uzSQ35eHbKPQ,71
+sqlalchemy_triopg-1.0.0.dist-info/licenses/LICENSE,sha256=_pcHlUxcCs07EekriBdyDNEfUyxMTUOE6QARgrxwCjc,1715
+sqlalchemy_triopg/__init__.py,sha256=uoqpQz3kEMTpaboUp9H2oVoWBrJibmGHSEWzQmPWvB8,132
+sqlalchemy_triopg/triopg.py,sha256=LfjURZJhOG4jXJqddoWreeCRxdAWj84H2ajqdWAxWBA,2648
+sqlalchemy_triopg-1.0.0.dist-info/RECORD,,
