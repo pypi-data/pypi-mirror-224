@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: dataset-processor
+Version: 0.3.0
+Summary: A dataset preprocess toolkit
+Home-page: https://github.com/waterminer/SD-DatasetProcessor
+Author: Water_miner
+Author-email: 420773173@qq.com
+License: GPLv3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: GPU :: NVIDIA CUDA :: 11.8
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
+Requires-Dist: torch (~=2.0.1)
+Requires-Dist: numpy (~=1.24.3)
+Requires-Dist: opencv-python (~=4.8.0.74)
+Requires-Dist: keras (~=2.13.1)
+Requires-Dist: tqdm (~=4.65.0)
+Requires-Dist: Pillow (~=10.0.0)
+Requires-Dist: PyYAML (~=6.0.1)
+Requires-Dist: huggingface-hub
+Requires-Dist: tensorflow
+Requires-Dist: realesrgan
+Requires-Dist: realcugan-ncnn-py
+

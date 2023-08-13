@@ -1,0 +1,56 @@
+path:
+  input: "E:\\LoRa\\dataset\\coppermix-dataset\\1_usashiro_mani" #输入路径
+  output: "../1_out" #输出路径
+
+option: #可选项
+  clean_tag: True #清洗标签
+  tag_no_paired_data: True #自动对没有标签的图片进行打标
+
+tagger:
+  active: False #启用自动打标
+  batch_size: 4 #批次大小
+  max_data_loader_n_workers: 1 #越大越占内存
+  
+upscale:
+  active: True
+  model_type: R_CUGAN_2X_CON
+
+conduct:
+- sub_conduct:
+  - sub_conduct:
+    - filters:
+      - filter: img_size
+        arg: [-1,1024]
+      processor:
+      - method: upscale_image
+    - filters:
+      - filter: img_size
+        arg: [1024,-1]
+      processor:
+      - method: none
+    filters:
+    - filter: tag_selector
+      arg: "art by usashiro mani"
+    processor:
+    - method: rename_tag
+      arg: ["art by usashiro mani","usashiro mani"]
+    - method: tag_move_forward
+      arg: "usashiro mani"
+  - filters:
+    - filter: tag_selector
+      arg: "usashiro mani"
+    processor:
+    - method: tag_move_forward
+      arg: "usashiro mani"
+  - filters:
+    - filter: tag_filter
+      arg: "usashiro mani"
+    - filter: tag_filter
+      arg: "art by usashiro mani"
+    processor:
+    - method: insert_tag
+      arg: "usashiro mani"
+  processor:
+  - method: none
+- processor:
+  - method: flip
