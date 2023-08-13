@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+web3_account/Account.py
+web3_account/__init__.py
+web3_account.egg-info/PKG-INFO
+web3_account.egg-info/SOURCES.txt
+web3_account.egg-info/dependency_links.txt
+web3_account.egg-info/requires.txt
+web3_account.egg-info/top_level.txt
