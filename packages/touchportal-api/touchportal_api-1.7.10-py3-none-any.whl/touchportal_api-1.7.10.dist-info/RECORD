@@ -1,0 +1,15 @@
+TouchPortalAPI/TpToPy.py,sha256=PWZGBdMjO49jpoodEwTVEB1GNIdE8xjrEa8pxjy6CRs,8136
+TouchPortalAPI/__init__.py,sha256=FSVO4j88N9QPy0e89ao6tUC7FPl60iQsTF11Kzg4v6I,4727
+TouchPortalAPI/client.py,sha256=JDQaPKTBksi12Zabao2TWwqfbMOX3fi2AFND8Yaq4a4,31638
+TouchPortalAPI/logger.py,sha256=N-YGup0iLpO_7wkXzdJho46mPahoromw7uD9xEl56HM,9322
+TouchPortalAPI/sdk_spec.py,sha256=Dzd_8vHlYQg_ma36o1sqcypqXjGgPVUm2Jjnpn3BoIw,7749
+TouchPortalAPI/sdk_tools.py,sha256=2GTVAzY2ucIoHi5JJxFAGaXv2hhY4TMBUKLIyD3AbQ0,27756
+TouchPortalAPI/tools.py,sha256=oS50YCj1nYPF-AeKlfUX9rJo_VCxABW5aBaa32LemBA,4128
+TouchPortalAPI/tppbuild.py,sha256=PG2gik2ThW1g1sLT0W-_KfSMBT4VRc1mO_hgGXq23C4,15383
+TouchPortalAPI/tppdoc.py,sha256=nXEpRYhCmshAK-RQIyis6DLRlk4tRc8V_5oWDo4ufco,22487
+touchportal_api-1.7.10.dist-info/LICENCE.txt,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+touchportal_api-1.7.10.dist-info/METADATA,sha256=lxWxtoqa74dvrvYrAq9UznzpWSwKN43uf_tLvZEejHQ,10438
+touchportal_api-1.7.10.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+touchportal_api-1.7.10.dist-info/entry_points.txt,sha256=CIN-MYq9RMPLHPEG8VHH_ldWWpEZEVm0ZCVMhFbjeKk,133
+touchportal_api-1.7.10.dist-info/top_level.txt,sha256=fzPlJCfRabP_Ed8ihyhnIjc_GFA5urAp8CZhnVttBf0,15
+touchportal_api-1.7.10.dist-info/RECORD,,
