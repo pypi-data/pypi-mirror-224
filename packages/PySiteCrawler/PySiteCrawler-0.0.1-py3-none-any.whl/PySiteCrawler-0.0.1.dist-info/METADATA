@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: PySiteCrawler
+Version: 0.0.1
+Summary: A web crawler that uses graph traversal algorithms to crawl the web.
+Home-page: https://github.com/Arghya721/PySiteCrawler
+Author: Arghyadeep Ghosh
+Author-email: imarghyadeep@gmail.com
+Requires-Dist: selenium ==4.7.2
+Requires-Dist: urllib3 ==1.26.6
+Requires-Dist: html2text ==2020.1.16
+Requires-Dist: beautifulsoup4 ==4.11.2
+
