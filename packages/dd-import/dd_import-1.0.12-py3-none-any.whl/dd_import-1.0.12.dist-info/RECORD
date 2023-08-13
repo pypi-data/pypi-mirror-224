@@ -1,0 +1,11 @@
+dd_import/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dd_import/dd_api.py,sha256=PQs7orYKt9napr7auYZoUCEBl-cI9bzluyE2yKeWnZ0,12222
+dd_import/dd_import_languages.py,sha256=-GVjO7Bt2uGn5KnOU6qKYt2AH7gAowisQWp2-b2_ePk,487
+dd_import/dd_reimport_findings.py,sha256=DT4NvuzQTO8baE7iz23gF2F0f4nsFk9k6724_LMuZhI,637
+dd_import/environment.py,sha256=m-ISoAo2jUhGtqwnfcmPkdHiGPmND6T1-Q7k-2g2Wro,6638
+dd_import-1.0.12.dist-info/LICENSE.txt,sha256=UZ_Peaorzg2i1vkha_l-2NnubJ7KrN09jp4tunoLYdo,1476
+dd_import-1.0.12.dist-info/METADATA,sha256=L6ZeSFn6ZOoUzwrC23rLe3L03gYndiEXNCH1iZ_5ax8,11756
+dd_import-1.0.12.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+dd_import-1.0.12.dist-info/entry_points.txt,sha256=e1JggobskLbLrSnsErLORrh_OBeE-QcPzFUhTwlGjVg,165
+dd_import-1.0.12.dist-info/top_level.txt,sha256=7AkEiMRkO8zxrbNS9sqkAKGptSEJM_Tc5xqCif2FQpc,10
+dd_import-1.0.12.dist-info/RECORD,,
