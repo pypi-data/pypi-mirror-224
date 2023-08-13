@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "chatgpt-cmd"
+version = "0.0.1"
+description = ""
+authors = ["Oscar Bahamonde <oscar.bahamonde@pucp.pe>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
