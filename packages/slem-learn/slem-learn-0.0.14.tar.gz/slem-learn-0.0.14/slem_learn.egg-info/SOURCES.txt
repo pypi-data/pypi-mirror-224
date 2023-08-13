@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+slem_learn.egg-info/PKG-INFO
+slem_learn.egg-info/SOURCES.txt
+slem_learn.egg-info/dependency_links.txt
+slem_learn.egg-info/not-zip-safe
+slem_learn.egg-info/requires.txt
+slem_learn.egg-info/top_level.txt
+src/slem/__init__.py
+src/slem/model.py
+src/slem/py.typed
+src/slem/super_learner.py
+src/slem/utils.py
+tests/test_slem.py

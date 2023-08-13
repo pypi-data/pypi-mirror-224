@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: slem-learn
+Version: 0.0.14
+Summary: Super Learner Equation Modeling Package
+Author: Matthew J. Vowels
+Platform: linux
+Platform: osx
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Provides-Extra: testing
+License-File: LICENSE
