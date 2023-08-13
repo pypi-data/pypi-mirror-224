@@ -1,0 +1,14 @@
+gcix/__init__.py,sha256=1gADnpdgt4nfOv4CQPO6TQ-l6ZUP3KmKJt-tONF7rSU,441315
+gcix/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+gcix/_jsii/__init__.py,sha256=tGMhSzwY0kam1gj9G78MAJAmUHuplnmss8EtqBBSDSg,339
+gcix/_jsii/gcix@v0.0.15.jsii.tgz,sha256=U_LcS_NPTgxbRUCxM94vGPi5qTo9HVH6LgVUhgVOnss,1685597
+gcix/addons/__init__.py,sha256=jYtRZ9xDnwQ8nJPj8QrvI2p02jVpwWG9TCCFmT72Jto,336
+gcix/addons/aws/__init__.py,sha256=ydaQsR5hk9Yqjmgf4dfabF4bEqvHBO3_Ode0X4ygruU,384
+gcix/addons/aws/collections/__init__.py,sha256=eyymiaW7ABAw2nqKIPD4o5vAl2gMDIb361XO_8JiX3s,12731
+gcix/addons/aws/jobs/__init__.py,sha256=cxipIFmjubqrxHcd4MiFOSN55hNWPbWWR7xUO0d82cQ,70867
+gcix-0.0.15.data/scripts/cfnwaiter,sha256=5_SOnHRv9c3qLhqClK5PrE6-Y7WxAifEBPZfvq0TjNI,245
+gcix-0.0.15.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+gcix-0.0.15.dist-info/METADATA,sha256=ZotSSl_rOawt5NdF-rl2irke4SH0bcZ1c0Vl1xmIKdQ,8639
+gcix-0.0.15.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+gcix-0.0.15.dist-info/top_level.txt,sha256=o98MfTg_f_uzvrtLMlsU9yQaJAZvv-KIvQAClSlsO7I,5
+gcix-0.0.15.dist-info/RECORD,,
