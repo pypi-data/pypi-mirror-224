@@ -1,0 +1,7 @@
+setup.py
+georgian_numbers/__init__.py
+georgian_numbers/module.py
+georgian_numbers.egg-info/PKG-INFO
+georgian_numbers.egg-info/SOURCES.txt
+georgian_numbers.egg-info/dependency_links.txt
+georgian_numbers.egg-info/top_level.txt
