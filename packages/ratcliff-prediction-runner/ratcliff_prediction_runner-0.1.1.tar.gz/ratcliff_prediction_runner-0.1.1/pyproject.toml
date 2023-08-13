@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ratcliff-prediction-runner"
+version = "0.1.1"
+description = ""
+authors = ["ryanratcliff <ryanrratcliff@gmail.com>"]
+readme = "README.md"
+packages = [{include = "prediction_runner"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+black = "^23.7.0"
+ratcliff-breast-cancer-predictor = "^0.1.2"
+click = "^8.1.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poe.tasks]
+lint = "black prediction_runner tests"
+
+[tool.poetry.scripts]
+predict = "prediction_runner.cli:cli"
