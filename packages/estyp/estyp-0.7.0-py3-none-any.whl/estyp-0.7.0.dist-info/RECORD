@@ -1,0 +1,11 @@
+estyp/__init__.py,sha256=W2ClSdXi5saU63Yl3uSeh6nzkRmx1oCvxlFefMVLJjI,110
+estyp/cluster/__init__.py,sha256=YfG-m1huYt84_dlUGNQQ_1PS7yznrCPbVGNeTk_pbs0,18441
+estyp/linear_model/__init__.py,sha256=fok9Ft2xY1zu-WbOhZnsCXIIxRMeTWCjV1jixNiu_qU,7641
+estyp/linear_model/stepwise/__init__.py,sha256=7CNMWWLmdY804sEM64y32zeD0-J7rGoj9FMECZgmdJc,3711
+estyp/linear_model/stepwise/__base/__init__.py,sha256=y0D_eIwsZbNo5H-vOWuL9G6vVEXf4bQJjCYOhry33GM,5454
+estyp/testing/__init__.py,sha256=xoOD8O1tb_uYmG3ElP2ZTsOEABqhEieJbpw4Jp7bTTE,25089
+estyp/testing/__base/__init__.py,sha256=1z6aO3omIABMQar5VJY3jbath4w8QrUJciBnLZdeZyw,31390
+estyp-0.7.0.dist-info/METADATA,sha256=t_ylq02OBNsKL8NbTyPVa5wFKMThqMMco0d9h7MG2H0,5259
+estyp-0.7.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+estyp-0.7.0.dist-info/top_level.txt,sha256=mdiyfNDMc3IWbV1WJdbuFp2wExqov5kbDULFgEHHCMY,6
+estyp-0.7.0.dist-info/RECORD,,
