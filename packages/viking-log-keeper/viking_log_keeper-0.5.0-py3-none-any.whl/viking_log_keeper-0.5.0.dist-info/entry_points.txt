@@ -1,0 +1,2 @@
+[console_scripts]
+update-logs = log_keeper.main:main
