@@ -1,0 +1,69 @@
+[tool.poetry]
+name = "mlopscfg"
+version = "1.0.1"
+description = "Library that abstracts metadata management for MLOps."
+authors = ["TMNL MLOps Team"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+boto3 = ">=1.26.133"
+PyYAML = ">=6.0"
+pyDeprecate = "^0.3.2"
+click = ">=8.0"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+moto = "^4.1.9"
+pytest = "^7.3.0"
+pytest-cov = "^4.0.0"
+pytest-html = "^3.1.1"
+pre-commit = "^2.17.0"
+poetry = "~1"
+twine = "^4.0.2"
+poetry-dynamic-versioning = {extras = ["plugin"], version = "^0.22.0"}
+
+
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+sphinx = "~4"
+sphinx-rtd-theme = "^1.2.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning"]
+build-backend = "poetry_dynamic_versioning.backend"
+
+[tool.semantic_release]
+branch = "main"
+version_source = "tag_only"
+
+[tool.poetry-dynamic-versioning]
+enable = true
+vcs = "git"
+style = "pep440"
+
+[tool.poetry-dynamic-versioning.substitution]
+folders = [
+    { path = "src" }
+]
+
+[tool.black]
+line-length = 120
+
+[tool.flake8]
+max-line-length = 120
+
+[tool.isort]
+profile = "black"
+
+[tool.bandit]
+exclude_dirs = ["tests"]
+
+[tool.pytest.ini_options]
+addopts = "-v --cov mlopscfg --cov-report term --cov-fail-under=90"
+
+[tool.poetry.scripts]
+mlops-cfg = 'src.mlopscfg.cli:cli'
