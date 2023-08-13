@@ -1,0 +1,50 @@
+[project]
+name = "sqlalchemy-triopg"
+version = "1.0.0"
+description = "A thin Trio-backed wrapper for SQLAlchemy's asyncpg PostgreSQL driver"
+authors = [
+    { name = "Elias Gabriel", email = "me@eliasfgabriel.com" },
+]
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "trio-asyncio>=0.12.0",
+    "sqlalchemy>=1.4.0",
+    "asyncpg",
+]
+
+[project.license]
+text = "BSD-3-Clause-Clear"
+
+[project.urls]
+documentation = "https://github.com/thearchitector/sqlalchemy-triopg"
+changelog = "https://github.com/thearchitector/sqlalchemy-triopg/blob/main/CHANGELOG.md"
+repository = "https://github.com/thearchitector/sqlalchemy-triopg"
+
+[project.entry-points."sqlalchemy.dialects"]
+triopg = "sqlalchemy_triopg.triopg:TrioPGDialect"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-trio>=0.8.0",
+]
+
+[tool.pytest.ini_options]
+addopts = "-svv"
+testpaths = [
+    "tests",
+]
+trio_mode = true
+
+[tool.mypy]
+strict = true
+plugins = [
+    "sqlalchemy.ext.mypy.plugin",
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
