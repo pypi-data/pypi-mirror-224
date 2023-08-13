@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+scripts/genmobile_message_artifacts
+src/genmobile/__init__.py
+src/genmobile/genmobile_main.py
+src/genmobile/gradle_project.py
+src/genmobile.egg-info/PKG-INFO
+src/genmobile.egg-info/SOURCES.txt
+src/genmobile.egg-info/dependency_links.txt
+src/genmobile.egg-info/top_level.txt
+src/genmobile/gradle/Readme.md
+src/genmobile/gradle/gradle.tar.gz
+src/genmobile/templates/genmobile_project/build.gradle.in
