@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tablate
+Version: 0.1.1
+Summary: A highly customizable ASCII and HTML table renderer for IPython & CLI applications.
+Author-email: Guy de Winton <guy@codehippie.io>
+Project-URL: Homepage, https://gitlab.com/guydewinton/tablate
+Project-URL: Documentation, https://tablate.readthedocs.io/en/latest/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
