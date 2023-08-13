@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+torchaug/__init__.py
+torchaug/utils.py
+torchaug.egg-info/PKG-INFO
+torchaug.egg-info/SOURCES.txt
+torchaug.egg-info/dependency_links.txt
+torchaug.egg-info/requires.txt
+torchaug.egg-info/top_level.txt
