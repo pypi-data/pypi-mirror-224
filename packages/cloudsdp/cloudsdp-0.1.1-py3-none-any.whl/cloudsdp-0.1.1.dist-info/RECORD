@@ -1,0 +1,10 @@
+cloudsdp/__init__.py,sha256=zeBCm6VHgIlBm4o2eX90CJVUkUYjxzIFTgTdbrLkmv0,21
+cloudsdp/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudsdp/api/bigquery.py,sha256=K_l26o9ool74gYr-u_e9hdX0eSG-YRd5HNe5D-YRKCo,4846
+cloudsdp/api/cloudrun.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudsdp/source/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudsdp/source/base.py,sha256=U5oVQ0lKW0x8F2kF6qVQf6MrOXpkR-A9r-I-8gz9hPk,189
+cloudsdp-0.1.1.dist-info/LICENSE,sha256=WslVTKIQARaUHRg_8DxBFzTgFfmENOK60uwiuiFjFx4,1089
+cloudsdp-0.1.1.dist-info/METADATA,sha256=_wDln4ctc0gLQonjbCiHAdlSgW8LNXndcj4cagrIHmY,1997
+cloudsdp-0.1.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+cloudsdp-0.1.1.dist-info/RECORD,,
