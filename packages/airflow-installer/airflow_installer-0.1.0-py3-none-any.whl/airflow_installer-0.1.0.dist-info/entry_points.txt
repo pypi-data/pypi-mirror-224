@@ -1,0 +1,3 @@
+[console_scripts]
+airflow_installer=airflow_installer.__main__:app
+
