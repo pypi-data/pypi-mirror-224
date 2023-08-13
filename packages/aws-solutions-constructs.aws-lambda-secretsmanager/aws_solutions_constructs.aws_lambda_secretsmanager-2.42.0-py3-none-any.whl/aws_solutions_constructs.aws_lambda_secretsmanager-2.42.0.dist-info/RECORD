@@ -1,0 +1,9 @@
+aws_solutions_constructs/aws_lambda_secretsmanager/__init__.py,sha256=gO15l54OzdJyTK5u97M3m8H3QrRn4JtJGS38oj_HB-w,24569
+aws_solutions_constructs/aws_lambda_secretsmanager/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_solutions_constructs/aws_lambda_secretsmanager/_jsii/__init__.py,sha256=_5u0jGkb855UMAFDXJ-lD4JXjAo0NO2IyvoAI2mWvTw,501
+aws_solutions_constructs/aws_lambda_secretsmanager/_jsii/aws-lambda-secretsmanager@2.42.0.jsii.tgz,sha256=_nwPuqZhY3rUCBe6HFI5JbQjjUMf4APoxtT7XG_ZwZY,91567
+aws_solutions_constructs.aws_lambda_secretsmanager-2.42.0.dist-info/LICENSE,sha256=wnT4A3LZDAEpNzcPDh8VCH0i4wjvmLJ86l3A0tCINmw,10279
+aws_solutions_constructs.aws_lambda_secretsmanager-2.42.0.dist-info/METADATA,sha256=yP1Di0lKj0kDPgEzmlRJlMc6I21c5cik2B-S1JHbbB8,9005
+aws_solutions_constructs.aws_lambda_secretsmanager-2.42.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+aws_solutions_constructs.aws_lambda_secretsmanager-2.42.0.dist-info/top_level.txt,sha256=hi3us_KW7V1ocfOqVsNq1o3w552jCEgu_KsCckqYWsg,25
+aws_solutions_constructs.aws_lambda_secretsmanager-2.42.0.dist-info/RECORD,,
