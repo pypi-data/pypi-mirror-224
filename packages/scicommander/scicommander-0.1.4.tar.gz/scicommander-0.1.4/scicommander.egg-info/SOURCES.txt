@@ -1,0 +1,9 @@
+pyproject.toml
+setup.py
+scicommander/__init__.py
+scicommander/scicmd.py
+scicommander.egg-info/PKG-INFO
+scicommander.egg-info/SOURCES.txt
+scicommander.egg-info/dependency_links.txt
+scicommander.egg-info/entry_points.txt
+scicommander.egg-info/top_level.txt
