@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: geneweaver-db
+Version: 0.1.4a0
+Summary: Database Interaction Services for GeneWeaver
+Home-page: https://bergsalex.github.io/geneweaver-docs/
+License: Apache-2.0
+Author: Jax Computational Sciences
+Author-email: cssc@jax.org
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: geneweaver-core (>=0.2.0a0,<0.3.0)
+Requires-Dist: psycopg[binary] (>=3.1.9,<4.0.0)
+Project-URL: Repository, https://bitbucket.org/jacksonlaboratory/geneweaver-db
+Description-Content-Type: text/markdown
+
+
