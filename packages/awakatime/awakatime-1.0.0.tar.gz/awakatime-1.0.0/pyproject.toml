@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "awakatime"
+version = "1.0.0"
+description = "A simple async wrapper for the Wakatime API"
+authors = ["Yan Gabriel <yangabrielogy@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiohttp = { extras = ["speedups"], version = "^3.8.5" }
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+isort = "^5.12.0"
+
+[tool.isort]
+profile = "black"
+src_paths = ["awakatime"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
