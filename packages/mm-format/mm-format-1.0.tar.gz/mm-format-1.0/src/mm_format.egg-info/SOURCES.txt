@@ -1,0 +1,11 @@
+LICENSE.md
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/mm-format/__init__.py
+src/mm-format/mm_format.py
+src/mm_format.egg-info/PKG-INFO
+src/mm_format.egg-info/SOURCES.txt
+src/mm_format.egg-info/dependency_links.txt
+src/mm_format.egg-info/top_level.txt
