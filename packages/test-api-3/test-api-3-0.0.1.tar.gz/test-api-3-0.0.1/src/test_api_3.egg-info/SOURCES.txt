@@ -1,0 +1,12 @@
+pyproject.toml
+setup.cfg
+src/test_api_3/__init__.py
+src/test_api_3/example.py
+src/test_api_3/scripts.py
+src/test_api_3.egg-info/PKG-INFO
+src/test_api_3.egg-info/SOURCES.txt
+src/test_api_3.egg-info/dependency_links.txt
+src/test_api_3.egg-info/entry_points.txt
+src/test_api_3.egg-info/requires.txt
+src/test_api_3.egg-info/top_level.txt
+src/test_api_3/static/__init__.py
