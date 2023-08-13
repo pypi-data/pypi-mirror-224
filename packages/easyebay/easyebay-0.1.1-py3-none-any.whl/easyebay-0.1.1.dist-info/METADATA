@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: easyebay
+Version: 0.1.1
+Summary: A library for scraping items from eBay
+Author: DrEgg
+Author-email: public@dregg.me
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: beautifulsoup4 (>=4.12.2,<5.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+<div style="text-align: center">
+
+# Easy eBay
+
+*A library for scraping items from eBay*
+
+</div>
+
+## To begin with
+
+Here is a sample code
+
+##### Example 1
+
+```python
+import easyebay
+
+result = easyebay.search(keyword="4090",
+                         pageNum="1",
+                         maxPrice="1000",
+                         minPrice="500",
+                         conditions=[easyebay.condition.used])
+
+parsed = easyebay.parseSearch(result)
+
+for item in parsed:
+    print(item.title, item.price, item.shipping, item.url)
+```
+
+Here's a sample output
+
+```text
+YASKAWA CDBR-4090B B... $989.99 None https://www.ebay...
+LOT OF 5 Motorola RS... $769.69 None https://www.ebay...
+MELLTRONICS 222-4090... $750.00 None https://www.ebay...
+...
+```
+
+`easyebay.search` returns the html, and easyebay.parseSearch returns `easyebay.item` object. This is the definition of
+item object
+
+```python
+class item():
+    title: str
+    condition: str
+    price: str
+    seller: list
+    shipping: str
+    returns: str
+    sold: str
+    url: str
+    image: str
+```
