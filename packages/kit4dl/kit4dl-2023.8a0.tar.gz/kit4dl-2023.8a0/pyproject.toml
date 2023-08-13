@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kit4dl"
+version = "2023.08a0"
+description = "Kit4DL - A quick way to start with machine and deep learning"
+requires-python = ">=3.10"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["deep learning", "training pipeline"]
+authors = [
+    {name = "Jakub Walczak"},
+    {name = "Marco Mancini"},
+    {name = "Mirko Stojiljkovic"},
+    {name = "Shahbaz Alvi"},
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: Unix",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+dependencies = [
+    "torch",
+    "lightning",
+    "torchmetrics",
+    "numpy<=1.25.0",
+    "pydantic<2.0.0",
+    "scikit-learn",
+    "colormath",
+    "tqdm",
+    "typer[all]",
+    "toml; python_version<'3.11'"
+]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["."]
+exclude = ["examples*"]
+
+[tool.pydocstyle]
+
+
+[tool.mypy]
+files = [
+    "kit4dl", "."
+]
+exclude = ["tests/", "examples/"]
+
+[project.scripts]
+kit4dl = "kit4dl.cli.app:run"
+
+[tool.pytest.ini_options]
+filterwarnings = [
+    "ignore::DeprecationWarning"
+]
