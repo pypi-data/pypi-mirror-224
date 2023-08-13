@@ -1,0 +1,12 @@
+mtgdc_banlist/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mtgdc_banlist/__main__.py,sha256=GPCRvKpS4xDuzL1urj935rYcv3C6NcfJCaBW_oySK68,1675
+mtgdc_banlist/banlist_compiler.py,sha256=ol_uvqQqbYr5yEpVqTUWIugwujBnH4Dp6i2LuvUlDmQ,9819
+mtgdc_banlist/parser.py,sha256=cPH41RKSdLALLGQtXFzmdSX69hepA71Me46lxJ7xGiA,976
+mtgdc_banlist/static/banlist_html_footer.html,sha256=vqcIIUoyXJy8hEp0-mEAjDJU1JbhqOCJ3hKJlOBh7Ew,7439
+mtgdc_banlist/static/banlist_html_header.html,sha256=rE4n_Qh8U6HpR3SLch4xcG3cPgs6vczNBaKFA6uBwcY,3413
+mtgdc_banlist-1.0.dist-info/LICENSE,sha256=LYTnYJfS-CyO_r3BRAxZ0UdBsGmwxHTssxHFguA--DM,1070
+mtgdc_banlist-1.0.dist-info/METADATA,sha256=fpkVRsStmXSd4UHODsr2nyszWx5vzv_p1flh4AFXyjU,2776
+mtgdc_banlist-1.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+mtgdc_banlist-1.0.dist-info/top_level.txt,sha256=pRh2xc7_5KHV7G44llmYQy1bik6seCntlqlvDj8XCVw,14
+mtgdc_banlist-1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+mtgdc_banlist-1.0.dist-info/RECORD,,
