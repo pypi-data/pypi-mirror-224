@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: test-api-5
+Version: 0.0.1
+Author: 
+Author-email: 
+License: MIT License
+Requires-Python: >=3.9
+Requires-Dist: click
+
