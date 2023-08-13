@@ -1,0 +1,6 @@
+[console_scripts]
+AUTH_PYAMI = AnalysisG.Settings:AUTH_PYAMI
+AnalysisG = AnalysisG.__main__:main
+CONFIG_PYAMI = AnalysisG.Settings:CONFIG_PYAMI
+POST_INSTALL_PYC = AnalysisG.Settings:POST_INSTALL_PYC
+make_analysis = AnalysisG.Settings:make_analysis
