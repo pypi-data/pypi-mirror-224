@@ -1,0 +1,7 @@
+include mlpath/mldir_cli/*.ipynb
+include mlpath/mldir_cli/*.jpeg
+include mlpath/mldir_cli/*.png
+include mlpath/mldir_cli/*.css
+include mlpath/mldir_cli/*.html
+include mlpath/mldir_cli/*.pdf
+include mlpath/mldir_cli/*.pkl
