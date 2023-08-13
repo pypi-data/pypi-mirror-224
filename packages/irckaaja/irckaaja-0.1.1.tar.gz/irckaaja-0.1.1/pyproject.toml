@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "irckaaja"
+version = "0.1.1"
+description = ""
+authors = ["Jukka-Pekka Virtanen <virtanen@jukk.is>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+configobj = "*"
+shove = "*"
+
+[tool.mypy]
+python_version = "3.9"
+disallow_untyped_defs = "True"
+ignore_missing_imports = "True"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "*"
+black = "*"
+flake8 = "*"
+isort = "*"
+autoflake = "*"
+mypy = "*"
+pyupgrade = "*"
+setuptools = "*"
+pytest = "*"
+build = "*"
+twine = "*"
+
+[tool.black]
+line-length = 80
+
+[tool.isort]
+line_length = 80
+
+[tool.flake8]
+max-line-length = 80
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
