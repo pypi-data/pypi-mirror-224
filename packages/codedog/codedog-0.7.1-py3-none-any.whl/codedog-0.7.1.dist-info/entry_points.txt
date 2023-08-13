@@ -1,0 +1,3 @@
+[console_scripts]
+demoserver=examples.server:start
+
