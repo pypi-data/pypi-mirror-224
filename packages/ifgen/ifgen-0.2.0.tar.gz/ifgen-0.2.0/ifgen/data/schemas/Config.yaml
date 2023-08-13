@@ -1,0 +1,35 @@
+---
+type: object
+additionalProperties: false
+required: []
+
+properties:
+  output_dir:
+    type: array
+    default: [src, generated]
+    items:
+      type: string
+
+  command:
+    type: string
+    default: "\\"
+
+  namespace:
+    type: array
+    default: [Coral]
+    items:
+      type: string
+
+  structs:
+    type: object
+    additionalProperties: false
+    patternProperties:
+      "^[a-zA-Z0-9-_.]+$":
+        $ref: package://ifgen/schemas/Struct.yaml
+
+  enums:
+    type: object
+    additionalProperties: false
+    patternProperties:
+      "^[a-zA-Z0-9-_.]+$":
+        $ref: package://ifgen/schemas/Enum.yaml
