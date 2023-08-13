@@ -1,0 +1,13 @@
+dkdc/__init__.py,sha256=-bBNFYOq80A2Egtpo5V5zWJtYOxQfRZFQ_feve5lkFU,23
+dkdc/__main__.py,sha256=AO6zYDS2bIKOGYhR9kkyMcRGIyac2ZZU2vXq4MvVkX4,44
+dkdc/ai.py,sha256=jmXb2_7LW-CYL617hq3bS0VjAOlA3u9eLznurTE12FI,44
+dkdc/main.py,sha256=8xEOGfTZEfm_qHAZ2f8o0l0o9ul93o2QPHZHlTSPOzc,336
+dkdc/run.py,sha256=N2xmKqNwkY3T36HFZe4PGkXMqreVDyn-H_rRSKebtmY,46
+dkdc/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dkdc/commands/ai_command.py,sha256=8TEnGmZketNHU3mbECA5Q7agd3SO2WnO4VFPyv0Jiu4,127
+dkdc/commands/run_command.py,sha256=TglHU8GR2_S9-ot2c78w4PgJkVJwKJwIUsOo98qk0oo,139
+dkdc-0.0.8.dist-info/METADATA,sha256=yrLAxPjBIgKri0L3S7y2wCgD43cE5Zlpjz36t4rUCLo,524
+dkdc-0.0.8.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+dkdc-0.0.8.dist-info/entry_points.txt,sha256=2xWMP3PkhqTNsxyhiEcR1_-gFUKE0Nj61IqiMldZlbE,39
+dkdc-0.0.8.dist-info/licenses/LICENSE,sha256=JI7scmwZKNFl859I8UbdX_vsbdSgzIOdrtgqng_mYF0,1048
+dkdc-0.0.8.dist-info/RECORD,,
