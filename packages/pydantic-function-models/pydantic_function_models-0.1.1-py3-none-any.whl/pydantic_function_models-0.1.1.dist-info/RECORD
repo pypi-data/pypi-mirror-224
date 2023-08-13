@@ -1,0 +1,7 @@
+pydantic_function_models-0.1.1.dist-info/METADATA,sha256=g6X3vqtsN9g12y5Lhy8w5s-w7jP5ftf0ZleYqwnFcyg,1531
+pydantic_function_models-0.1.1.dist-info/WHEEL,sha256=bbAwydobi_oZ_0rI4gBBovxINCqHVHcC26TV6S2A2Io,90
+pydantic_function_models-0.1.1.dist-info/licenses/LICENSE.txt,sha256=G3lig0yYU_DFJj7coAP8MNr-6A-MyNHzke0czVRCsJM,1069
+pydantic_function_models/__init__.py,sha256=VfIcjuN_CI8BoNxWKybanz18M5jCOR-HOOcbalOQD0M,58
+pydantic_function_models/log.py,sha256=-TmYMXb1cKLtoTa9cRFhPDua2nnk99WZmPJueriYmwY,96
+pydantic_function_models/validated_function.py,sha256=k7EYhrqDQAXJhj0hbJtZxh_QBKdhOK6da4gvjfgbIfY,9083
+pydantic_function_models-0.1.1.dist-info/RECORD,,
