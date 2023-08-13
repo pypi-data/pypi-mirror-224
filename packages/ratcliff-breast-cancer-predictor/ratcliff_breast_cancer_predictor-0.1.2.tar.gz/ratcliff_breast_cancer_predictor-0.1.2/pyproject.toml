@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "ratcliff-breast-cancer-predictor"
+version = "0.1.2"
+description = ""
+authors = ["ryanratcliff <ryanrratcliff@gmail.com>"]
+readme = "README.md"
+packages = [{include = "ratcliff_breast_cancer_predictor"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.0.3"
+black = "^23.7.0"
+scikit-learn = "^1.3.0"
+poethepoet = "^0.21.1"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.0"
+coverage = "^7.3.0"
+pytest-cov = "^4.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poe.tasks]
+test = "pytest -v --cov ratcliff_breast_cancer_predictor  --cov-report term-missing"
+lint = "black ratcliff_breast_cancer_predictor tests"
