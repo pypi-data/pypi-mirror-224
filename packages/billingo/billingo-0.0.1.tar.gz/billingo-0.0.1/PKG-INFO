@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: billingo
+Version: 0.0.1
+Summary: Billingo API v3
+Home-page: https://www.axonltd.hu/
+Author-email: github@axonltd.hu
+Keywords: Swagger,Billingo API v3
+
+    This is a Billingo API v3 documentation. Our API based on REST software architectural style. API has resource-oriented URLs, accepts JSON-encoded request bodies and returns JSON-encoded responses. To use this API you have to generate a new API key on our [site](https://app.billingo.hu/api-key). After that, you can test your API key on this page.  # noqa: E501
+    
