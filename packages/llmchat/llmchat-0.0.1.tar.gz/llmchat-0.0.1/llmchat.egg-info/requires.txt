@@ -1,0 +1,6 @@
+torch
+transformers
+asyncio
+dataclasses
+pydantic
+loguru

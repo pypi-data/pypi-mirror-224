@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: llmchat
+Version: 0.0.1
+Summary: 大语言模型仿openai接口实现
+Home-page: https://gitee.com/zhys513/llmchat
+Author: zhys513
+Author-email: 254851907@qq.com
+Requires-Python: >=3.6
