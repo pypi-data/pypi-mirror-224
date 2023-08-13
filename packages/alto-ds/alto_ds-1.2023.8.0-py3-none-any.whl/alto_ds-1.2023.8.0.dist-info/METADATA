@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: alto-ds
+Version: 1.2023.8.0
+Summary: A package for the Alto Data Science team.
+Home-page: 
+Author: Andaman Lekawat
+Author-email: andaman.l@altotech.ai
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: crate (>=0.33.0)
+Provides-Extra: dev
+Requires-Dist: pytest (>=7.0) ; extra == 'dev'
+Requires-Dist: twine (>=4.0.2) ; extra == 'dev'
+
+# Test Markdown File
