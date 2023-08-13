@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: sgeom
+Version: 0.1
+Summary: A package handling geometries.
+Home-page: https://github.com/JunCEEE/sgeom
+Author: Juncheng E, Mats Fangohr
+Author-email: juncheng.e@xfel.eu
+License-File: LICENSE
+License-File: AUTHORS.md
+Requires-Dist: numpy
+Requires-Dist: scipy
+
