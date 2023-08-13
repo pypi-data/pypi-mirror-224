@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+stylish_vk_api/__init__.py
+stylish_vk_api.egg-info/PKG-INFO
+stylish_vk_api.egg-info/SOURCES.txt
+stylish_vk_api.egg-info/dependency_links.txt
+stylish_vk_api.egg-info/requires.txt
+stylish_vk_api.egg-info/top_level.txt
