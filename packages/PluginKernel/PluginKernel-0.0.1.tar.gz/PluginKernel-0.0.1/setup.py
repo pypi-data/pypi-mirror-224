@@ -1,0 +1,23 @@
+from setuptools import setup, find_packages
+classifiers = [
+  'Development Status :: 5 - Production/Stable',
+  'Intended Audience :: Science/Research',
+  'Operating System :: Microsoft :: Windows :: Windows 10',
+  'License :: OSI Approved :: MIT License',
+  'Programming Language :: Python :: 3'
+]
+
+setup(
+  name='PluginKernel',
+  version='0.0.1',
+  description='Plug-in Bandwidth Selection for Kernel Density Estimation with Discrete Data',
+  long_description=open('README.txt').read() + '\n\n' + open('CHANGELOG.txt').read(),
+  url='',  
+  author='Mehyar Mlaweh',
+  author_email='mehyarmlaweh0@gmail.com',
+  license='MIT', 
+  classifiers=classifiers,
+  keywords='Kernel', 
+  packages=find_packages(),
+  install_requires=['numpy'] 
+)

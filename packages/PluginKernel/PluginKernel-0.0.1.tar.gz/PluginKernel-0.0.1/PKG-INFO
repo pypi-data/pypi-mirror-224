@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: PluginKernel
+Version: 0.0.1
+Summary: Plug-in Bandwidth Selection for Kernel Density Estimation with Discrete Data
+Home-page: 
+Author: Mehyar Mlaweh
+Author-email: mehyarmlaweh0@gmail.com
+License: MIT
+Keywords: Kernel
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+The Plugin library is a Python package designed to provide a simple and efficient way to perform kernel-based data analysis using the plugin algorithm. The plugin algorithm, proposed by P. Hall & Marron (1987) and extended by Park & Marron (1990), offers an iterative algorithm for the estimation of the optimal bandwidth parameter.
+The plugin  utilizes an iterative algorithm to find the optimal smoothing parameter. The principle starts with a random choice of J(f), and subsequent evaluations of J(f) are deduced from the first value. Several iterations are performed to converge towards the optimal bandwidth parameter.
+
+
+
+
+
+
+Change Log
+==========
+
+0.0.1 (13/08/2023)
+-------------------
+- First Release
