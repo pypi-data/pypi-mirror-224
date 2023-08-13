@@ -1,0 +1,10 @@
+setup.py
+siebe/__init__.py
+siebe/datastructuring.py
+siebe/imports.py
+siebe/media_file_handling.py
+siebe/rename_writtenNumbersToDigits.py
+siebe.egg-info/PKG-INFO
+siebe.egg-info/SOURCES.txt
+siebe.egg-info/dependency_links.txt
+siebe.egg-info/top_level.txt
