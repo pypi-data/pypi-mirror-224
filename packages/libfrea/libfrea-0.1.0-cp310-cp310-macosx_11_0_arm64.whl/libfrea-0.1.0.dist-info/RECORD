@@ -1,0 +1,5 @@
+libfrea-0.1.0.dist-info/METADATA,sha256=46s-cek4i5sNNlEREihpN6X4GmJKsw29Tj7kyGUcMps,256
+libfrea-0.1.0.dist-info/WHEEL,sha256=rQzTiiNxTgL1Lh7XsyeZ6wEpTb7nJTnG06De95B00V8,104
+libfrea/__init__.py,sha256=H0kNEKlXyxq74ICY5SWMLI1CrQwYegSACvdRuZ5YTyk,111
+libfrea/libfrea.cpython-310-darwin.so,sha256=5pn9b_OnjVrBCnQJz0Q7bSFRdNrFKHAJq3dFy6EkxxI,1948010
+libfrea-0.1.0.dist-info/RECORD,,
