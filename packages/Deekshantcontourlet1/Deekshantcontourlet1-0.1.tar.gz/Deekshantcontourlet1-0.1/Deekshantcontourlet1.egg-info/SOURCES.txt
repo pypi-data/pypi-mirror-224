@@ -1,0 +1,7 @@
+Deekshantcontourlet.py
+README.md
+setup.py
+Deekshantcontourlet1.egg-info/PKG-INFO
+Deekshantcontourlet1.egg-info/SOURCES.txt
+Deekshantcontourlet1.egg-info/dependency_links.txt
+Deekshantcontourlet1.egg-info/top_level.txt
