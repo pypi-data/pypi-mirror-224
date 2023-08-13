@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: Web3toolkit
+Version: 1.0.4
+Summary: A python wrapper for the zora, mode and covalent web3 apis
+Home-page: https://github.com/kbm9696/Web3toolkit
+Author: Balamurugan
+Author-email: kbala007.1996@gmail.com
+License: GNU General Public License v3.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# Web3toolkit
+
