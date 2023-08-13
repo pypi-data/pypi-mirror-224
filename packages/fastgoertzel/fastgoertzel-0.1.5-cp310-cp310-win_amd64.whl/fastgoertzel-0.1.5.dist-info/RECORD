@@ -1,0 +1,9 @@
+LICENSE,sha256=yhd3NrPU3Hh9_oXY0AJ8IcRMDiRhWIJh8f5I3gsVrMA,1092
+fastgoertzel/__init__.pyx,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastgoertzel/fastgoertzel.c,sha256=Ff0qVKhOTq3PPlb_K4F53I3Myc6883AklWkrnCpNgSI,1231154
+fastgoertzel/fastgoertzel.html,sha256=V5qphVMYJwdi1guagWEGRDVFB5addt4_avVROGWwc4Y,131794
+fastgoertzel/fastgoertzel.pyx,sha256=GKT00r2Lkr76gHuX_7QxZx9xG_9DTasHeR_XtSNqiec,3079
+fastgoertzel-0.1.5.dist-info/LICENSE,sha256=yhd3NrPU3Hh9_oXY0AJ8IcRMDiRhWIJh8f5I3gsVrMA,1092
+fastgoertzel-0.1.5.dist-info/METADATA,sha256=M3-Il45-b6MqDe2E-6buEqYzURvbP8Y0co5hsPJEHrc,2508
+fastgoertzel-0.1.5.dist-info/WHEEL,sha256=N-dmmQhlZdR6sRWBGZUJeWeRgSh0UBaKei3ihxz4cVo,98
+fastgoertzel-0.1.5.dist-info/RECORD,,
