@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "jakluz-de21"
+version = "0.1.0"
+description = "A set of functions that are very handy for data analysis."
+authors = ["Jakub Kluz <j.kluz@zoho.com>"]
+readme = "README.md"
+packages = [{include = "jakluz_de21"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.25.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
