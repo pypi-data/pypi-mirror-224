@@ -1,0 +1,9 @@
+sqs_launcher/__init__.py,sha256=3mh_XGHR23OvxgykeQ9Z1I0_lajty2k2GRDne9WkoyI,4259
+sqs_listener/__init__.py,sha256=eyIQNJqmjc8vm5v7EPb5Blp3yUTWXmT7a98ExppBoC0,10407
+sqs_listener/daemon.py,sha256=yaum-6l2EpBZyq2acZaLYlrxzqVrWu5dwMWcv0nHwWI,4286
+sqs_queue/__init__.py,sha256=XpdzBOxriSkri-jiPsoin2aVDVlEcBb8EjjosdVzLnE,1642
+cloudAgnosticPySqsListener-0.9.4.dist-info/LICENSE,sha256=4kwdSyPkAuHzij_TQcRkf4q0VJxzjGbh73vw0z0qmek,643
+cloudAgnosticPySqsListener-0.9.4.dist-info/METADATA,sha256=D6FWUoxHA6tCuWb_UWV6xWoEr1LC-hvL8gF9qcRJoZ8,8117
+cloudAgnosticPySqsListener-0.9.4.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+cloudAgnosticPySqsListener-0.9.4.dist-info/top_level.txt,sha256=8l4fI1Lu3lWd1jCMO_x1FA50adeGtp5QbS5xRv5DOrQ,36
+cloudAgnosticPySqsListener-0.9.4.dist-info/RECORD,,
