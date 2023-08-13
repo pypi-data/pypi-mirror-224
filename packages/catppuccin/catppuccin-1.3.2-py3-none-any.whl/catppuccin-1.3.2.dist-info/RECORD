@@ -1,0 +1,11 @@
+catppuccin/__init__.py,sha256=0KXGG9Cn4pPTzFwjNkHLUyjzgiO2AKKldzF1p3kqkkw,142
+catppuccin/colour.py,sha256=A8xj28taPpltljWCSkiO5fd1ZXP2MlQFlK5p55dJJng,2003
+catppuccin/extras/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+catppuccin/extras/pygments.py,sha256=tairNUFGQSKq47SvzSyNJefhv-6e28jWgrT39VdRUEA,2933
+catppuccin/extras/rich_ctp.py,sha256=Xbrya8X2VcSKJSfT6RVQ9pHg2WFznVRL6QL99ZlmeDo,1626
+catppuccin/flavour.py,sha256=e0yQy1Y3_fxmYNU8wM2rwZCpVOFZNJ9mT0MSON3Ys_4,5641
+catppuccin-1.3.2.dist-info/entry_points.txt,sha256=FM4Brf7jaicw7Jzz4etjX9ytae_N6s1cQjj914YBCcA,249
+catppuccin-1.3.2.dist-info/LICENSE,sha256=JksYmfUEcgQrSsHEvvxieeKovem2LMdD-7VguGHPzR8,1067
+catppuccin-1.3.2.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+catppuccin-1.3.2.dist-info/METADATA,sha256=8eg2ZppyFm9r_N63XGUMu8lSEcHmOvqkJutjXsnUFrI,4624
+catppuccin-1.3.2.dist-info/RECORD,,
