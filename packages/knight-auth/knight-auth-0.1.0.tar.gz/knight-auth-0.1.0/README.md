@@ -1,0 +1,2 @@
+# knight-auth
+Knight Auth is a versatile authentication package designed exclusively for Django Ninja. Inspired by the popular Django Rest Knox project, Knight Auth brings the power of token-based authentication to your Django Ninja APIs. With an emphasis on flexibility, security, and seamless integration, Knight Auth simplifies user authentication, allowing you to focus on building exceptional API experiences.

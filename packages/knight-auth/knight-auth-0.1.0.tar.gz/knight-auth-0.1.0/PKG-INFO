@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: knight-auth
+Version: 0.1.0
+Summary: Authentication for django-ninja, KNOX inspired
+Home-page: https://github.com/knightSarai/knight-auth
+Author: knightSarai
+Author-email: knight.sarai.dev@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 4.0
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.11.4
+Provides-Extra: dev
