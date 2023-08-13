@@ -1,0 +1,5 @@
+setup.py
+siebe.egg-info/PKG-INFO
+siebe.egg-info/SOURCES.txt
+siebe.egg-info/dependency_links.txt
+siebe.egg-info/top_level.txt
