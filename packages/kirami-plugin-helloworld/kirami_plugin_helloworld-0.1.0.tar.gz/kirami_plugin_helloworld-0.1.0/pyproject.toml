@@ -1,0 +1,27 @@
+[project]
+name = "kirami-plugin-helloworld"
+version = "0.1.0"
+description = "KiramiBot Hello World"
+authors = [
+    { name = "Akirami", email = "Akiramiaya@outlook.com" },
+]
+dependencies = [
+    "kiramibot>=0.0.0",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+Homepage = "https://github.com/A-kirami/kirami-plugin-helloworld"
+Repository = "https://github.com/A-kirami/kirami-plugin-helloworld"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool]
