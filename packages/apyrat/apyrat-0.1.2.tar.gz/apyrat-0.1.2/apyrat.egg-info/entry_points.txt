@@ -1,0 +1,2 @@
+[console_scripts]
+apyrat = apyrat.cli:main
