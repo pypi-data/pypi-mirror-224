@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: shapecms
+Version: 0.0.4
+Summary: A composable content management system
+Project-URL: Homepage, https://github.com/askonomm/shapecms
+Project-URL: Bug Tracker, https://github.com/askonomm/shapecms/issues
+Author-email: Asko Nõmm <asko@repl.ee>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: flask
+Description-Content-Type: text/markdown
+
+# Shape
+
