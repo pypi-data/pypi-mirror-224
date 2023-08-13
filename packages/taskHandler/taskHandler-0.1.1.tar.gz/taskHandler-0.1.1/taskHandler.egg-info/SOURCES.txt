@@ -1,0 +1,10 @@
+LICENCE
+README.md
+setup.py
+taskHandler/__init__.py
+taskHandler/main.py
+taskHandler.egg-info/PKG-INFO
+taskHandler.egg-info/SOURCES.txt
+taskHandler.egg-info/dependency_links.txt
+taskHandler.egg-info/requires.txt
+taskHandler.egg-info/top_level.txt
