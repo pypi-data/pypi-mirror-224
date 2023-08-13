@@ -1,0 +1,114 @@
+default:
+  Deployment:
+    # use these as defaults for all environments,
+    # unless specified otherwise in values-dev.yaml
+    cpu_limit:   {{ val.cpu_limit   | default("500m") }}
+    cpu_request: {{ val.cpu_request | default("100m") }}
+
+Deployment:
+  main:
+    version: {{ val.version }}
+    project: kreate-demo
+    replicas: {{ val.replicas | default(1) }}
+    image_repo: {{ val.image_repo }}
+    vars:
+    - demo-vars
+    secret-vars:
+    - demo-secrets
+    pod:
+      labels:
+        egress-to-db: enabled
+        egress-to-redis: enabled
+      annotations:
+        some-demo-annotation: just-for-fun
+    patches:
+      AntiAffinityPatch:
+        main: {}
+      HttpProbesPatch:
+        main:
+          startupProbe:
+            failureThreshold: 120
+
+Egress:
+  redis:
+    cidr_list: {{ val.redis_egress_cidr_list }}
+    port: 6379
+  db:
+    name: demo-egress-to-db
+    cidr_list: {{ val.db_egress_cidr_list }}
+    port: 1521
+  xyz:
+    cidr_list: {{ val.xyz_egress_cidr_list }}
+    port: {{ val.xyz_egress_port | default(8443) }}
+
+HorizontalPodAutoscaler:
+  main:
+    minReplicas: {{ val.minReplicas | default(1) }}
+    maxReplicas: {{ val.maxReplicas | default(3) }}
+
+Ingress:
+  root:
+    host: {{ val.ingress_host_internal}}
+    port: {{ val.service_port }}
+    path: /
+    options:
+      - sticky
+      - basic_auth
+      - read_timeout: 100
+      - whitelist: {{ val.root_whitelist }}
+    labels:
+      dummy: jan
+  api:
+    host: {{ val.ingress_host_internal}}
+    port: {{ val.service_port }}
+    path: /api
+
+
+Kustomization:
+  main:
+    configmaps:
+      demo-vars:
+        vars:
+          ENV: {{ val.env }}
+          ORACLE_URL: {{ val.ORACLE_URL }}
+          ORACLE_USR: {{ val.ORACLE_USR }}
+          ORACLE_SCHEMA: {{ val.ORACLE_SCHEMA }}
+
+MyUdpService:
+  main:
+    name: demo-udp-service
+    ports:
+      - port: 8080
+
+PodDisruptionBudget:
+  main:
+    name: demo-pdb
+    labels:
+      testje: test
+
+Secret:
+  main:
+    vars:
+      DB_USR: {{ val.DB_USR }}
+      DB_PSW: {{ val.DB_PSW | dekrypt }}
+
+Service:
+  main: # default service
+    ports:
+      - port: {{ val.service_port }}
+    options:
+      - headless
+  https:
+    ports:
+      - port: 443
+        name: https
+
+ServiceAccount:
+  main:
+    role: {{ val.serviceaccount_role }}
+
+ServiceMonitor:
+  main:
+    endpoints:
+      - interval: 20s
+        path: /actuator/prometheus
