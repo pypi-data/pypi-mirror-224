@@ -1,0 +1,10 @@
+pysofft-0.1.0.dist-info/METADATA,sha256=rxAVQ65LCue9dLcLCyQho3uvQ1rmGjDrV1kTlFauuo4,1127
+pysofft-0.1.0.dist-info/WHEEL,sha256=bbAwydobi_oZ_0rI4gBBovxINCqHVHcC26TV6S2A2Io,90
+pysofft-0.1.0.dist-info/licenses/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+pysofft/__init__.py,sha256=_WQVtKnyA-yEg9xZCE9HVqHR8aHv6UIrXBfqqbdcvZM,1122
+pysofft/make_wiegner.py,sha256=UOvDgYTXqSUCWnnAmkf5wNWvmR3rsnHD-9hHpbpsinc,12481
+pysofft/rotate.py,sha256=qw_MV6WipxY-Kko3SFBvcWD6s1RHR1mA32doSBImt34,3541
+pysofft/soft.py,sha256=u9v8Ofj2XJW7qvQzraosQJ03l-dN1393I9MFhG6w4SE,60480
+pysofft/wignerTransform.py,sha256=dVyW8V13XzbHhJxyAPD4o6SJn6CIJ95y4geBCwn55uc,17403
+pysofft/wignerWeights.py,sha256=GzKQlvuIFhaMZkJXnq7NfPQW8Po2NXhvqONhOvXp_38,1156
+pysofft-0.1.0.dist-info/RECORD,,

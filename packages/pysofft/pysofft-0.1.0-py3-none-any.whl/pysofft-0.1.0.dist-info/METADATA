@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pysofft
+Version: 0.1.0
+Summary: Python port of the C library SOFT 2.0, that computes fourier transforms on the rotation group SO(3).
+Keywords: SO(3) FFT fourier transform SOFT
+Author-Email: Unknown <tim.berberich@xfel.eu>
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3 :: Only
+Project-URL: Homepage, https://github.com/TimBerberich/pysoft
+Requires-Python: >=3.11
+Requires-Dist: numba
+Requires-Dist: numpy
+Description-Content-Type: text/markdown
+
+# PySOFFT
+This package allows to compute Fourier transforms on the rotation group SO(3).\
+It is a partial python port of soft-2.0 released by Peter Kostelec and Daniel Rockmore.
+
+For details see their paper:\
+FFTs on the Rotation Group\
+J Fourier Anal Appl (2008) 14: 145–179\
+DOI 10.1007/s00041-008-9013-5
+
+The present numba code is a more or less straight copy/adaptation of the original C implementation.\
+PySOFT is made available with conset of the original authors and under the same GPL3 license.
+
+## Installation
+## Usage
