@@ -1,0 +1,10 @@
+.env
+.venv
+venv
+data
+dist
+target
+me.toml
+.streamlit/secrets.toml
+*.ddb*
+temp.py
