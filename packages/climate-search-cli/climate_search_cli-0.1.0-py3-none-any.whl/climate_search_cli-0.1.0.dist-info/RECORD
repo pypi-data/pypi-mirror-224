@@ -1,0 +1,13 @@
+cs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cs/cli.py,sha256=9l8bnt5GdbF4ZEVGOfE9T4MiKozSyIsAaKxfKmakzqc,2136
+cs/db.py,sha256=0OhviYNYm3_N4KY65eUWyDdGwPEk5BDOR4aVyFLHecw,1629
+cs/load/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cs/output.py,sha256=t_IuPXTXriE9uTgQHG9HMOgYPb7vfdX5SGS-M9_Kg84,1654
+cs/policy_reader.py,sha256=MSZcpDl7BZibokZf78jg17k-nVue0Ji0QSxvedMvcEo,1933
+cs/relevance.py,sha256=u4W0c1Vm2MQqqw7zz4tTpZzp01n8V5vHLQq9gynKk9E,1066
+cs/utils.py,sha256=pmdfqAawW0Aad0CrHhDPz-c0f2AACJjU0n0Mr99QQQk,237
+climate_search_cli-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+climate_search_cli-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+climate_search_cli-0.1.0.dist-info/entry_points.txt,sha256=iw79vLCeXsUSiYax72cwdLXuGvZfoTT2fyn9L326Zfk,40
+climate_search_cli-0.1.0.dist-info/METADATA,sha256=7h-CmVD3y5903hjMTMoHIwgeBMmJ2YadtX-DADBASMc,2706
+climate_search_cli-0.1.0.dist-info/RECORD,,
