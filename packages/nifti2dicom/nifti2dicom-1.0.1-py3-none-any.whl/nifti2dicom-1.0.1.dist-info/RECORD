@@ -1,0 +1,8 @@
+nifti2dicom/__init__.py,sha256=xq0wNzzqWhsbftaruiGqBkQj27RbCrvYlZm_3uN7Xks,49
+nifti2dicom/constants.py,sha256=_sXBOXmeb_f_Ev4OeZazkN7tpcQtRHnT12nDx1P30U4,740
+nifti2dicom/converter.py,sha256=-LTTNA9YgcTQ8tjvxGjmrYfFAnA5r_k-lQxGA7wZVv8,6595
+nifti2dicom-1.0.1.dist-info/METADATA,sha256=fZWLFKILj_GeKw8beo80jfR0N3tT0L80IrxbswjfI7s,381
+nifti2dicom-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+nifti2dicom-1.0.1.dist-info/entry_points.txt,sha256=7FsRDO5abKoLqQDyZPtaCDl3GZNu6Zgcm6mQufLVR48,60
+nifti2dicom-1.0.1.dist-info/top_level.txt,sha256=IWH9rGw9hB7qtTqTuerwB3crdt3fSrvS51PLZ4sGAiQ,12
+nifti2dicom-1.0.1.dist-info/RECORD,,

@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: nifti2dicom
+Version: 1.0.1
+Summary: A package to convert NIfTI images to DICOM format using a reference DICOM series.
+Home-page: UNKNOWN
+Author: Lalith Kumar Shiyam Sundar
+License: MIT
+Keywords: nifti dicom converter
+Platform: UNKNOWN
+Requires-Dist: pydicom
+Requires-Dist: nibabel
+Requires-Dist: numpy
+Requires-Dist: emoji
+Requires-Dist: rich
+
+UNKNOWN
+
