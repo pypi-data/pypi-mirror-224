@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pysilenttask
+Version: 1.5
+Summary: Effortlessly create and manage background-running Python scripts using pysilenttask.
+Author: Pritish Mishra
+Author-email: pritishjan@gmail.com
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: psutil
+
