@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: balba
+Version: 0.1.0
+Summary: Automatically generate a website showcasing Kicad projects.
+Requires-Python: >=3.9.0
