@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: postcard-creator
+Version: 2.4
+Summary: A python wrapper around the Rest API of the Swiss Postcard creator
+Home-page: http://github.com/abertschi/postcard_creator_wrapper
+Author: Andrin Bertschi
+Author-email: apps@abertschi.ch
+License: Apache Software License
+Keywords: postcard creator swiss
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE.md
+
+UNKNOWN
+
