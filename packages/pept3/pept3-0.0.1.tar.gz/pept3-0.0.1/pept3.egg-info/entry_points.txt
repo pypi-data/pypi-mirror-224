@@ -1,0 +1,3 @@
+[console_scripts]
+pept3 = pept3:main
+
