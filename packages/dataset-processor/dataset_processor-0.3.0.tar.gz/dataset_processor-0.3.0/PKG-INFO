@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: dataset_processor
+Version: 0.3.0
+Summary: A dataset preprocess toolkit
+Home-page: https://github.com/waterminer/SD-DatasetProcessor
+Author: Water_miner
+Author-email: 420773173@qq.com
+License: GPLv3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: GPU :: NVIDIA CUDA :: 11.8
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
