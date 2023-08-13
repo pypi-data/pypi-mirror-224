@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+d3plus/__init__.py
+d3plus/d3plus.py
+d3plus/examples.py
+d3plus.egg-info/PKG-INFO
+d3plus.egg-info/SOURCES.txt
+d3plus.egg-info/dependency_links.txt
+d3plus.egg-info/requires.txt
+d3plus.egg-info/top_level.txt
+d3plus/data/__init__.py
+d3plus/utils/__init__.py
