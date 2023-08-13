@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+PluginKernel/__init__.py
+PluginKernel.egg-info/PKG-INFO
+PluginKernel.egg-info/SOURCES.txt
+PluginKernel.egg-info/dependency_links.txt
+PluginKernel.egg-info/requires.txt
+PluginKernel.egg-info/top_level.txt
