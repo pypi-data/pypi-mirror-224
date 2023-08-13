@@ -1,0 +1,5 @@
+numpy
+scipy
+h5py>=2.10
+snewpy~=1.4b1
+uproot
