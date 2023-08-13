@@ -1,0 +1,10 @@
+numpy
+imageio>=2.21.2
+rawpy
+exifread
+tqdm
+colour-demosaicing
+matplotlib
+scipy>=1.7.1
+scikit-image>=0.18.3
+pyexr
