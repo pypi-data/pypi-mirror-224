@@ -1,0 +1,10 @@
+scoobi/__init__.py,sha256=jQ9qZvdzNPl2ZesUHFvu5g2EvciDMXN2cpU4uG3sDrA,17897
+scoobi/cli.py,sha256=ffMC-pKh4neH8VFWvqAtcVFQhKwkuO95FiH0cxRptfQ,7192
+scoobi/config.py,sha256=rd17Jm9CxdluyXnu5jJl0mvDYUNsh0xTVVrhDEHyDtg,1474
+scoobi/fitscubetofits.py,sha256=5oRosDLBisbCzjHJLWYxAuV3kngWZBKzbcG0Qw05QI0,9620
+scoobi-0.0.1.8.dist-info/LICENSE,sha256=ABbuJnzoYnV3IMQcvxsZ0ylkuqZwXiHDQXve_Vk3WGg,1500
+scoobi-0.0.1.8.dist-info/METADATA,sha256=3CzyF71uxBA7u8HlfCFGqJSwzUgEzoclUz9pJct-9f0,5006
+scoobi-0.0.1.8.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+scoobi-0.0.1.8.dist-info/entry_points.txt,sha256=FR2IU-uWf8HOG4CbEun1-on0Akw6q3t-ORJtGnxEqz4,42
+scoobi-0.0.1.8.dist-info/top_level.txt,sha256=pFI81Bg_Gbt8fIiW4hqc3uV7VWT8PpJBtF7citwVfAU,7
+scoobi-0.0.1.8.dist-info/RECORD,,
