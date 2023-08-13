@@ -1,0 +1,17 @@
+from setuptools import setup, find_packages
+
+setup(
+    name='whatsapp_message_sender',
+    version='0.1.1',
+    description='A tool for sending WhatsApp messages to clients with pending payments',
+    packages=find_packages(),
+    install_requires=[
+        'pandas',
+        'pyautogui',
+    ],
+    entry_points={
+        'console_scripts': [
+            'whatsapp_message_sender = src.__main__:main',
+        ],
+    },
+)
