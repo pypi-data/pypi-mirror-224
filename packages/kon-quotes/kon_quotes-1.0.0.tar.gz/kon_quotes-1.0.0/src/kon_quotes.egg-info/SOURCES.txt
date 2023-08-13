@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/kon_quotes/__init__.py
+src/kon_quotes/kon.py
+src/kon_quotes.egg-info/PKG-INFO
+src/kon_quotes.egg-info/SOURCES.txt
+src/kon_quotes.egg-info/dependency_links.txt
+src/kon_quotes.egg-info/top_level.txt
