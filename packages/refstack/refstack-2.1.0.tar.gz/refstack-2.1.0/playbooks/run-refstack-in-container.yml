@@ -1,0 +1,52 @@
+---
+- hosts: localhost
+  become: true
+  gather_facts: true
+  vars:
+    # dir where refstack files for buidling an image, running a container
+    # will be stored
+    refstack_dir: /tmp/refstack-docker
+    refstack_openid_endpoint: ''
+    # ip address of the machine you're running this on
+    refstack_url: # 'http://<IP address of your server>'
+    # the default credentials for the refstack database
+    refstack_db_username: refstack
+    refstack_db_password: Jz4ooq9TL7nc3hX3
+    refstack_root_db_password: KbgY3r9HYnEYpgRP
+  tasks:
+    - name: Clone system-config repository
+      git:
+        repo: https://opendev.org/opendev/system-config.git
+        dest: "{{ refstack_dir }}/system-config"
+
+    - name: Extract docker files
+      copy:
+        src: "{{ refstack_dir }}/system-config/docker/refstack/"
+        dest: "{{ refstack_dir }}/refstack-docker-files"
+        remote_src: yes
+
+    - name: Extract refstack role
+      copy:
+        src: "{{ refstack_dir }}/system-config/playbooks/roles/refstack/"
+        dest: "{{ refstack_dir }}/refstack-role"
+        remote_src: yes
+
+    - name: Delete the rest of system-config content
+      file:
+        state: absent
+        path: "{{ refstack_dir }}/system-config"
+
+    - name: Install Docker
+      apt:
+        name:
+          - docker
+          - docker-compose
+        state: present
+
+    - name: Build refstack image
+      command: docker image build -f Dockerfile -t refstack:1 .
+      args:
+        chdir: "{{ refstack_dir }}/refstack-docker-files"
+
+    - include_role:
+        name: "{{ refstack_dir }}/refstack-role"

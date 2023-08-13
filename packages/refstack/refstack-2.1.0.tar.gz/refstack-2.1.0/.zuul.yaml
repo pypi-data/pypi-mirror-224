@@ -1,0 +1,31 @@
+- project:
+    templates:
+      - nodejs18-jobs
+      - openstack-cover-jobs
+      - openstack-python3-antelope-jobs
+    check:
+      jobs:
+        - openstack-tox-py39
+        - refstack-tox-functional
+        - opendev-tox-docs
+    gate:
+      jobs:
+        - openstack-tox-py39
+        - refstack-tox-functional
+        - opendev-tox-docs
+    promote:
+      jobs:
+        - opendev-promote-docs
+
+- job:
+    name: refstack-tox-functional
+    parent: openstack-tox-with-sudo
+    description: |
+      Run functional tests for an OpenStack Python project under cPython 3.
+      Uses tox with the ``functional`` environment.
+    irrelevant-files:
+      - ^.*\.rst$
+      - ^doc/.*$
+      - ^releasenotes/.*$
+    vars:
+      tox_envlist: functional
