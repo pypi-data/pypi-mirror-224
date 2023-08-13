@@ -1,0 +1,12 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+
+from apis.network import vxnet,router_table
+
+class ScenarioTest():
+
+    @classmethod
+    def set_client(cls,**kwargs):
+        cls.vxnet_client = vxnet.Vxnets()
+        cls.router_table = router_table.RouterTable()
+

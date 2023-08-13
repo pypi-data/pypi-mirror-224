@@ -1,0 +1,22 @@
+env: staging
+testbm:
+  account:
+    pwd: zhu@88jie
+    user: automan@testbm.com
+  api_host: api.testbmcloud.com
+  console_id: testbmcloud
+  debug: false
+  host: http://console.testbmcloud.com
+  port: 80
+  project_name: qingcloud-autotest
+  protocol: http
+  qy_access_key_id: LVBBSTKTLTJVVYSMGZYI
+  qy_secret_access_key: xqJm07loG8u05SvdKqQOFvsfEj1Kc81Bnhp2gSSV
+  region: testbm
+  submit_host: http://account.testbmcloud.com
+  test_department: Quality Assurance Department
+  test_title: Cloud Platform Automated Testing
+  user_id: usr-JlwPFTBD
+  zone:
+  - testbm1a
+  - testbm1b
