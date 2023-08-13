@@ -1,0 +1,3 @@
+pymongo
+dtoolcore>=3.18.0
+dtool-lookup-server

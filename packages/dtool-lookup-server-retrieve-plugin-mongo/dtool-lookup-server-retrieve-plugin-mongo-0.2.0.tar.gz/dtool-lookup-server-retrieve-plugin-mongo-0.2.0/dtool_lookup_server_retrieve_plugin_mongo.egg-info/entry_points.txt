@@ -1,0 +1,2 @@
+[dtool_lookup_server.retrieve]
+MongoRetrieve = dtool_lookup_server_retrieve_plugin_mongo.utils_retrieve:MongoRetrieve

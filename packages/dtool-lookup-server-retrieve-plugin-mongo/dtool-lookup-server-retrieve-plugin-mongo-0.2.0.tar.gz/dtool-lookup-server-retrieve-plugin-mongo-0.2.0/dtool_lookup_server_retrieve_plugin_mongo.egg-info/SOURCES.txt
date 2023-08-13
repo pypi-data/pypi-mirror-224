@@ -1,0 +1,17 @@
+LICENSE.rst
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+dtool_lookup_server_retrieve_plugin_mongo/__init__.py
+dtool_lookup_server_retrieve_plugin_mongo/config.py
+dtool_lookup_server_retrieve_plugin_mongo/utils_retrieve.py
+dtool_lookup_server_retrieve_plugin_mongo.egg-info/PKG-INFO
+dtool_lookup_server_retrieve_plugin_mongo.egg-info/SOURCES.txt
+dtool_lookup_server_retrieve_plugin_mongo.egg-info/dependency_links.txt
+dtool_lookup_server_retrieve_plugin_mongo.egg-info/entry_points.txt
+dtool_lookup_server_retrieve_plugin_mongo.egg-info/requires.txt
+dtool_lookup_server_retrieve_plugin_mongo.egg-info/top_level.txt
+tests/test_config_route.py
+tests/test_dtool-lookup-server-retrieve-plugin-mongo_package.py
+tests/test_utils_retrieve_standalone.py
