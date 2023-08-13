@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: pycuga
+Version: 0.0.4
+Summary: Python Cuda Genetic Algorithm Package
+Home-page: https://github.com/issacto/PyCuGa
+Author: Issac To
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
+## PYthon CUda Genetic Algorith
+
+PyCuGa provides a simple and easy package for performing island-based genetic algorithm using Python and Cuda. 
+
+# Variables
+
+| Method  |  |
+| ------------- |:-------------:|
+| Selection     | Elitism, Roulette Wheel     |
+| Crossover     | Single, Double fixed     |
+| Mutation      | Number     |
+
+```python
+p1 = PyCUGA( mutationThreshold = 0.1, isTime = False, time = 0, constArr = "", chromosomeSize = 18432, evaluationString = "")
+p1. launchKernel(islandSize = 32, blockSize = 128, chromosomeNo = 18432, migrationRounds = 20,rounds = 100)
+
+```
+
+
