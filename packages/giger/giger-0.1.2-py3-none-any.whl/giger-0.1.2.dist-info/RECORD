@@ -1,0 +1,16 @@
+giger/__init__.py,sha256=MfWmfVYGJHXNAhytieUDuwGkfAeWwHg6X6dukOLdHjs,576
+giger/skeleton.py,sha256=WX_gNFuA1gOBKBjZcLmjSQIleTQoxgA79219Hxhwl1s,3735
+giger/commands/image.py,sha256=DuOtynu2MqHAC4nS6gjSlrltdFbtdpq9lNq5dUgaFlI,4599
+giger/commands/prompt.py,sha256=banuvnHWxDhSHTXLRaFPDvRnoszy5NIggQWLgDJFYIs,2188
+giger/commands/roop.py,sha256=3UIhEHl5GU_ewOFOAipbbrkOo3BYcOC7lEGi1FzvX3o,864
+giger/commands/template.py,sha256=mUgc56kV9Ck05ON4tZ-C7eYQ2dYbeCXaW5K7Fs5R3cM,1593
+giger/services/image.py,sha256=OuZlb3ENqeQeIZ4QZb4Q6rHyIiBzgkCkklh2CBqsY38,6149
+giger/services/prompt.py,sha256=Uc27nxLFFsGddjhg4pMpC_vAj3Q9e5ox_213ssk6Gn0,13325
+giger/services/roop.py,sha256=hNrSD6IYhJAVOU5zl8Tem63ERlYJ9VEhLJJNgs-iras,2035
+giger/services/template.py,sha256=eEsW969nt-WmwBc9JpQBYcukg4c_yaIzFataShVL014,166
+giger-0.1.2.dist-info/LICENSE.txt,sha256=EtCAX86WdiPGH8QtyFSCCQ0M1-fNwKb4XFuJrCokeLU,1084
+giger-0.1.2.dist-info/METADATA,sha256=QOpa7qqZdnKgZgauhydWWVV2HXyLzGRX5F2T2-4ZptA,3943
+giger-0.1.2.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+giger-0.1.2.dist-info/entry_points.txt,sha256=erGSARCMY44tedtonXKtfh5vUDuaPK3fmbiaxE-a0jc,51
+giger-0.1.2.dist-info/top_level.txt,sha256=2Ljvkj81GnZnIkLxOPYRuhJFLBSkqR4HXyWfOTfJscY,6
+giger-0.1.2.dist-info/RECORD,,
