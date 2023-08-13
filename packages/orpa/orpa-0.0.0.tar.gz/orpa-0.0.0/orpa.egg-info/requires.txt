@@ -1,0 +1,25 @@
+pillow>=6.0.0
+keyboard>=0.13.3
+pyscreeze==0.1.21
+pyautogui<=0.9.52
+psutil>=5.6.2
+crypto>=1.4.1
+schedule>=1.1.0
+Jinja2>=2.2.11.2
+selenium==3.141.0
+fastapi>=0.81.0
+uvicorn>=0.18.3
+python-multipart>=0.0.6
+autodocsumm>=0.2.10
+screeninfo>=0.8.1
+pytesseract
+
+[:"linux" in sys_platform]
+simplepam>=0.1.5
+pyclip>=0.6.0
+
+[:sys_platform == "win32"]
+pywin32>=224
+WMI>=1.4.9
+pywinauto>=0.6.8
+desktopmagic

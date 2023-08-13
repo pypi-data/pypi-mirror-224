@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: orpa
+Version: 0.0.0
+Summary: The powerful open source RPA platform for business (pyOpenRPA)
+Home-page: https://orpa.app/
+Author: Ivan Maslov
+Author-email: Ivan.Maslov@pyopenrpa.ru
+License: Текст лицензии см. в файле по адресу: https://pyopenrpa.ru/license/oferta.pdf
+Description: Prototype
+Keywords: ORPA pyOpenRPA OpenRPA RPA Robot Automation Robotization OpenSource
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: Free For Educational Use
+Classifier: License :: Free For Home Use
+Classifier: License :: Free for non-commercial use
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Environment :: X11 Applications
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Home Automation
+Description-Content-Type: text/markdown
