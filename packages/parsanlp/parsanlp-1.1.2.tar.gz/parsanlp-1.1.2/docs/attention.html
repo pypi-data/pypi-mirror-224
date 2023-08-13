@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>attention module &mdash; parsanlp 1.0.3 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="helper_functions module" href="helper_functions.html" />
+    <link rel="prev" title="parsanlp" href="modules.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            parsanlp
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">parsanlp</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">attention module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#attention.AttentionHead"><code class="docutils literal notranslate"><span class="pre">AttentionHead</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#attention.AttentionHead.call"><code class="docutils literal notranslate"><span class="pre">AttentionHead.call()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#attention.MultiHeadAttention"><code class="docutils literal notranslate"><span class="pre">MultiHeadAttention</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#attention.MultiHeadAttention.call"><code class="docutils literal notranslate"><span class="pre">MultiHeadAttention.call()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="helper_functions.html">helper_functions module</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">parsanlp</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="modules.html">parsanlp</a></li>
+      <li class="breadcrumb-item active">attention module</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/attention.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="module-attention">
+<span id="attention-module"></span><h1>attention module<a class="headerlink" href="#module-attention" title="Permalink to this heading"></a></h1>
+<dl class="py class">
+<dt class="sig sig-object py" id="attention.AttentionHead">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">attention.</span></span><span class="sig-name descname"><span class="pre">AttentionHead</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/attention.html#AttentionHead"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#attention.AttentionHead" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Layer</span></code></p>
+<p>A class representing a single attention head in a multi-head attention mechanism.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>dmodel</strong> (<em>int</em>) – The dimensionality of the model.</p>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="attention.AttentionHead.call">
+<span class="sig-name descname"><span class="pre">call</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">input</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/attention.html#AttentionHead.call"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#attention.AttentionHead.call" title="Permalink to this definition"></a></dt>
+<dd><p>This is where the layer’s logic lives.</p>
+<p>The <cite>call()</cite> method may not create state (except in its first
+invocation, wrapping the creation of variables or other resources in
+<cite>tf.init_scope()</cite>).  It is recommended to create state in <cite>__init__()</cite>,
+or the <cite>build()</cite> method that is called automatically before <cite>call()</cite>
+executes the first time.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>inputs</strong> – <p>Input tensor, or dict/list/tuple of input tensors.
+The first positional <cite>inputs</cite> argument is subject to special rules:
+- <cite>inputs</cite> must be explicitly passed. A layer cannot have zero</p>
+<blockquote>
+<div><p>arguments, and <cite>inputs</cite> cannot be provided via the default value
+of a keyword argument.</p>
+</div></blockquote>
+<ul>
+<li><p>NumPy array or Python scalar values in <cite>inputs</cite> get cast as
+tensors.</p></li>
+<li><p>Keras mask metadata is only collected from <cite>inputs</cite>.</p></li>
+<li><p>Layers are built (<cite>build(input_shape)</cite> method)
+using shape info from <cite>inputs</cite> only.</p></li>
+<li><p><cite>input_spec</cite> compatibility is only checked against <cite>inputs</cite>.</p></li>
+<li><p>Mixed precision input casting is only applied to <cite>inputs</cite>.
+If a layer has tensor arguments in <cite>*args</cite> or <cite>**kwargs</cite>, their
+casting behavior in mixed precision should be handled manually.</p></li>
+<li><p>The SavedModel input specification is generated using <cite>inputs</cite>
+only.</p></li>
+<li><p>Integration with various ecosystem packages like TFMOT, TFLite,
+TF.js, etc is only supported for <cite>inputs</cite> and not for tensors in
+positional and keyword arguments.</p></li>
+</ul>
+</p></li>
+<li><p><strong>*args</strong> – Additional positional arguments. May contain tensors, although
+this is not recommended, for the reasons above.</p></li>
+<li><p><strong>**kwargs</strong> – <p>Additional keyword arguments. May contain tensors, although
+this is not recommended, for the reasons above.
+The following optional keyword arguments are reserved:
+- <cite>training</cite>: Boolean scalar tensor of Python boolean indicating</p>
+<blockquote>
+<div><p>whether the <cite>call</cite> is meant for training or inference.</p>
+</div></blockquote>
+<ul>
+<li><p><cite>mask</cite>: Boolean input mask. If the layer’s <cite>call()</cite> method takes a
+<cite>mask</cite> argument, its default value will be set to the mask
+generated for <cite>inputs</cite> by the previous layer (if <cite>input</cite> did come
+from a layer that generated a corresponding mask, i.e. if it came
+from a Keras layer with masking support).</p></li>
+</ul>
+</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>A tensor or list/tuple of tensors.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="attention.MultiHeadAttention">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">attention.</span></span><span class="sig-name descname"><span class="pre">MultiHeadAttention</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/attention.html#MultiHeadAttention"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#attention.MultiHeadAttention" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Layer</span></code></p>
+<p>A class representing multi-head attention mechanism.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>h</strong> (<em>int</em>) – Number of attention heads.</p></li>
+<li><p><strong>dmodel</strong> (<em>int</em>) – The dimensionality of the model. Aka the output vector dims.</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="attention.MultiHeadAttention.call">
+<span class="sig-name descname"><span class="pre">call</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">input</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/attention.html#MultiHeadAttention.call"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#attention.MultiHeadAttention.call" title="Permalink to this definition"></a></dt>
+<dd><p>This is where the layer’s logic lives.</p>
+<p>The <cite>call()</cite> method may not create state (except in its first
+invocation, wrapping the creation of variables or other resources in
+<cite>tf.init_scope()</cite>).  It is recommended to create state in <cite>__init__()</cite>,
+or the <cite>build()</cite> method that is called automatically before <cite>call()</cite>
+executes the first time.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>inputs</strong> – <p>Input tensor, or dict/list/tuple of input tensors.
+The first positional <cite>inputs</cite> argument is subject to special rules:
+- <cite>inputs</cite> must be explicitly passed. A layer cannot have zero</p>
+<blockquote>
+<div><p>arguments, and <cite>inputs</cite> cannot be provided via the default value
+of a keyword argument.</p>
+</div></blockquote>
+<ul>
+<li><p>NumPy array or Python scalar values in <cite>inputs</cite> get cast as
+tensors.</p></li>
+<li><p>Keras mask metadata is only collected from <cite>inputs</cite>.</p></li>
+<li><p>Layers are built (<cite>build(input_shape)</cite> method)
+using shape info from <cite>inputs</cite> only.</p></li>
+<li><p><cite>input_spec</cite> compatibility is only checked against <cite>inputs</cite>.</p></li>
+<li><p>Mixed precision input casting is only applied to <cite>inputs</cite>.
+If a layer has tensor arguments in <cite>*args</cite> or <cite>**kwargs</cite>, their
+casting behavior in mixed precision should be handled manually.</p></li>
+<li><p>The SavedModel input specification is generated using <cite>inputs</cite>
+only.</p></li>
+<li><p>Integration with various ecosystem packages like TFMOT, TFLite,
+TF.js, etc is only supported for <cite>inputs</cite> and not for tensors in
+positional and keyword arguments.</p></li>
+</ul>
+</p></li>
+<li><p><strong>*args</strong> – Additional positional arguments. May contain tensors, although
+this is not recommended, for the reasons above.</p></li>
+<li><p><strong>**kwargs</strong> – <p>Additional keyword arguments. May contain tensors, although
+this is not recommended, for the reasons above.
+The following optional keyword arguments are reserved:
+- <cite>training</cite>: Boolean scalar tensor of Python boolean indicating</p>
+<blockquote>
+<div><p>whether the <cite>call</cite> is meant for training or inference.</p>
+</div></blockquote>
+<ul>
+<li><p><cite>mask</cite>: Boolean input mask. If the layer’s <cite>call()</cite> method takes a
+<cite>mask</cite> argument, its default value will be set to the mask
+generated for <cite>inputs</cite> by the previous layer (if <cite>input</cite> did come
+from a layer that generated a corresponding mask, i.e. if it came
+from a Keras layer with masking support).</p></li>
+</ul>
+</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>A tensor or list/tuple of tensors.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="modules.html" class="btn btn-neutral float-left" title="parsanlp" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="helper_functions.html" class="btn btn-neutral float-right" title="helper_functions module" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, Parsa Hemmati.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
