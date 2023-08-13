@@ -1,0 +1,53 @@
+[tool.poetry]
+name = "pydantic-settings-vault"
+version = "1.0.0"
+description = "A simple extension to pydantic-settings that can retrieve secrets from Hashicorp Vault"
+authors = [
+  "Aleksey Petrunnik <petrunnik.a@gmail.com>",
+  "Thomas Gaudin <thomas.gaudin@centraliens-lille.org>",
+]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/aleksey925/pydantic-settings-vault/"
+documentation = "https://github.com/aleksey925/pydantic-settings-vault/"
+keywords = ["hashicorp", "vault", "hvac", "pydantic"]
+classifiers = [
+  "Programming Language :: Python :: 3 :: Only",
+  "Typing :: Typed",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Information Technology",
+  "Intended Audience :: System Administrators",
+  "Topic :: Software Development",
+  "Topic :: Software Development :: Libraries",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Topic :: Internet",
+  "Topic :: Security"
+]
+packages = [
+  { include = "pydantic_vault", from = "src" }
+]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/aleksey925/pydantic-settings-vault/issues"
+"Changelog" = "https://github.com/aleksey925/pydantic-settings-vault/blob/master/CHANGELOG.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pydantic = "^2.1.1"
+pydantic-settings = "^2.0.2"
+hvac = ">=0.10.6, <0.12"
+
+[tool.poetry.dev-dependencies]
+mypy = "^1.4.1"
+pytest = "^7.4.0"
+pytest-mock = "^3.11.1"
+pytest-cov = "^4.1.0"
+pyfakefs = "^5.2.3"
+pre-commit = "^2.21.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
