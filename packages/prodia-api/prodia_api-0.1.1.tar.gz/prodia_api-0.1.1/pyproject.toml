@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "prodia-api"
+version = "0.1.1"
+description = ""
+authors = ["hoopengo <hoopengo@yandex.ru>"]
+license = "GPLv3+"
+readme = "README.md"
+packages = [{ include = "prodia_api" }]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+aiohttp = "^3.8.5"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest-asyncio = "^0.21.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
