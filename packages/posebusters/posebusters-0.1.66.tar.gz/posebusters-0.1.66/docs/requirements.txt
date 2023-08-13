@@ -1,0 +1,7 @@
+posebusters
+ipython
+nbsphinx
+sphinx
+sphinx-hoverxref
+sphinx_rtd_theme
+sphinxcontrib-programoutput
