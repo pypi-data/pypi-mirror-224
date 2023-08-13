@@ -1,0 +1,16 @@
+setup.py
+stips/__init__.py
+stips/client.py
+stips/enums.py
+stips/errors.py
+stips/formatter.py
+stips/helpers.py
+stips/http_man.py
+stips/models.py
+stips/pagetools.py
+stips/utils.py
+stipspy.egg-info/PKG-INFO
+stipspy.egg-info/SOURCES.txt
+stipspy.egg-info/dependency_links.txt
+stipspy.egg-info/requires.txt
+stipspy.egg-info/top_level.txt
