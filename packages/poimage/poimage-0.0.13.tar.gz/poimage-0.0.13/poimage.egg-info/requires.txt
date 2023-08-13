@@ -1,0 +1,6 @@
+pillow
+alive_progress
+requests
+jieba
+opencv-python
+pofile
