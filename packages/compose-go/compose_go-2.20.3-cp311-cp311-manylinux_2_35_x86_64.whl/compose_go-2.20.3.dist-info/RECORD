@@ -1,0 +1,7 @@
+compose/__init__.py,sha256=LmcfIZE7JoxR2ZBMrYqB3SlhFbLxyUUnFCw6tL3-aOs,343
+compose/docker-compose,sha256=9F5Mtoffi0ilf2Vgl85xdfqOi-9wvkB7AR4p_2Y_R18,59383631
+compose_go-2.20.3.dist-info/LICENSE,sha256=VdNe-RCjB8ySHZb0705-5jspey66C9W1Fj5-cJ2Vfjo,1514
+compose_go-2.20.3.dist-info/METADATA,sha256=Wgj50ESXKfgw0IdqGsAVRj7VRZKigTeFspmOyKggPuA,614
+compose_go-2.20.3.dist-info/WHEEL,sha256=dEfJ-oz1N-pNdQAfV-d9rGlVVisC_aI9JfT-s6JzcyM,110
+compose_go-2.20.3.dist-info/entry_points.txt,sha256=cbU_6dUR_CTwDvxa2bhFckuXqSEOUca8HIV5Ijz8caA,57
+compose_go-2.20.3.dist-info/RECORD,,
