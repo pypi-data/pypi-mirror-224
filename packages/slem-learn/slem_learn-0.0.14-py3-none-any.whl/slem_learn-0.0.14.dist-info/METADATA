@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: slem-learn
+Version: 0.0.14
+Summary: Super Learner Equation Modeling Package
+Author: Matthew J. Vowels
+Platform: linux
+Platform: osx
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: numpy (>=1.20.0)
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: networkx
+Requires-Dist: pandas
+Requires-Dist: tqdm
+Requires-Dist: matplotlib
+Provides-Extra: testing
+Requires-Dist: pytest (>=6.0) ; extra == 'testing'
+Requires-Dist: pytest-cov (>=2.0) ; extra == 'testing'
+Requires-Dist: mypy (>=0.910) ; extra == 'testing'
+Requires-Dist: flake8 (>=3.9) ; extra == 'testing'
+
