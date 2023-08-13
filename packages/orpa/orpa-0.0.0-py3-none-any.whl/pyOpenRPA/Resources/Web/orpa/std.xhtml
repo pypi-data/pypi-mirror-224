@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html lang="en" >
+	<head>
+		<meta charset="utf-8">
+		<title>Студия pyOpenRPA | ORPA</title>
+		<meta name="description" content="Ведущий RPA разработчик российского программного обеспечения. RPA платформа позволяет решать любые бизнес-задачи. Комплексное решение от компании RPA pyOpenRPA. Первое открытое российское RPA решение для крупного / среднего / малого бизнеса. Доступная автоматизация для каждого.">
+		<meta name="keywords" content="rpa, программные роботы, автоматизация бизнес-процессов, цифровые сотрудники, виртуальные сотрудники">
+		<link rel="stylesheet" type="text/css" href="/orpa/resources/Web/Semantic-UI-CSS-master/semantic.min.css">
+		<link rel="stylesheet" type="text/css" href="/orpa/resources/Web/orpa/styleset/home.css">
+		<link rel="stylesheet" type="text/css" href="/orpa/resources/Web/orpa/std.css">
+		<link rel="stylesheet" type="text/css" href="/orpa/resources/Web/orpa/std_floidd.css">
+
+	</head>
+	<body>
+		{% if is_ee_bool==False %}
+		<script>
+			document.addEventListener('contextmenu', event => event.preventDefault());
+		</script>
+		{% endif %}
+
+		<!-- HANDLEBAR orpa_utils_list_html_template НАЧАЛО -->
+		{% raw %}
+		<script id="orpa_utils_list_html_template" type="text/x-handlebars-template">
+			<div class="ui list" style="padding:0px;">
+			{{#each data_list}}
+			
+			<div class="item {{#if is_selected_bool}}orpa-utils-list-item-selected{{/if}}" style="cursor:pointer;5px; {{#if is_selected_bool}}background-color: rgb(210, 210, 210);{{/if}}padding:5px;"  >
+				{{#if icon_str}}<i class="{{icon_str}} icon"></i>{{else}}<i class="angle double right icon"></i>{{/if}}
+				
+				<div class="content">
+					{{#if is_selected_bool}}
+					<div class="header" style="display:inline-block" {{#if is_unselect_block_bool}}{{else}}onclick="this.parentElement.parentElement.js_object.unselect();if (this.parentElement.parentElement.js_dict.callback_unselected!=null) {this.parentElement.parentElement.js_dict.callback_unselected(this.parentElement.parentElement.js_object,this.parentElement.parentElement.js_dict);};"{{/if}}>{{title_str}}</div>
+					{{#if title_right_str}}<span {{#if is_unselect_block_bool}}{{else}}onclick="this.parentElement.parentElement.js_object.unselect(this.parentElement.parentElement.js_dict);if (this.parentElement.parentElement.js_dict.callback_unselected!=null) {this.parentElement.parentElement.js_dict.callback_unselected(this.parentElement.parentElement.js_object,this.parentElement.parentElement.js_dict);};"{{/if}}>{{title_right_str}}</span>{{/if}}
+					<div style="margin-bottom:2px;" class="description" {{#if is_unselect_block_bool}}{{else}}onclick="this.parentElement.parentElement.js_object.unselect(this.parentElement.parentElement.js_dict);if (this.parentElement.parentElement.js_dict.callback_unselected!=null) {this.parentElement.parentElement.js_dict.callback_unselected(this.parentElement.parentElement.js_object,this.parentElement.parentElement.js_dict);};"{{/if}}>{{description_str}}</div>
+					
+					{{else}}
+					<div class="header" style="display:inline-block" onclick="this.parentElement.parentElement.js_object.select(this.parentElement.parentElement.js_dict);if (this.parentElement.parentElement.js_dict.callback_selected!=null) {this.parentElement.parentElement.js_dict.callback_selected(this.parentElement.parentElement.js_object,this.parentElement.parentElement.js_dict);};">{{title_str}}</div>
+					{{#if title_right_str}}<span onclick="this.parentElement.parentElement.js_object.select(this.parentElement.parentElement.js_dict);if (this.parentElement.parentElement.js_dict.callback_selected!=null) {this.parentElement.parentElement.js_dict.callback_selected(this.parentElement.parentElement.js_object,this.parentElement.parentElement.js_dict);};">{{title_right_str}}</span>{{/if}}
+					<div style="margin-bottom:2px;" class="description" onclick="this.parentElement.parentElement.js_object.select(this.parentElement.parentElement.js_dict);if (this.parentElement.parentElement.js_dict.callback_selected!=null) {this.parentElement.parentElement.js_dict.callback_selected(this.parentElement.parentElement.js_object,this.parentElement.parentElement.js_dict);};">{{description_str}}</div>
+					
+					{{/if}}
+
+					{{#check_length child_list 0}}
+						{{#each action_list}}
+						{{#has_child_display visible_filter_str}}
+						<span {{#if popup_str}} data-content="{{popup_str}}" {{/if}} onclick="if (this.parentElement.parentElement.js_dict.action_list[{{@index}}].callback_click!=null) {this.parentElement.parentElement.js_dict.action_list[{{@index}}].callback_click(this.parentElement.parentElement.js_object,this.parentElement.parentElement.js_dict, this.parentElement.parentElement.js_dict.action_list[{{@index}}]);};" class="orpa-desktop-tree-item-action orpa-utils-tree-popup">
+							{{#if icon_str}}<i class="{{icon_str}} icon"></i>{{/if}}
+							{{#if title_str}}{{title_str}}	{{/if}}
+						</span>
+						{{/has_child_display}}
+						{{/each}}
+					{{else}}
+					    
+						{{#each action_list}}
+						{{#no_child_display visible_filter_str}}
+						<span {{#if popup_str}} data-content="{{popup_str}}" {{/if}} onclick="if (this.parentElement.parentElement.js_dict.action_list[{{@index}}].callback_click!=null) {this.parentElement.parentElement.js_dict.action_list[{{@index}}].callback_click(this.parentElement.parentElement.js_object,this.parentElement.parentElement.js_dict, this.parentElement.parentElement.js_dict.action_list[{{@index}}]);};" class="orpa-desktop-tree-item-action orpa-utils-tree-popup">
+							{{#if icon_str}}<i class="{{icon_str}} icon"></i>{{/if}}
+							{{#if title_str}}{{title_str}}{{/if}}
+							</span>
+						{{/no_child_display}}
+						{{/each}}
+						
+					{{/check_length}}
+
+
+
+					{{#if child_list}}
+					{{> orpa_utils_list_html_template data_list=child_list}}
+				{{/if}}
+				</div>
+				
+			</div>
+
+			
+
+			{{/each}}
+			</div>
+		</script>
+		{% endraw %}
+		<!-- HANDLEBAR orpa_utils_list_html_template КОНЕЦ -->
+		{% include 'header.xhtml' %}
+		<div class="ui aligned stackable grid container" id="orpa-tabs">
+			<div class="row" >
+				<div class="sixteen wide column openrpa-control-panel-general UACClient-pyOpenRPADict-CPKeyDict" style="" >
+					<div class="ui horizontal divider header orpa" style="margin-bottom:0px;margin-top:20px;">
+						<div class="orpa-workspace-button" id="orpa-workspace-expand" onclick="orpa_workspace_expand()" style=""><i class="expand icon"></i><span>Развернуть на весь экран</span><i class="expand icon"></i></div>
+						<div class="orpa-workspace-button" id="orpa-workspace-compress" onclick="orpa_workspace_compress()" style=" display:none;"><i class="compress icon"></i><span>Свернуть на часть экрана</span><i class="compress icon"></i></div>
+		
+					</div>
+					<div class="" style="margin-bottom:0px;margin-top:15px;">
+						<span orpa-data-key="orpa-tab" orpa-data-value="orpa-project" class="ui tag label teal tiny orpa-tab noselect" onclick="orpa_range_select(this); orpa_tabs_render();">Проект</span>
+						<span orpa-data-key="orpa-tab" orpa-data-value="orpa-desktop" class="ui tag label  tiny orpa-tab noselect " onclick="orpa_range_select(this); orpa_tabs_render();">Приложение</span>
+						<span orpa-data-key="orpa-tab" orpa-data-value="orpa-browser" class="ui tag label  tiny orpa-tab noselect {% if is_ee_bool==False %}disabled{% endif %}" onclick="orpa_range_select(this); orpa_tabs_render();">Браузер</span>
+						<span orpa-data-key="orpa-tab" orpa-data-value="orpa-keyboard" class="ui tag label  tiny orpa-tab noselect {% if is_ee_bool==False %}disabled{% endif %}" onclick="orpa_range_select(this); orpa_tabs_render();">Клавиатура & Буфер</span>
+						<span orpa-data-key="orpa-tab" orpa-data-value="orpa-mouse" class="ui tag label  tiny orpa-tab noselect {% if is_ee_bool==False %}disabled{% endif %}" onclick="orpa_range_select(this); orpa_tabs_render();">Мышь & Экран</span>
+						<span orpa-data-key="orpa-tab" orpa-data-value="orpa-gpt" class="ui tag label  tiny orpa-tab noselect {% if is_ee_bool==False %}disabled{% endif %}" onclick="orpa_range_select(this); orpa_tabs_render();">Интеллект</span>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<!-- РАЗДЕЛ ПРОЕКТ -- ORPA-PROJECT -- НАЧАЛО -->
+		<div class="ui aligned stackable grid container" id="orpa-project">
+			<div class="row">
+				
+				<div class="sixteen wide column " >
+					<div class="ui horizontal divider header" style="margin-bottom:5px;margin-top:0px; ">
+						<div ><i style="margin-left: 0.75rem;" class="angle double down icon" onclick="jump('#orpa-project-iframe');"></i></div>				
+					</div>
+					<div class="sixteen wide column " >
+						<i style="display:inline-block; cursor: pointer; margin-bottom:15px;margin-top:0px; " data="" class="exclamation triangle icon orange" onclick="orpa_utils_popup_show(this, 'Функциональность зависит от текущей раскладки клавиатуры (РУС, АНГ)');"></i>
+						<span>ПРИ НЕКОРРЕКТНОМ ОТОБРАЖЕНИИ ОКНА РЕДАКТОРА НАЖАТЬ КНОПКУ "ОБНОВИТЬ"</span>
+					</div>
+					<button style="margin-bottom: 10px;"  class="ui button grey labeled icon mini" onclick="orpa_project_jupyter_open_path();">
+						<i class="folder icon"></i>
+						Открыть в проводнике
+					</button> 
+					<button style="margin-bottom: 10px;"  class="ui button grey labeled icon mini" onclick="orpa_project_jupyter_set_path();">
+						<i class="folder icon"></i>
+						Открыть / создать проект
+					</button> 
+
+					<button style="margin-bottom: 10px;"  class="ui button grey labeled icon mini" onclick="orpa_project_jupyter_fullscreen();">
+						<i class="expand arrows alternate icon"></i>
+						Полноэкранный режим
+					</button> 
+					<button style="margin-bottom: 10px;"  class="ui button grey labeled icon mini" onclick="orpa_project_jupyter_refresh();">
+						<i class="redo icon"></i>
+						Обновить
+					</button> 
+					
+					<iframe src="http://localhost:8888/lab" title="project" width="100%" height="800px;" id="orpa-project-iframe"></iframe>
+					<div class="ui horizontal divider header orpa" style="margin-bottom:0px;margin-top:30px; ">
+						<div ><i style="margin-left: 0.75rem;" class="angle double up icon" onclick="jump('#orpa-project-iframe');"></i>
+						</div>			
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- РАЗДЕЛ ПРОЕКТ -- ORPA-PROJECT -- КОНЕЦ -->
+
+		<!-- РАЗДЕЛ ПРИЛОЖЕНИЕ -- ORPA-DESKTOP -- НАЧАЛО -->
+		<div class="ui aligned stackable grid container" id="orpa-desktop">
+
+			<div class="row">
+				<div class="sixteen wide column " >
+					<div class="ui horizontal divider header" style="margin-bottom:30px;margin-top:0px; ">
+						<div ><i style="margin-left: 0.75rem;" class="angle double down icon" onclick="jump('#orpa-desktop-col-1');"></i>
+							{% if is_linux_bool==False %}
+							<span orpa-data-key="orpa-desktop-framework" orpa-data-value="uia" class="ui tag label teal  tiny noselect" onclick="orpa_range_select(this); orpa_desktop_tree_refresh();">UIA</span>
+							<span orpa-data-key="orpa-desktop-framework" orpa-data-value="win32" class="ui tag label  tiny noselect" onclick="orpa_range_select(this); orpa_desktop_tree_refresh();">WIN32</span>
+
+					  
+							 {% else %}
+							 <span orpa-data-key="orpa-desktop-framework" orpa-data-value="at-spi" class="ui tag label teal  tiny noselect" onclick="orpa_range_select(this); orpa_desktop_tree_refresh();">AT-SPI</span>
+							<span orpa-data-key="orpa-desktop-framework" orpa-data-value="wnck" class="ui tag label  tiny noselect" onclick="orpa_range_select(this); orpa_desktop_tree_refresh();">WNCK</span>
+
+							{% endif %}
+							<span style="color:teal; cursor: pointer;" onclick="orpa_desktop_workspace_proportion_set('eight', 'four', 'four');"><i class="expand icon"></i>:<i class="compress icon"></i>:<i class="compress icon"></i></span>
+							|
+							<span style="color:teal; cursor: pointer;" onclick="orpa_desktop_workspace_proportion_set('four', 'eight', 'four');"><i class="compress icon"></i>:<i class="expand icon"></i>:<i class="compress icon"></i></span>
+							|
+							<span style="color:teal; cursor: pointer;" onclick="orpa_desktop_workspace_proportion_set('four', 'four', 'eight');"><i class="compress icon"></i>:<i class="compress icon"></i>:<i class="expand icon"></i></span>
+							|
+							<span style="color:teal; cursor: pointer;" onclick="orpa_desktop_workspace_proportion_set('six', 'six', 'four');"><i class="redo icon"></i></span>
+							<i style="margin-left: 0.35rem;" class="angle double down icon" onclick="jump('#orpa-desktop-col-1');"></i>
+						</div>			
+					</div>
+				</div>
+				
+				<div class="six wide column " id="orpa-desktop-col-1">
+					
+					
+					<div class="ui tiny header orpa">UI ОБЪЕКТЫ
+						
+						<span style="margin-left:20px;" orpa-data-key="orpa-desktop-tree-type" orpa-data-value="TREE" class="ui tag label teal  tiny noselect" onclick="orpa_range_select(this); orpa_desktop_tree.mode_set('TREE');">ДЕРЕВО</span>
+						<span orpa-data-key="orpa-desktop-tree-type" orpa-data-value="LIST" class="ui tag label  tiny noselect" onclick="orpa_range_select(this); orpa_desktop_tree.mode_set('LIST');">СПИСОК</span>
+						<i style="display:inline-block" class="question circle icon teal" onclick="orpa_helper_info('orpa_desktop_ui_object');"></i>
+
+					</div>
+
+
+
+					{% if is_linux_bool==False %}
+
+					<div class="ui input mini {% if is_ee_bool==False %}disabled{% endif %}" style="width:44%; margin-bottom:8px;">
+						<input id="orpa-desktop-tree-search-value" type="text" placeholder="Поиск" onkeydown="if (event.keyCode == 13) document.getElementById('orpa-desktop-tree-search-icon').click();">
+					</div>
+
+
+					<i id="orpa-desktop-tree-search-icon" style="margin-left:5px;display:inline-block; cursor: pointer;" class="search icon teal {% if is_ee_bool==False %}disabled{% endif %}" onclick="{% if is_ee_bool==True %}orpa_desktop_tree_search();{% endif %}"></i>
+					
+					<span style="margin-left:20px;" orpa-data-key="orpa-desktop-tree-search" orpa-data-value="STR" class="ui tag label  tiny noselect {% if is_ee_bool==False %}disabled{% endif %}" onclick="orpa_range_select(this);">STR</span>
+					<span orpa-data-key="orpa-desktop-tree-search" orpa-data-value="WC" class="ui tag label teal  tiny noselect {% if is_ee_bool==False %}disabled{% endif %}" onclick="orpa_range_select(this);">WC</span>
+					<span orpa-data-key="orpa-desktop-tree-search" orpa-data-value="RE" class="ui tag label  tiny noselect {% if is_ee_bool==False %}disabled{% endif %}" onclick="orpa_range_select(this);">RE</span>
+
+					
+			  
+					 {% else %}
+					 <div class="ui input mini disabled" style="width:44%; margin-bottom:8px;">
+						<input id="orpa-desktop-tree-search-value" type="text" placeholder="Поиск" onkeydown="">
+					</div>
+
+
+					<i id="orpa-desktop-tree-search-icon" style="margin-left:5px;display:inline-block; cursor: pointer;" class="search icon teal disabled" onclick=""></i>
+					
+					<span style="margin-left:20px;" orpa-data-key="orpa-desktop-tree-search" orpa-data-value="STR" class="ui tag label  tiny noselect disabled" onclick="">STR</span>
+					<span orpa-data-key="orpa-desktop-tree-search" orpa-data-value="WC" class="ui tag label teal  tiny noselect disabled" onclick="">WC</span>
+					<span orpa-data-key="orpa-desktop-tree-search" orpa-data-value="RE" class="ui tag label  tiny noselect disabled" onclick="">RE</span>
+
+					{% endif %}
+
+					<!-- ORPA TREE -- НАЧАЛО -->
+					<div id="orpa-desktop-tree" class="ui segment" style="-webkit-box-shadow:0 0 0 0 rgba(34,36,38,.15);box-shadow:0 0 0 0 rgba(34,36,38,.15);margin:0px;padding:0px; border-radius: 0px; border:0px;;">
+						<div class="ui  inverted dimmer">
+						  <div class="ui text loader">Загружаем...</div>
+						</div>
+						<div class="orpa-utils-tree-workspace" style="margin-top: 10px; height:385px;overflow-x:auto; overflow-y:auto; margin-top:0px;"></div>
+
+					</div>
+					<!-- ORPA TREE -- КОНЕЦ -->
+
+						<div class="ui tiny header orpa">СЕЛЕКТОР
+						<i style="margin-left:10px;display:inline-block" class="i cursor icon"></i>
+						<span style="margin-left:20px;"  orpa-data-key="orpa-desktop-selector-type" orpa-data-value="UIO" class="ui tag label  teal tiny noselect" onclick="orpa_desktop_selector_range_select(this)">UIO</span>
+						<span orpa-data-key="orpa-desktop-selector-type" orpa-data-value="XPATH" class="ui tag label tiny noselect {% if is_ee_bool==False %}disabled{% endif %}" onclick="{% if is_ee_bool==True %}orpa_desktop_selector_range_select(this){% endif %}">XPATH</span>
+						<span orpa-data-key="orpa-desktop-selector-type" orpa-data-value="CSS" class="ui tag label  tiny noselect {% if is_ee_bool==False %}disabled{% endif %}" onclick="{% if is_ee_bool==True %}orpa_desktop_selector_range_select(this){% endif %}">CSS</span>
+
+						
+						<i style="margin-left:10px;display:inline-block" class="code icon teal" onclick="orpa_desktop_selector.code_generate();orpa_utils_popup_show(this, 'Код Python скопирован в буфер обмена! Для вставки используйте комбинацию клавиш Ctrl+V');"></i>
+						<i style="display:inline-block" class="question circle icon teal" onclick="orpa_helper_info('orpa_desktop_selector');"></i>
+					</div>
+					<textarea onchange="orpa_desktop_selector_validate();" id="orpa-desktop-selector-textarea" style="width:100%; height: 240px;font-size:14px; resize: none;" class="orpa rpa-gui-selector" cols="60"></textarea>	
+					
+					<button style="margin-top: 10px;"  class="ui button grey labeled icon mini" onclick="orpa_desktop_selector.ui_highlight();">
+						<i class="lightbulb outline icon"></i>
+						Подсветить
+						
+					</button>
+					<i style="margin-right:10px;display:inline-block" class="code icon teal" onclick="orpa_desktop_selector.code_highlight_generate();orpa_utils_popup_show(this, 'Код Python скопирован в буфер обмена! Для вставки используйте комбинацию клавиш Ctrl+V');"></i>
+					<button style="margin-top: 10px;"  class="ui button grey labeled icon mini" onclick="orpa_desktop_selector_search_list();">
+						<i class="search icon"></i>
+						Найти все
+					</button> 
+					<i style="margin-right:10px;display:inline-block" class="code icon teal" onclick="orpa_desktop_selector.code_locate_all_generate();orpa_utils_popup_show(this, 'Код Python скопирован в буфер обмена! Для вставки используйте комбинацию клавиш Ctrl+V');"></i>
+				</div>
+
+				<div class="six wide column " id="orpa-desktop-col-2" >
+					<div class="ui tiny header orpa">УРОВНИ ВЛОЖЕННОСТИ<i style="margin-left:10px; display:inline-block" class="question circle icon teal" onclick="orpa_helper_info('orpa_desktop_level_info');"></i></div>
+					<span style="margin-left:20px; margin-bottom: 7px;" orpa-data-key="orpa-desktop-memory-slot" orpa-data-value="slot-1" class="ui tag label  teal tiny noselect" onclick="orpa_desktop_memory_switch(this); ">СЛОТ 1</span>
+					<span style="margin-left:20px; margin-bottom: 7px;" orpa-data-key="orpa-desktop-memory-slot" orpa-data-value="slot-2" class="ui tag label   tiny noselect {% if is_ee_bool==False %}disabled{% endif %}" onclick="{% if is_ee_bool==True %}orpa_desktop_memory_switch(this);{% endif %}">СЛОТ 2</span>
+					<span style="margin-left:20px; margin-bottom: 7px;" orpa-data-key="orpa-desktop-memory-slot" orpa-data-value="slot-3" class="ui tag label   tiny noselect {% if is_ee_bool==False %}disabled{% endif %}" onclick="{% if is_ee_bool==True %}orpa_desktop_memory_switch(this);{% endif %} ">СЛОТ 3</span>
+					<span style="margin-left:20px; margin-bottom: 7px;" orpa-data-key="orpa-desktop-memory-slot" orpa-data-value="slot-4" class="ui tag label   tiny noselect {% if is_ee_bool==False %}disabled{% endif %}" onclick="{% if is_ee_bool==True %}orpa_desktop_memory_switch(this);{% endif %}">СЛОТ 4</span>
+					
+					
+
+					<!-- ORPA TREE -- НАЧАЛО -->
+					<div id="orpa-desktop-level" class="ui segment" style="-webkit-box-shadow:0 0 0 0 rgba(34,36,38,.15);box-shadow:0 0 0 0 rgba(34,36,38,.15);margin:0px;padding:0px; border-radius: 0px; border:0px;;">
+						<div class="ui inverted dimmer">
+							<div class="ui text loader">Загружаем...</div>
+						</div>
+						<div class="orpa-utils-tree-workspace" style="margin-top: 7px; height:385px;overflow-x:hidden; overflow-y:auto;"></div>
+
+					</div>
+					<!-- ORPA TREE -- КОНЕЦ -->
+
+					<div id="orpa-desktop-action" style="margin-top:29px;">
+						<div class="ui tiny header orpa">ДЕЙСТВИЕ<i style="margin-left:10px;display:inline-block" class="question circle icon teal" onclick=""></i></div>
+	
+						<div class="ui tiny header orpa">Функция / свойство
+							<span style="margin-left:20px; margin-bottom: 7px;" orpa-data-key="orpa-desktop-action-type" orpa-data-value="MODULE" class="ui tag label  tiny noselect orpa-module" onclick="orpa_desktop_action.mode_is_module_set(true);">МОДУЛЬ</span>
+							<span style="margin-left:20px; margin-bottom: 7px;" orpa-data-key="orpa-desktop-action-type" orpa-data-value="OBJECT" class="ui tag label teal tiny noselect orpa-object" onclick="orpa_desktop_action.mode_is_module_set(false);">UI ОБЪЕКТ</span>
+
+						</div>
+						<div class="ui search selection dropdown orpa-dropdown" style="width:100%;">
+							<input type="hidden" name="country">
+							<i class="dropdown icon"></i>
+							<div class="default text">click</div>
+							<div class="menu">
+							</div>
+						</div>
+						
+						<div class="ui tiny header orpa-help-title" style="margin-bottom: 7px;display:none">Описание
+
+						</div>
+
+						<div class="ui tiny header orpa-args-title" style="margin-bottom: 7px;">Аргументы
+							<span style="margin-left:20px; margin-bottom: 7px;" orpa-data-key="orpa-desktop-action-arg-type" orpa-data-value="LIST" class="ui tag label   tiny noselect orpa-list" onclick="orpa_desktop_action.mode_is_dict_set(false);">СПИСОК</span>
+							<span style="margin-bottom: 7px;" orpa-data-key="orpa-desktop-action-arg-type" orpa-data-value="DICT" class="ui tag label teal tiny noselect orpa-dict" onclick="orpa_desktop_action.mode_is_dict_set(true);">СЛОВАРЬ</span>
+
+						</div>
+						
+						<div class="ui input" style="width:100%">
+							<textarea onchange="orpa_desktop_action.args_value_save();" placeholder="[&quot;Привет&quot;, &quot;Мир&quot;]" style="width:100%; height: 93px;font-size:14px; resize: none;" class="orpa-arg-textarea" cols="60"></textarea>	
+						</div>
+						<p></p>
+						<button style="margin-top: 0px; margin-bottom: 7px;"  class="ui button grey labeled icon mini orpa-button-focus-run" onclick="orpa_desktop_action.focus_run();">
+							<i class="lightbulb outline icon"></i>
+							Фокус / выполнить
+							
+						</button>
+						<i style="margin-right:10px;display:inline-block" class="code icon teal orpa-code-focus-run" onclick="orpa_desktop_action.code_run_generate(true);orpa_utils_popup_show(this, 'Код Python скопирован в буфер обмена! Для вставки используйте комбинацию клавиш Ctrl+V');"></i>
+
+						<button style="margin-top: 0px; margin-bottom: 7px;"  class="ui button grey labeled icon mini orpa-button-run" onclick="orpa_desktop_action.run();">
+							<i class="play icon"></i>
+							Выполнить
+						</button>
+						<i style="margin-right:10px;display:inline-block" class="code icon teal orpa-code-run" onclick="orpa_desktop_action.code_run_generate(false);orpa_utils_popup_show(this, 'Код Python скопирован в буфер обмена! Для вставки используйте комбинацию клавиш Ctrl+V');"></i>
+
+
+					</div>
+					
+				</div>
+				<div class="four wide column " id="orpa-desktop-col-3">
+					<div class="ui tiny header orpa">СВОЙСТВА<i style="margin-left:10px; display:inline-block" class="question circle icon teal" onclick="orpa_helper_info('orpa_desktop_property_list');"></i></div>
+					
+					<!-- ORPA TREE -- НАЧАЛО -->
+					<div id="orpa-desktop-property" class="ui segment" style="-webkit-box-shadow:0 0 0 0 rgba(34,36,38,.15);box-shadow:0 0 0 0 rgba(34,36,38,.15);margin:0px;padding:0px; border-radius: 0px; border:0px;;">
+						<div class="ui inverted dimmer">
+							<div class="ui text loader">Загружаем...</div>
+						</div>
+						<div class="orpa-utils-tree-workspace" style="margin-top: 50px; height:385px;overflow-x:hidden; overflow-y:auto;"></div>
+
+					</div>
+					<!-- ORPA TREE -- КОНЕЦ -->
+					<div class="ui tiny header orpa">РЕЗУЛЬТАТ<i style="margin-left:10px; display:inline-block" class="question circle icon teal" onclick="orpa_helper_info('orpa_desktop_action_result');"></i></div>
+					<div class="content gui-result"></div>
+					<div id="orpa-desktop-action-result" class="orpa-placeholder" style="height:242px;overflow-x:hidden; overflow-y:auto; overflow-wrap: break-word;" ></div>
+					
+				</div>
+				<div class="sixteen wide column " >
+					<div class="ui horizontal divider header orpa" style="margin-bottom:0px;margin-top:30px; ">
+						<div ><i style="margin-left: 0.75rem;" class="angle double up icon" onclick="jump('#orpa-desktop-col-1');"></i>
+						</div>			
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!-- РАЗДЕЛ ПРИЛОЖЕНИЕ -- ORPA-DESKTOP -- КОНЕЦ -->
+
+		<!-- РАЗДЕЛ ПРИЛОЖЕНИЕ -- ORPA-BROWSER -- НАЧАЛО -->
+		<div class="ui aligned stackable grid container" id="orpa-browser">
+
+			<div class="row">
+				<div class="sixteen wide column " >
+					<div class="ui horizontal divider header" style="margin-bottom:30px;margin-top:0px; ">
+						<div ><i style="margin-left: 0.75rem;" class="angle double down icon" onclick="jump('#orpa-browser-col-1');"></i>
+							<span style="color:teal; cursor: pointer;" onclick="orpa_browser_workspace_proportion_set('eight', 'four', 'four');"><i class="expand icon"></i>:<i class="compress icon"></i>:<i class="compress icon"></i></span>
+							|
+							<span style="color:teal; cursor: pointer;" onclick="orpa_browser_workspace_proportion_set('four', 'eight', 'four');"><i class="compress icon"></i>:<i class="expand icon"></i>:<i class="compress icon"></i></span>
+							|
+							<span style="color:teal; cursor: pointer;" onclick="orpa_browser_workspace_proportion_set('four', 'four', 'eight');"><i class="compress icon"></i>:<i class="compress icon"></i>:<i class="expand icon"></i></span>
+							|
+							<span style="color:teal; cursor: pointer;" onclick="orpa_browser_workspace_proportion_set('six', 'six', 'four');"><i class="redo icon"></i></span>
+							<i style="margin-left: 0.35rem;" class="angle double down icon" onclick="jump('#orpa-browser-col-1');"></i>
+						</div>			
+					</div>
+
+
+					<div class="ui input" style="width:60%;">
+						<input id="orpa-browser-driver-tab-url" type="text" placeholder="https://pyopenrpa.ru/" onkeydown="if (event.keyCode == 13) orpa_browser_tabs_open();">
+					</div>
+					
+
+					<div id="orpa-browser-driver-tab-dropdown" class="ui search selection dropdown gui-action disabled" style="width:30%;">
+						<input type="hidden" name="country">
+						<i class="dropdown icon"></i>
+						<div class="default text">1: ORPA | PYOPENRPA | БОТЫ</div>
+						<div class="menu">
+						</div>
+					</div>
+					<i class="plus icon teal" style="margin-left:10px;" onclick="orpa_browser_tabs_new();"></i>
+					<i class="minus icon teal" style="margin-left:10px;" onclick="orpa_browser_tabs_close();"></i>
+
+				</div>
+				
+				<div class="six wide column " id="orpa-browser-col-1" style="margin-top: 40px;">
+					
+					
+					<div class="ui tiny header orpa">UI ОБЪЕКТЫ
+						
+						<span style="margin-left:20px;" orpa-data-key="orpa-browser-tree-type" orpa-data-value="TREE" class="ui tag label teal  tiny noselect" onclick="orpa_range_select(this); orpa_browser_tree.mode_set('TREE');">ДЕРЕВО</span>
+						<span orpa-data-key="orpa-browser-tree-type" orpa-data-value="LIST" class="ui tag label  tiny noselect" onclick="orpa_range_select(this); orpa_browser_tree.mode_set('LIST');">СПИСОК</span>
+						<i style="display:inline-block" class="question circle icon teal" onclick="orpa_helper_info('orpa_browser_ui_object');"></i>
+
+					</div>
+					<div class="ui input mini disabled" style="width:45%; margin-bottom:8px;">
+						<input id="orpa-browser-tree-search-value" type="text" placeholder="Поиск" onkeydown="" class="disabled">
+					</div>
+					<i id="orpa-browser-tree-search-icon" style="margin-left:5px;display:inline-block; cursor: pointer;" class="search icon teal disabled" onclick=""></i>
+					
+					<span style="margin-left:20px;" orpa-data-key="orpa-browser-tree-search" orpa-data-value="STR" class="ui tag label  tiny noselect" onclick="orpa_browser_mouse_search();">ПОИСК МЫШЬЮ</span>
+
+					
+					<!-- ORPA TREE -- НАЧАЛО -->
+					<div id="orpa-browser-tree" class="ui segment" style="-webkit-box-shadow:0 0 0 0 rgba(34,36,38,.15);box-shadow:0 0 0 0 rgba(34,36,38,.15);margin:0px;padding:0px; border-radius: 0px; border:0px;;">
+						<div class="ui  inverted dimmer">
+							<div class="ui text loader">Загружаем...</div>
+						</div>
+						<div class="orpa-utils-tree-workspace" style="margin-top: 10px; height:385px;overflow-x:auto; overflow-y:auto; margin-top:0px;"></div>
+
+					</div>
+					<!-- ORPA TREE -- КОНЕЦ -->
+
+						<div class="ui tiny header orpa">СЕЛЕКТОР
+						<i style="margin-left:10px;display:inline-block" class="i cursor icon"></i>
+						<span style="margin-left:20px;"  orpa-data-key="orpa-browser-selector-type" orpa-data-value="UIO" class="ui tag label  teal tiny noselect" onclick="orpa_browser_selector_range_select(this)">UIO</span>
+						<span orpa-data-key="orpa-browser-selector-type" orpa-data-value="XPATH" class="ui tag label tiny noselect" onclick="orpa_browser_selector_range_select(this)">XPATH</span>
+						<span orpa-data-key="orpa-browser-selector-type" orpa-data-value="CSS" class="ui tag label  tiny noselect" onclick="orpa_browser_selector_range_select(this)">CSS</span>
+						
+						
+						<i style="margin-left:10px;display:inline-block" class="code icon teal"></i>
+						<i style="display:inline-block" class="question circle icon teal" onclick="orpa_helper_info('orpa_browser_selector');"></i>
+					</div>
+					<textarea onchange="orpa_browser_selector_validate();" id="orpa-browser-selector-textarea" style="width:100%; height: 240px;font-size:14px; resize: none;" class="orpa rpa-gui-selector" cols="60"></textarea>	
+					
+					<button style="margin-top: 10px;"  class="ui button grey labeled icon mini" onclick="orpa_browser_selector.ui_highlight();">
+						<i class="lightbulb outline icon"></i>
+						Подсветить
+						
+					</button>
+					<i style="margin-right:10px;display:inline-block" class="code icon teal" onclick="orpa_browser_selector.code_highlight_generate();orpa_utils_popup_show(this, 'Код Python скопирован в буфер обмена! Для вставки используйте комбинацию клавиш Ctrl+V');"></i>
+
+					<button style="margin-top: 10px;"  class="ui button grey labeled icon mini" onclick="orpa_browser_selector_search_list();">
+						<i class="search icon"></i>
+						Найти
+					</button> 
+					<i style="margin-right:10px;display:inline-block" class="code icon teal" onclick="orpa_browser_selector.code_locate_all_generate();orpa_utils_popup_show(this, 'Код Python скопирован в буфер обмена! Для вставки используйте комбинацию клавиш Ctrl+V');"></i>
+
+				</div>
+
+				<div class="six wide column " id="orpa-browser-col-2" style="margin-top: 40px;">
+					<div class="ui tiny header orpa">УРОВНИ ВЛОЖЕННОСТИ<i style="margin-left:10px;display:inline-block" class="question circle icon teal" onclick="orpa_helper_info('orpa_browser_level_info');"></i></div>
+					<span style="margin-left:20px; margin-bottom: 7px;" orpa-data-key="orpa-browser-memory-slot" orpa-data-value="slot-1" class="ui tag label  teal tiny noselect" onclick="orpa_browser_memory_switch(this); ">СЛОТ 1</span>
+					<span style="margin-left:20px; margin-bottom: 7px;" orpa-data-key="orpa-browser-memory-slot" orpa-data-value="slot-2" class="ui tag label   tiny noselect" onclick="orpa_browser_memory_switch(this); ">СЛОТ 2</span>
+					<span style="margin-left:20px; margin-bottom: 7px;" orpa-data-key="orpa-browser-memory-slot" orpa-data-value="slot-3" class="ui tag label   tiny noselect" onclick="orpa_browser_memory_switch(this); ">СЛОТ 3</span>
+					<span style="margin-left:20px; margin-bottom: 7px;" orpa-data-key="orpa-browser-memory-slot" orpa-data-value="slot-4" class="ui tag label   tiny noselect" onclick="orpa_browser_memory_switch(this); ">СЛОТ 4</span>
+
+					<!-- ORPA TREE -- НАЧАЛО -->
+					<div id="orpa-browser-level" class="ui segment" style="-webkit-box-shadow:0 0 0 0 rgba(34,36,38,.15);box-shadow:0 0 0 0 rgba(34,36,38,.15);margin:0px;padding:0px; border-radius: 0px; border:0px;;">
+						<div class="ui inverted dimmer">
+							<div class="ui text loader">Загружаем...</div>
+						</div>
+						<div class="orpa-utils-tree-workspace" style="margin-top: 7px; height:385px;overflow-x:hidden; overflow-y:auto;"></div>
+
+					</div>
+					<!-- ORPA TREE -- КОНЕЦ -->
+					<div id="orpa-browser-action" style="margin-top:29px;">
+						<div class="ui tiny header orpa">ДЕЙСТВИЕ<i style="margin-left:10px;display:inline-block" class="question circle icon teal" onclick="orpa_helper_info('orpa_browser_action_pane');"></i></div>
+						
+						<div class="ui tiny header orpa">Функция / свойство
+							<span style="margin-left:20px; margin-bottom: 7px;" orpa-data-key="orpa-browser-action-type" orpa-data-value="MODULE" class="ui tag label  tiny noselect orpa-module" onclick="orpa_browser_action.mode_is_module_set(true);">МОДУЛЬ</span>
+							<span style="margin-left:20px; margin-bottom: 7px;" orpa-data-key="orpa-browser-action-type" orpa-data-value="OBJECT" class="ui tag label teal tiny noselect orpa-object" onclick="orpa_browser_action.mode_is_module_set(false);">UI ОБЪЕКТ</span>
+
+						</div>
+						<div class="ui search selection dropdown orpa-dropdown" style="width:100%;">
+							<input type="hidden" name="country">
+							<i class="dropdown icon"></i>
+							<div class="default text">click</div>
+							<div class="menu">
+							</div>
+						</div>
+						
+						<div class="ui tiny header orpa-help-title" style="margin-bottom: 7px;display:none">Описание
+
+						</div>
+
+						<div class="ui tiny header orpa-args-title" style="margin-bottom: 7px;">Аргументы
+							<span style="margin-left:20px; margin-bottom: 7px;" orpa-data-key="orpa-browser-action-arg-type" orpa-data-value="LIST" class="ui tag label   tiny noselect orpa-list" onclick="orpa_browser_action.mode_is_dict_set(false);">СПИСОК</span>
+							<span style="margin-bottom: 7px;" orpa-data-key="orpa-browser-action-arg-type" orpa-data-value="DICT" class="ui tag label teal tiny noselect orpa-dict" onclick="orpa_browser_action.mode_is_dict_set(true);">СЛОВАРЬ</span>
+
+						</div>
+						
+						<div class="ui input" style="width:100%">
+							<textarea onchange="orpa_browser_action.args_value_save();" placeholder="[&quot;Привет&quot;, &quot;Мир&quot;]" style="width:100%; height: 93px;font-size:14px; resize: none;" class="orpa-arg-textarea" cols="60"></textarea>	
+						</div>
+						<p></p>
+						<button style="margin-top: 0px; margin-bottom: 7px;"  class="ui button grey labeled icon mini orpa-button-focus-run" onclick="orpa_browser_action.focus_run();">
+							<i class="lightbulb outline icon"></i>
+							Фокус / выполнить
+						</button>
+						<i style="margin-right:10px;display:inline-block" class="code icon teal orpa-code-focus-run" onclick="orpa_browser_action.code_run_generate(true);orpa_utils_popup_show(this, 'Код Python скопирован в буфер обмена! Для вставки используйте комбинацию клавиш Ctrl+V');"></i>
+
+						<button style="margin-top: 0px; margin-bottom: 7px;"  class="ui button grey labeled icon mini orpa-button-run" onclick="orpa_browser_action.run();">
+							<i class="play icon"></i>
+							Выполнить
+						</button>
+						<i style="margin-right:10px;display:inline-block" class="code icon teal orpa-code-run" onclick="orpa_browser_action.code_run_generate(false);orpa_utils_popup_show(this, 'Код Python скопирован в буфер обмена! Для вставки используйте комбинацию клавиш Ctrl+V');"></i>
+
+					</div>
+				</div>
+				<div class="four wide column " id="orpa-browser-col-3" style="margin-top: 40px;">
+					<div class="ui tiny header orpa">СВОЙСТВА<i style="margin-left:10px;display:inline-block" class="question circle icon teal" onclick="orpa_helper_info('orpa_browser_property_list');"></i></div>
+					
+					<!-- ORPA TREE -- НАЧАЛО -->
+					<div id="orpa-browser-property" class="ui segment" style="-webkit-box-shadow:0 0 0 0 rgba(34,36,38,.15);box-shadow:0 0 0 0 rgba(34,36,38,.15);margin:0px;padding:0px; border-radius: 0px; border:0px;;">
+						<div class="ui inverted dimmer">
+							<div class="ui text loader">Загружаем...</div>
+						</div>
+						<div class="orpa-utils-tree-workspace" style="margin-top: 50px; height:385px;overflow-x:hidden; overflow-y:auto;"></div>
+
+					</div>
+					<!-- ORPA TREE -- КОНЕЦ -->
+					<div class="ui tiny header orpa">РЕЗУЛЬТАТ<i style="margin-left:10px;display:inline-block" class="question circle icon teal" onclick="orpa_helper_info('orpa_browser_action_result');"></i></div>
+					<div class="content gui-result"></div>
+					<div id="orpa-browser-action-result" class="orpa-placeholder" style="height:242px;overflow-x:hidden; overflow-y:auto; overflow-wrap: break-word;" ></div>
+					
+				</div>
+				<div class="sixteen wide column " >
+					<div class="ui horizontal divider header orpa" style="margin-bottom:0px;margin-top:30px; ">
+						<div ><i style="margin-left: 0.75rem;" class="angle double up icon" onclick="jump('#orpa-browser-col-1');"></i>
+						</div>			
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!-- РАЗДЕЛ ПРИЛОЖЕНИЕ -- ORPA-BROWSER -- КОНЕЦ -->
+
+		<!-- РАЗДЕЛ КЛАВИАТУРА & БУФЕР -- ORPA-KEYBOARD -- НАЧАЛО -->
+		<div class="ui aligned stackable grid container" id="orpa-keyboard">
+
+			<div class="row">
+				<div class="sixteen wide column "  >
+					<div class="ui horizontal divider header orpa" style="margin-bottom:30px;margin-top:0px; ">
+						<div >
+							<i style="margin-left: 0.75rem;" class="angle double down icon" onclick="jump('#orpa-keyboard-col-1');"></i>
+							<span style="color:teal; cursor: pointer;" onclick="orpa_keyboard_workspace_proportion_set('six', 'five', 'five');"><i class="expand icon"></i>:<i class="compress icon"></i>:<i class="compress icon"></i></span>
+							|
+							<span style="color:teal; cursor: pointer;" onclick="orpa_keyboard_workspace_proportion_set('five', 'six', 'five');"><i class="compress icon"></i>:<i class="expand icon"></i>:<i class="compress icon"></i></span>
+							|
+							<span style="color:teal; cursor: pointer;" onclick="orpa_keyboard_workspace_proportion_set('five', 'five', 'six');"><i class="compress icon"></i>:<i class="compress icon"></i>:<i class="expand icon"></i></span>
+							
+							<i style="margin-left: 0.35rem;" class="angle double down icon" onclick="jump('#orpa-keyboard-col-1');"></i>
+						</div>				
+					</div>
+				</div>
+				
+				<div class="six wide column " id="orpa-keyboard-col-1">
+						<div class="ui tiny header orpa" style="">СЕЛЕКТОР
+							
+							<i style="margin-left:10px;display:inline-block" class="i cursor icon"></i>
+							
+						<span style="margin-left:20px;"  orpa-data-key="orpa-keyboard-selector-type" orpa-data-value="UIO" class="ui tag label  teal tiny noselect keyboard-selector-type" onclick="orpa_range_select(this); ">UIO</span>
+						<span orpa-data-key="orpa-keyboard-selector-type" orpa-data-value="XPATH" class="ui tag label tiny noselect keyboard-selector-type" onclick="orpa_range_select(this); ">XPATH</span>
+						<span orpa-data-key="orpa-keyboard-selector-type" orpa-data-value="CSS" class="ui tag label  tiny noselect keyboard-selector-type" onclick="orpa_range_select(this); ">CSS</span>
+						<i style="margin-left:10px;display:inline-block" data="Перед исполнением любой функции будет выполнен&#10;time.sleep и UIDesktop.UIOSelector_FocusHighlight (если селектор указан)" class="question circle icon teal" onclick="orpa_helper_info('orpa_keyboard_selector');"></i>
+					</div>
+					<textarea style="width:100%; height: 257px;font-size:14px; resize: none;" class="orpa-before-action-focus-keyboard" cols="60"></textarea>
+
+					<div class="ui tiny header orpa" style="margin-top: 20px;
+					margin-bottom: 20px;" > ОЖИДАНИЕ
+						<i style="margin-left:10px;display:inline-block" data="Перед исполнением любой функции будет выполнен&#10;time.sleep и UIDesktop.UIOSelector_FocusHighlight (если селектор указан)" class="question circle icon teal" onclick="orpa_helper_info('orpa_keyboard_wait');"></i>
+					</div>
+					
+					<div style="margin-bottom:0px;margin-top:15px;">
+						<span orpa-data-key="orpa-keyboard-sleep" class="ui tag label  tiny noselect keyboard-wait-time" onclick="orpa_range_select(this); ">0.2 СЕК.</span>
+						<span orpa-data-key="orpa-keyboard-sleep" class="ui tag label  teal tiny noselect keyboard-wait-time" onclick="orpa_range_select(this); ">1.0 СЕК.</span>
+						<span orpa-data-key="orpa-keyboard-sleep" class="ui tag label  tiny noselect keyboard-wait-time" onclick="orpa_range_select(this); ">3.0 СЕК.</span>
+						<span orpa-data-key="orpa-keyboard-sleep" class="ui tag label  tiny noselect keyboard-wait-time" onclick="orpa_range_select(this); ">5.0 СЕК.</span>
+					</div>
+
+
+					<div style="margin-bottom: 10px;" class="ui tiny header orpa">СИМВОЛ
+						<i style="margin-left:10px;display:inline-block" onclick="orpa_keyboard_symbol_function_copy(); orpa_utils_popup_show(this, 'Код Python скопирован в буфер обмена! Для вставки используйте комбинацию клавиш Ctrl+V');"  class="code icon teal"></i>
+						<i style="display:inline-block" data="" class="question circle icon teal" onclick="orpa_helper_info('orpa_keyboard_symbol_detect');"></i>
+
+					</div>
+					<div class="" style="margin-bottom:5px;margin-top:10px;">
+						<div class="ui input" style="width:90%; margin-bottom: 10px;">
+							<input oninput="orpa_keyboard_do_variants_update();" class="" type="text" id="orpa-keyboard-hotkey-symbol" placeholder="">
+						</div>
+						<div id="orpa-keyboard-hotkey-symbol-variants" style="width:86%; display:grid">
+							
+						</div>
+					</div>
+
+				</div>
+
+				<div class="five wide column" id="orpa-keyboard-col-2">
+					<div class="ui tiny header orpa">ТЕКСТ
+
+						<i style="margin-left:10px;display:inline-block" onclick="orpa_keyboard_do_write_function_copy(); orpa_utils_popup_show(this, 'Код Python скопирован в буфер обмена! Для вставки используйте комбинацию клавиш Ctrl+V');" class="code icon teal"></i>
+						<i style="display:inline-block" data="" class="question circle icon teal" onclick="orpa_helper_info('orpa_keyboard_text');"></i>
+
+					</div>
+					<textarea style="width:100%; height: 170px;font-size:12pt; resize: none;" class="orpa-keyboard-write-data" cols="60"></textarea>
+					<button style="margin-top: 10px;"  class="ui button grey labeled icon mini" onclick="orpa_keyboard_do_write_function()">
+						<i class="play icon"></i>
+						Выполнить
+					</button>
+
+					<div class="ui tiny header orpa">СИМВОЛ + ДЕЙСТВИЕ 
+						
+
+						<i style="margin-left:10px;display:inline-block" onclick="orpa_keyboard_do_function_copy(); orpa_utils_popup_show(this, 'Код Python скопирован в буфер обмена! Для вставки используйте комбинацию клавиш Ctrl+V');" class="code icon teal"></i>
+						<i style="display:inline-block; cursor: pointer;" data="" class="question circle icon teal" onclick="orpa_helper_info('orpa_keyboard_symbol');"></i>
+						<i style="display:inline-block; cursor: pointer;" data="" class="exclamation triangle icon orange" onclick="orpa_utils_popup_show(this, 'Функциональность зависит от текущей раскладки клавиатуры (РУС, АНГ)');"></i>
+						
+					</div>
+					<div>
+						<div class="ui selection dropdown" style="width:86%;" id="orpa-keyboard-function-select">
+							<input type="hidden" name="orpa-keyboard-action">
+							<i class="dropdown icon"></i>
+							<div class="default text">Функция</div>
+							<div class="scrollhint menu">
+							<div class="item" data-value="Down">Down</div>
+							<div class="item" data-value="Up">Up</div>
+							<div class="item" data-value="Wait">Wait</div>
+							<div class="item" data-value="Send">Send</div>
+							</div>
+						</div>
+						<button class="ui grey icon button" onclick="orpa_keyboard_do_function()" style="width:12%">
+							<i class="play icon"></i>
+						</button>
+					</div>
+
+					<div style="margin-bottom: 10px;" class="ui tiny header orpa">СИМВОЛ + ГОРЯЧИЕ КЛАВИШИ 
+						<i style="margin-left:10px;display:inline-block" onclick="orpa_keyboard_do_function_hotkey_copy();  orpa_utils_popup_show(this, 'Код Python скопирован в буфер обмена! Для вставки используйте комбинацию клавиш Ctrl+V');" class="code icon teal"></i>
+						<i style="display:inline-block; cursor: pointer;" data="" class="question circle icon teal" onclick="orpa_helper_info('orpa_keyboard_hotkey');"></i>
+						<i style="display:inline-block; cursor: pointer;" data="" class="exclamation triangle icon orange" onclick="orpa_utils_popup_show(this, 'Функциональность зависит от текущей раскладки клавиатуры (РУС, АНГ)');"></i>
+					</div>
+					<div class="" style="margin-bottom:5px;margin-top:10px;">
+						<span style="width:15%" orpa-data-key="orpa-keyboard-hotkey-first" class="ui tag label  tiny noselect keyboard-hotkey" onclick="orpa_range_toogle(this); ">CTRL</span>
+						<span style="width:13%" orpa-data-key="orpa-keyboard-hotkey-second" class="ui tag label teal tiny noselect keyboard-hotkey" onclick="orpa_range_toogle(this); ">ALT</span>
+						<span style="width:17%" orpa-data-key="orpa-keyboard-hotkey-third" class="ui tag label  tiny noselect keyboard-hotkey" onclick="orpa_range_toogle(this); ">SHIFT</span>
+						<span style="width:16%" orpa-data-key="orpa-keyboard-hotkey-fourth" class="ui tag label  tiny noselect keyboard-hotkey" onclick="orpa_range_toogle(this); ">WIN</span>
+						<div id="orpa-keyboard-hotkey-symbol-variants" style="width:86%; display:grid">
+							
+						</div>
+					</div>
+					<button style="margin-top: 10px;"  class="ui button grey labeled icon mini" onclick="orpa_keyboard_do_function_hotkey();">
+						<i class="play icon"></i>
+						Выполнить
+					</button>
+
+					
+				</div>
+
+				<div class="five wide column" id="orpa-keyboard-col-3" >
+					<div class="ui tiny header orpa">БУФЕР ОБМЕНА</div>
+					<textarea style="width:100%; height: 395px;font-size:12pt; resize: none;" id="orpa-keyboard-clipboard-textarea" cols="60"></textarea>	
+					<button style="margin-top: 10px;" class="ui button grey labeled icon mini" onclick="orpa_keyboard_clipboard_get()">
+						<i class="caret up icon"></i>
+						Прочитать
+					</button>
+					<i onclick="orpa_keyboard_clipboard_get_copy()" class="code icon teal"></i>
+					<button style="margin-top: 10px;"  class="ui button grey labeled icon mini" onclick="orpa_keyboard_clipboard_set()">
+						<i class="caret down icon"></i>
+						Установить
+					</button>
+					<i onclick="orpa_keyboard_clipboard_set_copy()" class="code icon teal"></i>
+				</div>
+
+				<div class="sixteen wide column "  >
+					<div class="ui horizontal divider header orpa" style="margin-bottom:0px;margin-top:30px; ">
+						<div ><i style="margin-left: 0.75rem;" class="angle double up icon" onclick="jump('#orpa-keyboard-col-1');"></i>
+						</div>			
+					</div>
+				</div>
+
+
+			</div>	
+		</div>
+		<!-- РАЗДЕЛ КЛАВИАТУРА & БУФЕР -- ORPA-KEYBOARD -- КОНЕЦ -->
+
+		<!-- РАЗДЕЛ МЫШЬ & ЭКРАН -- ORPA-MOUSE -- НАЧАЛО -->
+		<div class="ui aligned stackable grid container" id="orpa-mouse">
+
+			<div class="row">
+				<div class="sixteen wide column "  >
+					<div class="ui horizontal divider header orpa" style="margin-bottom:30px;margin-top:0px; ">
+						<div >
+							<i style="margin-left: 0.75rem;" class="angle double down icon" onclick="jump('#orpa-mouse-col-1');"></i>
+							{% if is_linux_bool==True %}
+							<i style="display:inline-block; cursor: pointer;" data="" class="exclamation triangle icon orange" onclick="orpa_utils_popup_show(this, 'ВНИМАНИЕ! В LINUX УКАЗАТЕЛЬ ВАШЕГО УСТРОЙСТВА МЫШИ НЕ ПЕРЕМЕЩАЕТСЯ ПРИ ВЫПОЛНЕНИИ КОМАНДЫ (НО КОМАНДА ВЫПОЛНЯЕТСЯ).');"></i>
+			
+							 {% else %}
+							{% endif %}
+							<span orpa-data-key="orpa-mouse-source" orpa-data-value="file" class="ui tag label teal tiny noselect" onclick="orpa_range_select(this); orpa_desktop_tree_refresh();">ИЗ ФАЙЛА</span>
+							<span orpa-data-key="orpa-mouse-source" orpa-data-value="string" class="ui tag label  tiny noselect" onclick="orpa_range_select(this); orpa_desktop_tree_refresh();">ИЗ СТРОКИ</span>
+							<span style="color:teal; cursor: pointer;" onclick="orpa_mouse_workspace_proportion_set('six', 'five', 'five');"><i class="expand icon"></i>:<i class="compress icon"></i>:<i class="compress icon"></i></span>
+							|
+							<span style="color:teal; cursor: pointer;" onclick="orpa_mouse_workspace_proportion_set('five', 'six', 'five');"><i class="compress icon"></i>:<i class="expand icon"></i>:<i class="compress icon"></i></span>
+							|
+							<span style="color:teal; cursor: pointer;" onclick="orpa_mouse_workspace_proportion_set('five', 'five', 'six');"><i class="compress icon"></i>:<i class="compress icon"></i>:<i class="expand icon"></i></span>
+							<i style="margin-left: 0.35rem;" class="angle double down icon" onclick="jump('#orpa-mouse-col-1');"></i>
+						</div>				
+					</div>
+				</div>
+
+				<div class="six wide column" id="orpa-mouse-col-1" >
+					<div class="ui tiny header orpa">ПРОЕКТ 
+						<i style="margin-left:10px;display:inline-block" data="По указанному пути отображаются все изображения, доступные для дальнейшей работы" class="question circle icon teal" onclick="orpa_helper_info('orpa_mouse_project');"></i>
+					</div>
+					<div class="ui input" style="width:100%">
+						<input type="text" id="orpa-mouse-screen-dir-location" onchange="orpa_screen_dir_render()" placeholder="Путь">
+					</div>
+					<div class="orpa-screen-img-dir-tree" style="margin-top: 10px">
+						<div class="ui list img tree" style="height:200px;overflow-x:hidden; overflow-y:auto; margin-top:0px; background: #e8e8e8;"></div>
+					</div><br>
+					<div class="ui input" style="width:100%">
+						<input type="text" id="orpa-mouse-screen-save-location" placeholder="Маска">
+					</div>
+					<button style="margin-top: 10px;"  class="ui button grey labeled icon mini" onclick="orpa_screen_sniping_tool()">
+						<i class="camera icon"></i>
+						Вырезать
+					</button>
+					<div id="orpa-screen-render-filename" class="ui tiny header orpa">ПРЕДПРОСМОТР
+						<i style="margin-left:10px;display:inline-block" data="По указанному пути отображаются все изображения, доступные для дальнейшей работы" class="question circle icon teal" onclick="orpa_helper_info('orpa_mouse_preview');"></i>
+
+					</div>
+					<div class="orpa-placeholder-img-preview" style="height:258px; background-color: #e8e8e8;" ></div>
+				</div>
+
+				<div class="five wide column" id="orpa-mouse-col-2" >
+					<div class="ui tiny header orpa">ОБНАРУЖЕНО
+						<i style="margin-left:10px;display:inline-block"class="code icon teal" onclick="orpa_mouse_detect_copy();orpa_utils_popup_show(this, 'Код Python скопирован в буфер обмена! Для вставки используйте комбинацию клавиш Ctrl+V');"></i>
+
+						<i style="margin-left:0px;display:inline-block" data="Точность: 1.0 - идентичное соответствие, 0.0 - полное несоответствие.&#10;СУТ - точка относительно которой выполнен поиск изображения" class="question circle icon teal" onclick="orpa_helper_info('orpa_mouse_location');"></i>
+
+					</div>
+					<div class="ui tiny header orpa" style="margin-top: 20px;">
+						Точность
+						<div class="ui input" style="width:30%;height: 24px;">
+							<input type="text" id="orpa-screen-accuracy-img-locate", value="0.9">
+						</div>
+						СУТ
+						<div class="ui input" style="width:30%;height: 24px;">
+							<input type="text" id="orpa-screen-sut-img-locate", value="CC">
+						</div>
+					</div>
+					<div class="content gui-result"></div>
+					<div class="orpa-placeholder-locate-result" style="height:310px; overflow-y: auto; background-color: #e8e8e8;" ></div>
+
+					<div class="ui tiny header orpa" style="margin-bottom:0px;margin-top:15px;" > ОЖИДАНИЕ
+						<i style="margin-left:10px;display:inline-block" data="По указанному пути отображаются все изображения, доступные для дальнейшей работы" class="question circle icon teal" onclick="orpa_helper_info('orpa_mouse_wait');"></i>
+					</div>
+					<div style="margin-bottom:0px;margin-top:15px;">
+						<span orpa-data-key="orpa-screen-sleep" class="ui tag label  tiny noselect screen-wait-time" onclick="orpa_range_select(this); ">0.2 СЕК.</span>
+						<span orpa-data-key="orpa-screen-sleep" class="ui tag label  teal tiny noselect screen-wait-time" onclick="orpa_range_select(this); ">1.0 СЕК.</span>
+						<span orpa-data-key="orpa-screen-sleep" class="ui tag label  tiny noselect screen-wait-time" onclick="orpa_range_select(this); ">3.0 СЕК.</span>
+						<span orpa-data-key="orpa-screen-sleep" class="ui tag label  tiny noselect screen-wait-time" onclick="orpa_range_select(this); ">5.0 СЕК.</span>
+					</div>
+
+					<div class="ui tiny header orpa" style="">СЕЛЕКТОР
+						<span style="margin-left:20px;"  orpa-data-key="orpa-screen-selector-type" orpa-data-value="UIO" class="ui tag label  teal tiny noselect screen-selector-type" onclick="orpa_range_select(this); ">UIO</span>
+						<span orpa-data-key="orpa-screen-selector-type" orpa-data-value="XPATH" class="ui tag label tiny noselect screen-selector-type" onclick="orpa_range_select(this); ">XPATH</span>
+						<span orpa-data-key="orpa-screen-selector-type" orpa-data-value="CSS" class="ui tag label  tiny noselect screen-selector-type" onclick="orpa_range_select(this); ">CSS</span>
+						<i style="display:inline-block" data="Перед исполнением любой функции будет выполнен&#10;time.sleep и UIDesktop.UIOSelector_FocusHighlight (если селектор указан)" class="question circle icon teal" onclick="orpa_helper_info('orpa_mouse_selector');"></i>
+					</div>
+					<textarea style="width:100%; height: 175px;font-size:14px; resize: none;" class="orpa-before-action-focus-screen" cols="60"></textarea>
+
+				</div>
+
+				<div class="five wide column" id="orpa-mouse-col-3" >
+					<div class="ui tiny header orpa">ДЕЙСТВИЕ
+						<i style="margin-left:10px;display:inline-block" data="По указанному пути отображаются все изображения, доступные для дальнейшей работы" class="question circle icon teal" onclick="orpa_helper_info('orpa_mouse_action_pane');"></i>
+					</div>
+					<div style="margin-top:24px;" class="ui tiny header orpa">Функция</div>
+					<div style="width:100%" class="ui selection dropdown" id="orpa-mouse-function-select">
+						<input type="hidden" name="orpa-mouse-action">
+						<i class="dropdown icon"></i>
+						<div class="default text">Действие</div>
+						<div class="scrollhint menu">
+						  <div class="item" data-value="Click">Click</div>
+						  <div class="item" data-value="ClickDouble">ClickDouble</div>
+						  <div class="item" data-value="MoveTo">MoveTo</div>
+						  <div class="item" data-value="ScrollHorizontal">ScrollHorizontal</div>
+						  <div class="item" data-value="ScrollVertical">ScrollVertical</div>
+						  <div class="item" data-value="Down">Down</div>
+						  <div class="item" data-value="Up">Up</div>
+						</div>
+					</div>
+
+					<div class="ui tiny header orpa">
+						Аргументы
+						<span style="margin-left:20px" orpa-data-key="orpa-mouse-action-arg-type" class="ui tag label teal tiny noselect mouse-arg-type" onclick="orpa_range_select(this); ">СПИСОК</span>
+						<span orpa-data-key="orpa-mouse-action-arg-type" class="ui tag label tiny noselect mouse-arg-type" onclick="orpa_range_select(this); ">СЛОВАРЬ</span>
+					</div>
+					<div class="ui input">
+						<textarea placeholder="[&quot;Привет&quot;, &quot;Мир&quot;]" style="width:100%; height: 166px;font-size:14px; resize: none;" id="mouse-argument-dataset" class="orpa rpa-argument-list" cols="60"></textarea>	
+					</div>
+					<button style="margin-top: 10px;"  class="ui button grey labeled icon mini" onclick="orpa_mouse_do_function()">
+						<i class="play icon"></i>
+						Выполнить
+					</button>
+					<i class="code icon teal" onclick="orpa_mouse_do_function_copy()"></i>
+
+					<div class="ui tiny header" style="margin-bottom: 6px;">РАСПОЗНАВАНИЕ 
+						<i style="margin-left:10px;display:inline-block"class="code icon teal" onclick="orpa_mouse_recognize_copy(); orpa_utils_popup_show(this, 'Код Python скопирован в буфер обмена! Для вставки используйте комбинацию клавиш Ctrl+V');"></i>
+
+						<i style="margin-left:0px;display:inline-block" data="Для работы с модулем распознования необходим&#10;Tesseract-OCR v4.1.0 + языковой пакет rus.traineddata" class="question circle icon teal" onclick="orpa_helper_info('orpa_mouse_recognition');"></i>
+						
+					</div>
+					<div>
+						<div class="ui input" style="width:86%; margin-bottom: 10px;">
+							<input type="text" id="orpa-screen-teseract-location" placeholder="Путь к изображению">
+						</div>
+						<button class="ui grey icon button" onclick="orpa_api_tesseract_render()" style="width:12%">
+							<i class="play icon"></i>
+						</button>
+					</div>
+					<div class="content gui-result"></div>
+					<div class="orpa-placeholder-tesseract-result" style="height:218px; background-color: #e8e8e8;"></div>
+				</div>
+
+
+				<div class="sixteen wide column "  >
+					<div class="ui horizontal divider header orpa" style="margin-bottom:0px;margin-top:30px; ">
+						<div ><i style="margin-left: 0.75rem;" class="angle double up icon" onclick="jump('#orpa-mouse-col-1');"></i>
+						</div>			
+					</div>
+				</div>
+
+
+			</div>	
+
+		</div>
+		<!-- РАЗДЕЛ МЫШЬ & ЭКРАН -- ORPA-MOUSE -- КОНЕЦ -->
+
+		<!-- РАЗДЕЛ ИНТЕЛЛЕКТ -- ORPA-GPT -- НАЧАЛО -->
+		<div class="ui aligned stackable grid container" id="orpa-gpt">
+			<div class="row">
+				<div class="sixteen wide column " >
+					<div class="ui horizontal divider header" style="margin-bottom:5px;margin-top:0px; ">
+						<div>
+							<i style="margin-left: 0.75rem;" class="angle double down icon" onclick="jump('#orpa-project-iframe');"></i>				
+							<span orpa-data-key="orpa-gpt-provider" orpa-data-value="YANDEX" class="ui tag label tiny noselect" onclick="orpa_range_select(this);">YANDEX</span>
+							<span orpa-data-key="orpa-gpt-provider" orpa-data-value="OPENAI" class="ui tag label teal tiny noselect" onclick="orpa_range_select(this); ">OPENAI</span>
+							<span orpa-data-key="orpa-gpt-provider" orpa-data-value="PERPLEXITY" class="ui tag label  tiny noselect" onclick="orpa_range_select(this); ">PERPLEXITY</span>
+							<i style="margin-left: 0.75rem;" class="angle double down icon" onclick="jump('#orpa-project-iframe');"></i>
+						</div>
+					</div>
+				</div>
+				
+				<div class="six wide column" style="margin-bottom: 10px;">
+					<div class="ui tiny header orpa" style="margin-bottom: 7px;">ТОКЕН
+						<i style="display:inline-block" class="question circle icon teal" onclick="orpa_helper_info('orpa_desktop_ui_object');"></i>
+
+						<i style="display:inline-block; cursor: pointer; margin-left:10px;" data="" class="exclamation triangle icon orange" onclick="orpa_utils_popup_show(this, 'Для работы со вкладкой ИНТЕЛЛЕКТ необходимо ввести токен');"></i>
+					</div>
+					<div class="ui input" style="width:100%; height: 50%;">
+						<input id="orpa-gpt-token-init"  type="text" placeholder="abcd-efja-adsc" onchange="orpa_check_token()">
+					</div>
+				</div>
+				<div class="ten wide column" style="margin-bottom: 10px;">
+					<div class="ui tiny header orpa" style="margin-bottom: 7px;">СТАТИСТИКА
+						<i style="display:inline-block" class="question circle icon teal" onclick="orpa_helper_info('orpa_desktop_ui_object');"></i>
+					</div>
+					<div class="ui statistics mini" style="margin-bottom: -14px; margin-top: -4px;">
+						<div class="statistic">
+							<div class="value">
+								<i class="check icon"></i>
+							</div>
+							<div class="label">
+								Статус
+							</div>
+							</div>
+						<div class="statistic">
+							<div class="value">
+							341 592Т
+							</div>
+							<div class="label">
+							осталось
+							</div>
+						</div>
+						<div class="statistic">
+							<div class="value">
+								~1 324Т
+							</div>
+							<div class="label">
+								расход в день
+							</div>
+							</div>
+						<div class="statistic">
+						<div class="label">
+							Закончатся через
+						</div>
+						<div class="value green">
+							~ 258 дней
+						</div>
+						</div>
+						
+					</div>
+				</div>
+
+
+				<div class="four wide column " >
+					<div class="ui tiny header orpa">КОНТЕКСТ
+						<i style="display:inline-block" class="question circle icon teal" onclick="orpa_helper_info('orpa_desktop_ui_object');"></i>
+
+					</div>
+					<textarea style="width:100%; height: 148px;font-size:14px; resize: none; margin-bottom: 0px;" class="orpa-gpt-context" cols="20"></textarea>
+
+				</div>
+				<div class="twelve wide column " >
+					<div class="ui tiny header orpa" style="margin-bottom:14px;">ЗАПРОС
+						<i style="display:inline-block" class="question circle icon teal" onclick="orpa_helper_info('orpa_desktop_ui_object');"></i>
+
+						<i style="display:inline-block; cursor: pointer; margin-left:10px;" data="" class="exclamation triangle icon orange" onclick="orpa_utils_popup_show(this, 'Будьте осторожны при передаче конфиденциальных данных. Модель GPT выполняется на зарубежных серверах');"></i>
+
+					</div>
+					
+					<textarea style="width:98%; height: 148px;font-size:14px; resize: none; margin-bottom: 0px;" class="orpa-gpt-message" cols="20"></textarea>
+
+				</div>
+						
+				<div class="five wide column " style="padding-top:0px;padding-bottom: 0px;margin-left: 2.5%;">
+					<button style="margin-bottom: 20px; width:80%; margin-top:10px; padding-left: inherit!important;" id="orpa-gpt-send" class="ui button grey labeled icon" onclick="orpa_gpt_send()">
+						Прямой запрос
+					</button> 
+					<button style="margin-bottom: 20px; width:15%; margin-top:10px;"  class="ui button icon" onclick="orpa_gpt_send_copy(); orpa_utils_popup_show(this, 'Код Python скопирован в буфер обмена! Для вставки используйте комбинацию клавиш Ctrl+V');">
+						<i style="margin-left:10px;display:inline-block"class="code icon teal" onclick=""></i>
+					</button> 
+				</div>
+				<div class="five wide column " style="padding-top:0px; padding-bottom: 0px;">
+					<button style="margin-bottom: 20px; width:80%; margin-top:10px; padding-left: inherit!important;" id="orpa-gpt-classify-emotions" class="ui button grey labeled icon" onclick="orpa_gpt_classify_emotions()">
+						Анализ эмоций
+					</button> 
+					<button style="margin-bottom: 20px; width:15%; margin-top:10px;"  class="ui button icon" onclick="orpa_gpt_classify_emotions_copy(); orpa_utils_popup_show(this, 'Код Python скопирован в буфер обмена! Для вставки используйте комбинацию клавиш Ctrl+V');">
+						<i style="margin-left:10px;display:inline-block"class="code icon teal" onclick=""></i>
+					</button> 
+				</div>
+				<div class="five wide column" id="orpa-gpt-history-clean-button" style="padding-top:0px; padding-bottom: 0px;">
+					<button style="margin-bottom: 20px; width:80%; margin-top:10px; padding-left: inherit!important;"  id="orpa-gpt-history-clean" class="ui button labeled icon" onclick="orpa_gpt_history_clean(1)">
+						Очистить историю
+					</button> 
+				</div>
+
+				<div class="twelve wide column " >
+					<div class="ui tiny header orpa">ИСТОРИЯ
+						<i style="display:inline-block" class="question circle icon teal" onclick="orpa_helper_info('orpa_desktop_ui_object');"></i>
+						<i style="display:inline-block" class="arrow alternate circle down teal icon" onclick="var block = document.getElementById('orpa-gpt-history'); block.scrollTop = block.scrollHeight - block.clientHeight;"></i>
+						<i style="display:inline-block" class="arrow alternate circle up teal icon" onclick="var block = document.getElementById('orpa-gpt-history'); block.scrollTop = 0;"></i>
+
+					</div>
+					<div id="orpa-gpt-history" style="margin-top: 10px; height:458px;overflow-x:auto; overflow-y:auto; margin-top:0px;">
+						<!-- <div class="ui message info" style="width:80%;margin-bottom: 5px;">
+							<div class="header">
+							  ORPA GPT (ПРИВЕТСТВИЕ)
+							</div>
+							<div class="orpa-gpt-history-message-body">
+								<p>Добро пожаловать на вкладку "ИНТЕЛЛЕКТ" от ОПЕН РПА. .... Здесь про генератор кода. Где-то сделать примеры запросов...</p>
+							</div>
+						</div> -->
+					</div>
+
+					
+				</div>
+
+
+				<div class="four wide column " >
+					<div class="ui tiny header orpa">ПЕРЕВЕСТИ ТЕКСТ
+						<i style="display:inline-block" class="question circle icon teal" onclick="orpa_helper_info('orpa_desktop_ui_object');"></i>
+					</div>
+					<div class="ui input mini" style="width:100%">
+						<input type="text" placeholder="Английский" id="orpa-gpt-translate-to-lang">
+					</div>
+					<button style="margin-bottom: 20px; width:80%; margin-top:10px; padding-left: inherit!important;" id="orpa-gpt-translate-run" class="ui button grey labeled icon" onclick="orpa_gpt_translate()">
+						Перевод
+					</button> 
+					<button style="margin-bottom: 20px; width:15%; margin-top:10px;"  class="ui button icon" onclick="orpa_gpt_translate_copy(); orpa_utils_popup_show(this, 'Код Python скопирован в буфер обмена! Для вставки используйте комбинацию клавиш Ctrl+V');">
+						<i style="margin-left:10px;display:inline-block"class="code icon teal" onclick=""></i>
+					</button> 
+
+
+					<div class="ui tiny header orpa" style="margin-top: 14px;">ПРОСКЛОНЯТЬ
+						<i style="display:inline-block" class="question circle icon teal" onclick="orpa_helper_info('orpa_desktop_ui_object');"></i>
+					</div>
+					<div class="ui input mini" style="width:100%">
+						<input type="text" placeholder="Родительный" id="orpa-gpt-to-modify">
+					</div>
+					<button style="margin-bottom: 20px; width:80%; margin-top:10px; padding-left: inherit!important;" id="orpa-gpt-name-modify-ru"  class="ui button grey labeled icon" onclick="orpa_gpt_name_modify_ru()">
+						Склонение
+					</button> 
+					<button style="margin-bottom: 20px; width:15%; margin-top:10px;"  class="ui button icon" onclick="orpa_gpt_name_modify_ru_copy(); orpa_utils_popup_show(this, 'Код Python скопирован в буфер обмена! Для вставки используйте комбинацию клавиш Ctrl+V');">
+						<i style="margin-left:10px;display:inline-block"class="code icon teal" onclick=""></i>
+					</button>
+					
+
+
+					<div class="ui tiny header orpa" style="margin-top: 14px;">ИЗВЛЕЧЬ АТРИБУТЫ
+						<i style="display:inline-block" class="question circle icon teal" onclick="orpa_helper_info('orpa_desktop_ui_object');"></i>
+						<i style="display:inline-block" class="plus icon teal" onclick="orpa_add_atr_params()"></i>
+					</div>
+					<div class="orpa-atr-params-container">
+						<div class="orpa-atr-params-subcontainer" id="1">
+							<div class="ui input mini" style="width:40%; margin-right: 25px; margin-bottom: 10px;">
+								<input class="orpa-arg-param-point" type="text" placeholder="Суть">
+							</div>
+							<div class="ui input mini" style="width:40%">
+								<input class="orpa-arg-param-variable" type="text" placeholder="Имя">
+							</div>
+							<i style="display:inline-block" class="minus icon teal" onclick="orpa_delete_atr_params('1')"></i>
+						</div>
+						<div class="orpa-atr-params-subcontainer" id="2">
+							<div class="ui input mini" style="width:40%; margin-right: 25px; margin-bottom: 10px;">
+								<input class="orpa-arg-param-point" type="text" placeholder="Суть">
+							</div>
+							<div class="ui input mini" style="width:40%">
+								<input class="orpa-arg-param-variable" type="text" placeholder="Имя">
+							</div>
+							<i style="display:inline-block" class="minus icon teal" onclick="orpa_delete_atr_params('2')"></i>
+						</div>
+					</div>
+					<button style="margin-bottom: 20px; width:80%; margin-top:10px; padding-left: inherit!important;" id="orpa-gpt-extract" class="ui button grey labeled icon" onclick="orpa_gpt_extract()">
+						Извлечение
+					</button> 
+					<button style="margin-bottom: 20px; width:15%; margin-top:10px;"  class="ui button icon" onclick="orpa_gpt_extract_copy(); orpa_utils_popup_show(this, 'Код Python скопирован в буфер обмена! Для вставки используйте комбинацию клавиш Ctrl+V');">
+						<i style="margin-left:10px;display:inline-block"class="code icon teal" onclick=""></i>
+					</button> 
+					
+				</div>
+
+				<div class="sixteen wide column " >
+					<div class="ui horizontal divider header orpa" style="margin-bottom:10px;margin-top:10px; ">
+						<div ><i style="margin-left: 0.75rem;" class="angle double up icon" onclick="jump('#orpa-project-iframe');"></i>
+						</div>			
+					</div>
+				</div>
+
+
+				
+
+			</div>
+
+		</div>
+
+		<!-- РАЗДЕЛ ИНТЕЛЛЕКТ -- ORPA-GPT -- КОНЕЦ -->
+
+		<script
+		src="/3rdParty/jQuery/jquery-3.1.1.min.js"
+		crossorigin="anonymous"></script>
+	  <script src="/3rdParty/Semantic-UI-CSS-master/semantic.min.js"></script>
+	  <script src="/orpa/resources/Web/orpa/std.js"></script>
+	  {% if is_linux_bool==False %}
+	  <script src="/orpa/resources/Web/orpa/std_desktop.js"></script>
+
+	   {% else %}
+	   <script src="/orpa/resources/Web/orpa/std_desktop_linux.js"></script>
+	  {% endif %}
+
+	  {% if is_ee_bool==True %}
+	  <script src="/orpa/resources/Web/orpa/std_browser.js"></script>
+	  <script src="/orpa/resources/Web/orpa/std_floidd.js"></script>
+	  <script src="/orpa/resources/Web/orpa/std_gpt.js"></script>
+	  {% endif %}
+	  <script src="/orpa/resources/Web/orpa/std_helper.js"></script>
+	  
+	  <script src="/orpa/resources/Web/Handlebars/handlebars-v4.1.2.js"></script>
+		{% include 'footer.xhtml' %}
+
+		<div id="orpa-utils-modal-template" class="ui basic modal">
+			<div class="ui icon header">
+			</div>
+			<div class="content">
+				<p>Here is the message text!</p>
+			</div>
+			<div class="actions">
+				<div class="ui red basic cancel inverted button">
+					<i class="remove icon"></i>
+					Не понял
+				</div>
+				<div class="ui green ok inverted button">
+					<i class="checkmark icon"></i>
+					Понял
+				</div>
+			</div>
+		</div>
+
+
+		<!-- МОДАЛЬНОЕ ОКНО НЕ ОБНАРУЖЕНЫ ОБЪЕКТЫ ПО СЕЛЕКТОРУ -- НАЧАЛО -->
+		<div id="orpa-utils-modal-uio-no-elements" class="ui basic modal" style="text-align: center;">
+			<div class="ui icon header">
+				<i class="meh icon"></i>
+				Не удалось обнаружить UI объекты по селектору
+				
+			</div>
+			<div class="content" style="text-align: left;">
+				<p>Уважаемый пользователь!</p>
+				<p>По введенному UIO / XPATH / CSS селектору, к сожалению, не удалось идентифицировать ни одного UI объекта на экране.</p>
+				<p>Ниже перечислены часто встречаемые причины:</p>
+				<ul>
+					<li>Окно приложения свернуто в трей (не на заднем фоне). В таком случае фреймворк UI Automation не видит внутренних объектов.</li>
+					<li>Опечатка в атрибутах UIO / XPATH / CSS селектора</li>
+					<li>Если указан ctrl_index + другие атрибуты:  </li>
+					<li>Если ошибка возникла во время поиска мышью: Вероятнее всего при наведении мыши меняется верстка UI элементов. Попробуйте режим фиксации координат мыши.</li>
+					<li>Изменилась верстка UI элементов</li>
+				</ul>
+			</div>
+			<div class="actions">
+				<div class="ui red basic cancel inverted button">
+					<i class="remove icon"></i>
+					Закрыть
+				</div>
+				<div class="ui green ok inverted button">
+					<i class="checkmark icon"></i>
+					Понятно
+				</div>
+			</div>
+		</div>
+		<!-- МОДАЛЬНОЕ ОКНО НЕ ОБНАРУЖЕНЫ ОБЪЕКТЫ ПО СЕЛЕКТОРУ -- КОНЕЦ -->
+
+		<!-- МОДАЛЬНОЕ ОКНО НЕ ОБНАРУЖЕНЫ ОБЪЕКТЫ ПО СЕЛЕКТОРУ -- НАЧАЛО -->
+		<div id="orpa-utils-modal-uio-search-mouse" class="ui basic modal" style="text-align: center;">
+			<div class="ui icon header">
+				<i class="mouse pointer icon"></i>
+				Режим поиска UI объекта по курсору мыши
+				
+			</div>
+			<div class="content" style="text-align: left;">
+				<p>!ВНИМАНИЕ! НАЧИНАЯ С ВЕРСИИ ORPA 1.4.1 ПОМЕНЯЛИСЬ ФУНКЦИИ ГОРЯЧИХ КЛАВИШ, ОПИСАНИЕ СМ. НИЖЕ!</p>
+
+				<p>Уважаемый пользователь!</p>
+				<p>Инициирован режим поиска локального UI объекта по наведению курсора мыши.</p>
+				<p>Через несколько секунд ORPA перенесет вас в приложение для поиска объекта.</p>
+				<p>Ниже представлены доступные команды:</p>
+				<ul>
+					<li>Длительное нажатие <b>shift (левый или правый)</b>: Завершить поиск и вернуть UI объект, который был обнаружен по наведенному курсору мыши</li>
+					<li>Длительное нажатие <b>alt (левый или правый)</b>: Вывод всех Ui объектов, которые удовлетворяют условию нахождения под координатами мыши. Данная опция позволяет найти Ui объект, даже в том случае, если он перекрыт другим Ui слоем.</li>
+					<li>Длительное нажатие <b>ctrl (левый или правый)</b>: Фиксация координат мыши на момент начала нажатия клавиши shift. Данная опция позволяет идентифицировать UI объект в том случае, когда он активен без наведенного курсора мыши. </li>
+				</ul>
+				<p>Данное модальное окно будет открыто до момента завершения режима поиска.</p>
+			</div>
+		</div>
+		<!-- МОДАЛЬНОЕ ОКНО НЕ ОБНАРУЖЕНЫ ОБЪЕКТЫ ПО СЕЛЕКТОРУ -- КОНЕЦ -->
+
+	</body>
+</html>
+

@@ -1,0 +1,86 @@
+
+body {
+    background-color: #FFFFFF;
+  }
+  .main.container {
+    margin-top: 2em;
+  }
+
+  
+
+  .overlay {
+    float: left;
+    margin: 0em 3em 1em 0em;
+  }
+  .overlay .menu {
+    position: relative;
+    left: 0;
+    transition: left 0.5s ease;
+  }
+
+  .main.menu.fixed {
+    background-color: #FFFFFF;
+    border: 1px solid #DDD;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+  }
+  .overlay.fixed .menu {
+    left: 800px;
+  }
+
+  .text.container .left.floated.image {
+    margin: 2em 2em 2em -4em;
+  }
+  .text.container .right.floated.image {
+    margin: 2em -4em 2em 2em;
+  }
+
+  .ui.footer.segment {
+    margin: 5em 0em 0em;
+    padding: 5em 0em;
+  }
+  .noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+      -khtml-user-select: none; /* Konqueror HTML */
+      -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                    supported by Chrome, Edge, Opera and Firefox */
+    }
+  .orpa-tab.ui.tag.label {
+    cursor: pointer; 
+    text-transform: uppercase; 
+    letter-spacing: 5px; 
+    margin-top: 5px;
+    margin-right: 10px;
+  }
+  .orpa-workspace-button {
+    margin-top:10px; 
+    text-transform: uppercase; 
+
+    color:teal; 
+    font-weight:normal; 
+    cursor: pointer
+  }
+  .orpa-workspace-button i {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .orpa-desktop-tree-item-action {
+    cursor:pointer;
+    margin-right:10px; 
+    color: teal;
+    text-transform: uppercase; 
+  }
+  textarea.orpa {
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif
+  }
+  .ui.header.orpa {
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif
+  }
+  .orpa-placeholder {
+    background-color: #e8e8e8;
+  }
+  
+  

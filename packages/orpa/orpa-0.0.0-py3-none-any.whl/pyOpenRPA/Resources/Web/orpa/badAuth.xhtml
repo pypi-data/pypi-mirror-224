@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Оркестратор pyOpenRPA</title>
+		<meta name="description" content="Ведущий RPA разработчик российского программного обеспечения. RPA платформа позволяет решать любые бизнес-задачи. Комплексное решение от компании RPA pyOpenRPA. Первое открытое российское RPA решение для крупного / среднего / малого бизнеса. Доступная автоматизация для каждого." />
+		<meta name="keywords" content="rpa, программные роботы, автоматизация бизнес-процессов, цифровые сотрудники, виртуальные сотрудники" />
+		<link rel="stylesheet" type="text/css" href="/orpa/resources/Web/Semantic-UI-CSS-master/semantic.min.css" />
+		<link rel="stylesheet" type="text/css" href="/orpa/resources/Web/orpa/styleset/home.css" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+		<script
+		  src="/orpa/resources/Web/jQuery/jquery-3.1.1.min.js"
+		  crossorigin="anonymous"></script>
+		<script src="/orpa/resources/Web/Semantic-UI-CSS-master/semantic.min.js"></script>
+		<script src="/orpa/resources/Web/Handlebars/handlebars-v4.1.2.js"></script>
+
+		  
+	</head>
+	<style type="text/css">
+		button.ui.green.button {
+		  font-family:'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif; 
+		  background: #368279
+		  }
+	</style>
+	<body>
+	
+		{% include 'header.xhtml' %}
+		<br /><br /><br /><br /><br />
+		<div style="text-align: center;">
+		<div class="ui message">
+		  <div class="header">Внимание</div>
+		  <p>{{errorMsg}}</p>
+		</div>
+		<button class="ui green button" onclick="document.location='/'" style="width: 200px;">Повторить попытку</button>
+	</div>
+		{% include 'footer.xhtml' %}
+		
+		
+	</body>
+	<style type="text/css">
+		  .ui.footer.segment {
+			margin: 10.7em 0em 0em;
+			padding: 5em 0em;
+		  }
+		  </style>
+</html>
+

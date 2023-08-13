@@ -1,0 +1,48 @@
+
+.orpa-screen-img-tree-item-action {
+    color:grey;
+    cursor: pointer;
+}
+
+.orpa-screen-locate-result-conteiner {
+    cursor: pointer;
+}
+
+.orpa-screen-locate-result-conteiner:hover {
+    background-color: #e4e1e1;
+  }
+
+.orpa-screen-img-dir-item-conteiner {
+    cursor: pointer;
+}
+
+.orpa-screen-img-dir-item-conteiner:hover {
+    background-color: #e4e1e1;
+  }
+
+.code.icon.teal {
+    cursor: pointer;
+}
+
+.question.circle.outline.icon {
+    cursor: help;
+  }
+.question.circle.outline.icon:hover {
+    color: red;
+    position: relative;
+  }
+.question.circle.outline.icon[data]:hover:after {
+    content: attr(data);
+    padding: 5px 10px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 110%;
+    left: 50%;
+    text-align: center;
+    margin-left: -500%;
+    white-space: pre;
+    z-index: 2;
+    border-radius: 8px ;
+    background: #00b5ad;
+  }
+  

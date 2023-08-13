@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" >
+	<head>
+		<meta charset="utf-8" /> 
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Оркестратор pyOpenRPA</title>
+		<meta name="description" content="Ведущий RPA разработчик российского программного обеспечения. RPA платформа позволяет решать любые бизнес-задачи. Комплексное решение от компании RPA pyOpenRPA. Первое открытое российское RPA решение для крупного / среднего / малого бизнеса. Доступная автоматизация для каждого." />
+		<meta name="keywords" content="rpa, программные роботы, автоматизация бизнес-процессов, цифровые сотрудники, виртуальные сотрудники" />
+		<link rel="stylesheet" type="text/css" href="/orpa/resources/Web/Semantic-UI-CSS-master/semantic.min.css" />
+		<link rel="stylesheet" type="text/css" href="/orpa/resources/Web/orpa/styleset/home.css" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+		<script
+		  src="/orpa/resources/Web/jQuery/jquery-3.1.1.min.js"
+		  crossorigin="anonymous"></script>
+		<script src="/orpa/resources/Web/Semantic-UI-CSS-master/semantic.min.js"></script>
+		<script src="/orpa/resources/Web/Handlebars/handlebars-v4.1.2.js"></script>
+
+		  
+	</head>
+	<style type="text/css">
+		h4 {
+		display: inline-block;
+		}
+		button.ui.green.button {
+		  font-family:'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif; 
+		  background: #368279
+		  }
+	</style>
+	<body>
+	
+		{% include 'header.xhtml' %}
+		<div style="text-align: center;">
+			<div class="ui placeholder segment">
+			  <div class="ui icon header">
+				<i class="user icon"></i>
+				Для доступа к панели управления, пожалуйста, пройдите авторизацию
+			  </div>
+			  <div class="inline">
+				<br />
+				<div class="head"><h4 class="ui header">
+					<div align="left">Логин от учетной записи</div>
+					<div class="ui input">
+					  <input type="text" class="headIn" name="uname" style="width: 400px;" autocomplete="off" onchange="inputFormCheck()"/>
+					</div>
+				</h4></div>
+				<br />
+				<div class="head"><h4 class="ui header">
+					<div align="left">Пароль от учетной записи</div>
+					<div class="ui input">
+						<input type="password" class="headIn" id="pasInp" name="pasw" style="width: 400px;" autocomplete="off" onchange="inputFormCheck()" />
+					</div>
+				</h4></div>
+				<div class="pasChbView" align="left">
+					<label><input type="checkbox" class="pasChb" /> Показать пароль</label>
+				</div>
+				<br />
+				<button class="ui green button" id="logBtn" onclick="do_auth()" style="width: 200px;">Войти</button>
+			  </div>
+			</div>
+		</div>
+		{% include 'footer.xhtml' %}
+		
+		<script type="text/javascript">
+			async function do_auth() {
+				var uname = document.getElementsByClassName("headIn")[0].value
+				var psw = document.getElementsByClassName("headIn")[1].value
+				var authByteArray = (uname+":"+psw).toString('utf8')
+				getText(authByteArray);
+			}
+			async function getText(authByteArray) {
+				const response = await fetch("/",{
+					method: "GET",
+					headers: { "Accept": "application/json", "Content-Type": "application/json", "Authorization":btoa(authByteArray)},
+					credentials: "include"
+				});
+				const responseText = await response.text();
+				if (response.ok) {
+					location.reload()
+				}
+				else {
+					document.querySelector('html').innerHTML = responseText
+				}
+			}
+			function inputFormCheck() {
+				var inputForms = document.getElementsByClassName("headIn")
+				var flag = false
+				for (var i = 0; i < inputForms.length; i++) {
+					result = inputForms[i].value.match(/[А-Я]/gi)
+					if (result) {
+						flag = true
+						document.getElementsByClassName("headIn")[i].style.backgroundColor = "#F08080"
+					}
+					else {
+						document.getElementsByClassName("headIn")[i].style.backgroundColor = "white"
+					}
+				}
+				if (flag) {
+					document.getElementById("logBtn").disabled = true
+				}
+				else {
+					document.getElementById("logBtn").disabled = false
+				}
+			}
+
+			$('body').on('click', '.pasChb', function(){
+				if ($(this).is(':checked')){
+					$('#pasInp').attr('type', 'text');
+				} else {
+					$('#pasInp').attr('type', 'password');
+				}
+				
+			}); 
+		</script>
+	
+	</body>
+
+	<style type="text/css">
+		.ui.footer.segment {
+			margin: 0em 0em 0em;
+			padding: 5.05em 0em;
+		}
+	</style>
+
+</html>
+
