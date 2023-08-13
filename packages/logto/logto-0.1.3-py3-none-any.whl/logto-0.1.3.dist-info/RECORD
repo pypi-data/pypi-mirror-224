@@ -1,0 +1,15 @@
+logto/LogtoClient.py,sha256=ohEx0legj7ApVjM9Mtuubyrf6Yx-z6pzW6QwM1REgsI,15480
+logto/LogtoClient_test.py,sha256=vLgmsYmGES02ZbKhdavnC9eDGN4DRaeVUYWmPefWogo,13017
+logto/LogtoException.py,sha256=dvjwBvE_7gKPB2YykavCFipzMSPvTF-lgbxSI780pG4,133
+logto/OidcCore.py,sha256=vEZjqAFXfvK_yXtAAeU4q2POZDDOjM_kaSG0LTJogEM,6152
+logto/OidcCore_test.py,sha256=opJTi6RaOox1LkFQOaZfzeOSBEegktOzteB8YKa4zJA,7162
+logto/Storage.py,sha256=TRAe-CsxZzEJCP4ejWwFBrSg8wGmRJA5FMlVN7f1pss,2099
+logto/__init__.py,sha256=Hj0EFxf7cGjkFgJ3Rzc2IgpUKZSaa3ueybIwMErkVdE,618
+logto/models/oidc.py,sha256=lyclmLzG-z5tDodRRP3qq_ltv2z5uApCIXodfpXncgQ,5584
+logto/models/response.py,sha256=AnaaZ1DkciwgXYdL60mlfo82HIE9SlftLLbyOHU1jfE,2014
+logto/utilities/__init__.py,sha256=gFva9hdDbl_Dbb9EDH8RYE6Rk6qb9U9Al-DI00eLu5c,407
+logto/utilities/__init__test.py,sha256=oFEv836MbC3Bb3pXCLwUV3djvw0tcY3xzdnxJQoq12Q,1062
+logto/utilities/test.py,sha256=KUVXi88BJreaTADUGDIf-ezP21UxhcnpkZ3EBH_xYiw,1279
+logto-0.1.3.dist-info/METADATA,sha256=7I-kZGM9QkCtn7hMhyts8zKu7LrZVs0AjZfKbz6Q_fg,2220
+logto-0.1.3.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+logto-0.1.3.dist-info/RECORD,,
