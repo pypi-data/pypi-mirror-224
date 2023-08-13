@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: KirbacterAI
+Version: 1.0.0
+Summary: API Library for beta.character.ai
+Home-page: https://github.com/KirbyRedius/CharacterAI/
+Author: KirbyRedius
+Author-email: 
+Keywords: python,python3,api,characterai,character.ai,beta.character.ai
+
+API for beta.character.ai
+
+see: https://github.com/KirbyRedius/KirbacterAI

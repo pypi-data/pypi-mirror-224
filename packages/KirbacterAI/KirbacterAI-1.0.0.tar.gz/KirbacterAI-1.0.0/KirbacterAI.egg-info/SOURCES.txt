@@ -1,0 +1,7 @@
+README.md
+setup.py
+KirbacterAI.egg-info/PKG-INFO
+KirbacterAI.egg-info/SOURCES.txt
+KirbacterAI.egg-info/dependency_links.txt
+KirbacterAI.egg-info/requires.txt
+KirbacterAI.egg-info/top_level.txt
