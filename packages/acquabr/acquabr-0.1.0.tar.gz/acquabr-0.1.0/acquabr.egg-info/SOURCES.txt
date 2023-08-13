@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+acquabr.egg-info/PKG-INFO
+acquabr.egg-info/SOURCES.txt
+acquabr.egg-info/dependency_links.txt
+acquabr.egg-info/requires.txt
+acquabr.egg-info/top_level.txt

@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: acquabr
+Version: 0.1.0
+Summary: Uma biblioteca para análise de dados hidrológicos e geoespaciais relacionados ao Brasil.
+Author: Leonardo Maciel de Sousa
+Author-email: leonardo.maciel3@academico.ufpb.br
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENCE
+
+
+    Automated data retrieval and processing from the HIDROWEB portal for hydrometeorological data across Brazilian territory. HIDROWEB is an integral part of the National Information System on Water Resources (SNIRH) and serves as a comprehensive database for information collected by the National Hydrometeorological Network (RHN).It encompasses crucial data types such as river levels, flow rates, rainfall, climatology, water quality, and sediment measurements.This class encapsulates methods tailored to fetch, process, and analyze HIDROWEB data, providing a convenient interface for researchers and analysts working with hydrometeorological datasets.

@@ -1,0 +1,12 @@
+tqdm
+requests
+pandas
+geopandas
+pyproj
+utm
+srtm
+numpy
+
+[dev]
+pytest
+coverage
