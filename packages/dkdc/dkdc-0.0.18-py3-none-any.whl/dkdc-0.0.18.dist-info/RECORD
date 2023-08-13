@@ -1,0 +1,10 @@
+dkdc/__init__.py,sha256=sT4-oMIWVzeP9Brkw-2ZataQn265yJWDDxLD-KZVFNY,28
+dkdc/__main__.py,sha256=8VO2dsYIeMFHd3e8goEd7u0Xi8Us3zDKlf8RByFODBE,45
+dkdc/ai.py,sha256=4eJQr2_0JcC3t2CIuxtsSZlceo73L92GU3G1jRhIle8,6865
+dkdc/main.py,sha256=Mx6yjkx-qdYEz8PsMdEKieAdIW-pLIaalOVR7XVXDf0,1028
+dkdc/poker.py,sha256=v_sxXWpsQNwz7EM4azKWSXGXBDArbpfR9-5l5tPFX_8,370
+dkdc-0.0.18.dist-info/METADATA,sha256=iWwJ0u0p4FztddCq-J-ODY-8zvmIUG5xxBi7rePuPls,699
+dkdc-0.0.18.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+dkdc-0.0.18.dist-info/entry_points.txt,sha256=2xWMP3PkhqTNsxyhiEcR1_-gFUKE0Nj61IqiMldZlbE,39
+dkdc-0.0.18.dist-info/licenses/LICENSE,sha256=JI7scmwZKNFl859I8UbdX_vsbdSgzIOdrtgqng_mYF0,1048
+dkdc-0.0.18.dist-info/RECORD,,
