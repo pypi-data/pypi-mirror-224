@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: dmypy-ls
+Version: 1.13
+Summary: super fast mypy language server
+Home-page: https://github.com/sileht/dmypy-ls
+Author: Mehdi Abaakouk
+Author-email: sileht@sileht.net
+Requires-Python: >=3.9,<4
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development
+Requires-Dist: mypy
+Requires-Dist: pygls (>=1.0.1)
+Description-Content-Type: text/x-rst
+
+dmypy-ls: super fast mypy language server
+=========================================
+
+It leverages mypy.dmypy_server instead of the slow cli interface.
+
+First run takes same time as mypy cli, but next are super fast as
+mypy.dmypy_server only reload the changed file.
+
+It supports diagnostics only.
+
+Status
+------
+
+On works on Open and Save for now
+
+The on Change could be implemented if the mypy FineGrainedBuildManager
+uses BuildSource of the dmypy_server instead of always reread file from
+disk…
+
+Install
+-------
+
+.. code:: shell
+
+   $ pip install --user dmypy-ls
+
+vim-lspconfig
+-------------
+
+.. code:: lua
+
+   lua << EOF
+   require("lspconfig.configs")["dmypyls"] = {
+       default_config = {
+           cmd = { 'dmypy-ls' },
+           filetypes = { 'python' },
+           root_dir = lspconfig.util.root_pattern('pyproject.toml', 'setup.py', 'setup.cfg', 'requirements.txt', 'Pipfile'),
+           single_file_support = true,
+       },
+   }
+   require("lspconfip").dmypyls.setup({})
+   EOF
+
