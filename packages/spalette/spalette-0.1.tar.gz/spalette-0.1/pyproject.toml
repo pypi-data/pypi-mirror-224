@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "spalette"
+version = "0.1"
+description = "a simple color palette generator that takes an image file as input"
+authors = ["grrhale <raymond.hale0@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+matplotlib = "^3.7.2"
+opencv-python = "^4.8.0.76"
+
+[tool.poetry.scripts]
+spalette = "spalette.__main__:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
