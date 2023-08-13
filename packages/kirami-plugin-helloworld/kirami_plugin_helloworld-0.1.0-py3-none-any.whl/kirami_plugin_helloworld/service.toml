@@ -1,0 +1,7 @@
+[plugin]
+name = '你好世界'
+summary = '你好，世界'
+version = '0.1.0'
+author = 'Akirami'
+alias=["hw"]
+usage = '发送"你好", 回复"世界"'
