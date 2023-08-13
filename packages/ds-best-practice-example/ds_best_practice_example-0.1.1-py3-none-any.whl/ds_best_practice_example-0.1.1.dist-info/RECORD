@@ -1,0 +1,11 @@
+ezml/__init__.py,sha256=TaBXgeC02GVsNi-w7db4J1EXn55ke8qe3g7izh3a1KA,125
+ezml/data.py,sha256=tPqcNjhk60rEruMbjxpeoyB8sWcI1jb2DKWLBYi32PY,2286
+ezml/diagnostic.py,sha256=8qU47_60QWZVRzsIuSogyEH_xmvLfZSwCy6XWfF-jBM,990
+ezml/main.py,sha256=TvE9tHt4gHMfi3r_i0GE4SIHo4DR24jDDQ_LwevXYN0,804
+ezml/model.py,sha256=6_l0axwXNBJxirqNWvRdMc8SaaFF15QF6zFBEothbjU,972
+ezml/pipeline.py,sha256=88tAIUpyztcqPRjSlx8Khmpz-1p_CBnyRCYlCYak8pQ,1292
+ds_best_practice_example-0.1.1.dist-info/LICENSE,sha256=_qZ3-loMcBNzah0loStmijOLt7F1lHA4AE9Ouwwm78s,1505
+ds_best_practice_example-0.1.1.dist-info/METADATA,sha256=xpefWj5EwDOClA0gQbFPMUS8Efj-XxPo6j6WWXOPdMY,8288
+ds_best_practice_example-0.1.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+ds_best_practice_example-0.1.1.dist-info/entry_points.txt,sha256=lbPRsV_gjn5LjXbpIwbwTjqX4vlkdeGH97Let90mAVc,39
+ds_best_practice_example-0.1.1.dist-info/RECORD,,
