@@ -1,0 +1,9 @@
+LICENSE
+setup.py
+peoplehealtimage/__init__.py
+peoplehealtimage/pacote.py
+peoplehealtimage.egg-info/PKG-INFO
+peoplehealtimage.egg-info/SOURCES.txt
+peoplehealtimage.egg-info/dependency_links.txt
+peoplehealtimage.egg-info/requires.txt
+peoplehealtimage.egg-info/top_level.txt
