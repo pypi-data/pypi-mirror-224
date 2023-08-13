@@ -1,0 +1,9 @@
+README
+setup.py
+securitygpt/__init__.py
+securitygpt.egg-info/PKG-INFO
+securitygpt.egg-info/SOURCES.txt
+securitygpt.egg-info/dependency_links.txt
+securitygpt.egg-info/top_level.txt
+securitygpt/vulngpt/__init__.py
+securitygpt/vulngpt/cve_gpt.py
