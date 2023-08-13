@@ -1,0 +1,10 @@
+iplogger/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iplogger/admin.py,sha256=TI-2uCvrOMLIch5lM2ueRYCTVnbktq750GKfIm7_ORY,177
+iplogger/apps.py,sha256=dEtgVRXhoNWi6GfMwtDRmTpwMQQL7P0LJ0V_DI0635w,147
+iplogger/middleware.py,sha256=s9C6KKzWv9QNE4izkq4TeeYoIK9RyHywcMcUgjXl5Bs,459
+iplogger/models.py,sha256=YQSzg5Q8bikOW03il7Rlyx4VOUPWjEO-4e_XcFz_lJ0,230
+django_dc_iplogger-0.3.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_dc_iplogger-0.3.0.dist-info/METADATA,sha256=Pc4j9oHgMpsnJBMe0INXXRMtT-HUfZFvGY5zAmBJhv8,257
+django_dc_iplogger-0.3.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+django_dc_iplogger-0.3.0.dist-info/top_level.txt,sha256=nXmYSaPJwaKjs-vhC7RpbuQRU4bpCaDAw6ROcnYdBws,9
+django_dc_iplogger-0.3.0.dist-info/RECORD,,
