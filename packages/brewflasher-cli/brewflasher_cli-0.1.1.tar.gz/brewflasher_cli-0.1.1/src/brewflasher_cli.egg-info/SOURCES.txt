@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/brewflasher_cli/__init__.py
+src/brewflasher_cli/brewflasher_cli_edition.py
+src/brewflasher_cli/brewflasher_com_integration.py
+src/brewflasher_cli/fhash.py
+src/brewflasher_cli/serial_integration.py
+src/brewflasher_cli.egg-info/PKG-INFO
+src/brewflasher_cli.egg-info/SOURCES.txt
+src/brewflasher_cli.egg-info/dependency_links.txt
+src/brewflasher_cli.egg-info/entry_points.txt
+src/brewflasher_cli.egg-info/requires.txt
+src/brewflasher_cli.egg-info/top_level.txt
