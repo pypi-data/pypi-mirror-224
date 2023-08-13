@@ -1,0 +1,7 @@
+parsanlp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parsanlp/attention.py,sha256=z8C7jjGz9NZZIC5m3UN8BOMVeH_fxcYAs1HcfLVills,1664
+parsanlp/helper_functions.py,sha256=de827qv-LD8saSSoiqVsMx-WV83SdyG7qX7KYNeNlIs,363
+parsanlp-1.0.3.dist-info/METADATA,sha256=qyaEUjSjCsL6wGQkMKG5zQqj6Nuee7pnrRzAE2NcRdc,454
+parsanlp-1.0.3.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+parsanlp-1.0.3.dist-info/licenses/LICENSE,sha256=xnAD76lN0uqxZXxXfKN685fMO45XbHHJy2iavDDhtO4,1089
+parsanlp-1.0.3.dist-info/RECORD,,
