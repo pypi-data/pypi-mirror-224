@@ -1,0 +1,2 @@
+[console_scripts]
+repodoc = repodoc.commands:main
