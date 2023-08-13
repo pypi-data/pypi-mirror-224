@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+django_kakebo/__init__.py
+django_kakebo.egg-info/PKG-INFO
+django_kakebo.egg-info/SOURCES.txt
+django_kakebo.egg-info/dependency_links.txt
+django_kakebo.egg-info/top_level.txt
+django_kakebo/src/django_kakebo/__init__.py
+django_kakebo/src/django_kakebo/admin.py
+django_kakebo/src/django_kakebo/apps.py
+django_kakebo/src/django_kakebo/models.py
+django_kakebo/src/django_kakebo/urls.py
+django_kakebo/src/django_kakebo/views.py
+django_kakebo/src/themes/basic/home/index.html
