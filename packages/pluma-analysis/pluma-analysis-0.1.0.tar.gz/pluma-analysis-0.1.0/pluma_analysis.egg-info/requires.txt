@@ -1,0 +1,14 @@
+geopandas
+matplotlib
+numpy
+scipy
+pandas
+s3fs
+pyubx2
+tilemapbase
+dotmap
+nepy
+simplekml
+
+[dev]
+setuptools_scm

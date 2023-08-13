@@ -1,0 +1,15 @@
+name: emocities
+dependencies:
+  - geopandas
+  - matplotlib
+  - numpy
+  - scipy
+  - pandas
+  - s3fs
+  - pip
+  - pip:
+    - pyubx2
+    - tilemapbase
+    - dotmap
+    - nepy
+    - simplekml
