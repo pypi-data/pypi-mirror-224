@@ -1,0 +1,5 @@
+pyo3_example-0.1.0.dist-info/METADATA,sha256=CVqn4_ARSIalXGtKSHBG79kKgt33WHghTwJLb0OlXMo,261
+pyo3_example-0.1.0.dist-info/WHEEL,sha256=GF8OoguhZNrfDrCAYiL6K_r_rDgDp3WgXOVWklDSZ0Y,95
+hypermangle_py/__init__.py,sha256=DOLVvAUNv25gwS5OYcu43hOQOpzIcuCXQEqA_QDn--M,139
+hypermangle_py/hypermangle_py.cp310-win_amd64.pyd,sha256=9qBy-Gwz8pjELy-20-a1wOUMB1Sy7kL-klGYFn84-gQ,866304
+pyo3_example-0.1.0.dist-info/RECORD,,
