@@ -1,0 +1,6 @@
+README.md
+setup.py
+sentia.egg-info/PKG-INFO
+sentia.egg-info/SOURCES.txt
+sentia.egg-info/dependency_links.txt
+sentia.egg-info/top_level.txt
