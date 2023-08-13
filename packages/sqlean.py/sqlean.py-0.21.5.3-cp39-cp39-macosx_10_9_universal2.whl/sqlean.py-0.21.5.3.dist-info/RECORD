@@ -1,0 +1,8 @@
+sqlean/_sqlite3.cpython-39-darwin.so,sha256=_gGgVDMCc2Bmsd6XQr59RoN2-pf44Z6VoKHIsDAEEvM,4409466
+sqlean/__init__.py,sha256=uunZJvVval-0mC1l34TfWTGIGA92ZEa6cvQKxqalFZM,996
+sqlean/extensions.py,sha256=b9umf8v9guUEpbOSQZqMzfwyN_2fhBflTkFxkOsxQ-g,1123
+sqlean/dbapi2.py,sha256=I4hs6s5YZfvJszFW2J4ms-wruRspyEGMOR-t-M7OW4U,2700
+sqlean.py-0.21.5.3.dist-info/RECORD,,
+sqlean.py-0.21.5.3.dist-info/WHEEL,sha256=DRUtZWfg_vgxWiUs-O1AqLTEbWMpZd0jFAjVIhwHG9M,113
+sqlean.py-0.21.5.3.dist-info/top_level.txt,sha256=VNT03-Php9cvR1s1dNcerNwvB8lzuoy2whHH6nUfKSQ,7
+sqlean.py-0.21.5.3.dist-info/METADATA,sha256=K0zGG2-wpphNky1y228HPlfL3kZxMPC8Uv8b02KM43o,4445
