@@ -1,0 +1,14 @@
+django_kakebo/__init__.py,sha256=dWiw-VJEzGXuHFmK886DgxPSHEEkRqK7ccb9SEJVeLc,38
+django_kakebo/src/django_kakebo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_kakebo/src/django_kakebo/admin.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_kakebo/src/django_kakebo/apps.py,sha256=YExXEvqtz-Gu4_qU4-ZiQdPNrj4Rfsu7KjsNA6fhBYE,100
+django_kakebo/src/django_kakebo/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_kakebo/src/django_kakebo/urls.py,sha256=xtRVT1hlKY5CgY5cGhlVVhUuYZTgr2I2--WFWOLi2yc,125
+django_kakebo/src/django_kakebo/views.py,sha256=pyMshAG3mYuxyBrAB0gGaAyUUBt_Le9CloNjnUHwJdY,119
+django_kakebo/src/themes/basic/home/index.html,sha256=QMfAhCbl5FRasK7K_jGkMH3H3_qhfxWWDtj7iq9Bw5k,13
+django_kakebo-0.0.4.data/data/themes/index.html,sha256=QMfAhCbl5FRasK7K_jGkMH3H3_qhfxWWDtj7iq9Bw5k,13
+django_kakebo-0.0.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+django_kakebo-0.0.4.dist-info/METADATA,sha256=YlkAl0c7YSPDh3B75rjCgxbOSrrP3gxCd6m_QeHFECY,2956
+django_kakebo-0.0.4.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+django_kakebo-0.0.4.dist-info/top_level.txt,sha256=fjFL1AyYxo3ZpvyuBMa-my1MqObk29fYABX6XWBmv4w,14
+django_kakebo-0.0.4.dist-info/RECORD,,
