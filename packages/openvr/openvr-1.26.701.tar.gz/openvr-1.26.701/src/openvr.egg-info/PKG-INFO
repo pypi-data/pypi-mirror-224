@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: openvr
+Version: 1.26.701
+Summary: Unofficial python bindings for Valve OpenVR SDK
+Home-page: https://github.com/cmbruns/pyopenvr
+Download-URL: https://github.com/cmbruns/pyopenvr/tarball/1.26.0701
+Author: Christopher Bruns and others
+Author-email: cmbruns@rotatingpenguin.com
+License: BSD
+Keywords: openvr valve htc vive vr virtual reality 3d graphics
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Microsoft :: Windows :: Windows 7
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Multimedia :: Graphics :: 3D Rendering
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.7
+Provides-Extra: glfw
+Provides-Extra: opengl
+Provides-Extra: PyQt5
+Provides-Extra: PySide2
+Provides-Extra: sdl2
+Provides-Extra: wx
+Provides-Extra: generate
+License-File: LICENSE
+
+Valve OpenVR SDK python bindings using ctypes
