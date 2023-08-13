@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+BFR.egg-info/PKG-INFO
+BFR.egg-info/SOURCES.txt
+BFR.egg-info/dependency_links.txt
+BFR.egg-info/top_level.txt
+bulk_file_renamer/__init__.py
+bulk_file_renamer/bulk_file_renamer.py
