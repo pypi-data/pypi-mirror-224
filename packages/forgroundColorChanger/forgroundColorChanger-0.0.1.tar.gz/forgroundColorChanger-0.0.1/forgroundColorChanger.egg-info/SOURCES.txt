@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+forgroundColorChanger/__init__.py
+forgroundColorChanger.egg-info/PKG-INFO
+forgroundColorChanger.egg-info/SOURCES.txt
+forgroundColorChanger.egg-info/dependency_links.txt
+forgroundColorChanger.egg-info/requires.txt
+forgroundColorChanger.egg-info/top_level.txt
