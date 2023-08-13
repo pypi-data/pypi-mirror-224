@@ -1,0 +1,17 @@
+newspy/__init__.py,sha256=1VOeNEvNlbNLs0jCC1WZdMen1Vm913YkQ2OepnOiRec,156
+newspy/client.py,sha256=8idFeCNJGD9unDe5tQp4qE8BSNOww5Rzz2Tua9j5WkI,301
+newspy/newsorg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+newspy/newsorg/client.py,sha256=G2zNtGsF9B6rrVoPdcqSpRSDNdLoZPOi9Q98RVQuJEc,3747
+newspy/newsorg/models.py,sha256=rhL0WP7Maxm8nKCZx1PbzNYRRHYJNneX00DhRC4L7Q8,2700
+newspy/rss/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+newspy/rss/client.py,sha256=t_7lMxGfQvefk25NejAFERttEFqqOlY76no8lTSHA4k,1718
+newspy/rss/models.py,sha256=M2K7YA94rsTgkkeqwCsZc3MS9vSkpdji4y0qVqqLhis,1959
+newspy/shared/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+newspy/shared/exceptions.py,sha256=MJNMhtkEtmZVq5Vji5l2UVJfKwNY4W5Ux4xSddsGjCw,817
+newspy/shared/http_client.py,sha256=_XfAdhHYnOkhxzJBkBx5AZ7i1Zkyx_LAPgaomY1_9lI,5343
+newspy/shared/models.py,sha256=0UVB_KcQeUAZSs3EmWyG6x1AhOkKD_D_YaN0xEChA7E,1772
+newspy/shared/utils.py,sha256=cfKL0LPH78gGs0-FfTHKD4O5V5GB5vvc7iPIQ11ztAw,894
+newspy-2.0.2.dist-info/LICENSE,sha256=0i55KS-PbGhZyHvOVqMbFIvyZ-s4XFqQEzugUt-bNNw,1073
+newspy-2.0.2.dist-info/METADATA,sha256=Hc7QI7FsDgSRHSSZ_o8ZME1fR7XRrcK7epUMntJYaPc,2280
+newspy-2.0.2.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+newspy-2.0.2.dist-info/RECORD,,
