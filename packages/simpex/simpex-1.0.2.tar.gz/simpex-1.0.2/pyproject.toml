@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "simpex"
+version = "1.0.2"
+description = "`simpex` is a python library that simplifies the process of using regular expressions (regex)."
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.7"
+authors = [
+  {name = "s41r4j"}
+]
+maintainers = [
+  {name = "s41r4j"}
+]
+keywords=['python', 'python3', 'regex', 'simpex', 'regular-expressions', 's41r4j']
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 5 - Production/Stable"
+]
+dependencies = ['requests']
+
+
+[project.urls]
+"Homepage" = "https://github.com/s41r4j/simpex"
+"Wiki" = "https://github.com/s41r4j/simpex/wiki"
+"Bug Tracker" = "https://github.com/s41r4j/simpex/issues"
