@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "requests"]
+build-backend = "setuptools.build_meta"
+
+[metadata]
+name = "leetcode-study-tool"
+version = "1.0.0"
+description = "A tool for studying Leetcode with Python"
+author = "John Sutor"
+author_email = "johnsutor3@gmail.com"
+license = "MIT"
+keywords = ["leetcode", "leet", "study"]
+
+[tool.black]
+line-length = 80
+target-version = ["py38", "py39", "py310", "py311"]
+
+[options]
+python_requires = ">=3.6"
