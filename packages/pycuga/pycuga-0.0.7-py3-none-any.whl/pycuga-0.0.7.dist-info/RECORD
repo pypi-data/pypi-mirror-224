@@ -1,0 +1,11 @@
+pycuga/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycuga/info.py,sha256=-VYjAwHdKF64_u5QOS5li1zGlDPyMIHdUa3fsCGa2ok,2095
+pycuga/pycuga.py,sha256=J1sJAS8iPiTGfxJ1k2F5ULSlaNacRt2JRvumvFlPPtM,8804
+pycuga/test.py,sha256=Vu5YMfZZIksND3f5Wz2tSticDe3_cRK2V9OxWLIc5pY,167
+pycuga/algos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycuga/algos/tools.py,sha256=CIQVUPDSAZbGfH1TMmr88kDbpi_DMtMi3PuqJbWNYh0,422
+pycuga-0.0.7.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pycuga-0.0.7.dist-info/METADATA,sha256=5W7Wm2SPs9xa84OcQlTtXBOaewJSat6R1nXXFF08lQM,1056
+pycuga-0.0.7.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+pycuga-0.0.7.dist-info/top_level.txt,sha256=hG1p5Tu505CJmFl_2FAStOKA_Ulez4cF4Fj0XDpTd4k,7
+pycuga-0.0.7.dist-info/RECORD,,
