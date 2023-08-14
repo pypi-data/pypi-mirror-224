@@ -1,0 +1,9 @@
+README.md
+botrun_embeddings.py
+setup.py
+botrun_embeddings.egg-info/PKG-INFO
+botrun_embeddings.egg-info/SOURCES.txt
+botrun_embeddings.egg-info/dependency_links.txt
+botrun_embeddings.egg-info/entry_points.txt
+botrun_embeddings.egg-info/requires.txt
+botrun_embeddings.egg-info/top_level.txt
