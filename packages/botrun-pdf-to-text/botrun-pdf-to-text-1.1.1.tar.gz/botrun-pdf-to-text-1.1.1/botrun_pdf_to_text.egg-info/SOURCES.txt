@@ -1,0 +1,9 @@
+README.md
+botrun_pdf_to_text.py
+setup.py
+botrun_pdf_to_text.egg-info/PKG-INFO
+botrun_pdf_to_text.egg-info/SOURCES.txt
+botrun_pdf_to_text.egg-info/dependency_links.txt
+botrun_pdf_to_text.egg-info/entry_points.txt
+botrun_pdf_to_text.egg-info/requires.txt
+botrun_pdf_to_text.egg-info/top_level.txt
