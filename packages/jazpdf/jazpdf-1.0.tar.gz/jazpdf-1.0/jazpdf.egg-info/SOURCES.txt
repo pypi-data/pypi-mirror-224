@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+jazpdf/__init__.py
+jazpdf/pdf2image.py
+jazpdf/pdf2text.py
+jazpdf.egg-info/PKG-INFO
+jazpdf.egg-info/SOURCES.txt
+jazpdf.egg-info/dependency_links.txt
+jazpdf.egg-info/top_level.txt
