@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pyproject-poetry]
+src-layout = true
+
+[project]
+name = "hcaptcha-solver"
+version = "0.2.4"
+authors = [
+  { name="xTerradon"},
+]
+description = "A lightweight python library for solving hCaptcha challenges with selenium."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/xTerradon/hcaptcha-solver"
