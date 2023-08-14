@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: py-kms-api
+Version: 2.0.0
+Summary: PyKMS API
+Home-page: https://github.com/joe733/py-kms-api
+License: MIT
+Keywords: kms,py-kms,py-kms-api,python kms server,python kms server api,python key management server,python key management server api
+Author: Jovial Joe Jayarson
+Author-email: jovial7joe@hotmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Server
+Project-URL: Repository, https://github.com/joe733/py-kms-api
+Description-Content-Type: text/markdown
+
+> WARNING:
+>
+> This project is no longer maintained!
+
+# PyKMS API
+
+[`GitHub`](https://github.com/joe733/py-kms-api) | [`PyPI`](https://pypi.org/project/py-kms-api/)
+
+![frame](https://github.com/joe733/py-kms-api/assets/38415384/739cf26c-2269-4a62-b681-42fd18fe93a2)
+
