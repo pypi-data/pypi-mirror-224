@@ -1,0 +1,8 @@
+red_postgres/__init__.py,sha256=gbdXyJ1k3dRSeK3L1LeFxxJvwP1xQwG7lInt6WP-6eA,266
+red_postgres/engine.py,sha256=03P0ZxQTYBRCCtRV2hC79FIkfiK6e4Lso1A0Wn8TRc4,7075
+red_postgres/errors.py,sha256=r-qWzdbns5cYeUnSVPlLqTU5vJvkIEaz2hBNdt9aAT4,60
+red_postgres-0.1.6.dist-info/LICENSE,sha256=GJsa-V1mEVHgVM6hDJGz11Tk3k0_7PsHTB-ylHb3Fns,18431
+red_postgres-0.1.6.dist-info/METADATA,sha256=5u7iA1T7ONpgpEI_QxhEmyz-nUyuvokFJgK3mmSAx7g,6510
+red_postgres-0.1.6.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+red_postgres-0.1.6.dist-info/top_level.txt,sha256=iJeHE1jm4-VZkmG5YgIE-Y66rGSsj69im4BRLKkqrTY,13
+red_postgres-0.1.6.dist-info/RECORD,,
