@@ -1,0 +1,6 @@
+gcigps/__init__.py,sha256=qDUr5BYCCgY6KPJ1hVHZ8iGf19BgTb75oeQ-KGhsekU,413
+gcigps/messages.py,sha256=VMueszByKZDUy8zWJe5kzNufapuXGIHCXMhaCUN2OUI,854
+gcigps/parser.py,sha256=Z7xy9gMIMj4AEHJCBUUpZGE-45yLvtFJjJ5xE4ttZho,3833
+gcigps-2023.8.12.dist-info/METADATA,sha256=sMXjRqYNSADdD8aV8GRgt43J5uQmmbC8sX8l_EMR-Vc,2502
+gcigps-2023.8.12.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+gcigps-2023.8.12.dist-info/RECORD,,
