@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: revolution.py
+Version: 5.0.1.3
+Summary: A simple Py package to integrate Revolution's bot API into python.
+Home-page: https://revolution-web.repl.co/
+Author: JustAnEric
+Maintainer: Revolution Corporation
+License: UNKNOWN
+Keywords: revolutionpy,python3,revolution
+Platform: UNKNOWN
+Requires: requests
+Requires: websockets
+
+A simple Py package to integrate Revolution's bot API into Python. 
+https://github.com/JustAnEric/Revolution.py
+
