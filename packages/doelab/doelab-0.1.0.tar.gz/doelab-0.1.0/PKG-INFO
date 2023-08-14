@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: doelab
+Version: 0.1.0
+Summary: A python package for Design of Experiment(DOE)
+Author: caron14
+Author-email: **.**@gmail.com
+Requires-Python: >=3.9,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: black[jupyter] (>=23.7.0,<24.0.0)
+Requires-Dist: flake8 (>=6.1.0,<7.0.0)
+Requires-Dist: isort[colors] (>=5.12.0,<6.0.0)
+Requires-Dist: jupyterlab (>=4.0.5,<5.0.0)
+Requires-Dist: matplotlib (>=3.7.2,<4.0.0)
+Requires-Dist: mypy (>=1.5.0,<2.0.0)
+Requires-Dist: numpy (>=1.25.2,<2.0.0)
+Requires-Dist: pandas (>=2.0.3,<3.0.0)
+Requires-Dist: plotly (>=5.16.0,<6.0.0)
+Requires-Dist: pytest (>=7.4.0,<8.0.0)
+Requires-Dist: scikit-learn (>=1.3.0,<2.0.0)
+Requires-Dist: scipy (>=1.11.1,<2.0.0)
+Requires-Dist: seaborn (>=0.12.2,<0.13.0)
+Requires-Dist: tqdm (>=4.66.1,<5.0.0)
+Description-Content-Type: text/markdown
+
+
