@@ -1,0 +1,2 @@
+[dtool_lookup_server.extension]
+DependencyGraphExtension = dtool_lookup_server_dependency_graph_plugin:DependencyGraphExtension
