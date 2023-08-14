@@ -1,0 +1,15 @@
+numpy
+magicgui
+qtpy
+napari-stl-exporter
+vedo
+napari-tools-menu
+imagecodecs
+
+[testing]
+tox
+pytest
+pytest-cov
+pytest-qt
+napari
+pyqt5

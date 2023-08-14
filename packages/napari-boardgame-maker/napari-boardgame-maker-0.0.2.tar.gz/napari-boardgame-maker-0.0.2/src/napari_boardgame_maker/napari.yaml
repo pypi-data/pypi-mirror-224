@@ -1,0 +1,25 @@
+name: napari-boardgame-maker
+display_name: FooBar Segmentation
+contributions:
+  commands:
+    - id: napari-boardgame-maker.write_single_image
+      python_name: napari_boardgame_maker._writer:write_single_image
+      title: Save image data with FooBar Segmentation
+    - id: napari-boardgame-maker.boardgame_maker
+      python_name: napari_boardgame_maker._widget:BoardgameMakerWidget
+      title: Boardgame Tile Maker
+    - id: napari-boardgame-maker.rhone_glacier
+      python_name: napari_boardgame_maker._sample_data:rhone_glacier
+      title: Create rhone glacier sample data
+  writers:
+    - command: napari-boardgame-maker.write_single_image
+      layer_types: ['image']
+      filename_extensions: ['.npy']
+  widgets:
+    - command: napari-boardgame-maker.boardgame_maker
+      display_name: Boardgame Tile Maker
+
+  sample_data:
+    - command: napari-boardgame-maker.rhone_glacier
+      key: Rhone glacier digital elevation model
+      display_name: Rhone glacier (DEM)

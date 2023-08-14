@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/napari_boardgame_maker/__init__.py
+src/napari_boardgame_maker/_sample_data.py
+src/napari_boardgame_maker/_widget.py
+src/napari_boardgame_maker/napari.yaml
+src/napari_boardgame_maker.egg-info/PKG-INFO
+src/napari_boardgame_maker.egg-info/SOURCES.txt
+src/napari_boardgame_maker.egg-info/dependency_links.txt
+src/napari_boardgame_maker.egg-info/entry_points.txt
+src/napari_boardgame_maker.egg-info/requires.txt
+src/napari_boardgame_maker.egg-info/top_level.txt
+src/napari_boardgame_maker/_tests/__init__.py
+src/napari_boardgame_maker/_tests/test_widget.py
