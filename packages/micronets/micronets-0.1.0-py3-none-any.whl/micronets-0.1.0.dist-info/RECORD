@@ -1,0 +1,10 @@
+micronets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+micronets/autograd_engine.py,sha256=J3kjp1HWwjCTZHepm8XSzCH3HgWaRYJAXP0IkdxH7bk,4219
+micronets/graph.py,sha256=3GeZ0PIIuskwLW65tQVo5FsxeAalFl8yzxLBCuYOzAQ,1087
+micronets/losses.py,sha256=VZeW0wyb2bzC_1ypmIKvsvAHjtV2n_jYVTZ8CiRT2jU,363
+micronets/nn.py,sha256=FuEcfiJoDaZkiDR5mNNLJe8FNWDHZ6cuIa3kPomdBVQ,2912
+micronets-0.1.0.dist-info/LICENSE,sha256=kmwPMAqxhai1jxvqMpZLXfroXqMft0zPZjotiACcim4,1063
+micronets-0.1.0.dist-info/METADATA,sha256=rwKTTBwAhgQ8D2fTirrWG7o5dBToihGLy322hgKtrAE,2714
+micronets-0.1.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+micronets-0.1.0.dist-info/top_level.txt,sha256=HHwd57ALIM_SpvDZrb7ishq4SNYRE9rwTERhaTsKINQ,10
+micronets-0.1.0.dist-info/RECORD,,
