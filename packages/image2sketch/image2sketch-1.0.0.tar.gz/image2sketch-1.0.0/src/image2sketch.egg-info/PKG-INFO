@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: image2sketch
+Version: 1.0.0
+Summary: Convert a image to a pencil sketch picture.
+Author-email: wyjstudio <wyjstudio@126.com>
+Project-URL: Homepage, https://github.com/wyjstudio/PythonShare
+Project-URL: Bug Tracker, https://github.com/wyjstudio/PythonShare/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Project description
+
+## image2sketch
+
+Convert image to sketch
+
+## Installation
+pip install sketch-image
+
+## Get Started
+image2sketch --src <image_path> --dst <output_path>
+
+or
+
+image2sketch -s <image_path> -d <output_path>
+
+The --dst flags are optional.
+
+If not specify the output path, the output image will be placed in the current directory by default.
+
+
+image2sketch --help

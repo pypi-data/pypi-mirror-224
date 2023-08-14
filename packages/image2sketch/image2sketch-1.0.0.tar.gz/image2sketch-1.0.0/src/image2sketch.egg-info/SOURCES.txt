@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/image2sketch/__init__.py
+src/image2sketch/convert_image.py
+src/image2sketch.egg-info/PKG-INFO
+src/image2sketch.egg-info/SOURCES.txt
+src/image2sketch.egg-info/dependency_links.txt
+src/image2sketch.egg-info/top_level.txt

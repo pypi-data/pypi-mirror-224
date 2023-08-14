@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "image2sketch"
+version = "1.0.0"
+authors = [
+  { name="wyjstudio", email="wyjstudio@126.com" },
+]
+description = "Convert a image to a pencil sketch picture."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/wyjstudio/PythonShare"
+"Bug Tracker" = "https://github.com/wyjstudio/PythonShare/issues"
