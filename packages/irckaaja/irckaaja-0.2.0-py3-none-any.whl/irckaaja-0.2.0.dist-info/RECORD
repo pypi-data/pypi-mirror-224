@@ -1,0 +1,16 @@
+irckaaja/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+irckaaja/botscript.py,sha256=KUSaTQaw5YDlKkQUzeGx3UOsh4135OPsRjDnl1BR1eA,2232
+irckaaja/channel.py,sha256=QCMstu6GcpDS4ukMObyV_nH5O9nMaUS1V-pdDeJJTNo,1280
+irckaaja/client.py,sha256=YdSgitQtyNWvtHq1UPbl3fUhqjz3hg9GMIl9Eh0adWk,15996
+irckaaja/config.py,sha256=_9LcEYI8nWxSaB9Hp6mZM9LSH_iPBv_W1LX39zlk7uo,2016
+irckaaja/dynamicmodule.py,sha256=fy46dOq-6k0hMBg1GgS_rNgnOr5IqH0X9lOK-I6sgr0,1565
+irckaaja/irckaaja.py,sha256=AxpoDd7iVudmblM_y531pjX8NMCzZ3kS3wp5LYwIBL4,1067
+irckaaja/protocol.py,sha256=9-AL4KjkhhBR3VMyN23uNpbHEWB6Sk9yAnNlrFD8Nxg,14098
+irckaaja/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+irckaaja/scripts/helloworld.py,sha256=gNYV0EHrGDd12DAhwr4DV8fXX6_ECsH85wSXEqe211E,412
+irckaaja/scripts/irclinkhistory.py,sha256=7lgIcRYok6wlx87fv0fNTmg3_wMQp4aYgn53ZQekOY8,3462
+irckaaja/scripts/moduleloader.py,sha256=kbAPPpWoNCOzhFbayPokPcwb22xAFbqJuekt_6YS6MI,3014
+irckaaja/scripts/youtubeannouncer.py,sha256=eAuxCGHyDvc67jLo4TiVRx-WUms0LmlpEfusKrk3Hg0,1426
+irckaaja-0.2.0.dist-info/METADATA,sha256=ePSqqiaQTJwENeEx5zTMxNnnJ8Ee9Ny8ZkPTNnxXEWs,3606
+irckaaja-0.2.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+irckaaja-0.2.0.dist-info/RECORD,,
