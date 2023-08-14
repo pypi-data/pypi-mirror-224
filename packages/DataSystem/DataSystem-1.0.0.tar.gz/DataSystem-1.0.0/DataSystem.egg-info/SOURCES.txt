@@ -1,0 +1,8 @@
+README.md
+setup.py
+DataSystem/main.py
+DataSystem.egg-info/PKG-INFO
+DataSystem.egg-info/SOURCES.txt
+DataSystem.egg-info/dependency_links.txt
+DataSystem.egg-info/requires.txt
+DataSystem.egg-info/top_level.txt
