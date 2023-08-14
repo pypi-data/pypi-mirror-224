@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: evduty-free
+Version: 0.0.2a0
+Summary: Unofficial module for interacting with EVDuty EV charger api
+Home-page: https://github.com/planetefrench/evduty-free
+Download-URL: https://github.com/planetefrench/evduty-free/archive/refs/tags/v0.0.1-alpha2.tar.gz
+Author: Jean-Marc G
+Author-email: none@none.none
+License: Apache 2
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+
+
+
+# evdutyfree
+ Unofficial Python Module interface for EVduty chargers api
+
+ ⚠️Warning - Very ALPHA and not ready for production. ⚠️
+
+
+Loosely based on https://github.com/cliviu74/wallbox.
+
+## Example
+
+```
+from evdutyfree import EVdutyFree
+
+w = EVdutyFree("user@domain.com", "password")
+
+# Authenticate with the credentials above
+w.authenticate()
+stations = w.get_station_ids()
+terminals = w.get_terminal_ids(stations[0])
+
+terminalinfo = w.get_terminal_info(stations[0],terminals[0])
+
+print(w.get_max_charging_current(stations[0],terminals[0]))
+w.set_max_charging_current(stations[0], terminals[0], 30)
+print(w.get_max_charging_current(stations[0],terminals[0]))
+```
