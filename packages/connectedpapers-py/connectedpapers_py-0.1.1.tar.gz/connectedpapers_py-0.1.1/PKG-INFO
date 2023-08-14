@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: connectedpapers-py
+Version: 0.1.1
+Summary: The official python client for the connected papers API.
+Home-page: https://github.com/ConnectedPapers/connectedpapers-py/
+License: MIT
+Author: ConnectedPapersAdmin
+Author-email: admin@connectedpapers.com
+Requires-Python: >=3.8.1
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aiohttp (>=2.0.0)
+Requires-Dist: dacite (>=1.8.1,<2.0.0)
+Requires-Dist: pytest-asyncio (>=0.21.1,<0.22.0)
+Requires-Dist: requests (>=2.0.0)
+Project-URL: Repository, https://github.com/ConnectedPapers/connectedpapers-py/
+Description-Content-Type: text/markdown
+
+# connectedpapers-py
+The official python client for the connected papers API.
+
+# Installation
+```bash
+pip install connectedpapers-py
+```
+
+# Usage
+```python
+from connectedpapers import ConnectedPapersClient
+
+DEEPFRUITS_PAPER_ID = "9397e7acd062245d37350f5c05faf56e9cfae0d6"
+
+client = ConnectedPapersClient()
+remaining_uses_count = client.sync_get_remaining_usages()
+print(f"Remaining uses count: {remaining_uses_count}")
+free_access_papers = client.sync_get_free_access_papers()
+print(f"Free access papers: {free_access_papers}")
+graph = client.get_graph_sync(DEEPFRUITS_PAPER_ID)
+assert graph.graph_json.start_id == DEEPFRUITS_PAPER_ID
+```
+See more on the [usage samples](https://github.com/ConnectedPapers/connectedpapers-py/tree/master/usage_samples) directory.
+
