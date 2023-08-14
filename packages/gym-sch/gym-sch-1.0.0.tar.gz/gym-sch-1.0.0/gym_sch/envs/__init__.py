@@ -1,0 +1,1 @@
+from .truck_schedule_v6 import TruckScheduleEnv
