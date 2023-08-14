@@ -1,0 +1,15 @@
+ass_autoclip/FrameSlider.qml,sha256=Yd7y7WbKolOJN92HnrW8z2G7ajzymxmd9A1e3wDyvlQ,1823
+ass_autoclip/Hamburger.qml,sha256=_Yhe2fhE6wR1tumjrZe_I-X78m3B5c55i57FUgjPATU,534
+ass_autoclip/ValueSlider.qml,sha256=vSM2w-EapN1uqvst7WKPmYJU97UgPwjtHjgFlC97QIo,3119
+ass_autoclip/__init__.py,sha256=_2Iio5pHVMeXRQdg6J4Ajqmk0WJ2dAv94fkFxah8xkI,151
+ass_autoclip/__main__.py,sha256=gUjBrrCAEigsLYW8_qqmXRpEtuyMyVy1oXYtcOJNpeY,1386
+ass_autoclip/autoclip.py,sha256=RCaBcCeXFhjkdyTWnrYQr-n26QiUye2MbNITGESpK7Y,12902
+ass_autoclip/autoclip.qml,sha256=RteIcQpCByqAwoYnyan7uyd3UdDJPsAqkIcz98LG96o,14797
+ass_autoclip/base.py,sha256=IGTxCw8sPrNlOkJLyQQSPr3R-SB8siPaWRpIHlXuN48,2151
+ass_autoclip/magic.py,sha256=4iSI3yCnexnro4eqtextA-XnqBhxvBe2rJWoOL-XQUE,7765
+ass_autoclip/assets/LICENSE.OFL.txt,sha256=hXyc_pnamxyzEyNIhdCQn002VFQQu25ta5RDQNEzHZE,4444
+ass_autoclip/assets/NotoSansDisplay-Medium.ttf,sha256=o8R3sMLSUShrGuYLGGIrbfR8cjlAu8ITJ9N6ni4wME4,359156
+ass_autoclip-2.0.1.dist-info/METADATA,sha256=eMTMoN0gITF7qj95ooOegjbOXc-tEGTN_h5bVLEyk4U,3251
+ass_autoclip-2.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+ass_autoclip-2.0.1.dist-info/licenses/LICENSE,sha256=C9z0CozTN3rmkyVKd_mdFpRfIMlrzh2Isx6FSzOM04k,1545
+ass_autoclip-2.0.1.dist-info/RECORD,,
