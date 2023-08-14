@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+dialog_workflow_local.egg-info/PKG-INFO
+dialog_workflow_local.egg-info/SOURCES.txt
+dialog_workflow_local.egg-info/dependency_links.txt
+dialog_workflow_local.egg-info/top_level.txt
