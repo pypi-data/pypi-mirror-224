@@ -1,0 +1,40 @@
+# Welcome to DataSet-Fetcher documentation!
+
+## Introduction:
+This package has one mission: to make fetching diverse dataset stats a breeze, perfect for insightful Analytics.
+
+## QuickStart:
+
+To start with dataset_fetcher run:
+
+```python
+pip install dataset_fetcher
+```
+
+## Usage:
+This package is specifically designed for fetching datasets from public GitHub repositories, which are shared within my own project's dataset purposes. Users of this package will no longer need to manually copy and paste datasets from various sources. In the future, I plan to integrate functionalities such as the Kaggle API, web scraping API, and connections to different databases. Many more functionalities will be added to this package.
+
+To Fetch the data, use the datafetcher class as below:
+
+```python
+import DataFetcher
+
+# Fetch a dataset from the list of available datasets.
+print(DataFetcher.dataset())
+```
+
+```python
+import DataFetcher
+
+# Fetch a dataset by specifying its name
+# print(DataFetcher.dataset('datset_name'))
+dataframe = DataFetcher.dataset('AustralianElections')
+print(dataframe)
+```
+<br>
+<br>
+Check out my YouTube channel for more innovative projects: https://www.youtube.com/@dataisenough
+
+Reach out to us for any queries at dataisenough@gmail.com
+
+Thank you for choosing dataset_fetcher!

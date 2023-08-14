@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+DataFetcher/src/dataset_fetcher.egg-info/PKG-INFO
+DataFetcher/src/dataset_fetcher.egg-info/SOURCES.txt
+DataFetcher/src/dataset_fetcher.egg-info/dependency_links.txt
+DataFetcher/src/dataset_fetcher.egg-info/requires.txt
+DataFetcher/src/dataset_fetcher.egg-info/top_level.txt
+DataFetcher/src/DataFetcher.py
+DataFetcher/src/dataset_fetcher.egg-info/SOURCES.txt
