@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: multi-text-input
+Version: 0.0.1
+Summary: A simple component used to input multiple texts
+Home-page: UNKNOWN
+Author: Paul Dechorgnat <paul.dechorgnat@gmail.com>
+License: MIT
+Platform: UNKNOWN
+Classifier: Framework :: Dash
+License-File: LICENSE
+
+UNKNOWN
+

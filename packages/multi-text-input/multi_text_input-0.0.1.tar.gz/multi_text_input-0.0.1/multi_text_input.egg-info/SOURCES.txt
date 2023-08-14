@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+package.json
+setup.py
+multi_text_input/MultiTextInput.py
+multi_text_input/__init__.py
+multi_text_input/_imports_.py
+multi_text_input/metadata.json
+multi_text_input/multi_text_input.min.js
+multi_text_input/multi_text_input.min.js.map
+multi_text_input/package-info.json
+multi_text_input.egg-info/PKG-INFO
+multi_text_input.egg-info/SOURCES.txt
+multi_text_input.egg-info/dependency_links.txt
+multi_text_input.egg-info/top_level.txt
