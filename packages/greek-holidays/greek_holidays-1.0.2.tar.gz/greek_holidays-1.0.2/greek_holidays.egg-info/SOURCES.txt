@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+greek_holidays/__init__.py
+greek_holidays/holidays.py
+greek_holidays.egg-info/PKG-INFO
+greek_holidays.egg-info/SOURCES.txt
+greek_holidays.egg-info/dependency_links.txt
+greek_holidays.egg-info/top_level.txt
