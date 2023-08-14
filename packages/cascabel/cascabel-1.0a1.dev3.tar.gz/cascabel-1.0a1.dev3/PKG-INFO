@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: cascabel
+Version: 1.0a1.dev3
+Summary: Paquete creado para la agilización de creación de paginas con flask
+Author: Ignacio Aguilera Oyaneder
+Author-email: <ignacio.a.o@outlook.com>
+Keywords: python
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+# Cascabel
+
+Cascabel es un proyecto desarrollado principalmente para la agilizacion en la creaciÃ³n de paginas web mediantes el Framework **Flask** y librerias asociadas (_**Flask SqlAlchemy**_ y _**Flask WTF**_ )
+
+## Listado de comandos:
+| Comando extendido | AbreviaciÃ³n | 
+| -- | -- |
+| --help | -h |
+| --verify_libraries | -vl |
+| --new_project | -np |
+| --make_controller | -mc |
+| --make_crud_controller | -mcc |
+| --make_model | -mm |
+| --make_request | -mr |
+
+## Uso de comandos:
+
+~~~
+Creando cÃ³digos de bloque.
+Puedes aÃ±adir tantas lÃ­neas y pÃ¡rrafos como quieras.  
+~~~
+
+Para el uso de los comandos se pueden realizar de las siguientes maneras:
+
+Windows:
+```bash
+C:\Users\User\Desktop> cascabel ...
+C:\Users\User\Desktop> python -m cascabel ...
+```
+
+Linux:
+```shell
+xxxxx@xxxxx:~$ python -m cascabel ...
+```
+
+MacOS:
+```shell
+xxxxx@xxxxx ~ % python -m cascabel ...
+```
+
+### Estructura de comandos:
+
+Crear un nuevo projecto:
+
+```bash
+# UbiquÃ©monos en la carpeta donde quieras crear el proyecto.
+C:\Users\User\Desktop> cascabel --new_project project_name
+```
+
+Ejecutar proyecto:
+
+```bash
+# UbiquÃ©monos en la carpeta del proyecto.
+C:\Users\User\Desktop\project_name> python execute.py
+```
+
+Crear controlador:
+
+```bash
+# UbiquÃ©monos en la carpeta del proyecto.
+C:\Users\User\Desktop\project_name> cascabel --make_controller project_name
+```
+
+Crear controlador CRUD:
+
+```bash
+# UbiquÃ©monos en la carpeta del proyecto.
+C:\Users\User\Desktop\project_name> cascabel --make_crud_controller project_name
+```
+
+Crear modelo:
+
+```bash
+# UbiquÃ©monos en la carpeta del proyecto.
+C:\Users\User\Desktop\project_name> cascabel --make_model project_name
+```
+
+Crear Request:
+
+```bash
+# UbiquÃ©monos en la carpeta del proyecto.
+C:\Users\User\Desktop\project_name> cascabel --make_request project_name
+```
+
+
+Consultar comandos
+
+```bash
+cascabel --help
+```
+
+Observaciones: _Cascabel actualmente se encuentra bajo desarrollo, esto puede generar que las plantillas en futuras versiones no sean compatibles con las actuales._
