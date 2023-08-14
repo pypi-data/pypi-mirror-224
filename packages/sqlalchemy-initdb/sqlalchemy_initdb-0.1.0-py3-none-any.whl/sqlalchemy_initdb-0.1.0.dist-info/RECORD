@@ -1,0 +1,15 @@
+CHANGELOG.rst,sha256=RRPPHMbyLQrlfupvQuK-WxwhdtgwnZR38wawQnusCkg,1396
+CONTRIBUTING.md,sha256=V1rGMGZpiPdtw7pzRLmD3zT3LTy8fDT3QX7UBlCol3I,7579
+LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+README.rst,sha256=1BBsmmoAhG3SEBAjndXH2sXKcgnxU3yD898fXrGnTRY,5425
+pyproject.toml,sha256=0EC4oD6w02NYFujLxJUeVkiIUPw5ZFTCyvSkhwPN06A,4669
+sqlalchemy_initdb/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+sqlalchemy_initdb/__main__.py,sha256=Q9ctU8wZj3K5TxgIa4HWQVSND6ApwizvsausEEE4XXE,401
+sqlalchemy_initdb/cli.py,sha256=_Ll6hzADwVoMlBLYo8YlfC_QKAymfsv-WegqMtkKKKA,1339
+sqlalchemy_initdb/loaddata.py,sha256=F4g9mGuEOZ_2l9GDyv8iSPTv-dQeNI2mwVQDTTUr3L0,1562
+sqlalchemy_initdb/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sqlalchemy_initdb-0.1.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+sqlalchemy_initdb-0.1.0.dist-info/METADATA,sha256=3nrjefnzEvZSA5ZHdFGDtFmYF4Y9CAh2H2tPttSRDVM,8161
+sqlalchemy_initdb-0.1.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+sqlalchemy_initdb-0.1.0.dist-info/entry_points.txt,sha256=bAYUaqm_WFRhT_J0m9smA6mVO1Ta6xrRNjln_ryGtAU,64
+sqlalchemy_initdb-0.1.0.dist-info/RECORD,,

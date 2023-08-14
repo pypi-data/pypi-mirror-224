@@ -1,0 +1,3 @@
+[console_scripts]
+sqlalchemy-initdb=sqlalchemy_initdb.cli:main
+
