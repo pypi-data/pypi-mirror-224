@@ -1,0 +1,14 @@
+cdot/__init__.py,sha256=UxnQAXzDPJZuaLoq8g8FLxiHddtEAERxrIp_ZPeN6BI,243
+cdot/assembly_helper.py,sha256=EXFVlFz41VBxREtcJMvhw61jQUSnjS61A5pj1lbrMRU,1759
+cdot/json_encoders.py,sha256=fidAvom3vWEvcZCIgT7_8ijc3HVe5f5IDW7REV56uJM,284
+cdot/hgvs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cdot/hgvs/dataproviders/__init__.py,sha256=Pos2H2mf85XOEA42B1RAPHi48rUpYwFWPovntOjcBNI,66
+cdot/hgvs/dataproviders/fasta_seqfetcher.py,sha256=o0xY-3UlV2ecuhlrJ0nqpzAia08J5OR_TYXulX0A0TA,5886
+cdot/hgvs/dataproviders/json_data_provider.py,sha256=96KIK8KMizp7VL9fJltrVJ3iFQo5GsgOhwc9TUy4YLw,17504
+cdot/pyhgvs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cdot/pyhgvs/pyhgvs_transcript.py,sha256=q44HFmP1wnquX5XHjIPpYK7ry2oNvLlLtdiO-4e0pQU,5057
+cdot-0.2.21.dist-info/LICENSE,sha256=N36KKmHMXd94wG2bfF4Cb4nV4V8fjYBlsTT5IkIw098,1062
+cdot-0.2.21.dist-info/METADATA,sha256=KErM07MbEjhNHtSLo74prHwR8gISJs0g8VGUtL7jZiE,4180
+cdot-0.2.21.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+cdot-0.2.21.dist-info/top_level.txt,sha256=9wHPf1R1bWUOH3AzykUR5KfItclPpl1gWZeVkyodE9M,5
+cdot-0.2.21.dist-info/RECORD,,
