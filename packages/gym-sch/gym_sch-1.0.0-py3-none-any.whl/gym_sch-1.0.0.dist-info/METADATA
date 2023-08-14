@@ -1,0 +1,119 @@
+Metadata-Version: 2.1
+Name: gym-sch
+Version: 1.0.0
+Summary: An OpenAI Gym Env for Pandas
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: gym
+
+# 基于simpy的仿真调度环境
+## 功能介绍
+
+本系统将露天矿山环境中的物料运输网络建模为双向二部图网络，通过高效的车辆分配，来实现吞吐量、工作时间等各种关键性能指标的优化。如下图所示，露天采矿运输系统包括两种主要设备类型：矿车和铲车。调度问题需要将车辆$r_i$分配到装载点并由铲车$s_j$进行装载。然后矿车将物料（即矿石或废物）运输到卸载点$d_k$。在完成装载或卸载后，车辆向调度员请求调度指令，调度员分别为车辆指定一个卸载点或一把铲子作为下一个目的地。车辆行程$<r_i，s_j，d_k>$为卸载点和铲子之间的一个循环。
+
+<img src="indicate.jpg" style="zoom:20%;" />
+
+仿真环境可模拟车辆空载行驶、重载行驶、排队等待、装载及卸载等活动，并提供作业期间的累计产量信息。
+系统奖励信息为当前动作指派的车辆完成一个完整的装卸载循环时间 $w$ 的负指数函数。直觉上，较短的行程时间使车辆能够在同一时间段内执行更多的行程，因此奖励值应该越大。
+
+
+<img src="alg.jpg" style="zoom:40%;" />
+
+
+
+## 如何使用
+安装
+```shell script
+pip install gym_sch
+```
+简单用例
+```python
+
+import gym
+import gym_sch
+import json
+import numpy as np
+
+print(f'gym version: {gym.__version__}')
+
+# 系统参数
+para_config = {
+  "seed": 20,
+  "shovels": 8,
+  "dumps": 6,
+  "rout_distance": [[2.41,   6.51,  10.86, 11.16,  7.94,   11.58,  14.7,  6.7],
+           [10.82,  8.07,  5.05,  1.66,   11.51,  2.87,   11.4,  11.11],
+           [6.28,   2.79,  10.48, 9.59,   10.41,  11.42,  3.96,  5.17],
+           [9.06,   9.4,   10.1,  13.93,  5.97,   10.25,  5.33,  5.46],
+           [13.23,  12.14, 5.95,  10.7,   7.21,   3.89,   14.65, 7.87],
+           [14.63,  4.01,  10.77, 6.11,   13.76,  6.08,   12.73, 12.9]],
+  "horizon": 480,
+  "payload": 220,
+  "truck_num": 60,
+  "load_capacity": [2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000],
+  "unload_capacity": [2375, 2375, 2375, 2375, 2375, 2375],
+  "shovel_idle_power": [6.6, 9.5, 9.5, 6.6, 6.6, 9.5, 9.5, 6.6],
+  "shovel_work_power": [117, 130, 130, 117, 117, 130, 130, 117],
+  "dump_target_mass": [15000, 15000, 15000, 15000, 15000, 15000],
+  "shovel_target_mass": [15000, 15000, 15000, 15000, 15000, 15000, 15000, 15000]
+}
+
+# 设置随机种子
+np.random.seed(para_config["seed"])
+
+# 获取仿真环境并初始化
+env = gym.make('sch-v6')
+env.para_set(para_config)
+env.reset(False)
+
+done_n = False
+episode = 0
+
+# 默认运输时间为仿真时间 480min 
+while not done_n:
+    episode = episode + 1
+    # 动作为 [0, shovels+dumps) 区间内的离散值, 其中shovels为挖机数量，dumps为卸点数量
+    action = env.action_space.sample()
+    print(f'Choose Action {action}')
+    '''
+    依次返回
+    生产状态信息(array(float)), 
+    奖励信息(float), 
+    班次是否结束(bool), 
+    过程信息(dict), 
+    累计产量(array(float)), ...
+    '''
+    obs_n, reward_n, done_n, info, mass, _, _ = env.step(action)
+env.close()
+```
+
+## 详细参数说明
+
+`horizon`: 系统运行时间，到此时间系统自动中断；\
+`shovels`: 装载（挖掘）设备数量；\
+`dumps`: 卸载设备数量；\
+`truck_num`: 矿车数量；\
+`rout_distance`: `shovels` $\times$ `dumps` 的路网矩阵（千米）；\
+`payload`: 车辆有效载荷（吨）； \
+`load_capacity`: 装载设备装载能力（吨\时）；\
+`unload_capacity`: 卸载设备卸载能力（吨\时）；\
+`dump_target_mass`: 卸载点目标产量（吨）； \
+`shovel_target_mass`: 装载点目标产量（吨）；\
+`shovel_idle_power`: 装载设备空闲油耗；\
+`shovel_work_power`: 装载设备工作油耗；
+
+
+对于利用这项工作的研究人员，请引用以下文章：
+
+`
+X. Zhang, A. Guo, Y. Ai, B. Tian and L. Chen, "Real-Time Scheduling of Autonomous Mining Trucks via Flow Allocation-Accelerated Tabu Search," in IEEE Transactions on Intelligent Vehicles, vol. 7, no. 3, pp. 466-479, Sept. 2022, doi: 10.1109/TIV.2022.3166564.`
+
+`X. Zhang, L. Chen, Y. Ai, B. Tian, D. Cao and L. Li, "Scheduling of Autonomous Mining Trucks: Allocation Model Based Tabu Search Algorithm Development," 2021 IEEE International Intelligent Transportation Systems Conference (ITSC), Indianapolis, IN, USA, 2021, pp. 982-989, doi: 10.1109/ITSC48978.2021.9564491.`
+
+
+
+
+
+
