@@ -1,0 +1,1 @@
+# open cmd and run ic
