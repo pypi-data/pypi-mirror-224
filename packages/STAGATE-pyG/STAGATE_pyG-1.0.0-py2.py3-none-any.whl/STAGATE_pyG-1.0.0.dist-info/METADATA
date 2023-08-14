@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: STAGATE-pyG
+Version: 1.0.0
+Home-page: https://github.com/QIFEIDKN/STAGATE
+Author: Kangning Dong
+Author-email: dongkangning16@mails.ucas.ac.cn
+License: MIT
+License-File: LICENSE
+Requires-Dist: requests
+
