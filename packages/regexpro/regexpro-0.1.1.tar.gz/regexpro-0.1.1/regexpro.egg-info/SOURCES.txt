@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+regexpro/__init__.py
+regexpro/validate.py
+regexpro.egg-info/PKG-INFO
+regexpro.egg-info/SOURCES.txt
+regexpro.egg-info/dependency_links.txt
+regexpro.egg-info/top_level.txt
