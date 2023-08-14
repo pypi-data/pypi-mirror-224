@@ -1,0 +1,11 @@
+dkdc/__init__.py,sha256=sT4-oMIWVzeP9Brkw-2ZataQn265yJWDDxLD-KZVFNY,28
+dkdc/__main__.py,sha256=8VO2dsYIeMFHd3e8goEd7u0Xi8Us3zDKlf8RByFODBE,45
+dkdc/ai.py,sha256=r0QJvvcX49UYmSiM3yEhTWRorTlqG-kk3BGh0jFnuKA,8053
+dkdc/main.py,sha256=fMofk-aYg4q9AA38UazEYdvOUMdGDWb2psuwplZ-tFI,1254
+dkdc/poker.py,sha256=xNcQsh_PRwgOXN7zFC3SKFzWxTCzZZkGMeCC4QouRPo,519
+dkdc/resize.py,sha256=S2uj2eR0GTMyx7i2-BFitsNbJuZtMe9EOoRIJQBPeMU,902
+dkdc-0.0.26.dist-info/METADATA,sha256=wkm6SIj59SiqUOoOGjiQ0I-3dOxyInyWT1J_tu316pg,724
+dkdc-0.0.26.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+dkdc-0.0.26.dist-info/entry_points.txt,sha256=2xWMP3PkhqTNsxyhiEcR1_-gFUKE0Nj61IqiMldZlbE,39
+dkdc-0.0.26.dist-info/licenses/LICENSE,sha256=JI7scmwZKNFl859I8UbdX_vsbdSgzIOdrtgqng_mYF0,1048
+dkdc-0.0.26.dist-info/RECORD,,
