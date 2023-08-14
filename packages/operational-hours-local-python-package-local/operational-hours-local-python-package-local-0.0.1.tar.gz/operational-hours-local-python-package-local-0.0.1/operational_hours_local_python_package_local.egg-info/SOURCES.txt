@@ -1,0 +1,6 @@
+README.md
+setup.py
+operational_hours_local_python_package_local.egg-info/PKG-INFO
+operational_hours_local_python_package_local.egg-info/SOURCES.txt
+operational_hours_local_python_package_local.egg-info/dependency_links.txt
+operational_hours_local_python_package_local.egg-info/top_level.txt
