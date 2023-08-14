@@ -1,0 +1,10 @@
+connector/MySQL.py,sha256=Yc1FfJI6MLuas08cqAJBARz_TTRV9lHNViYLqDYCMwU,5895
+connector/__init__.py,sha256=iCWrwWOTePyUigXbIQJey36zS2arqq5Q04unlchFuPw,282
+connector/replicadb.py,sha256=9Mjx7baPSrSrGVbEGB9IecHgjjnoDwOpPLsqG9RPoeU,10286
+google/BQ.py,sha256=vGdp69ZcOo-7Xz3v_NNqyQCThIb3mrKeE1GWXfMECqw,6839
+google/__init__.py,sha256=be5NDiY4Vpv2Xz9EPxdKvRXiDeEb2OfP_vBEw4rhdJs,270
+google/gsheet.py,sha256=-zcPJX6UwifNtb27j9h_2kxbdI363U7yJ-fmTYAcOWo,7120
+askquinta-0.1.1.dist-info/METADATA,sha256=ZcMBCWtOjaPZ2QT7WSRfUkbJ2H12loYcQDloF8QGPIw,928
+askquinta-0.1.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+askquinta-0.1.1.dist-info/top_level.txt,sha256=lAn7uzP74JfLs1yCet9IslYQ31VY-AydzJx3i_vUNXE,17
+askquinta-0.1.1.dist-info/RECORD,,
