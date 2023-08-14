@@ -1,0 +1,7 @@
+.venv/
+venv/
+dist/
+.idea/
+__pycache__/
+app.py
+/db.sqlite
