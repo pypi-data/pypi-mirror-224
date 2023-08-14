@@ -1,0 +1,2 @@
+from django_relations.managers import DjangoRelationsManager
+from django_relations.models import AbstractDefaultClass
