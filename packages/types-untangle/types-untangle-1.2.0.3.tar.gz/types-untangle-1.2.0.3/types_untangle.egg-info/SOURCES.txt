@@ -1,0 +1,9 @@
+CHANGELOG.md
+MANIFEST.in
+setup.py
+types_untangle.egg-info/PKG-INFO
+types_untangle.egg-info/SOURCES.txt
+types_untangle.egg-info/dependency_links.txt
+types_untangle.egg-info/top_level.txt
+untangle-stubs/METADATA.toml
+untangle-stubs/__init__.pyi
