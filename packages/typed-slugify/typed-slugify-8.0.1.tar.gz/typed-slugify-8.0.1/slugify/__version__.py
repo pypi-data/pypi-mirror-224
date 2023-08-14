@@ -1,0 +1,8 @@
+__title__ = 'typed-slugify'
+__author__ = 'Jamison Lahman'
+__author_email__ = 'jamison@lahman.dev'
+__description__ = 'A Python slugify application that also handles Unicode'
+__url__ = 'https://github.com/jmelahman/typed-slugify'
+__license__ = 'MIT'
+__copyright__ = 'Copyright 2022 Val Neekman @ Neekware Inc.'
+__version__ = '8.0.1'
