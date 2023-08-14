@@ -1,0 +1,5 @@
+curve
+plane
+shell
+shps
+solid

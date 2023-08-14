@@ -1,0 +1,8 @@
+pyproject.toml
+setup.py
+src/shps/__init__.py
+src/shps.egg-info/PKG-INFO
+src/shps.egg-info/SOURCES.txt
+src/shps.egg-info/dependency_links.txt
+src/shps.egg-info/entry_points.txt
+src/shps.egg-info/top_level.txt
