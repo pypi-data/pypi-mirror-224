@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: gflownets
+Version: 0.0.2
+Summary: A Python library for training and using Generative Flow Networks (GFlowNets)
+Home-page: https://github.com/marpaia/gflownets
+Author: Mike Arpaia
+Author-email: mike@arpaia.co
+License: MIT
+Keywords: machine learning
+Platform: UNKNOWN
+
+UNKNOWN
+
