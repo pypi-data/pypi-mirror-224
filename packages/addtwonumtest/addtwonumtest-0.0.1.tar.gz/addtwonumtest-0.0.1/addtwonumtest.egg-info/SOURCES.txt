@@ -1,0 +1,5 @@
+setup.py
+addtwonumtest.egg-info/PKG-INFO
+addtwonumtest.egg-info/SOURCES.txt
+addtwonumtest.egg-info/dependency_links.txt
+addtwonumtest.egg-info/top_level.txt
