@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: Facebook-Video-Downloader
+Version: 0.0.1
+Summary: Facebook Video Downloading via Python Library
+Author: Razi Ahmed Iqbal
+Author-email: <raziahmediqbal@gmail.com>
+Keywords: python,facebook,video,downloader,facebook video downloader,downlaod facebook videos
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: beautifulsoup4
+Requires-Dist: selenium
+
+
+# Facebook Video Downloader
+
+
+
+Under construction! Not ready for use yet! Currently experimenting and planning!
+
+
+
+Developed by Razi Ahmed Iqbal (c) 2023
