@@ -1,0 +1,10 @@
+airflowctl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+airflowctl/__main__.py,sha256=YbiKoYMZ1fmkfJ1TwQ5FV--J00Aye0VXVy1z2Xpu9rg,24780
+airflowctl/dags/example_dag_basic.py,sha256=fsUVH_8uISsZLyvWGF7ndWiImqV3bjdDs6t_DiOSUhU,2900
+airflowctl/scripts/add_connections.py,sha256=4_EfsFHpg4sU5d7qgiqmyjf0TYyS5V4kZPErm4aQuMU,3976
+airflowctl/scripts/add_variables.py,sha256=wM6uCCy4jFdcnTp8hQyGBCBK5rKnNUasYlvZeea3V9E,1279
+airflowctl-0.1.3.dist-info/LICENSE,sha256=UOZ1F5fFDe3XXvG4oNnkL1-Ecun7zpHzRxjp-XsMeAo,11324
+airflowctl-0.1.3.dist-info/METADATA,sha256=bwkkrUBYPvalxUm-IiSYgfszLvR5mr5vWFBywKGLCB0,6840
+airflowctl-0.1.3.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+airflowctl-0.1.3.dist-info/entry_points.txt,sha256=nolRK9aFO1eRj13ldm1yigMBbKtPeUOoENs2kFmQH60,54
+airflowctl-0.1.3.dist-info/RECORD,,
