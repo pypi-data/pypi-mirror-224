@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/sudachi_b_imitator_transformers/__init__.py
+src/sudachi_b_imitator_transformers/config.json
+src/sudachi_b_imitator_transformers/ma_imitator.py
+src/sudachi_b_imitator_transformers/model.pth
+src/sudachi_b_imitator_transformers.egg-info/PKG-INFO
+src/sudachi_b_imitator_transformers.egg-info/SOURCES.txt
+src/sudachi_b_imitator_transformers.egg-info/dependency_links.txt
+src/sudachi_b_imitator_transformers.egg-info/requires.txt
+src/sudachi_b_imitator_transformers.egg-info/top_level.txt
