@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: greek-holidays
+Version: 1.0.0
+Summary: A package to get Greek national holidays.
+Home-page: https://github.com/yourusername/greek-holidays-py
+Author: Yiannis Mertzanis
+Author-email: imertz@protonmail.com
+License: MIT
+Keywords: greek holidays
