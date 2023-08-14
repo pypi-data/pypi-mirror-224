@@ -1,0 +1,3 @@
+[console_scripts]
+vpic = visualpic.cli.vpic:vpic
+vpic3d = visualpic.cli.vpic3d:vpic3d
