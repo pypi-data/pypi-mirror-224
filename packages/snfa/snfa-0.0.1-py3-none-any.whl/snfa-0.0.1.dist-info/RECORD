@@ -1,0 +1,9 @@
+snfa/__init__.py,sha256=-qiAf5A0QLVlTFlOiOn4b-N0zlic-kOaxkFoJry5VmE,22
+snfa/aligner.py,sha256=_-3_Wx2bDz6RrE-mMdN_yAY3_CWIfAND8zYAIDfHKxE,5387
+snfa/stft.py,sha256=9SCSB2T3Fodf80bsyfzgX394cXoNQiDYmliYQyMLmOU,6897
+snfa/viterbi.py,sha256=DYd5d7IeSiWxGc6fY-iFpYTLvKKIMexE5xOTfsMND-g,3391
+snfa-0.0.1.dist-info/LICENCE,sha256=sTHM_Q79iaJDyGUXNUKjlIHXgV8xBfB_w9xHv7ZL9Qs,737
+snfa-0.0.1.dist-info/METADATA,sha256=-0zPVXar5irtRw41jYEE_vl-Kt9BeowY8MpGG8LTRf0,2531
+snfa-0.0.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+snfa-0.0.1.dist-info/top_level.txt,sha256=QqeS9ZRvgYPkli6Xt3UAe4IP4Zcsfw6LhQ50-DP5dig,5
+snfa-0.0.1.dist-info/RECORD,,
