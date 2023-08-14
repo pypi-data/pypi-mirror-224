@@ -1,0 +1,13 @@
+docsbot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+docsbot/base.py,sha256=Q3AkJ9gszhGy7U-U_aKpN6lGw4Dau7mKmJi_78EjeJ8,6378
+docsbot/cli.py,sha256=ojl-srjG_IyXl8_x19mXiUmMa7VOZSckzXQ9BhZTG2o,5958
+docsbot/config.py,sha256=JaNRlQ56tUj6grKXqJLJcDofEQKW8DU2FI1pRZdrLgQ,1761
+docsbot/ibot-click.py,sha256=RQlQv9I_LxSfwsbAZkfUy3mp5RCgCu-gnr3zh5DSmno,1058
+docsbot/ibot.py,sha256=EkayL-JPYQJqxyIJbEWmpUPD6um9QHNP9peB50boZWc,925
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_base.py,sha256=5_nbCTwqnZ-cVgIac1g2bZZDsP1dt9MB9R4NPuluA9g,1360
+docsbot-0.1.13.dist-info/METADATA,sha256=DMZjyKgpTNnyZnvAlXzbTsBuNRiGrhTvv2ARBmbZU2Y,5581
+docsbot-0.1.13.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+docsbot-0.1.13.dist-info/entry_points.txt,sha256=AXjW8fSj1gorqWM_Ap8tDLOntabaOwdks6r7yQ8fy6g,45
+docsbot-0.1.13.dist-info/top_level.txt,sha256=56zAmOI4la5VlGwHvqh54wvpCFfPYp8v-MH_Ysg40gM,14
+docsbot-0.1.13.dist-info/RECORD,,
