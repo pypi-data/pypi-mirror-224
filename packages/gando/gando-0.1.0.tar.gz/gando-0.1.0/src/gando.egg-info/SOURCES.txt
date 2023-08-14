@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/gando/__init__.py
+src/gando.egg-info/PKG-INFO
+src/gando.egg-info/SOURCES.txt
+src/gando.egg-info/dependency_links.txt
+src/gando.egg-info/top_level.txt
+src/gando/http/__init__.py
+src/gando/http/responses/__init__.py
