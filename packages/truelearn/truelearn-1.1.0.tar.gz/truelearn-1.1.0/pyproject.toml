@@ -1,0 +1,125 @@
+# pyproject.toml
+# See https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html
+# for more information about the pyproject.toml file.
+
+# Recommended Packaging Guide (for reference)
+# Run:
+# 1. `pip install --upgrade build` to install the build package.
+# 2. `python -m build` to build the package.
+# 3. `twine upload dist/*` to upload the package to PyPI.
+# Note: This is managed by the Python Publish GitHub Action
+
+[build-system]
+requires = ["setuptools>=60"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "truelearn"
+dynamic = ["version"]
+description = """A Machine learning library that models and predicts learner engagement
+                 with educational resources."""
+readme = "README.rst"
+requires-python = ">=3.7"
+keywords = ["machine learning", "python", "statistics", "probability"]
+license = { text = "MIT License" }
+authors = [
+    {name = "Sahanbull"},
+    {name = "KD-7"},
+    {name = "yuxqiu"},
+    {name = "deniselezi"},
+    {name = "aaneelshalman"},
+]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Development Status :: 5 - Production/Stable",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: MacOS",
+    "Operating System :: Unix",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Education",
+]
+dependencies = [
+    'typing-extensions>=4.7.1',
+    'trueskill>=0.4.5',
+    'mpmath>=1.3.0',
+    'circlify>=0.15.0',
+
+    # Bump these versions if we remove support for Python 3.7
+    'scikit-learn>=1.0.2',
+    'matplotlib>=3.5.3',
+
+
+    # We lock these dependencies because our usage
+    # might be broken by their updates. We want to
+    # manually update these dependencies.
+    'plotly==5.14.1',
+    "wordcloud==1.9.2",
+
+    # This is a temporary fix for kaleido hanging on image generation on Windows
+    # See: https://github.com/plotly/Kaleido/issues/110
+    # and: https://github.com/plotly/Kaleido/issues/134
+    "kaleido==0.1.0.post1; sys_platform == 'win32'",
+    "kaleido==0.2.1; sys_platform != 'win32'",
+]
+[project.urls]
+Homepage = "https://truelearnai.github.io/"
+Documentation = "https://truelearn.readthedocs.io/en/stable/"
+Issues = "https://github.com/TrueLearnAI/truelearn/issues"
+Source = "https://github.com/TrueLearnAI/truelearn"
+
+[tool.setuptools.dynamic]
+version = {attr = "truelearn.__version__"}
+
+[tool.setuptools.packages.find]
+include = ["truelearn*"]
+exclude = ["truelearn.tests*"]  # exclude tests from build artifacts
+
+# You install the optional dependencies by doing:
+# pip install truelearn[name_of_optional_dependency]
+# e.g. pip install truelearn[dev] will install the tests dependencies
+[project.optional-dependencies]
+tests = ["pytest>=7.2.1", "pytest-cov>=4.0.0", "pytest-socket>=0.6.0"]
+linters = ["prospector[with_bandit,with_mypy]==1.8.4"]
+docs = ["sphinx>=5.3.0", "furo>=2023.03.27","sphinx_copybutton>=0.5.1", "sphinx-gallery>=0.12.2", "Pillow>=9.4.0"]
+dev = ["truelearn[tests, linters, docs]","black>=22.12.0"]
+
+[tool.black]
+line-length = 88
+# Black doesnt yet support python 3.12
+target-version = ['py37', 'py38', 'py39', 'py310', 'py311']
+
+# Support for Prospector config in pyproject.toml is not yet released.
+# See: https://github.com/PyCQA/prospector/issues/376
+# When released move the config to the [tool.prospector] section from prospector.yml
+
+# ReadTheDocs have stated they wont support pyproject.toml config
+# See: https://github.com/readthedocs/readthedocs.org/issues/7065
+
+# Pytest config
+# See: https://docs.pytest.org/en/stable/customize.html
+[tool.pytest.ini_options]
+addopts = "--verbose --doctest-modules"
+testpaths = ["truelearn"]
+
+# Pytest-cov config (uses coverage.py)
+# See: https://pytest-cov.readthedocs.io/en/latest/config.html
+[tool.coverage.run]
+# Include branch coverage (as well as statement coverage)
+branch = true
+source = ["truelearn"]
+omit = ["**/tests/*"]
+
+# prospector.yaml doesn't support this yet
+[tool.bandit]
+# use of asserts detected
+# disable this because of tests
+skips = ["B101"]
