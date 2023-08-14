@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: lfpreviewer
+Version: 0.1.1
+Summary: Previewer for lfp
+License: GPLv3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Environment :: X11 Applications
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.6
