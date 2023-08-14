@@ -1,0 +1,16 @@
+django_silly_adminplus/__init__.py,sha256=Fb6D72xJtmIyc_qC5THmWlz0GqIrciCKVM-wLvi6LtI,87
+django_silly_adminplus/cmd.py,sha256=k1e1S5aTn4KFlRjlgOEkZK_O49qOI3zs6tCblIIH5cY,790
+django_silly_adminplus/config.py,sha256=B_OfISDOChsxUCh3liiNsrFcvK4iP2AgEgbBXJMj4vM,215
+django_silly_adminplus/urls.py,sha256=F1ErsgeVMvMcsvHPlKNUisRN5hZ4yNbVsrWsBf0bfgI,238
+django_silly_adminplus/views.py,sha256=QCtioe6yIuXqKuENoFw5s_VwGPSWH0ElyKy8HNoKlHA,296
+django_silly_adminplus/plop/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_silly_adminplus/plop/adminplus.html,sha256=Z_1suoD-5ZTEKjgOophD3Amn3BWRzcjj53ZMhU85wLA,1734
+django_silly_adminplus/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_silly_adminplus/templates/admin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_silly_adminplus/templates/admin/base.html,sha256=fg1aGWQpf9VGIZ3Rha-oJex40uW7gB1PzlJ-vdnWDz0,6529
+django_silly_adminplus-0.0.1.dist-info/LICENSE.md,sha256=p6WN6_tTaU0GZzZhGSQ93wDfzoT5wAkELRgqahLCVho,1072
+django_silly_adminplus-0.0.1.dist-info/METADATA,sha256=1V7QjQZEx6zIhCVR90J68iYs-_K-epzLcMfaYsncEpg,982
+django_silly_adminplus-0.0.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+django_silly_adminplus-0.0.1.dist-info/entry_points.txt,sha256=qnBsKkRs6A_orEALU-qvsCULHXqPHEFtB7EgjBpRj2E,75
+django_silly_adminplus-0.0.1.dist-info/top_level.txt,sha256=cTNVR-U5XsZvcJOoDPOSEvbKlMtL4r6YaSnJA6tVvQw,23
+django_silly_adminplus-0.0.1.dist-info/RECORD,,

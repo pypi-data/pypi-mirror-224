@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- favicon -->
+  <link rel="icon" href="">
+  <title>Admin +</title>
+  <!-- bulma -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <!-- bulma-toast -->
+  <script src="https://cdn.jsdelivr.net/npm/bulma-toast@2.4.2/dist/bulma-toast.min.js"></script>
+  <!-- vue.js 3 -->
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <!-- markdown converter to html (cdn) -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+
+<div id="app">
+
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-item">
+        <a href="{% url 'admin:index' %}" class="button">Back</a>
+      </div>
+      <div class="navbar-item">
+        <a class="title">Admin +</a>
+      </div>
+  </nav>
+    {% block messages %}
+    {% if messages %}
+      <ul class="messagelist">{% for message in messages %}
+        <li{% if message.tags %} class="message is-{{ message.tags }}"{% endif %}>{{ message|capfirst }}</li>
+      {% endfor %}</ul>
+    {% endif %}
+    {% endblock messages %}
+
+
+  <div class="content">
+    <!-- content here -->
+
+    <a href="">trucmuche</a>
+
+  </div>
+
+
+</div>
+
+
+</body>
+
+<script>
+  const { createApp } = Vue
+
+  createApp({
+    delimiter: ['[[', ']]'],
+    data() {
+      return {
+      }
+    },
+    computed: {
+    },
+    methods: {
+    }
+  }).mount('#app')
+</script>
+
+<style scoped>
+  html {
+    background-color: #6bd483;
+  }
+  .content {
+    margin: 5px;
+  }
+  .navbar {
+    background-color: #407f4f;
+    border-bottom: 1px solid #dbdbdb;
+  }
+
+
+
+</style>
+
+</html>
