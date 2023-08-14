@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: daisycc
+Version: 0.0.1
+Summary: Daisy Optimizing C/C++ Compiler Compiler based on LLVM and DaCe
+Home-page: https://daisytuner.com
+Author: Lukas Truemper
+Author-email: lukas.truemper@outlook.de
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: daisytuner >=0.2.3
+Requires-Dist: scop2sdfg >=0.0.1
+Requires-Dist: fire >=0.5.0
+Provides-Extra: dev
+Requires-Dist: black ==22.10.0 ; extra == 'dev'
+Requires-Dist: pytest >=7.2.0 ; extra == 'dev'
+Requires-Dist: pytest-cov >=4.1.0 ; extra == 'dev'
+
+Daisy Optimizing C/C++ Compiler Compiler based on LLVM and DaCe

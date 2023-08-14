@@ -1,0 +1,3 @@
+[console_scripts]
+daisycc = driver:main
+daisycc++ = driver:main
