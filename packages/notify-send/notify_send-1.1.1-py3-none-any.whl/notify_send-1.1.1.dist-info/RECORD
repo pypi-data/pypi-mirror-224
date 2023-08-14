@@ -1,0 +1,11 @@
+notify/__init__.py,sha256=mDrNve6CglTSMUo09nsMqO2YiXI5P88IlGxQyGC_EJQ,145
+notify/notification.py,sha256=RwAJB82jus3dW6Opr5ZyfbBIPhKUy-ZQ2y6zVHKzKGw,1462
+notify/linux/__init__.py,sha256=04qiGod0Ef_jnpLYkROAswNzy0-O92lLgh57Ip_j4sY,71
+notify/linux/notify.py,sha256=QA2zoUzwHNfCH3x6PT_c8CS8sQCcCEe_wJQv8y6VfZw,1113
+notify/win32/__init__.py,sha256=pQRPHpAIEX99SeOtGYn_03SuB823ZYvDuAn75W40_XI,71
+notify/win32/notify.py,sha256=TPeLB-58-zP553s_qgq4mIYVDUuSRw6oxY2QFmYBYmM,3335
+notify_send-1.1.1.dist-info/LICENSE,sha256=XmTACiHUh-jBVw_H6v5gV-QhosZR6jIeMnXyFLnxreo,1107
+notify_send-1.1.1.dist-info/METADATA,sha256=_ZrV0CXD9lzDHwGkNlL4AF9l1IIWt786rkCBHnyCsK8,2290
+notify_send-1.1.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+notify_send-1.1.1.dist-info/top_level.txt,sha256=Kk6_ellnkvCS1o5NMa6G2vRgPmvON-4lzi9zajDOUfI,7
+notify_send-1.1.1.dist-info/RECORD,,
