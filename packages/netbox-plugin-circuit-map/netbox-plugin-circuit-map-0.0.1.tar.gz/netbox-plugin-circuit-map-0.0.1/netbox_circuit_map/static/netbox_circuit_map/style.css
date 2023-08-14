@@ -1,0 +1,23 @@
+.text-toggle[aria-expanded=false] .text-expanded {
+  display: none;
+}
+.text-toggle[aria-expanded=true] .text-collapsed {
+  display: none;
+}
+
+.sidebar-site-tenant {
+  color: #6c757d;
+}
+
+.sidebar-site-address {
+  font-size: .9rem;
+  color: #6c757d;
+}
+
+.leaflet-sidebar > .close {
+  text-decoration: none
+}
+
+.sidebar-circuit-list li {
+  list-style-type: decimal;
+}
