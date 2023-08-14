@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+gps2gtfs/__init__.py
+gps2gtfs.egg-info/PKG-INFO
+gps2gtfs.egg-info/SOURCES.txt
+gps2gtfs.egg-info/dependency_links.txt
+gps2gtfs.egg-info/requires.txt
+gps2gtfs.egg-info/top_level.txt
