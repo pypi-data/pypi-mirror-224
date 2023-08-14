@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: atolibrary
+Version: 0.0.1
+Requires-Dist: Pillow (>=9.0.0)
+Requires-Dist: requests
+
