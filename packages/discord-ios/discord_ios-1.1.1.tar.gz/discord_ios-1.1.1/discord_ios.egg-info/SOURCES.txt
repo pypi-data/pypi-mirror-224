@@ -1,0 +1,8 @@
+README.md
+setup.py
+discord_ios/__init__.py
+discord_ios/identify.py
+discord_ios.egg-info/PKG-INFO
+discord_ios.egg-info/SOURCES.txt
+discord_ios.egg-info/dependency_links.txt
+discord_ios.egg-info/top_level.txt
