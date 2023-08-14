@@ -1,0 +1,8 @@
+PennyLane
+dwave-system
+gurobipy
+numpy
+pandas
+sympy
+tdqm
+wfcommons
