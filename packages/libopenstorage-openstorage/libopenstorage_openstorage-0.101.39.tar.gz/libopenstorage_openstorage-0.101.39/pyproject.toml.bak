@@ -1,0 +1,35 @@
+# See:
+# pip: https://packaging.python.org/en/latest/tutorials/packaging-projects/
+# hatch: https://hatch.pypa.io/latest/config/metadata/
+# hatch requirements.txt: https://github.com/repo-helper/hatch-requirements-txt
+
+[build-system]
+requires = ["hatchling", "hatch-requirements-txt"]
+build-backend = "hatchling.build"
+
+[project]
+name = "libopenstorage-openstorage"
+dynamic = ["version", "dependencies"]
+authors = [
+  { name="Luis Pabon Pure Storage", email="lpabon@purestorage.com" },
+]
+description = "OpenStorage SDK Python gRPC Client Library"
+readme = "README.md"
+requires-python = ">=3.7"
+include = ["openstorage"]
+license = "Apache-2.0"
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"License :: OSI Approved :: Apache Software License",
+	"Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://libopenstorage.github.io"
+"Source Code" = "https://github.com/libopenstorage/openstorage-sdk-clients"
+
+[tool.hatch.version]
+path = "openstorage/__about__.py"
+
+[tool.hatch.metadata.hooks.requirements_txt]
+file = ["requirements.txt"]
