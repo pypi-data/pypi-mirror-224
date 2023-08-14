@@ -1,0 +1,6 @@
+README.md
+setup.py
+signup_sdk.egg-info/PKG-INFO
+signup_sdk.egg-info/SOURCES.txt
+signup_sdk.egg-info/dependency_links.txt
+signup_sdk.egg-info/top_level.txt
