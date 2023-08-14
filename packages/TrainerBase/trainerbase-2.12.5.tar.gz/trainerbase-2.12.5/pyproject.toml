@@ -1,0 +1,46 @@
+[project]
+name = "TrainerBase"
+version = "2.12.5"
+description = "Framework for creating game trainers/mods"
+authors = [
+    { name = "v01d", email = "v01d@v01d.ru" },
+    { name = "doomayka", email = "zd@doomayka.ru" },
+]
+requires-python = ">=3.11"
+readme = "README.md"
+dependencies = [
+    "pymem>=1.12.0",
+    "dearpygui>=1.9.1",
+    "keyboard>=0.13.5",
+    "pyttsx3>=2.90",
+]
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+homepage = "https://gitlab.com/python-trainers/trainer-base"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.black]
+target-version = [
+    "py311",
+]
+line-length = 120
+
+[tool.pdm.build]
+includes = [
+    "fasm/",
+    "trainerbase/",
+]
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "black>=23.7.0",
+    "pylint>=2.17.5",
+]
