@@ -1,0 +1,2 @@
+class KabupyError(Exception):
+    pass
