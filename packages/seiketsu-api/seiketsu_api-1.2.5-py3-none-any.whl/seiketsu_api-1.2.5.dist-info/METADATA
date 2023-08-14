@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: seiketsu-api
+Version: 1.2.5
+Summary: A Python library to interact with a chat API
+Home-page: https://github.com/yourusername/my-json-package
+Author: LoLip_p
+Author-email: mr.timon51@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# Example Package
+
+This is the API library for my chat: seiketsu.
+
+pip install google-cloud-firestore
+
+nonstable
