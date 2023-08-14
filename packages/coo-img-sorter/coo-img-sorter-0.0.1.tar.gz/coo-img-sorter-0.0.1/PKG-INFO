@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: coo-img-sorter
+Version: 0.0.1
+Summary: 多种图片分类工具脚手架
+Home-page: https://github.com/xcenweb/coo-img-sorter
+Author: xcenweb
+Author-email: xcenweb@qq.com
+License: MIT
+Description: # imgSorter
+        一个pypi实践项目，目的是提供多种图片分类脚手架
+        
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown

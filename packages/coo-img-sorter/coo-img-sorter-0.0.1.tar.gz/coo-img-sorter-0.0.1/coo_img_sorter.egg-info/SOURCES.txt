@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+coo_imgSorter/RGBs.py
+coo_imgSorter/Similarity.py
+coo_imgSorter/__init__.py
+coo_imgSorter/util/__init__.py
+coo_imgSorter/util/file.py
+coo_imgSorter/util/image.py
+coo_img_sorter.egg-info/PKG-INFO
+coo_img_sorter.egg-info/SOURCES.txt
+coo_img_sorter.egg-info/dependency_links.txt
+coo_img_sorter.egg-info/requires.txt
+coo_img_sorter.egg-info/top_level.txt
