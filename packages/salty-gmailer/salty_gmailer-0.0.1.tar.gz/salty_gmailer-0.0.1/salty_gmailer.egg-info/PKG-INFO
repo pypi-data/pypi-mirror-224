@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: salty-gmailer
+Version: 0.0.1
+Summary: A python package to manage and automate your personal Gmail account.
+Author-email: Ryan Long <ryanlong1004@gmail.com>
+Project-URL: Homepage, https://github.com/ryanlong1004/gmailer
+Project-URL: Bug Tracker, https://github.com/ryanlong1004/gmailer/issues
+Keywords: gmail,email automation
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE.md
+
+# Salty Gmailer
+
+## TODO - Add Tox
