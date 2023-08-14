@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: abedy-gitlab-client
+Version: 0.2.0
+Summary: A bespoke version of a python Gitlab API client
+License: MIT
+Author: Abedy Ng'ang'a
+Author-email: abedy.nganga@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: black (>=23.7.0,<24.0.0)
+Requires-Dist: python-decouple (>=3.8,<4.0)
+Description-Content-Type: text/markdown
+
+## Gitlab Client
+
+This package provides the ability to communicate with the Gitlab API to access groups and project details based on a given `API_TOKEN`. 
+
+Some more updated docs will follow soon.
