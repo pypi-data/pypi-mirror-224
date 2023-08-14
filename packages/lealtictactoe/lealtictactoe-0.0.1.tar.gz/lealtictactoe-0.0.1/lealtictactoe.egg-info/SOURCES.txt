@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+lealtictactoe/__init__.py
+lealtictactoe/main.py
+lealtictactoe.egg-info/PKG-INFO
+lealtictactoe.egg-info/SOURCES.txt
+lealtictactoe.egg-info/dependency_links.txt
+lealtictactoe.egg-info/top_level.txt

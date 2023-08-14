@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: lealtictactoe
+Version: 0.0.1
+Summary: Uma IA para nunca perder no jogo da velha
+Author: José Rodolfo
+Author-email: silvaleal.ctt@gmail.com
+License: MIT License
+Keywords: lealtictactoe
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# LealTicTacToe | IA para dificultar a vida do jogador em um jogo da velha.
