@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: macrocorr
+Version: 0.0.1
+Summary: a Python package for analyzing the correlation between macroeconomic indicators and time-series data
+Home-page: https://github.com/SeoliKim/macroecon
+Download-URL: https://github.com/user/reponame/archive/v_01.tar.gz
+Author: Seoli Kim
+Author-email: seolikim1225@gmail.com
+License: MIT
+Keywords: economics,correlation,time-series
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy (>=1.23.5)
+Requires-Dist: pandas (>=1.5.2)
+Requires-Dist: matplotlib (>=3.7.2)
+Requires-Dist: scipy (>=1.11.1)
+Requires-Dist: yfinance (>=0.2.26)
+Requires-Dist: wbgapi (>=1.0.12)
+
+# macroecon
+
+Macrocorr is a Python package for analyzing the correlation between macroeconomic indicators and time-series data
+
+## Installation
+
+The latest stable release (and required dependencies) can be installed from [pip](https://pip.pypa.io/en/stable/).
+
+```bash
+pip install macroecon
+```
+
+## Usage
+
+```python
+import foobar
+
+# returns 'words'
+foobar.pluralize('word')
+
+# returns 'geese'
+foobar.pluralize('goose')
+
+# returns 'phenomenon'
+foobar.singularize('phenomena')
+```
+
+## Contributing
+
+Development takes place on Github: https://github.com/SeoliKim/macrocorr
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.s
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
