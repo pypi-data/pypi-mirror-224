@@ -1,0 +1,72 @@
+[tool.poetry]
+
+name = "jsonmask_ng"
+version = "0.3.0"
+description = "Implements the Google Partial Response protocol in Python"
+
+license = "MIT"
+
+authors = ["Juan Garcia Longaron <juan.mobilife@gmail.com>", "Craig Labenz <craig.labenz@gmail.com>"]
+
+readme = "README.md"
+
+documentation = "https://github.com/juanyque/jsonmask_ng/blob/master/README.md"
+repository = "https://github.com/juanyque/jsonmask_ng"
+
+keywords = [
+    "jsonmask_ng",
+    "jsonmask",
+    "json",
+    "google partial response",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 2",
+    "Programming Language :: Python :: 2.7",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+]
+
+[tool.poetry.dependencies]
+
+python = "~2.7 || ~3.7"
+
+[tool.poetry.dev-dependencies]
+
+
+# Linters
+isort = "*"
+pylint = "*"
+pycodestyle = "*"
+pydocstyle = "*"
+snowballstemmer = "*" # missing dependency for pydocstyle
+
+# Testing
+pytest = "^3.3"
+pytest-describe = "*"
+pytest-expecter = "*"
+pytest-random = "*"
+pytest-cov = "*"
+freezegun = "*"
+minilog = "~0.4"
+
+# Reports
+coveragespace = "*"
+
+# Documentation
+mkdocs = "<1.0"
+pygments = "*"
+
+# Build
+pyinstaller = "*"
+
+# Tooling
+sniffer = "*"
+MacFSEvents = { version = "*", platform = "darwin" }
+pync = { version = "*", platform = "darwin" }
+
+# Fixing issues
+pyyaml = "!=5.4.0,!=5.4.1"
