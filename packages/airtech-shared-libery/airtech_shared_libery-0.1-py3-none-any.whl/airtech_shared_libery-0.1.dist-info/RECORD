@@ -1,0 +1,9 @@
+sl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sl/postgresql_adpter.py,sha256=30SMdtOjNtm1N5G5myAhgLpXZerLUtAf9Uru0WS1Ovk,3375
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/sl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/sl/test_postgresql_adpter.py,sha256=vVJZC8wpA2EryZ5JnBlGsDWp9I3AbWHyfmj0lJ1DzgA,6394
+airtech_shared_libery-0.1.dist-info/METADATA,sha256=GA8LZocyTzSHsy1v7NRceZ0btP8ZImd1zAIcU2R4SLI,3902
+airtech_shared_libery-0.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+airtech_shared_libery-0.1.dist-info/top_level.txt,sha256=DGUN99SigAhHATLaClJ5wk2hIkPQPh0CgJc4N50NIM8,8
+airtech_shared_libery-0.1.dist-info/RECORD,,
