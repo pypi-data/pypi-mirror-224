@@ -1,0 +1,10 @@
+LICENCE.txt
+README.txt
+setup.py
+FastStatic/FastStatic.py
+FastStatic/__init__.py
+FastStatic.egg-info/PKG-INFO
+FastStatic.egg-info/SOURCES.txt
+FastStatic.egg-info/dependency_links.txt
+FastStatic.egg-info/requires.txt
+FastStatic.egg-info/top_level.txt
