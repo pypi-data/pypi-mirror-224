@@ -1,0 +1,2 @@
+[console_scripts]
+aggin = aggin.shell:run
