@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-boardgame-maker = napari_boardgame_maker:napari.yaml
