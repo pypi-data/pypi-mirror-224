@@ -1,0 +1,125 @@
+"""Executor module, implementing facilities for executing quantum programs using Classiq platform."""
+
+from typing import Optional, Tuple, Union
+
+from typing_extensions import TypeAlias
+
+from classiq.interface.backend.backend_preferences import BackendPreferencesTypes
+from classiq.interface.chemistry.operator import PauliOperators
+from classiq.interface.executor.aws_execution_cost import (
+    ExecutionCostForTimePeriod,
+    ExecutionCostForTimePeriodResponse,
+)
+from classiq.interface.executor.estimation import OperatorsEstimation
+from classiq.interface.executor.execution_preferences import ExecutionPreferences
+from classiq.interface.executor.execution_request import (
+    EstimateOperatorsExecution,
+    ExecutionRequest,
+    ResultsCollection,
+    SavedResult,
+)
+from classiq.interface.executor.quantum_instruction_set import QuantumInstructionSet
+from classiq.interface.executor.quantum_program import MultipleArguments, QuantumProgram
+from classiq.interface.executor.result import ExecutionDetails
+from classiq.interface.generator.generated_circuit import GeneratedCircuit
+
+from classiq._internals.api_wrapper import ApiWrapper
+from classiq._internals.async_utils import syncify_function
+from classiq.model.model import DEFAULT_RESULT_NAME
+from classiq.synthesis import SerializedQuantumProgram
+
+BatchExecutionResult: TypeAlias = Union[ExecutionDetails, BaseException]
+ProgramAndResult: TypeAlias = Tuple[QuantumProgram, BatchExecutionResult]
+BackendPreferencesProgramAndResult: TypeAlias = Tuple[
+    BackendPreferencesTypes, QuantumProgram, BatchExecutionResult
+]
+
+
+async def get_aws_execution_cost_async(
+    cost_time_period: ExecutionCostForTimePeriod,
+) -> ExecutionCostForTimePeriodResponse:
+    return await ApiWrapper.get_aws_execution_costs(cost_time_period)
+
+
+get_aws_execution_cost = syncify_function(get_aws_execution_cost_async)
+
+
+async def execute_async(quantum_program: SerializedQuantumProgram) -> ResultsCollection:
+    circuit = GeneratedCircuit.parse_raw(quantum_program)
+    api_return = await ApiWrapper.call_execute_generated_circuit(circuit)
+    return api_return.results
+
+
+execute = syncify_function(execute_async)
+
+
+async def execute_qnn_async(
+    quantum_program: SerializedQuantumProgram,
+    arguments: MultipleArguments,
+    observables: Optional[PauliOperators] = None,
+) -> ResultsCollection:
+    circuit = GeneratedCircuit.parse_raw(quantum_program)
+
+    legacy_quantum_program = circuit.to_program()
+    legacy_quantum_program.arguments = arguments
+
+    if observables:
+        request = ExecutionRequest(
+            execution_payload=EstimateOperatorsExecution(
+                quantum_program=legacy_quantum_program,
+                operators=observables,
+            ),
+            preferences=circuit.model.execution_preferences,
+        )
+
+        results = await ApiWrapper.call_execute_estimate(request)
+        return [
+            SavedResult(name=DEFAULT_RESULT_NAME, value=result) for result in results
+        ]
+
+    else:
+        request = ExecutionRequest(
+            execution_payload=legacy_quantum_program.dict(),
+            preferences=circuit.model.execution_preferences,
+        )
+
+        api_result = await ApiWrapper.call_execute_quantum_program(request)
+        return [
+            SavedResult(name=DEFAULT_RESULT_NAME, value=result)
+            for result in api_result.details
+        ]
+
+
+execute_qnn = syncify_function(execute_qnn_async)
+
+
+def set_quantum_program_execution_preferences(
+    quantum_program: SerializedQuantumProgram,
+    preferences: ExecutionPreferences,
+) -> SerializedQuantumProgram:
+    circuit = GeneratedCircuit.parse_raw(quantum_program)
+    circuit.model.execution_preferences = preferences
+    return SerializedQuantumProgram(circuit.json())
+
+
+def set_initial_values(
+    quantum_program: SerializedQuantumProgram,
+    **kwargs: int,
+) -> SerializedQuantumProgram:
+    circuit = GeneratedCircuit.parse_raw(quantum_program)
+    circuit.initial_values = kwargs
+
+    # Validate the initial values by calling `get_registers_initialization`
+    circuit.get_registers_initialization(circuit.initial_values)
+
+    return SerializedQuantumProgram(circuit.json())
+
+
+__all__ = [
+    "QuantumProgram",
+    "QuantumInstructionSet",
+    "execute_qnn",
+    "OperatorsEstimation",
+    "set_quantum_program_execution_preferences",
+    "set_initial_values",
+]
