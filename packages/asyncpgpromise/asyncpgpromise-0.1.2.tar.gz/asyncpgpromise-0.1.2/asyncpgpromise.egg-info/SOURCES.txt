@@ -1,0 +1,9 @@
+README.md
+setup.py
+asyncpgpromise/__init__.py
+asyncpgpromise/asyncpgpromise.py
+asyncpgpromise.egg-info/PKG-INFO
+asyncpgpromise.egg-info/SOURCES.txt
+asyncpgpromise.egg-info/dependency_links.txt
+asyncpgpromise.egg-info/requires.txt
+asyncpgpromise.egg-info/top_level.txt
