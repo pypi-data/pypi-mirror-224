@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: rpeasings
+Version: 0.0.1
+Summary: Robert Penner's easings functions in python
+Author-email: Michael Lamertz <michael.lamertz@gmail.com>
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Software Development :: Libraries :: pygame
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Robert Penner's Easing Functions
+
+There are a plethora of versions available of these, many of which provide an
+object oriented interface, while most of the original easing functions could
+be simple inline expressions.
+
+This library takes the purely functional approach.  No class instantiation,
+just a function call.
+
+See https://easings.net for a good visualisation of these to chose the right
+one.
