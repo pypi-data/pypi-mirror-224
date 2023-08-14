@@ -1,0 +1,10 @@
+README.md
+license.txt
+setup.cfg
+setup.py
+TearRouting/main.py
+TearRouting.egg-info/PKG-INFO
+TearRouting.egg-info/SOURCES.txt
+TearRouting.egg-info/dependency_links.txt
+TearRouting.egg-info/requires.txt
+TearRouting.egg-info/top_level.txt
