@@ -1,0 +1,15 @@
+rlvoice/__init__.py,sha256=hBHe0OqvQd72Vh6jGBA6Pk3_RCP5wkoL_E0fJHaksZI,782
+rlvoice/driver.py,sha256=F6TSwO21asiqmrYZWxkOB_mo3cv_wBcicvV_K14g7EU,6620
+rlvoice/engine.py,sha256=U0-ZawnK_XM-6xfQ9B7rqUBQ5jUOv_LfFzZ2X9Mgr3E,7004
+rlvoice/voice.py,sha256=3uo-IBwT47smdMop9FRRHJPKDpIOHqhq99GNaPwMGLE,417
+rlvoice/drivers/__init__.py,sha256=AdJ_6-RwNt70z6lokeaT8_oBN75jv76TAZdGxVpBjfE,821
+rlvoice/drivers/_espeak.py,sha256=QLdcRGGAJ1vsemZzOtfnpOEiK5-KkJXLN2TSLRnl2ak,18998
+rlvoice/drivers/dummy.py,sha256=N9XFBQPMM_Cr5PkwzICQYpahYKIZuRYAHAg7Mxd9_LM,6007
+rlvoice/drivers/espeak.py,sha256=mI6tCojjpe8eFSLOuXb1dKqjagt7gmfrB7iR5c_L_98,6603
+rlvoice/drivers/nsss.py,sha256=G9aTsBl04jsqjdy5Mt4jEKJ5fbgyY_MAI0JHN0itlDw,4683
+rlvoice/drivers/sapi5.py,sha256=tAO84gccYDR9eq_cO8c1ZMk69JffIONFVT4DrbMLshE,5673
+rlvoice_1-1.0.0.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+rlvoice_1-1.0.0.dist-info/METADATA,sha256=eln79Bk1bjSnLUr9M4uGTwa8eBa2Mb-uisOSm0zRCWA,4329
+rlvoice_1-1.0.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+rlvoice_1-1.0.0.dist-info/top_level.txt,sha256=mhE1qraOZ-f-IH5scT77TQV8u18hWuV2qsiI4ZbKXAQ,8
+rlvoice_1-1.0.0.dist-info/RECORD,,
