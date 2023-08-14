@@ -1,0 +1,13 @@
+bongpy/__init__.py,sha256=xR89QLcnIWaJStj6Xf1DryAvBt7rf_ovoA7dKqFJTs8,138
+bongpy/admin.py,sha256=hF2sWhqP9Z9njVD5WT8rHE-1NlrGMCv8fFaVPrUgHF0,438
+bongpy/apps.py,sha256=x5ctkwDGTRf4WYgnget0gYnHH-iqOeugl6UEzGgaARc,152
+bongpy/configs.py,sha256=fS1mj8F769nqwfaXLj0B75CfKdw6lBj2ORCguKFVIqo,3959
+bongpy/models.py,sha256=0cS2IGp683bv7PJAckoFknkW7vGvwgKf6oIm0b6cT68,5577
+bongpy/migrations/0001_initial.py,sha256=4QjU7VnrJag3pWKEBRYzZWwaurcH9kQACawq5OFXSl0,1365
+bongpy/migrations/0002_auto_20230730_1449.py,sha256=EW4omgAZ7odyqLRRYsN_UXqqMGnPMU0bac_yPF6jQCY,568
+bongpy/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_bongpy-1.0.0.dist-info/LICENSE,sha256=t_cZM8wJ_Oh_i0zQrlVe3-Enxr3RRb_LNnJEs3tdVVU,1067
+django_bongpy-1.0.0.dist-info/METADATA,sha256=MxWiRtfJy5BInMAPH3e1hl-Cr2TFV_yhdyig_2_1Uw4,4779
+django_bongpy-1.0.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+django_bongpy-1.0.0.dist-info/top_level.txt,sha256=EiortFCfeWOddNY3MS9zoR6TRP_t-CnrnSh83zC9Pig,7
+django_bongpy-1.0.0.dist-info/RECORD,,
