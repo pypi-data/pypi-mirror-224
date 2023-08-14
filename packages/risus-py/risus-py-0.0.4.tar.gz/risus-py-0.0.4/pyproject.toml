@@ -1,0 +1,18 @@
+[project]
+name = "risus-py"
+version = "0.0.4"
+authors = [{name="Preston M. Firestone", email="firestone.preston@gmail.com"}]
+description = "Compute outcome probabilities for Risus: The Anything RPG"
+license = {file = "LICENSE"}
+readme = "README.md"
+dependencies = [
+  "numpy",
+  "pandas",
+  "icepool"
+]
+
+[project.urls]
+repository = "https://git.sr.ht/~p0mf/risus-py"
+
+[build-system]
+requires = ["setuptools", "wheel"]
