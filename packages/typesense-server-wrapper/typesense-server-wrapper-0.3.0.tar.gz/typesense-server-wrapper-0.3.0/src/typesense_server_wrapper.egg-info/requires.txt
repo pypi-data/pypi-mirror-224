@@ -1,0 +1,2 @@
+typesense-server-wrapper-alpha
+typesense-server-wrapper-omega
