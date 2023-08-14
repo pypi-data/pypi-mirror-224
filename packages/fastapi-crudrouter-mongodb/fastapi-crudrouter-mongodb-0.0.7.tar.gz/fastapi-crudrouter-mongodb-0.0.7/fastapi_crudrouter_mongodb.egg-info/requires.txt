@@ -1,0 +1,4 @@
+fastapi
+pydantic==1.10.12
+pymongo
+motor
