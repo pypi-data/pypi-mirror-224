@@ -1,0 +1,42 @@
+[project]
+name = "mojipack"
+version = "2.0.0"
+description = "Encode binary data into fun emoji strings!"
+authors = [
+    { name = "BrinkerVII", email = "brinkervii@gmail.com" }
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.8"
+
+keywords = ["emoji", "encoding"]
+
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11"
+]
+
+dependencies = [
+    "emoji>=2.7.0",
+    "cryptography>=41.0.0"
+]
+
+[project.urls]
+homepage = "https://gitlab.com/brinkervii/mojipack"
+repository = "https://gitlab.com/brinkervii/mojipack"
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "msgpack",
+    "build",
+    "twine",
+    "pylint"
+]
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"

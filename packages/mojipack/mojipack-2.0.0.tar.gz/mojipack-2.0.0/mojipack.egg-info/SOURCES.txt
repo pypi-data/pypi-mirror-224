@@ -1,0 +1,16 @@
+.gitignore
+.pylintrc
+LICENCE
+README.md
+pyproject.toml
+mojipack/__init__.py
+mojipack/codec.py
+mojipack/default_byte_mapping.py
+mojipack.egg-info/PKG-INFO
+mojipack.egg-info/SOURCES.txt
+mojipack.egg-info/dependency_links.txt
+mojipack.egg-info/requires.txt
+mojipack.egg-info/top_level.txt
+tests/__init__.py
+tests/conftest.py
+tests/test_default_codec_functions.py
