@@ -1,0 +1,6 @@
+setup.py
+zakirn/__init__.py
+zakirn.egg-info/PKG-INFO
+zakirn.egg-info/SOURCES.txt
+zakirn.egg-info/dependency_links.txt
+zakirn.egg-info/top_level.txt
