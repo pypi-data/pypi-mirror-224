@@ -1,0 +1,17 @@
+xctools_kamaalio/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xctools_kamaalio/cli.py,sha256=20P-ze43L0DiQQkn3is52l75S-Ldc-JYDN831yN6Lw4,1327
+xctools_kamaalio/project_updater.py,sha256=m_B8ubfX1rOGwATYE95TFUmCZn0LN5Q0cZ28TuywEQg,2099
+xctools_kamaalio/xctools.py,sha256=VlEAM7npqGe5LlotuT4aem8e5-asY7tQdPPz-JHr1iw,5398
+xctools_kamaalio/actions/archive.py,sha256=Qyx9UwB_KDMkxqNuBzpfYabMcQ9gT15Xoar8FYA_ols,875
+xctools_kamaalio/actions/build.py,sha256=rZEcfml3vgVqGF4u4S6yDVKfJW5mNhvllbTGxqahDm8,635
+xctools_kamaalio/actions/bump_version.py,sha256=WXcTmxnMblA-YMICEmQo4F03lQFVzIfAdQAI3qkXEqI,340
+xctools_kamaalio/actions/export_archive.py,sha256=Gqo1DARKPyb0UG3LllUBYwPoEY3Y5LycLKaucU6ZWss,358
+xctools_kamaalio/actions/test.py,sha256=38Dh8Wzv036xxkGH_eECsNxvzw998t2Gn8EZ0h0tikA,633
+xctools_kamaalio/actions/trust_swift_plugins.py,sha256=dppCYBOEfOCQPOkJxRL8G45XsT0CxjVHyGJM7xG0VwA,269
+xctools_kamaalio/actions/upload.py,sha256=asfyA-Tbmi6mdUYcv-LYnB-5dn6Z663rDCqdcG8zEKk,496
+xctools_kamaalio-0.1.0.dist-info/LICENSE,sha256=H-V5VWmUmevAEuUZ68Z99Lbt713wlMiDV4xP5mjXWoY,1077
+xctools_kamaalio-0.1.0.dist-info/METADATA,sha256=o-1x59fMmP4SsJhM3dYoSTmYYvp9SCs8QsaxtvCx83U,594
+xctools_kamaalio-0.1.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+xctools_kamaalio-0.1.0.dist-info/entry_points.txt,sha256=foH3wNBPYm6NYC6AAHD2vIDEzsxD2YraBsUl8F7-zGE,53
+xctools_kamaalio-0.1.0.dist-info/top_level.txt,sha256=MJhlJ3QjINouscTZnISjXzHScxEAPHwuQ2dOSGCc_24,17
+xctools_kamaalio-0.1.0.dist-info/RECORD,,
