@@ -1,0 +1,8 @@
+requests
+grpcio
+protobuf
+grpcio-tools
+
+[dev]
+black
+nbdev
