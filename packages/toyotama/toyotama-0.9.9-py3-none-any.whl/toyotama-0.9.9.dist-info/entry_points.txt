@@ -1,0 +1,3 @@
+[console_scripts]
+unar=toyotama.util.decompress:main
+
