@@ -1,0 +1,16 @@
+README.md
+license.txt
+setup.py
+src/nadia/__init__.py
+src/nadia/__main__.py
+src/nadia/example_theorems.py
+src/nadia/nadia_pt.py
+src/nadia/nadia_pt_basic_usage.py
+src/nadia/nadia_pt_fo.py
+src/nadia/nadia_pt_gui.py
+src/nadia_proof.egg-info/PKG-INFO
+src/nadia_proof.egg-info/SOURCES.txt
+src/nadia_proof.egg-info/dependency_links.txt
+src/nadia_proof.egg-info/entry_points.txt
+src/nadia_proof.egg-info/requires.txt
+src/nadia_proof.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+[console_scripts]
+nadia = nadia.__main__:main
+
