@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/micronets/__init__.py
+src/micronets/autograd_engine.py
+src/micronets/graph.py
+src/micronets/losses.py
+src/micronets/nn.py
+src/micronets.egg-info/PKG-INFO
+src/micronets.egg-info/SOURCES.txt
+src/micronets.egg-info/dependency_links.txt
+src/micronets.egg-info/requires.txt
+src/micronets.egg-info/top_level.txt

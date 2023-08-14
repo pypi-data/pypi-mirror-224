@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "micronets"
+version = "0.1.2"
+authors = [
+  { name="Sarthak Rawat", email="hare.sarthak@gmail.com" },
+]
+description = "A simple autograd engine along with a PyTorch/Tensorflow like API module to easily train neural nets"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "matplotlib>=3.7.0",
+    "graphviz>=0.20.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Sarthakrw/micronets"
+"Bug Tracker" = "https://github.com/Sarthakrw/micronets/issues"
