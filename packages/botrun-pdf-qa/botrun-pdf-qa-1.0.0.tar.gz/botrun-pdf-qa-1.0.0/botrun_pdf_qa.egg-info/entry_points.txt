@@ -1,0 +1,2 @@
+[console_scripts]
+botrun_pdf_qa = botrun_pdf_qa:main

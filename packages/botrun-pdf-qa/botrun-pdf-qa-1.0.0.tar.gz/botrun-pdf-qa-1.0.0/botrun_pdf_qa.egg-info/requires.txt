@@ -1,0 +1,6 @@
+torch
+sentence-transformers
+scikit-learn
+botrun-pdf-to-text==1.1.1
+botrun-embeddings==1.1.1
+call-openai-gpt==1.0.0
