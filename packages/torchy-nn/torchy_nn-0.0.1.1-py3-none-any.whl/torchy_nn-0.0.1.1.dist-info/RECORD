@@ -1,0 +1,11 @@
+torchy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+torchy/layer.py,sha256=5vr2AJJINnNiem6ttnyXfM0VLJInEsN1qqCWxhQFbgY,7315
+torchy/loss.py,sha256=8evYam7PVPyFR2OLqnnlP2OrCBq5QI8dXOBj2l2AEAE,584
+torchy/optim.py,sha256=XAw4k_jjNtLTjoyWmhOprmGA89bXKBE5FMfRaRGy3n8,3599
+torchy/scheduler.py,sha256=nTE3A6uinA9dxtqtyAOOzTQAd44qMiKhBIB90_sIRqA,1565
+torchy/sequential.py,sha256=ReMPZ81c8nc13DMJ9AAOtgBPwbrlNa-uMsCy2YztD0c,992
+torchy/value.py,sha256=IWvykCp9e-pfm9s4A1Tx9Zn37tKVwMZU0O2T7lTCxXY,217
+torchy_nn-0.0.1.1.dist-info/METADATA,sha256=QXiBFJy-oLnz8CSrdLl1As9SR_9tnDPz0ctbi-JIFBU,629
+torchy_nn-0.0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+torchy_nn-0.0.1.1.dist-info/top_level.txt,sha256=YJg0DNoHCOsxaXXnRiyVZjgP7G1PRXlSvhbr-d0ZFvk,7
+torchy_nn-0.0.1.1.dist-info/RECORD,,
