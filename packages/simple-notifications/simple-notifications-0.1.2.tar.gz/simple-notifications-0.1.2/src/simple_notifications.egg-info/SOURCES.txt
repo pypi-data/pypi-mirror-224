@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/simple_notifications.egg-info/PKG-INFO
+src/simple_notifications.egg-info/SOURCES.txt
+src/simple_notifications.egg-info/dependency_links.txt
+src/simple_notifications.egg-info/top_level.txt
+src/simplenotifications/__init__.py
+src/simplenotifications/mail.py
+src/simplenotifications/webhook.py
