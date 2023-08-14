@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: Help-Tool-ThanhNv
+Version: 1.1.0
+Summary: UNKNOWN
+Home-page: https://github.com/thanhnv2303/HelpTool
+Author: LinLin
+Author-email: nguyenthanh2303@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/thanhnv2303/HelpTool
+Keywords: checkport
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7.2,<4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests (<=2.26.0)
+Requires-Dist: click (<9,>=8.0.4)
+Requires-Dist: sortedcontainers (==2.4.0)
+
+# Help Tool
+
+## Install 
+ 
+> pip install Help-Tool-ThanhNv==1.1.0
+
+## Before Run
+
+* Creat file input as check_port_list.txt : [example](check_port_list.txt)
+  * Format each line : {host},{ports}
+    * {host}: host name or ip ex:  10.1.30.41
+    * {ports}: could be
+      * a list port seperated by space (" ") ex : 82 83 
+      * or a range({start_number}-{end_number}) ex : 100-200
+    * example : 10.1.44.16,8020 585
+                10.1.44.16,8000-8500
+        
+## Run
+
+>help_tool check_ports -i check_port_list.txt -o check_port_result.json -n 100
+
+## After Run
+
+File result in [check_socket_result.json](check_port_result.json)
+
+Note:
+ - key "open" contain host and ports have already opened
+ - key "close" contain host and ports have still closed 
+    
+
+
+

@@ -1,0 +1,3 @@
+[console_scripts]
+help_tool = cli:cli
+
