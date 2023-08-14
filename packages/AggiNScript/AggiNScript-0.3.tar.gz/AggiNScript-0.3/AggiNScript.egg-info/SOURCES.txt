@@ -1,0 +1,11 @@
+README.md
+setup.py
+AggiNScript.egg-info/PKG-INFO
+AggiNScript.egg-info/SOURCES.txt
+AggiNScript.egg-info/dependency_links.txt
+AggiNScript.egg-info/entry_points.txt
+AggiNScript.egg-info/top_level.txt
+aggin/__init__.py
+aggin/aggin.py
+aggin/shell.py
+aggin/strings_with_arrows.py
