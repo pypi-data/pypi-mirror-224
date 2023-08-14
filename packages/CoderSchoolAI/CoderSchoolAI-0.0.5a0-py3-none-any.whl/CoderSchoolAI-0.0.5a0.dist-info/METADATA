@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: CoderSchoolAI
+Version: 0.0.5a0
+Summary: A Comprehensive Python Library for Creating and Developing Agent AIs.
+Author: Jonathan Koch, 
+Author-email: johnnykoch02@gmail.com, 
+Keywords: ai agents pygame torch setuptools development
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: gymnasium
+Requires-Dist: pygame
+Requires-Dist: gym
+
