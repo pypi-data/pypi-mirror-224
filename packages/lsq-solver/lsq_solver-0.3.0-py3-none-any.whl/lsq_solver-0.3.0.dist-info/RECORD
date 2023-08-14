@@ -1,0 +1,10 @@
+lsq_solver/__about__.py,sha256=PQX_OoUFrdHyl_2uYOGNpYOlepigBah8yrX8yZfyO-I,129
+lsq_solver/__init__.py,sha256=_VLJuuRoHVfJtbEEHgX-8srAQ5dslFwZgR4S20lGoRs,193
+lsq_solver/auto_diff.py,sha256=ajx5csBkXLLxmpKYgpB1azgdrcIk7G1Pb8_n1a_HRTc,3923
+lsq_solver/loss_funcs.py,sha256=j4r7RnE5oXsbCZI7yIJotmh5HBWZm7w8ltk3zWpEwRo,3188
+lsq_solver/problem.py,sha256=jKw235mmFjSqvVkoedAh76hnxdeUmmvldUtmOo18To8,13404
+lsq_solver/rotation.py,sha256=di-BKAZF7cmfMVeHTMF1V6HAfrzdsiebxJDBQu30Noc,806
+lsq_solver-0.3.0.dist-info/METADATA,sha256=eRoh9RXF_A2A81tj8glRRUM7lsKQBY9rsTAp-pchwfA,1468
+lsq_solver-0.3.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+lsq_solver-0.3.0.dist-info/licenses/LICENSE,sha256=X-DeDegnq78cka5gIf8raCMoUqBhbQZ6sv4yrskaqAk,1066
+lsq_solver-0.3.0.dist-info/RECORD,,
