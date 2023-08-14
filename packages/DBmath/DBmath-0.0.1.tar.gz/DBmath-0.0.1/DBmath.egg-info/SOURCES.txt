@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+DBmath/__init__.py
+DBmath.egg-info/PKG-INFO
+DBmath.egg-info/SOURCES.txt
+DBmath.egg-info/dependency_links.txt
+DBmath.egg-info/top_level.txt

@@ -1,0 +1,1 @@
+this is a simple calculator that can do math operations like adding, subtracting, multiplying, squared numbers, cubed numbers and what ever power you like.
