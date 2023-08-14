@@ -1,0 +1,17 @@
+unbored/__init__.py,sha256=WzpZ0tJMuhRKpiHS7vBeovbyIWl9W8D-F5bbNERC0so,456
+unbored/__main__.py,sha256=Hg29uwbKPGEV1FZ2LUW1Z92HjLZe4MUHhYAQ4Ay-V0o,333
+unbored/activity.py,sha256=76Nx6ahfeTjHhstDo-IEwFhkpaHaQOjDMVvGbU6ezY0,7248
+unbored/app.py,sha256=6RmZ6KNwqoMQdX51OSENq22RGpWhrdex8F4fSSspW98,1093
+unbored/filter_input.py,sha256=JSKq6N-bX-LmLWtO6H9Ep_cFVcm6E9RaLZ5RLutNeRQ,2425
+unbored/filters.py,sha256=SHC_W0evRcf5KxVDVufByxXKXexSC1UgX2kh0f874F4,6106
+unbored/focus_within.py,sha256=JguXI_Byecxz6CVk_cKJMNy5sCNgbLk69iVAYuKqe68,591
+unbored/main_screen.py,sha256=ApRuJV7K4oVKtzYb23GSoC99RQrN9ymoUpG7871_HKM,6736
+unbored/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unbored/type_choices.py,sha256=N2PmGbippBYtW1OjzlYyf42gUb1GBuloFzMuvF52sBQ,1080
+unbored/unbored.css,sha256=7psB8tb7NwOaR9jfjeJQk7T6R15rCuwF01807wv46qk,1222
+unbored-0.6.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+unbored-0.6.0.dist-info/METADATA,sha256=4lXKovq-jrhpIlqYtY3ACVIgVZrriLnD8xHg3G2ZAbk,2014
+unbored-0.6.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+unbored-0.6.0.dist-info/entry_points.txt,sha256=kfvEJje1KfaTSy10cEb1T5YUyvAz76630VTzs46-5_o,44
+unbored-0.6.0.dist-info/top_level.txt,sha256=jjnQ7SIYUAZTI-BotW4z4tYqSsZv5FPcZ1JL_ucsOvg,8
+unbored-0.6.0.dist-info/RECORD,,
