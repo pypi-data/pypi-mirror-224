@@ -1,0 +1,4 @@
+requests
+Flask
+APScheduler==3.10.1
+httpx
