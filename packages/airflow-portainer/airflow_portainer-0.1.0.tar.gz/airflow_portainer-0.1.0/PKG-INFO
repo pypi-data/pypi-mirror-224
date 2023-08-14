@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: airflow-portainer
+Version: 0.1.0
+Summary: Airflow provider with hook and operators for accessing docker endpoints via portainer
+License: Apache-2.0
+Author: Andreas Schmidt
+Author-email: andreas@schmidt.name
+Requires-Python: >=3.11
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: docker (>=6.1.3)
+Description-Content-Type: text/markdown
+
+# Airflow provider for portainer
+
+## Operator 
+
+````python
+    PortainerOperator(task_id="task",
+                      portainer_conn_id="portainer", endpoint_id=16, timeout=30,
+                      container_name="container", command="...",
+                      user="www-data")
+````
