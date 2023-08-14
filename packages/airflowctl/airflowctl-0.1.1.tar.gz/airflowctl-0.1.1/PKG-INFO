@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: airflowctl
+Version: 0.1.1
+Summary: A lightweight Python package to simplify the installation of Apache Airflow effortlessly.
+License: Apache License, Version 2.0
+Keywords: airflow,installer,cli,apache-airflow
+Author: Kaxil Naik
+Author-email: kaxilnaik@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Apache Airflow
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: httpx (>=0.24.1,<0.25.0)
+Requires-Dist: python-dotenv (>=0.21.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Requires-Dist: rich (>=13.5.2,<14.0.0)
+Requires-Dist: rich-argparse (>=1.2.0,<2.0.0)
+Requires-Dist: typer[all] (>=0.9.0,<0.10.0)
+Description-Content-Type: text/markdown
+
+# airflowctl
+
+## Usage
+
+```bash
+airflowctl --help
+```
+
+## Installation
+
+```bash
+pip install airflowctl
+```
+
