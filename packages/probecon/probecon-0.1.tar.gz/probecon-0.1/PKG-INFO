@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: probecon
+Version: 0.1
+Summary: A Python package for subdomain enumeration
+Home-page: https://github.com/whoami-anoint/Probe
+Author: Probe
+Author-email: whoami_anoint@bugcrowdninja.com
+License-File: LICENSE
