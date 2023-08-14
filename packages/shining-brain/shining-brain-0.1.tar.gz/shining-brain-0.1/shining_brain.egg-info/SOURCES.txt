@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+shining_brain.egg-info/PKG-INFO
+shining_brain.egg-info/SOURCES.txt
+shining_brain.egg-info/dependency_links.txt
+shining_brain.egg-info/requires.txt
+shining_brain.egg-info/top_level.txt
