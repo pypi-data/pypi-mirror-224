@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+spork/TDA/BuZZ.py
+spork/TDA/TGZZ.py
+spork/spork_tda.egg-info/PKG-INFO
+spork/spork_tda.egg-info/SOURCES.txt
+spork/spork_tda.egg-info/dependency_links.txt
+spork/spork_tda.egg-info/requires.txt
+spork/spork_tda.egg-info/top_level.txt
