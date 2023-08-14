@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.rst
+httpie_keystone_auth.py
+pyproject.toml
+setup.cfg
+setup.py
+httpie_keystone_auth.egg-info/PKG-INFO
+httpie_keystone_auth.egg-info/SOURCES.txt
+httpie_keystone_auth.egg-info/dependency_links.txt
+httpie_keystone_auth.egg-info/entry_points.txt
+httpie_keystone_auth.egg-info/requires.txt
+httpie_keystone_auth.egg-info/top_level.txt
