@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: languagetools
+Version: 0.0.2
+Summary: Open-source tools for language models.
+License: MIT
+Author: Killian Lucas
+Author-email: killian@drinkwater.ai
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: openai (>=0.27.8,<0.28.0)
+Requires-Dist: tiktoken (>=0.4.0,<0.5.0)
+Description-Content-Type: text/markdown
+
+# languagetools
