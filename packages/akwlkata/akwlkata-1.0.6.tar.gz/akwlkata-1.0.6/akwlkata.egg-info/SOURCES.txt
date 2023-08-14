@@ -1,0 +1,8 @@
+setup.py
+akwlkata/AKWlkata.py
+akwlkata/__init__.py
+akwlkata.egg-info/PKG-INFO
+akwlkata.egg-info/SOURCES.txt
+akwlkata.egg-info/dependency_links.txt
+akwlkata.egg-info/requires.txt
+akwlkata.egg-info/top_level.txt
