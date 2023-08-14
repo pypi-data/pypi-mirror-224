@@ -1,0 +1,20 @@
+{
+    "reportName": "YouQu Report",
+    "testRuns": [],
+    "statistic": {
+        "failed": 1,
+        "broken": 0,
+        "skipped": 0,
+        "passed": 2,
+        "unknown": 0,
+        "total": 3
+    },
+    "time": {
+        "start": 1691993810137,
+        "stop": 1691993903843,
+        "duration": 93706,
+        "minDuration": 8799,
+        "maxDuration": 25572,
+        "sumDuration": 54071
+    }
+}

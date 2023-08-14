@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Aug 14 14:16:50 GMT+08:00 2023","Mon Aug 14 14:17:15 GMT+08:00 2023","25572","apps.autotest_deepin_music.case","test_music_004","TestMusic","","","test_music_004","初始界面-添加歌曲路径"
+"failed","Mon Aug 14 14:18:04 GMT+08:00 2023","Mon Aug 14 14:18:23 GMT+08:00 2023","19700","apps.autotest_deepin_music.case","test_music_014","TestMusic","","","test_music_014","任务栏启动"
+"passed","Mon Aug 14 14:17:27 GMT+08:00 2023","Mon Aug 14 14:17:36 GMT+08:00 2023","8799","apps.autotest_deepin_music.case","test_music_006","TestMusic","","","test_music_006","菜单-菜单项"

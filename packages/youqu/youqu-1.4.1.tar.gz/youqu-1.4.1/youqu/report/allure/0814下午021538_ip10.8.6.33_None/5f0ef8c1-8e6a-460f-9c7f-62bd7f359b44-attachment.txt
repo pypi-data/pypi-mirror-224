@@ -1,0 +1,96 @@
+aarch64*-uos-33: 08/14 14:17:38 | [32mINFO[0m | [pytest_runtest_setup]: 
+========== test_music_014 || 任务栏启动 ========== [3/33]
+aarch64*-uos-33: 08/14 14:17:38 | [32mINFO[0m | [pytest_runtest_call]: ========== case body ==========
+aarch64*-uos-33: 08/14 14:17:38 | [32mINFO[0m | [open_music_in_dock_by_attr]: 点击任务栏图标启动音乐
+aarch64*-uos-33: 08/14 14:17:38 | [35mDEBUG[0m | [get_process_status]: ps -aux | grep deepin-music | grep -v grep | grep -v pytest | grep -v python | grep -v asan | grep -v tee | grep -v ffmpeg | grep -v dde-calendar-service | grep -v dmanHelper
+aarch64*-uos-33: 08/14 14:17:38 | [32mINFO[0m | [click_and_focus_application_in_dock_by_attr]: 在dock启动应用
+aarch64*-uos-33: 08/14 14:17:38 | [32mINFO[0m | [click_application_in_dock_by_attr]: 点击 dock 栏应用图标
+aarch64*-uos-33: 08/14 14:17:38 | [32mINFO[0m | [send_link_to_dock]: 发送快捷方式到任务栏
+aarch64*-uos-33: 08/14 14:17:38 | [35mDEBUG[0m | [app_element]: (('Form_mainwindow',), {}) 获取元素对象 <[form | Form_mainwindow]>
+aarch64*-uos-33: 08/14 14:17:38 | [35mDEBUG[0m | [send_link_to_dock]: 发送<音乐>快捷方式到任务栏
+aarch64*-uos-33: 08/14 14:17:38 | [35mDEBUG[0m | [element_click]: 左键 点击元素 Btn_音乐
+aarch64*-uos-33: 08/14 14:17:38 | [35mDEBUG[0m | [app_element]: (('Btn_音乐',), {}) 获取元素对象 <[push button | Btn_音乐]>
+aarch64*-uos-33: 08/14 14:17:38 | [35mDEBUG[0m | [element_center]: 获取元素中心坐标 ((128.0, 1060.0))
+aarch64*-uos-33: 08/14 14:17:38 | [35mDEBUG[0m | [click]: 点击坐标 (128.0, 1060.0)
+aarch64*-uos-33: 08/14 14:17:38 | [35mDEBUG[0m | [click_application_in_dock_by_attr]: 在任务栏点击 <Btn_音乐> 按钮
+aarch64*-uos-33: 08/14 14:17:42 | [32mINFO[0m | [sleep]: sleep 2 s [aarch64 * 1.5 = 3.0]
+aarch64*-uos-33: 08/14 14:17:45 | [32mINFO[0m | [first_add_music_by_ui]: 打开应用，添加音乐
+aarch64*-uos-33: 08/14 14:17:45 | [32mINFO[0m | [click_scan_text_in_music_by_ui]: 扫描
+aarch64*-uos-33: 08/14 14:17:47 | [35mDEBUG[0m | [click]: 点击坐标 Point(x=959, y=539)
+aarch64*-uos-33: 08/14 14:17:48 | [35mDEBUG[0m | [click]: 点击坐标 Point(x=959, y=539)
+aarch64*-uos-33: 08/14 14:17:50 | [35mDEBUG[0m | [click]: 点击坐标 Point(x=959, y=539)
+aarch64*-uos-33: 08/14 14:17:50 | [35mDEBUG[0m | [window_location_and_sizes]: 窗口左上角坐标 (425, 200),获取窗口大小 1070*680
+aarch64*-uos-33: 08/14 14:17:50 | [35mDEBUG[0m | [window_left_bottom_position]: 窗口左下角坐标 (425, 880)
+aarch64*-uos-33: 08/14 14:17:50 | [35mDEBUG[0m | [btn_center_by_left_bottom]: 左下角按钮的中心坐标 (866.0, 662.0)
+aarch64*-uos-33: 08/14 14:17:50 | [35mDEBUG[0m | [btn_center]: [扫描] 坐标：866.0, 662.0)
+aarch64*-uos-33: 08/14 14:17:50 | [35mDEBUG[0m | [click]: 点击坐标 (866.0, 662.0)
+aarch64*-uos-33: 08/14 14:17:50 | [32mINFO[0m | [click_play_btn_in_music_by_ui]: 点击播放按钮
+aarch64*-uos-33: 08/14 14:17:52 | [35mDEBUG[0m | [click]: 点击坐标 Point(x=959, y=539)
+aarch64*-uos-33: 08/14 14:17:53 | [35mDEBUG[0m | [click]: 点击坐标 Point(x=959, y=539)
+aarch64*-uos-33: 08/14 14:17:55 | [35mDEBUG[0m | [click]: 点击坐标 Point(x=959, y=539)
+aarch64*-uos-33: 08/14 14:17:55 | [35mDEBUG[0m | [window_location_and_sizes]: 窗口左上角坐标 (425, 200),获取窗口大小 1070*680
+aarch64*-uos-33: 08/14 14:17:55 | [35mDEBUG[0m | [window_left_bottom_position]: 窗口左下角坐标 (425, 880)
+aarch64*-uos-33: 08/14 14:17:55 | [35mDEBUG[0m | [btn_center_by_left_bottom]: 左下角按钮的中心坐标 (507.0, 835.0)
+aarch64*-uos-33: 08/14 14:17:55 | [35mDEBUG[0m | [btn_center]: [播放按钮] 坐标：507.0, 835.0)
+aarch64*-uos-33: 08/14 14:17:55 | [35mDEBUG[0m | [click]: 点击坐标 (507.0, 835.0)
+aarch64*-uos-33: 08/14 14:17:55 | [32mINFO[0m | [sleep]: sleep 1 s [aarch64 * 1.5 = 1.5]
+aarch64*-uos-33: 08/14 14:17:57 | [32mINFO[0m | [pytest_runtest_teardown]: ========== teardown ==========
+aarch64*-uos-33: 08/14 14:17:57 | [32mINFO[0m | [clean_music_app_by_cmd]: 删除音乐的数据库
+aarch64*-uos-33: 08/14 14:17:57 | [32mINFO[0m | [close_music_and_clean_sqlite_by_cmd]: 关闭音乐
+aarch64*-uos-33: 08/14 14:17:57 | [32mINFO[0m | [delete_music_sqlite_by_cmd]: 删除音乐的数据库
+aarch64*-uos-33: 08/14 14:17:57 | [35mDEBUG[0m | [run_cmd]: rm -rf /home/uos/.cache/deepin/deepin-music/mediameta.sqlite
+aarch64*-uos-33: 08/14 14:17:57 | [32mINFO[0m | [esc]: esc
+aarch64*-uos-33: 08/14 14:17:57 | [35mDEBUG[0m | [press_key]: 点击键盘上指定的按键<esc>, 间隔<0.0>
+aarch64*-uos-33: 08/14 14:17:57 | [35mDEBUG[0m | [sleep]: sleep 1 s [aarch64 * 1.5 = 1.5]
+aarch64*-uos-33: 08/14 14:17:59 | [35mDEBUG[0m | [clean_music]: Clean All
+aarch64*-uos-33: 08/14 14:17:59 | [35mDEBUG[0m | [run_cmd]: rm -rf ~/.config/deepin/dde-file-manager.json
+aarch64*-uos-33: 08/14 14:18:00 | [32mINFO[0m | [pytest_runtest_setup]: 
+========== test_music_014 || 任务栏启动 | <重跑第1次> ========== [3/33]
+aarch64*-uos-33: 08/14 14:18:00 | [32mINFO[0m | [pytest_runtest_setup]: 开启录屏
+aarch64*-uos-33: 08/14 14:18:00 | [35mDEBUG[0m | [screen_size]: 获取屏幕分辨率 1920*1080
+aarch64*-uos-33: 08/14 14:18:00 | [35mDEBUG[0m | [_create_ffmpeg_cmd]: ffmpeg -framerate 25 -video_size 1920x1080 -f x11grab -i :0 -c:v libx264 -qp 1 -preset ultrafast /home/uos/uos/deepin-autotest-framework/report/record/2023-08-14/14时18分00秒_test_music_014_2_autotest.mp4
+aarch64*-uos-33: 08/14 14:18:00 | [32mINFO[0m | [recording_screen]: 录屏路径存放  /home/uos/uos/deepin-autotest-framework/report/record/2023-08-14/14时18分00秒_test_music_014_2_autotest.mp4
+aarch64*-uos-33: 08/14 14:18:04 | [32mINFO[0m | [pytest_runtest_call]: ========== case body ==========
+aarch64*-uos-33: 08/14 14:18:04 | [32mINFO[0m | [open_music_in_dock_by_attr]: 点击任务栏图标启动音乐
+aarch64*-uos-33: 08/14 14:18:04 | [35mDEBUG[0m | [get_process_status]: ps -aux | grep deepin-music | grep -v grep | grep -v pytest | grep -v python | grep -v asan | grep -v tee | grep -v ffmpeg | grep -v dde-calendar-service | grep -v dmanHelper
+aarch64*-uos-33: 08/14 14:18:04 | [32mINFO[0m | [click_and_focus_application_in_dock_by_attr]: 在dock启动应用
+aarch64*-uos-33: 08/14 14:18:04 | [32mINFO[0m | [click_application_in_dock_by_attr]: 点击 dock 栏应用图标
+aarch64*-uos-33: 08/14 14:18:04 | [32mINFO[0m | [send_link_to_dock]: 发送快捷方式到任务栏
+aarch64*-uos-33: 08/14 14:18:04 | [35mDEBUG[0m | [app_element]: (('Form_mainwindow',), {}) 获取元素对象 <[form | Form_mainwindow]>
+aarch64*-uos-33: 08/14 14:18:04 | [35mDEBUG[0m | [send_link_to_dock]: 发送<音乐>快捷方式到任务栏
+aarch64*-uos-33: 08/14 14:18:04 | [35mDEBUG[0m | [element_click]: 左键 点击元素 Btn_音乐
+aarch64*-uos-33: 08/14 14:18:04 | [35mDEBUG[0m | [app_element]: (('Btn_音乐',), {}) 获取元素对象 <[push button | Btn_音乐]>
+aarch64*-uos-33: 08/14 14:18:04 | [35mDEBUG[0m | [element_center]: 获取元素中心坐标 ((128.0, 1060.0))
+aarch64*-uos-33: 08/14 14:18:04 | [35mDEBUG[0m | [click]: 点击坐标 (128.0, 1060.0)
+aarch64*-uos-33: 08/14 14:18:04 | [35mDEBUG[0m | [click_application_in_dock_by_attr]: 在任务栏点击 <Btn_音乐> 按钮
+aarch64*-uos-33: 08/14 14:18:08 | [32mINFO[0m | [sleep]: sleep 2 s [aarch64 * 1.5 = 3.0]
+aarch64*-uos-33: 08/14 14:18:11 | [32mINFO[0m | [first_add_music_by_ui]: 打开应用，添加音乐
+aarch64*-uos-33: 08/14 14:18:11 | [32mINFO[0m | [click_scan_text_in_music_by_ui]: 扫描
+aarch64*-uos-33: 08/14 14:18:13 | [35mDEBUG[0m | [click]: 点击坐标 Point(x=959, y=539)
+aarch64*-uos-33: 08/14 14:18:14 | [35mDEBUG[0m | [click]: 点击坐标 Point(x=959, y=539)
+aarch64*-uos-33: 08/14 14:18:16 | [35mDEBUG[0m | [click]: 点击坐标 Point(x=959, y=539)
+aarch64*-uos-33: 08/14 14:18:16 | [35mDEBUG[0m | [window_location_and_sizes]: 窗口左上角坐标 (425, 200),获取窗口大小 1070*680
+aarch64*-uos-33: 08/14 14:18:16 | [35mDEBUG[0m | [window_left_bottom_position]: 窗口左下角坐标 (425, 880)
+aarch64*-uos-33: 08/14 14:18:16 | [35mDEBUG[0m | [btn_center_by_left_bottom]: 左下角按钮的中心坐标 (866.0, 662.0)
+aarch64*-uos-33: 08/14 14:18:16 | [35mDEBUG[0m | [btn_center]: [扫描] 坐标：866.0, 662.0)
+aarch64*-uos-33: 08/14 14:18:16 | [35mDEBUG[0m | [click]: 点击坐标 (866.0, 662.0)
+aarch64*-uos-33: 08/14 14:18:16 | [32mINFO[0m | [click_play_btn_in_music_by_ui]: 点击播放按钮
+aarch64*-uos-33: 08/14 14:18:18 | [35mDEBUG[0m | [click]: 点击坐标 Point(x=959, y=539)
+aarch64*-uos-33: 08/14 14:18:20 | [35mDEBUG[0m | [click]: 点击坐标 Point(x=959, y=539)
+aarch64*-uos-33: 08/14 14:18:21 | [35mDEBUG[0m | [click]: 点击坐标 Point(x=959, y=539)
+aarch64*-uos-33: 08/14 14:18:22 | [35mDEBUG[0m | [window_location_and_sizes]: 窗口左上角坐标 (425, 200),获取窗口大小 1070*680
+aarch64*-uos-33: 08/14 14:18:22 | [35mDEBUG[0m | [window_left_bottom_position]: 窗口左下角坐标 (425, 880)
+aarch64*-uos-33: 08/14 14:18:22 | [35mDEBUG[0m | [btn_center_by_left_bottom]: 左下角按钮的中心坐标 (507.0, 835.0)
+aarch64*-uos-33: 08/14 14:18:22 | [35mDEBUG[0m | [btn_center]: [播放按钮] 坐标：507.0, 835.0)
+aarch64*-uos-33: 08/14 14:18:22 | [35mDEBUG[0m | [click]: 点击坐标 (507.0, 835.0)
+aarch64*-uos-33: 08/14 14:18:22 | [32mINFO[0m | [sleep]: sleep 1 s [aarch64 * 1.5 = 1.5]
+aarch64*-uos-33: 08/14 14:18:23 | [32mINFO[0m | [pytest_runtest_teardown]: ========== teardown ==========
+aarch64*-uos-33: 08/14 14:18:23 | [32mINFO[0m | [clean_music_app_by_cmd]: 删除音乐的数据库
+aarch64*-uos-33: 08/14 14:18:23 | [32mINFO[0m | [close_music_and_clean_sqlite_by_cmd]: 关闭音乐
+aarch64*-uos-33: 08/14 14:18:23 | [32mINFO[0m | [delete_music_sqlite_by_cmd]: 删除音乐的数据库
+aarch64*-uos-33: 08/14 14:18:23 | [35mDEBUG[0m | [run_cmd]: rm -rf /home/uos/.cache/deepin/deepin-music/mediameta.sqlite
+aarch64*-uos-33: 08/14 14:18:23 | [32mINFO[0m | [esc]: esc
+aarch64*-uos-33: 08/14 14:18:23 | [35mDEBUG[0m | [press_key]: 点击键盘上指定的按键<esc>, 间隔<0.0>
+aarch64*-uos-33: 08/14 14:18:24 | [35mDEBUG[0m | [sleep]: sleep 1 s [aarch64 * 1.5 = 1.5]
+aarch64*-uos-33: 08/14 14:18:25 | [35mDEBUG[0m | [clean_music]: Clean All
+aarch64*-uos-33: 08/14 14:18:26 | [35mDEBUG[0m | [run_cmd]: rm -rf ~/.config/deepin/dde-file-manager.json
