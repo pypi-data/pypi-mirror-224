@@ -1,0 +1,16 @@
+databeakers/__init__.py,sha256=ouYBgLpesh2mZMfvCMbXNIcrtEBjYHnOQ6q6ZBGWr6s,39
+databeakers/_models.py,sha256=ZpVjByJtKvsfYaWkvSpk2dqxYMoomULusiiimUIjslc,1471
+databeakers/_record.py,sha256=gGKG9yaKCg4_x3TxztThY6qmqzuEWDczalCePvLOn04,781
+databeakers/_utils.py,sha256=yz2wIwrQm54oUyloYhYKr2kdwnUQnBYdxLubscU70Gw,197
+databeakers/beakers.py,sha256=73CmYjw1oaXikRna3p-NtGa-UtkOYihr0DPscOWCNU8,3942
+databeakers/cli.py,sha256=lY69WEqwZayJE8bWj_IEUG0j8QJLepFjtNg7KOpHSIQ,7092
+databeakers/config.py,sha256=oqAxx5g4neTMvjAwd3kRnPrqkxwgz3aDM0CYbKbWz9o,1872
+databeakers/exceptions.py,sha256=4_hcU8-tc7BOD5Bq7n_cTndOJvkfj0nmL8NgNBaCrvY,315
+databeakers/http.py,sha256=TEyIFeLtrL8fbsE3cBxxI_5pkf61GKW3Ee9NasjjOZY,1996
+databeakers/pipeline.py,sha256=OQDyFIDJM6--A4gvfyMII9UPva64N0P2r0iy0pJLRQo,22876
+databeakers/transforms.py,sha256=cv_pDjRaBxaVBKmmok5UZgpG8t3dNZ71yr-SpvIB8bo,1795
+databeakers-0.2.0.dist-info/LICENSE,sha256=hSdqu5PWeCqb0JvRx5LPMJwO1Kbe42Og-fO5YcS-ASg,32337
+databeakers-0.2.0.dist-info/METADATA,sha256=_vER8xM3jES4ikt9a6F_60HJ6-uqoJwGLmqE-ZQ_i5E,4216
+databeakers-0.2.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+databeakers-0.2.0.dist-info/entry_points.txt,sha256=SrvAP5aAGj-an5AGOPEcGrlPiardxrCII8cV5vvEZvw,43
+databeakers-0.2.0.dist-info/RECORD,,
