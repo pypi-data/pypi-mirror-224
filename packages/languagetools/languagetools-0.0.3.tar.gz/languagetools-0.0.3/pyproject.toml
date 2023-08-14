@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "languagetools"
+version = "0.0.3"
+description = "Tools for language models."
+authors = ["Killian Lucas <killian@drinkwater.ai>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tiktoken = "^0.4.0"
+openai = "^0.27.8"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
