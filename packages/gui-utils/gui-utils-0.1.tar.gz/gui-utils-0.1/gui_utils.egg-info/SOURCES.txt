@@ -1,0 +1,9 @@
+README.md
+setup.py
+gui_utils.egg-info/PKG-INFO
+gui_utils.egg-info/SOURCES.txt
+gui_utils.egg-info/dependency_links.txt
+gui_utils.egg-info/top_level.txt
+help/__init__.py
+números/__init__.py
+texto/__init__.py
