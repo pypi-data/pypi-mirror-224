@@ -1,0 +1,12 @@
+LICENCE
+README.md
+setup.py
+acquabr/DataToolkit.py
+acquabr/GeoToolKit.py
+acquabr/HidroWeb.py
+acquabr/__init__.py
+acquabr.egg-info/PKG-INFO
+acquabr.egg-info/SOURCES.txt
+acquabr.egg-info/dependency_links.txt
+acquabr.egg-info/requires.txt
+acquabr.egg-info/top_level.txt
