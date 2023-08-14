@@ -1,0 +1,11 @@
+sansjson/README.md,sha256=1zU1zFrlegldldpkKM5LB4hRXdXG2gt4t7EXSp2s3m0,1670
+sansjson/__init__.py,sha256=1vstVN2nodl_GCnoOjVIQdqfs8KInndjDmNYc9o2s8U,188
+sansjson/utils.py,sha256=eso4GsDloaVwlZGJuLTjZKJxvWn0p-jv7D1clpqTnBA,2397
+sansjson/tests/conftest.py,sha256=LN6wmC5FaYqlrj7BwvbxHk6WTd_SSyQNTEZNwpnY0Wg,497
+sansjson/tests/test_sort_dict.py,sha256=392YVwSr47DBu_akfV6I1M8apDuPotCzXczLa4moaEs,1989
+sansjson/tests/test_sort_list.py,sha256=XygptM3kqnI-IO5eFUsn85DAjNpKCfhUbDdmjscu0go,708
+sansjson/tests/test_sorter.py,sha256=vkoiUi2eWyEzLLvg39Zlw48s6hR4yBDW_8GQ-Djf36k,514
+sansjson-0.0.5.dist-info/METADATA,sha256=jUtXEG2u9KjqpJAP7bGMGBw3aIpwjCFZ7w6p0h4RlTo,2184
+sansjson-0.0.5.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+sansjson-0.0.5.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+sansjson-0.0.5.dist-info/RECORD,,
