@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+PositionPy.egg-info/PKG-INFO
+PositionPy.egg-info/SOURCES.txt
+PositionPy.egg-info/dependency_links.txt
+PositionPy.egg-info/requires.txt
+PositionPy.egg-info/top_level.txt
