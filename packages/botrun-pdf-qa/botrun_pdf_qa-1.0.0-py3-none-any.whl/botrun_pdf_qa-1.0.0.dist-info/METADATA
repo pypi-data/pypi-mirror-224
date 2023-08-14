@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: botrun-pdf-qa
+Version: 1.0.0
+Description-Content-Type: text/markdown
+Requires-Dist: torch
+Requires-Dist: sentence-transformers
+Requires-Dist: scikit-learn
+Requires-Dist: botrun-pdf-to-text ==1.1.1
+Requires-Dist: botrun-embeddings ==1.1.1
+Requires-Dist: call-openai-gpt ==1.0.0
+
+```
+ai_answer = botrun_pdf_qa_single_file("./users/cbh_cameo_tw/data/upload_files/222715345.pdf",
+                                      "主管的男女比例是多少，還有土木工程技師男女比例")
+print(ai_answer)
+```
