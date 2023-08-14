@@ -1,0 +1,11 @@
+selenium
+requests
+selenium-interceptor
+undetected-chromedriver
+selenium-wire
+webdriver-manager
+selenium-injector>=2.3
+selenium-driverless>=1.2.2
+
+[dev]
+check-manifest
