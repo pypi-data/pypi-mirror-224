@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "seira-craft"
+version = "0.0.1"
+description = ""
+authors = ["jesper <mail@jeshj.com>"]
+readme = "README.md"
+packages = [{include = "seira_craft"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
