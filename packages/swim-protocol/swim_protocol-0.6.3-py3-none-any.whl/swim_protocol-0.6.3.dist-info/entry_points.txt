@@ -1,0 +1,6 @@
+[console_scripts]
+swim-protocol-demo = swimprotocol.demo:main
+swim-protocol-sync = swimprotocol.sync:main
+
+[swimprotocol.transport]
+udp = swimprotocol.udp:UdpTransport
