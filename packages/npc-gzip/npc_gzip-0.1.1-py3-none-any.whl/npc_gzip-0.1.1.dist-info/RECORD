@@ -1,0 +1,15 @@
+npc_gzip/__init__.py,sha256=zZyek1P4j-AQQuaGFIskpGsu3VIcvo9o2IwoNPRQ94E,97
+npc_gzip/aggregations.py,sha256=7FsnGnkdG5Z32WwyDLZxvDxWgNjyvQh-z2wNuq4g_Lo,1070
+npc_gzip/compressors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+npc_gzip/compressors/base.py,sha256=Tiu9Ozp_xSkbdlkIfRuL97Iy8gEuwqvvm5hlmcYD6iQ,3472
+npc_gzip/compressors/bz2_compressor.py,sha256=21NOQrDoF46Q7LMesHk8qv7E6bsUHeh8z5qYNXUVpqs,833
+npc_gzip/compressors/gzip_compressor.py,sha256=nYiQ0yYp1X-lPki2E1_HhVq_jeb5xRVRtToKYd8gDc8,839
+npc_gzip/compressors/lzma_compressor.py,sha256=vA4XWCdovViAqyXoFkIcjGw5avgHTbHQdRtCR3PSRQU,839
+npc_gzip/distance.py,sha256=NsK-224OJ5wE6dnflcNlNdFaY1i14NdP2rdhMwIsLcE,6385
+npc_gzip/exceptions.py,sha256=tZW9A08ow7PY4gJgE66X9IgeCsFqmxRBIRi6qHujncw,5185
+npc_gzip/knn_classifier.py,sha256=fiFKlpp6nemPiAQ6p087wXAnSEY2NjvaWTjrNCrrMxg,13815
+npc_gzip/utils.py,sha256=7WkkU_CNA8GnkZ7U1LDbVbXJ6_b9xNdTj0kASvXX-IU,1807
+npc_gzip-0.1.1.dist-info/LICENSE,sha256=pMlVYkn6vQ9FbFM3ijnN-ojt5OO7OBr-U63j0GE4JFs,1066
+npc_gzip-0.1.1.dist-info/METADATA,sha256=XaWOk3yFbojCoV0p6TFRTSPz28sMf6Q2FUT-a_WifXU,3536
+npc_gzip-0.1.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+npc_gzip-0.1.1.dist-info/RECORD,,
