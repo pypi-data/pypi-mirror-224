@@ -1,0 +1,17 @@
+TeaRoute/__init__.py,sha256=gfgMD3GVcAY8dQJHIvMKTSYofB214lyHpUFe459LzQA,119
+TeaRoute/main.py,sha256=Z5mPSKUz1d-A_k87SwgROJYkDVwV3NTLSFvPM4V8cz0,1492
+TeaRoute/router/__init__.py,sha256=clhf6to5Hlu1NXgELFvhjI23ie8yQajiQoZOCh83fyA,196
+TeaRoute/router/inner.py,sha256=5nPCK6zLDjIn3cK-zffyZq6WKF12vY7FseVIETydnuc,1550
+TeaRoute/router/manual/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+TeaRoute/router/manual/error.py,sha256=1YchfN4PFLWLGdPOga1cTaIGaE35NZuIyEK8jXP0_jg,447
+TeaRoute/router/manual/functions.py,sha256=8B5f9KzT6ztix5Kr-fTITJpBGjvGGWn6yUYHeWLqlMA,659
+TeaRoute/router/methods/__init__.py,sha256=nmURPiaj5d_Wdt6hOuxNfM_n2N3zGSIUjor1NwrTGtY,129
+TeaRoute/router/methods/chat.py,sha256=B9LCZTNJiIL0Pr6GDWgw2aIx-NSdXbdCJKBbzeKreac,1422
+TeaRoute/router/methods/cos.py,sha256=GQtFqifUiKBhbNXyQQ8bbeoc9rGsEuLZkdM5o8CRXd4,240
+TeaRoute/router/methods/embed.py,sha256=yq4DuLuc9mQRuq7t4-mKSVJupekwVcT5-KL4l46UBZM,206
+TeaRoute/router/methods/route.py,sha256=mLMw61CsK59mTcB3QT3c-FNFpQEa-CiTJy7NqgUzZrA,631
+TeaRoute/router/methods/training.py,sha256=2MUaCpxBBPV9Rhc_MYZSlo2n9zBq9CUPFpOIXs_CZHc,788
+TeaRoute-0.0.6.dist-info/METADATA,sha256=deYR5zdRlRw2WkLyg_7cji_CneeBR3YfVN2ClF-vUBI,637
+TeaRoute-0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+TeaRoute-0.0.6.dist-info/top_level.txt,sha256=Lw0yvJvD2z5bCcP6gTRi7ZHCxBKZM1s-4u0hoJiJrII,9
+TeaRoute-0.0.6.dist-info/RECORD,,
