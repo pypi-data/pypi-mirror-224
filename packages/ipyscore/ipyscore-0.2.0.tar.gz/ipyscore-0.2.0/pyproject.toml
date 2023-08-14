@@ -1,0 +1,43 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ipyscore"
+dynamic = ["version"]
+description = "A Jupyter widget for rendering music notation"
+readme = "README.md"
+license = { file = "LICENSE.txt" }
+requires-python = ">=3.7"
+authors = [{ name = "David Brochart", email = "david.brochart@gmail.com" }]
+keywords = [
+    "IPython",
+    "Jupyter",
+    "Widgets",
+]
+classifiers = [
+    "Framework :: Jupyter",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+]
+dependencies = [
+    "anywidget >=0.6.3,<1",
+]
+
+[project.urls]
+Homepage = "https://github.com/davidbrochart/ipyscore"
+
+[tool.hatch.build]
+artifacts = [
+    "ipyscore/static/index.js",
+]
+
+[tool.hatch.version]
+path = "ipyscore/__init__.py"
