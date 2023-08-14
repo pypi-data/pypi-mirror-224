@@ -1,0 +1,11 @@
+google_nest_camera_proxy/__init__.py,sha256=UINvc39qB6YNMLZlPfQSnoGj0zUlklxzWCH3zUQjxUk,254
+google_nest_camera_proxy/__main__.py,sha256=WLL-qhJmM45xQmrDEA8tOPJR__YP7jAJrrl_6DGaJP8,2337
+google_nest_camera_proxy/auth.py,sha256=cK7BrYO4egp6_Do_2qviWQvSo3JcDjUtvUZ-XqVL_EU,1107
+google_nest_camera_proxy/camera.py,sha256=_Q3IpQLsr_GTi7gbBTPcId4TSOijUo5Ij5Vjsjxhnq4,7527
+google_nest_camera_proxy/google_nest_camera_proxy.py,sha256=kyCmxO1nn4ggFmkDdvMFefm1QhbWsEm2q__3qnSNJgQ,4221
+google_nest_camera_proxy/rtsp_server.py,sha256=zIk-j8Gst8SJJB0tI_VIcSPhJGiZZHGrfhI-e1bQwT8,9136
+google_nest_camera_proxy-0.9.17.dist-info/LICENSE,sha256=7G8YZIPkHFJlzODX_YEJInPRLSmDORa1rlVsQCUtAeE,1070
+google_nest_camera_proxy-0.9.17.dist-info/METADATA,sha256=XWuLp_F8z4N7ejYkNMueeizj8m-qfkSyvQJr_eEPksI,10185
+google_nest_camera_proxy-0.9.17.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+google_nest_camera_proxy-0.9.17.dist-info/entry_points.txt,sha256=KknUyNjoaXmBBOolzzcBR-0CLd2yRo3786aCrBnK-nA,73
+google_nest_camera_proxy-0.9.17.dist-info/RECORD,,
