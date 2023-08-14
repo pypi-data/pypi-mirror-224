@@ -1,0 +1,8 @@
+setup.py
+video_writer/__init__.py
+video_writer/video_writer.py
+videowriter.egg-info/PKG-INFO
+videowriter.egg-info/SOURCES.txt
+videowriter.egg-info/dependency_links.txt
+videowriter.egg-info/requires.txt
+videowriter.egg-info/top_level.txt
