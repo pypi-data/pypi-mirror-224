@@ -1,0 +1,2 @@
+[console_scripts]
+oslui = oslui.main:main

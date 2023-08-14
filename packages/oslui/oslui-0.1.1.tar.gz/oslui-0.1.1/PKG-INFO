@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: oslui
+Version: 0.1.1
+Summary: Natural Language User Interface for Operating Systems
+Home-page: https://github.com/BalianWang/OSLUI
+Author: BalianWang
+Author-email: balian.wang1997@gmail.com
+License: MIT
+Requires-Python: >=3
+License-File: LICENSE
