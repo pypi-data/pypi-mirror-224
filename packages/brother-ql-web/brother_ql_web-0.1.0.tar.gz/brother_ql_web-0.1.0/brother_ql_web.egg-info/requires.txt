@@ -1,0 +1,12 @@
+brother_ql
+bottle
+jinja2
+
+[dev]
+black
+flake8
+pep8-naming
+
+[mypy]
+mypy
+types-Pillow
