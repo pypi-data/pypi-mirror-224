@@ -1,0 +1,5 @@
+setup.py
+addnumberstesting.egg-info/PKG-INFO
+addnumberstesting.egg-info/SOURCES.txt
+addnumberstesting.egg-info/dependency_links.txt
+addnumberstesting.egg-info/top_level.txt
