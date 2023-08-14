@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "kodexa-cli"
+version = "6.3.1a5847584792"
+description = "Command Line Tools for Kodexa"
+authors = ["Austin Redenbaugh <austin@kodexa.com>", "Philip Dodds <philip@kodexa.com>", "Romar Cablao <rcablao@kodexa.com>", "Amadea Paula Dodds <amadeapaula@kodexa.com>", "John Patrick Sese <jp@kodexa.com>"]
+readme = "README.md"
+packages = [{include = "kodexa_cli"}]
+
+[tool.poetry.scripts]
+kodexa = 'kodexa_cli:cli'
+
+[tool.poetry.dependencies]
+python = "^3.9"
+kodexa = "^6.3.0"
+click = "8.1.6"
+PyYAML = "^6.0"
+rich = "13.5.2"
+flake8 = "^6.0.0"
+mypy = "^1.5.0"
+pandas = "^2.0.2"
+wrapt = "^1.15.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+mkdocs-click = "^0.8.0"
+mkdocs-material = "^9.0.3"
+black = "^23.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
