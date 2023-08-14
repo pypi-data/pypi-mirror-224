@@ -1,0 +1,8 @@
+botlogger/__init__.py,sha256=PRDUdjj3mmrzg3JwOtUhqdhNtQNZKb8TlOL0VMADKeE,66
+botlogger/logger.py,sha256=PxlwyBvobG2_rc8zWAiKkAbmHTgOqtPVGJpq9G5Ptek,2767
+botlogger/middlewares.py,sha256=ep_3CbBmLGxMQVZS4EXaA0ZRJStPoFFS9BTeBXfckn4,515
+botlogger/services.py,sha256=sR5Qvs8IoXub6MLNRtD4w1nOMHZxXYOOX3u17DtvbQ8,632
+botlogger-0.0.1.dist-info/METADATA,sha256=_XKLVe6UwGJ_LUxjgWA7DS0JB-bJku92nd5_xDWLcuE,192
+botlogger-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+botlogger-0.0.1.dist-info/top_level.txt,sha256=3Um0_D5JNERDI0xZ-RogPCrHzClVkwe44LYnPGT-E6g,10
+botlogger-0.0.1.dist-info/RECORD,,
