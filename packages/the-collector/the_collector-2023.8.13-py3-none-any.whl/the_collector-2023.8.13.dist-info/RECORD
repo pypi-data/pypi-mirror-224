@@ -1,0 +1,10 @@
+the_collector/__init__.py,sha256=3BSK0MoQeI2VW9ELiAgVDiB3xIsOoFz-xSwB_Rjv0h8,836
+the_collector/ver_1/bagit.py,sha256=44sNwBuYbK3qMwOOF7x33LTFn9kBntFmhmkbTtfwcoM,3175
+the_collector/ver_1/data.py,sha256=k0PxXu9gJHgIw__2FmIEsjT66ozBYJy47TldtYvtaaA,671
+the_collector/ver_1/extra_numpy.py,sha256=6ijv46WuSpu9f7Wv5bUaz9KQYgw_zfK4DYjf45C8laU,744
+the_collector/ver_1/protocols.py,sha256=knUQXJu314p6fE8yhmmDLyEFN3knLdC4s8OinYQ_K90,2032
+the_collector/ver_2/collector.py,sha256=K3dNWvU28nH-pU4dTjymSbdW0J-GKuTndb9_huHG3xQ,4548
+the_collector-2023.8.13.dist-info/LICENSE,sha256=Hegh1w7iCVzEbj-GmF862kLwxnNdFRHVfBD0UtiATbk,1070
+the_collector-2023.8.13.dist-info/METADATA,sha256=xycjEadx-HeoiZPpGuIWu60xZcrUQuHnSsXsKxZ_PlU,4176
+the_collector-2023.8.13.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+the_collector-2023.8.13.dist-info/RECORD,,
