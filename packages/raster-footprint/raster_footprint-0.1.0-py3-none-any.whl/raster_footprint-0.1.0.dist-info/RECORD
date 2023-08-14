@@ -1,0 +1,11 @@
+raster_footprint/__init__.py,sha256=s9N-ITg7D8O7P7oMRaKprZGumKzqyi0584g2q0qWWHY,767
+raster_footprint/densify.py,sha256=faF3kTJ7pXenJcjboj9oe7DhDU4_gyYwInoQgh436Ko,7257
+raster_footprint/footprint.py,sha256=Vfq1D7jMu3EXRtNIvFnpKDNWUa6MNjB1LOv3_Dagsks,15642
+raster_footprint/mask.py,sha256=7xIu9AsyZ1wOEUWJ6o8gQiAu_hzYzQx_PKPNoHO3_Ks,3794
+raster_footprint/reproject.py,sha256=fyD4f206P55RUsJtpCGBiTvLcaKyCvhMzLbYkAI_qsQ,1381
+raster_footprint/simplify.py,sha256=xrKfG0virKMLd9McDVqZ2hw-z8LcgJNUnXySL9GODY8,904
+raster_footprint-0.1.0.dist-info/LICENSE,sha256=lb05iL7uBp-ihI9kjatDzG4LKt0q1ryxc2DK90mAK8w,9722
+raster_footprint-0.1.0.dist-info/METADATA,sha256=-xL_rY6lMov0TN4ffKHvleQAEDZ5ZueZdA-ApeEfVd0,3212
+raster_footprint-0.1.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+raster_footprint-0.1.0.dist-info/top_level.txt,sha256=SBcrQxYd3TVxa0KLIZdTq8W6PKY1a2tpJs6xOrEthKM,17
+raster_footprint-0.1.0.dist-info/RECORD,,
