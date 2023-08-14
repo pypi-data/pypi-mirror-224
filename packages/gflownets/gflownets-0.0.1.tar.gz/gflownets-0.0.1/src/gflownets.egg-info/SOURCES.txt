@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+src/gflownets/__init__.py
+src/gflownets.egg-info/PKG-INFO
+src/gflownets.egg-info/SOURCES.txt
+src/gflownets.egg-info/dependency_links.txt
+src/gflownets.egg-info/top_level.txt
