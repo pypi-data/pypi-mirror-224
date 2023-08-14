@@ -1,0 +1,8 @@
+README.md
+setup.py
+discat/__init__.py
+discat.egg-info/PKG-INFO
+discat.egg-info/SOURCES.txt
+discat.egg-info/dependency_links.txt
+discat.egg-info/requires.txt
+discat.egg-info/top_level.txt

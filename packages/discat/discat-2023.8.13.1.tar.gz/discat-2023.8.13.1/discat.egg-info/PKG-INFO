@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: discat
+Version: 2023.8.13.1
+Summary: A Discord API wrapper so easy, a cat can code in it!
+Author: RixTheTyrunt
+Author-email: rixthetyrunt@gmail.com
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+
+# discat
+A Discord API wrapper so easy, a cat can code in it!
