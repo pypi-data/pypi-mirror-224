@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+imdbmovies/__init__.py
+imdbmovies/imdb.py
+imdbmovies/parser.py
+imdbmovies.egg-info/PKG-INFO
+imdbmovies.egg-info/SOURCES.txt
+imdbmovies.egg-info/dependency_links.txt
+imdbmovies.egg-info/not-zip-safe
+imdbmovies.egg-info/requires.txt
+imdbmovies.egg-info/top_level.txt
