@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: momogateway
+Version: 0.1.1
+Summary: MTN MOMO Gateway - a Python package that simplifies the process of interacting with the MTN Mobile Money (MoMo) API, making it easy to create API users, generate API keys, and obtain bearer tokens for secure transactions.
+Home-page: https://github.com/jonahgeek/python-mtn-momo-gateway
+Author: Jonathan Mwebaze
+Author-email: jonahgeek@gmail.com
+Project-URL: Author, https://mwebaze.com
