@@ -1,0 +1,32 @@
+[project]
+name = "qbwrap"
+authors = [{name = "Maciej Barć", email = "xgqt@riseup.net"}]
+readme = "README.md"
+dynamic = ["version", "description"]
+requires-python = ">=3.9"
+dependencies = [
+    "tomli",
+]
+classifiers = [
+    "Environment :: Console",
+    "Operating System :: POSIX",
+    "Programming Language :: Python :: 3 :: Only",
+]
+
+[project.scripts]
+qbwrap = "qbwrap.starter.main:main"
+
+[project.urls]
+Home = "https://gitlab.com/xgqt/xgqt-python-app-qbwrap/"
+
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.pylint]
+disable = [
+    "C0301",  # line-too-long
+    "R0903",  # too-few-public-methods
+    "R0913",  # too-many-arguments
+    "W0622",  # redefined-builtin
+]
