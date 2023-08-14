@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: regexpro
+Version: 0.1.1
+Summary: Prebuilt regex validators
+Home-page: https://github.com/pysaurav/regexpro
+Author: Saurav
+Author-email: pysaurav@gmail.com
+License: MIT License
+Keywords: prebuilt validator,regex validator
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
