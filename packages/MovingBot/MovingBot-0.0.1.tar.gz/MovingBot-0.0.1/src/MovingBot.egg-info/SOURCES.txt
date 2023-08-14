@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/MovingBot.egg-info/PKG-INFO
+src/MovingBot.egg-info/SOURCES.txt
+src/MovingBot.egg-info/dependency_links.txt
+src/MovingBot.egg-info/top_level.txt
+src/MovingBot_XKMR/MoveBot.py
+src/MovingBot_XKMR/__init__.py
