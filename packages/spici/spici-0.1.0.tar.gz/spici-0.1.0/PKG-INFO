@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: spici
+Version: 0.1.0
+Summary: spice your data
+Home-page: 
+Author: Eklavya Gupta
+Author-email: emessage.eg@gmail.com
+License: MIT
+Keywords: data prepration
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+this is a data prepration library to assist in data preprocessing for Machine Learning
+
+Change Log
+==========
+
+0.0.1 (25/07/2023)
+-------------------
+- First Release

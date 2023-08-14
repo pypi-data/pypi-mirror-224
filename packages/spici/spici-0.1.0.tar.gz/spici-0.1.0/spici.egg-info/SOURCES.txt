@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+spici/__init__.py
+spici.egg-info/PKG-INFO
+spici.egg-info/SOURCES.txt
+spici.egg-info/dependency_links.txt
+spici.egg-info/requires.txt
+spici.egg-info/top_level.txt
