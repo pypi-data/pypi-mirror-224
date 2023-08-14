@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: marionette_driver
+Version: 3.4.0
+Summary: Marionette Driver
+Home-page: https://wiki.mozilla.org/Auto-tools/Projects/Marionette
+Author: Auto-tools
+Author-email: dev-webdriver@mozilla.org
+License: MPL
+Keywords: mozilla
+Platform: UNKNOWN
+Classifier: Development Status :: 7 - Inactive
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+
+Note marionette_driver is no longer supported.
+
+For more information see https://firefox-source-docs.mozilla.org/python/marionette_driver.html
+
