@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: filelisting
+Version: 1.0.0
+Summary: list files
+Author-email: Aaron Alphabet <aaron.alphabet@posteo.org>
+Project-URL: source, https://github.com/aaron-alphabet/filelisting
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+License-File: LICENSE.md
+
