@@ -1,0 +1,11 @@
+gplume/API_Access.py,sha256=_aYU_2c6Es7YK6pryURAIPwO5tSqQTg5AB0whJK8B_I,7053
+gplume/DateTimeMechanism.py,sha256=mtJATouZgy7oDiqWeypVX2byX8LQTPerPWH0ALn4QFU,5701
+gplume/OpenWeatherMapAPI.py,sha256=7WoECxzSwZy_DpEVG5qijXczfiMopeE94833dhnjaFY,2682
+gplume/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gplume/gpm.py,sha256=i5XO7r3S8sk4nlXueHhP8xWyutdBC3sNt-mi3GVkIpU,4346
+gplume/inverse.py,sha256=zNWrJsPIBQWTCO91a1uhXn187vBd3fY_B8RZ_56Qm2g,2331
+gplume-0.0.3.dist-info/LICENSE.txt,sha256=Ic28ro8U6ZEJRiwfn0GmYwKcfyTOTO34X6_xlS20CAg,1075
+gplume-0.0.3.dist-info/METADATA,sha256=yv1yKt0ukcL2ABJTgA5hPrRge0qGey1Jj6B9q3SFdTk,3774
+gplume-0.0.3.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+gplume-0.0.3.dist-info/top_level.txt,sha256=R3Fepwm33Rqsl4mElUSZfx6Zsdx3AvybTh5pKbIelY4,7
+gplume-0.0.3.dist-info/RECORD,,
