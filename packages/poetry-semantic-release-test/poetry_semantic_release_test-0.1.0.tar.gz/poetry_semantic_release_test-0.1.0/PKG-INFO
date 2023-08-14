@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: poetry-semantic-release-test
+Version: 0.1.0
+Summary: Test package to release with the poetry-semantic-release action
+Author: Matteo Fordiani
+Author-email: matteofordiani@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: numpy (>=1.24,<2.0)
+Description-Content-Type: text/markdown
+
+# poetry-semantic-release-test
+The QA repo for the poetry-semantic-release action
+
