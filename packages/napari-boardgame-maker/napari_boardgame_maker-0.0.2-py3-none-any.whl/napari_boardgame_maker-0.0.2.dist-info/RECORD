@@ -1,0 +1,12 @@
+napari_boardgame_maker/__init__.py,sha256=C52Iu4hQlm4vx3hvHdx7jp1t1Kjm3l0JRZzyUevV3w8,66
+napari_boardgame_maker/_sample_data.py,sha256=LMgnibEJm0Ym8UOBobt3aUOBfDT2jtNtb4hli7X_uac,573
+napari_boardgame_maker/_widget.py,sha256=y7MOaMq1fvVDhWBy-l2mOBtgOAO9skyRDN4YJhH9rmk,11947
+napari_boardgame_maker/napari.yaml,sha256=_dDR0aT0O9ixAIvx9lhKymvGsNsPCSeGA2iLrSkI1mM,1002
+napari_boardgame_maker/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_boardgame_maker/_tests/test_widget.py,sha256=QvWtfz7hrwARJpa-4KcP9-aPbz1Z261XqR16ZnYpeE0,547
+napari_boardgame_maker-0.0.2.dist-info/LICENSE,sha256=p5xfFHeEobQscb2ljGOnI8ReyyRWbRbnEz6edS3wcFo,1521
+napari_boardgame_maker-0.0.2.dist-info/METADATA,sha256=fZDzo-Xj_hJTQeK0l9Aouo76XTe9RynMiz2U5FanHjA,7506
+napari_boardgame_maker-0.0.2.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+napari_boardgame_maker-0.0.2.dist-info/entry_points.txt,sha256=rM1rM-tCLdCVCgVg0XU7mHjhxQ9o9Ez8SHjSBX0KGYQ,78
+napari_boardgame_maker-0.0.2.dist-info/top_level.txt,sha256=3dm0iAgkPMmWBPuV1kD_38_oLIjoTcN2D-OIth-WseY,23
+napari_boardgame_maker-0.0.2.dist-info/RECORD,,
