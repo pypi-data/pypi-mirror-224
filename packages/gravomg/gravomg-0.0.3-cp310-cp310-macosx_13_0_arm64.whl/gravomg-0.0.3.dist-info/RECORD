@@ -1,0 +1,9 @@
+gravomg_bindings.cpython-310-darwin.so,sha256=r8_6MRYvjKiMC5-pXEtHPTjkryMzg96_EJe3wfTRDno,340088
+gravomg/__init__.py,sha256=xbLYzTxXLTFli-t1boh2ab0JGetocVYEMkR7l3MhFYE,53
+gravomg/core.py,sha256=0HfDknG5LukO0G0Q8ATeiMtEu1gdZ086nYmJUe8-xY4,3813
+gravomg/util.py,sha256=Kgb9q_mjctriNP_b95kAzkKOsIkFCWKFf5xRea3jH64,2134
+gravomg-0.0.3.dist-info/LICENSE,sha256=6pxYtiKF9YvFJeNV8p8JKQOpk6ZgIomYlVVRpB_5YtA,1069
+gravomg-0.0.3.dist-info/METADATA,sha256=_ixPlcIvtjPNiZg3iBwuP1elzAgRplQAiV9XtxwG28g,2371
+gravomg-0.0.3.dist-info/WHEEL,sha256=N8mNm0lwFxnx4Yy1cCMejWsgLDhK5NXIbmE6lDB4lMw,110
+gravomg-0.0.3.dist-info/top_level.txt,sha256=nJgl73SYDpVa_rBJ757yt17zsWTHa7hHhyuYS1cNve4,9
+gravomg-0.0.3.dist-info/RECORD,,
