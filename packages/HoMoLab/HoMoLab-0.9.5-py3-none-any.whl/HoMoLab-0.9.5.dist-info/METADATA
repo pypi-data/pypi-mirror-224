@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: HoMoLab
+Version: 0.9.5
+Summary: 基于Pywebview的米游社PC客户端实现
+Home-page: https://homolab.error063.work/
+Author: Error063
+Author-email: admin@error063.work
+License: GPL3
+Keywords: HoYoLab,米游社
+Requires-Python: ~=3.10
+Requires-Dist: blinker (==1.6.2)
+Requires-Dist: bottle (==0.12.25)
+Requires-Dist: certifi (>=2023.07.22)
+Requires-Dist: cffi (==1.15.1)
+Requires-Dist: charset-normalizer (==3.2.0)
+Requires-Dist: click (==8.1.4)
+Requires-Dist: clr-loader (==0.2.5)
+Requires-Dist: colorama (==0.4.6)
+Requires-Dist: dominate (==2.8.0)
+Requires-Dist: Flask (==2.3.2)
+Requires-Dist: idna (==3.4)
+Requires-Dist: itsdangerous (==2.1.2)
+Requires-Dist: Jinja2 (==3.1.2)
+Requires-Dist: MarkupSafe (==2.1.3)
+Requires-Dist: proxy-tools (==0.1.0)
+Requires-Dist: pycparser (==2.21)
+Requires-Dist: pythonnet (==3.0.1)
+Requires-Dist: pywebview (==4.2.2)
+Requires-Dist: requests (==2.31.0)
+Requires-Dist: typing-extensions (==4.7.1)
+Requires-Dist: ua-parser (==0.18.0)
+Requires-Dist: urllib3 (==2.0.3)
+Requires-Dist: user-agents (==2.2.0)
+Requires-Dist: Werkzeug (==2.3.6)
+
