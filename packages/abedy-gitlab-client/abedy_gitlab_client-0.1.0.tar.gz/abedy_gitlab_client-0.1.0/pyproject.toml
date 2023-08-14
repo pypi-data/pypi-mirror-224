@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "abedy-gitlab-client"
+version = "0.1.0"
+description = "Personal Version of a python Gitlab API client"
+authors = ["Abedy Ng'ang'a <abedy.nganga@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "gitlab_client"}]
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+black = "^23.7.0"
+python-decouple = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
