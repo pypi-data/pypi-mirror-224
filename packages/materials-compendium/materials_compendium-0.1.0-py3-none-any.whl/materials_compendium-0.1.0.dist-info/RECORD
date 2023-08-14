@@ -1,0 +1,9 @@
+materials_compendium/MaterialsCompendium.json,sha256=Xbb5ylh5NlnnPGbP1iRzb_pZhGI5zUI8EettvlpWYHs,7857980
+materials_compendium/__init__.py,sha256=vCCn7qxi6f5XiDPveVdt5U3olMdcAw_l5I7D7iTt1Ts,59
+materials_compendium/parse_material_compendium.py,sha256=h0NIvtFMbMnxbw_-23SiQjJ1q9x-QMBPfHS93EvqFk4,15390
+materials_compendium/utils.py,sha256=BK8lKCH5HEQOS2iKcmbv0Vrbz6cFlzN3-Q5_TE3ye-o,29871
+materials_compendium-0.1.0.dist-info/LICENSE,sha256=uBu0hCHRVE2t6M_smqMiwuLdYUxOSWuecNbcTDH6Cd8,1293
+materials_compendium-0.1.0.dist-info/METADATA,sha256=GeTPGIk41nZBW88MU4NS6Z6d_N7FeC2ISb0TydMxm-8,5541
+materials_compendium-0.1.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+materials_compendium-0.1.0.dist-info/top_level.txt,sha256=wYXss9dwcityvMqQZ832WMlmRNy1HGazmeQjcXzAovw,21
+materials_compendium-0.1.0.dist-info/RECORD,,
