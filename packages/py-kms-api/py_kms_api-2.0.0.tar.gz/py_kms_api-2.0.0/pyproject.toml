@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "py-kms-api"
+version = "2.0.0"
+description = "PyKMS API"
+authors = ["Jovial Joe Jayarson <jovial7joe@hotmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/joe733/py-kms-api"
+keywords = [
+    "kms",
+    "py-kms",
+    "py-kms-api",
+    "python kms server",
+    "python kms server api",
+    "python key management server",
+    "python key management server api",
+]
+classifiers = [
+    "Operating System :: OS Independent",
+    "Topic :: Internet :: WWW/HTTP :: WSGI :: Server",
+]
+packages = [{ include = "py_kms_api" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
