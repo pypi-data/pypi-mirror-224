@@ -1,0 +1,5 @@
+setup.py
+segment_criteria_matching.egg-info/PKG-INFO
+segment_criteria_matching.egg-info/SOURCES.txt
+segment_criteria_matching.egg-info/dependency_links.txt
+segment_criteria_matching.egg-info/top_level.txt
