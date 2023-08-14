@@ -1,0 +1,3 @@
+[console_scripts]
+lushlayers=lushlayers.__main__:main
+
