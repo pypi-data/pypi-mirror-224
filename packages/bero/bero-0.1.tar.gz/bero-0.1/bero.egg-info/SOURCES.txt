@@ -1,0 +1,8 @@
+LICENSE.txt
+setup.py
+bero/__init__.py
+bero/bero.py
+bero.egg-info/PKG-INFO
+bero.egg-info/SOURCES.txt
+bero.egg-info/dependency_links.txt
+bero.egg-info/top_level.txt
