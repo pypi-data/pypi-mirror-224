@@ -1,0 +1,7 @@
+setup.py
+summation/__init__.py
+summation/summation.py
+testingaddnumbers.egg-info/PKG-INFO
+testingaddnumbers.egg-info/SOURCES.txt
+testingaddnumbers.egg-info/dependency_links.txt
+testingaddnumbers.egg-info/top_level.txt
