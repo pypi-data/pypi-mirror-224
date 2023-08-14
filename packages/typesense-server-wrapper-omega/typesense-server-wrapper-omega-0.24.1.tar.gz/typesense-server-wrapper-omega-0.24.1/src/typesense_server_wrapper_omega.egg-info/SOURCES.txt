@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+src/typesense_server_wrapper_omega/__init__.py
+src/typesense_server_wrapper_omega/typesense-server.2.bin
+src/typesense_server_wrapper_omega.egg-info/PKG-INFO
+src/typesense_server_wrapper_omega.egg-info/SOURCES.txt
+src/typesense_server_wrapper_omega.egg-info/dependency_links.txt
+src/typesense_server_wrapper_omega.egg-info/top_level.txt
