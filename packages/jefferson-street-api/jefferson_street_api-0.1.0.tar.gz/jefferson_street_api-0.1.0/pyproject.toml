@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "jefferson-street-api"
+version = "0.1.0"
+description = "A set of tools for building and connecting to JSt's API."
+authors = ["MAhbab <mahfuj@jeffersonst.io>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "jefferson_street_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+google-cloud-bigquery = "^3.11.4"
+flask = "^2.3.2"
+setuptools = "^68.0.0"
+pytest = "^7.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
