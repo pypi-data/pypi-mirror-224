@@ -1,0 +1,8 @@
+LICENSE.txt
+setup.py
+lixlib/__init__.py
+lixlib/lixlib.py
+lixlib.egg-info/PKG-INFO
+lixlib.egg-info/SOURCES.txt
+lixlib.egg-info/dependency_links.txt
+lixlib.egg-info/top_level.txt
