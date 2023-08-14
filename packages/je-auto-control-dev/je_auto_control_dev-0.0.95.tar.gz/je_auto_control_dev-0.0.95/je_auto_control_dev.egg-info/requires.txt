@@ -1,0 +1,10 @@
+je_open_cv
+pillow
+APScheduler==3.10.1
+
+[:platform_system == "Darwin"]
+pyobjc-core
+pyobjc
+
+[:platform_system == "Linux"]
+python-Xlib
