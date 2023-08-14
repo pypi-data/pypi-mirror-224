@@ -1,0 +1,9 @@
+README.md
+botrun_pdf_qa.py
+setup.py
+botrun_pdf_qa.egg-info/PKG-INFO
+botrun_pdf_qa.egg-info/SOURCES.txt
+botrun_pdf_qa.egg-info/dependency_links.txt
+botrun_pdf_qa.egg-info/entry_points.txt
+botrun_pdf_qa.egg-info/requires.txt
+botrun_pdf_qa.egg-info/top_level.txt
