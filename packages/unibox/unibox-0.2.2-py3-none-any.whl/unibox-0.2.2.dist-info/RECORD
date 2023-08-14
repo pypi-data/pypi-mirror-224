@@ -1,0 +1,15 @@
+unibox/__init__.py,sha256=KPn984JVFdV0fhO0DOIqmb-xWaACeejc-DJqatJ6CHE,1335
+unibox/cli.py,sha256=B7m1Pa6C84FHc08P1ul61eoIKiqhNelI7pD3Tzb5dUY,3095
+unibox/processing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unibox/processing/converer.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unibox/processing/file_mover.py,sha256=0PKEdcw_iDu2epQjdkj_87ixgp0ZP-HcmUpeuWpNYiY,2095
+unibox/processing/image_resizer.py,sha256=y9Cdo_WDXViBuHrmNiDvNBkRWNJusnq98l5XXfmRSMM,6268
+unibox/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unibox/utils/uni_loader.py,sha256=H9RhBcUOPP6lDbjK65xBeGkJxGGmAELVpZJbp1DRd9Q,3573
+unibox/utils/uni_logger.py,sha256=myYt0anL55MddVdMasf2G_NArbng_ueIiZKARwYoVvg,3759
+unibox/utils/uni_saver.py,sha256=DpQud7e-XGaEZaWZxbeNIvtMlcZtJKNPZUgg05ko3qA,4065
+unibox-0.2.2.dist-info/LICENSE,sha256=ZkgQFeStajoCpH0qdvZWB66jA3FNBHrM7RmAKB5dNEY,1061
+unibox-0.2.2.dist-info/METADATA,sha256=gycK451JoFvGEL7BbmzgH75VspwXWpQKxYHYdIi9gcE,2152
+unibox-0.2.2.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+unibox-0.2.2.dist-info/entry_points.txt,sha256=I_3v7fiqzQJXn_APoGfLbNEKF2zA21r3pAwqRJBYBKE,41
+unibox-0.2.2.dist-info/RECORD,,
