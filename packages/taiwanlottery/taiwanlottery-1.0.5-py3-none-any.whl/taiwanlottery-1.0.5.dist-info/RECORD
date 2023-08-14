@@ -1,0 +1,10 @@
+TaiwanLottery/__init__.py,sha256=j2wzoQl0N9sBmjmShUhvUnsCkFV0C2HTgHdGHM6ILG0,10573
+TaiwanLottery/utils.py,sha256=3ILL-PqCP7Fqhyb7PbrdmxXpoq5m3n8vbe6W6rdVUX4,2490
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_lottery.py,sha256=puLfeEcHVbPXuYikMvXFCCWqaxFNvb-bd1K5hsneLYQ,10394
+tests/test_utils.py,sha256=6-KZv_RYSSn3jQaXBczrwnqZ3xCKOKI27dPnIvTd0io,387
+taiwanlottery-1.0.5.dist-info/LICENSE,sha256=sgHuy3VczaBgU1tsDTxQEf3KFX4HwBd_t22qedRG2Tg,1065
+taiwanlottery-1.0.5.dist-info/METADATA,sha256=1Ezd8n-K2ilV_rCagCO5jE4mCCFa1MZWt3Mhsqr5Aag,6205
+taiwanlottery-1.0.5.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+taiwanlottery-1.0.5.dist-info/top_level.txt,sha256=a-tqGs0aIpOzhO8BYPlxhzAb_SUOHAaHyvm27_LnIBY,20
+taiwanlottery-1.0.5.dist-info/RECORD,,
