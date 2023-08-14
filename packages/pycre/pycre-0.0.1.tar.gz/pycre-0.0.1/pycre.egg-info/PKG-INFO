@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: pycre
+Version: 0.0.1
+Summary: Python implementation of Causal Rule Ensemble 
+Home-page: https://github.com/NSAPH-Software/pycre
+Author: ('Riccardo Cadei', 'Naeem Khoshnevis', 'Falco Joannes Bargagli Stoffi')
+Author-email: rcadei@hsph.harvard.edu,nkhoshnevis@g.harvard.edu,fbargaglistoffi@hsph.harvard.edu
+Maintainer: Naeem Khoshnevis
+Maintainer-email: nkhoshnevis@g.harvard.edu
+License: GPLv3
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Provides a new method for interpretable 
+        heterogeneous treatment effects characterization in terms of 
+        decision rules via an extensive exploration of heterogeneity 
+        patterns by an ensemble-of-trees approach, enforcing high 
+        stability in the discovery. It relies on a two-stage 
+        pseudo-outcome regression, and theoretical convergence 
+        guarantees support it. Bargagli-Stoffi, F. J., Cadei, R., 
+        Lee, K., & Dominici, F. (2023) Causal rule ensemble: 
+        Interpretable Discovery and Inference of Heterogeneous 
+        Treatment Effects. arXiv preprint <arXiv:2009.09036>.
