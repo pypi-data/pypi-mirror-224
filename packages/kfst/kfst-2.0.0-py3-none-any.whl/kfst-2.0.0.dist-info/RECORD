@@ -1,0 +1,10 @@
+kfst/__init__.py,sha256=U9GjLILBYS18oTsy1dATrGD0ki2XZvPFrmxg_6xBqJA,766
+kfst/convert.py,sha256=y3eguSjnhVRtKyZuLq15FaPY8QRLtoAqgItsG7IKHko,1211
+kfst/transducer.py,sha256=u_kqzmtKrDqrer29sCQZ4aOLjnyiXqhWq224nCsQ0aE,13919
+kfst/format/att.py,sha256=3sYiuUHJeAqDZ9UAFOnQyloHXh0IvHv5lt3VIi1BdnM,1957
+kfst/format/kfst.py,sha256=4CqB-zGCVA87G4jOQdyTpyP9vE6FHBQhngiFpT7HAT0,4223
+kfst-2.0.0.dist-info/LICENSE,sha256=GkWx0KhgPf4s_GRPnauXCxdi-Sur4qrG6y9dRXLEpoA,7653
+kfst-2.0.0.dist-info/METADATA,sha256=S171iEP3tR98FPgDJGyxuJm4gg4iK-G6zm3dnoMiLMg,2066
+kfst-2.0.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+kfst-2.0.0.dist-info/top_level.txt,sha256=u1osbhbXf9iKHDr3BZQHhuVE0WkJnUAnvWwiLSJOx7w,5
+kfst-2.0.0.dist-info/RECORD,,
