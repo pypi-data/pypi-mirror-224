@@ -1,0 +1,3 @@
+[console_scripts]
+utfuzz=utfuzz.main:main
+
