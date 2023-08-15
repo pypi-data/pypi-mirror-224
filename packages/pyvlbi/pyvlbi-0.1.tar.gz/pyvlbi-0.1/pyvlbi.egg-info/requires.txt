@@ -1,0 +1,9 @@
+astropy
+extension_helpers
+mayavi
+numpy
+pillow
+poliastro
+skyfield
+trimesh
+viscid
