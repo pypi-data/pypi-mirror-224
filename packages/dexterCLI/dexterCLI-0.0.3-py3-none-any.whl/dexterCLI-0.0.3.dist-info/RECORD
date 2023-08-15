@@ -1,0 +1,11 @@
+dexterCLI/__init__.py,sha256=FNb18TMqLvhkHAozvD96h-A0LJkjqKyL8ke1AKMi8A4,74
+dexterCLI/__main__.py,sha256=abkZd-ZfThxiA-5pLtBTebT0QPTraO4o7bfkH3zKj08,64
+dexterCLI/api.py,sha256=1ai0SGhxsSNPyQHx-zLhwFSZelopirRkkI0su8c-g14,1099
+dexterCLI/cli.py,sha256=pPBYvC7SQACcbOWlvKrwKZhXumVEkmLH9ljmQ3hh9hc,3289
+dexterCLI/commands.py,sha256=ZaOA-Tzn_RLpbJmwIB2pTltXcyyX3zvKDcuwFHxxl3Q,12513
+dexterCLI-0.0.3.dist-info/LICENSE,sha256=fa2GJ79mBNSnU3xmwZrmYERfW_MkNSb5yaO1X4cia4k,1065
+dexterCLI-0.0.3.dist-info/METADATA,sha256=HxUtdl5UD5i8PBq1oUwoViQD1aBaJu5qLpUskwzjl1c,3454
+dexterCLI-0.0.3.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+dexterCLI-0.0.3.dist-info/entry_points.txt,sha256=YHyREyNBMPe0Ehk6VAQ0RiZTJ6pq_MdkP2gwCwKsrHQ,46
+dexterCLI-0.0.3.dist-info/top_level.txt,sha256=pJ2igGvSU1baO8TXjPj_TG4Ilqk5y5O8ylguMXelov0,10
+dexterCLI-0.0.3.dist-info/RECORD,,
