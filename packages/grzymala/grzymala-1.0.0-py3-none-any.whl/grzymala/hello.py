@@ -1,0 +1,1 @@
+print("Thank you for using Grzymala (Geodesic Real Zipped Young Multipurpouse Academic Library Aid)")
