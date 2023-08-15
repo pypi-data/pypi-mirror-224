@@ -1,0 +1,7 @@
+setup.py
+beautifulpacky/__init__.py
+beautifulpacky/beautifulpacky.py
+beautifulpacky.egg-info/PKG-INFO
+beautifulpacky.egg-info/SOURCES.txt
+beautifulpacky.egg-info/dependency_links.txt
+beautifulpacky.egg-info/top_level.txt
