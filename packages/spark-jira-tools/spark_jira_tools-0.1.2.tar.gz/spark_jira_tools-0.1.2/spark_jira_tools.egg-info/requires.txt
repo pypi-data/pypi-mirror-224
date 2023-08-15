@@ -1,0 +1,7 @@
+pandas==2.0.1
+numpy==1.24.3
+pyarrow==12.0.0
+setuptools==58.2.0
+wheel==0.40.0
+color-tools>=0.0.2
+spark-dataframe-tools>=0.4.0
