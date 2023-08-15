@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: appsignal-beta
+Version: 0.2.0
+Summary: The AppSignal integration for the Python programming language
+Project-URL: Documentation, https://github.com/appsignal/appsignal-python#readme
+Project-URL: Issues, https://github.com/appsignal/appsignal-python/issues
+Project-URL: Source, https://github.com/appsignal/appsignal-python
+Author-email: Noemi Lapresta <noemi@appsignal.com>
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.8
+Requires-Dist: appsignal
+Description-Content-Type: text/markdown
+
+# AppSignal Python: Deprecated package
+
+The `appsignal-beta` Python package is now deprecated.
+
+Please install [the `appsignal` Python package](https://pypi.org/project/appsignal/) instead.
+
+## Release
+
+Update the `pyproject.toml` file and update the version number.
+
+Run these two commands:
+
+```
+rm -rf dist
+hatch build
+hatch publish
+```
+
+Tag the release in Git:
+
+```
+git tag v#.#.#
+git push main v#.#.#
+```
