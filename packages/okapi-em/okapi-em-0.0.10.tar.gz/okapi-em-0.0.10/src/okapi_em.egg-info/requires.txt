@@ -1,0 +1,15 @@
+numpy
+magicgui
+chafer
+napari[all]
+opencv-python
+quoll>=0.0.4
+
+[all]
+imageio-ffmpeg
+
+[testing]
+tox
+pytest
+pytest-cov
+pytest-qt
