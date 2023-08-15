@@ -1,0 +1,40 @@
+
+## 使用说明
+
+变量环境设置（数据库的链接信息存储在变量环境中）
+```
+# 设置环境变量 user 是用户名，password 是密码，192.168.1.10:22484 数据库地址
+os.environ['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://user:password@192.168.1.10:22484/'
+
+# 获取环境变量，如果不存在则使用默认值
+value = os.environ.get('SQLALCHEMY_DATABASE_URI', 'default_value')
+print(value+"DY_DSLP")
+```
+
+1、安装包模块
+```
+pip install mjsqltool
+pip install --upgrade mjsqltool
+```
+2、引入包模块
+```
+from mjsqltool import SqlConnect,DataConvert,SqlExecute
+```
+
+#### SqlConnect
+链接数据库,使用完毕后自动关闭
+```
+# 数据库名称
+db  = 'database'
+with SqlConnect(db) as cn:
+    .....
+```
+
+#### DataConvert
+数据转换
+```
+convert = DataConvert()
+df = pd.read_exce("jjjj.xlsx")
+convert.convert_to_cleandata(df)
+
+```
