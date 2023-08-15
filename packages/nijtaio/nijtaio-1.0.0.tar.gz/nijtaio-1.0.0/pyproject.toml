@@ -1,0 +1,17 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "nijtaio"
+version = "1.0.0"
+description = "Helper module to streamline access to Nijta's API"
+readme = "README.md"
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: Other/Proprietary License"
+]
+
+[project.urls]
+"Documentation" = "https://nijta.readme.io/reference/getting-started-1"
+"Bug Tracker" = "https://github.com/Nijta/nijta-samples/issues"
