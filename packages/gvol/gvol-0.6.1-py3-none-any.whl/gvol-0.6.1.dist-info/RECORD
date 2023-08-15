@@ -1,0 +1,7 @@
+gvol/__init__.py,sha256=qFyHj5xy_Dgua1forHJ5xhs3C-45h_Cpd12g5FoyDss,86
+gvol/client.py,sha256=pvG-MnG_o8vmxt8GkI46i6SpVo32xfhScD0C1yvB-Bc,58508
+gvol/queries.py,sha256=voBAbnOZ8DLXb--M0oU1IRwbINorOPJ4s-Z6MHw9ro4,37986
+gvol/types.py,sha256=CnqyzMATtv8q_9MQO9boeWx69qCzybvTA2aXfIALpzE,1766
+gvol-0.6.1.dist-info/METADATA,sha256=it_1wbAv8vLLk3THc6Znwc-58aiNVEWycOjhrCKNn60,2408
+gvol-0.6.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+gvol-0.6.1.dist-info/RECORD,,
