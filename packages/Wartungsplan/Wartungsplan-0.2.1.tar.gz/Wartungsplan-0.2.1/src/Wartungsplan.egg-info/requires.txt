@@ -1,0 +1,8 @@
+icalendar
+python_dateutil
+recurring_ical_events
+Requests
+python-dateutil
+
+[otrs]
+pyotrs
