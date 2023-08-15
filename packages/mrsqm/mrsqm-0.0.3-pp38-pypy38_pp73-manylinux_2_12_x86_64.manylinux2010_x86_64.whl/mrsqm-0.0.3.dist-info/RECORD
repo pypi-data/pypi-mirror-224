@@ -1,0 +1,8 @@
+mrsqm.libs/libfftw3-3a26e910.so.3.2.3,sha256=Zw48U-K7PTTdebRc2yO__Ni79DVmH91dhJFcvl6lImY,1062848
+mrsqm/mrsqm_wrapper.pypy38-pp73-x86_64-linux-gnu.so,sha256=s1AB8Byfm0AcuZWMNHcOynjC_zVXMNC0QmouKYW6F6g,4842664
+mrsqm/__init__.py,sha256=naV4hfERQeW4ySHOigwpOjSMcKjyEg3ckFSAIWNrdfw,134
+mrsqm-0.0.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+mrsqm-0.0.3.dist-info/top_level.txt,sha256=nTXeaPGDtE4aEcEStQ2ZqQrJom7aQd2zS7OTwM-c1VY,6
+mrsqm-0.0.3.dist-info/RECORD,,
+mrsqm-0.0.3.dist-info/METADATA,sha256=tsNYEC2iHIqiBJr_Z_Zb-Mz8VFZ1rWUrqsC1GdV1A0Q,132
+mrsqm-0.0.3.dist-info/WHEEL,sha256=mmgPQirB_WTM40a1NP3vrmZevwaXPyNymOTkoFpOlb0,162
