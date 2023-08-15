@@ -1,0 +1,17 @@
+PBHBeta/BfM.py,sha256=DRb2xEt2rKnXDfEjnYZt-WukvMpb1GtoDH99TjyRzlE,6764
+PBHBeta/BfN.py,sha256=B1y1jTCme-qWX6HzKWR7arkduBXkpQKI3Ur897-SRt8,7231
+PBHBeta/BfS.py,sha256=yamJf73r2QqyYLy5sWsT8x761YfUDIwYnxLTtn_jSHM,4907
+PBHBeta/KfN.py,sha256=oFxAUoHQQR4cdwGzKxB656GU3r5WE6hgm3QRiMIBgkY,1771
+PBHBeta/KfS.py,sha256=Z7HXBZ7GzLszlOE0AY_fZNM28u-60MRyLwF6TjC9MoY,1578
+PBHBeta/PfM.py,sha256=JNFrLzDoQ5McJVppLlbhO_2pV2gZyCBhOrUSn4vis3k,2543
+PBHBeta/PfR.py,sha256=bVoQ4AulGNSzOo2OyMZhesL-MY02T5QCWo9YId4zc6U,872
+PBHBeta/PfS.py,sha256=x92GLxhzxVUq3geQe1NzG32LPtMlBIYSC9ZJfRwfWX8,2296
+PBHBeta/__init__.py,sha256=TfEJ0m2IzlTNApuiDrjXg2BHpAOzIXajba7OiwF7X5c,2048
+PBHBeta/constants.py,sha256=21wKQf7Hm-vEnalDotDTaXm6oYpxwQkWfsw5Sw4KF3w,1019
+PBHBeta/constraints.py,sha256=dDGhCLBIw2D5gY4lNBQDiALdZtgsIvYFiZUDepSTVes,126820
+PBHBeta/functions.py,sha256=ylXi4PKmzotSmTHNFjX2wkT2-A-xw119hTuLEVJ4JMw,23171
+PBHBeta-1.0.1.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+PBHBeta-1.0.1.dist-info/METADATA,sha256=9QeXDsYRK7MdFQVHJvIoSvlnYEwjzF3ypSmLRY6XAes,3011
+PBHBeta-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+PBHBeta-1.0.1.dist-info/top_level.txt,sha256=Hbmu3uLIAK5jq-CTJmsAlqnRymu_9499PCNqFO166oI,8
+PBHBeta-1.0.1.dist-info/RECORD,,
