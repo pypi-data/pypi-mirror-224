@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: datamuse-python
+Version: 1.1
+Summary: A collection of functions using the Datamuse API.
+Author: Animesh Srivastava
+Author-email: animeshsrivastava2003@email.com
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: json
+
