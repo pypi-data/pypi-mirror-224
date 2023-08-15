@@ -1,0 +1,7 @@
+LICENCE.txt
+setup.py
+packageforaddition.egg-info/PKG-INFO
+packageforaddition.egg-info/SOURCES.txt
+packageforaddition.egg-info/dependency_links.txt
+packageforaddition.egg-info/top_level.txt
+packageforadditionjenly/__init__.py
