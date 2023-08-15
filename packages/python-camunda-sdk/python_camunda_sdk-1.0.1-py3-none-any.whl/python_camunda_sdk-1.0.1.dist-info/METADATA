@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: python-camunda-sdk
+Version: 1.0.1
+Summary: Python Camunda SDK
+Home-page: https://mdelmans.github.io/python-camunda-sdk/
+License: MIT
+Keywords: python,camunda,sdk
+Author: Mihails Delmans
+Author-email: m.delmans@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Pydantic
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: loguru (>=0.7.0,<0.8.0)
+Requires-Dist: pydantic (>=2.1.0,<3.0.0)
+Requires-Dist: pyzeebe (>=3.0.4,<4.0.0)
+Project-URL: Documentation, https://mdelmans.github.io/python-camunda-sdk/
+Project-URL: Repository, https://github.com/mdelmans/python-camunda-sdk
+Description-Content-Type: text/markdown
+
+[![Docs Badge](https://img.shields.io/badge/documentation-blue)](https://mdelmans.github.io/python-camunda-sdk/)
+
+<img src="https://github.com/mdelmans/python-camunda-sdk/blob/master/docs/img/pycam.svg" width="100"/>
+
+# Python Camunda SDK
+
+**Python Camunda SDK** is an implementation of [Camunda](https://camunda.com/) SDK in Python built on top of [pyzeebe](https://github.com/camunda-community-hub/pyzeebe).
+
+## Features
+
+* Inbound and Outbound connector classes
+* Validation with pydantic
+* Template generation
+* Simple runtime
+
+## Getting started
+
+Install with
+
+``` console
+$ pip install python-camunda-sdk
+```
+
+Read the [docs](https://mdelmans.github.io/python-camunda-sdk/)
