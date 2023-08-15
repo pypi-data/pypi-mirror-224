@@ -1,0 +1,2 @@
+[console_scripts]
+koko = koko_pkg.koko:main
