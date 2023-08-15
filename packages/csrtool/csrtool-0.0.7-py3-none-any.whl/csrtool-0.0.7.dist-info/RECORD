@@ -1,0 +1,9 @@
+csrtool/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+csrtool/cli.py,sha256=bICLeZrWbPCj6PiAlUrxdpA317IYTveKURyc93_qoFU,2283
+csrtool/csrutils.py,sha256=OmfHBQkBiMS3z-BfJmNOlqgjR23odxRGW6g_RtmQ3vI,2162
+csrtool-0.0.7.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+csrtool-0.0.7.dist-info/METADATA,sha256=7XiI0_iAamljfJHOCj0UWaxWd9iRw4fCY9QKjGR1esc,448
+csrtool-0.0.7.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+csrtool-0.0.7.dist-info/entry_points.txt,sha256=VeqKS1HW7GwipoJ8XqhpOiuxwLwnq4-FQHMzGjjIfjk,44
+csrtool-0.0.7.dist-info/top_level.txt,sha256=IZvKejXL3yangwSkgT8Id70VpH_F8mmVe3F7GFmWR30,8
+csrtool-0.0.7.dist-info/RECORD,,
