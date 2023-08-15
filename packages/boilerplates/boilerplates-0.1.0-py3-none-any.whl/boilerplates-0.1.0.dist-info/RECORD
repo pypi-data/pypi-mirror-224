@@ -1,0 +1,12 @@
+boilerplates/__init__.py,sha256=-_jhMzduCOVo1e-IoNhGMkd1JOi0qSigoxNgLkhZaGQ,93
+boilerplates/_version.py,sha256=4QY1sL1T_40JzgrHvmgkdMqc-slUDWnhbmXPMBl8-8U,58
+boilerplates/packaging_tests.py,sha256=s_nvpHUIy2P4d1_-3v9F0stZVPOvzZ082_fKEpqVV68,4718
+boilerplates/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+boilerplates/setup.py,sha256=irFpNBEZIdqxZ1Wml8ltuBDjsamIZPkpJF3q04sAk-I,14742
+boilerplates/setup_tests.py,sha256=XvZtEotN_S9_WGxQf0W0Ua3VKdfUa2d-N19qxVwfrdM,4838
+boilerplates-0.1.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+boilerplates-0.1.0.dist-info/METADATA,sha256=_BSiB0Q1VQpObJfjHiHw52LhJXIHms-3Rd94To-HxjM,4275
+boilerplates-0.1.0.dist-info/NOTICE,sha256=QO2v_RCLi3ACE8z9-gsR-yKyBlc0ow0e4Y2fPkGaV5E,587
+boilerplates-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+boilerplates-0.1.0.dist-info/top_level.txt,sha256=V25Svh6lgCnUZcpBW2tz787ON-F4iIiNpvn66OD0ruI,13
+boilerplates-0.1.0.dist-info/RECORD,,
