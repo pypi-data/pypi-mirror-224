@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "pilk-clicker"
+version = "0.1.0"
+description = "library for working api pilk-clicker.ru"
+authors = ["Nikita Kovinjko <kotorkovsciy@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/letter-k/pilk-clicker-python-library/tree/main"
+repository = "https://github.com/letter-k/pilk-clicker-python-library/"
+packages = [{include = "pilk_clicker"}]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/letter-k/pilk-clicker-python-library/issues"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+httpx = "^0.24.1"
+pydantic = "^2.1.1"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.0"
+python-dotenv = "^1.0.0"
+
+
+[tool.poetry.group.develop.dependencies]
+pre-commit = "^3.3.3"
+reorder-python-imports = "^3.10.0"
+black = "^23.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
