@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: show_gpu_usage
+Version: 0.1
+Summary: A library to show GPU usage in a terminal
+Home-page: https://github.com/your-username/your-library-name
+Author: StudyingLover
+Author-email: studyinglover1@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
