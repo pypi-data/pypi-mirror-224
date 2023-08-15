@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="partner_identification_ektp" model="res.partner.id_category">
+        <field name="name">e-KTP</field>
+        <field name="code">ektp</field>
+    </record>
+    <record id="partner_identification_kk" model="res.partner.id_category">
+        <field name="name">Kartu Keluarga</field>
+        <field name="code">kk</field>
+    </record>
+    <record id="partner_identification_passport" model="res.partner.id_category">
+        <field name="name">Passport</field>
+        <field name="code">pp</field>
+    </record>
+</odoo>
