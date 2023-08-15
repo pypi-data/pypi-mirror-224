@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: mjsqltool
+Version: 1.1.2
+Summary: 发送邮件库
+Home-page: https://gitee.com/manjim/sqltool
+Author: manji
+Author-email: pnsm@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: sqlalchemy
+Requires-Dist: pandas
+Requires-Dist: numpy
+
+
+## 使用说明
+
+1、安装包模块
+```
+pip install mjsqltool
+```
+2、引入包模块
+```
+from mjsqltool import SqlConnect,DataConvert,SqlExecute
+```
