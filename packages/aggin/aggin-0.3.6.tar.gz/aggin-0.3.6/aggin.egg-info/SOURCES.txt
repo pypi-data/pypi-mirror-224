@@ -1,0 +1,11 @@
+README.md
+setup.py
+aggin/__init__.py
+aggin/aggin.py
+aggin/shell.py
+aggin/strings_with_arrows.py
+aggin.egg-info/PKG-INFO
+aggin.egg-info/SOURCES.txt
+aggin.egg-info/dependency_links.txt
+aggin.egg-info/entry_points.txt
+aggin.egg-info/top_level.txt
