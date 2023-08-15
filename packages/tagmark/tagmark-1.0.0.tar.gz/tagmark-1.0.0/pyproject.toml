@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "tagmark"
+version = "1.0.0"
+description = "TagMark is a tag based bookmark solution for intensive github users. This tool tagmark (python) is the data processing part of TagMark solution."
+authors = ["pwnfan <pwnfan@proton.me>"]
+readme = "docs/README.md"
+packages = [{include = "tagmark"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+structlog = "^23.1.0"
+click = "^8.1.3"
+python-dotenv = "^1.0.0"
+tqdm = "^4.65.0"
+revchatgpt = "^6.8.6"
+dacite = "^1.8.1"
+fake-useragent = "^1.2.1"
+requests-mock = "^1.11.0"
+# tagmark-ui = "1.0.0" # frontend project, not python project
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.3.1"
+pytest-cov = "^4.0.0"
+pytest-mock = "^3.10.0"
+
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.12.0"
+black = "^23.3.0"
+flake8 = "^6.0.0"
+
+[tool.poetry.scripts]
+tagmark_cli = "tagmark.cli:cli"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.coverage.report]
+exclude_lines = [
+    "def __repr__",
+    "if __name__ == .__main__.:",
+    "pass",
+    "raise NotImplementedError",
+]
