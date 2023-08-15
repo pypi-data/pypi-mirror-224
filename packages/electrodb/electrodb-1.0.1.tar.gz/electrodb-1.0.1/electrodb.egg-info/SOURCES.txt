@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+electrodb/__init__.py
+electrodb/branch.py
+electrodb.egg-info/PKG-INFO
+electrodb.egg-info/SOURCES.txt
+electrodb.egg-info/dependency_links.txt
+electrodb.egg-info/requires.txt
+electrodb.egg-info/top_level.txt
