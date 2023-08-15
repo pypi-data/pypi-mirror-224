@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: FastSetup
+Version: 0.0.5
+Summary: Static code in python scripts
+Home-page: 
+Author: Tareq Abeda
+Author-email: TareqAbeda@outlook.com
+License: MIT
+Keywords: FastSetup
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+Change Log
+==========
+
+0.0.1 (19/04/2020)
+-------------------
+- First Release

@@ -1,0 +1,25 @@
+from setuptools import setup, find_packages
+ 
+
+classifiers = [
+  'Development Status :: 1 - Planning',
+  'Intended Audience :: Developers',
+  'License :: OSI Approved :: MIT License',
+  'Operating System :: Microsoft :: Windows',
+  'Programming Language :: Python :: 3'
+]
+ 
+setup(
+  name='FastSetup',
+  version='0.0.5',
+  description='Static code in python scripts',
+  long_description = open('CHANGELOG.txt').read(),
+  url='',  
+  author='Tareq Abeda',
+  author_email='TareqAbeda@outlook.com',
+  license='MIT', 
+  classifiers=classifiers,
+  keywords='FastSetup', 
+  packages=find_packages(),
+  install_requires=['logging', 'pandas', 'datetime'] 
+)
