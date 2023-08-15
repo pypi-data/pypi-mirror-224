@@ -1,0 +1,129 @@
+Metadata-Version: 2.1
+Name: pilk-clicker
+Version: 0.1.0
+Summary: library for working api pilk-clicker.ru
+Home-page: https://github.com/letter-k/pilk-clicker-python-library/tree/main
+License: MIT
+Author: Nikita Kovinjko
+Author-email: kotorkovsciy@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: httpx (>=0.24.1,<0.25.0)
+Requires-Dist: pydantic (>=2.1.1,<3.0.0)
+Project-URL: Bug Tracker, https://github.com/letter-k/pilk-clicker-python-library/issues
+Project-URL: Repository, https://github.com/letter-k/pilk-clicker-python-library/
+Description-Content-Type: text/markdown
+
+# pilk-clicker
+Library for working api pilk-clicker.ru
+
+## Installation
+```bash
+pip install pilk-clicker
+```
+
+## Usage
+
+### Get token (login)
+```python
+from pilk_clicker.api import Auth
+from pilk_clicker.interfaces.auth import ILoginRequest
+
+credentials = ILoginRequest(
+    username="", password=""
+)
+
+response = Auth.login(credentials)
+
+response.auth_token
+```
+
+### Logout
+```python
+from pilk_clicker.api import Auth
+from pilk_clicker.interfaces.auth import ITokenRequest
+
+credentials = ITokenRequest(authorization="token")
+
+Auth.logout(credentials)
+```
+
+### Logup
+```python
+from pilk_clicker.api import Auth
+from pilk_clicker.interfaces.auth import ILogupRequest
+
+credentials = ILogupRequest(
+    username="", password="", email=""
+)
+
+response = Auth.logup(credentials)
+```
+
+### clicker detail
+```python
+from pilk_clicker.api import Clicker
+from pilk_clicker.interfaces.auth import ITokenRequest
+
+credentials = ITokenRequest(authorization="token")
+
+response = Clicker.clicker_detail(credentials)
+```
+
+### top list
+```python
+from pilk_clicker.api import Clicker
+from pilk_clicker.interfaces.auth import ITokenRequest
+
+credentials = ITokenRequest(authorization="token")
+
+response = Clicker.top_list(credentials)
+```
+
+### save clicker
+```python
+from pilk_clicker.api import Clicker
+from pilk_clicker.interfaces.auth import ITokenRequest
+from pilk_clicker.interfaces.clicker import IClickerSaveRequest
+
+credentials = ITokenRequest(authorization="token")
+
+data = IClickerSaveRequest(
+    arcoin_amount=1,
+    arcoins_per_click=1,
+    arcoins_per_seconds=1
+)
+
+response = Clicker.save_clicker(data, credentials)
+```
+
+### shop user
+```python
+from pilk_clicker.api import Shop
+from pilk_clicker.interfaces.auth import ITokenRequest
+
+credentials = ITokenRequest(authorization="token")
+
+response = Shop.shop_user(credentials)
+```
+
+### save item
+```python
+from pilk_clicker.api import Shop
+from pilk_clicker.interfaces.auth import ITokenRequest
+from pilk_clicker.interfaces.shop import ISaveItemRequest
+
+credentials = ITokenRequest(authorization="token")
+
+items = Shop.shop_user(credentials)
+
+for item in items:
+    Shop.save_item(
+        ISaveItemRequest(id=item.id, amount=item.amount + 1),
+        credentials
+    )
+```
+
