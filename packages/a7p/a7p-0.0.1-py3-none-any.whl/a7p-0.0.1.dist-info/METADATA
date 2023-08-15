@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: a7p
+Version: 0.0.1
+Summary: pure python fork of dfu_util library
+Home-page: https://github.com/o-murphy/a7p_transfer_example
+Download-URL: https://github.com/o-murphy/a7p_transfer_example
+Author: o-murphy
+Keywords: protobuf,archer,a7p
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: google ==3.0.0
+Requires-Dist: protobuf ==4.24.0
+
