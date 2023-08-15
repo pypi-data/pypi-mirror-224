@@ -1,0 +1,3 @@
+[console_scripts]
+tagmark_cli=tagmark.cli:cli
+
