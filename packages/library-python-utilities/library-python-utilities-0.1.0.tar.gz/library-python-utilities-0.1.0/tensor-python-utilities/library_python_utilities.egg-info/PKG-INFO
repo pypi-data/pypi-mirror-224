@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: library-python-utilities
+Version: 0.1.0
+Summary: A library for Tensor python libs (dual log output wrapper,..)
+Home-page: https://github.com/Tensor-Energy/library-python-utilities
+Author: Ibtihel Ouni
+License: Commercial
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown

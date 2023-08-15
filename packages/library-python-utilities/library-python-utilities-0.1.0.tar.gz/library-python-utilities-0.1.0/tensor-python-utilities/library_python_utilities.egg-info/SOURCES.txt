@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+tensor-python-utilities/library_python_utilities.egg-info/PKG-INFO
+tensor-python-utilities/library_python_utilities.egg-info/SOURCES.txt
+tensor-python-utilities/library_python_utilities.egg-info/dependency_links.txt
+tensor-python-utilities/library_python_utilities.egg-info/requires.txt
+tensor-python-utilities/library_python_utilities.egg-info/top_level.txt
