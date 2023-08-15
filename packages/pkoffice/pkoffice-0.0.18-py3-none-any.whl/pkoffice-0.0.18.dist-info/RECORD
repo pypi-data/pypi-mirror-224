@@ -1,0 +1,10 @@
+pkoffice/__init__.py,sha256=TmVnqUtULvEGMIqhWSmNF_1hCfOFTpIEHMBs_SpgYqc,54
+pkoffice/excel.py,sha256=e_pKpf_6UPIu_9x2Qb8x3IhhH18YdPrRlQr5GtL7k_w,1050
+pkoffice/file.py,sha256=kj0DCH_V1Y9YP5IOk-WDoZXIgkd7_1k0_MEeNNhA65U,3492
+pkoffice/outlook.py,sha256=8XtQCjhjThAjJKaEfVQ9WKqtlL2WGrZuOpmcfblh1A0,1482
+pkoffice/selenium.py,sha256=KtZ4xm4s4J0RnoMCZH8qUAYNGNO4g524_NPQH5ptjHM,460
+pkoffice/sql.py,sha256=BFJG5ucW2xYX6oke3by5wmyLxfErFOIVt848NbU97_E,7356
+pkoffice-0.0.18.dist-info/METADATA,sha256=GmkMTT1wR8APMmjqbf_3JCYj3ITOjngwDhXsn3QWCAs,589
+pkoffice-0.0.18.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pkoffice-0.0.18.dist-info/top_level.txt,sha256=dqIPU4NMvqAHxz0NaFjCZRHHTfjCdWR2GUc2q9QfISQ,9
+pkoffice-0.0.18.dist-info/RECORD,,
