@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/realmrider/__init__.py
+src/realmrider.egg-info/PKG-INFO
+src/realmrider.egg-info/SOURCES.txt
+src/realmrider.egg-info/dependency_links.txt
+src/realmrider.egg-info/requires.txt
+src/realmrider.egg-info/top_level.txt
+src/realmrider/auth/__init__.py
+src/realmrider/auth/azure.py
