@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2023 OpenSynergy Indonesia
+     Copyright 2023 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+
+    <template id="course_slides_cards" inherit_id="website_slides.course_slides_cards">
+        <xpath expr="//li[hasclass('ml-lg-auto')]" position="replace">
+            <li class="nav-item dropdown ml-lg-auto">
+                <a
+                    class="nav-link dropdown-toggle dropdown-toggle align-items-center d-flex"
+                    type="button"
+                    id="slidesChannelDropdownSort"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    href="#"
+                >
+                    <b>Order by</b>
+                    <span class="d-none d-xl-inline">:
+                        <t t-if="sorting == 'sequence'">Sequence</t>
+                        <t t-elif="sorting == 'most_voted'">Most Voted</t>
+                        <t t-elif="sorting == 'most_viewed'">Most Viewed</t>
+                        <t t-else="">Newest</t>
+                    </span>
+                </a>
+                <div
+                    class="dropdown-menu"
+                    aria-labelledby="slidesChannelDropdownSort"
+                    role="menu"
+                >
+                    <h6 class="dropdown-header">Sort by</h6>
+                    <a
+                        role="menuitem"
+                        t-att-href="'/slides/%s?%s' % (slug(channel), keep_query('slide_type', sorting='sequence'))"
+                        t-att-class="'dropdown-item %s' % ('active' if sorting and sorting == 'sequence' else '')"
+                    >Sequence</a>
+                    <a
+                        role="menuitem"
+                        t-att-href="'/slides/%s?%s' % (slug(channel), keep_query('slide_type', sorting='latest'))"
+                        t-att-class="'dropdown-item %s' % ('active' if sorting and sorting == 'latest' else '')"
+                    >Newest</a>
+                    <a
+                        role="menuitem"
+                        t-att-href="'/slides/%s?%s' % (slug(channel), keep_query('slide_type', sorting='most_voted'))"
+                        t-att-class="'dropdown-item %s' % ('active' if sorting and sorting == 'most_voted' else '')"
+                    >Most Voted</a>
+                    <a
+                        role="menuitem"
+                        t-att-href="'/slides/%s?%s' % (slug(channel), keep_query('slide_type', sorting='most_viewed'))"
+                        t-att-class="'dropdown-item %s' % ('active' if sorting and sorting == 'most_viewed' else '')"
+                    >Most Viewed</a>
+                </div>
+            </li>
+        </xpath>
+    </template>
+
+</odoo>

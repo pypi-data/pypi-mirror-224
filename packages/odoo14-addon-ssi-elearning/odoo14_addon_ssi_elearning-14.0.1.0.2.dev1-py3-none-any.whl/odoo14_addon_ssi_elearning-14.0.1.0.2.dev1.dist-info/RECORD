@@ -1,0 +1,11 @@
+odoo/addons/ssi_elearning/README.rst,sha256=y3giDW8pR7256NSXeYILpg8uVBMfI6pvVyyDItmLHLU,1197
+odoo/addons/ssi_elearning/__init__.py,sha256=eVPHClqIUMD9CZn-6duD4KMOyZpeEqtSvr0nhjSb78Q,186
+odoo/addons/ssi_elearning/__manifest__.py,sha256=bs3SrA3woWXOAvZ4BqYQvPC35AEAv23Sorwzx6EQP_4,525
+odoo/addons/ssi_elearning/controllers/__init__.py,sha256=yMV3IyAFUBGKjg_0JwmnbkL15OSJgTBWKm8UwloqjJA,179
+odoo/addons/ssi_elearning/controllers/main.py,sha256=Mz4fEjQpqo2QF9hKYSjIuE47TfIhB_Y4q8_TOopV3s0,2154
+odoo/addons/ssi_elearning/static/description/icon.png,sha256=lNGJOSg4cMRfwPTfFKVT6d5B2N1N83iVpEEN1blqu1I,48333
+odoo/addons/ssi_elearning/views/website_slides_templates_course.xml,sha256=UYhhxzgghQs5yQFex_u4R8Cm5JGzdfcsB8ofdMT1xC0,2851
+odoo14_addon_ssi_elearning-14.0.1.0.2.dev1.dist-info/METADATA,sha256=m2-ZXfjtFT3hjeVdSgWW11ouTzUkhFPAVlzCh87VoqQ,1692
+odoo14_addon_ssi_elearning-14.0.1.0.2.dev1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+odoo14_addon_ssi_elearning-14.0.1.0.2.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_ssi_elearning-14.0.1.0.2.dev1.dist-info/RECORD,,
