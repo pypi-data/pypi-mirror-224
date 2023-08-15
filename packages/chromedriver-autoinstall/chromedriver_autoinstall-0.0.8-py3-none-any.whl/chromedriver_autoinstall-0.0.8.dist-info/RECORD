@@ -1,0 +1,9 @@
+chromedriver_autoinstall/__init__.py,sha256=g4yvu5IslCm-DguJNDi-D2CQpY7h-T9E-9yErzJKnZ8,193
+chromedriver_autoinstall/command_line.py,sha256=pvnaEgkrGZ1NqZtNnEULYwKV3LD4u3DwqGl6wKqTDTw,102
+chromedriver_autoinstall/script.py,sha256=9qeNfBf33ogYmA8CyuNg8KPnXtsheEhvHa9OV5HKR9c,2745
+chromedriver_autoinstall-0.0.8.dist-info/LICENSE,sha256=7EnLw2TE4kQgyPB43Pbch7T9cjbqE_goFUhgtwusWvw,1068
+chromedriver_autoinstall-0.0.8.dist-info/METADATA,sha256=3HC5KJfX9XVys5tbU3LtS83T970w2cWJtza8erlhDDE,2579
+chromedriver_autoinstall-0.0.8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+chromedriver_autoinstall-0.0.8.dist-info/entry_points.txt,sha256=AL3mZxaSoI5BDlOouTJLkOoQGCtPn8jcGPnWjKflBvk,100
+chromedriver_autoinstall-0.0.8.dist-info/top_level.txt,sha256=dciWCtr9g3jZL7vxhK5uqnnBffBCL3_EVIMXh9DD0Mk,25
+chromedriver_autoinstall-0.0.8.dist-info/RECORD,,
