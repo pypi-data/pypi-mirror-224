@@ -1,0 +1,7 @@
+__all__ = [
+    "CLEAN_UNTIL_END_OF_LINE",
+    "CLEAR_ENTIRE_LINE",
+]
+
+CLEAN_UNTIL_END_OF_LINE = "\u001b[0K"
+CLEAR_ENTIRE_LINE = "\u001b[2K"
