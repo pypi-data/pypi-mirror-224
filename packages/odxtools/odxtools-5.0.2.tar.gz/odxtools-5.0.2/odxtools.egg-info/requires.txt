@@ -1,0 +1,8 @@
+bitstruct>=6.0.0
+argparse_addons
+PyInquirer
+jinja2
+python-can
+can-isotp
+markdownify
+deprecation
