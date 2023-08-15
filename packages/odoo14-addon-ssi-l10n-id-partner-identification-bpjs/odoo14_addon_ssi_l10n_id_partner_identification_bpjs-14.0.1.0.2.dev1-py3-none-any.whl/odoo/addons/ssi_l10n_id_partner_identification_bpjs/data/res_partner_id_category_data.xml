@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="partner_identification_bpjs_kesehatan" model="res.partner.id_category">
+        <field name="name">BPJS Kesehatan</field>
+        <field name="code">BPJS-KES</field>
+    </record>
+    <record
+        id="partner_identification_bpjs_ketenagakerjaan"
+        model="res.partner.id_category"
+    >
+        <field name="name">BPJS Ketenagakerjaan</field>
+        <field name="code">BPJS-KER</field>
+    </record>
+</odoo>
