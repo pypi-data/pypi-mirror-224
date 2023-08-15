@@ -1,0 +1,3 @@
+[console_scripts]
+generate_template=python_camunda_sdk.templates:cli
+
