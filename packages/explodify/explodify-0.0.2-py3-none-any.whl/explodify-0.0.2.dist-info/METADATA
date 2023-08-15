@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: explodify
+Version: 0.0.2
+Summary: Package Description: Explodify
+Home-page: https://github.com/tanuj24/explodify
+Author: Tanuj Soni
+Author-email: Tanuj Soni <tanujsoni027@gmail.com>
+Project-URL: Homepage, https://github.com/tanuj24/explodify
+Project-URL: Bug Tracker, https://github.com/tanuj24/explodify/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyspark
+
+# explodify
