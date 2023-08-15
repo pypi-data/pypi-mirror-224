@@ -1,0 +1,11 @@
+kaiko_research/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kaiko_research/api_client.py,sha256=MzdP8SjShR18myJJcWbFUkZotNKKK6TnXzrXbdA0mtw,3671
+kaiko_research/endpoint_schemas.py,sha256=hOROeVw_okJ5_vGieHrPvO-gxK7TU7s4Nh_cat-E3pw,72754
+kaiko_research/kaiko.py,sha256=nqD2_XBCCQMkANzXNJ0YYfUCmpX_FKTViu36bc4nCwg,11188
+kaiko_research/request_handler.py,sha256=kirK6lS6BqkkKm5SVkP-S1SlDrcY9PUwKA8TG62DWZ4,3974
+kaiko_research/utils.py,sha256=KHpFQhOsU-JoEJlOao92G7HJXVgGCyFktsAHe3KW2Bw,2852
+kaiko_research-0.0.13.dist-info/LICENSE.txt,sha256=0w22o2NiWHgUMixeE-TQo4n9tvsXMZS0DAAVpTetPvE,1075
+kaiko_research-0.0.13.dist-info/METADATA,sha256=67QABglJ3asPAOje2rGZ2w6ugoSRNRhUeDmNKMpuGlU,791
+kaiko_research-0.0.13.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+kaiko_research-0.0.13.dist-info/top_level.txt,sha256=iC6-1TXYGOHAgJihXyyNQui5BFwWd_iTAgN8rxZmxgo,15
+kaiko_research-0.0.13.dist-info/RECORD,,
