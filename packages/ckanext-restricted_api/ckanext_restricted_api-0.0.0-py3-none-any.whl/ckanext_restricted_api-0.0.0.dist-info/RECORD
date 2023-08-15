@@ -1,0 +1,15 @@
+ckanext/__init__.py,sha256=WGSMBFzEHyOxbc34623FfZroP0Ho6tVQAbegPksZtQE,230
+ckanext/restricted_api/__init__.py,sha256=yH3AfSZ3N6BNF4qwghVeQR8vk0FEg5tGFRwu8C-pvgc,37
+ckanext/restricted_api/__version__.py,sha256=z-p5cN7I-SuIObbkGYix_5saVjhrW1C47pS42RqVC4U,43
+ckanext/restricted_api/auth.py,sha256=0JtvBfK4TdeqhtcumOiZ-ohi2ZaEDrDubJ4zDHcxC_k,4003
+ckanext/restricted_api/logic.py,sha256=OLaFEozccEMDHd9qxLpwEHC4rd9zA8_T4yobNFe8oeo,7966
+ckanext/restricted_api/mailer.py,sha256=X3cWImfimeKA7qk6oSlhUSNkBCR5Dd30bHDwzt6TVp8,5023
+ckanext/restricted_api/plugin.py,sha256=nbO0bMlGme9-7lBHjsY9UyHaJxg3x0cd4eVJKuFXTiU,2184
+ckanext/restricted_api/templates/access_granted.txt,sha256=zfGuUsrNaz0xn71bCcz_cCKdw6kIjUGeblRcbDQ2fGA,595
+ckanext/restricted_api/templates/access_request.txt,sha256=EolibAVwUYQROLLYusq-dgTehKnghVQRNCFrynY0r2M,1079
+ckanext/restricted_api/util.py,sha256=pvw5Gf87fgN_A34baA5PV9bYK201Wvi3yE-VJbrXjGI,4928
+ckanext_restricted_api-0.0.0.dist-info/entry_points.txt,sha256=1gdAVeDE5K9m1D1cbiQpEk8aIDcjVSKuj1ZJ4tuQaDc,81
+ckanext_restricted_api-0.0.0.dist-info/WHEEL,sha256=B19PGBCYhWaz2p_UjAoRVh767nYQfk14Sn4TpIZ-nfU,87
+ckanext_restricted_api-0.0.0.dist-info/METADATA,sha256=Ur5FautGuEJRtY7Rz4S6_HBysLDVJlRJ7t1LDNyKIFs,3664
+ckanext_restricted_api-0.0.0.dist-info/licenses/LICENSE,sha256=QPfdse1VxF7XPUmFq5vO6p6CXu81h9l-lWDjTQRTQ-I,1060
+ckanext_restricted_api-0.0.0.dist-info/RECORD,,
