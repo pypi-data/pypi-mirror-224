@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+CliRenderer.egg-info/PKG-INFO
+CliRenderer.egg-info/SOURCES.txt
+CliRenderer.egg-info/dependency_links.txt
+CliRenderer.egg-info/entry_points.txt
+CliRenderer.egg-info/requires.txt
+CliRenderer.egg-info/top_level.txt
+test/test-speed.py
+test/test.py
