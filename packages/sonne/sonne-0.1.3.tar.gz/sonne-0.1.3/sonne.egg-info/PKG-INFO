@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: sonne
+Version: 0.1.3
+Summary: Sonne is a Python module that provides a lot of possibilities to make your terminal look beautiful.
+Home-page: https://github.com/sonnelib/sonne
+Author: Ekin Aksu
+Author-email: sonnelib@gmail.com
+License: Apache License 2.0
+Keywords: Terminal,Style,Color,Terminal Styling
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: NOTICE
+
+![Logo](https://raw.githubusercontent.com/sonnelib/sonne/main/logo.png)
+
+# Sonne
+**Sonne** is a Python module that provides a lot of possibilities to make your terminal look beautiful.
+
+![Features](https://raw.githubusercontent.com/sonnelib/sonne/main/sonne.png)
+
+# Setup
+```python
+pip install sonne
+```
+```python
+python -m sonne
+```
+
+# For more
+[Documentation](https://sonne.readthedocs.io "Documentation")
