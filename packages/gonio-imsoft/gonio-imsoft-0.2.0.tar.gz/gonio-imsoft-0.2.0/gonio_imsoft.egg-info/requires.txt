@@ -1,0 +1,7 @@
+numpy
+matplotlib
+tifffile
+pymmcore
+nidaqmx
+pyserial
+python-biosystfiles
