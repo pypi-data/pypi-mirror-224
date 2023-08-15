@@ -1,0 +1,16 @@
+[project]
+name = "manoir-app-local-client"
+version = "0.1.0"
+readme = "README.md"
+authors = [
+  { name="Manoir.app Team", email="manoir.app@gmail.com" },
+]
+requires-python = ">=3.6"
+dependencies = [
+    "Requests >= 2.3",
+]
+
+
+[project.urls]
+"Homepage" = "https://github.com/manoir-app/client-python"
+"Bug Tracker" = "https://github.com/manoir-app/client-python/issues"

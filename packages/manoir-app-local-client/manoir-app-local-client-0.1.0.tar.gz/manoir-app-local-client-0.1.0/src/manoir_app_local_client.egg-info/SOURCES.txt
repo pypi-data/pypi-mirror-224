@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/ManoirAppLocalClient/ManoirAppLocalClient.py
+src/ManoirAppLocalClient/__init__.py
+src/manoir_app_local_client.egg-info/PKG-INFO
+src/manoir_app_local_client.egg-info/SOURCES.txt
+src/manoir_app_local_client.egg-info/dependency_links.txt
+src/manoir_app_local_client.egg-info/requires.txt
+src/manoir_app_local_client.egg-info/top_level.txt
