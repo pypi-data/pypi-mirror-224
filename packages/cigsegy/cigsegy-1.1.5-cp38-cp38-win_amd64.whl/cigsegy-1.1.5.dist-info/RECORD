@@ -1,0 +1,12 @@
+cigsegy/__init__.py,sha256=eBx3Mrkp47SnTJ4s0ibcSSzjccBFFD7f3Qv0PAXOD2g,475
+cigsegy/cigsegy.cp38-win_amd64.pyd,sha256=QoTcbcxte8M8LKeVavKN1udiMOGnNlZqbEBbtj2psek,401408
+cigsegy/cigsegy.pyi,sha256=R2dl_pQR-bv9ryM-Duz1rytodcW4A9usJFlVx64VABg,19976
+cigsegy/setup.py,sha256=RjuaLWG5Fnouq-bW-6Y0tWGYgTWgpxBDKcbIiIuq1UU,695
+cigsegy/tools.py,sha256=8vt80ct462mmK-pQO8BNgK3661ZU4chjcWgsPuOFgAc,14231
+cigsegy/utils.py,sha256=TmG7o3Df_XJR8MGoSs7DtirgxcK6ZMFJ9M7OMyBIs58,11668
+cigsegy/version.py,sha256=uA0nn0rCiBmSbQwqs1Dl2PHOqtq1syHSfH0A5RuISkI,48
+cigsegy-1.1.5.dist-info/LICENSE,sha256=_g5Nipswl3pr_ekFEZ7F_ragzE-u640M3aPjLkDwxlI,1066
+cigsegy-1.1.5.dist-info/METADATA,sha256=gXc36HM0sdSvmQtI_g_N2IG3YQojjY2lmXKGu1ag1o4,275
+cigsegy-1.1.5.dist-info/WHEEL,sha256=ubKCG5XSDI8ZG5iAwgsAU4yUktRq9BG9Pse4izScbq0,100
+cigsegy-1.1.5.dist-info/top_level.txt,sha256=2khDol8GSbIWElmNPHeWd9HqtIwaAcQj_MBb-IgLTmI,8
+cigsegy-1.1.5.dist-info/RECORD,,
