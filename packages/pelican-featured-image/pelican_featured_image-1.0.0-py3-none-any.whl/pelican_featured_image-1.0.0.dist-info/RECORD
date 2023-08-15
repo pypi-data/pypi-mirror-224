@@ -1,0 +1,6 @@
+tasks.py,sha256=RMTt4QmDJsbtg1wFjtd_C3PUUxGhvAcKy6Cxp863LWI,3172
+pelican/plugins/featured_image/__init__.py,sha256=tjDnvFH--DfmtDKFoArolKSlSu5wzow6mNU90VrknQ0,38
+pelican/plugins/featured_image/featured_image.py,sha256=Cwo8hfbGqVjoDxGw0VTOFp8n72k6hkg02ygaEcIH_do,2539
+pelican_featured_image-1.0.0.dist-info/METADATA,sha256=_q7kaDQo5kp66gniETJdhZg9qgrNHqLtum_Pp3qVpc8,4193
+pelican_featured_image-1.0.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+pelican_featured_image-1.0.0.dist-info/RECORD,,
