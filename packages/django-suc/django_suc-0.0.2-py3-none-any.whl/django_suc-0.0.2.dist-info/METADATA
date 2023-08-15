@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: django-suc
+Version: 0.0.2
+Summary: Module for auto-naming unique constraint.
+Author: Yun Chin
+Author-email: razzzer@gmail.com
+Requires-Dist: django
+
