@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pyvlbi
+Version: 0.1
+Summary: Package for VLBI simulation
+Home-page: https://github.com/yxl-dev/pyvlbi
+Author: Xiaolong Yang
+Author-email: yxl@pku.edu.cn
+License: MIT
+Download-URL: https://github.com/yxl-dev/pyvlbi
+Keywords: VLBI,Radio
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: astropy
+Requires-Dist: extension-helpers
+Requires-Dist: mayavi
+Requires-Dist: numpy
+Requires-Dist: pillow
+Requires-Dist: poliastro
+Requires-Dist: skyfield
+Requires-Dist: trimesh
+Requires-Dist: viscid
+
+UNKNOWN
+
+
